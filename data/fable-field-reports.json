@@ -89,7 +89,77 @@
       "url": "https://github.com/ma-garin/UX_Auto_Reviewer/pull/23",
       "seen_at": "2026-07-02T19:47:33Z",
       "summary": "Claude Fable 5-authored UX Auto Reviewer overhaul adding normalized-page adapters, auth, tenant directory separation, declarative rule overlays, AI rule authoring, LLM abstraction, and 447 reported tests green."
+    },
+    {
+      "url": "https://github.com/BrunooMoniz/zinom-engine/pull/183",
+      "seen_at": "2026-07-02T20:23:00Z",
+      "summary": "Claude Fable 5 co-authored production-deployed multi-tenant memory migration and fail-closed account-resolution hardening, with transaction backup, deduplication, and 1674 tests."
+    },
+    {
+      "url": "https://github.com/doubleailes/foxhole/pull/24",
+      "seen_at": "2026-07-02T20:23:00Z",
+      "summary": "Claude Fable 5 co-authored terminal escape-sequence hardening for a TUI/intel renderer, sanitizing C0/C1 controls after XML entity expansion and before ratatui spans."
+    },
+    {
+      "url": "https://github.com/samibel/graphi/pull/30",
+      "seen_at": "2026-07-02T20:23:00Z",
+      "summary": "Claude Fable 5 co-authored a deterministic parallel ingest parser with scheduling-fuzz parity tests and fixed parse-timeout enforcement after profiling a bash grammar hotspot."
+    },
+    {
+      "url": "https://github.com/Windstorm-Institute/throughput-basin/pull/1",
+      "seen_at": "2026-07-02T20:23:00Z",
+      "summary": "Fable 5 audit decision fixes for a scientific manuscript: corrected an overclaim about ribosome-like error rate and a mutual-information value exceeding its channel ceiling."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/67608",
+      "seen_at": "2026-07-02T21:23:00Z",
+      "summary": "PostHog log-transformations stack layer 1: Fable 5 rebased stale API/type work, sliced a four-PR stack, and caught a compiler validation gap where async Hog functions were accepted."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/67609",
+      "seen_at": "2026-07-02T21:23:00Z",
+      "summary": "PostHog log-transformations stack layer 2: Fable 5 built a high-volume HogVM log transformation engine with fail-open budgets, aggregation, benchmarks, and live attribute encoding validation."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/67610",
+      "seen_at": "2026-07-02T21:23:00Z",
+      "summary": "PostHog log-transformations stack layer 3: Fable 5 wired the engine into logs ingestion behind independent gates, with consumer tests and local end-to-end ClickHouse validation."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/67611",
+      "seen_at": "2026-07-02T21:23:00Z",
+      "summary": "PostHog log-transformations stack layer 4: Fable 5 rebased UI work, added templates and inline testing, closed UX parity gaps, and ran focused frontend/API tests."
+    },
+    {
+      "url": "https://github.com/arturogarrido/claudinho/pull/77",
+      "seen_at": "2026-07-02T21:23:00Z",
+      "summary": "Claude Code Fable 5-authored guard-hardening batch for a Claude statusline/MCP tool: stdio smoke, OS matrix, hot-path latency budget, pack guard, release QA, SHA-pinned workflows, atomic settings writes, and 627 local tests."
+    },
+    {
+      "url": "https://github.com/strikersam/autonomous-ai-agency/pull/930",
+      "seen_at": "2026-07-02T22:26:46Z",
+      "summary": "Claude Fable 5 co-authored a LiveKit real-time voice layer for an autonomous AI agency dashboard, adding token endpoints, a worker pipeline with VAD/STT/LLM tools/TTS, frontend captions, docs, and 17 tests."
+    },
+    {
+      "url": "https://github.com/shuaiyuan17/tomo/pull/198",
+      "seen_at": "2026-07-02T22:26:46Z",
+      "summary": "Claude Fable 5 co-authored five bug fixes from a Tomo codebase review covering group allowlists, heartbeat privacy, retry side effects, Telegram mention matching, and overlong photo captions."
+    },
+    {
+      "url": "https://github.com/osama-raddad/gentle-palette/pull/7",
+      "seen_at": "2026-07-02T22:26:46Z",
+      "summary": "Claude Fable 5 co-authored and merged a Gentle Palette color-rounding rewrite using redmean distance, direct return API, input validation, pure-Java parsing, and JVM tests."
+    },
+    {
+      "url": "https://github.com/prashantm912/artha-yantra-2/pull/479",
+      "seen_at": "2026-07-02T22:26:46Z",
+      "summary": "Claude Fable 5 co-authored a shadow-book system for rejected options entries in artha-yantra-2, adding virtual PnL labels, migrations, exit sweeps, attribution SQL/docs, and integration tests."
+    },
+    {
+      "url": "https://github.com/Arty2/almanacs/pull/39",
+      "seen_at": "2026-07-02T22:26:46Z",
+      "summary": "Claude Fable 5 co-authored feed revalidation and refresh throttling for Almanacs, adding ETag/Last-Modified caching, 304 handling, validator persistence, and focus-refresh gating."
     }
   ],
-  "last_run": "2026-07-02T19:47:33Z"
+  "last_run": "2026-07-02T22:26:46Z"
 }
