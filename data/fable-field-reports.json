@@ -69,7 +69,27 @@
       "url": "https://github.com/0xSoftBoi/anthropic-fellowship/pull/5",
       "seen_at": "2026-07-02T19:23:00Z",
       "summary": "BRIDGE-bench expansion reports Claude Fable 5 refusing defensive smart-contract exploit analysis across multiple framings, while Opus 4.8 produced measurable results after semantic rescoring."
+    },
+    {
+      "url": "https://github.com/ITSYABOI119/JARVIS_OS/pull/5",
+      "seen_at": "2026-07-02T19:47:33Z",
+      "summary": "Claude Fable 5-authored PR adding GGUF array metadata extraction and wiring per-layer attention/feed-forward settings into a llama loader, with parser/load tests and existing C suites reported green."
+    },
+    {
+      "url": "https://github.com/hashintel/brunch/pull/286",
+      "seen_at": "2026-07-02T19:47:33Z",
+      "summary": "Claude Fable 5 co-authored Brunch doctor-pass fixes from walkthrough findings: provider-prompt guarding, startup/kick UX improvements, Other-answer schema repair, and expanded tests across 26 files."
+    },
+    {
+      "url": "https://github.com/Secolas/memoria/pull/438",
+      "seen_at": "2026-07-02T19:47:33Z",
+      "summary": "Claude Fable 5-authored Memoria TCG expansion and tuning batch with six new Showdown rivals, Bible sub-element mechanics, generated art prompts, simulation win-rate tuning, and 197 reported tests green."
+    },
+    {
+      "url": "https://github.com/ma-garin/UX_Auto_Reviewer/pull/23",
+      "seen_at": "2026-07-02T19:47:33Z",
+      "summary": "Claude Fable 5-authored UX Auto Reviewer overhaul adding normalized-page adapters, auth, tenant directory separation, declarative rule overlays, AI rule authoring, LLM abstraction, and 447 reported tests green."
     }
   ],
-  "last_run": "2026-07-02T19:23:00Z"
+  "last_run": "2026-07-02T19:47:33Z"
 }
