@@ -211,16 +211,30 @@ async function main() {
   const container = document.getElementById("reports");
 
   let md;
+  let state = null;
   try {
-    const res = await fetch("data/fable-field-reports.md", { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    md = await res.text();
+    const [mdRes, jsonRes] = await Promise.all([
+      fetch("data/fable-field-reports.md", { cache: "no-store" }),
+      fetch("data/fable-field-reports.json", { cache: "no-store" }).catch(() => null),
+    ]);
+    if (!mdRes.ok) throw new Error(`HTTP ${mdRes.status}`);
+    md = await mdRes.text();
+    if (jsonRes && jsonRes.ok) state = await jsonRes.json();
   } catch (err) {
     status.textContent = "Couldn't load the reports (" + err.message + "). Try refreshing.";
     return;
   }
 
   const sections = parse(md).filter(s => s.entries.length);
+  const seenAtByUrl = new Map((state?.seen || []).map(item => [item.url, item.seen_at]));
+  for (const section of sections) {
+    section.entries.sort((a, b) => {
+      const aSeen = seenAtByUrl.get(a.url) || section.date;
+      const bSeen = seenAtByUrl.get(b.url) || section.date;
+      return bSeen.localeCompare(aSeen);
+    });
+  }
+
   const total = sections.reduce((n, s) => n + s.entries.length, 0);
   if (!total) {
     status.textContent = "No reports yet.";
@@ -238,16 +252,9 @@ async function main() {
   }
 
   const meta = document.getElementById("meta-bar");
-  let updated = "";
-  try {
-    const res = await fetch("data/fable-field-reports.json", { cache: "no-store" });
-    if (res.ok) {
-      const state = await res.json();
-      if (state.last_run) {
-        updated = " · updated " + new Date(state.last_run).toLocaleDateString("en-US", { month: "long", day: "numeric" });
-      }
-    }
-  } catch { /* best-effort */ }
+  const updated = state?.last_run
+    ? " · updated " + new Date(state.last_run).toLocaleDateString("en-US", { month: "long", day: "numeric" })
+    : "";
   meta.textContent = `${total} report${total === 1 ? "" : "s"}${updated}`;
 }
 
