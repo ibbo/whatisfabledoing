@@ -1,0 +1,60 @@
+{
+  "seen": [
+    {
+      "url": "https://iscinumpy.dev/post/claude-code-reviews/",
+      "seen_at": "2026-07-01T22:25:00Z",
+      "summary": "Henry Schreiner reports using Fable for repository reviews across dozens of OSS projects, finding ~400 bugs and 400+ other issues, with several hundred PRs and near-100% merge rate on decided PRs."
+    },
+    {
+      "url": "https://github.com/pypa/pipx/issues/1856",
+      "seen_at": "2026-07-01T22:25:00Z",
+      "summary": "Post-return Fable review of pipx: four review passes, top findings verified, two reproduced locally, includes high/medium severity packaging-tool bugs."
+    },
+    {
+      "url": "https://github.com/mesonbuild/meson-python/issues/861",
+      "seen_at": "2026-07-01T22:25:00Z",
+      "summary": "Post-return Fable review of meson-python: no high-severity bugs, but detailed ranked findings with line references across correctness, performance, simplification, and modernization."
+    },
+    {
+      "url": "https://github.com/pypa/packaging/issues/1239",
+      "seen_at": "2026-07-01T22:25:00Z",
+      "summary": "Fable review of PyPA packaging found an unreleased release-blocking regression and other verified bugs; author independently reproduced high-severity findings."
+    },
+    {
+      "url": "https://github.com/lynxsyn/aide/pull/17",
+      "seen_at": "2026-07-02T08:23:00Z",
+      "summary": "Claude Code/Fable-labeled PR fixing four robustness issues in an agent fan-out dispatcher, including dependency-failure propagation, safe worktree auto-repair, idle-poll reaping, and tmux pane cleanup, with targeted tests."
+    },
+    {
+      "url": "https://github.com/FRIKKern/barkpark/pull/805",
+      "seen_at": "2026-07-02T08:23:00Z",
+      "summary": "Fable-triaged Excel parity batch for a spreadsheet app: five gated fixes from miner findings, including criteria functions, formula fill, number-format rendering, edit fidelity, and undo handling."
+    },
+    {
+      "url": "https://github.com/rutgerwolf/Adaptive-drumming-vst/pull/11",
+      "seen_at": "2026-07-02T08:23:00Z",
+      "summary": "Claude Code/Fable PR fixing VST engine polyphony with fixed-size voice pools and deterministic audio tests proving overlapping drum hits."
+    },
+    {
+      "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/93",
+      "seen_at": "2026-07-02T13:23:00Z",
+      "summary": "Claude Fable 5 PR adding a non-allocating Julia point-evaluation kernel for ContinuousDPs.jl, with 260 new tests and benchmarked 2x-4x speedups / large allocation reductions."
+    },
+    {
+      "url": "https://github.com/JuliaLang/julia/pull/62250",
+      "seen_at": "2026-07-02T13:23:00Z",
+      "summary": "Claude Fable 5 co-authored Julia compiler subtype optimization skipping typevar aliasing checks for closed queries, recovering about half of a package-image load-time regression."
+    },
+    {
+      "url": "https://github.com/KEGustafsson/signalk-edge-link/pull/181",
+      "seen_at": "2026-07-02T13:23:00Z",
+      "summary": "Claude Fable 5 PR from deep Signal K plugin API review, fixing real-server self-context duplication, async startup rejection handling, logging attribution, dashboard write-rate reporting, and status/error routing."
+    },
+    {
+      "url": "https://github.com/andrewdmason/mason-family-hq/pull/401",
+      "seen_at": "2026-07-02T13:23:00Z",
+      "summary": "Fable 5-labeled PR making a music-practice app preserve transcribed MIDI velocity and sustain-pedal data retroactively, with parser tests and production-build validation."
+    }
+  ],
+  "last_run": "2026-07-02T13:23:00Z"
+}
