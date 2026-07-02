@@ -54,7 +54,22 @@
       "url": "https://github.com/andrewdmason/mason-family-hq/pull/401",
       "seen_at": "2026-07-02T13:23:00Z",
       "summary": "Fable 5-labeled PR making a music-practice app preserve transcribed MIDI velocity and sustain-pedal data retroactively, with parser tests and production-build validation."
+    },
+    {
+      "url": "https://github.com/JustasMonkev/i18n-string-check/pull/5",
+      "seen_at": "2026-07-02T19:23:00Z",
+      "summary": "Claude Fable 5 co-authored performance rewrite of an i18n hardcoded-string scanner, skipping tree-sitter on clean files and rewriting similarity matching, with byte-identical verification and up to 14x clean-corpus speedups."
+    },
+    {
+      "url": "https://github.com/molefrog/vetka/pull/5",
+      "seen_at": "2026-07-02T19:23:00Z",
+      "summary": "Claude Fable 5 co-authored codebase review plus critical security fixes for a site-builder app: domain takeover prevention, server-side session resolution, CORS/CSRF tightening, data leak reduction, and owner-gated builder access."
+    },
+    {
+      "url": "https://github.com/0xSoftBoi/anthropic-fellowship/pull/5",
+      "seen_at": "2026-07-02T19:23:00Z",
+      "summary": "BRIDGE-bench expansion reports Claude Fable 5 refusing defensive smart-contract exploit analysis across multiple framings, while Opus 4.8 produced measurable results after semantic rescoring."
     }
   ],
-  "last_run": "2026-07-02T13:23:00Z"
+  "last_run": "2026-07-02T19:23:00Z"
 }

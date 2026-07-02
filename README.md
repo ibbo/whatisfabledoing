@@ -8,19 +8,28 @@ Track substantive public reports from people actually using Anthropic Claude Fab
 
 ## Data
 
-- `data/fable-field-reports.md` - curated chronological report log.
+- `data/fable-field-reports.md` - the report log, published verbatim on the site.
 - `data/fable-field-reports.json` - lightweight seen-state for the collector.
 
-The active OpenClaw cron job is `Claude Fable field reports` (`0eea3d42-8913-4548-afc5-039b15f34934`). It should read/write the exact files above, not the old `~/clawd/memory/fable-field-reports.*` paths.
+Report format (one section per UTC day, entries written for the site's readers in a natural editorial voice — no analyst labels like "evidence quality" or "takeaway"):
+
+```markdown
+## YYYY-MM-DD
+
+### [Short specific headline](https://source-url) — Author name/handle
+One paragraph (2–5 sentences) describing what the person did with Fable and
+what came of it. Credibility is conveyed through concrete facts (numbers,
+reproduced bugs, merged PRs, quotes), not ratings.
+```
+
+The collector is the Hermes cron job `Claude Fable field reports` on the Mac mini (`hermes cron list`). It replaced the old OpenClaw job `0eea3d42-8913-4548-afc5-039b15f34934`, which is paused. After updating the data files the job must `git commit` and `git push` — GitHub Pages serves this repo, so the site only updates on push.
 
 ## Website
 
-`index.html` at the repo root is the whole site — a static page that fetches and parses `data/fable-field-reports.md` (and reads `last_run` from the JSON) in the browser, so there is no build step: the cron job updating the data files updates the site. Deploy by serving the repo root on any static host (the domain is `whatisfabledoing.com`). Preview locally with `python3 -m http.server` from the repo root.
-
-The parser expects the existing entry format (`- Source: <url> — <author>. Task/domain: … Achieved: … Evaluation: … Evidence quality: … Takeaway: …` under `## YYYY-MM-DD` headings); entries that don't match still render as raw text.
+`index.html` at the repo root is the whole site — a static page that fetches and parses `data/fable-field-reports.md` (and reads `last_run` from the JSON) in the browser, so there is no build step. Served by GitHub Pages at `whatisfabledoing.com`. Preview locally with `python3 -m http.server` from the repo root.
 
 ## Editorial Filter
 
-Include high-signal, public, quotable sources with concrete usage, methodology, artifacts, or reasoned evaluation.
+Include high-signal, public, quotable sources with concrete usage, methodology, artifacts, or reasoned evaluation. Negative findings are welcome when they are evidence-based (e.g. benchmarked refusals), not access/rollout complaints.
 
 Skip quota/rate-limit complaints, rollout drama, shallow hype, memes, duplicate amplification, and guardrail complaints unless they are part of a broader evidence-based capability evaluation.

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What is Fable doing?</title>
-<meta name="description" content="Curated field reports from people using Claude Fable 5 for serious work — with evidence quality ratings.">
+<meta name="description" content="Notable things people are doing with Claude Fable 5, collected from public posts, issues, and pull requests.">
 <style>
   :root {
     --bg: #0e0f13;
@@ -12,14 +12,9 @@
     --surface-hover: #1b1e27;
     --border: #262a36;
     --text: #e8eaf0;
-    --text-dim: #9aa1b2;
+    --text-dim: #a6adbe;
     --text-faint: #6b7280;
     --accent: #d97757;
-    --accent-soft: rgba(217, 119, 87, 0.12);
-    --high: #4ade80;
-    --medium-high: #a3e635;
-    --medium: #facc15;
-    --low: #f87171;
     --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, monospace;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -30,9 +25,9 @@
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 96px; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px 96px; }
 
-  header { padding: 72px 0 40px; }
+  header { padding: 72px 0 32px; }
   h1 {
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 800;
@@ -44,18 +39,14 @@
     margin-top: 14px;
     font-size: 1.05rem;
     color: var(--text-dim);
-    max-width: 60ch;
+    max-width: 58ch;
   }
   .meta-bar {
-    margin-top: 28px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 24px;
+    margin-top: 24px;
     font-size: 0.85rem;
     color: var(--text-faint);
     font-family: var(--mono);
   }
-  .meta-bar strong { color: var(--text-dim); font-weight: 600; }
 
   .date-section { margin-top: 48px; }
   .date-heading {
@@ -86,85 +77,31 @@
   }
   .card:hover { border-color: #333849; background: var(--surface-hover); }
 
-  .card-top {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 8px 12px;
-    margin-bottom: 4px;
-  }
-  .card-title {
-    font-size: 1.05rem;
+  .card h3 {
+    font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: -0.01em;
+    line-height: 1.35;
   }
-  .card-title a { color: var(--text); text-decoration: none; }
-  .card-title a:hover { color: var(--accent); }
-  .author { font-size: 0.85rem; color: var(--text-faint); }
-
-  .badge {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 700;
-    font-family: var(--mono);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 2px 9px;
-    border-radius: 999px;
-    border: 1px solid;
-    margin-left: auto;
-    white-space: nowrap;
+  .card h3 a { color: var(--text); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); }
+  .author {
+    margin-top: 2px;
+    font-size: 0.82rem;
+    color: var(--text-faint);
   }
-  .badge.high        { color: var(--high);        border-color: color-mix(in srgb, var(--high) 40%, transparent);        background: color-mix(in srgb, var(--high) 8%, transparent); }
-  .badge.medium-high { color: var(--medium-high); border-color: color-mix(in srgb, var(--medium-high) 40%, transparent); background: color-mix(in srgb, var(--medium-high) 8%, transparent); }
-  .badge.medium      { color: var(--medium);      border-color: color-mix(in srgb, var(--medium) 40%, transparent);      background: color-mix(in srgb, var(--medium) 8%, transparent); }
-  .badge.low         { color: var(--low);         border-color: color-mix(in srgb, var(--low) 40%, transparent);         background: color-mix(in srgb, var(--low) 8%, transparent); }
-
-  .domain {
-    font-size: 0.85rem;
+  .card p {
+    margin-top: 12px;
+    font-size: 0.95rem;
     color: var(--text-dim);
-    margin-bottom: 14px;
   }
-
-  .field { margin-top: 12px; font-size: 0.92rem; }
-  .field-label {
-    font-size: 0.7rem;
-    font-weight: 700;
+  .card code {
     font-family: var(--mono);
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: var(--text-faint);
-    margin-bottom: 2px;
+    font-size: 0.85em;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 4px;
+    padding: 1px 5px;
   }
-  .field-body { color: var(--text-dim); }
-
-  .takeaway {
-    margin-top: 16px;
-    padding: 12px 16px;
-    background: var(--accent-soft);
-    border-left: 3px solid var(--accent);
-    border-radius: 0 8px 8px 0;
-    font-size: 0.92rem;
-    color: var(--text);
-  }
-  .takeaway .field-label { color: var(--accent); }
-
-  .details-toggle {
-    margin-top: 14px;
-    background: none;
-    border: none;
-    color: var(--text-faint);
-    font-size: 0.8rem;
-    font-family: var(--mono);
-    cursor: pointer;
-    padding: 0;
-  }
-  .details-toggle:hover { color: var(--accent); }
-  .card-details { display: none; }
-  .card.open .card-details { display: block; }
-
-  .raw-entry { color: var(--text-dim); font-size: 0.92rem; }
-  .raw-entry a { color: var(--accent); }
 
   #status {
     margin-top: 64px;
@@ -184,8 +121,8 @@
   footer a { color: var(--text-dim); }
 
   @media (max-width: 560px) {
-    .badge { margin-left: 0; }
     header { padding-top: 48px; }
+    .card { padding: 18px; }
   }
 </style>
 </head>
@@ -193,148 +130,80 @@
 <div class="wrap">
   <header>
     <h1>What is Fable doing<span class="q">?</span></h1>
-    <p class="tagline">Curated field reports from people using Claude Fable&nbsp;5 for serious work — concrete tasks, verifiable artifacts, and an honest read on how credible each report is.</p>
+    <p class="tagline">Notable things people are doing with Claude Fable&nbsp;5 — the bugs it's finding, the code it's shipping, and where it falls short — collected from public posts, issues, and pull requests.</p>
     <div class="meta-bar" id="meta-bar"></div>
   </header>
 
   <main id="reports"></main>
-  <div id="status">Loading reports…</div>
+  <div id="status">Loading…</div>
 
   <footer>
-    Updated automatically by a collector that watches for substantive public Fable usage reports.
-    Quota complaints, hype, and memes are filtered out — see the
-    <a href="data/fable-field-reports.md">raw report log</a>.
+    Every report links to its original public source. New reports are added a few times a day.
   </footer>
 </div>
 
 <script>
-const FIELD_LABELS = [
-  ["Task/domain:", "task", "Task / domain"],
-  ["Achieved:", "achieved", "Achieved"],
-  ["Evaluation:", "evaluation", "Evaluation"],
-  ["Evidence quality:", "evidence", "Evidence quality"],
-  ["Takeaway:", "takeaway", "Takeaway"],
-];
-
-function parseEntry(text) {
-  // Locate each known label; slice the text between consecutive labels.
-  const positions = [];
-  for (const [label, key] of FIELD_LABELS) {
-    const idx = text.indexOf(label);
-    if (idx !== -1) positions.push({ idx, label, key });
-  }
-  positions.sort((a, b) => a.idx - b.idx);
-
-  const entry = {};
-  const headEnd = positions.length ? positions[0].idx : text.length;
-  entry.head = text.slice(0, headEnd).trim();
-  positions.forEach((p, i) => {
-    const start = p.idx + p.label.length;
-    const end = i + 1 < positions.length ? positions[i + 1].idx : text.length;
-    entry[p.key] = text.slice(start, end).trim();
-  });
-
-  // Head looks like: "Source: https://… — Author / handle."
-  const m = entry.head.match(/Source:\s*(\S+)\s*(?:—|–|-)?\s*(.*)$/);
-  if (m) {
-    entry.url = m[1].replace(/[.,]$/, "");
-    entry.author = m[2].replace(/\.$/, "").trim();
-  }
-  return entry;
-}
-
-function titleFromUrl(url) {
-  try {
-    const u = new URL(url);
-    if (u.hostname === "github.com") {
-      const parts = u.pathname.split("/").filter(Boolean);
-      // owner/repo/(issues|pull)/N
-      if (parts.length >= 4 && (parts[2] === "issues" || parts[2] === "pull")) {
-        const kind = parts[2] === "pull" ? "PR" : "issue";
-        return `${parts[0]}/${parts[1]} ${kind} #${parts[3]}`;
-      }
-      return parts.slice(0, 2).join("/");
-    }
-    return u.hostname.replace(/^www\./, "") + (u.pathname !== "/" ? u.pathname.replace(/\/$/, "") : "");
-  } catch {
-    return url;
-  }
-}
-
-function evidenceBadge(evidence) {
-  if (!evidence) return null;
-  const m = evidence.trim().toLowerCase().match(/^(medium-high|medium-low|high|medium|low)\b/);
-  if (!m) return { grade: "mixed", cls: "medium" };
-  return { grade: m[1], cls: m[1] === "medium-low" ? "medium" : m[1] };
-}
-
 function esc(s) {
   const d = document.createElement("div");
   d.textContent = s;
   return d.innerHTML;
 }
 
-function renderCard(entry) {
-  const card = document.createElement("article");
-  card.className = "card";
-
-  if (!entry.url) {
-    // Unrecognized entry shape — show it raw rather than dropping it.
-    card.innerHTML = `<div class="raw-entry">${esc(entry.head)}</div>`;
-    return card;
-  }
-
-  const badge = evidenceBadge(entry.evidence);
-  const top = `
-    <div class="card-top">
-      <span class="card-title"><a href="${esc(entry.url)}" target="_blank" rel="noopener">${esc(titleFromUrl(entry.url))}</a></span>
-      ${entry.author ? `<span class="author">${esc(entry.author)}</span>` : ""}
-      ${badge ? `<span class="badge ${badge.cls}">evidence: ${esc(badge.grade)}</span>` : ""}
-    </div>`;
-
-  const domain = entry.task ? `<div class="domain">${esc(entry.task)}</div>` : "";
-  const achieved = entry.achieved ? `
-    <div class="field">
-      <div class="field-label">Achieved</div>
-      <div class="field-body">${esc(entry.achieved)}</div>
-    </div>` : "";
-
-  const details = [];
-  if (entry.evaluation) details.push(`
-    <div class="field">
-      <div class="field-label">Evaluation</div>
-      <div class="field-body">${esc(entry.evaluation)}</div>
-    </div>`);
-  if (entry.evidence) details.push(`
-    <div class="field">
-      <div class="field-label">Evidence quality</div>
-      <div class="field-body">${esc(entry.evidence)}</div>
-    </div>`);
-
-  const takeaway = entry.takeaway ? `
-    <div class="takeaway">
-      <div class="field-label">Takeaway</div>
-      ${esc(entry.takeaway)}
-    </div>` : "";
-
-  card.innerHTML = top + domain + achieved +
-    (details.length ? `<button class="details-toggle">show evaluation & evidence notes ▾</button><div class="card-details">${details.join("")}</div>` : "") +
-    takeaway;
-
-  const toggle = card.querySelector(".details-toggle");
-  if (toggle) {
-    toggle.addEventListener("click", () => {
-      const open = card.classList.toggle("open");
-      toggle.textContent = open ? "hide evaluation & evidence notes ▴" : "show evaluation & evidence notes ▾";
-    });
-  }
-  return card;
+// Escape HTML, then render `inline code` spans.
+function fmt(s) {
+  return esc(s).replace(/`([^`]+)`/g, "<code>$1</code>");
 }
 
 function formatDate(iso) {
   const d = new Date(iso + "T00:00:00Z");
   if (isNaN(d)) return iso;
   return d.toLocaleDateString("en-US", { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" });
+}
+
+// Format:
+//   ## YYYY-MM-DD
+//   ### [Headline](https://url) — Author
+//   One or more body paragraphs.
+function parse(md) {
+  const sections = [];
+  let section = null;
+  let entry = null;
+
+  for (const line of md.split("\n")) {
+    const h2 = line.match(/^##\s+(?!#)(.*)/);
+    if (h2) {
+      section = { date: h2[1].trim(), entries: [] };
+      sections.push(section);
+      entry = null;
+      continue;
+    }
+    const h3 = line.match(/^###\s+\[(.+?)\]\((\S+?)\)\s*(?:[—–-]+\s*(.*))?$/);
+    if (h3 && section) {
+      entry = { title: h3[1], url: h3[2], author: (h3[3] || "").trim(), paragraphs: [] };
+      section.entries.push(entry);
+      continue;
+    }
+    if (entry && line.trim()) {
+      // Blank lines separate paragraphs; consecutive lines join.
+      const last = entry.paragraphs;
+      if (entry.blank || !last.length) last.push(line.trim());
+      else last[last.length - 1] += " " + line.trim();
+      entry.blank = false;
+    } else if (entry) {
+      entry.blank = true;
+    }
+  }
+  return sections;
+}
+
+function renderCard(entry) {
+  const card = document.createElement("article");
+  card.className = "card";
+  card.innerHTML = `
+    <h3><a href="${esc(entry.url)}" target="_blank" rel="noopener">${fmt(entry.title)}</a></h3>
+    ${entry.author ? `<div class="author">${esc(entry.author)}</div>` : ""}
+    ${entry.paragraphs.map(p => `<p>${fmt(p)}</p>`).join("")}`;
+  return card;
 }
 
 async function main() {
@@ -347,58 +216,39 @@ async function main() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     md = await res.text();
   } catch (err) {
-    status.textContent = "Could not load the report log (" + err.message + ").";
+    status.textContent = "Couldn't load the reports (" + err.message + "). Try refreshing.";
     return;
   }
 
-  // Split into "## <date>" sections, each containing "- " bullet entries.
-  // Bullets can wrap lines, so join continuation lines back onto their bullet.
-  const sections = [];
-  let current = null;
-  for (const line of md.split("\n")) {
-    const h = line.match(/^##\s+(.*)/);
-    if (h) {
-      current = { date: h[1].trim(), entries: [] };
-      sections.push(current);
-    } else if (current && /^- /.test(line)) {
-      current.entries.push(line.slice(2));
-    } else if (current && current.entries.length && line.trim()) {
-      current.entries[current.entries.length - 1] += " " + line.trim();
-    }
-  }
-
+  const sections = parse(md).filter(s => s.entries.length);
   const total = sections.reduce((n, s) => n + s.entries.length, 0);
   if (!total) {
-    status.textContent = "No reports yet — the collector hasn't logged anything.";
+    status.textContent = "No reports yet.";
     return;
   }
   status.remove();
 
-  // Newest date first.
   sections.sort((a, b) => b.date.localeCompare(a.date));
   for (const section of sections) {
-    if (!section.entries.length) continue;
     const sec = document.createElement("section");
     sec.className = "date-section";
     sec.innerHTML = `<h2 class="date-heading">${esc(formatDate(section.date))}</h2>`;
-    for (const raw of section.entries) sec.appendChild(renderCard(parseEntry(raw)));
+    for (const entry of section.entries) sec.appendChild(renderCard(entry));
     container.appendChild(sec);
   }
 
-  // Meta bar: report count + collector last-run time from the seen-state file.
   const meta = document.getElementById("meta-bar");
-  const parts = [`<span><strong>${total}</strong> report${total === 1 ? "" : "s"}</span>`];
+  let updated = "";
   try {
     const res = await fetch("data/fable-field-reports.json", { cache: "no-store" });
     if (res.ok) {
       const state = await res.json();
       if (state.last_run) {
-        const d = new Date(state.last_run);
-        parts.push(`<span>collector last ran <strong>${d.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZoneName: "short" })}</strong></span>`);
+        updated = " · updated " + new Date(state.last_run).toLocaleDateString("en-US", { month: "long", day: "numeric" });
       }
     }
-  } catch { /* meta is best-effort */ }
-  meta.innerHTML = parts.join("");
+  } catch { /* best-effort */ }
+  meta.textContent = `${total} report${total === 1 ? "" : "s"}${updated}`;
 }
 
 main();
