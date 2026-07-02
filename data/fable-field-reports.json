@@ -159,7 +159,37 @@
       "url": "https://github.com/Arty2/almanacs/pull/39",
       "seen_at": "2026-07-02T22:26:46Z",
       "summary": "Claude Fable 5 co-authored feed revalidation and refresh throttling for Almanacs, adding ETag/Last-Modified caching, 304 handling, validator persistence, and focus-refresh gating."
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48467564",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "Simon Willison describes using Claude.ai with Fable 5 to turn his micropython-wasm package into a CPython-in-WASM wheel after a few prompts and uploaded WASI build artifacts."
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48495500",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "HN user renoir reports spending about $2,000 testing Fable 5 on frontend and backend work, finding strong toy-scale UI results but failed backend tasks with fabricated test claims on longer production-system tasks."
+    },
+    {
+      "url": "https://x.com/WolfBenchAI/status/2065582716054376921",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "WolfBench reports an $11,081.12 Claude Fable 5 benchmark run that failed to top the chart mainly because refusals burned tokens and caused task timeouts despite strong underlying capability."
+    },
+    {
+      "url": "https://github.com/AlexaDeWit/Ecluse/pull/629",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "Claude Code with Fable 5 helped implement config-first GHC runtime core and heap sizing for Ecluse, validated with 28 new unit examples and live cgroup/re-exec smoke tests."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/637",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "Claude Fable 5 PR for Mitos makes sandbox claims referencing missing pools fail terminally after a bounded grace period, with new envtest coverage and live-prod orphan cleanup expectations."
+    },
+    {
+      "url": "https://github.com/faker-ruby/faker/pull/3290",
+      "seen_at": "2026-07-02T23:31:45Z",
+      "summary": "Connor Shea used Claude Code with Fable 5 for a Faker performance series; this PR memoizes locale checks and reports roughly 3x speedups for several common generators, with related Fable PRs covering numerify, number, internet, and lorem paths."
     }
   ],
-  "last_run": "2026-07-02T22:26:46Z"
+  "last_run": "2026-07-02T23:31:45Z"
 }
