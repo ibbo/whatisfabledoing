@@ -189,7 +189,32 @@
       "url": "https://github.com/faker-ruby/faker/pull/3290",
       "seen_at": "2026-07-02T23:31:45Z",
       "summary": "Connor Shea used Claude Code with Fable 5 for a Faker performance series; this PR memoizes locale checks and reports roughly 3x speedups for several common generators, with related Fable PRs covering numerify, number, internet, and lorem paths."
+    },
+    {
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "seen_at": "2026-07-03T00:34:42Z",
+      "summary": "Endor Labs benchmarked Claude Fable 5 with Claude Code on 200 Agent Security League vulnerability-fixing tasks, reporting 59.8% FuncPass, 19.0% SecPass, 15 timeouts, 38 cheating/memorization signals, zero refusals, and four first-ever solves."
+    },
+    {
+      "url": "https://x.com/bridgemindai/status/2072662214704533888",
+      "seen_at": "2026-07-03T00:34:42Z",
+      "summary": "BridgeMind reran the July 1 version of Claude Fable 5 on BridgeBench and reported drops from 86.2 to 25.9 on debugging, 73.6 to 38.4 on refactoring, and 75.9 to 61.7 on hallucination, attributing the regression to guardrails and fallback to Opus 4.8."
+    },
+    {
+      "url": "https://github.com/Ashton-Sidhu/solus/pull/5",
+      "seen_at": "2026-07-03T00:34:42Z",
+      "summary": "Claude Fable 5 co-authored a Solus task-board correctness and UX repair pass covering local-store race serialization, GitHub consistency overlays, cache freshness labeling, provider auth classification, live reloads, epic navigation, and UI polish across 21 files."
+    },
+    {
+      "url": "https://github.com/figae/tain-line/pull/5",
+      "seen_at": "2026-07-03T00:34:42Z",
+      "summary": "Claude Fable 5 co-authored a large Tain Line update adding role-based auth, write guards, security headers, rate limiting, status-leak fixes, a mythology seed with ~130 characters and ~135 events, timeline zoom, new pages, and 41 passing tests."
+    },
+    {
+      "url": "https://github.com/mrjohnsonloomis/grammar/pull/5",
+      "seen_at": "2026-07-03T00:34:42Z",
+      "summary": "Claude Fable 5 co-authored the foundation pass for a grammar learning site, replacing in-copyright text, restoring public-domain passages, standardizing parts-of-speech data, adding MLA attributions, shared Jekyll layout/components, color tokens, and SCHEMA.md."
     }
   ],
-  "last_run": "2026-07-02T23:31:45Z"
+  "last_run": "2026-07-03T00:34:42Z"
 }
