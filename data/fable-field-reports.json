@@ -279,7 +279,42 @@
       "url": "https://github.com/pedroliman/fifa26-knockout-model/pull/1",
       "seen_at": "2026-07-03T02:46:18Z",
       "summary": "Claude Fable 5 co-authored a FIFA 2026 knockout model update backtested over 84 World Cup matches, improving out-of-sample log loss from 1.12 to 1.03 and replacing trajectory goal sampling with cached Poisson-grid probabilities."
+    },
+    {
+      "url": "https://github.com/frontiers-labs/tir/pull/208",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored TIR compiler support for selecting x86 EFLAGS and AArch64 PSTATE branches through e-graph/PBQP rules, fuzz-filtered and SMT-proved against canonical comparisons before emitting byte-accurate branches."
+    },
+    {
+      "url": "https://github.com/frontiers-labs/tir/pull/209",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored a companion TIR compiler PR adding parameterized IEEE/bfloat float types, shared FP arithmetic ops, and block-scoped fast-math flags that resolve through enclosing regions."
+    },
+    {
+      "url": "https://github.com/lklyne/specular/pull/280",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored a Specular testing rewrite that boots the real main-process runtime in plain Node, replaces most Electron smoke coverage with in-process integration tests, and mutation-verifies undo failures."
+    },
+    {
+      "url": "https://github.com/bakabala27-svg/NAAS-Agentic-Core/pull/2178",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored NAAS tutor fixes from a reproduced BAC-2024 transcript failure, addressing solution-text poisoning, denominator parsing, repetition loops, confusion-as-answer handling, and React inert attributes with focused verification."
+    },
+    {
+      "url": "https://github.com/thaynes43/haynes-ops/pull/1940",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored a Kometa media-library rebuild based on current docs and old-config autopsy, disabling ARR auto-add behavior, moving charts server-side, limiting overlays, and splitting cron cadences."
+    },
+    {
+      "url": "https://github.com/JoeLuker/balatro-cryptid-mobile/pull/219",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored a mobile Balatro touch fix after telemetry showed zoom panning created false card drags and accidental sell-shelf drops; the patch gates sell shelf creation during joker zoom and reports smoke verification."
+    },
+    {
+      "url": "https://github.com/yujmatsu/norishiro/pull/11",
+      "seen_at": "2026-07-03T03:52:48Z",
+      "summary": "Claude Fable 5 co-authored a Norishiro MCP server with six low-level SDK tools, rate limiting, sharded LRU cache, timezone and stop-name handling, Cloud Run deployment, and T-MCP-01 through T-MCP-17 tests using Mizuho measured values."
     }
   ],
-  "last_run": "2026-07-03T02:46:18Z"
+  "last_run": "2026-07-03T03:52:48Z"
 }
