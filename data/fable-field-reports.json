@@ -674,7 +674,27 @@
       "url": "https://github.com/JuliaGeo/GeometryOps.jl/pull/428",
       "seen_at": "2026-07-03T18:49:03Z",
       "summary": "Claude Fable 5 co-authored a GeometryOps.jl prepared-geometry WIP with recursive Prepared wrappers, edge trees/R-trees, indexed point-in-polygon and clipping accelerators, tests, and benchmark/design-document commits."
+    },
+    {
+      "url": "https://github.com/farmersdog/cls-hooked/pull/5",
+      "seen_at": "2026-07-03T19:54:47Z",
+      "summary": "Claude Fable 5 co-authored a merged cls-hooked fix for AsyncLocalStorage context loss in re-entrant bind/raw enter-exit paths, based on a minimal repro from a large consumer test suite and new regression coverage."
+    },
+    {
+      "url": "https://github.com/jensst82/AdvancedDiagnosis/pull/5",
+      "seen_at": "2026-07-03T19:54:47Z",
+      "summary": "Claude Fable 5 co-authored a merged AdvancedDiagnosis XCP-on-TCP server: ~220 measurable channels, scalar/map calibration, dynamic DAQ, A2L export, GUI/headless control, and 32 tests including localhost pyxcp end-to-end coverage."
+    },
+    {
+      "url": "https://github.com/DaccordProject/daccord/pull/177",
+      "seen_at": "2026-07-03T19:54:47Z",
+      "summary": "Claude Fable 5 produced a large Daccord Flutter complexity audit and multi-phase refactor: unused dependency pruning, shared helpers, Riverpod migrations, message-pane extraction, voice reconnect logic, and 431-test gates."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/tods-validate/pull/44",
+      "seen_at": "2026-07-03T19:54:47Z",
+      "summary": "Claude Fable 5 co-authored tods-validate baseline fingerprints for stable validation diffs, replacing tuple identities with SHA-256 hashes over machine-context data and proving a 500-finding row-shift case produces zero false new/fixed findings."
     }
   ],
-  "last_run": "2026-07-03T18:49:03Z"
+  "last_run": "2026-07-03T19:54:47Z"
 }
