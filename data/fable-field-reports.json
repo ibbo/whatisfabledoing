@@ -539,7 +539,27 @@
       "url": "https://github.com/mwouts/tidyrun/pull/11",
       "seen_at": "2026-07-03T13:29:36Z",
       "summary": "Fable-authored tidyrun fix resolves parametrized DAG subset dependencies by tracking parent/key provenance instead of failing object-identity membership checks."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/pull/11633",
+      "seen_at": "2026-07-03T14:33:20Z",
+      "summary": "Claude Fable 5 authored an elizaOS TUI fix for plus-key bindings, NFD combining-mark width, and theme-dependent nested-list rendering, with 485 tests, typecheck, mutation checks, and maintainer re-verification."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/pull/11626",
+      "seen_at": "2026-07-03T14:33:20Z",
+      "summary": "Claude Fable 5 co-authored elizaOS credential-pool hardening after review found zero-revenue affiliate minting and monetized-app billing bypasses; follow-up tests and post-merge review narrowed remaining attribution behavior."
+    },
+    {
+      "url": "https://github.com/ch923dev/canvas-ade/pull/293",
+      "seen_at": "2026-07-03T14:33:20Z",
+      "summary": "canvas-ade used a Fable-synthesized multi-agent review on a 70-file background-project-sessions epic, fixing five bugs plus cleanups, then an automated Claude review found and fixed cross-project preview reuse and watermark issues."
+    },
+    {
+      "url": "https://github.com/lumina-ooo/tilo/pull/218",
+      "seen_at": "2026-07-03T14:33:20Z",
+      "summary": "Claude Fable 5 co-authored a merged Tilo portal fix adding preview, integration, and delete actions for private datasets in Ready phase, with ownership checks, Redis cleanup, and frontend/backend tests."
     }
   ],
-  "last_run": "2026-07-03T13:29:36Z"
+  "last_run": "2026-07-03T14:33:20Z"
 }
