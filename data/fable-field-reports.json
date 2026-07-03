@@ -464,7 +464,32 @@
       "url": "https://github.com/manishjnv/DhanRadar/pull/434",
       "seen_at": "2026-07-03T10:16:09Z",
       "summary": "DhanRadar used Sonnet 5 to build and Fable 5 for line-by-line review of ledger-ingestion hardening: statement checkpoints, mismatch-without-mutation behavior, per-portfolio advisory locks, CAS statement-period parsing, RLS tests, and a least-privilege grant revision."
+    },
+    {
+      "url": "https://github.com/kibertoad/gmx-word-counter/pull/129",
+      "seen_at": "2026-07-03T11:21:30Z",
+      "summary": "Claude Fable 5 co-authored gmx-word-counter Unicode and locale correctness fixes for accented words, ligatures, digits, astral characters, combining marks, and punctuation, with regression tests for every fix."
+    },
+    {
+      "url": "https://github.com/gabrielying/FEP-Compass-AiAdvisor/pull/68",
+      "seen_at": "2026-07-03T11:21:30Z",
+      "summary": "Claude Fable 5 co-authored a no-AI fork of FEP Compass, replacing provider calls with deterministic rules and BM25 search, with citation audit and 236 offline checks."
+    },
+    {
+      "url": "https://github.com/MaksimKhanin/TableTimeAssistant/pull/16",
+      "seen_at": "2026-07-03T11:21:30Z",
+      "summary": "Claude Fable 5 co-authored TableTimeAssistant critical mechanics fixes for stack quantities, LLM failure rollback, post-combat state persistence, DB sessions, foreign keys, enemy cloning, and market stack handling."
+    },
+    {
+      "url": "https://github.com/QuincyO/meter-log/pull/24",
+      "seen_at": "2026-07-03T11:21:30Z",
+      "summary": "Claude Fable 5 co-authored meter-log sheet performance fixes: per-execution row caching, employee index memoization, moving avgDispatchTime out of the write lock to an hourly trigger, and a self-test."
+    },
+    {
+      "url": "https://github.com/lumina-ooo/tilo/pull/210",
+      "seen_at": "2026-07-03T11:21:30Z",
+      "summary": "Claude Fable 5 co-authored Tilo tenant-slug fix so upload/publish/list no longer route all assets to default, preventing S3 key collisions and owner-check 403s."
     }
   ],
-  "last_run": "2026-07-03T10:16:09Z"
+  "last_run": "2026-07-03T11:21:30Z"
 }
