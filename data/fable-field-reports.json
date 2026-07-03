@@ -354,7 +354,37 @@
       "url": "https://github.com/moq-dev/moq/issues/2004",
       "seen_at": "2026-07-03T06:02:15Z",
       "summary": "Fable-written moq issue from a full dev-branch review identifies a default moq-rtc WebRTC config that advertises 0.0.0.0, causing all WHIP/WHEP accepts to return HTTP 500."
+    },
+    {
+      "url": "https://github.com/mmannerm/animsmith/pull/5",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Fable 5 co-authored and merged an animsmith transform subcommand for slicing, hold extension, and gait-anchor animation loops, with Rust core/CLI changes and transform tests."
+    },
+    {
+      "url": "https://github.com/Cordedmink2/obsidian-google-sync/pull/5",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Fable 5 co-authored and merged obsidian-google-sync headless-tooling cleanup, replacing obfuscated Node builtin loading, fixing an exclusive-lock race, untracking stale headless builds, and repairing an aged smoke test."
+    },
+    {
+      "url": "https://github.com/dtauraso/wirefold/pull/5",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Code/Fable generated and merged Wirefold post-buffer hygiene: persister path-resolution guard, Go breadcrumb debug channel, memory refreshes, dead bridge vocabulary removal, and stop-checks green."
+    },
+    {
+      "url": "https://github.com/frontiers-labs/tir/pull/211",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Fable 5 co-authored TIR RISC-V compressed-instruction support, modeling 42 RV32C/RV64C/Zcd/Zcf instructions, relocation/simulation, post-register-allocation compression, and design notes for branch-relaxation limits."
+    },
+    {
+      "url": "https://github.com/danielsamuels/bg3-savefile-parser/pull/10",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Fable 5 co-authored a Baldur’s Gate 3 save parser /anatomy page that annotates LSV bytes end-to-end, virtualizes 47MB streams, adds parser exports, and avoids service-worker cache poisoning."
+    },
+    {
+      "url": "https://github.com/seanhodges/basically/pull/170",
+      "seen_at": "2026-07-03T07:06:41Z",
+      "summary": "Claude Fable 5 co-authored a Basically cross-browser hardening pass for Safari audio activation, Firefox/HTTP clipboard fallback, blocked-storage startup, AltGr shortcuts, file download/input attachment, and QA docs."
     }
   ],
-  "last_run": "2026-07-03T06:02:15Z"
+  "last_run": "2026-07-03T07:06:41Z"
 }
