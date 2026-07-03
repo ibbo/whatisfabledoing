@@ -589,7 +589,37 @@
       "url": "https://github.com/willianpsouza/ConfigurationCollector/pull/5",
       "seen_at": "2026-07-03T15:36:57Z",
       "summary": "Claude Code/Fable authored a Go LogBot daemon that tails skynet.log, classifies network events, alerts Telegram with severity routing and rate limits, and includes httptest/tail tests around 85% coverage."
+    },
+    {
+      "url": "https://github.com/enr/paq/pull/5",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored and merged paq tar symlink extraction support, fixing Node.js archive installs while deferring symlink creation and rejecting absolute/out-of-tree targets with tests."
+    },
+    {
+      "url": "https://github.com/gofiber/fiber/pull/4494",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored a GoFiber RFC 9110 compliance audit and fix series for conditional freshness, obsolete HTTP-date parsing, Vary wildcard behavior, and default content negotiation, with repeated review-fix rounds."
+    },
+    {
+      "url": "https://github.com/ranjithbalank/hearth-backend/pull/12",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored Hearth POS room-channel and per-party table billing fixes, preventing arbitrary room folio posting and enabling multiple bills on one table with E2E coverage, 180 backend tests, and live cashier verification."
+    },
+    {
+      "url": "https://github.com/IndigoCarmine/chembuider-rs/pull/5",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored and merged chembuider-rs rich-text molecular labels with baseline-accurate sub/superscripts, markup parsing, chemistry charge conventions, headless egui tests, and CPU-rasterized snapshot verification."
+    },
+    {
+      "url": "https://github.com/fibernorth/NM-Waves/pull/1",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored NM-Waves release-readiness audit and fix plan, then committed fixes for hooks crashes, public signup privilege escalation, parent dashboard access, EOL Firebase config, PII/invoice exposure, parent onboarding writes, and sponsor finance scoping."
+    },
+    {
+      "url": "https://github.com/FaroutYLq/AutoAxionLimits/pull/676",
+      "seen_at": "2026-07-03T16:42:15Z",
+      "summary": "Claude Fable 5 co-authored an AutoAxionLimits benchmark partial-run report after credits exhausted at 58/346 papers, documenting paired-slice median error, zero-overlap rate, vector_trace wins, and per-paper cost estimates for resuming."
     }
   ],
-  "last_run": "2026-07-03T15:36:57Z"
+  "last_run": "2026-07-03T16:42:15Z"
 }
