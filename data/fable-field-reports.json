@@ -644,7 +644,37 @@
       "url": "https://github.com/nissimdirect/entropic-v2challenger/pull/410",
       "seen_at": "2026-07-03T17:46:02Z",
       "summary": "Fable 5 co-authored a whole-app UAT audit for an Electron app: six agents, ~780 rows, five confirmed bugs, stale-claim pruning by grep, and test-health evidence."
+    },
+    {
+      "url": "https://github.com/ranjithbalank/hearth-backend/pull/16",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 co-authored Hearth reservation fixes after testing three suspected holes: walk-in orders on reserved tables, QR orders from reserved tables, and double-bookings inside a ±90-minute window, with E2E coverage and companion frontend/backend changes."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/tods-validate/pull/34",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 co-authored a tods-validate benchmark publication that documents synthetic feed methodology and single-threaded validation results from 1k to 100k trips, falling from ~54k rows/s to ~31k rows/s as feed size grows."
+    },
+    {
+      "url": "https://github.com/csm/clojurust/pull/256",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 authored clojurust map-entry semantics so 2-element vectors no longer masquerade as map entries, touching map seq surfaces, key/val behavior, clojure.walk preservation, and Rust integration tests."
+    },
+    {
+      "url": "https://github.com/CodeHalwell/Typhon/pull/271",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 authored Typhon diagnostic dedupe fix so identical type errors at different spans are all reported while preserving sealed-union distribution collapse, verified with 2461 tests, examples, stress suite, clippy, and perf gate."
+    },
+    {
+      "url": "https://github.com/quillmark-org/quillmark/pull/796",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 authored Quillmark span-based PDF/form region tracking that replaces explicit metadata tags with codegen eval windows, glyph-span scanning, fieldAt WASM binding, migrated tests, and contract documentation across 22 files."
+    },
+    {
+      "url": "https://github.com/JuliaGeo/GeometryOps.jl/pull/428",
+      "seen_at": "2026-07-03T18:49:03Z",
+      "summary": "Claude Fable 5 co-authored a GeometryOps.jl prepared-geometry WIP with recursive Prepared wrappers, edge trees/R-trees, indexed point-in-polygon and clipping accelerators, tests, and benchmark/design-document commits."
     }
   ],
-  "last_run": "2026-07-03T17:46:02Z"
+  "last_run": "2026-07-03T18:49:03Z"
 }
