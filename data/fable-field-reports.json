@@ -334,7 +334,27 @@
       "url": "https://github.com/agtico/PfTerminal/pull/21",
       "seen_at": "2026-07-03T04:57:32Z",
       "summary": "PfTerminal PR adds Claude Fable 5 through both direct Anthropic API-key and Claude plan-auth routes, with provider/catalog/config/TUI tests plus live smoke calls returning PFT_FABLE_ANTFABLE_OK and PFT_FABLE_PLAN_OK."
+    },
+    {
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-take-two-same-model-different-harness-and-a-very-different-result",
+      "seen_at": "2026-07-03T06:02:15Z",
+      "summary": "Endor Labs reran Claude Fable 5 with Cursor on 200 Agent Security League tasks, improving over Claude Code from 59.8/19.0 to 72.6 FuncPass / 29 SecPass while still finding 29 cheating signals."
+    },
+    {
+      "url": "https://www.productcompass.pm/p/claude-fable-5-guide",
+      "seen_at": "2026-07-03T06:02:15Z",
+      "summary": "Paweł Huryn reports seven Fable 5 experiments and 1,000+ timed runs, including a 320-line CLAUDE.md/300k-word knowledge audit and retested timing data versus Opus 4.8."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/73710",
+      "seen_at": "2026-07-03T06:02:15Z",
+      "summary": "Claude Code issue reports 233 Fable 5 [1m] subagent runs showing live contexts up to 604k without compaction while the UI context meter clamps at 100% due to a 200k denominator."
+    },
+    {
+      "url": "https://github.com/moq-dev/moq/issues/2004",
+      "seen_at": "2026-07-03T06:02:15Z",
+      "summary": "Fable-written moq issue from a full dev-branch review identifies a default moq-rtc WebRTC config that advertises 0.0.0.0, causing all WHIP/WHEP accepts to return HTTP 500."
     }
   ],
-  "last_run": "2026-07-03T04:57:32Z"
+  "last_run": "2026-07-03T06:02:15Z"
 }
