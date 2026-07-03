@@ -489,7 +489,32 @@
       "url": "https://github.com/lumina-ooo/tilo/pull/210",
       "seen_at": "2026-07-03T11:21:30Z",
       "summary": "Claude Fable 5 co-authored Tilo tenant-slug fix so upload/publish/list no longer route all assets to default, preventing S3 key collisions and owner-check 403s."
+    },
+    {
+      "url": "https://github.com/genlayerlabs/genswarms-objects/pull/5",
+      "seen_at": "2026-07-03T12:25:19Z",
+      "summary": "GenLayer cron scheduler hardening PR fixes six Fable-audited failure modes with TDD vectors: pause/resume races, bad cron boot crashes, one-shot seed re-fires, downtime misfire skip, and non-scalar input crashes."
+    },
+    {
+      "url": "https://github.com/sanskrit-lexicon/csl-atlas/pull/200",
+      "seen_at": "2026-07-03T12:25:19Z",
+      "summary": "Fable 5 referee pass for Sanskrit Lexicon papers rechecked data counts, caught swapped AP/AP90 edition counts and raw-vs-normalized table errors, and merged paper/reference fixes."
+    },
+    {
+      "url": "https://github.com/boardsesh/boardsesh/pull/3424",
+      "seen_at": "2026-07-03T12:25:19Z",
+      "summary": "Boardsesh Fable co-authored fix prevents Co-Authored-By trailers and Claude session links from appearing in mobile What’s New cards, with regression tests and local changelog verification."
+    },
+    {
+      "url": "https://github.com/joaoabuenosi/fednow-oss/pull/20",
+      "seen_at": "2026-07-03T12:25:19Z",
+      "summary": "Fable 5 co-authored FedNow simulator PR adds an ordered advice ledger and ACWP-then-follow-up scenario for CTP scenario 4, with 15 simulator tests and docs updates."
+    },
+    {
+      "url": "https://github.com/dancinlab/hexa-lang/pull/4478",
+      "seen_at": "2026-07-03T12:25:19Z",
+      "summary": "Fable 5 co-authored hexa-lang release fix verifies GitHub Latest marker promotion after softprops make_latest silently left v0.588.0 pinned for seven days and broke consumers."
     }
   ],
-  "last_run": "2026-07-03T11:21:30Z"
+  "last_run": "2026-07-03T12:25:19Z"
 }
