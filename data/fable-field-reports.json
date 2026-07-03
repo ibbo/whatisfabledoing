@@ -724,7 +724,37 @@
       "url": "https://github.com/PFranciscoRojas/clinic-system/pull/123",
       "seen_at": "2026-07-03T20:59:37Z",
       "summary": "Fable 5 repaired a clinic-system production smoke test after demo-tenant and API drift, updating current domain, health handling, staff_id, mental_exam, 204 approval handling, and reporting a full 10-step production pass."
+    },
+    {
+      "url": "https://github.com/langwatch/langwatch/pull/5353",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "LangWatch traced a real Claude Code/Fable 5 request-body truncation bug that misclassified 12,729 input tokens, then added system/leading-turn recovery with extractor and log-to-span tests."
+    },
+    {
+      "url": "https://github.com/gastownhall/beads/pull/4567",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "Beads Fable co-authored fix handles a real embedded-Dolt migration deadlock where dirty-table guards blocked bd dolt/vc commit, adding typed errors, open intents, and tests."
+    },
+    {
+      "url": "https://github.com/pablof7z/chirp/pull/45",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "Chirp Fable 5 PR fixed a stuck Nostr home timeline and missing Android JNI ref-resolution wrapper, verified with Rust/Gradle tests and live emulator before/after card rendering."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/1814",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "emdash Fable co-authored seed fix prevents raw SQLite failures when seeded slugs collide with trashed content, based on a dev setup bypass 500 and tests that fail on main."
+    },
+    {
+      "url": "https://github.com/fleet-ai/SkyRL-Fleet/pull/90",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "SkyRL-Fleet Fable co-authored PR fixes Qwen 3.6 tool-call argument shape so rollouts no longer all fail at step-zero collation after the first tool call."
+    },
+    {
+      "url": "https://github.com/tboerstad/agentic_matmul/pull/99",
+      "seen_at": "2026-07-03T22:02:28Z",
+      "summary": "agentic_matmul Fable co-authored cleanup removed Apple/macOS code paths from a Mojo GEMM while keeping x86 dispatch/tests and quick benchmark ratios green."
     }
   ],
-  "last_run": "2026-07-03T20:59:37Z"
+  "last_run": "2026-07-03T22:02:28Z"
 }
