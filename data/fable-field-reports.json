@@ -414,7 +414,32 @@
       "url": "https://github.com/osama-raddad/FireCrasher/pull/27",
       "seen_at": "2026-07-03T08:10:57Z",
       "summary": "Claude Fable 5 co-authored a FireCrasher 3.0.0 Kotlin API redesign that replaces callback classes with a fluent DSL, keeps crash-recovery behavior and persisted enum ordinals unchanged, regenerates ABI baselines, migrates tests, and updates docs."
+    },
+    {
+      "url": "https://github.com/vicentini-edoardo/Galvomotor/pull/13",
+      "seen_at": "2026-07-03T09:12:01Z",
+      "summary": "Fable co-authored a merged Galvomotor fix for XY jog cross-talk and drift caused by truncating read-pulse to goto-unit conversion; round() plus regression tests prove axis isolation and repeatability."
+    },
+    {
+      "url": "https://github.com/yvlar/swingtradebot/pull/18",
+      "seen_at": "2026-07-03T09:12:01Z",
+      "summary": "Fable built and tested trailing ATR exit plumbing for swingtradebot, then locked a negative out-of-sample verdict after mult=3 failed the shifted-grid robustness gate despite 559 green tests."
+    },
+    {
+      "url": "https://github.com/sutantodadang/luncur/pull/5",
+      "seen_at": "2026-07-03T09:12:01Z",
+      "summary": "Fable co-authored Luncur's idempotent luncur up fresh-VPS installer, registry NodePort setup, self-deploy flow, and Plan C hardening backlog, with 105 Go tests passing."
+    },
+    {
+      "url": "https://github.com/ballPointPenguin/artificial-u/pull/163",
+      "seen_at": "2026-07-03T09:12:01Z",
+      "summary": "Fable co-authored Artificial U course tagging and Browse discovery feature across 53 files, including LLM-generated language-specific tags, filters, owner editing, UI, i18n, and test coverage."
+    },
+    {
+      "url": "https://github.com/inkline/inkline/pull/480",
+      "seen_at": "2026-07-03T09:12:01Z",
+      "summary": "Fable co-authored an Inkline claim-by-claim AGENTS/docs drift audit, correcting output paths, CLI realities, compiler metadata, coverage flows, and relative links across 21 files."
     }
   ],
-  "last_run": "2026-07-03T08:10:57Z"
+  "last_run": "2026-07-03T09:12:01Z"
 }
