@@ -619,7 +619,32 @@
       "url": "https://github.com/FaroutYLq/AutoAxionLimits/pull/676",
       "seen_at": "2026-07-03T16:42:15Z",
       "summary": "Claude Fable 5 co-authored an AutoAxionLimits benchmark partial-run report after credits exhausted at 58/346 papers, documenting paired-slice median error, zero-overlap rate, vector_trace wins, and per-paper cost estimates for resuming."
+    },
+    {
+      "url": "https://github.com/10d9e/bootstrap/pull/5",
+      "seen_at": "2026-07-03T17:46:02Z",
+      "summary": "Fable 5 merged an FHE bootstrap optimization that fused a seven-row MAC pass, documented a 2.7% failed attempt, and reduced reported gas from 438,987,321 to 403,363,373."
+    },
+    {
+      "url": "https://github.com/austinmao/feature-fix-swarm/pull/14",
+      "seen_at": "2026-07-03T17:46:02Z",
+      "summary": "Fable 5 co-authored a merged setup.sh fix after a deploy canary found noninteractive overwrite prompts and self-copy crashes; verified headless install from repo root exits 0."
+    },
+    {
+      "url": "https://github.com/ak--47/ak-gemini/pull/5",
+      "seen_at": "2026-07-03T17:46:02Z",
+      "summary": "Fable 5 co-authored ak-gemini fixes for Chat seed JSON-envelope poisoning and ignored top-level sampling options, with 11 offline regression tests and seven red-to-green cases."
+    },
+    {
+      "url": "https://github.com/L-K-M/Gans/pull/5",
+      "seen_at": "2026-07-03T17:46:02Z",
+      "summary": "Fable 5 co-authored Gans Ente login fixes: move memory-hard Argon2id off the main actor, reset stranded loading state, improve no-authenticator 404 copy, and wipe KEK/login-key copies."
+    },
+    {
+      "url": "https://github.com/nissimdirect/entropic-v2challenger/pull/410",
+      "seen_at": "2026-07-03T17:46:02Z",
+      "summary": "Fable 5 co-authored a whole-app UAT audit for an Electron app: six agents, ~780 rows, five confirmed bugs, stale-claim pruning by grep, and test-health evidence."
     }
   ],
-  "last_run": "2026-07-03T16:42:15Z"
+  "last_run": "2026-07-03T17:46:02Z"
 }
