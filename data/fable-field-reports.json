@@ -249,7 +249,37 @@
       "url": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
       "seen_at": "2026-07-03T01:43:27Z",
       "summary": "Pluventi reports using Claude Fable 5 to write 100% of a ComfyUI Ideogram prompt-builder replacement, adding freehand regions, bucket fill, layer management, editing tools, z-order controls, prompt panels, background images, and undo/redo, while noting the GUI code still needs developer cleanup."
+    },
+    {
+      "url": "https://x.com/elliotarledge/status/2072851906117136418",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Elliot Arledge reports Claude Fable 5 leading KernelBench-Hard Blackwell FP8 results, including a raw SM100 tcgen05 PTX B200 GEMM reaching 44–59% of peak and board-best tensor-core cells after manual audit."
+    },
+    {
+      "url": "https://x.com/elliotarledge/status/2072814573753975266",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Elliot Arledge reports Claude Fable 5 producing KernelBench-Mega’s first accepted fused megakernel, a Kimi-Linear W4A16 decode kernel with one cooperative launch per token and 18.7x PyTorch speedup."
+    },
+    {
+      "url": "https://github.com/flaukowski/QuantumOS/pull/58",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Claude Fable 5 co-authored a QuantumOS experiment wiring a resonant scheduler and framebuffer visualizer; the scheduler hypothesis was refuted with measured starvation and worse fairness than round-robin, while the gated live-field display was verified by QMP screendumps."
+    },
+    {
+      "url": "https://github.com/eliasjustus/justsearch/pull/66",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Claude Fable 5 co-authored a justsearch fix after two healthy certified runs were aborted because partial logs counted in-flight cells as exclusions; the patch separates completed, excluded, pending, and planned counts and adds regression coverage."
+    },
+    {
+      "url": "https://github.com/Eth-Interchained/itc-node-rs/pull/77",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Claude Fable 5 co-authored an itc-node-rs durability fix for a 42-minute L2 checkpointing hole, flushing on state-changing blocks and shutdown with tests for transfer persistence across reopen."
+    },
+    {
+      "url": "https://github.com/pedroliman/fifa26-knockout-model/pull/1",
+      "seen_at": "2026-07-03T02:46:18Z",
+      "summary": "Claude Fable 5 co-authored a FIFA 2026 knockout model update backtested over 84 World Cup matches, improving out-of-sample log loss from 1.12 to 1.03 and replacing trajectory goal sampling with cached Poisson-grid probabilities."
     }
   ],
-  "last_run": "2026-07-03T01:43:27Z"
+  "last_run": "2026-07-03T02:46:18Z"
 }
