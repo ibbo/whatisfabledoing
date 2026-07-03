@@ -103,6 +103,30 @@
     padding: 1px 5px;
   }
 
+  .vote {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding: 3px 12px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .votes-on .vote { display: inline-flex; }
+  .vote:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .vote:disabled { cursor: default; }
+  .vote.voted {
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+    background: rgba(217, 119, 87, 0.1);
+    color: var(--accent);
+  }
+
   #status {
     margin-top: 64px;
     text-align: center;
@@ -199,11 +223,73 @@ function parse(md) {
 function renderCard(entry) {
   const card = document.createElement("article");
   card.className = "card";
+  card.dataset.report = entry.url;
   card.innerHTML = `
     <h3><a href="${esc(entry.url)}" target="_blank" rel="noopener">${fmt(entry.title)}</a></h3>
     ${entry.author ? `<div class="author">${esc(entry.author)}</div>` : ""}
-    ${entry.paragraphs.map(p => `<p>${fmt(p)}</p>`).join("")}`;
+    ${entry.paragraphs.map(p => `<p>${fmt(p)}</p>`).join("")}
+    <button class="vote" title="Upvote this report">▲ <span class="vote-count">0</span></button>`;
   return card;
+}
+
+const VOTES_API = location.hostname === "localhost" || location.hostname === "127.0.0.1"
+  ? "http://127.0.0.1:8127"
+  : "https://api.whatisfabledoing.com";
+const VOTED_KEY = "fable-voted-reports";
+
+function votedSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(VOTED_KEY)) || []); }
+  catch { return new Set(); }
+}
+
+function markVoted(url) {
+  const set = votedSet();
+  set.add(url);
+  try { localStorage.setItem(VOTED_KEY, JSON.stringify([...set])); } catch { /* private mode */ }
+}
+
+function applyVoteState(card, count, voted) {
+  const btn = card.querySelector(".vote");
+  btn.querySelector(".vote-count").textContent = count;
+  btn.classList.toggle("voted", voted);
+  btn.disabled = voted;
+  btn.title = voted ? "You upvoted this report" : "Upvote this report";
+}
+
+// Vote UI stays hidden unless the API answers, so the site degrades
+// gracefully if the vote server is down.
+async function initVotes() {
+  let counts;
+  try {
+    const res = await fetch(`${VOTES_API}/votes`);
+    if (!res.ok) return;
+    counts = await res.json();
+  } catch {
+    return;
+  }
+  document.body.classList.add("votes-on");
+  const voted = votedSet();
+  for (const card of document.querySelectorAll(".card[data-report]")) {
+    const url = card.dataset.report;
+    applyVoteState(card, counts[url] || 0, voted.has(url));
+    card.querySelector(".vote").addEventListener("click", async (e) => {
+      const btn = e.currentTarget;
+      btn.disabled = true;
+      try {
+        const res = await fetch(`${VOTES_API}/vote`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ reportId: url }),
+        });
+        if (!res.ok) throw new Error(res.status);
+        const data = await res.json();
+        markVoted(url);
+        applyVoteState(card, data.count, true);
+      } catch {
+        btn.disabled = false;
+      }
+    });
+  }
 }
 
 async function main() {
@@ -256,6 +342,8 @@ async function main() {
     ? " · updated " + new Date(state.last_run).toLocaleDateString("en-US", { month: "long", day: "numeric" })
     : "";
   meta.textContent = `${total} report${total === 1 ? "" : "s"}${updated}`;
+
+  initVotes();
 }
 
 main();
