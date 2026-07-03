@@ -754,7 +754,37 @@
       "url": "https://github.com/tboerstad/agentic_matmul/pull/99",
       "seen_at": "2026-07-03T22:02:28Z",
       "summary": "agentic_matmul Fable co-authored cleanup removed Apple/macOS code paths from a Mojo GEMM while keeping x86 dispatch/tests and quick benchmark ratios green."
+    },
+    {
+      "url": "https://github.com/ShipSoft/Geometry/pull/58",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "Fable review found a 120 mm helium-decay-volume overlap with SHiP SBT side sensors; PR fixes the X inset, shows numeric clearance math, and reports 33/33 tests passing."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/12677",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "pnpm merged a Fable/Claude-assisted fix rejecting malformed jsr: and named-registry package names that could flow into registry URLs and metadata cache paths; TS and Rust parser suites passed."
+    },
+    {
+      "url": "https://github.com/psaab/xpf/pull/3891",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "xpf WireGuard engine PR from fable-review finding adds a next keypair slot so responder rekeys no longer blackhole all egress until inbound data confirms the session; 3510 release tests passed."
+    },
+    {
+      "url": "https://github.com/psaab/xpf/pull/3883",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "xpf merged a Fable-review event stream fix making sequence allocation atomic with channel enqueue, preventing self-amplifying resync/disconnect loops; 3511 release tests passed."
+    },
+    {
+      "url": "https://github.com/bcrisp4/bfeed/pull/51",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "bfeed wave-four Fable audit remediation fixes nine DNS rebinding, CSP, SSRF, fetch, and sanitizer hardening items with unit and end-to-end checks."
+    },
+    {
+      "url": "https://github.com/EKINSOL-DEV/crewhub2/pull/13",
+      "seen_at": "2026-07-03T23:09:21Z",
+      "summary": "Crewhub2’s Fable co-authored camera-director milestone adds room/HQ framing, live robot follow cam, restore flights, and caught a blocker where Escape restored to the wrong camera snapshot."
     }
   ],
-  "last_run": "2026-07-03T22:02:28Z"
+  "last_run": "2026-07-03T23:09:21Z"
 }
