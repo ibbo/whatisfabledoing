@@ -559,7 +559,37 @@
       "url": "https://github.com/lumina-ooo/tilo/pull/218",
       "seen_at": "2026-07-03T14:33:20Z",
       "summary": "Claude Fable 5 co-authored a merged Tilo portal fix adding preview, integration, and delete actions for private datasets in Ready phase, with ownership checks, Redis cleanup, and frontend/backend tests."
+    },
+    {
+      "url": "https://browser-use.com/posts/claude-fable-browser-agent-benchmark",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Browser Use ran Claude Fable 5 on 100 BU Bench V1 browser-agent tasks, reporting 80% pass, $580.87 API cost, 6m53s average task time, 16 incorrect failures, and four 30-minute timeouts."
+    },
+    {
+      "url": "https://github.com/FundLens-SG/illustration-studio/pull/5",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Fable co-authored an enterprise audit fix batch for illustration-studio after a 31-agent workflow found 15 confirmed issues, including a 1pp overstated IRR, cross-currency chart bugs, security hardening, and Windows CI parity."
+    },
+    {
+      "url": "https://github.com/adha9990/spotify_track_manager/pull/5",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Fable co-authored a draft Spotify track-manager cross-language duplicate detector using offline LaBSE embeddings, background generation guards, SQLite embedding cache, 169 backend tests, typecheck/lint, and multi-agent review."
+    },
+    {
+      "url": "https://github.com/brainfucknow/auctions-api-csharp/pull/1",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Claude Fable 5 co-authored a C# auction-api formal-verification sidecar with Verify attributes, Roslyn C#-to-Dafny skeleton generation, 42 proof obligations, Dafny 4.11 pinning, and a CI drift/verification workflow."
+    },
+    {
+      "url": "https://github.com/Jamnoran/kindred_backend/pull/5",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Claude Fable 5 co-authored and merged Kindred backend chat-image and presence infrastructure: quarantined uploads, private chat-media promotion, per-fetch match authorization, Redis presence ZSETs, and OpenAPI/client docs updates."
+    },
+    {
+      "url": "https://github.com/willianpsouza/ConfigurationCollector/pull/5",
+      "seen_at": "2026-07-03T15:36:57Z",
+      "summary": "Claude Code/Fable authored a Go LogBot daemon that tails skynet.log, classifies network events, alerts Telegram with severity routing and rate limits, and includes httptest/tail tests around 85% coverage."
     }
   ],
-  "last_run": "2026-07-03T14:33:20Z"
+  "last_run": "2026-07-03T15:36:57Z"
 }
