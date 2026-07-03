@@ -694,7 +694,37 @@
       "url": "https://github.com/ChelseaKR/tods-validate/pull/44",
       "seen_at": "2026-07-03T19:54:47Z",
       "summary": "Claude Fable 5 co-authored tods-validate baseline fingerprints for stable validation diffs, replacing tuple identities with SHA-256 hashes over machine-context data and proving a 500-finding row-shift case produces zero false new/fixed findings."
+    },
+    {
+      "url": "https://github.com/jpfry327/extreme_games_client_auth/pull/16",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 co-authored merged Extreme Games netcode fixes for dying-frame shots, malformed WebSocket frames, latency-based position age, and relay testability, raising tests from 71 to 92."
+    },
+    {
+      "url": "https://github.com/cascivo/cascivo/pull/121",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 audited Cascivo against a Trade Republic-style dashboard, specified missing chart/showcase work, then helped implement candlestick interactions, trading UI, simulation, screenshots, registry entries, and tests across 105 files."
+    },
+    {
+      "url": "https://github.com/lhotwll217/owner-operator/pull/19",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 extended Owner Operator active-thread scanning to pi, opencode, Antigravity, and Grok Build transcript formats, with parser assumptions documented and integration coverage for all four finders."
+    },
+    {
+      "url": "https://github.com/wata288-star/watapp/pull/2",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 co-authored a 53-file Machine Karte platform with web and mobile apps, QR machine records, inspection templates, bilingual certificates, company scoping, auth, and demo seed data."
+    },
+    {
+      "url": "https://github.com/gokhanbirsen1992-sketch/sunu-/pull/5",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 co-authored a merged MegaStat package covering broad statistical tests, corrections, Excel reports, CLI and Uvicorn web UI, Render setup, and seven deterministic tests."
+    },
+    {
+      "url": "https://github.com/PFranciscoRojas/clinic-system/pull/123",
+      "seen_at": "2026-07-03T20:59:37Z",
+      "summary": "Fable 5 repaired a clinic-system production smoke test after demo-tenant and API drift, updating current domain, health handling, staff_id, mental_exam, 204 approval handling, and reporting a full 10-step production pass."
     }
   ],
-  "last_run": "2026-07-03T19:54:47Z"
+  "last_run": "2026-07-03T20:59:37Z"
 }
