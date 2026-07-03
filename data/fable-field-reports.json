@@ -439,7 +439,32 @@
       "url": "https://github.com/inkline/inkline/pull/480",
       "seen_at": "2026-07-03T09:12:01Z",
       "summary": "Fable co-authored an Inkline claim-by-claim AGENTS/docs drift audit, correcting output paths, CLI realities, compiler metadata, coverage flows, and relative links across 21 files."
+    },
+    {
+      "url": "https://github.com/QingQiz/MarisaBot/pull/85",
+      "seen_at": "2026-07-03T10:16:09Z",
+      "summary": "Claude Fable 5 wrote a MarisaBot maimai title-card fix after a field-level audit of 2,990 titles, restoring missing difficulty/threshold fields for 14 titles, correcting 15 cumulative-play-count titles, and changing long condition rendering."
+    },
+    {
+      "url": "https://github.com/ManifoldKit/ManifoldKit/pull/2120",
+      "seen_at": "2026-07-03T10:16:09Z",
+      "summary": "Claude Fable 5 helped ManifoldKit move TranscriptHealer from a display-only path into the live generation path, fixing orphan tool-call transcripts that could still 400 cloud APIs after a host was killed mid-tool call, with regression tests."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1437",
+      "seen_at": "2026-07-03T10:16:09Z",
+      "summary": "SPARQ used Claude Fable 5 for a shadow-first change-based CI test-selection system spanning reusable selection workflows, fail-closed guards, feature-matrix filtering, summary-gate skipped semantics, and new selector tests."
+    },
+    {
+      "url": "https://github.com/zynax-io/zynax/pull/1588",
+      "seen_at": "2026-07-03T10:16:09Z",
+      "summary": "Claude Fable 5 assisted a merged Zynax test-only PR raising ADK adapter coverage above an 85% gate: internal/model coverage from 76.0% to 97.1%, overall 88.1% with race coverage, and strict golangci-lint clean."
+    },
+    {
+      "url": "https://github.com/manishjnv/DhanRadar/pull/434",
+      "seen_at": "2026-07-03T10:16:09Z",
+      "summary": "DhanRadar used Sonnet 5 to build and Fable 5 for line-by-line review of ledger-ingestion hardening: statement checkpoints, mismatch-without-mutation behavior, per-portfolio advisory locks, CAS statement-period parsing, RLS tests, and a least-privilege grant revision."
     }
   ],
-  "last_run": "2026-07-03T09:12:01Z"
+  "last_run": "2026-07-03T10:16:09Z"
 }
