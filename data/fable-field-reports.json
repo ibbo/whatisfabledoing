@@ -314,7 +314,27 @@
       "url": "https://github.com/yujmatsu/norishiro/pull/11",
       "seen_at": "2026-07-03T03:52:48Z",
       "summary": "Claude Fable 5 co-authored a Norishiro MCP server with six low-level SDK tools, rate limiting, sharded LRU cache, timezone and stop-name handling, Cloud Run deployment, and T-MCP-01 through T-MCP-17 tests using Mizuho measured values."
+    },
+    {
+      "url": "https://www.coderabbit.ai/blog/fable-5-model-review",
+      "seen_at": "2026-07-03T04:57:32Z",
+      "summary": "CodeRabbit hands-on review reports Fable 5 nearly matching baseline/Opus 4.8 issue coverage on a 105-EP code-review benchmark but with lower precision and more comments, while autonomous coding tasks showed deeper builds and frequent timeout/cost risk."
+    },
+    {
+      "url": "https://github.com/jyang234/verdi-bench/pull/5",
+      "seen_at": "2026-07-03T04:57:32Z",
+      "summary": "Claude Fable 5 co-authored a Verdi-bench consolidated audit that independently re-verified critical/major/high findings across nine subsystem passes, confirmed most, reclassified one, surfaced four new material findings, and produced a P0-P3 register with remediation gates."
+    },
+    {
+      "url": "https://github.com/LukeSantossz/my-framework/pull/5",
+      "seen_at": "2026-07-03T04:57:32Z",
+      "summary": "Claude Fable 5 acted as controller and final whole-branch reviewer for a three-subagent maintenance batch in my-framework, closing seven deferred hardening items with 43 local tests and an independent clean pre-push review."
+    },
+    {
+      "url": "https://github.com/agtico/PfTerminal/pull/21",
+      "seen_at": "2026-07-03T04:57:32Z",
+      "summary": "PfTerminal PR adds Claude Fable 5 through both direct Anthropic API-key and Claude plan-auth routes, with provider/catalog/config/TUI tests plus live smoke calls returning PFT_FABLE_ANTFABLE_OK and PFT_FABLE_PLAN_OK."
     }
   ],
-  "last_run": "2026-07-03T03:52:48Z"
+  "last_run": "2026-07-03T04:57:32Z"
 }
