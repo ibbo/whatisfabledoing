@@ -384,7 +384,37 @@
       "url": "https://github.com/seanhodges/basically/pull/170",
       "seen_at": "2026-07-03T07:06:41Z",
       "summary": "Claude Fable 5 co-authored a Basically cross-browser hardening pass for Safari audio activation, Firefox/HTTP clipboard fallback, blocked-storage startup, AltGr shortcuts, file download/input attachment, and QA docs."
+    },
+    {
+      "url": "https://github.com/argoproj/argo-workflows/pull/16357",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Code with Claude Fable 5 helped analyze and fix Argo Workflows stale completed-workflow handling by replacing dead name-keyed completion checks and last-seen annotations with UID-keyed resourceVersion floors, with new regression tests and controller tests passing."
+    },
+    {
+      "url": "https://github.com/inside-ziwu/client-get/pull/21",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Code/Fable 5 generated a large quota-exhaustion cascade fix after an EngageLab balance outage misclassified 13,950 rejected queued emails and terminated 13,913 contact sequences, adding domain circuit breakers, defer-without-failure handling, dashboard scope fixes, Beijing-day quota windows, 43 new tests, and 20/20 dev-database smokes."
+    },
+    {
+      "url": "https://github.com/openstack-experimental/keystone/pull/905",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Fable 5 assisted an OpenStack Keystone passkey-start security fix that prevents user enumeration by returning stable HMAC-derived decoy WebAuthn credential IDs for missing users or users without passkeys."
+    },
+    {
+      "url": "https://github.com/mmannerm/animsmith/pull/9",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Fable 5 co-authored and merged Animsmith M3 validation checks for travel mode, frame-grid conformance, wrong-bind detection, and a research-grade foot-slide check against an analytic treadmill fixture."
+    },
+    {
+      "url": "https://github.com/aoprisan/Chess/pull/20",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Fable 5 co-authored and merged Chess PWA balance tooling that measures perk offered counts, pick rates, and win rates, with a 1000-game hard-mirror baseline showing RemoveEnemy at 48.5% of perk uses and seven conditional trigger perks combined at 0.6%."
+    },
+    {
+      "url": "https://github.com/osama-raddad/FireCrasher/pull/27",
+      "seen_at": "2026-07-03T08:10:57Z",
+      "summary": "Claude Fable 5 co-authored a FireCrasher 3.0.0 Kotlin API redesign that replaces callback classes with a fluent DSL, keeps crash-recovery behavior and persisted enum ordinals unchanged, regenerates ABI baselines, migrates tests, and updates docs."
     }
   ],
-  "last_run": "2026-07-03T07:06:41Z"
+  "last_run": "2026-07-03T08:10:57Z"
 }
