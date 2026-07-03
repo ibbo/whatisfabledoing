@@ -214,7 +214,42 @@
       "url": "https://github.com/mrjohnsonloomis/grammar/pull/5",
       "seen_at": "2026-07-03T00:34:42Z",
       "summary": "Claude Fable 5 co-authored the foundation pass for a grammar learning site, replacing in-copyright text, restoring public-domain passages, standardizing parts-of-speech data, adding MLA attributions, shared Jekyll layout/components, color tokens, and SCHEMA.md."
+    },
+    {
+      "url": "https://github.com/ruby/rubygems/pull/9618",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Claude Fable 5 co-authored RubyGems memory reductions for SafeMarshal and Bundler resolution, cutting full-index RSS from 573MB to 448MB and cold bundle-install RSS from 427MB to 360MB, with related merged fixes for trust-policy forwarding, plugin-source lockfile parsing, and cooldown resolution."
+    },
+    {
+      "url": "https://github.com/ruby/rubygems/pull/9611",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Claude Fable 5 co-authored a RubyGems security-policy forwarding fix for old-format MD5SUM gems, closing a path where -P/--trust-policy was silently ignored and verify became a no-op."
+    },
+    {
+      "url": "https://github.com/ruby/rubygems/pull/9621",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Claude Fable 5 co-authored a RubyGems 4.0.x backport allowing Bundler lockfiles with unloaded plugin sources to parse via an inert placeholder, with tests."
+    },
+    {
+      "url": "https://github.com/ruby/rubygems/pull/9619",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Claude Fable 5 co-authored a Bundler cooldown-resolution fix so locked versions remain exempt across update paths rather than producing empty candidate sets."
+    },
+    {
+      "url": "https://github.com/simonw/datasette/pull/2803",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Simon Willison merged a Claude Fable 5 co-authored Datasette PR turning template context variables into documented dataclass/manifest contracts, generating docs and adding tests that fail on undocumented additions or removals."
+    },
+    {
+      "url": "https://github.com/sanskrit-lexicon/MWS/pull/223",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Claude Fable 5 adjudicated 146 disagreement rows across 115 Monier-Williams Sanskrit dictionary records, producing a 200-record gold file and measured detector scores of macro precision 0.860, recall 0.870, F1 0.876, and mean kappa 0.817."
+    },
+    {
+      "url": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
+      "seen_at": "2026-07-03T01:43:27Z",
+      "summary": "Pluventi reports using Claude Fable 5 to write 100% of a ComfyUI Ideogram prompt-builder replacement, adding freehand regions, bucket fill, layer management, editing tools, z-order controls, prompt panels, background images, and undo/redo, while noting the GUI code still needs developer cleanup."
     }
   ],
-  "last_run": "2026-07-03T00:34:42Z"
+  "last_run": "2026-07-03T01:43:27Z"
 }
