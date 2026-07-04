@@ -1059,7 +1059,37 @@
       "url": "https://github.com/oghenenoghie/oghie-kwd-store/pull/5",
       "seen_at": "2026-07-04T10:06:35Z",
       "summary": "oghie-kwd-store merged a Fable-authored Vitest/RTL suite and CI fix after production registration and footer-link regressions, with lint/typecheck and 17 tests passing."
+    },
+    {
+      "url": "https://github.com/block/cachew/pull/383",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Claude Fable 5 co-authored a cachew S3 metadata rewrite from lock-serialized JSON objects to an append-only journal with canonical replay, leaderless compaction, one-PUT writes, and 391 lines of S3 internal tests."
+    },
+    {
+      "url": "https://github.com/albinati/home-energy-manager/pull/632",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Fable 5 co-authored home-energy-manager dispatch changes using Fox Backup mode for negative-price holds, based on 35 days / 15,232 production samples, then fixed five adversarial-review findings with invariant tests."
+    },
+    {
+      "url": "https://github.com/LWCW-Europe/schellingboard/pull/527",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Schellingboard’s mixed Opus/Fable admin stack culminates in Fable 5 commits adding server-side pagination/search for locations, proposals, and sessions, with hundreds of new E2E/integration test lines and Qodo review findings."
+    },
+    {
+      "url": "https://github.com/checked0ut/streaming-recommendations/pull/1",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Fable 5 co-authored a streaming-recommendations app migration from clipboard/data.json workflow to Supabase auth, RLS-protected per-user tables, replacement Edge Function, Google sign-in, and a keepalive workflow."
+    },
+    {
+      "url": "https://github.com/EvanPark77/tradingagents/pull/1",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Fable 5 authored a Korean-market swing-trading module with premarket regime scoring, risk controls, paper/KIS broker adapter, backtesting, scheduler, optional LLM bridge, and 20 offline tests."
+    },
+    {
+      "url": "https://github.com/jappyjan/plaudern/pull/39",
+      "seen_at": "2026-07-04T11:09:25Z",
+      "summary": "Fable 5 co-authored a plaudern refactor removing the local speaker-id ML sidecar, standardizing on hosted ElevenLabs/pyannoteAI paths, moving clip extraction in-process, dropping embedding columns, and widening CI coverage."
     }
   ],
-  "last_run": "2026-07-04T10:06:35Z"
+  "last_run": "2026-07-04T11:09:25Z"
 }
