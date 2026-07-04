@@ -1199,7 +1199,37 @@
       "url": "https://github.com/maadjiba24-afk/Olympus-/pull/102",
       "seen_at": "2026-07-04T15:26:00Z",
       "summary": "Olympus has a large Fable-authored hardening and agent-tooling branch whose first commit closes a concrete SSRF gap: hostnames were validated at resolve time, but sockets could re-resolve before connect and hit a rebinding-controlled IP. The fix validates every resolved address, returns the exact pinned IP to dial, keeps HTTPS SNI and certificate checks bound to the original host, and adds regressions for mixed records, pin-the-dial behavior, and record flips. The same branch adds bounded code-navigation tools, diff-previewed edits, dynamic tool selection, teacher escalation, a deep-research pipeline, search-provider fallbacks, GitHub skill import, `ask_user`, and email-style drafting, with 2,988 additions across implementation and focused tests."
+    },
+    {
+      "url": "https://github.com/LikunYDev/ccbot/pull/5",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "Merged ccbot PR uses Fable 5 after a 16-lens review found 38 root causes and 12 blockers, rewriting delivery around ack-gated offsets, tmux verification, supervised loops, and 583 passing tests."
+    },
+    {
+      "url": "https://github.com/ai4curation/ai-gene-review/pull/1681",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "Open ai4curation PR uses Fable 5 to turn a pathway-satisfiability project into methods/background pages, marimo/static demos, and live-engine-derived biology figures with explicit caveats about schematic projections."
+    },
+    {
+      "url": "https://github.com/jyang234/verdi-bench/pull/21",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "Open verdi-bench PR uses Fable 5 to add observability, operator/reviewer/authoring UIs, trajectory detail, forensics, bundles, and schema-lineage reconciliation while preserving ledger contracts and reporting 725 tests passing."
+    },
+    {
+      "url": "https://github.com/mcull/stufflibrary/pull/394",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "Stuff Library PR documents a Fable 5 production browser walkthrough from signup to empty shelf, producing 16 verified UX findings including four conflicting names for one place and concrete copy/mechanics issues."
+    },
+    {
+      "url": "https://github.com/projectops360-alt/projectops360/pull/116",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "ProjectOps360 PR uses Fable 5 to introduce a two-browser Playwright realtime E2E plus CI-safe selector/spec guards, verifying task-status updates propagate to Workboard and Living Graph without reload."
+    },
+    {
+      "url": "https://github.com/cxad1100/investment-monitor/pull/1",
+      "seen_at": "2026-07-04T16:29:44Z",
+      "summary": "investment-monitor PR uses Fable 5 to add a volatility-forecasting lab with strict t-to-t+1 forecasters, evaluation/reporting, vol-managed variants, and 19 new tests including no-look-ahead properties."
     }
   ],
-  "last_run": "2026-07-04T15:26:00Z"
+  "last_run": "2026-07-04T16:29:44Z"
 }
