@@ -979,7 +979,32 @@
       "url": "https://github.com/kunalsuri/ai-fication-kit/pull/23",
       "seen_at": "2026-07-04T06:39:14Z",
       "summary": "ai-fication-kit PR uses Claude Fable 5 to add a durable AI engineering loop with WORKLOG verification, /fix-bug and /review-change workflows across four tool integrations, dogfooding artifacts, and 347/347 tests green."
+    },
+    {
+      "url": "https://www.sonarsource.com/blog/claude-fable-5-built-a-java-module-in-13-minutes/",
+      "seen_at": "2026-07-04T07:40:39Z",
+      "summary": "Sonar tested Claude Code with Fable 5 on gctoolkit: 1,222 lines in about 13 minutes, but SonarQube Cloud failed the PR for a HIGH-severity insecure temporary-directory issue and insufficient coverage."
+    },
+    {
+      "url": "https://github.com/apache/kafka/pull/22755",
+      "seen_at": "2026-07-04T07:40:39Z",
+      "summary": "Claude Fable 5 co-authored Kafka PR KAFKA-20769, changing ListDeserializer to use readFully so truncated mid-entry payloads throw instead of becoming zero-padded corrupted values, with a regression test and local checks."
+    },
+    {
+      "url": "https://github.com/BMichal93/AshAndEmber/pull/165",
+      "seen_at": "2026-07-04T07:40:39Z",
+      "summary": "Claude Fable 5 co-authored an AshAndEmber audit PR fixing 84-day-year math, double-charged aging, lost magic talent effects, save-state leaks, cooldown units, and startup guards across 19 files with tests."
+    },
+    {
+      "url": "https://github.com/lumina-ooo/tilo/pull/222",
+      "seen_at": "2026-07-04T07:40:39Z",
+      "summary": "Claude Fable 5 co-authored Tilo frontend auth fixes: token-bearing dataset activation, single-flight JWT refresh on 401, stale activation labels, admin/dashboard request race guards, and new tests across 15 files."
+    },
+    {
+      "url": "https://github.com/TeeDDub/random-picker/pull/5",
+      "seen_at": "2026-07-04T07:40:39Z",
+      "summary": "Claude Fable 5 co-authored random-picker design and plan for a Google Sheets category-combination mode, implemented across 15 files with Vitest tests and build validation."
     }
   ],
-  "last_run": "2026-07-04T06:39:14Z"
+  "last_run": "2026-07-04T07:40:39Z"
 }
