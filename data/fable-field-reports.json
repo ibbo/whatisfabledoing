@@ -1089,7 +1089,32 @@
       "url": "https://github.com/jappyjan/plaudern/pull/39",
       "seen_at": "2026-07-04T11:09:25Z",
       "summary": "Fable 5 co-authored a plaudern refactor removing the local speaker-id ML sidecar, standardizing on hosted ElevenLabs/pyannoteAI paths, moving clip extraction in-process, dropping embedding columns, and widening CI coverage."
+    },
+    {
+      "url": "https://github.com/teamchong/pxpipe",
+      "seen_at": "2026-07-04T12:14:48Z",
+      "summary": "pxpipe is a local Claude Code proxy that renders bulky request context as PNGs; its README reports Fable 5 reading 48k-character image pages, finishing a 39-file token-count/ledger demo at $6.06 versus $42.21 text-only, with explicit caveats about lossy exact-value OCR."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/689",
+      "seen_at": "2026-07-04T12:14:48Z",
+      "summary": "Mitos PR uses Claude Fable 5 to replace a zero live-usage stub with a Kubernetes-backed sandbox replica counter and to route console billing suspensions into the shared gateway kill-switch store."
+    },
+    {
+      "url": "https://github.com/nickybu/dj-utils/pull/1",
+      "seen_at": "2026-07-04T12:14:48Z",
+      "summary": "Claude Fable 5 co-authored DROSTE, a 1,700-line WebGL2 VJ tool with beat clock, microphone beat detection, MIDI-learned parameters, Droste/Escher infinite zoom, presets, and export/import."
+    },
+    {
+      "url": "https://github.com/BKodeerts/portfolio-tracker/pull/22",
+      "seen_at": "2026-07-04T12:14:48Z",
+      "summary": "Claude Fable 5 co-authored and merged a portfolio-tracker frontend revamp with shared chart/activity/allocation components and a fix clipping 1D portfolio series to market open."
+    },
+    {
+      "url": "https://github.com/medewitt/ideeep/pull/12",
+      "seen_at": "2026-07-04T12:14:48Z",
+      "summary": "Claude Fable 5 co-authored and merged an ideeep math-rendering fix that prevents KaTeX tilde accents from being reparsed by pulldown-cmark as GFM strikethrough tags."
     }
   ],
-  "last_run": "2026-07-04T11:09:25Z"
+  "last_run": "2026-07-04T12:14:48Z"
 }
