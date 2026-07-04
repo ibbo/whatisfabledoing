@@ -26,7 +26,7 @@ The collector is the Hermes cron job `Claude Fable field reports` on the Mac min
 
 ## Website
 
-`index.html` at the repo root is the whole site — a static page that fetches and parses `data/fable-field-reports.md` (and reads `last_run` from the JSON) in the browser, so there is no build step. Served by GitHub Pages at `whatisfabledoing.com`. Preview locally with `python3 -m http.server` from the repo root.
+`index.html` at the repo root is the whole site — a static page that fetches and parses `data/fable-field-reports.md` (and reads `last_run` from the JSON) in the browser, so there is no build step. Served by GitHub Pages at `whatisfabledoing.com`, deployed on every push to main by `.github/workflows/static.yml` (Pages source is set to "GitHub Actions"; the legacy branch builder was dropped in July 2026 after repeated transient deploy failures). Preview locally with `python3 -m http.server` from the repo root.
 
 ## Votes
 
