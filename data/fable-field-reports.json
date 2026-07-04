@@ -894,7 +894,37 @@
       "url": "https://github.com/jyang234/verdi-go/pull/98",
       "seen_at": "2026-07-04T03:24:51Z",
       "summary": "Fable co-authored a verdi-go design audit that found shipped schema conformance failures rejecting spec-compliant claims files with unknown field id, then split Phase 3 into conformance and --focus graph workstreams."
+    },
+    {
+      "url": "https://github.com/prasincs/formal-verification-experiments/pull/28",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "Fable-authored secure-agent OS update-capsule PR adds a no-std Rust parser/verification pipeline, CLI, golden vectors, corruption tests, fuzz targets, CI, and reports 23.6M parse / 1.7M verify fuzz executions with Verus proof still pending."
+    },
+    {
+      "url": "https://github.com/iamfatness/CoreVideoPro/pull/165",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "CoreVideoPro Fable PR wires engine audio-routing sends into the WinUI grid, fixes select-vs-remove route behavior, preserves in-flight gain edits, and reports 245 MediaCore and 444 WinUI tests passing."
+    },
+    {
+      "url": "https://github.com/paulhkang94/markview/pull/36",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "MarkView merged a Fable co-authored CI optimization fixing a macOS SwiftPM cache path, Playwright/npm caching, duplicate guard workflow runs, and extended cache keys, estimating 30–60s typical savings plus a 2m31s skip on non-rendering PRs."
+    },
+    {
+      "url": "https://github.com/daniel-daga/daedalus-dialog-suite/pull/207",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "Daedalus Dialog Suite Fable PR upgrades Electron 29 to 43 and electron-builder 26, removes version-pin drift, adds a Playwright smoke, and reports 131 Jest suites / 893 tests plus typecheck, builds, and lint green."
+    },
+    {
+      "url": "https://github.com/nimbus/nimbus/pull/97",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "Nimbus PR used Fable for design/review/closeout of true bounded range reads, encrypted partial-span auth, filesystem hardening, and lazy object opens, with 216 crate tests plus fmt/clippy/deny/make gates and BRH 5/5 verifiers green."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/pull/12731",
+      "seen_at": "2026-07-04T04:27:18Z",
+      "summary": "elizaOS merged a Fable-authored embeddings billing fix that bypasses optimistic fast paths for affiliate-marked requests, closing a base-cost-only admission hole; mutation-verified tests and all 29 embeddings tests passed."
     }
   ],
-  "last_run": "2026-07-04T03:24:51Z"
+  "last_run": "2026-07-04T04:27:18Z"
 }
