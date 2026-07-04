@@ -844,7 +844,32 @@
       "url": "https://github.com/classifyre/classifyre/pull/165",
       "seen_at": "2026-07-04T01:18:17Z",
       "summary": "classifyre’s Fable co-authored harness PR adds token, cost, and duration accounting across Claude/OpenAI/Gemini providers, schema retries, AgentRun persistence, API usage buckets, and a UI Usage tab."
+    },
+    {
+      "url": "https://github.com/tv-labs/spake2/pull/1",
+      "seen_at": "2026-07-04T02:21:05Z",
+      "summary": "Fable co-authored SPAKE2 cryptographic hardening: BoringSSL-matching Ed25519 decode normalization, robust confirmation-token errors, secret redaction/scrubbing, SRI hashes, and expanded tests."
+    },
+    {
+      "url": "https://github.com/berensp/berensp.github.io/pull/2411",
+      "seen_at": "2026-07-04T02:21:05Z",
+      "summary": "Fable co-authored a Strava GitHub Actions fix that removed a failing gh secret write which leaked refreshed access tokens in public logs, added token masking, and improved API error handling."
+    },
+    {
+      "url": "https://github.com/GCagent/nobleport.etf/pull/110",
+      "seen_at": "2026-07-04T02:21:05Z",
+      "summary": "Fable co-authored Nobleport contract and trust-engine backend work: signed proposals become immutable contract records, change orders roll up separately, evidence-object verification was added, and 151 tests passed."
+    },
+    {
+      "url": "https://github.com/daniel-daga/daedalus-dialog-suite/pull/206",
+      "seen_at": "2026-07-04T02:21:05Z",
+      "summary": "Fable co-authored a Daedalus Dialog Suite editor performance/correctness slice: abort-safe ingestion, parse deduplication, category-stable merges, narrower React subscriptions, perf fixtures, and many regression tests."
+    },
+    {
+      "url": "https://github.com/UDbean125/HighRise/pull/5",
+      "seen_at": "2026-07-04T02:21:05Z",
+      "summary": "Fable co-authored eight HighRise mail-merge features with unit tests: fallbacks, worksheet picker, duplicate blocking, test sends, throttling, CC/BCC, suppression list, and attachments, while documenting Reply-To transport limits."
     }
   ],
-  "last_run": "2026-07-04T01:18:17Z"
+  "last_run": "2026-07-04T02:21:05Z"
 }
