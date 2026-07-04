@@ -949,7 +949,37 @@
       "url": "https://github.com/quillmark-org/quillmark/pull/802",
       "seen_at": "2026-07-04T05:29:11Z",
       "summary": "Quillmark used a Claude Fable 5 friction report from migrating a web app onto unreleased LiveSession/regions APIs to surface plate_file cutover breakage, weak region coverage, document lifetime hazards, missing warnings, stale version stamping, and later fieldAt/dirty-page fixes."
+    },
+    {
+      "url": "https://github.com/rorydavidson/quorum/pull/5",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "Quorum merged a Claude Fable 5 co-authored governance-portal XSS fix covering sanitized rich text, URL scheme filtering, Zod validation for event doc URLs, and 252 lines of route tests."
+    },
+    {
+      "url": "https://github.com/laurent-altr/OpenRadioss/pull/161",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "OpenRadioss PR fixes a Claude Fable 5-authored GPU shell-offload bug where no-contact decks skipped kernels, produced zero shell forces, and collapsed DT2T; adds launch, reduction, fallback, diagnostics, and workflow docs."
+    },
+    {
+      "url": "https://github.com/py-typedlogic/py-typedlogic/pull/52",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "py-typedlogic PR uses Claude Fable 5 to fix Z3/prover behavior around NegationAsFailure, add Clark completion, and cover a five-line repro with new CLI, solver, and transformation tests."
+    },
+    {
+      "url": "https://github.com/kclejeune/slinky/pull/10",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "Slinky PR has four Claude Fable 5 commits adding missing CLI commands, daemon reload, trust audit, status JSON, secret-read audit trail, scoped exec, cache warming, custom delimiters, and fnox/secretspec/1Password integrations across 47 files."
+    },
+    {
+      "url": "https://github.com/Wrexist/DeepLifeSimulator/pull/47",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "DeepLifeSimulator PR uses Claude Fable 5 to root-cause about 16 player issues and implement fixes across family, notifications, events, disease balance, banking, dating, company economy, and save migration with targeted tests."
+    },
+    {
+      "url": "https://github.com/kunalsuri/ai-fication-kit/pull/23",
+      "seen_at": "2026-07-04T06:39:14Z",
+      "summary": "ai-fication-kit PR uses Claude Fable 5 to add a durable AI engineering loop with WORKLOG verification, /fix-bug and /review-change workflows across four tool integrations, dogfooding artifacts, and 347/347 tests green."
     }
   ],
-  "last_run": "2026-07-04T05:29:11Z"
+  "last_run": "2026-07-04T06:39:14Z"
 }
