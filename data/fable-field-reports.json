@@ -1029,7 +1029,37 @@
       "url": "https://github.com/erensevg/Cengel/pull/1",
       "seen_at": "2026-07-04T08:53:40Z",
       "summary": "Fable authored a 3,929-line Three.js Turkish çengel bulmaca game with verified generated boards, 3D canvas cells, Turkish keyboard support, mobile keyboard, WebAudio effects, and offline vendored Three.js."
+    },
+    {
+      "url": "https://github.com/Loideroi/championz-pr3dict0r/pull/5",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "Championz Pr3dict0r merged a Fable co-authored contract upgrade and oracle relayer with 18 contract tests, 53 relayer tests, live dry-run fixes, and a staging cron for July fixtures."
+    },
+    {
+      "url": "https://github.com/banksad/statsfinder/pull/46",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "statsfinder Fable PR adds a thin FastMCP stdio server over /v1 API endpoints, with .mcp.json discovery, docs, filters, and a real stdio smoke test for pass-through and error behavior."
+    },
+    {
+      "url": "https://github.com/pvshkng/oto/pull/39",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "oto Fable PR optimizes multi-track layout and playback by avoiding repeated track layout, off-screen rendering, per-note AudioParam writes, global playhead invalidations, and per-pointer autosaves."
+    },
+    {
+      "url": "https://github.com/RafPe/pod-certificate-signer/pull/18",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "pod-certificate-signer Fable PR fixes controller races, concurrency/config/RBAC mismatches, unverifiedUserAnnotations parsing, CA rotation behavior, and adds tests across reconciliation and trust-bundle paths."
+    },
+    {
+      "url": "https://github.com/nexzitar/delvers/pull/5",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "Delvers Fable PR implements spatial combat primitives with headless tests and adopts a procedural 3D Godot theater with poseable low-poly actors, prototype scenes, and verified GIF renders."
+    },
+    {
+      "url": "https://github.com/oghenenoghie/oghie-kwd-store/pull/5",
+      "seen_at": "2026-07-04T10:06:35Z",
+      "summary": "oghie-kwd-store merged a Fable-authored Vitest/RTL suite and CI fix after production registration and footer-link regressions, with lint/typecheck and 17 tests passing."
     }
   ],
-  "last_run": "2026-07-04T08:53:40Z"
+  "last_run": "2026-07-04T10:06:35Z"
 }
