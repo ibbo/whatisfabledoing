@@ -1304,7 +1304,37 @@
       "url": "https://github.com/gautierbureau/energnn/pull/1",
       "seen_at": "2026-07-04T19:40:29Z",
       "summary": "Claude Fable 5 co-authored Energnn performance work moving LinearSystem batch construction off JAX, using lax.scan for recurrent coupling, removing unnecessary syncs and repeated graph-stat computations, with reported CPU quick-start improvements from 413ms to 7ms batch generation and 19.2s to 6.0s warmup."
+    },
+    {
+      "url": "https://x.com/Deep_Burner/status/2073469052089946277",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "Deep_Burner added claude-fable-5 high to Surface Evolver Bench: 14/16 pass, 0.95 score, 933k tokens, ahead of GPT-5.5 high at 12/16 and 0.88."
+    },
+    {
+      "url": "https://yhenon.github.io/surface-evolver-llm-eval/",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "Surface Evolver Bench public charts show claude-fable-5 high leading the custom physics-datafile benchmark with 14/16 pass, 0.95 score, and lower token use than GPT-5.5 high."
+    },
+    {
+      "url": "https://x.com/mrZeku2000x/status/2073496612593143958",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "mrZeku2000x reports Fable 5 read Kaspa/Toccata docs, generated, compiled, and deployed XMSS covenant scripts to Kaspa mainnet."
+    },
+    {
+      "url": "https://github.com/mrzeku2000XTTT/kaspa-xmss-covenants",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "Kaspa XMSS covenants repo documents mainnet-deployed and spent post-quantum covenant scripts with transaction proofs and explicit limitations."
+    },
+    {
+      "url": "https://github.com/redasgard/quantum-shield/pull/1",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "Claude Fable 5 co-authored quantum-shield rewrite deleting ineffective security theater and adding X25519+ML-KEM-1024 KEM, Ed25519+ML-DSA-87 signatures, CI, no_std/MSRV checks, and readiness docs."
+    },
+    {
+      "url": "https://github.com/krishgok/mcp-api-translator/pull/9",
+      "seen_at": "2026-07-04T20:46:44Z",
+      "summary": "Claude Fable 5 co-authored mcp-api-translator roadmap branch adding machine-readable tool catalogs, OAuth2 refresh grant, auth/base-URL namespacing, FastMCP Python output, and HTTP serving with green checks."
     }
   ],
-  "last_run": "2026-07-04T19:40:29Z"
+  "last_run": "2026-07-04T20:46:44Z"
 }
