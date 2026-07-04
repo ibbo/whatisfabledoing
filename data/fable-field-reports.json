@@ -814,7 +814,37 @@
       "url": "https://github.com/TheWeirdDev/libfprint/pull/5",
       "seen_at": "2026-07-04T00:11:54Z",
       "summary": "Fable co-authored libfprint Goodix 55b4 driver fix using frame-diff finger-release detection, deactivate poll cancellation, and measured thresholds verified on Lenovo hardware."
+    },
+    {
+      "url": "https://tolmo.com/blog/when-the-model-writes-the-kernel/",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "Tolmo reports Fable 5 taking an empty directory to a booting NT-shaped Rust kernel core in 38 active minutes, touching 43 files and ~5,100 lines, with QEMU self-tests and documented self-debugged kernel bugs."
+    },
+    {
+      "url": "https://github.com/PatientTrac/patienttrac-companion/pull/5",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "PatientTrac merged Fable-review safety fixes so unknown convertible medical units are skipped rather than mislabeled, malformed lab bounds cannot mark abnormal results normal, and 10 regressions pass with 166 tests green."
+    },
+    {
+      "url": "https://github.com/psaab/xpf/pull/3914",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "xpf merged a Fable-review fix preventing syn_cookie_master_key from being serialized into world-readable state.json, with an audit of related secrets and red-on-revert serialization tests."
+    },
+    {
+      "url": "https://github.com/yeferson59/gofinance/pull/5",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "gofinance merged a Fable co-authored test rewrite that replaced tautological finance assertions and loose tolerances with independently computed closed-form values, finding no production-code changes needed."
+    },
+    {
+      "url": "https://github.com/Skyworks-Neo/nvoc/pull/225",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "nvoc’s Fable co-authored audit PR hardens self-hosted GPU CI against unreviewed fork reruns, adds 35 existing optimizer tests to CI, and introduces Dependabot plus cargo-audit, pip-audit, and actionlint checks."
+    },
+    {
+      "url": "https://github.com/classifyre/classifyre/pull/165",
+      "seen_at": "2026-07-04T01:18:17Z",
+      "summary": "classifyre’s Fable co-authored harness PR adds token, cost, and duration accounting across Claude/OpenAI/Gemini providers, schema retries, AgentRun persistence, API usage buckets, and a UI Usage tab."
     }
   ],
-  "last_run": "2026-07-04T00:11:54Z"
+  "last_run": "2026-07-04T01:18:17Z"
 }
