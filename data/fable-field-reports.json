@@ -869,7 +869,32 @@
       "url": "https://github.com/UDbean125/HighRise/pull/5",
       "seen_at": "2026-07-04T02:21:05Z",
       "summary": "Fable co-authored eight HighRise mail-merge features with unit tests: fallbacks, worksheet picker, duplicate blocking, test sends, throttling, CC/BCC, suppression list, and attachments, while documenting Reply-To transport limits."
+    },
+    {
+      "url": "https://github.com/goccy/wasm2go/pull/17",
+      "seen_at": "2026-07-04T03:24:51Z",
+      "summary": "Fable co-authored a wasm2go compiler robustness fix for constant width conversions that otherwise emitted invalid amd64 extends; regenerated bundles stayed byte-identical and amd64/arm64 tests plus lint passed."
+    },
+    {
+      "url": "https://github.com/ronnie3786/cmux-orchestrator/pull/1",
+      "seen_at": "2026-07-04T03:24:51Z",
+      "summary": "Fable co-authored a cmux-orchestrator live-control update adding SSE state, approval-gated kill/restart tools, real session UI, Activity/History views, and 553 Python/24 sidecar/19 frontend tests passing."
+    },
+    {
+      "url": "https://github.com/eminogrande/judicative/pull/1",
+      "seen_at": "2026-07-04T03:24:51Z",
+      "summary": "Fable co-authored judicative’s stricter evaluation harness, MCP self-test server, and blind-panel workflow; its first self-test scored 46.36 fail, a second pass scored 89.55 pass, and three blind judges agreed on the ranking."
+    },
+    {
+      "url": "https://github.com/NickDarvey/Ylmish/pull/126",
+      "seen_at": "2026-07-04T03:24:51Z",
+      "summary": "Fable co-authored Ylmish characterization tests pinning Yjs and Adaptify semantics from a redesign plan, including IndexList delta behavior and key-stable HashMap contrast, across 655 additions."
+    },
+    {
+      "url": "https://github.com/jyang234/verdi-go/pull/98",
+      "seen_at": "2026-07-04T03:24:51Z",
+      "summary": "Fable co-authored a verdi-go design audit that found shipped schema conformance failures rejecting spec-compliant claims files with unknown field id, then split Phase 3 into conformance and --focus graph workstreams."
     }
   ],
-  "last_run": "2026-07-04T02:21:05Z"
+  "last_run": "2026-07-04T03:24:51Z"
 }
