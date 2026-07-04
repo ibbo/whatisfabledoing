@@ -1229,7 +1229,37 @@
       "url": "https://github.com/cxad1100/investment-monitor/pull/1",
       "seen_at": "2026-07-04T16:29:44Z",
       "summary": "investment-monitor PR uses Fable 5 to add a volatility-forecasting lab with strict t-to-t+1 forecasters, evaluation/reporting, vol-managed variants, and 19 new tests including no-look-ahead properties."
+    },
+    {
+      "url": "https://github.com/josephdviviano/darkness/pull/3",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "Claude Fable 5 co-authored a Darkness Steam Audio hot-path fix that split duplicated voice/slot direct-source work, cutting direct_sim from 9.616ms to 5.254ms p50 and 11.204ms to 5.636ms p99 with 51,785 assertions passing."
+    },
+    {
+      "url": "https://github.com/KevinGriffin-new/opencad-landsurvey-plugin/pull/5",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "OpenCAD land-survey plugin merged Fable co-authored DWG persistence, surface rebuild, and strict transform-input validation work, later live-verified on OCS v0.7.4 with 57 tests passing."
+    },
+    {
+      "url": "https://github.com/finsavvyai/opensyber-mcp-watch/pull/5",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "Fable-authored opensyber-mcp-watch 0.3.0 added stdio MCP transport, JSON/webhook/GitHub Action outputs, and verified poisoned-server CI failure behavior with 71 tests passing."
+    },
+    {
+      "url": "https://github.com/mauriciobc/SAIUGOL/pull/5",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "SAIUGOL merged a Fable-labeled football bot update adding configurable team copy, ESPN standings/stats parsing, crest media attachments, daily digests, pre-match previews, mention replies, and 172 reported tests."
+    },
+    {
+      "url": "https://github.com/drufball/skylark/pull/109",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "Skylark Fable 5 co-authored PR decouples issues from origin chats, adds a chat CLI so agents route updates themselves, and fixes a migration-replay boundary bug surfaced by the schema change."
+    },
+    {
+      "url": "https://github.com/gautierbureau/powsybl-network-viewer/pull/1",
+      "seen_at": "2026-07-04T17:33:31Z",
+      "summary": "Claude Fable 5 co-authored powsybl-network-viewer performance work replacing nested scans, per-edge DOM probes, repeated layout reads, and whole-tree hover queries in grid map and diagram viewers."
     }
   ],
-  "last_run": "2026-07-04T16:29:44Z"
+  "last_run": "2026-07-04T17:33:31Z"
 }
