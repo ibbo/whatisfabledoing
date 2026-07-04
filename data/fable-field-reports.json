@@ -1289,7 +1289,22 @@
       "url": "https://github.com/bwdrebing/Eden/pull/5",
       "seen_at": "2026-07-04T18:36:33Z",
       "summary": "Eden merged a compact Fable 5 co-authored rendering fix for jagged 2D panorama reflections. The old path rebuilt diagonal or curved painted regions as staircase pieces from elevation rows and azimuth column swaths, producing shredded slivers and clip-path hairlines; the new path samples a signed-distance field through the reflected-direction fields, contours it at zero, and stacks color regions as nested upper sets so smoothing cannot open background gaps. The PR also records practical rendering fixes discovered along the way: one-cell padding, pushing contours past the projected water outline, clipping to the trapezoid, and forcing an isolated buffer so antialiasing happens once against the composite."
+    },
+    {
+      "url": "https://github.com/simonw/sqlite-utils/pull/767",
+      "seen_at": "2026-07-04T19:40:29Z",
+      "summary": "Simon Willison used Claude Fable 5 for a sqlite-utils 4.0 pre-release review and follow-on fixes covering transaction rollbacks, migration atomicity, eager query execution, drop-table/drop-view safety, upsert validation, read-only migration listing, and regression tests across 1,505 additions."
+    },
+    {
+      "url": "https://github.com/accuser/bynk/pull/525",
+      "seen_at": "2026-07-04T19:40:29Z",
+      "summary": "Claude Fable 5 co-authored Bynk compiler fixes for a refined-regex input-validation bypass, missing handler diagnostics, indirect record-cycle stack overflow, type-relation gaps, and UTF-16 LSP offset handling, with new fixtures and behavior tests."
+    },
+    {
+      "url": "https://github.com/gautierbureau/energnn/pull/1",
+      "seen_at": "2026-07-04T19:40:29Z",
+      "summary": "Claude Fable 5 co-authored Energnn performance work moving LinearSystem batch construction off JAX, using lax.scan for recurrent coupling, removing unnecessary syncs and repeated graph-stat computations, with reported CPU quick-start improvements from 413ms to 7ms batch generation and 19.2s to 6.0s warmup."
     }
   ],
-  "last_run": "2026-07-04T18:36:33Z"
+  "last_run": "2026-07-04T19:40:29Z"
 }
