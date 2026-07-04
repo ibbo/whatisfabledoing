@@ -1114,7 +1114,37 @@
       "url": "https://github.com/medewitt/ideeep/pull/12",
       "seen_at": "2026-07-04T12:14:48Z",
       "summary": "Claude Fable 5 co-authored and merged an ideeep math-rendering fix that prevents KaTeX tilde accents from being reparsed by pulldown-cmark as GFM strikethrough tags."
+    },
+    {
+      "url": "https://github.com/gautierbureau/powsybl-diagram/pull/1",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored a powsybl-diagram performance pass over force layout, SVG formatting, edge grouping, voltage-level scans, and sort keys, preserving byte-identical reference SVG/JSON output."
+    },
+    {
+      "url": "https://github.com/callstack/agent-device/pull/1087",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored callstack/agent-device migration from rslib to tsdown/Rolldown, cutting build time from about 53s to about 2s while preserving package entry contracts."
+    },
+    {
+      "url": "https://github.com/mlaplante/LWD-Invoices/pull/93",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored LWD-Invoices dashboard and report performance work: org-tagged caches, per-request membership dedupe, SQL report aggregation, background year-end exports, and index verification."
+    },
+    {
+      "url": "https://github.com/superwizor/ai/pull/55",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored Superwizor billing fix for a live-tested MANUAL subscription reset bug, reactivating non-Stripe test subscriptions and minting missing counters inside an advisory-locked transaction."
+    },
+    {
+      "url": "https://github.com/andre-martiini/rsc-tae-ifes/pull/5",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored a merged RSC TAE IFES decree-conformance sweep, aligning rules and PDFs with Decreto 13.048/2026 and verifying 135 input/output checks plus E2E migration/package generation."
+    },
+    {
+      "url": "https://github.com/lamtuanvu/ldk-node/pull/5",
+      "seen_at": "2026-07-04T13:18:02Z",
+      "summary": "Claude Fable 5 co-authored ldk-node manual-route circular self-payment support behind a default-off cycles feature, with native preimages, PaymentKind::Rebalance records, and guarded inline self-claiming."
     }
   ],
-  "last_run": "2026-07-04T12:14:48Z"
+  "last_run": "2026-07-04T13:18:02Z"
 }
