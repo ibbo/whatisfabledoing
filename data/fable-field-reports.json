@@ -1354,7 +1354,12 @@
       "url": "https://github.com/gautierbureau/energnn/pull/5",
       "seen_at": "2026-07-04T21:50:55Z",
       "summary": "A follow-up Fable 5 PR to Energnn adds `enable_persistent_compilation_cache()`, a one-call wrapper around JAX’s on-disk compilation cache so XLA executables can survive fresh Python processes. The useful part is the boundary condition: the PR verifies across two fresh processes that backward executables and evaluation forwards cache-hit, while training-mode forwards that contain `io_callback` from `TDigestNormalizer` cannot be persisted and are documented as such. The quick-start Small model’s second-process first training step drops from 3.4s to 2.5s rather than pretending to remove all warmup cost, and the author reports the full 200-test suite passing."
+    },
+    {
+      "url": "https://github.com/ikigai-rs/ikigai-org/pull/5",
+      "seen_at": "2026-07-04T22:52:45Z",
+      "summary": "Claude Fable 5 co-authored an ikigai-org fix that parses Org-mode <start>--<end> ranges as one spanning event instead of two single-day stamps, preserving all-day/timed durations, repeaters, window-straddling ranges, and detail display, with CI passing."
     }
   ],
-  "last_run": "2026-07-04T21:50:55Z"
+  "last_run": "2026-07-04T22:52:45Z"
 }
