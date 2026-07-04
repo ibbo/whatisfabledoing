@@ -784,7 +784,37 @@
       "url": "https://github.com/EKINSOL-DEV/crewhub2/pull/13",
       "seen_at": "2026-07-03T23:09:21Z",
       "summary": "Crewhub2’s Fable co-authored camera-director milestone adds room/HQ framing, live robot follow cam, restore flights, and caught a blocker where Escape restored to the wrong camera snapshot."
+    },
+    {
+      "url": "https://github.com/KEGustafsson/vision-ai/pull/27",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable co-authored vision-ai MJPEG reconnect and marine-tracker stability work: part-boundary stream splicing, waterline re-id, track locks, DeepStream config fixes, docs, and tests."
+    },
+    {
+      "url": "https://github.com/hyperlink-academy/leaflet/pull/338",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable-authored Leaflet feed audit fixed malformed RSS link whitespace plus multiple RSS/Atom/JSON feed defects across filters, dates, cache, XML legality, and absolute assets."
+    },
+    {
+      "url": "https://github.com/CodeNameHash/precedent-machine/pull/63",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable co-authored Precedent Machine coverage-denominator fix for Kraft filing tail exclusion, raising fully extracted coverage from 59.6% to 89.2% with tests."
+    },
+    {
+      "url": "https://github.com/zmburr/backtester/pull/8",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable-authored backtester per-cap 3DGapFade gate fix raised labeled recall from 18/36 to 32/36 and recovered large-cap/ETF setups while reducing small/micro false positives."
+    },
+    {
+      "url": "https://github.com/tacitness/wmaker-ng/pull/73",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable co-authored wmaker-ng Rocky 8 packaging fix: glibc 2.28 RPM lane, EL8/EL9 dist tags, executable payload modes, and package mode gate verified in a 16-package container sim."
+    },
+    {
+      "url": "https://github.com/TheWeirdDev/libfprint/pull/5",
+      "seen_at": "2026-07-04T00:11:54Z",
+      "summary": "Fable co-authored libfprint Goodix 55b4 driver fix using frame-diff finger-release detection, deactivate poll cancellation, and measured thresholds verified on Lenovo hardware."
     }
   ],
-  "last_run": "2026-07-03T23:09:21Z"
+  "last_run": "2026-07-04T00:11:54Z"
 }
