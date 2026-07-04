@@ -1004,7 +1004,32 @@
       "url": "https://github.com/TeeDDub/random-picker/pull/5",
       "seen_at": "2026-07-04T07:40:39Z",
       "summary": "Claude Fable 5 co-authored random-picker design and plan for a Google Sheets category-combination mode, implemented across 15 files with Vitest tests and build validation."
+    },
+    {
+      "url": "https://github.com/fanis/headlines-neutralizer/pull/5",
+      "seen_at": "2026-07-04T08:53:40Z",
+      "summary": "Fable-authored headlines-neutralizer hardening fixed cross-browser userscript failures, surrogate handling, retry/billing loops, MutationObserver performance, cache cleanup, and shipped with 387 unit tests, four e2e tests, and a headless-Chromium smoke."
+    },
+    {
+      "url": "https://github.com/SuzukiDaishi/waves-previewer/pull/6",
+      "seen_at": "2026-07-04T08:53:40Z",
+      "summary": "Fable co-authored Waves Previewer FLAC support with Symphonia/flacenc, spec-correct STREAMINFO MD5, metadata carry-over, loop-marker sidecars, UI/installer updates, and format-support docs."
+    },
+    {
+      "url": "https://github.com/apache/kafka/pull/22756",
+      "seen_at": "2026-07-04T08:53:40Z",
+      "summary": "Claude Fable 5 co-authored Kafka KAFKA-20770, making LocalLeaderEndPoint return UNDEFINED_EPOCH instead of fabricated epoch 0 when the leader epoch cache cannot resolve an offset, with new concrete regression tests."
+    },
+    {
+      "url": "https://github.com/superwizor/ai/pull/48",
+      "seen_at": "2026-07-04T08:53:40Z",
+      "summary": "Fable co-authored Superwizor client-invite flow from a Flutter client-record sheet plus backend magic-link accept fixes for a pool deadlock and login fallback, with analyze/build evidence."
+    },
+    {
+      "url": "https://github.com/erensevg/Cengel/pull/1",
+      "seen_at": "2026-07-04T08:53:40Z",
+      "summary": "Fable authored a 3,929-line Three.js Turkish çengel bulmaca game with verified generated boards, 3D canvas cells, Turkish keyboard support, mobile keyboard, WebAudio effects, and offline vendored Three.js."
     }
   ],
-  "last_run": "2026-07-04T07:40:39Z"
+  "last_run": "2026-07-04T08:53:40Z"
 }
