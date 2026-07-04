@@ -924,7 +924,32 @@
       "url": "https://github.com/elizaOS/eliza/pull/12731",
       "seen_at": "2026-07-04T04:27:18Z",
       "summary": "elizaOS merged a Fable-authored embeddings billing fix that bypasses optimistic fast paths for affiliate-marked requests, closing a base-cost-only admission hole; mutation-verified tests and all 29 embeddings tests passed."
+    },
+    {
+      "url": "https://github.com/h2orules/Approach-Map/pull/2",
+      "seen_at": "2026-07-04T05:29:11Z",
+      "summary": "Claude Fable 5 co-authored an Approach-Map aviation layer adding CIFP-derived MSA/TAA parsing, terrain rendering, safe-altitude sector overlays, d-TPP chart metadata, selection guards, and a draggable FAA-style vertical profile panel across 56 files."
+    },
+    {
+      "url": "https://github.com/csm/clojurust/pull/260",
+      "seen_at": "2026-07-04T05:29:11Z",
+      "summary": "Claude Fable 5 authored clojurust Tier-1 promotion fixes so interpreter-special forms like method interop, Math/abs, (var f), and with-out-str no longer mislower to nil or missing globals after IR promotion."
+    },
+    {
+      "url": "https://github.com/ranjithbalank/hearth-backend/pull/17",
+      "seen_at": "2026-07-04T05:29:11Z",
+      "summary": "Claude Fable 5 co-authored Hearth backend/frontend operating tweaks after reservation and room-service flows: 15-minute reservation holds, lazy no-show refresh, low-stock to prefilled PO, aggregator net-realization reporting, delivered confirmation, 186 backend tests, tsc clean, and live app verification."
+    },
+    {
+      "url": "https://github.com/lhotari/pulsar/pull/231",
+      "seen_at": "2026-07-04T05:29:11Z",
+      "summary": "Apache Pulsar maintainer Lari Hotari used Claude Code with Fable 5 and Opus 4.8 agents on a large PIP-478 async auth/TLS SPI implementation branch, including TLS factory flip work, OAuth2/HTTP/SASL migration, proxy/admin/broker-client TLS paths, metrics, and Personal CI validation."
+    },
+    {
+      "url": "https://github.com/quillmark-org/quillmark/pull/802",
+      "seen_at": "2026-07-04T05:29:11Z",
+      "summary": "Quillmark used a Claude Fable 5 friction report from migrating a web app onto unreleased LiveSession/regions APIs to surface plate_file cutover breakage, weak region coverage, document lifetime hazards, missing warnings, stale version stamping, and later fieldAt/dirty-page fixes."
     }
   ],
-  "last_run": "2026-07-04T04:27:18Z"
+  "last_run": "2026-07-04T05:29:11Z"
 }
