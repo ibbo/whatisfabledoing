@@ -1144,7 +1144,37 @@
       "url": "https://github.com/lamtuanvu/ldk-node/pull/5",
       "seen_at": "2026-07-04T13:18:02Z",
       "summary": "Claude Fable 5 co-authored ldk-node manual-route circular self-payment support behind a default-off cycles feature, with native preimages, PaymentKind::Rebalance records, and guarded inline self-claiming."
+    },
+    {
+      "url": "https://github.com/simonw/datasette/pull/2824",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "Datasette PR by Simon Willison uses Fable to write a full JSON API reference and stability review, then implement canonical JSON success/error envelopes, extensible introspection endpoints, permission filtering, and tests."
+    },
+    {
+      "url": "https://github.com/hodakamori/megane/pull/556",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "Megane Fable PR rewrites cartoon ribbon playback to update buffers in place, adding a benchmark that reports 26.5ms to 10.9ms per frame plus a verified Vite vendor-chunk split."
+    },
+    {
+      "url": "https://github.com/marcelocantos/csp/pull/88",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "csp PR remediates a Fable 5 audit finding where sampled stack high-water data could select too-small arm64 stack slots, adding a differential test and reporting 757/757 ANALYSE=1 tests green."
+    },
+    {
+      "url": "https://github.com/rishabh-tripathi/blockdb/pull/1",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "BlockDB Fable PR fixes 32 Rust compile errors and turns the prototype into a running Hyper HTTP database with WAL durability, blockchain-backed consent events, Argon2id auth, CI, and 91 passing tests."
+    },
+    {
+      "url": "https://github.com/Automattic/blocks-engine/pull/491",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "Automattic blocks-engine PR uses Fable via opencode to decompose animated marketing sections into native blocks, reducing section core/html fallbacks from 12 to 0 and adding 225 editable blocks in the fixture matrix."
+    },
+    {
+      "url": "https://github.com/superwizor/ai/pull/59",
+      "seen_at": "2026-07-04T14:21:00Z",
+      "summary": "Superwizor Fable PR fixes a live-tested duplicate-role invitation failure, mapping a unique-constraint 500 to EMAIL_ALREADY_REGISTERED with bilingual UI copy and reported backend/site verification."
     }
   ],
-  "last_run": "2026-07-04T13:18:02Z"
+  "last_run": "2026-07-04T14:21:00Z"
 }
