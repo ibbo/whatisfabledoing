@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Vote API for whatisfabledoing.com. Stdlib only.
 
-GET  /votes -> {"<report url>": count, ...}
-POST /vote  {"reportId": "<report url>"} -> {"count": n, "voted": true|false}
+GET  /votes  -> {"<report url>": count, ...}
+POST /vote   {"reportId": "<report url>"} -> {"count": n, "voted": true|false}
+POST /unvote {"reportId": "<report url>"} -> {"count": n, "voted": false}
 
 One vote per report per voter key (sha256 of salt + client IP + user agent).
 Report ids are validated against the live report log so arbitrary ids can't
@@ -154,7 +155,7 @@ class Handler(BaseHTTPRequestHandler):
         self._send(200, {r: c for r, c in rows})
 
     def do_POST(self):
-        if self.path != "/vote":
+        if self.path not in ("/vote", "/unvote"):
             return self._send(404, {"error": "not found"})
         ip = self._ip()
         if rate_limited(ip, "post"):
@@ -167,20 +168,30 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(400, {"error": "bad request"})
         if not isinstance(report_id, str) or not (0 < len(report_id) <= 500):
             return self._send(400, {"error": "bad reportId"})
-        if report_id not in known_reports():
+        # Unvoting skips the known-report check: deleting a row for an id
+        # that no longer appears in the log is harmless and should work.
+        if self.path == "/vote" and report_id not in known_reports():
             return self._send(404, {"error": "unknown reportId"})
 
         ua = self.headers.get("User-Agent", "")
         voter_key = hashlib.sha256(f"{SALT}|{ip}|{ua}".encode()).hexdigest()[:16]
         with _db_lock, db() as conn:
-            cur = conn.execute(
-                "INSERT OR IGNORE INTO votes (report_id, voter_key) VALUES (?, ?)",
-                (report_id, voter_key),
-            )
+            if self.path == "/vote":
+                cur = conn.execute(
+                    "INSERT OR IGNORE INTO votes (report_id, voter_key) VALUES (?, ?)",
+                    (report_id, voter_key),
+                )
+                voted = cur.rowcount > 0
+            else:
+                conn.execute(
+                    "DELETE FROM votes WHERE report_id = ? AND voter_key = ?",
+                    (report_id, voter_key),
+                )
+                voted = False
             count = conn.execute(
                 "SELECT COUNT(*) FROM votes WHERE report_id = ?", (report_id,)
             ).fetchone()[0]
-        self._send(200, {"count": count, "voted": cur.rowcount > 0})
+        self._send(200, {"count": count, "voted": voted})
 
     def log_message(self, fmt, *args):
         print(f"{self._ip()} {fmt % args}", flush=True)

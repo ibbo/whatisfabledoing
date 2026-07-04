@@ -270,9 +270,9 @@ function votedSet() {
   catch { return new Set(); }
 }
 
-function markVoted(url) {
+function setVoted(url, voted) {
   const set = votedSet();
-  set.add(url);
+  if (voted) set.add(url); else set.delete(url);
   try { localStorage.setItem(VOTED_KEY, JSON.stringify([...set])); } catch { /* private mode */ }
 }
 
@@ -280,8 +280,8 @@ function applyVoteState(card, count, voted) {
   const btn = card.querySelector(".vote");
   btn.querySelector(".vote-count").textContent = count;
   btn.classList.toggle("voted", voted);
-  btn.disabled = voted;
-  btn.title = voted ? "You upvoted this report" : "Upvote this report";
+  btn.disabled = false;
+  btn.title = voted ? "Remove your upvote" : "Upvote this report";
 }
 
 let allSections = [];   // parsed, sections and entries both newest-first
@@ -322,17 +322,18 @@ function wireVotes() {
     card.querySelector(".vote").addEventListener("click", async (e) => {
       const btn = e.currentTarget;
       btn.disabled = true;
+      const removing = votedSet().has(url);
       try {
-        const res = await fetch(`${VOTES_API}/vote`, {
+        const res = await fetch(`${VOTES_API}/${removing ? "unvote" : "vote"}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ reportId: url }),
         });
         if (!res.ok) throw new Error(res.status);
         const data = await res.json();
-        markVoted(url);
+        setVoted(url, !removing);
         voteCounts[url] = data.count;
-        applyVoteState(card, data.count, true);
+        applyVoteState(card, data.count, !removing);
       } catch {
         btn.disabled = false;
       }
