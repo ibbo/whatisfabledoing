@@ -1334,7 +1334,27 @@
       "url": "https://github.com/krishgok/mcp-api-translator/pull/9",
       "seen_at": "2026-07-04T20:46:44Z",
       "summary": "Claude Fable 5 co-authored mcp-api-translator roadmap branch adding machine-readable tool catalogs, OAuth2 refresh grant, auth/base-URL namespacing, FastMCP Python output, and HTTP serving with green checks."
+    },
+    {
+      "url": "https://github.com/rekal-dev/rekal-cli/pull/5",
+      "seen_at": "2026-07-04T21:50:55Z",
+      "summary": "A merged Fable 5-authored Rekal CLI PR fixes silent corruption in the tool’s Git-backed session wire format. The old v1 frames stored turn, tool-call, checkpoint, and dictionary counts in one-byte or u16 fields, so a 300-turn session could decode as 44 turns and large agent teams could wrap the email namespace; the new v2 frames and dictionary use bounded varints while keeping small v1 frames readable by older binaries. The same branch carries harness metadata through sync, adds a `--re-export` repair path for already-corrupt derived branches, moves version notices off JSON stdout, fixes UTF-8 snippet boundaries and no-space panics, and merged with CI, lint, and license checks green."
+    },
+    {
+      "url": "https://github.com/glanzz/simq/pull/44",
+      "seen_at": "2026-07-04T21:50:55Z",
+      "summary": "A Fable 5 co-authored simq PR traces a numerical bug through several layers of a Rust quantum-simulation stack: cached RX/RZ and generated rotation lookups were returning the nearest grid matrix for generic angles, with errors up to about 3.3e-3 per gate and finite-difference gradients collapsing to zero. The fix makes caches exact-match-only unless an explicitly approximate path is requested, makes Clifford+T decomposition reject arbitrary angles instead of silently rounding by as much as π/8, enforces the advertised rotation-table tolerance, and adds a 20,000-point dispatch sweep plus VQE gradient regressions. The open PR reports macOS tests, code coverage, and security audit checks green."
+    },
+    {
+      "url": "https://github.com/haddowg/json-api-laravel/pull/5",
+      "seen_at": "2026-07-04T21:50:55Z",
+      "summary": "Greg Haddow merged a large Fable-assisted phase of json-api-laravel that adds relationship reads, mutations, pivot fields, existence filters, and the Relationship Queries profile. The implementation deliberately pushes windowed relationship batches into SQL with `ROW_NUMBER() OVER (PARTITION BY parent ...)`, while an in-memory witness must produce byte-identical tied-key pages; along the way review caught real defects including pivot IDs clobbering related IDs, BelongsTo linkage N+1 queries, poisoned Eloquent attribute snapshots, page leakage onto parent models, and wrong JSON pointer locations. The PR adds more than 13,000 lines and merged with a 12-combination PHP/Laravel matrix, static analysis, and coding-standards checks green; the author also reports 725 local tests and 6,358 assertions."
+    },
+    {
+      "url": "https://github.com/gautierbureau/energnn/pull/5",
+      "seen_at": "2026-07-04T21:50:55Z",
+      "summary": "A follow-up Fable 5 PR to Energnn adds `enable_persistent_compilation_cache()`, a one-call wrapper around JAX’s on-disk compilation cache so XLA executables can survive fresh Python processes. The useful part is the boundary condition: the PR verifies across two fresh processes that backward executables and evaluation forwards cache-hit, while training-mode forwards that contain `io_callback` from `TDigestNormalizer` cannot be persisted and are documented as such. The quick-start Small model’s second-process first training step drops from 3.4s to 2.5s rather than pretending to remove all warmup cost, and the author reports the full 200-test suite passing."
     }
   ],
-  "last_run": "2026-07-04T20:46:44Z"
+  "last_run": "2026-07-04T21:50:55Z"
 }
