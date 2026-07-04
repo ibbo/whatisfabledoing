@@ -48,6 +48,30 @@
     font-family: var(--mono);
   }
 
+  .sort-toggle {
+    display: none;
+    gap: 6px;
+    margin-top: 18px;
+  }
+  .votes-on .sort-toggle { display: inline-flex; }
+  .sort-toggle button {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    padding: 3px 14px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .sort-toggle button:hover { border-color: var(--accent); color: var(--accent); }
+  .sort-toggle button.active {
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+    background: rgba(217, 119, 87, 0.1);
+    color: var(--accent);
+  }
+
   .date-section { margin-top: 48px; }
   .date-heading {
     display: flex;
@@ -156,6 +180,10 @@
     <h1>What is Fable doing<span class="q">?</span></h1>
     <p class="tagline">Notable things people are doing with Claude Fable&nbsp;5 — the bugs it's finding, the code it's shipping, and where it falls short — collected from public posts, issues, and pull requests.</p>
     <div class="meta-bar" id="meta-bar"></div>
+    <div class="sort-toggle" id="sort-toggle">
+      <button data-sort="newest" class="active">Latest</button>
+      <button data-sort="top">Most upvoted</button>
+    </div>
   </header>
 
   <main id="reports"></main>
@@ -256,22 +284,41 @@ function applyVoteState(card, count, voted) {
   btn.title = voted ? "You upvoted this report" : "Upvote this report";
 }
 
-// Vote UI stays hidden unless the API answers, so the site degrades
-// gracefully if the vote server is down.
-async function initVotes() {
-  let counts;
-  try {
-    const res = await fetch(`${VOTES_API}/votes`);
-    if (!res.ok) return;
-    counts = await res.json();
-  } catch {
-    return;
+let allSections = [];   // parsed, sections and entries both newest-first
+let voteCounts = null;  // null until the vote API answers
+let sortMode = "newest";
+
+function renderReports() {
+  const container = document.getElementById("reports");
+  container.innerHTML = "";
+
+  if (sortMode === "top") {
+    // Flat list by votes; sort is stable, so ties stay newest-first.
+    const entries = allSections.flatMap(s => s.entries)
+      .sort((a, b) => (voteCounts?.[b.url] || 0) - (voteCounts?.[a.url] || 0));
+    const sec = document.createElement("section");
+    sec.className = "date-section";
+    sec.innerHTML = `<h2 class="date-heading">Most upvoted</h2>`;
+    for (const entry of entries) sec.appendChild(renderCard(entry));
+    container.appendChild(sec);
+  } else {
+    for (const section of allSections) {
+      const sec = document.createElement("section");
+      sec.className = "date-section";
+      sec.innerHTML = `<h2 class="date-heading">${esc(formatDate(section.date))}</h2>`;
+      for (const entry of section.entries) sec.appendChild(renderCard(entry));
+      container.appendChild(sec);
+    }
   }
-  document.body.classList.add("votes-on");
+  wireVotes();
+}
+
+function wireVotes() {
+  if (!voteCounts) return;
   const voted = votedSet();
   for (const card of document.querySelectorAll(".card[data-report]")) {
     const url = card.dataset.report;
-    applyVoteState(card, counts[url] || 0, voted.has(url));
+    applyVoteState(card, voteCounts[url] || 0, voted.has(url));
     card.querySelector(".vote").addEventListener("click", async (e) => {
       const btn = e.currentTarget;
       btn.disabled = true;
@@ -284,6 +331,7 @@ async function initVotes() {
         if (!res.ok) throw new Error(res.status);
         const data = await res.json();
         markVoted(url);
+        voteCounts[url] = data.count;
         applyVoteState(card, data.count, true);
       } catch {
         btn.disabled = false;
@@ -292,9 +340,31 @@ async function initVotes() {
   }
 }
 
+// Vote UI and sorting stay hidden unless the API answers, so the site
+// degrades gracefully if the vote server is down.
+async function initVotes() {
+  try {
+    const res = await fetch(`${VOTES_API}/votes`);
+    if (!res.ok) return;
+    voteCounts = await res.json();
+  } catch {
+    return;
+  }
+  document.body.classList.add("votes-on");
+  wireVotes();
+
+  const toggle = document.getElementById("sort-toggle");
+  toggle.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-sort]");
+    if (!btn || btn.dataset.sort === sortMode) return;
+    sortMode = btn.dataset.sort;
+    for (const b of toggle.querySelectorAll("button")) b.classList.toggle("active", b === btn);
+    renderReports();
+  });
+}
+
 async function main() {
   const status = document.getElementById("status");
-  const container = document.getElementById("reports");
 
   let md;
   let state = null;
@@ -329,13 +399,8 @@ async function main() {
   status.remove();
 
   sections.sort((a, b) => b.date.localeCompare(a.date));
-  for (const section of sections) {
-    const sec = document.createElement("section");
-    sec.className = "date-section";
-    sec.innerHTML = `<h2 class="date-heading">${esc(formatDate(section.date))}</h2>`;
-    for (const entry of section.entries) sec.appendChild(renderCard(entry));
-    container.appendChild(sec);
-  }
+  allSections = sections;
+  renderReports();
 
   const meta = document.getElementById("meta-bar");
   const updated = state?.last_run
