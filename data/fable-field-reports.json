@@ -1909,7 +1909,27 @@
       "url": "https://github.com/sbyoun/vibe-feedback-agent/pull/5",
       "seen_at": "2026-07-05T22:38:22Z",
       "summary": "vibe-feedback-agent merged a Fable co-authored change that turns its demo pass from a loading check into actual browser exploration. The new first pass connects Playwright MCP, clicks CTAs, and attempts two to four core-flow steps; a verifier pass then replays the draft’s interaction claims in a headless browser before they are trusted. The same PR raises the queue/publish limit from 10 to 50 so normal operation can complete while still acting as a circuit breaker for change-detection storms, and keeps WebFetch only as a fallback when browser access fails."
+    },
+    {
+      "url": "https://github.com/VenkateshDas/pulse/pull/45",
+      "seen_at": "2026-07-05T23:42:16Z",
+      "summary": "Pulse has a new Fable co-authored storage fix for a macOS-specific accounting bug. Its fast directory scanner recursed into `/System/Volumes/Data` through the `/System` firmlink without applying the existing pruned-path guard, so a 245 GB machine could show 206 GB of user data under “System.” The PR keeps the change to `StorageScanner.swift` and a storage regression test, pruning the firmlinked volume before the scanner double-counts it."
+    },
+    {
+      "url": "https://github.com/dwats250/cuttingboard/pull/114",
+      "seen_at": "2026-07-05T23:42:16Z",
+      "summary": "cuttingboard has an open Fable-authored audit PR that turns repository history into a diagnosis artifact instead of another implementation pass. The first phase names seven PRD lifecycle loops, measures a 17.2% bookkeeping tax, identifies ledgers as the most-churned files, and records live-status verdicts around the project’s Codex gate history. Follow-up commits add adversarial verification and prescriptions in separate markdown artifacts, leaving the code untouched except for a reconciled `PROJECT_STATE.md`."
+    },
+    {
+      "url": "https://github.com/alexwelcing/lupine-science/pull/5",
+      "seen_at": "2026-07-05T23:42:16Z",
+      "summary": "lupine-science merged a Fable-authored performance and hardening pass across its static site and deployment workflow. The PR self-hosts subset Newsreader and Plex Mono fonts at 194 KB total, replaces render-blocking Google Fonts, generates hash-locked CSP and cache headers, cuts the launch film from 3.7 MB to 2.2 MB, and removes an unused 1.3 MB hero asset. Later commits add MOF-5 crystallography content, article builders, JSON-LD and sitemap generation, deterministic-build checks, Lighthouse budgets, and an accessibility fix for invalid `aria-pressed` usage."
+    },
+    {
+      "url": "https://github.com/remiverdet76-maker/Dreamt/pull/5",
+      "seen_at": "2026-07-05T23:42:16Z",
+      "summary": "Dreamt has an open Fable-authored Android calculator PR spanning 2,106 new lines. The branch builds a “Calc Fractale 991” app with a Casio-style scientific-calculator engine, fraction and π handling, 2D ratio plots, logarithmic and exponential graphing, and 3D visualizations for Platonic solids, torus, Möbius-style surfaces, and related ratio geometry. It also adds the Gradle project, launcher icons, Android manifest, WebView activity, and a GitHub Actions workflow that builds the APK after fixing an invalid YAML apostrophe."
     }
   ],
-  "last_run": "2026-07-05T22:38:22Z"
+  "last_run": "2026-07-05T23:42:16Z"
 }
