@@ -1639,7 +1639,37 @@
       "url": "https://github.com/disclaimer8/flightfinder/pull/477",
       "seen_at": "2026-07-05T10:52:41Z",
       "summary": "Claude Fable 5 co-authored a flightfinder test-runner change removing --runInBand after verifying isolated in-memory SQLite per Jest worker, cutting local suite time from 144s to 20s with 8,375 tests passing."
+    },
+    {
+      "url": "https://github.com/jeswr/AsyncIterator/pull/5",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Fable-generated AsyncIterator performance PR adds a flow-mode flag and synchronous async-iterator fast path, with paired benchmarks showing about 16% wall-time wins and up to 36% CPU reduction on hot paths."
+    },
+    {
+      "url": "https://github.com/tritinpho/emergency-stop-warning-system/pull/5",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Fable-authored emergency-stop warning system implements doc-07 scenario oracles, taking the state-machine test board from 8 pass / 1 xfail / 21 todo to 30 passing scenarios in a MicroPython-safe subset."
+    },
+    {
+      "url": "https://github.com/pungggi/pi-multimodal-proxy/pull/17",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Fable co-authored pi-multimodal-proxy compaction fix reinjecting bounded image/video recall digests after context compaction, with tests for digest construction and overflow-aware budgets."
+    },
+    {
+      "url": "https://github.com/krazyjakee/MoGen/pull/96",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Fable co-authored MoGen Studio remote-control dashboard with loopback-only default HTTP server, live session mirroring, remote edits through normal undo/recompile paths, and settings/tests/docs."
+    },
+    {
+      "url": "https://github.com/Hysterically/MCC-Halo-3-Custom-Games-Tracker/pull/5",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Merged Fable co-authored Halo tracker PR fixes five review-found operational bugs: silent match ingest loss, bot startup crash, stale webhook cache, unsafe clear command, and phantom leaderboard scoring."
+    },
+    {
+      "url": "https://github.com/Leeman1982/gm_sam/pull/3",
+      "seen_at": "2026-07-05T11:56:36Z",
+      "summary": "Fable co-authored gm_sam hardware MIDI sequencer expansion with scale lock, ratchets, SAM2695 synth controls, keypad/performance UI, macro pots, and host-side simulated-time tests."
     }
   ],
-  "last_run": "2026-07-05T10:52:41Z"
+  "last_run": "2026-07-05T11:56:36Z"
 }
