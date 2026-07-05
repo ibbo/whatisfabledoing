@@ -1754,7 +1754,37 @@
       "url": "https://github.com/gulfofmaine/climatology_py_dash/pull/82",
       "seen_at": "2026-07-05T16:12:12Z",
       "summary": "The Gulf of Maine climatology dashboard added Fable co-authored end-to-end coverage around its Marimo pages rather than relying on imports and unit tests alone. The PR creates a pixi test environment with pytest-playwright, browser smoke tests for all five pages plus sidebar navigation and `/health`, and a GitHub Actions job that runs the suite against the built Docker image before deployment. The same change fixes a Bandit pre-commit exclude regex that had never matched the repo-relative `tests/` path it was supposed to skip."
+    },
+    {
+      "url": "https://github.com/monarch-initiative/dismech/pull/5398",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "Monarch dismech has an open Fable-authored alpha-gal syndrome model that adds causal disease mechanisms, verified primary-literature evidence, and follow-up openscientist adjudication of competing tick-sensitization hypotheses."
+    },
+    {
+      "url": "https://github.com/nh9qxw5shd-oss/ContingencyMap/pull/1",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "ContingencyMap has an open Fable-authored rebuild with passcode-gated administration, 138 migrated contingency steps, Supabase RLS, and Network Rail Track Model-based tracing and ELR/mileage search."
+    },
+    {
+      "url": "https://github.com/Ranzlappen/Synth-piano-web/pull/55",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "Synth-piano-web has an open Fable-authored hardware/audio overhaul: reliable USB MIDI parsing, pitch bend, recorder-race and BPM fixes, PolyBLEP oscillators, stereo FX, native Oboe DJ decks, and JVM tests."
+    },
+    {
+      "url": "https://github.com/singhwanderer/v0-image-upload-enhancement/pull/31",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "v0-image-upload-enhancement has an open Fable co-authored supplier-image workflow: byte-level dimensions/DPI, product-wide vs per-shot fields, pending-AI review, spec validation, GS1-style CSV export, and Playwright-verified metadata flows."
+    },
+    {
+      "url": "https://github.com/sajor2000/riccc_site_rush/pull/5",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "riccc_site_rush merged a Fable-authored design-pass fix that removed 71 PubMed placeholder publication cards, regenerated the page to 153 real entries, sorted Unknown-year items last, and fixed avatar fallback contrast."
+    },
+    {
+      "url": "https://github.com/lexxbyte/shibui/pull/5",
+      "seen_at": "2026-07-05T17:15:01Z",
+      "summary": "shibui merged a Fable-linked Phase 4 torrent/mpv playback layer with an anacrolix client, stream backpressure, mpv IPC/resume helpers, completed tests after reviewer fixes, and a race-detector fix."
     }
   ],
-  "last_run": "2026-07-05T16:12:12Z"
+  "last_run": "2026-07-05T17:15:01Z"
 }
