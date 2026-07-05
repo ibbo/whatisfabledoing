@@ -1434,7 +1434,32 @@
       "url": "https://github.com/ajonkisz/bobbit/pull/43",
       "seen_at": "2026-07-05T02:09:53Z",
       "summary": "Fable audit findings in bobbit become UI fixes for destructive confirmAction Enter behavior and background-process popover Escape aborts, with red/green specs, 5x fixture stress runs, real-gateway e2e, and baseline comparison."
+    },
+    {
+      "url": "https://github.com/eugeneoCMU/Lock-in-Effect/pull/1",
+      "seen_at": "2026-07-05T03:13:52Z",
+      "summary": "Fable co-authored a merged Lock-in-Effect robustness pass that froze baseline mortgage-lock-in numbers, fixed an inert elasticity-units bug, folded in 15-year MBS, and added a Freddie cross-design test that changed headline results."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/pull/12752",
+      "seen_at": "2026-07-05T03:13:52Z",
+      "summary": "Fable-authored elizaOS provider-plugin PR reproduced and fixed Groq tool-normalization, Groq 429 cooldown parsing, and xAI system-prompt dropping bugs with wire-shape tests and mutation checks."
+    },
+    {
+      "url": "https://github.com/hq525/my-trading-platform/pull/5",
+      "seen_at": "2026-07-05T03:13:52Z",
+      "summary": "Fable-generated my-trading-platform PR adds an Alpaca live brokerage adapter behind existing execution interfaces, with order idempotency, broker sync, account-mode ownership fixes, and 180 backend tests."
+    },
+    {
+      "url": "https://github.com/Kaikei-e/Plecto/pull/51",
+      "seen_at": "2026-07-05T03:13:52Z",
+      "summary": "Fable co-authored a Plecto TLS PR that adds red/green stateless TLS 1.3 resumption tests, implements shared process-lifetime ticket production across TCP/QUIC and rebuilds, and adds a handshake benchmark rung."
+    },
+    {
+      "url": "https://github.com/glanzz/simq/pull/45",
+      "seen_at": "2026-07-05T03:13:52Z",
+      "summary": "Fable co-authored simq research examples covering entanglement, QPE, Grover, VQE H2, and QAOA, including runnable sanity checks for cache snapping, zero gradients, and final-mixer behavior."
     }
   ],
-  "last_run": "2026-07-05T02:09:53Z"
+  "last_run": "2026-07-05T03:13:52Z"
 }
