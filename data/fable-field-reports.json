@@ -1579,7 +1579,37 @@
       "url": "https://github.com/paloxaal/builtly/pull/976",
       "seen_at": "2026-07-05T08:44:25Z",
       "summary": "Claude Code/Fable merged a Norwegian building-plan fire-analysis pass for Builtly, fixing evacuation-arrow synthesis, geodata neighbor extent handling, context-wall filtering, and locking Claude Fable 5 as the fire-AI default, with 419 tests passing and no new failures."
+    },
+    {
+      "url": "https://github.com/valeriikot/OpenSymphony/pull/5",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "OpenSymphony merged a Claude Fable 5 co-authored codebase-wide sweep fixing scheduler recovery collisions, gateway cursor/search bugs, Jira/Linear client edge cases, and Claude/Codex harness accounting issues."
+    },
+    {
+      "url": "https://github.com/h11t-labs/firm/pull/5",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "Firm merged a Fable-linked channel-delivery fix for Postgres/MySQL out-of-order commit visibility, using a scan floor and tests for the exact two-connection interleaving that previously lost messages."
+    },
+    {
+      "url": "https://github.com/wkumik/RubyFPV/pull/2",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "RubyFPV has an open Fable-authored PR adding NEON GF(256) FEC kernels with cross-architecture qemu verification plus receive-queue and streamer writer-thread latency fixes."
+    },
+    {
+      "url": "https://github.com/zetta-world/swap-z-app/pull/96",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "swap-z-app has an open Fable-authored money-path audit fix covering PostgREST 1,000-row truncation, arbitrage venue mismatch rejection, atomic trades_today increments, and fresh withdrawal caps with 50 tests passing."
+    },
+    {
+      "url": "https://github.com/Balizero1987/Teman2/pull/1965",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "Teman2 has an open Fable co-authored SEO fix that full-static-generates 1,559 KBLI pages, hard-404s invalid codes, and derives JSON-LD dateModified from a committed dataset sidecar after a red-team catch on file mtimes."
+    },
+    {
+      "url": "https://github.com/gakkyTaihasoeru/dotfiles/pull/5",
+      "seen_at": "2026-07-05T09:47:33Z",
+      "summary": "A merged dotfiles PR co-authored by Claude Fable 5 audits Claude Code settings, fixing dead edit allow rules, arbitrary-exec allowlist holes, bypass-permissions hardening, and a broken statusline cost field."
     }
   ],
-  "last_run": "2026-07-05T08:44:25Z"
+  "last_run": "2026-07-05T09:47:33Z"
 }
