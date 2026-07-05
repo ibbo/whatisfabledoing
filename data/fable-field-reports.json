@@ -1609,7 +1609,37 @@
       "url": "https://github.com/gakkyTaihasoeru/dotfiles/pull/5",
       "seen_at": "2026-07-05T09:47:33Z",
       "summary": "A merged dotfiles PR co-authored by Claude Fable 5 audits Claude Code settings, fixing dead edit allow rules, arbitrary-exec allowlist holes, bypass-permissions hardening, and a broken statusline cost field."
+    },
+    {
+      "url": "https://github.com/python/cpython/pull/152980",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored a merged CPython http.server fix so malformed request-line errors return proper HTTP status lines and headers instead of bare HTTP/0.9 HTML, with regression tests and 3.13-3.15 backports opened."
+    },
+    {
+      "url": "https://github.com/compdemocracy/polis/pull/2589",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored a Polis Delphi parity fix for a Clojure/Python group-id label swap, backed by a June 11 trace, a synthetic regression test, and lifted xfails across legacy Clojure regression variants."
+    },
+    {
+      "url": "https://github.com/fe19/fe19.github.io/pull/3",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored an open Swiss property statistics app PR with canton/city/property-type queries, charts, CSV export/import, a bundled 26-canton dataset, and daily BFS IMPI refresh workflow."
+    },
+    {
+      "url": "https://github.com/peeranat-dan/chanom/pull/8",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored a 3,000-line chanom CLI refactor into domain, service, command, and utility layers, adding typed package.json errors and unit tests for each layer."
+    },
+    {
+      "url": "https://github.com/necorox-com/kotoji/pull/5",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored and merged a Kotoji preview-link fix: private drafts now open only through signed grants, nonstandard ports are preserved, raw preview URLs fail closed, and browser E2E verified the path."
+    },
+    {
+      "url": "https://github.com/disclaimer8/flightfinder/pull/477",
+      "seen_at": "2026-07-05T10:52:41Z",
+      "summary": "Claude Fable 5 co-authored a flightfinder test-runner change removing --runInBand after verifying isolated in-memory SQLite per Jest worker, cutting local suite time from 144s to 20s with 8,375 tests passing."
     }
   ],
-  "last_run": "2026-07-05T09:47:33Z"
+  "last_run": "2026-07-05T10:52:41Z"
 }
