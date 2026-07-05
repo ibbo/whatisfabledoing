@@ -1459,7 +1459,32 @@
       "url": "https://github.com/glanzz/simq/pull/45",
       "seen_at": "2026-07-05T03:13:52Z",
       "summary": "Fable co-authored simq research examples covering entanglement, QPE, Grover, VQE H2, and QAOA, including runnable sanity checks for cache snapping, zero gradients, and final-mixer behavior."
+    },
+    {
+      "url": "https://github.com/etherealcomputing/Ouija/pull/5",
+      "seen_at": "2026-07-05T04:17:53Z",
+      "summary": "Fable-authored Ouija PR fixes a frontend test suite that was green over zero coverage, then adds connector diagnostics, telemetry staleness/dropped-frame monitoring, cross-stack SPECT contract tests, browser e2e, CI wiring, and parser robustness."
+    },
+    {
+      "url": "https://github.com/creativeux/goaldl/pull/5",
+      "seen_at": "2026-07-05T04:17:53Z",
+      "summary": "Fable co-authored goaldl TUI UX pass from 19 findings, surfacing live-source errors, staleness, free-running knock-counter warnings, pinned/narrow-terminal layout, resize ghosting fixes, and tests while preserving decode goldens."
+    },
+    {
+      "url": "https://github.com/tsroten/pitybas/pull/5",
+      "seen_at": "2026-07-05T04:17:53Z",
+      "summary": "Merged Fable-authored pitybas PR fixes four known TI-83/84 interpreter bugs in precedence, Decimal precision/global context, and string input, converts xfails to regressions, and reports 96 tests passed."
+    },
+    {
+      "url": "https://github.com/yn1323/yps-crispy-carnival/pull/647",
+      "seen_at": "2026-07-05T04:17:53Z",
+      "summary": "Fable-authored yps-crispy-carnival PR fixes a Clerk/Convex logout race by making dashboard queries return empty unauthenticated results and moving login redirection into AuthGuard."
+    },
+    {
+      "url": "https://github.com/dachplan-ag/dachplan-app/pull/18",
+      "seen_at": "2026-07-05T04:17:53Z",
+      "summary": "Fable co-authored dachplan-app UX/robustness PR adds bilingual accent-insensitive inventory search, persistent offline retry queues, 44px gloved-touch controls, zero-stock badges, and narrow-header fixes."
     }
   ],
-  "last_run": "2026-07-05T03:13:52Z"
+  "last_run": "2026-07-05T04:17:53Z"
 }
