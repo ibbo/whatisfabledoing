@@ -1384,7 +1384,27 @@
       "url": "https://github.com/Ranzlappen/AetherSpin/pull/81",
       "seen_at": "2026-07-05T00:01:26Z",
       "summary": "Fable co-authored AetherSpin fixes aligning volatility labels with certified white papers, adding a regression guard against game/paper drift, and extending release packaging provenance and UI/release cleanup."
+    },
+    {
+      "url": "https://github.com/signevallin/GameOn/pull/5",
+      "seen_at": "2026-07-05T01:06:10Z",
+      "summary": "GameOn merged a Fable-authored security and billing hardening pass adding ownership guards, deny-by-default RLS, entitlement checks, idempotent Stripe webhooks, rate limits, and focused tests."
+    },
+    {
+      "url": "https://github.com/Loideroi/championz-pr3dict0r/pull/9",
+      "seen_at": "2026-07-05T01:06:10Z",
+      "summary": "Championz Predictor has a Fable co-authored PR implementing on-chain freeze, prize-claim, and trophy logic with comparator checks, UUPS deployment notes, 29 contract tests, and measured gas."
+    },
+    {
+      "url": "https://github.com/merogith/battle/pull/358",
+      "seen_at": "2026-07-05T01:06:10Z",
+      "summary": "battle’s Fable-authored Move Tutor branch turns a five-track investigation into implementation commits for filters, gates, recommender scoring, touch UI, quick apply, dead-code cleanup, and test fixes."
+    },
+    {
+      "url": "https://github.com/velantrian/velantrim-exocortex-crystal/pull/212",
+      "seen_at": "2026-07-05T01:06:10Z",
+      "summary": "velantrim-exocortex-crystal has a Fable co-authored grant-readiness audit that reran 1,252 tests, mapped architecture and controls, assessed NLnet fit, and produced a prioritized funding plan."
     }
   ],
-  "last_run": "2026-07-05T00:01:26Z"
+  "last_run": "2026-07-05T01:06:10Z"
 }
