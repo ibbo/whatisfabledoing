@@ -1514,7 +1514,27 @@
       "url": "https://github.com/Abuzar0021/omnistacks-ai-engine/pull/5",
       "seen_at": "2026-07-05T05:30:55Z",
       "summary": "Open Claude-authored omnistacks-ai-engine PR adding reviewable audit-to-email drafts, explicit n8n send triggers, signed webhook callbacks, monotonic status pipeline, and integration tests."
+    },
+    {
+      "url": "https://github.com/prasincs/formal-verification-experiments/pull/32",
+      "seen_at": "2026-07-05T06:34:58Z",
+      "summary": "Claude Fable 5 co-authored a formal-verification experiments WP6 branch adding a reproducible ~250K-parameter TinyStories GGUF fixture, independent NumPy reference inference, no_std GGUF loader, arena-based inference engine, host demo, fuzzing, Verus, and CI jobs."
+    },
+    {
+      "url": "https://github.com/JarvisOneKenobi-bot/travelplaninfo-prototype/pull/5",
+      "seen_at": "2026-07-05T06:34:58Z",
+      "summary": "A Travelplaninfo PR used Fable 5 for plan and diff review while GPT-5.5 implemented the Atlas assistant relocation into Next.js; Fable caught blocking plan issues and a high-severity frontend card-shape mismatch, with lint, unit, build, Playwright, and live API smokes reported."
+    },
+    {
+      "url": "https://github.com/handley-lab/mdcal/pull/5",
+      "seen_at": "2026-07-05T06:34:58Z",
+      "summary": "Claude Fable 5 co-authored mdcal tag-ownership fixes so calendar imports leave local deck tags intact after creation, add repeatable --tag creation seeds, update DESIGN.md invariants, and pass 73 tests including four new cases."
+    },
+    {
+      "url": "https://github.com/KazukiKandaKK/webgrapgh/pull/35",
+      "seen_at": "2026-07-05T06:34:58Z",
+      "summary": "Claude Fable 5 co-authored a webgrapgh sidecar-install fix where SEED_POINTS_PER_METRIC=0 crash-looped fresh deployments; the PR reports go build/vet/test and a live sidecar install against an external app serving real container history."
     }
   ],
-  "last_run": "2026-07-05T05:30:55Z"
+  "last_run": "2026-07-05T06:34:58Z"
 }
