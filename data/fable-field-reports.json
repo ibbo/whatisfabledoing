@@ -1534,7 +1534,32 @@
       "url": "https://github.com/KazukiKandaKK/webgrapgh/pull/35",
       "seen_at": "2026-07-05T06:34:58Z",
       "summary": "Claude Fable 5 co-authored a webgrapgh sidecar-install fix where SEED_POINTS_PER_METRIC=0 crash-looped fresh deployments; the PR reports go build/vet/test and a live sidecar install against an external app serving real container history."
+    },
+    {
+      "url": "https://www.iwoszapar.com/p/claude-fable-5-skills",
+      "seen_at": "2026-07-05T07:39:44Z",
+      "summary": "Iwo Szapar had Fable 5 distill its working discipline into six Claude Code skills, then blind-tested them on Opus 4.8 and reported 12 wins across 14 gradings with the receipts published."
+    },
+    {
+      "url": "https://github.com/petergus/hora-prakash/pull/5",
+      "seen_at": "2026-07-05T07:39:44Z",
+      "summary": "Merged Claude Fable 5 co-authored hora-prakash PR fixing JSON export corruption, session tab leaks, D60 calculation, SVG export, clipboard fallback, and adding Node smoke coverage."
+    },
+    {
+      "url": "https://github.com/josephdviviano/darkness/pull/5",
+      "seen_at": "2026-07-05T07:39:44Z",
+      "summary": "Claude Fable 5 co-authored darkness audio performance PR moving direct simulation to a worker, with 3x30s A/B stress measurements, artifact checks, and 448 tests / 70,332 assertions."
+    },
+    {
+      "url": "https://x.com/muso_am/status/2073590574829936896",
+      "seen_at": "2026-07-05T07:39:44Z",
+      "summary": "Muso Mwango reports a Fable-managed subagent workflow where product tickets flow through Linear to implementation and PR review, shipping 10+ PRs to production in two days including a frontend rebuild."
+    },
+    {
+      "url": "https://x.com/morefishoil/status/2073638312724840932",
+      "seen_at": "2026-07-05T07:39:44Z",
+      "summary": "underwaterfish reports using Fable 5 to rebuild a $29 cold-email rewriter checkout in one Saturday session, with Stripe webhook test purchase, payment-gated success page, and landing copy rewrite."
     }
   ],
-  "last_run": "2026-07-05T06:34:58Z"
+  "last_run": "2026-07-05T07:39:44Z"
 }
