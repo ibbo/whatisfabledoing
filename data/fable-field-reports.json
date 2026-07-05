@@ -1859,7 +1859,32 @@
       "url": "https://github.com/jackvdp/icps-launchpad/pull/5",
       "seen_at": "2026-07-05T20:26:49Z",
       "summary": "Fable co-authored icps-launchpad PR adds a true Playwright E2E nomination test that hits the real API, MongoDB, and Postmark emails, verifies and deletes the record, and reports a 22-second local pass."
+    },
+    {
+      "url": "https://x.com/ST4RHaze/status/2073875623995683060",
+      "seen_at": "2026-07-05T21:31:30Z",
+      "summary": "StarHaze reports the same Fable 5 memory benchmark scoring 73% in a persistent-state/verifier-agent setup and 17% without that surrounding system, arguing the gain came from state files, long-running sessions, and separate verifier subagents rather than the raw model alone."
+    },
+    {
+      "url": "https://x.com/arshadkazmi42/status/2073868384882864399",
+      "seen_at": "2026-07-05T21:31:30Z",
+      "summary": "Arshad Kazmi reports using Fable 5 to turn termi into a centralized open-source server-management platform with IP/key onboarding, instant terminal login, analytics dashboards, live server stats, and parallel Claude sessions across machines."
+    },
+    {
+      "url": "https://x.com/sentisenseapp/status/2073859895326331037",
+      "seen_at": "2026-07-05T21:31:30Z",
+      "summary": "SentiSense reports that a one-line request for a stock-analysis skill led Fable 5 to create a five-persona adversarial investment committee with private research roles, a central evidence ledger, and a no-source/no-claim rule."
+    },
+    {
+      "url": "https://github.com/Neo2024365/bedrock-openai-experiments-chat/pull/5",
+      "seen_at": "2026-07-05T21:31:30Z",
+      "summary": "A Fable-generated Bedrock MCP-server PR routes Anthropic models through ConverseStream/Converse, makes claude-fable-5 the listed default, persists streamed chunks to local history, surfaces refusal stop reasons as tool errors, and adds e2e coverage for streaming, fallback, and refusals."
+    },
+    {
+      "url": "https://x.com/brehm_shaun/status/2073874562375418234",
+      "seen_at": "2026-07-05T21:31:30Z",
+      "summary": "Shaun Brehm reports building two playable games in a week with Fable 5: Skywriter from idea to playable tycoon in one day and Underline with a 79-check launch audit, with a short playthrough video and public link."
     }
   ],
-  "last_run": "2026-07-05T20:26:49Z"
+  "last_run": "2026-07-05T21:31:30Z"
 }
