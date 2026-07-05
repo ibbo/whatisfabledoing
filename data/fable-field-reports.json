@@ -1829,7 +1829,37 @@
       "url": "https://github.com/sirarthur2479/BadmintonApp/pull/5",
       "seen_at": "2026-07-05T19:22:36Z",
       "summary": "Merged Fable-authored BadmintonApp PR implements training-session goals, reflection data, custom tags, edit flows, charts, and Markdown export across a red-green-refactor commit series with focused Flutter tests."
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Simon Willison reports using Fable to move sqlite-utils 4.0rc2 through release review: 37 prompts, 34 commits, +1,321/-190 changes across 30 files, five Fable-found release blockers, and follow-up fixes after GPT-5.5 review."
+    },
+    {
+      "url": "https://github.com/samn/gke-cost-analyzer/pull/35",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Fable-authored gke-cost-analyzer PR fixes namespace-collapsed Kubernetes cost groups plus related BigQuery dedup, sidecar resource, capacity-denominator, and SKU-matching accounting issues."
+    },
+    {
+      "url": "https://github.com/niltonperimneto/neocalc-android/pull/4",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Fable-authored neocalc-android PR replaces a crash-prone reqwest updater with ureq and adds FFI panic shields, resumable downloads, real progress callbacks, host/HTTPS allowlists, mandatory Minisign/SHA-256 verification, and rollback checks."
+    },
+    {
+      "url": "https://github.com/GBrooks1970/bfx-ws-screenplay/pull/5",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Merged Fable co-authored bfx-ws-screenplay PR adds Bitfinex candles-channel tests that pin nonstandard field order, key-only acknowledgements, newest-first snapshots, and 45-second update waits, with local and CI suite runs reported."
+    },
+    {
+      "url": "https://github.com/DylanDDeng/bubble/pull/54",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Fable-authored bubble PR fixes transcript wrapping by subtracting row padding from the timeline budget and adds an E2E CJK width-sweep regression test to prevent column-zero hard wraps."
+    },
+    {
+      "url": "https://github.com/jackvdp/icps-launchpad/pull/5",
+      "seen_at": "2026-07-05T20:26:49Z",
+      "summary": "Fable co-authored icps-launchpad PR adds a true Playwright E2E nomination test that hits the real API, MongoDB, and Postmark emails, verifies and deletes the record, and reports a 22-second local pass."
     }
   ],
-  "last_run": "2026-07-05T19:22:36Z"
+  "last_run": "2026-07-05T20:26:49Z"
 }
