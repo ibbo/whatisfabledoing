@@ -1784,7 +1784,37 @@
       "url": "https://github.com/lexxbyte/shibui/pull/5",
       "seen_at": "2026-07-05T17:15:01Z",
       "summary": "shibui merged a Fable-linked Phase 4 torrent/mpv playback layer with an anacrolix client, stream backpressure, mpv IPC/resume helpers, completed tests after reviewer fixes, and a race-detector fix."
+    },
+    {
+      "url": "https://github.com/Lifted-Truck/Auricle/pull/5",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "Auricle Fable PR adds an SMF MIDI reader, exact tempo-map fixture checks, runtime preset schema validation, a macOS lock/sleep interpose test for real-time safety, and macOS/Windows CI."
+    },
+    {
+      "url": "https://github.com/zby/commonplace/pull/19",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "commonplace Fable PR replaces git check-ignore visibility with filesystem rules, dropping repo enumeration from about 5s to ~0.02s and adding review fixes/tests for frontmatter, dedup, relocation, and packaging bugs."
+    },
+    {
+      "url": "https://github.com/ptarjan/home-assistant/pull/8",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "Fable co-authored Home Assistant Hikvision PR fixes duplicate entities, disconnected-stream availability, unreachable-camera snapshot lockouts, detection target attributes, video-loss watchdog noise, and adds component tests."
+    },
+    {
+      "url": "https://github.com/Joshfkon/workout-app/pull/383",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "Fable co-authored workout-app fix shares start-path slot resolution with display cards, handling skipped days, stale/deleted exercises, and regeneration so UI no longer advertises a different workout than Start launches."
+    },
+    {
+      "url": "https://github.com/IsmaelMartinez/wifisentinel/pull/132",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "Fable-authored WiFiSentinel PR adds an Android scan E2E test, imports phone latency into CLI results with partial-shape schema/reporting fixes, and applies review improvements to permission handling and Room waits."
+    },
+    {
+      "url": "https://github.com/seanhodges/basically/pull/183",
+      "seen_at": "2026-07-05T18:18:53Z",
+      "summary": "Fable-authored basically PR adds standalone BASIC player routing, GitHub Pages deep-link handling, a multi-stage plan, and a typed share API client with error/status tests and configuration guards."
     }
   ],
-  "last_run": "2026-07-05T17:15:01Z"
+  "last_run": "2026-07-05T18:18:53Z"
 }
