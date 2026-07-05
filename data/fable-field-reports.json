@@ -1404,7 +1404,37 @@
       "url": "https://github.com/velantrian/velantrim-exocortex-crystal/pull/212",
       "seen_at": "2026-07-05T01:06:10Z",
       "summary": "velantrim-exocortex-crystal has a Fable co-authored grant-readiness audit that reran 1,252 tests, mapped architecture and controls, assessed NLnet fit, and produced a prioritized funding plan."
+    },
+    {
+      "url": "https://github.com/orfeon/pipeline/pull/5",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Merged Fable co-authored Pipeline Builder frontend refactor: 2,100-line no-build app split into ES modules, jQuery removed, autosave/import added, Windows API 404 fixed, with real-server headless Edge verification and CI green."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6116",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Fable-generated Apache Texera PR moves site_settings API to config-service, adds public/admin read split and auth tightening, with 27 service tests, Angular tests, compile/format checks, and 14-service local E2E verification."
+    },
+    {
+      "url": "https://github.com/anandgupta42/receipts/pull/110",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Fable-assisted receipts CLI PR adds strict allowlist adoption telemetry, pseudonymous install hashes, local stats, and fixes --telemetry-show sending an event; reports byte-identical receipt goldens, determinism 10/10, live acceptance, and green CI."
+    },
+    {
+      "url": "https://github.com/KjellKod/quest/pull/142",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Fable/Codex co-authored Quest transport hardening: truthful rate_limit/startup_dialog/model_rejected classification, respawn-aware teardown, leak sweeps, needs_human resume, model passthrough, with 847 unit tests and shell/CI validation."
+    },
+    {
+      "url": "https://github.com/PermissionMAXED/APETATOO/pull/1",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Cursor PR reports Claude-Fable-5-xHigh subagents building APETATO, a 20k-line three.js arena-survivor with large content set, review/fix agents, clean build, headless wave-20 victories, and browser flow verification."
+    },
+    {
+      "url": "https://github.com/ajonkisz/bobbit/pull/43",
+      "seen_at": "2026-07-05T02:09:53Z",
+      "summary": "Fable audit findings in bobbit become UI fixes for destructive confirmAction Enter behavior and background-process popover Escape aborts, with red/green specs, 5x fixture stress runs, real-gateway e2e, and baseline comparison."
     }
   ],
-  "last_run": "2026-07-05T01:06:10Z"
+  "last_run": "2026-07-05T02:09:53Z"
 }
