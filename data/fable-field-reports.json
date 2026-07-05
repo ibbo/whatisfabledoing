@@ -1814,7 +1814,22 @@
       "url": "https://github.com/seanhodges/basically/pull/183",
       "seen_at": "2026-07-05T18:18:53Z",
       "summary": "Fable-authored basically PR adds standalone BASIC player routing, GitHub Pages deep-link handling, a multi-stage plan, and a typed share API client with error/status tests and configuration guards."
+    },
+    {
+      "url": "https://github.com/CateDesu/NyaaTriggers/pull/5",
+      "seen_at": "2026-07-05T19:22:36Z",
+      "summary": "Fable-authored NyaaTriggers fix consumes cached ACT/IINACT primary-player and zone events so late Windows connections seed player/zone state instead of breaking You-scoped and zone-gated triggers."
+    },
+    {
+      "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+      "seen_at": "2026-07-05T19:22:36Z",
+      "summary": "Iwo Szapar reports using Fable 5 to write six Claude Code skills, blind-testing them on Opus 4.8 for 12 wins, 0 losses, and 2 ties, and publishing the prompts, rubric, and skill files."
+    },
+    {
+      "url": "https://github.com/sirarthur2479/BadmintonApp/pull/5",
+      "seen_at": "2026-07-05T19:22:36Z",
+      "summary": "Merged Fable-authored BadmintonApp PR implements training-session goals, reflection data, custom tags, edit flows, charts, and Markdown export across a red-green-refactor commit series with focused Flutter tests."
     }
   ],
-  "last_run": "2026-07-05T18:18:53Z"
+  "last_run": "2026-07-05T19:22:36Z"
 }
