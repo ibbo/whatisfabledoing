@@ -1484,7 +1484,37 @@
       "url": "https://github.com/dachplan-ag/dachplan-app/pull/18",
       "seen_at": "2026-07-05T04:17:53Z",
       "summary": "Fable co-authored dachplan-app UX/robustness PR adds bilingual accent-insensitive inventory search, persistent offline retry queues, 44px gloved-touch controls, zero-stock badges, and narrow-header fixes."
+    },
+    {
+      "url": "https://github.com/jacobanana/mathboard/pull/5",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Merged Claude Fable 5-authored mathboard PR adding parametric geometry drawing modes, snapping, z-order, grouping, CRDT-aware selection, and focused canvas/board tests."
+    },
+    {
+      "url": "https://github.com/Echo888-cai/Echo/pull/5",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Merged Fable co-authored Echo PR adding live market-data canaries, HK filing coverage logging, data-source health UI, and fixing a filingData.js crash found by the real canary."
+    },
+    {
+      "url": "https://github.com/sudo-karan/pdf-to-markdown/pull/5",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Merged Claude-authored pdf-to-markdown PR fixing ZIP mode for text-only PDFs, orphaned OCR images, and stale option feedback, with headless Chromium airgap test matrices."
+    },
+    {
+      "url": "https://github.com/EllanServer/astrbot_plugin_minecraft_adapter/pull/5",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Merged Fable-linked astrbot_plugin_minecraft_adapter PR whose pre-release E2E validation found three bugs, added Rust/Python equivalence and config propagation tests, and reported 88 tests passing."
+    },
+    {
+      "url": "https://github.com/ikigai-rs/ikigai-cli/pull/120",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Open Claude Fable 5 co-authored ikigai-cli PR implementing urn:agent:select with deterministic capability narrowing, residual LLM choice, auditable graph output, and live calendar/freebusy checks."
+    },
+    {
+      "url": "https://github.com/Abuzar0021/omnistacks-ai-engine/pull/5",
+      "seen_at": "2026-07-05T05:30:55Z",
+      "summary": "Open Claude-authored omnistacks-ai-engine PR adding reviewable audit-to-email drafts, explicit n8n send triggers, signed webhook callbacks, monotonic status pipeline, and integration tests."
     }
   ],
-  "last_run": "2026-07-05T04:17:53Z"
+  "last_run": "2026-07-05T05:30:55Z"
 }
