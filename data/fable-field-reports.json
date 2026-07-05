@@ -1884,7 +1884,32 @@
       "url": "https://x.com/brehm_shaun/status/2073874562375418234",
       "seen_at": "2026-07-05T21:31:30Z",
       "summary": "Shaun Brehm reports building two playable games in a week with Fable 5: Skywriter from idea to playable tycoon in one day and Underline with a 79-check launch audit, with a short playthrough video and public link."
+    },
+    {
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "seen_at": "2026-07-05T22:38:22Z",
+      "summary": "Ammaar Reshi published a Fable-assisted port of the real 2003 Command & Conquer: Generals — Zero Hour engine to Apple Silicon Macs, iPhone, and iPad, with no emulator and no bundled game assets. The README says campaign, skirmish, and Generals Challenge run through a DirectX 8 → DXVK → Vulkan → MoltenVK → Metal stack, with touch RTS controls for tap-select, drag-box selection, two-finger scrolling, and pinch zoom. The project documents the engineering work behind the iOS build: rerouting writable paths out of a signed app bundle, cross-building DXVK for iPhoneOS, pausing the render loop around iOS lifecycle grabs, and root-causing real-device bugs such as a black minimap alpha fallback and a stuck audio stream that muted EVA voice lines."
+    },
+    {
+      "url": "https://github.com/arihantb2/ORB_SLAM3/pull/18",
+      "seen_at": "2026-07-05T22:38:22Z",
+      "summary": "Arihant Bansal opened a Fable co-authored ORB_SLAM3 fork review that starts as a structured static report with 4 critical, 2 high, 5 medium, and 6 low findings, then follows with fix commits instead of stopping at advice. The branch fixes a BRISK feature-cap desynchronization between keypoints and descriptors, MapPoint pool lifetime bugs including premature chunk frees and eager use-after-free, navigation orientation corruption from `Matrix::normalized()` misuse, and CSV/interpolation boundary bugs that silently dropped frames. The PR remains open, but it is already a code-review-to-patch trail across 24 changed files rather than a standalone checklist."
+    },
+    {
+      "url": "https://github.com/gionin/steward/pull/5",
+      "seen_at": "2026-07-05T22:38:22Z",
+      "summary": "steward merged a Fable co-authored fix for a web PWA failure where `storage.js` hardcoded `SCHEMA_VERSION = 2` even though three migrations existed. Every save wrote version 2 back into metadata, so the next `openDatabase` re-ran the v3 migration and crashed on a duplicate `ready_date` column after save and reload. The merged PR derives the version from the migration list, makes the v3 migration idempotent for already-damaged databases, and then layers in GitHub-repo sync for the desktop app and web PWA with the design recorded in the architecture notes."
+    },
+    {
+      "url": "https://github.com/ulvestuen/pi-kit/pull/5",
+      "seen_at": "2026-07-05T22:38:22Z",
+      "summary": "pi-kit merged a Fable co-authored orchestration design that keeps the proposed agent system split into four standalone extensions instead of one monolith. The 596-line design adds a fleet runtime for subagents, a planner that emits task DAGs with lykkja-shaped criteria, a critic that independently scores checkpoints, and a thin orchestrator layer over the existing `pi.events` bus and session entries. The plan reuses lykkja as the goal-level quality gate and stopping rule while child sessions handle per-task loops."
+    },
+    {
+      "url": "https://github.com/sbyoun/vibe-feedback-agent/pull/5",
+      "seen_at": "2026-07-05T22:38:22Z",
+      "summary": "vibe-feedback-agent merged a Fable co-authored change that turns its demo pass from a loading check into actual browser exploration. The new first pass connects Playwright MCP, clicks CTAs, and attempts two to four core-flow steps; a verifier pass then replays the draft’s interaction claims in a headless browser before they are trusted. The same PR raises the queue/publish limit from 10 to 50 so normal operation can complete while still acting as a circuit breaker for change-detection storms, and keeps WebFetch only as a fallback when browser access fails."
     }
   ],
-  "last_run": "2026-07-05T21:31:30Z"
+  "last_run": "2026-07-05T22:38:22Z"
 }
