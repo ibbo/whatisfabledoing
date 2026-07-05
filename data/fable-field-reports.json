@@ -1359,7 +1359,32 @@
       "url": "https://github.com/ikigai-rs/ikigai-org/pull/5",
       "seen_at": "2026-07-04T22:52:45Z",
       "summary": "Claude Fable 5 co-authored an ikigai-org fix that parses Org-mode <start>--<end> ranges as one spanning event instead of two single-day stamps, preserving all-day/timed durations, repeaters, window-straddling ranges, and detail display, with CI passing."
+    },
+    {
+      "url": "https://x.com/Topaz750/status/2073331746217538012",
+      "seen_at": "2026-07-05T00:01:26Z",
+      "summary": "Topaz750 reports Fable 5 built and ran a Rapid-MLX local-agent benchmark harness over eight configurations, landing k8v4/single-sequence settings with 11/11 tool-call success, ~0.22s warm TTFT, and ~80 tok/s."
+    },
+    {
+      "url": "https://github.com/lgarrido581/plutoplus-gps-timing/pull/5",
+      "seen_at": "2026-07-05T00:01:26Z",
+      "summary": "Fable co-authored a Pluto+ GPS timing fix that replaced one-shot axi_tdd sync with a PPS-counter-gated DMA path; after bitstream build and two-radio flashing, capture-window delta fell to 0–200 ns with 16 ns latch RMS."
+    },
+    {
+      "url": "https://github.com/CLYEH/graphRAG/pull/31",
+      "seen_at": "2026-07-05T00:01:26Z",
+      "summary": "Fable 5 co-authored graphRAG semantic retrieval over Qdrant/Postgres, enforcing cited §16 response objects, dropping uncitable/corrupt hits with warnings, and adding unit, contract, and live integration tests."
+    },
+    {
+      "url": "https://github.com/capeterson/gurps-player-companion/pull/44",
+      "seen_at": "2026-07-05T00:01:26Z",
+      "summary": "Fable co-authored a GURPS rules-compliance pass fixing skill defaults, trait modifier math, lift/damage tables, reeling/encumbrance thresholds, powerstone warnings, OpenAPI types, and focused calculation tests."
+    },
+    {
+      "url": "https://github.com/Ranzlappen/AetherSpin/pull/81",
+      "seen_at": "2026-07-05T00:01:26Z",
+      "summary": "Fable co-authored AetherSpin fixes aligning volatility labels with certified white papers, adding a regression guard against game/paper drift, and extending release packaging provenance and UI/release cleanup."
     }
   ],
-  "last_run": "2026-07-04T22:52:45Z"
+  "last_run": "2026-07-05T00:01:26Z"
 }
