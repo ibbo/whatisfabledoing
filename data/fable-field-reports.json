@@ -2264,7 +2264,32 @@
       "url": "https://github.com/pulkitxm/claude-directory",
       "seen_at": "2026-07-06T22:09:17Z",
       "summary": "pulkitxm's claude-directory repo is a public gallery of 550 Claude Fable 5-generated UI experiments, each intended to include a prompt.md and demo.mp4, spanning hero sections, landing pages, shaders, templates, and other front-end categories."
+    },
+    {
+      "url": "https://github.com/jop3/game-builder/pull/5",
+      "seen_at": "2026-07-06T23:17:48Z",
+      "summary": "game-builder merged a Fable 5 co-authored agent vision client that exchanges render prompts and reports through files, then validates the path with nine protocol and end-to-end tests."
+    },
+    {
+      "url": "https://github.com/fleet-ai/OpenEnv/pull/21",
+      "seen_at": "2026-07-06T23:17:48Z",
+      "summary": "Fleet AI’s OpenEnv PR uses a 30-rollout regrade census to show verifier execution failures being scored as zero rewards and broadens retry handling for those failures."
+    },
+    {
+      "url": "https://github.com/arjunrajlaboratory/ImageAnalysisProject/pull/150",
+      "seen_at": "2026-07-06T23:17:48Z",
+      "summary": "ImageAnalysisProject’s Fable 5 co-authored PR adds Trackastra and Ultrack workers for converting segmented cell polygons into lineage tracks with 20 tests."
+    },
+    {
+      "url": "https://github.com/gCuadros/hevy-mcp/pull/5",
+      "seen_at": "2026-07-06T23:17:48Z",
+      "summary": "hevy-mcp merged Fable-assisted read tools and resources after real-account stdio JSON-RPC testing, including a live 404 discovery that changed the profile resource design."
+    },
+    {
+      "url": "https://github.com/thinkhiphop12-pixel/New/pull/39",
+      "seen_at": "2026-07-06T23:17:48Z",
+      "summary": "A Fable co-authored PR replaces an external Draft XI link with a local World Cup game and removes injected cookie exfiltration and hidden cookie-stuffing iframes."
     }
   ],
-  "last_run": "2026-07-06T22:09:17Z"
+  "last_run": "2026-07-06T23:17:48Z"
 }
