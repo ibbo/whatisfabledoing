@@ -2199,7 +2199,27 @@
       "url": "https://github.com/kivy/kivy/pull/9339",
       "seen_at": "2026-07-06T10:47:09Z",
       "summary": "Kivy’s control-statements PR reports using Fable 5 sessions to finalize if/elif/else, for, factory, and slot support in kv-lang, with parser/builder/highlighting/docs/examples/tests across 5,692 additions."
+    },
+    {
+      "url": "https://github.com/molefrog/moi/pull/23",
+      "seen_at": "2026-07-06T11:51:05Z",
+      "summary": "moi's Fable 5 co-authored PR lets server-side widget and view functions call the user's Claude Code MCP tools directly through `import { mcp } from 'moi'`, without routing the call through a model turn. The implementation adds a parent-process MCP broker with pooled SDK clients per workspace and server, worker-to-parent IPC, a Bun virtual module for `.server.ts` code, shutdown cleanup so stdio children do not outlive the server, and explicit rejections for OAuth, claude.ai connector, and SDK-server cases it cannot safely handle. The 343-line patch includes fixture MCP servers, broker unit tests, and a full worker-IPC round trip through `callFunction`."
+    },
+    {
+      "url": "https://github.com/monarch-initiative/dismech/pull/5471",
+      "seen_at": "2026-07-06T11:51:05Z",
+      "summary": "dismech has an open Fable 5 co-authored branch that first runs Edison Scientific deep research for ten disorder entries with no prior reports, then integrates the findings into the knowledge base disorder by disorder. The PR covers acetaminophen hepatotoxicity, amyloidosis, eosinophilic esophagitis, myocardial infarction, small-cell lung cancer, Legionnaires' disease, pertussis, Q fever, POTS, and esophageal carcinoma, adding raw reports, citation sidecars, image artifacts, history records, reference caches, and term-validation cache updates. The body is careful that the raw reports are leads for later curation, while the commit sequence shows Fable carrying the work through integration passes rather than only producing research text."
+    },
+    {
+      "url": "https://github.com/Auginte/zooming-based-organizer/pull/2",
+      "seen_at": "2026-07-06T11:51:05Z",
+      "summary": "Auginte used Fable 5 to port an `auginte-zooming` Scala module to TypeScript as a web proof of concept that still works under JavaScript floating-point limits. The PR recreates the recursive grid, grid-node, distance, bounded-coordinate, and camera re-anchoring logic, then adds 33 Vitest tests ported from `GridSpec.scala` plus new checks for 10^29 zoom, deep round trips, and panning where naive world coordinates would freeze. It also ships a canvas demo with wheel and pinch zoom, draggable notes, and a guided dive through 20 nested worlds spanning a 10^40 scale range."
+    },
+    {
+      "url": "https://github.com/trygonome/Apks/pull/1",
+      "seen_at": "2026-07-06T11:51:05Z",
+      "summary": "trygonome's Fable 5 co-authored Android PR replaces an archived voice-budget app with a receipt-capture pipeline and then iterates through multiple product versions. The first implementation adds ML Kit document scanning, offline OCR, heuristic detection of totals, dates, and stores, JPEG plus JSON export to a user-selected sync folder, a modern Kotlin/AGP/Gradle stack, and a locally verified GitHub Actions build. Follow-up commits add manual correction, monthly stats, CSV export, a parser fixed on a real Quick receipt, a geometric OCR reconstruction engine, auto-categorization, dashboarding, VAT extraction, themes, search, a progression prototype, and later BMAD planning artifacts with stress-review corrections."
     }
   ],
-  "last_run": "2026-07-06T10:47:09Z"
+  "last_run": "2026-07-06T11:51:05Z"
 }
