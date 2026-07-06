@@ -2249,7 +2249,22 @@
       "url": "https://github.com/ProductPope/fontsentry/pull/27",
       "seen_at": "2026-07-06T21:05:11Z",
       "summary": "fontsentry’s Fable co-authored validation fix prevents labeled fonts from escaping false-negative accounting by normalizing group keys, PDF subset prefixes, and domain variants, with tests and docs."
+    },
+    {
+      "url": "https://phasetransitionsai.substack.com/p/fable-5-agent-ceo",
+      "seen_at": "2026-07-06T22:09:17Z",
+      "summary": "Graham Rowe describes using Claude Code with Fable 5 as an agent manager: skills, pass/fail goals, and multi-agent workflows that can run for hours; he gives concrete examples including voiceover software walkthroughs and research/report teams."
+    },
+    {
+      "url": "https://www.chatprd.ai/how-i-ai/claude-fable-5-review",
+      "seen_at": "2026-07-06T22:09:17Z",
+      "summary": "Claire Vo reports early-access tests of Fable 5 across coding, writing, design, vision/document formatting, and multi-agent workflows, with mixed findings: strong PDF formatting, poor prose/design, conservative MVP execution, and subagent stalls after about three hours."
+    },
+    {
+      "url": "https://github.com/pulkitxm/claude-directory",
+      "seen_at": "2026-07-06T22:09:17Z",
+      "summary": "pulkitxm's claude-directory repo is a public gallery of 550 Claude Fable 5-generated UI experiments, each intended to include a prompt.md and demo.mp4, spanning hero sections, landing pages, shaders, templates, and other front-end categories."
     }
   ],
-  "last_run": "2026-07-06T21:05:11Z"
+  "last_run": "2026-07-06T22:09:17Z"
 }
