@@ -2059,7 +2059,27 @@
       "url": "https://github.com/krll-dev/playwright-e2e/pull/5",
       "seen_at": "2026-07-06T05:16:46Z",
       "summary": "Merged playwright-e2e PR co-authored by Claude Fable 5 refactors Java Playwright tests into stateless records, pages, components, flows, and actions, adds Allure @Step support with AspectJ, and documents architecture rules and anti-patterns."
+    },
+    {
+      "url": "https://github.com/SlickAmogus/PsyCross/pull/5",
+      "seen_at": "2026-07-06T06:25:05Z",
+      "summary": "Claude Fable 5 co-authored a 48-line PsyCross renderer fix that drives the dormant overrideTexture path from host hi-res texture lookups, using a weak stub for hosts without overrides and preserving batching/UV behavior."
+    },
+    {
+      "url": "https://github.com/amindell11/astronomical-home/pull/73",
+      "seen_at": "2026-07-06T06:25:05Z",
+      "summary": "Claude Fable 5 co-authored an astronomical-home chase-navigation integration combining gap-primitives, deterministic sensing, terminal cost fields, and a benchmark harness, with conflict resolutions and baseline/combined JSONL results committed."
+    },
+    {
+      "url": "https://github.com/cascivo/cascivo/pull/124",
+      "seen_at": "2026-07-06T06:25:05Z",
+      "summary": "Claude Fable 5 co-authored a Cascivo audit-to-implementation PR: four parallel audits and live screenshot review became docs, marketing, live previews, CI accessibility checks, roadmap/support pages, and a theme-creation CLI path."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/766",
+      "seen_at": "2026-07-06T06:25:05Z",
+      "summary": "Mitos PR uses Claude Fable 5 via Claude Code to add a dispatch-only CoW density sweep for bare-metal KVM benchmarks, reporting per-fork memory tables to de-risk multi-VM-per-pod work while leaving push CI untouched."
     }
   ],
-  "last_run": "2026-07-06T05:16:46Z"
+  "last_run": "2026-07-06T06:25:05Z"
 }
