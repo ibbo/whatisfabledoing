@@ -2169,7 +2169,37 @@
       "url": "https://github.com/Mad9999/cloud-code/pull/1",
       "seen_at": "2026-07-06T09:40:23Z",
       "summary": "cloud-code’s first PR is a Fable co-authored interactive study project for Al-Fatiha and, through the commit trail, Al-Baqara. The branch builds a verified dataset from Tanzil/Hafs text, word roots, sourced semantic links, ring-structure analysis, and tajwid letter attributes, then adds a Python pipeline for phoneme decomposition, semantic knowledge graphs, and FFT analysis of a Husary recitation. The standalone RTL web app visualizes ring structure, a force-directed semantic graph, per-letter phonetic fingerprints, spectrograms with audio playback, and claim grading, with the public diff spanning 1,730 files and 76,266 additions."
+    },
+    {
+      "url": "https://github.com/gionnibgud/feedBack-plugin-musicxml-import/pull/1",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "Fable 5 co-authored compressed MusicXML support for feedBack-plugin-musicxml-import, including zip/rootfile handling, traversal rejection, UI validation, 37 passing tests, and a real MuseScore .mxl end-to-end check."
+    },
+    {
+      "url": "https://github.com/danielarraesreino/CENE/pull/62",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "Fable 5 co-authored CENE’s public-library backend by extending the existing repository CMS, adding catalog metadata, public API output, idempotent seeding, Django admin support, and regression tests for public/private CMS isolation."
+    },
+    {
+      "url": "https://github.com/agaaz007/tranzmit-mobile-webview/pull/5",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "Fable 5 co-authored a tranzmit-mobile-webview fix for a production config importer that wiped Statsig experiment links, adding field-preserving upserts, regression tests, and guarded production push checks after a six-day control-only incident."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/pull/100827",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "OpenClaw’s Fable 5-assisted PR adds lifecycle-owned SQLite cache exit closing and tests, and reports that an adversarial finder pass exposed a debug-proxy exit-listener crash before landing."
+    },
+    {
+      "url": "https://github.com/MatJacGH/question-substrate/pull/6",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "Fable authored question-substrate’s model-substrate PR, converting a fixed-config design into an MLB home-win pipeline with row/feature/target/usage builders, training/backtest scripts, tests, leakage tripwires, and explicit design reversals."
+    },
+    {
+      "url": "https://github.com/kivy/kivy/pull/9339",
+      "seen_at": "2026-07-06T10:47:09Z",
+      "summary": "Kivy’s control-statements PR reports using Fable 5 sessions to finalize if/elif/else, for, factory, and slot support in kv-lang, with parser/builder/highlighting/docs/examples/tests across 5,692 additions."
     }
   ],
-  "last_run": "2026-07-06T09:40:23Z"
+  "last_run": "2026-07-06T10:47:09Z"
 }
