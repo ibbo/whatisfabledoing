@@ -2004,7 +2004,37 @@
       "url": "https://github.com/gamesonrblx/roblox-redupe/pull/1",
       "seen_at": "2026-07-06T03:03:00Z",
       "summary": "roblox-redupe has an open Fable co-authored 3,815-line Roadworks plugin for Roblox Studio with curve tools, superelevation, lane transitions, custom cross-sections, persisted road profiles, and regional presets."
+    },
+    {
+      "url": "https://github.com/Kumac13/meme-gtd/pull/250",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "meme-gtd has an open Fable co-authored PR that adds server sequencing, sync APIs, GRDB local storage, offline writes, retry backoff, standalone mode, local article/task support, and migration from standalone iOS storage back to the server across 15,705 additions."
+    },
+    {
+      "url": "https://github.com/ecclesiastesman-cpu/artmore-card/pull/1",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "artmore-card has an open Fable-authored browser ARPG PR with five classes, talent trees, loot, four acts, PWA support, asset-fetch workflows, GitHub Pages publishing, and repeated verifier commits across twenty-three playable-build iterations."
+    },
+    {
+      "url": "https://github.com/kimonofeelings/github-slideshow/pull/2",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "kimonofeelings has an open Fable-authored World Cup predictor with Monte Carlo and Dixon-Coles simulation, live fixture/weather/ESPN data, SMS/Twilio/WhatsApp delivery, result grading, paper trading against Polymarket prices, tests, and CI."
+    },
+    {
+      "url": "https://github.com/GiraffeTechnology/aivan/pull/36",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "aivan has an open Fable co-authored case-workflow PR with web tables, deterministic trade-assistant classification, fact extraction, email draft review states, upload and backup APIs, UI work, 20 PRD acceptance cases, multilingual support, and auth hardening."
+    },
+    {
+      "url": "https://github.com/CaptPluton/testing-repositity/pull/1",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "CaptPluton has an open Fable-authored autonomous sales-agent PR with configuration, playbook, prompt files, CRM state, report generation, a first run of 12 leads and 10 prepared cold emails, audit fixes, Drive publishing, Gmail draft creation, and outreach templates."
+    },
+    {
+      "url": "https://github.com/congtubkbn/cline-agent/pull/5",
+      "seen_at": "2026-07-06T04:08:29Z",
+      "summary": "cline-agent merged a Fable-authored packaging PR that bundles its analyzer into a self-extracting installer, installs app and skill files in user or project locations with clobber guards, fixes installed asset resolution, and documents the package path."
     }
   ],
-  "last_run": "2026-07-06T03:03:00Z"
+  "last_run": "2026-07-06T04:08:29Z"
 }
