@@ -2109,7 +2109,37 @@
       "url": "https://github.com/hellosurbhi/itskaren-landing/pull/2",
       "seen_at": "2026-07-06T07:28:20Z",
       "summary": "itskaren-landing open PR co-authored by Claude Fable 5 fixes a waitlist form that hid permanently after failed submits, removes localStorage persistence, adds retryable inline errors, and reports syntax/localStorage/live-site verification."
+    },
+    {
+      "url": "https://github.com/serenakg/Design/pull/2",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored a 9,478-line Next.js/Supabase foundation for two walled workspaces on one contact spine, with RLS, approval gates, GDPR export/delete functions, private storage buckets, auth, and reported PostgreSQL/build/lint/smoke verification."
+    },
+    {
+      "url": "https://github.com/Intentional-Society/is-app/pull/495",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored a fix for unreadable graph name labels on Chrome 109 by replacing paint-order-dependent text strokes with layered halo text, then documented a Baseline browser-support policy after two older-browser misses."
+    },
+    {
+      "url": "https://github.com/Dark-Matter-Labs/indy-llm-wiki/pull/27",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored a Cascade Atlas synthesis for an LLM wiki, extracting twenty cascading-risk pathways from the Civilization Options/XCO corpus with topology signatures, attacked optionality components, early warnings, mitigations, caveats, and a published HTML page."
+    },
+    {
+      "url": "https://github.com/lhahne/xit/pull/2",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored the publishing layer for a podcast summarizer: per-episode summary and transcript HTML pages with TOCs, manifests, private/public GCS buckets, cache-control-aware uploads, Terraform wiring, and rendering/publishing tests."
+    },
+    {
+      "url": "https://github.com/ThousandBirdsInc/chidori/pull/90",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored a Chidori JavaScript-engine performance PR with dense-array write fast paths, prepared function-kernel callbacks for native higher-order builtins, all-number sort specialization, kernel copy-prop/DCE, superinstructions, and property-register localization, with benchmark and test262 gates reported."
+    },
+    {
+      "url": "https://github.com/miskibin/warbell/pull/52",
+      "seen_at": "2026-07-06T08:35:11Z",
+      "summary": "Claude Fable 5 co-authored an 806-line Warbell game PR adding persistent archer villagers, draw-and-loose animation, ballistic arrows, keep-roof sentries, audio cues, staging env hooks, and projectile unit tests."
     }
   ],
-  "last_run": "2026-07-06T07:28:20Z"
+  "last_run": "2026-07-06T08:35:11Z"
 }
