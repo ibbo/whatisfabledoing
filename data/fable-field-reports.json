@@ -1929,7 +1929,32 @@
       "url": "https://github.com/remiverdet76-maker/Dreamt/pull/5",
       "seen_at": "2026-07-05T23:42:16Z",
       "summary": "Dreamt has an open Fable-authored Android calculator PR spanning 2,106 new lines. The branch builds a “Calc Fractale 991” app with a Casio-style scientific-calculator engine, fraction and π handling, 2D ratio plots, logarithmic and exponential graphing, and 3D visualizations for Platonic solids, torus, Möbius-style surfaces, and related ratio geometry. It also adds the Gradle project, launcher icons, Android manifest, WebView activity, and a GitHub Actions workflow that builds the APK after fixing an invalid YAML apostrophe."
+    },
+    {
+      "url": "https://x.com/AntonMartyniuk/status/2073708572995641579",
+      "seen_at": "2026-07-06T00:47:53Z",
+      "summary": "Anton Martyniuk reports a Fable 5 Ultracode review of an Opus 4.8-written production notification feature: 57 findings versus 18 from Opus, with 46 Fable findings manually confirmed as legitimate bugs, performance issues, or security issues."
+    },
+    {
+      "url": "https://github.com/christianpatrick/honeycrisp/pull/5",
+      "seen_at": "2026-07-06T00:47:53Z",
+      "summary": "Merged Honeycrisp PR co-authored by Claude Fable 5 adds Apple Notes search/read/link/create/append tools using direct NoteStore reads and raw Apple events for writes, with real-store and real-write integration tests."
+    },
+    {
+      "url": "https://github.com/adolgert/ChronoSimExamples.jl/pull/5",
+      "seen_at": "2026-07-06T00:47:53Z",
+      "summary": "Open ChronoSimExamples.jl PR co-authored by Claude Fable 5 exercises replay, invariants, guard linting, why-verb scenarios, effect-conformance, and Quint model checking across four models, reporting 41 green test-set summaries and byte-identical differential trajectories."
+    },
+    {
+      "url": "https://github.com/ludiloqs/Fuhrparkmanagement-/pull/1",
+      "seen_at": "2026-07-06T00:47:53Z",
+      "summary": "Open Fuhrparkmanagement PR co-authored by Claude Fable 5 builds a Next.js/Prisma multi-tenant fleet-management app with auth, roles, vehicles, bookings, maintenance, dashboards, companyId API isolation, Zod validation, and two-company seed data."
+    },
+    {
+      "url": "https://github.com/DouglasRomminger/ZapCRM/pull/14",
+      "seen_at": "2026-07-06T00:47:53Z",
+      "summary": "Open ZapCRM PR co-authored by Claude Fable 5 adds an Apify Google Maps prospecting module with backend run/poll/import endpoints, phone normalization, deduplication, a frontend workflow, APIFY_TOKEN handling, and nine new tests with 28/28 passing."
     }
   ],
-  "last_run": "2026-07-05T23:42:16Z"
+  "last_run": "2026-07-06T00:47:53Z"
 }
