@@ -1979,7 +1979,32 @@
       "url": "https://x.com/KrishivThakuria/status/2073947249743204755",
       "seen_at": "2026-07-06T01:57:34Z",
       "summary": "Krishiv Thakuria posted a video of a Fable 5 one-shot web app that renders live San Francisco traffic in 3D at the Powell & Market cable-car turnaround."
+    },
+    {
+      "url": "https://x.com/koedesk/status/2073957504267256124",
+      "seen_at": "2026-07-06T03:03:00Z",
+      "summary": "koedesk reports Fable 5 built and ran a preregistered 13-engine, 12-language STT benchmark with 28,400 raw transcriptions, public scoring code, and a 36-language leaderboard in about three days for roughly $28."
+    },
+    {
+      "url": "https://github.com/dsyang/pocket-artifacts/pull/8",
+      "seen_at": "2026-07-06T03:03:00Z",
+      "summary": "pocket-artifacts has an open Fable co-authored PR moving SSE generation into an app-lifetime actor, with checkpointing and tests for persistence, cancellation, late subscribers, concurrency, and iOS background-task expiry."
+    },
+    {
+      "url": "https://github.com/ecuaryan/bucket-my-money/pull/266",
+      "seen_at": "2026-07-06T03:03:00Z",
+      "summary": "bucket-my-money has an open Fable-authored fix for a bottom-nav glitch caused by transient roster refetch failures, preserving the last good roster and adding a regression test for the dropped Kids/Give tab."
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza/pull/14650",
+      "seen_at": "2026-07-06T03:03:00Z",
+      "summary": "Eliza has an open Fable co-authored certification fix where adversarial review found the Ed25519 public key was missing; the PR commits the trust anchor, documents the fingerprint, and adds anchor tests with 270 passing."
+    },
+    {
+      "url": "https://github.com/gamesonrblx/roblox-redupe/pull/1",
+      "seen_at": "2026-07-06T03:03:00Z",
+      "summary": "roblox-redupe has an open Fable co-authored 3,815-line Roadworks plugin for Roblox Studio with curve tools, superelevation, lane transitions, custom cross-sections, persisted road profiles, and regional presets."
     }
   ],
-  "last_run": "2026-07-06T01:57:34Z"
+  "last_run": "2026-07-06T03:03:00Z"
 }
