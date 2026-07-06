@@ -2034,7 +2034,32 @@
       "url": "https://github.com/congtubkbn/cline-agent/pull/5",
       "seen_at": "2026-07-06T04:08:29Z",
       "summary": "cline-agent merged a Fable-authored packaging PR that bundles its analyzer into a self-extracting installer, installs app and skill files in user or project locations with clobber guards, fixes installed asset resolution, and documents the package path."
+    },
+    {
+      "url": "https://github.com/arvicco/mimir/pull/5",
+      "seen_at": "2026-07-06T05:16:46Z",
+      "summary": "mimir Phase 4 PR co-authored by Claude Fable 5 adds a Cloudflare Worker API, shared renderer, production dashboard, SRI checks, BTCo table, and owner-run deploy tooling, with 298 Ruby runs, 1,517 assertions, 12 node worker tests, visual checks, and follow-up deploy-hardening fixes."
+    },
+    {
+      "url": "https://github.com/st3fan/ewm/pull/206",
+      "seen_at": "2026-07-06T05:16:46Z",
+      "summary": "ewm open PR co-authored by Claude Fable 5 fixes Apple II emulator timing after identifying wrong 6502 cycle counts, missing branch and page-cross penalties, and frame-deadline drift; WAIT(10) moves from 338 counted cycles to the documented 392 and 51 tests remain green."
+    },
+    {
+      "url": "https://github.com/radiantnode/tensies/pull/57",
+      "seen_at": "2026-07-06T05:16:46Z",
+      "summary": "Tensies open PR publishes a 33-file Fable 5 outside-in review with technical, security, frontend, gameplay, history, collaboration, and metrics reports, finding recovery-layer bugs, an unauthenticated legacy_pid transfer issue, a markup bug, 31 JS strict-check errors, and follow-up fix/tooling artifacts."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.py/pull/848",
+      "seen_at": "2026-07-06T05:16:46Z",
+      "summary": "QuantEcon.py open PR co-authored by Claude Fable 5 fixes premature convergence in RepeatedGame.equilibrium_payoffs, where the Abreu-Sannikov algorithm could return feasible payoff hulls instead of equilibrium sets; tests cross-check against GameTheory.jl and a 256-bit BigFloat reference."
+    },
+    {
+      "url": "https://github.com/krll-dev/playwright-e2e/pull/5",
+      "seen_at": "2026-07-06T05:16:46Z",
+      "summary": "Merged playwright-e2e PR co-authored by Claude Fable 5 refactors Java Playwright tests into stateless records, pages, components, flows, and actions, adds Allure @Step support with AspectJ, and documents architecture rules and anti-patterns."
     }
   ],
-  "last_run": "2026-07-06T04:08:29Z"
+  "last_run": "2026-07-06T05:16:46Z"
 }
