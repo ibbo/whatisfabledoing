@@ -1954,7 +1954,32 @@
       "url": "https://github.com/DouglasRomminger/ZapCRM/pull/14",
       "seen_at": "2026-07-06T00:47:53Z",
       "summary": "Open ZapCRM PR co-authored by Claude Fable 5 adds an Apify Google Maps prospecting module with backend run/poll/import endpoints, phone normalization, deduplication, a frontend workflow, APIFY_TOKEN handling, and nine new tests with 28/28 passing."
+    },
+    {
+      "url": "https://note.com/tama_san/n/n0494fb0e94a2",
+      "seen_at": "2026-07-06T01:57:34Z",
+      "summary": "小串珠美 counted 83 Claude Fable 5 sessions over five days, using it mainly for business strategy, pricing, accept/decline decisions, YouTube production systems, lower-model delegation workflows, and personal decision-criteria work rather than routine content generation."
+    },
+    {
+      "url": "https://x.com/KanaWorks_AI/status/2073947005991420156",
+      "seen_at": "2026-07-06T01:57:34Z",
+      "summary": "KanaWorks_AI reports asking Fable 5 to plan and replace game art within a 300-credit budget; it batched icons into grids and produced 119 art assets plus 11 backgrounds for 47 credits, with a playable browser deck-building roguelike linked from the thread."
+    },
+    {
+      "url": "https://github.com/git-command/git-commander/pull/5",
+      "seen_at": "2026-07-06T01:57:34Z",
+      "summary": "Claude Fable 5 co-authored a git-commander repository analysis and follow-up fix set: a 414-line analysis document, nine empirically confirmed bugs with regression specs, dependency and CI modernization, and 660 additions across 25 files."
+    },
+    {
+      "url": "https://github.com/cobiadigital/mcp-for-ssh-control/pull/5",
+      "seen_at": "2026-07-06T01:57:34Z",
+      "summary": "Claude Fable 5 co-authored a merged mcp-for-ssh-control PR adding jailed file and script tools for an MCP SSH-control service, gated by ALLOWED_PATHS realpath checks, disabled by default, with path-escape smoke tests and docs."
+    },
+    {
+      "url": "https://x.com/KrishivThakuria/status/2073947249743204755",
+      "seen_at": "2026-07-06T01:57:34Z",
+      "summary": "Krishiv Thakuria posted a video of a Fable 5 one-shot web app that renders live San Francisco traffic in 3D at the Powell & Market cable-car turnaround."
     }
   ],
-  "last_run": "2026-07-06T00:47:53Z"
+  "last_run": "2026-07-06T01:57:34Z"
 }
