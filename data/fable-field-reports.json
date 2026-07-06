@@ -2079,7 +2079,37 @@
       "url": "https://github.com/mitos-run/mitos/pull/766",
       "seen_at": "2026-07-06T06:25:05Z",
       "summary": "Mitos PR uses Claude Fable 5 via Claude Code to add a dispatch-only CoW density sweep for bare-metal KVM benchmarks, reporting per-fork memory tables to de-risk multi-VM-per-pod work while leaving push CI untouched."
+    },
+    {
+      "url": "https://github.com/kt0319/any-console/pull/91",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "any-console open PR co-authored by Claude Fable 5 adds phrase-based blocked/done/working/idle detection for tmux agent sessions, status-stream propagation, UI badges, job editor fields, and watcher/UI tests."
+    },
+    {
+      "url": "https://github.com/getsigit/sigit-vscode/pull/1",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "sigit-vscode open PR co-authored by Claude Fable 5 hardens an ACP VS Code extension by moving sensitive settings to machine scope, confining agent file tools, fixing permission matching, rejecting hung JSON-RPC calls, capping ndjson buffers, and using crypto CSP nonces."
+    },
+    {
+      "url": "https://github.com/mcmespana/mcmbank/pull/155",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "mcmbank open PR co-authored by Claude Fable 5 fixes generated financial-report mismatches, filters inactive accounts, rewrites period labels, and adds live balance validation that detects uncategorized movements and double-counted category totals."
+    },
+    {
+      "url": "https://github.com/hegsie/Leviathan/pull/250",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "Leviathan open PR authored by Claude Fable 5 fixes multi-repo state corruption by keying search indexes, watchers, refreshes, stores, graph caches, and toolbar notifications by repository path, with e2e and unit coverage."
+    },
+    {
+      "url": "https://github.com/beep-effect/beep-effect/pull/300",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "beep-effect open PR co-authored by Claude Fable 5 adds a research/knowledge-vault CLI with Firecrawl capture, browser-history sifting, repo cards, Notion pulls, Cognee datasets, digests, daily meta-runs, and a systemd timer, with local proof checks."
+    },
+    {
+      "url": "https://github.com/hellosurbhi/itskaren-landing/pull/2",
+      "seen_at": "2026-07-06T07:28:20Z",
+      "summary": "itskaren-landing open PR co-authored by Claude Fable 5 fixes a waitlist form that hid permanently after failed submits, removes localStorage persistence, adds retryable inline errors, and reports syntax/localStorage/live-site verification."
     }
   ],
-  "last_run": "2026-07-06T06:25:05Z"
+  "last_run": "2026-07-06T07:28:20Z"
 }
