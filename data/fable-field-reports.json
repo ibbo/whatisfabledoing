@@ -2219,7 +2219,37 @@
       "url": "https://github.com/trygonome/Apks/pull/1",
       "seen_at": "2026-07-06T11:51:05Z",
       "summary": "trygonome's Fable 5 co-authored Android PR replaces an archived voice-budget app with a receipt-capture pipeline and then iterates through multiple product versions. The first implementation adds ML Kit document scanning, offline OCR, heuristic detection of totals, dates, and stores, JPEG plus JSON export to a user-selected sync folder, a modern Kotlin/AGP/Gradle stack, and a locally verified GitHub Actions build. Follow-up commits add manual correction, monthly stats, CSV export, a parser fixed on a real Quick receipt, a geometric OCR reconstruction engine, auto-categorization, dashboarding, VAT extraction, themes, search, a progression prototype, and later BMAD planning artifacts with stress-review corrections."
+    },
+    {
+      "url": "https://github.com/thegoodparty/omni/pull/654",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "GoodParty’s omni PR runs claude-fable-5 on real dev dispatches to generate opponent-action cards from campaign, platform, and Haystaq sentiment data, with schema validation and Databricks number checks."
+    },
+    {
+      "url": "https://github.com/lucaswiman/frontrun/pull/237",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "frontrun’s Fable co-authored virtual-clock PR starts from failing concurrency tests and carries the work through sync/async DPOR implementation, docs, strict checks, and review-found soundness/stall fixes."
+    },
+    {
+      "url": "https://github.com/arjunrajlaboratory/NimbusImage/pull/1227",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "NimbusImage’s Fable co-authored PR moves an example-based segmentation tool from spec into frontend CART and SAM-similarity pipelines with UI wiring and component tests."
+    },
+    {
+      "url": "https://github.com/Will-Massey/engage-from-capstone/pull/5",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "engage-from-capstone’s Fable co-authored CORS fix restored originless same-origin GETs that had produced production 500s, while retaining cross-origin blocking in a production-mode check."
+    },
+    {
+      "url": "https://github.com/hugo-fuhrer/hidden-rivers/pull/5",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "hidden-rivers merged a Fable co-authored interactive story rebuild with sourced context panels, a courtroom vote scene, hydrological-restoration framing, and a real Lost Rivers map game."
+    },
+    {
+      "url": "https://github.com/ProductPope/fontsentry/pull/27",
+      "seen_at": "2026-07-06T21:05:11Z",
+      "summary": "fontsentry’s Fable co-authored validation fix prevents labeled fonts from escaping false-negative accounting by normalizing group keys, PDF subset prefixes, and domain variants, with tests and docs."
     }
   ],
-  "last_run": "2026-07-06T11:51:05Z"
+  "last_run": "2026-07-06T21:05:11Z"
 }
