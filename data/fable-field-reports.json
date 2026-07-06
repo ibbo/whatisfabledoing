@@ -2139,7 +2139,37 @@
       "url": "https://github.com/miskibin/warbell/pull/52",
       "seen_at": "2026-07-06T08:35:11Z",
       "summary": "Claude Fable 5 co-authored an 806-line Warbell game PR adding persistent archer villagers, draw-and-loose animation, ballistic arrows, keep-roof sentries, audio cues, staging env hooks, and projectile unit tests."
+    },
+    {
+      "url": "https://github.com/n-drobyshevski/sidekick/pull/5",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "sidekick merged a Fable co-authored scaffold that turns a Google Apps Script project into a TypeScript, clasp, esbuild, and Vitest workspace. The branch bundles sources into a single IIFE for the GAS V8 runtime, keeps handwritten `doGet`, `api_*`, and trigger delegators in `dist/entry.js`, and inlines client JS and CSS into HtmlService partials at build time. Across 88 files and 18,087 additions, follow-up commits port the domain core with Python golden-fixture parity, add Sheets and Drive storage, implement a UrlFetchApp client with resumable scan jobs, build a six-page SPA shell, and document a plain-text sheet format with UTC pinning."
+    },
+    {
+      "url": "https://github.com/xdoubleu/tools.xdoubleu.com/pull/313",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "tools.xdoubleu.com merged a Fable co-authored observability pass that starts with three concrete Sentry gaps: `slog.Default()` callers bypassing the Sentry handler, web route-level exceptions missing capture, and watchparty cleanup panics killing the goroutine without a report. The same PR adds job-run and feature-usage tracking, an R2 bucket scan for orphan detection, admin stats RPCs, and an admin dashboard. The merged branch spans 57 files and 4,951 additions, with documentation and test coverage rounded out after the instrumentation work."
+    },
+    {
+      "url": "https://github.com/martindybal/taphome-homeassistant/pull/208",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "TapHome’s Home Assistant integration has an open Fable co-authored config-entry conversion that first fixes the SDK lifecycle: `TapHomeHub.disconnect()` stops the periodic polling task and unsubscribes the connection-type handler so config-entry reloads do not leave background work behind. HTTP 401 and 403 responses now raise `TapHomeAuthError`, letting callers distinguish bad credentials from connectivity failures. Later commits add the config flow, guided options for devices and zones, metadata and docs updates, and a mock TapHome core server for offline testing across 41 changed files."
+    },
+    {
+      "url": "https://github.com/ai4curation/ai-gene-review/pull/1888",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "ai-gene-review has an open Fable co-authored PR adding the first developmental-process modules to its Module KB: early metazoan development, maternal-to-zygotic transition, body-axis specification, germ-layer specification, and primordial germ-cell specification. The PR says GO term labels were checked against QuickGO and UniProt exemplars against the UniProt REST API, then later commits add PANTHER/PAINT ancestral-node grounding, curated GOA review, cited literature evidence, deterministic supporting-text validation, and a reference-title/PMID checker. Each document validates with `linkml-validate -C ModuleReview`, leaving page regeneration to the existing CI convention."
+    },
+    {
+      "url": "https://github.com/hashimhashim/my-first-binder/pull/3",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "my-first-binder has an open Fable co-authored IAM-platform PR that goes well beyond a design note. The commit sequence starts with a current-state assessment, target architecture, data model, and roadmap, then implements identity repositories, application registries, roles, entitlements, mappings, exception and temporary access handling, access-request approvals with audit trails, provisioning orchestration, Microsoft Entra ID integration, and recertification. The branch currently changes 84 files with 15,352 additions and includes a reproducible end-to-end demo driver plus test-harness hardening for teardown connection failures."
+    },
+    {
+      "url": "https://github.com/Mad9999/cloud-code/pull/1",
+      "seen_at": "2026-07-06T09:40:23Z",
+      "summary": "cloud-code’s first PR is a Fable co-authored interactive study project for Al-Fatiha and, through the commit trail, Al-Baqara. The branch builds a verified dataset from Tanzil/Hafs text, word roots, sourced semantic links, ring-structure analysis, and tajwid letter attributes, then adds a Python pipeline for phoneme decomposition, semantic knowledge graphs, and FFT analysis of a Husary recitation. The standalone RTL web app visualizes ring structure, a force-directed semantic graph, per-letter phonetic fingerprints, spectrograms with audio playback, and claim grading, with the public diff spanning 1,730 files and 76,266 additions."
     }
   ],
-  "last_run": "2026-07-06T08:35:11Z"
+  "last_run": "2026-07-06T09:40:23Z"
 }
