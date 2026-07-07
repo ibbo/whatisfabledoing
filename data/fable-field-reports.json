@@ -2739,7 +2739,32 @@
       "url": "https://github.com/Dreighto/sully-backend/pull/116",
       "seen_at": "2026-07-07T15:42:47Z",
       "summary": "sully-backend PR 116 fixes a Fable co-authored autonomous-dispatch bug where attachment-only turns became fake work briefs from raw upload links, adding plain-English attachment mentions and three tests."
+    },
+    {
+      "url": "https://github.com/eth-sri/proof-council/pull/2",
+      "seen_at": "2026-07-07T16:49:16Z",
+      "summary": "proof-council PR 2 adds Claude Fable 5 as an Author and Council model, then expands it to native Anthropic Files/code-execution support with live Fable smoke tests that generated three canonical files at about eight cents per run."
+    },
+    {
+      "url": "https://github.com/vercel/next-evals-oss/pull/93",
+      "seen_at": "2026-07-07T16:49:16Z",
+      "summary": "next-evals-oss PR 93 reruns Claude Fable 5 after two Next.js agent evals moved from regex checks to LLM judges, tightening stale-result enforcement across experiment/eval pairs."
+    },
+    {
+      "url": "https://github.com/column-tax/tax-calc-bench/pull/89",
+      "seen_at": "2026-07-07T16:49:16Z",
+      "summary": "tax-calc-bench PR 89 publishes TY25 Claude Fable 5 web-search benchmark outputs for 50 tax cases across five thinking levels, including 500 result files, 250 evaluation reports, and best strict/lenient scores of 34%/44%."
+    },
+    {
+      "url": "https://github.com/philomena-dev/philomena/pull/707",
+      "seen_at": "2026-07-07T16:49:16Z",
+      "summary": "Philomena PR 707 says Claude Fable 5 generated nearly all of a 2,014-line OpenAPI v1 spec after reading the project controllers and Derpibooru API docs, with human corrections on the top-level description and links."
+    },
+    {
+      "url": "https://x.com/OMNILEV/status/2074302690801357035",
+      "seen_at": "2026-07-07T16:49:16Z",
+      "summary": "OMNILEV announced flux-skills, a Claude Code plugin that uses Fable 5 as an orchestrator and routes scouting, building, and verification to cheaper specialized agents, with persistent team state and evidence-gated review."
     }
   ],
-  "last_run": "2026-07-07T15:42:47Z"
+  "last_run": "2026-07-07T16:49:16Z"
 }
