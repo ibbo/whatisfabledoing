@@ -2839,7 +2839,27 @@
       "url": "https://github.com/alex-krassavin/expo-arcgis/pull/6",
       "seen_at": "2026-07-07T19:02:47Z",
       "summary": "expo-arcgis PR 6 is a Fable 5 fix for Xcode archive failures: Embed Frameworks was appended after a tail script phase, causing a dependency cycle; the helper now inserts it after Resources and has three Jest tests on a real pbxproj fixture."
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#claude-fable-5-helped-a-lot",
+      "seen_at": "2026-07-07T20:08:54Z",
+      "summary": "Simon Willison reports using Claude Fable 5 as a final sqlite-utils 4.0 release reviewer; Fable wrote 12 scratch scripts, found four release blockers and ten additional issues, and produced a combined repro script for transaction, pragma, foreign-key, CSV, and migration bugs."
+    },
+    {
+      "url": "https://github.com/HERA-Team/hera_pspec/pull/514",
+      "seen_at": "2026-07-07T20:08:54Z",
+      "summary": "HERA-Team hera_pspec PR 514 says Claude Fable 5 helped vectorize and clean up a scientific window-function update that fixed a 1.25x k_parallel scaling bug from mismatched FT-beam/data channel widths, added regression tests, produced ~20x binning speedup, and added CLI commands."
+    },
+    {
+      "url": "https://github.com/pytorch/helion/pull/3009",
+      "seen_at": "2026-07-07T20:08:54Z",
+      "summary": "PyTorch Helion PR 3009 co-authored by Claude Fable 5 adds a safe Kernel.__call__ fast dispatch cache; H100 FP8 benchmark table reports vLLM wins improving from 8/24 to 24/24 and geomean speedup from 0.913x to 1.268x."
+    },
+    {
+      "url": "https://github.com/llvm/circt/pull/10788",
+      "seen_at": "2026-07-07T20:08:54Z",
+      "summary": "LLVM CIRCT PR 10788 assisted by Claude Fable 5 fixes VerifToSMT bounded-model checking so assumptions remain asserted across timesteps instead of being popped between checks, preventing spurious counterexamples; circt-tests comparison reported no changed results."
     }
   ],
-  "last_run": "2026-07-07T19:02:47Z"
+  "last_run": "2026-07-07T20:08:54Z"
 }
