@@ -2544,7 +2544,37 @@
       "url": "https://github.com/dipjyotimetia/restura/pull/462",
       "seen_at": "2026-07-07T08:02:10Z",
       "summary": "An AI evaluation lab keeps runs alive across tab changes"
+    },
+    {
+      "url": "https://github.com/workvivo/laravel-scout-elasticsearch/pull/5",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "laravel-scout-elasticsearch PR 5 uses Claude Fable 5 to replace OFFSET imports with stateless keyset chunk ranges, add parallel import batching, per-model import locks, and 98 OpenSearch-backed tests."
+    },
+    {
+      "url": "https://github.com/nntrainer/nntrainer/pull/4050",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "nntrainer PR 4050 uses Claude Fable 5 to deduplicate Android CausalLM build flags, drop contradictory or ignored compiler/linker settings, and verify Android builds plus disassembly stability."
+    },
+    {
+      "url": "https://github.com/nimbus-local/nimbus/pull/100",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "nimbus PR 100 uses Claude Fable 5 to make local RDS DescribeDBInstances/Clusters honor Terraform provider filters, fixing singleton reads when multiple instances exist, with 1,112 tests passing."
+    },
+    {
+      "url": "https://github.com/yisiang-ong/OpenAlice/pull/1",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "OpenAlice PR 1 uses Claude Fable 5 to add a trade-card analysis pipeline with technical signals, backtests, position sizing, drawdown/daily-loss guards, CLI/MCP tools, and 2,267 tests plus e2e verification."
+    },
+    {
+      "url": "https://github.com/Dreighto/sully-backend/pull/114",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "sully-backend PR 114 uses Claude Fable 5 to fix artifact extraction on local/direct reply paths and make Auto routing thread-sticky, with seven targeted tests and 714 total tests reported."
+    },
+    {
+      "url": "https://github.com/antaymard/nolenor/pull/231",
+      "seen_at": "2026-07-07T09:06:46Z",
+      "summary": "nolenor PR 231 uses Claude Fable 5 to surface speech-to-text failures to users, add connection timeouts/fallbacks, fix recorder edge states, and accept real recording MIME types."
     }
   ],
-  "last_run": "2026-07-07T08:02:10Z"
+  "last_run": "2026-07-07T09:06:46Z"
 }
