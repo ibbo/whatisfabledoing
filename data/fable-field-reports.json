@@ -2444,7 +2444,42 @@
       "url": "https://github.com/Extra-Chill/homeboy/pull/7707",
       "seen_at": "2026-07-07T04:46:40Z",
       "summary": "Homeboy Fable-orchestrated audit cleanup removes rustc-proven dead code across command output and CI triage helpers, verified by cargo build/check."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/pull/101368",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "openclaw PR 101368 fixes claude-cli + claude-fable-5 context-window detection so Fable resolves to its 1M context instead of the default 200K, with provider/model unit coverage."
+    },
+    {
+      "url": "https://github.com/AssemblyAI/blurt/pull/60",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "AssemblyAI blurt PR 60 uses Claude Fable 5 to enable SwiftLint zero-tolerance rules for force unwraps, IUOs, unowned captures, and related correctness hazards, fixing existing sites across 15 files."
+    },
+    {
+      "url": "https://github.com/taurgis/has-marstek-local-api/pull/31",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "has-marstek-local-api PR 31 gates Bat.GetStatus polling because it may reset some Marstek devices, disables dependent entities by default, and adds regression coverage for polling cadence and entity-enable behavior."
+    },
+    {
+      "url": "https://github.com/arjunrajlaboratory/NimbusImage/pull/1231",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "NimbusImage PR 1231 moves from a Fable-written AI-panel spec to an implementation of an agent-controlled interface mapped onto existing Vuex actions, with 3,317 additions and review-finding fixes."
+    },
+    {
+      "url": "https://github.com/jmgirard/intraclass/pull/5",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "intraclass PR 5, merged with Claude Fable 5 co-authorship, ships Shrout-Fleiss ICC teaching datasets, a flagship Choosing an ICC vignette, a static SVG decision tree, and tests asserting the prose claims."
+    },
+    {
+      "url": "https://github.com/jtepe/spyglass/pull/33",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "spyglass PR 33 uses Claude Fable 5 to persist Azure service-principal audit runs into an append-only SQLite store with per-section retrievedAt timestamps and transactional fact tables."
+    },
+    {
+      "url": "https://github.com/aaacarpet631-design/aaa-hyperkernel/pull/88",
+      "seen_at": "2026-07-07T05:50:21Z",
+      "summary": "aaa-hyperkernel PR 88 uses Claude Fable 5 for a Google Ads attribution/governance foundation with PII-free ledgers, human-only conversion exports, guarded recommendations, Firestore rules, and 3,652 tests."
     }
   ],
-  "last_run": "2026-07-07T04:46:40Z"
+  "last_run": "2026-07-07T05:50:21Z"
 }
