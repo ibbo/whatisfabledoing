@@ -2604,7 +2604,32 @@
       "url": "https://github.com/Wrexist/DeepLifeSimulator/pull/50",
       "seen_at": "2026-07-07T10:12:59Z",
       "summary": "A life simulator removes dead systems and fake analytics"
+    },
+    {
+      "url": "https://github.com/vanilla-ui-kit/components/pull/5",
+      "seen_at": "2026-07-07T11:23:44Z",
+      "summary": "vanilla-ui-kit components PR 5 uses Claude Fable 5 to add TypeScript declarations, ESM/minified SRI builds, browser/a11y CI, a theme builder, demo app, scaffolder, and verification across node, browser, type, build, and size checks."
+    },
+    {
+      "url": "https://github.com/JinKazamaMishima/engram/pull/5",
+      "seen_at": "2026-07-07T11:23:44Z",
+      "summary": "engram PR 5 uses Claude Fable 5 to fix a live GPU contention incident by routing embedding work daemon-first, adding batch /embed, OOM retry, diagnostic errors, encode-based health checks, and 249 passing tests."
+    },
+    {
+      "url": "https://github.com/waiorgme/wai-site/pull/5",
+      "seen_at": "2026-07-07T11:23:44Z",
+      "summary": "wai-site PR 5 uses Claude Fable 5 to build a Convex-backed admin console and member portal with events, opportunities, directory, notifications, certificates, partner admin, reports, repeated review rounds, 276 unit/Convex tests, and 38 e2e tests."
+    },
+    {
+      "url": "https://github.com/Pururin-ux/PhysicsLab/pull/5",
+      "seen_at": "2026-07-07T11:23:44Z",
+      "summary": "PhysicsLab PR 5 uses Claude Fable 5 to promote the V3 Next.js physics tutor, move legacy prototypes aside, add production route/smoke gates, progress export/import hardening, a11y and visual baselines, and extensive passing test counts."
+    },
+    {
+      "url": "https://github.com/turantopcuoglu/Didemapp/pull/5",
+      "seen_at": "2026-07-07T11:23:44Z",
+      "summary": "Didemapp PR 5 uses Claude Fable 5 to build a complete Turkish Flutter diet-tracking teaching app with onboarding, meal/water tracking, progress charts, settings, notifications, persistence, Android/iOS scaffolds, and reusable widgets."
     }
   ],
-  "last_run": "2026-07-07T10:12:59Z"
+  "last_run": "2026-07-07T11:23:44Z"
 }
