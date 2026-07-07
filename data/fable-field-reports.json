@@ -2289,7 +2289,37 @@
       "url": "https://github.com/thinkhiphop12-pixel/New/pull/39",
       "seen_at": "2026-07-06T23:17:48Z",
       "summary": "A Fable co-authored PR replaces an external Draft XI link with a local World Cup game and removes injected cookie exfiltration and hidden cookie-stuffing iframes."
+    },
+    {
+      "url": "https://github.com/ai2cm/ace/pull/1335",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "ACE PR 1335 uses Fable 5 to carry corrector delta diagnostics through prediction and optional netCDF output, with tests and review-driven API changes."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper/pull/1554",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "Harper PR 1554 uses Fable 5 for an envelope-encrypted secrets store and documents cross-model review fixes for grant races, MCP audit leaks, audit-log exposure, and duplicate grants."
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/25377",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "llama.cpp PR 25377 is a Fable 5-assisted Metal q4_0 tile optimization reporting 2x batch-8 kernel speed and 19% pp8 end-to-end speedup on M4 Pro."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6208",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "Apache Texera PR 6208 uses Claude Fable 5 to upgrade Iceberg/parquet dependencies for CVEs, adjust a Scala writer API, regenerate notices, and add IcebergTableWriter tests."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/742",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "Mitos PR 742 uses Claude Fable 5 to move bearer-gated internal M2M endpoints to a cluster-internal listener after hosted testing exposed a public-mux security risk."
+    },
+    {
+      "url": "https://github.com/jesse8393/fieldhorse-v2/pull/201",
+      "seen_at": "2026-07-07T00:22:31Z",
+      "summary": "fieldhorse-v2 PR 201 documents a Fable/Claude Code 30-commit CRM hardening sprint with security, UX, performance, theme, QA harness, and test/build gates."
     }
   ],
-  "last_run": "2026-07-06T23:17:48Z"
+  "last_run": "2026-07-07T00:22:31Z"
 }
