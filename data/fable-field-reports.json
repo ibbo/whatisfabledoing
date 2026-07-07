@@ -2674,7 +2674,47 @@
       "url": "https://github.com/ducktapegirl/game-scorer/pull/5",
       "seen_at": "2026-07-07T13:33:08Z",
       "summary": "Merged Claude-assisted game-scorer PR, including Claude Fable 5, adds photo correction/depth annotation UI and verifies three real test photos end to end."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14718",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "StarkWare echonet PR stack uses Claude Fable 5 to run Starknet OS replays over stored blobs with a bounded worker pool, subprocess isolation to avoid heap growth, outcome counters, and report UI for failures/queue state."
+    },
+    {
+      "url": "https://github.com/gaborcselle/jsonl-gazelle/pull/45",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "JSONL Gazelle PR 45 uses Claude Fable 5 to add a VS Code JSONL diff command with row alignment, field-level path changes, strict-CSP webview rendering, and diff-engine unit tests."
+    },
+    {
+      "url": "https://github.com/charliebeckstrand/midgard/pull/908",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "Midgard PR 908 uses Claude Fable 5 to make chart layout responsive to measured plot boxes, compacting axes/titles/labels by tier, fixing aspect-ratio overflow, and verifying with unit and real-browser chart sweeps."
+    },
+    {
+      "url": "https://github.com/Harborline-Software/shipyard/pull/1956",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "Shipyard PR 1956 uses Claude Fable 5 to apply coarse-pointer-aware 44px hit targets to shared UI primitives, with 15 new tests, 7,032 passing ui-react tests, and 30/30 Playwright bounding-box checks."
+    },
+    {
+      "url": "https://github.com/lukyjack/Test-FIO/pull/5",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "Test-FIO PR 5 uses Claude Fable 5 to add resizable warehouse map places, free labels and separator lines, zoom/text sizing, drag/pinch panning, backward-compatible layout JSON, and backend documentation."
+    },
+    {
+      "url": "https://github.com/Silo-Server/silo-plugin-tvdb/pull/5",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "Silo TVDB plugin PR 5 uses Claude Fable 5 to propagate TVDB series status into Silo metadata cards, bumping the plugin SDK and adding an httptest regression."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14717",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "StarkWare echonet companion PR adds a standalone OS runner subprocess so per-run Cairo/CLI state exits with the worker and failed inputs are retained with rolling retention."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14720",
+      "seen_at": "2026-07-07T14:37:03Z",
+      "summary": "StarkWare echonet companion PR redesigns the report UI with OS-runner counters, live queue/deferred state, recent failures, severity pills, collapsible sections, and CSV export."
     }
   ],
-  "last_run": "2026-07-07T13:33:08Z"
+  "last_run": "2026-07-07T14:37:03Z"
 }
