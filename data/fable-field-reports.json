@@ -2509,7 +2509,42 @@
       "url": "https://github.com/AssemblyAI/blurt/pull/62",
       "seen_at": "2026-07-07T06:57:12Z",
       "summary": "AssemblyAI blurt PR 62 uses Claude Fable 5 to trim dictation latency and race windows by flipping transcribing state at key-up, bounding accessibility context reads to 500 ms, and updating engine tests."
+    },
+    {
+      "url": "https://github.com/lancepickens/jabberwocky/pull/5",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "A real iPhone clip goes from SfM crash to 39 cameras"
+    },
+    {
+      "url": "https://github.com/SquareWaveSystems/opcilloscope/pull/179",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "A pre-release C# oscilloscope audit becomes four fixes"
+    },
+    {
+      "url": "https://github.com/apache/orc/pull/2671",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "ORC readers get two small malformed-file guards"
+    },
+    {
+      "url": "https://github.com/apache/orc/pull/2672",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "ORC readers get two small malformed-file guards"
+    },
+    {
+      "url": "https://github.com/Dreighto/sully-backend/pull/113",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "An ops queue stops carrying 80 dead pre-flight jobs"
+    },
+    {
+      "url": "https://github.com/SuzukiDaishi/z-audio-dsp-plugin/pull/4",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "A WebCLAP wavetable synth ships with leakage and host smokes"
+    },
+    {
+      "url": "https://github.com/dipjyotimetia/restura/pull/462",
+      "seen_at": "2026-07-07T08:02:10Z",
+      "summary": "An AI evaluation lab keeps runs alive across tab changes"
     }
   ],
-  "last_run": "2026-07-07T06:57:12Z"
+  "last_run": "2026-07-07T08:02:10Z"
 }
