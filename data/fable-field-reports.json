@@ -2894,7 +2894,67 @@
       "url": "https://github.com/pytorch/helion/pull/3010",
       "seen_at": "2026-07-07T21:14:36Z",
       "summary": "PyTorch Helion PR 3010 extends the Fable 5 co-authored kernel dispatch work with a triton_direct_launch fast path; benchmark comments on H100 report wins over vLLM on 22/24 cases and a 1.253x geomean, with hazards folded into the cache key."
+    },
+    {
+      "url": "https://github.com/letsencrypt/boulder/pull/8846",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LetsEncrypt Boulder PR generated from a Claude Fable 5 audit of PR 8606 fixes issuance audit logging so renewal-check errors and MTC issuance paths always produce a tagged completion/error line."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/pull/289",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LegalQuants lq-ai Fable 5 security audit follow-up requiring gateway keys on inference endpoints, closing project IDOR, sanitizing skill markdown, rejecting default JWT secrets, and guarding plaintext LLM provider egress."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/pull/290",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LegalQuants lq-ai Fable 5 security audit follow-up adding project ownership checks and owner-scoped KB retrieval to close a chat project IDOR."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/pull/291",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LegalQuants lq-ai Fable 5 security audit follow-up sanitizing skill markdown before Svelte raw HTML rendering to close a stored XSS sink."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/pull/292",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LegalQuants lq-ai Fable 5 security audit follow-up refusing production startup with the published development JWT secret."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/pull/293",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "LegalQuants lq-ai Fable 5 security audit follow-up validating LLM provider base URLs so plaintext HTTP is limited to local targets."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1769",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "SPARQ Fable 5 agent PR builds an orphan-proof EC2 benchmark runner that serializes five benchmark axes onto one quiet box, with watchdogs, byte-capped result envelopes, local smoke evidence, and Fable-tier verification comments."
+    },
+    {
+      "url": "https://github.com/danielbaustin/agent-design-language/pull/5050",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "Agent Design Language PR runs a live Claude Fable 5 hosted-provider UTS acceptance panel, adding an output-token-budget wrapper, refusal-shape normalization, runner scripts, docs, and proof artifacts with 10/11 regular and 11/11 UTS-only results."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/tods-validate/pull/22",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "tods-validate Fable 5 roadmap batch adds structured finding data and JSON suggestions, with sibling PRs for stamped fleet markdown reports and anonymization residual-risk reporting."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/tods-validate/pull/17",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "tods-validate Fable 5 roadmap PR adds markdown batch reporting and stamped fleet compliance artifacts."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/tods-validate/pull/28",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "tods-validate Fable 5 roadmap PR closes vehicle-label anonymization gaps and adds residual-risk reporting for free-text columns."
+    },
+    {
+      "url": "https://github.com/AwsomeFox/tomesonic-app/pull/38",
+      "seen_at": "2026-07-07T22:20:11Z",
+      "summary": "TomeSonic Fable 5 round-7 PR fixes account-switch and logout lifecycle hazards, offline progress identity stamping, reader/player UI issues, and QA backfills across 16 commits and 33 files."
     }
   ],
-  "last_run": "2026-07-07T21:14:36Z"
+  "last_run": "2026-07-07T22:20:11Z"
 }
