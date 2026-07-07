@@ -2764,7 +2764,52 @@
       "url": "https://x.com/OMNILEV/status/2074302690801357035",
       "seen_at": "2026-07-07T16:49:16Z",
       "summary": "OMNILEV announced flux-skills, a Claude Code plugin that uses Fable 5 as an orchestrator and routes scouting, building, and verification to cheaper specialized agents, with persistent team state and evidence-gated review."
+    },
+    {
+      "url": "https://github.com/Hfses/GameNative/pull/1",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "A Claude Fable 5 co-authored GameNative PR fixes a cluster of Winlator-layer runtime failures rather than a surface feature. It replaces saturated CPU-affinity math for core 31, stops release builds from printing every child-process line, copies full container configs instead of "
+    },
+    {
+      "url": "https://github.com/pavelpilyak/devrecall/pull/1",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "devrecall used Claude Fable 5 to turn a flat activity log into a structured work-item knowledge base for standup summaries. The PR adds deterministic linking across Jira keys, PR commits, and metadata; an enrichment table with provider-backed one-line digests and controlled-vocab"
+    },
+    {
+      "url": "https://github.com/thiagoesteves/deployex/pull/242",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "Thiago Esteves opened a four-PR Claude Fable 5 fix set for DeployEx engine and monitoring edge cases: [initial-boot rollback timeouts](https://github.com/thiagoesteves/deployex/pull/239) no longer corrupt engine state, [cache writes](https://github.com/thiagoesteves/deployex/pull"
+    },
+    {
+      "url": "https://github.com/Patrickroelofs/cascade/pull/123",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "Cascade has a Claude Fable 5 co-authored PR that moves the app from public shared state toward user accounts. It adds a Better Auth workspace package with email/password, scrypt, Drizzle auth tables, server and React clients, login and registration pages, session-refreshing middl"
+    },
+    {
+      "url": "https://github.com/NathapolDev/AnimeSubThaiOnYoutube/pull/23",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "AnimeSubThaiOnYoutube used Claude Fable 5 to add a local-only admin editor for hand-maintaining `anime.json`. The tool serves on `127.0.0.1:4321`, separates human-owned fields from read-only pipeline-owned fields, supports raw JSON editing, and saves one entry at a time through t"
+    },
+    {
+      "url": "https://github.com/haverstack/core/pull/73",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "Haverstack's Claude Fable 5 co-authored Schema Commons PR is a documentation-heavy design artifact rather than code, but it is detailed enough to be useful. It establishes an `org.haverstack` commons namespace, canonical versions of note, bookmark, task, and contact types, and ru"
+    },
+    {
+      "url": "https://github.com/thiagoesteves/deployex/pull/239",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "DeployEx Fable 5 fix for engine state corruption when initial-boot rollback timeout had no previous deployment to restore."
+    },
+    {
+      "url": "https://github.com/thiagoesteves/deployex/pull/240",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "DeployEx Fable 5 fix making web-cache writes synchronous to avoid stale read-after-write UI settings tests."
+    },
+    {
+      "url": "https://github.com/thiagoesteves/deployex/pull/241",
+      "seen_at": "2026-07-07T17:56:14Z",
+      "summary": "DeployEx Fable 5 fix for missing stderr log streaming and retention from monitored applications."
     }
   ],
-  "last_run": "2026-07-07T16:49:16Z"
+  "last_run": "2026-07-07T17:56:14Z"
 }
