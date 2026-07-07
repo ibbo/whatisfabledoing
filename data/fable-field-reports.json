@@ -2344,7 +2344,27 @@
       "url": "https://github.com/sterlingwes/rn-quick-render/pull/17",
       "seen_at": "2026-07-07T01:28:32Z",
       "summary": "sterlingwes’s rn-quick-render PR uses Fable to convert phase docs into user-facing docs and a Jest capture package with verification fixtures for React Native rendering."
+    },
+    {
+      "url": "https://github.com/amart-builder/jarvis-memory/pull/23",
+      "seen_at": "2026-07-07T02:33:22Z",
+      "summary": "jarvis-memory PR 23 reports a Fable 5 full-depth overhaul from five parallel audits, fixing MCP search parity, compaction no-ops, cross-project pollution, install hazards, and search quality, with 805 unit tests and 100 live Neo4j tests passing."
+    },
+    {
+      "url": "https://github.com/zerkerlabs/treeship/pull/195",
+      "seen_at": "2026-07-07T02:33:22Z",
+      "summary": "treeship PR 195 closes a Fable full-codebase audit batch with hub hardening: body caps, indexes, enforced SQLite foreign keys, idempotent checkpoints, error redaction, and new DPoP auth-boundary tests, with go test ./... green."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper-pro/pull/512",
+      "seen_at": "2026-07-07T02:33:22Z",
+      "summary": "harper-pro PR 512 uses Fable 5 for a file/injected secret-key custody seam, including get_key exfiltration hardening, clone-bootstrap fail-closed behavior, worker env scrubbing, cross-model review fixes, and 264 Pro unit tests."
+    },
+    {
+      "url": "https://github.com/JesusFilm/core/pull/9345",
+      "seen_at": "2026-07-07T02:33:22Z",
+      "summary": "JesusFilm/core PR 9345 is a Fable 5/Claude Code analytics implementation for a template gallery: 13 GTM events across create/edit/publish/template/share flows, GA4 constraints documented, 16 new helper tests and 263 TemplateGalleryPageList tests passing."
     }
   ],
-  "last_run": "2026-07-07T01:28:32Z"
+  "last_run": "2026-07-07T02:33:22Z"
 }
