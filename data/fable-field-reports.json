@@ -2574,7 +2574,37 @@
       "url": "https://github.com/antaymard/nolenor/pull/231",
       "seen_at": "2026-07-07T09:06:46Z",
       "summary": "nolenor PR 231 uses Claude Fable 5 to surface speech-to-text failures to users, add connection timeouts/fallbacks, fix recorder edge states, and accept real recording MIME types."
+    },
+    {
+      "url": "https://github.com/zynax-io/zynax/pull/1667",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "NATS event links move to cert-mapped TLS"
+    },
+    {
+      "url": "https://github.com/containerd/nerdctl/pull/5043",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "nerdctl implements Docker v25 recursive read-only mounts"
+    },
+    {
+      "url": "https://github.com/zauberzeug/rosys/pull/423",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "Camera reconnects move inside RTSP, MJPEG, USB, and simulated devices"
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/743",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "Mitos front-door hardening follows a live hosted battle-test"
+    },
+    {
+      "url": "https://github.com/FHIR/sql-on-fhir.js/pull/5",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "SQL on FHIR gets materialized views in the reference server"
+    },
+    {
+      "url": "https://github.com/Wrexist/DeepLifeSimulator/pull/50",
+      "seen_at": "2026-07-07T10:12:59Z",
+      "summary": "A life simulator removes dead systems and fake analytics"
     }
   ],
-  "last_run": "2026-07-07T09:06:46Z"
+  "last_run": "2026-07-07T10:12:59Z"
 }
