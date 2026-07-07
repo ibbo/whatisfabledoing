@@ -2954,7 +2954,32 @@
       "url": "https://github.com/AwsomeFox/tomesonic-app/pull/38",
       "seen_at": "2026-07-07T22:20:11Z",
       "summary": "TomeSonic Fable 5 round-7 PR fixes account-switch and logout lifecycle hazards, offline progress identity stamping, reader/player UI issues, and QA backfills across 16 commits and 33 files."
+    },
+    {
+      "url": "https://github.com/jmanchuck/rustsmith/pull/3",
+      "seen_at": "2026-07-07T23:25:19Z",
+      "summary": "rustsmith PR 3 is a Claude Fable 5 co-authored fuzzing-campaign expansion with an offline deterministic generator, parallel rustc differential driver, checksum oracle, arrays, casts, guarded indexing, and explicit fixes for compile-failure and determinism bugs."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/746",
+      "seen_at": "2026-07-07T23:25:19Z",
+      "summary": "Mitos PR 746 is a Claude Fable 5 feature enabling per-organization Kubernetes namespace isolation by cloning a reference SandboxPool into each org namespace, with controller flags, Helm values, threat-model notes, unit coverage, and envtest coverage."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/189209",
+      "seen_at": "2026-07-07T23:25:19Z",
+      "summary": "PyTorch PR 189209 was authored with Claude Code and Fable, fixing Inductor with_effects star dependencies keyed by buffer names instead of operation names; the regression deadlocked torchcomms fullgraph send/recv tests and was verified on 4xH100."
+    },
+    {
+      "url": "https://github.com/jbaruch/nanoclaw-core/pull/78",
+      "seen_at": "2026-07-07T23:25:19Z",
+      "summary": "nanoclaw-core PR 78 lists claude-fable-5 as Author-Model and caps query-history JSON to a 25KB tool-result budget, adds offset batching, documents truncation semantics, and reports ruff, pyright, and 35 pytest tests passing."
+    },
+    {
+      "url": "https://github.com/jbaruch/nanoclaw-conferences/pull/41",
+      "seen_at": "2026-07-07T23:25:19Z",
+      "summary": "nanoclaw-conferences PR 41 lists claude-fable-5 as Author-Model and prevents lost updates across six cfp-state.json writers with a persistent sibling flock lock, lock-timeout handling, and six new tests in a 300-test suite."
     }
   ],
-  "last_run": "2026-07-07T22:20:11Z"
+  "last_run": "2026-07-07T23:25:19Z"
 }
