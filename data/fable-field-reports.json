@@ -2859,7 +2859,42 @@
       "url": "https://github.com/llvm/circt/pull/10788",
       "seen_at": "2026-07-07T20:08:54Z",
       "summary": "LLVM CIRCT PR 10788 assisted by Claude Fable 5 fixes VerifToSMT bounded-model checking so assumptions remain asserted across timesteps instead of being popped between checks, preventing spurious counterexamples; circt-tests comparison reported no changed results."
+    },
+    {
+      "url": "https://github.com/simonw/datasette/pull/2820",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "Datasette PR 2820 is a Claude Fable 5 co-authored refactor that extracts eight duplicated modal dialogs into a stable datasette-modal web component, removes about 1,200 lines of duplicated frame/wiring/CSS code, adds plugin documentation and a regenerable screenshot, and follows up on Playwright race fixes."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69049",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "PostHog PR 69049 was authored with Claude Code using Claude Fable 5 to add a repair_cdc action for lost data-warehouse replication slots, keep broken CDC schemas visibly failed, resume schedules after slot recreation, and surface the repair in the UI."
+    },
+    {
+      "url": "https://github.com/jleechanorg/dark-factory/pull/191",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "dark-factory PR 191 is a Claude/Fable-5 branch fixing a production daemon tick failure where paginated br and gh listings caused external-reference deduplication to miss already tracked issues; it adds unlimited listing, truncation detection, and regression tests."
+    },
+    {
+      "url": "https://github.com/Pinewood-Tech-Club/one/pull/7",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "Pinewood-Tech-Club PR 7 is explicitly written by Claude Fable 5 and adds the first automated test baseline for the project: 60 passing tests around encryption, JWT validation, job leases, section-sync leases, and mobile-token rotation/reuse detection."
+    },
+    {
+      "url": "https://github.com/graphql-python/graphql-core/pull/270",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "graphql-core PR 270 discloses Claude:fable-5 generated a DoS mitigation for OverlappingFieldsCanBeMerged: deduplicating structurally identical repeated fields drops a 3000-field validation case from about 5.2s to 0.11s while preserving stream directive conflicts."
+    },
+    {
+      "url": "https://github.com/naval-group/LOTUSim/pull/35",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "LOTUSim PR 35 says Claude Fable 5 assisted a physics engine interface fix where the co-simulation request sent timestep duration in milliseconds as the state time; the patch now sends absolute sim time in seconds and was verified across 3708 websocket frames."
+    },
+    {
+      "url": "https://github.com/pytorch/helion/pull/3010",
+      "seen_at": "2026-07-07T21:14:36Z",
+      "summary": "PyTorch Helion PR 3010 extends the Fable 5 co-authored kernel dispatch work with a triton_direct_launch fast path; benchmark comments on H100 report wins over vLLM on 22/24 cases and a 1.253x geomean, with hazards folded into the cache key."
     }
   ],
-  "last_run": "2026-07-07T20:08:54Z"
+  "last_run": "2026-07-07T21:14:36Z"
 }
