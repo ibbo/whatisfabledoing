@@ -2399,7 +2399,52 @@
       "url": "https://github.com/TheAxiomFoundation/axiom-foundation.org/pull/109",
       "seen_at": "2026-07-07T03:38:49Z",
       "summary": "Axiom Foundation PR 109 fixes a Fable co-authored legal-policy rendering bug where synthesized RuleSpec stubs masked real Canadian tax provisions, including a 190-character summary replacing a ~27k-character form text."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/axiom-corpus/pull/250",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Axiom Corpus Fable stack turns Canada document sectioning into reusable ingest tooling with byte-exact reassembly and CI warnings, then fixes version-scoped deletion and regenerates 99 Canada inventories, reducing ca validation errors from 517 to 0."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/axiom-corpus/pull/251",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Axiom Corpus follow-up fixes --replace-scope deletion so per-scope reloads filter by version and refuse version-less files instead of wiping sibling provision scopes."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/axiom-corpus/pull/252",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Axiom Corpus follow-up regenerates 99 Canada source inventories into canonical expected-provision items, bringing ca validate-release errors from 517 to 0."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/641",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Block schemabot Fable-assisted PR fixes a close/reopen bypass where apply-owned action_required check rows were deleted, retaining blocking rows and adding storage/webhook tests after a reviewer caught a success-row race."
+    },
+    {
+      "url": "https://github.com/ayooooo123/Memeget/pull/26",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Memeget Fable co-authored Android PR adds native audio extraction, on-device Whisper transcription, transcript search/display, similar-meme strip, migration state, retry UI, and audio tests."
+    },
+    {
+      "url": "https://github.com/JustasMonkev/semantic-test-matcher/pull/2",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "semantic-test-matcher Fable co-authored PR replaces O(N^2)-style per-embedding cache I/O with one locked atomic flush, adds concurrent embeddings, shared HF pipeline loading, Ollama retries, partial-run cache flushing, progress/error UX, and tests."
+    },
+    {
+      "url": "https://github.com/Extra-Chill/homeboy/pull/7709",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Homeboy Fable-orchestrated audit backlog uses opencode subagents for daemon metadata preservation and activity run-ref projection, with targeted tests and Homeboy CI lint/audit comments; related dead-code cleanup also came from the audited findings."
+    },
+    {
+      "url": "https://github.com/Extra-Chill/homeboy/pull/7711",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Homeboy follow-up persists durable and agent-task run refs into daemon job status metadata and activity projection, with three targeted tests, orchestrated by Fable."
+    },
+    {
+      "url": "https://github.com/Extra-Chill/homeboy/pull/7707",
+      "seen_at": "2026-07-07T04:46:40Z",
+      "summary": "Homeboy Fable-orchestrated audit cleanup removes rustc-proven dead code across command output and CI triage helpers, verified by cargo build/check."
     }
   ],
-  "last_run": "2026-07-07T03:38:49Z"
+  "last_run": "2026-07-07T04:46:40Z"
 }
