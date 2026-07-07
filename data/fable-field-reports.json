@@ -2714,7 +2714,32 @@
       "url": "https://github.com/starkware-libs/sequencer/pull/14720",
       "seen_at": "2026-07-07T14:37:03Z",
       "summary": "StarkWare echonet companion PR redesigns the report UI with OS-runner counters, live queue/deferred state, recent failures, severity pills, collapsible sections, and CSV export."
+    },
+    {
+      "url": "https://x.com/morganlinton/status/2074499711848034445",
+      "seen_at": "2026-07-07T15:42:47Z",
+      "summary": "VulcanBench compared Claude Fable 5 and Claude Opus 4.8 on 15 real merged PR tasks; Fable tied Opus on 13 common tasks but cost more, ran longer, high effort wrote no code on hard tasks, and it refused legitimate networking tasks."
+    },
+    {
+      "url": "https://github.com/affaan-m/ECC/pull/2468",
+      "seen_at": "2026-07-07T15:42:47Z",
+      "summary": "ECC PR 2468 fixes a Fable context-window bug where 187k tokens were reported as 93% full instead of about 19%, adding Fable/Mythos large-window detection and five tests with 2,976 passing."
+    },
+    {
+      "url": "https://github.com/Lifted-Truck/Auricle/pull/15",
+      "seen_at": "2026-07-07T15:42:47Z",
+      "summary": "Auricle PR 15 adds a Fable co-authored pitch-synchronous granular mode after the stochastic path produced noise, verifying C2-C4 within about 15 cents, low amplitude ripple, 37 tests, and pluginval strictness 8."
+    },
+    {
+      "url": "https://github.com/jyjeanne/crustly/pull/17",
+      "seen_at": "2026-07-07T15:42:47Z",
+      "summary": "crustly PR 17 uses Claude Fable 5 to generate and maintain a codebase knowledge graph from 132 Rust files, 50 docs, and 7 images, producing 3,018 nodes, 6,958 edges, hooks, and a TUI viewer."
+    },
+    {
+      "url": "https://github.com/Dreighto/sully-backend/pull/116",
+      "seen_at": "2026-07-07T15:42:47Z",
+      "summary": "sully-backend PR 116 fixes a Fable co-authored autonomous-dispatch bug where attachment-only turns became fake work briefs from raw upload links, adding plain-English attachment mentions and three tests."
     }
   ],
-  "last_run": "2026-07-07T14:37:03Z"
+  "last_run": "2026-07-07T15:42:47Z"
 }
