@@ -2319,7 +2319,32 @@
       "url": "https://github.com/jesse8393/fieldhorse-v2/pull/201",
       "seen_at": "2026-07-07T00:22:31Z",
       "summary": "fieldhorse-v2 PR 201 documents a Fable/Claude Code 30-commit CRM hardening sprint with security, UX, performance, theme, QA harness, and test/build gates."
+    },
+    {
+      "url": "https://x.com/DeVillefor/status/2074284327089979878",
+      "seen_at": "2026-07-07T01:28:32Z",
+      "summary": "DeVillefor reports merging 11 PRs in one day with Fable 5 and describes a timing-based isolated-worktree verification workflow for judging model-generated fixes."
+    },
+    {
+      "url": "https://github.com/KeyAIGit/-ecdlp-lean-verification/pull/102",
+      "seen_at": "2026-07-07T01:28:32Z",
+      "summary": "KeyAIGit fixed an ECDLP research pipeline where Fable refusals and thinking-only completions were silently counted as empty successful outputs, then verified a cheap fallback run."
+    },
+    {
+      "url": "https://github.com/sdrdx4100/canbus-dbc/pull/1",
+      "seen_at": "2026-07-07T01:28:32Z",
+      "summary": "sdrdx4100’s Fable co-authored canbus-dbc PR builds a BLF+DBC to CSV/Parquet Rust GUI/CLI, with tests, performance numbers, and releases through v0.5.0."
+    },
+    {
+      "url": "https://github.com/jonpojonpo/cclient3/pull/5",
+      "seen_at": "2026-07-07T01:28:32Z",
+      "summary": "jonpojonpo merged a Fable co-authored cclient3 refactor that removes its ensemble path and fixes thinking signatures, tool-result trimming, model routing, and request sanitization."
+    },
+    {
+      "url": "https://github.com/sterlingwes/rn-quick-render/pull/17",
+      "seen_at": "2026-07-07T01:28:32Z",
+      "summary": "sterlingwes’s rn-quick-render PR uses Fable to convert phase docs into user-facing docs and a Jest capture package with verification fixtures for React Native rendering."
     }
   ],
-  "last_run": "2026-07-07T00:22:31Z"
+  "last_run": "2026-07-07T01:28:32Z"
 }
