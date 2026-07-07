@@ -2629,7 +2629,32 @@
       "url": "https://github.com/turantopcuoglu/Didemapp/pull/5",
       "seen_at": "2026-07-07T11:23:44Z",
       "summary": "Didemapp PR 5 uses Claude Fable 5 to build a complete Turkish Flutter diet-tracking teaching app with onboarding, meal/water tracking, progress charts, settings, notifications, persistence, Android/iOS scaffolds, and reusable widgets."
+    },
+    {
+      "url": "https://github.com/harborgrid-justin/flowsint/pull/5",
+      "seen_at": "2026-07-07T12:27:38Z",
+      "summary": "flowsint merged a Claude Fable 5-authored GA-readiness cleanup that removed a large layer of fake `/api/v1` frontend access paths."
+    },
+    {
+      "url": "https://github.com/Will-Massey/engage-from-capstone/pull/21",
+      "seen_at": "2026-07-07T12:27:38Z",
+      "summary": "engage-from-capstone has two open Claude Fable 5 co-authored hardening PRs from a July 7 audit."
+    },
+    {
+      "url": "https://github.com/fru-dev3/prevail-cli/pull/13",
+      "seen_at": "2026-07-07T12:27:38Z",
+      "summary": "prevail-cli used Claude Fable 5 on a launch-week public-repo cleanup with two concrete results."
+    },
+    {
+      "url": "https://github.com/expectedparrot/edsl/pull/2508",
+      "seen_at": "2026-07-07T12:27:38Z",
+      "summary": "EDSL PR 2508 fixes Claude Fable 5 calls failing with 400 invalid_request_error by omitting the deprecated temperature parameter entirely, with live Anthropic-key verification including a 17-scenario digital-twin job."
+    },
+    {
+      "url": "https://github.com/Will-Massey/engage-from-capstone/pull/22",
+      "seen_at": "2026-07-07T12:27:38Z",
+      "summary": "engage-from-capstone companion ops hardening PR co-authored by Claude Fable 5: composite hot-path indexes, shared health-check Prisma client, graceful shutdown, job health, webhook URL precedence, SQL row-loop collapse, and immutable static cache headers."
     }
   ],
-  "last_run": "2026-07-07T11:23:44Z"
+  "last_run": "2026-07-07T12:27:38Z"
 }
