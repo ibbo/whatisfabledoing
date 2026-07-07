@@ -2479,7 +2479,37 @@
       "url": "https://github.com/aaacarpet631-design/aaa-hyperkernel/pull/88",
       "seen_at": "2026-07-07T05:50:21Z",
       "summary": "aaa-hyperkernel PR 88 uses Claude Fable 5 for a Google Ads attribution/governance foundation with PII-free ledgers, human-only conversion exports, guarded recommendations, Firestore rules, and 3,652 tests."
+    },
+    {
+      "url": "https://github.com/antaymard/voice-server/pull/5",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "voice-server PR 5 uses Claude Fable 5 to turn silent streaming, route, CORS, WebSocket, and realtime-session failures into surfaced JSON errors and server logs, with mocks and tests for the new paths."
+    },
+    {
+      "url": "https://github.com/cowboydiver/AEON/pull/70",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "AEON PR 70 uses Claude Fable 5 to add Wilson-cycle tempo reporting, document stable plate debug colours, retune the simulator four times slower, and verify a seed-42 100 Myr run plus typecheck."
+    },
+    {
+      "url": "https://github.com/ipython/ipython/pull/15289",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "IPython PR 15289 is a Claude Fable 5 patch for embedded shells: nested scopes can now read caller locals through a custom globals namespace, with tests for lambdas, comprehensions, generators, and function bodies."
+    },
+    {
+      "url": "https://github.com/parkerbxyz/suggest-changes/pull/157",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "suggest-changes PR 157 uses Claude Fable 5 to replace heuristic GitHub suggestion grouping with contiguous diff edit runs, fixing content-destroying insertion and line-movement bugs and adding fixture/application tests."
+    },
+    {
+      "url": "https://github.com/SuzukiDaishi/waves-previewer/pull/9",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "waves-previewer PR 9 uses Claude Fable 5 to fix 500k-file FLAC library lockups by streaming metadata sort work, capping decode backlogs, removing redundant full sorts, and cutting release sort time from about 1.7s to 0.55s."
+    },
+    {
+      "url": "https://github.com/AssemblyAI/blurt/pull/62",
+      "seen_at": "2026-07-07T06:57:12Z",
+      "summary": "AssemblyAI blurt PR 62 uses Claude Fable 5 to trim dictation latency and race windows by flipping transcribing state at key-up, bounding accessibility context reads to 500 ms, and updating engine tests."
     }
   ],
-  "last_run": "2026-07-07T05:50:21Z"
+  "last_run": "2026-07-07T06:57:12Z"
 }
