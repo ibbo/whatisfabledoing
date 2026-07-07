@@ -2364,7 +2364,42 @@
       "url": "https://github.com/JesusFilm/core/pull/9345",
       "seen_at": "2026-07-07T02:33:22Z",
       "summary": "JesusFilm/core PR 9345 is a Fable 5/Claude Code analytics implementation for a template gallery: 13 GTM events across create/edit/publish/template/share flows, GA4 constraints documented, 16 new helper tests and 263 TemplateGalleryPageList tests passing."
+    },
+    {
+      "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/2434",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "waves-customer-portal adds claude-fable-5 as a DEEP tier for agronomic wiki, Q&A, audits, SMS verification, shadow judging, and fact checks; helper strips thinking blocks, retries refusals on Opus, and passed live production-key smoke plus 124 targeted tests."
+    },
+    {
+      "url": "https://github.com/team-poem/cairn/pull/123",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "Cairn PR 123 adds a Fable-authored freeze-less explore mode for autonomous UX surveys, with machine findings, report rendering, CLI support, 22 new tests, 332 total tests, and dogfood on seeded demo-shop bugs."
+    },
+    {
+      "url": "https://github.com/team-poem/cairn/pull/124",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "Cairn PR 124 adds a Fable-authored runSuite batch browser-QA entrypoint with skill caching, deterministic replay, fail-closed truncation handling, eight new tests, and dogfood showing cached second-run LLM usage at zero."
+    },
+    {
+      "url": "https://github.com/NeoCognitus70/hand-baked-screenplay-pattern/pull/20",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "hand-baked-screenplay-pattern PR 20 fixes a Fable-review finding where unfinished scenes were reported as passed with 0ms; new specs and npm run verify cover the interrupted-run semantics."
+    },
+    {
+      "url": "https://github.com/NeoCognitus70/hand-baked-screenplay-pattern/pull/21",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "hand-baked-screenplay-pattern PR 21 follows the same Fable review by clearing HtmlReporter buffers after successful writes so reused reporters do not double-count prior runs; npm run verify reports 84 tests."
+    },
+    {
+      "url": "https://github.com/intelligent-group/.github/pull/33",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "intelligent-group/.github PR 33 is a Fable co-authored production-deploy root-cause fix: a literal GitHub Actions expression in a composite-action description blocked fleet-wide deployments for 10+ runs."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/axiom-foundation.org/pull/109",
+      "seen_at": "2026-07-07T03:38:49Z",
+      "summary": "Axiom Foundation PR 109 fixes a Fable co-authored legal-policy rendering bug where synthesized RuleSpec stubs masked real Canadian tax provisions, including a 190-character summary replacing a ~27k-character form text."
     }
   ],
-  "last_run": "2026-07-07T02:33:22Z"
+  "last_run": "2026-07-07T03:38:49Z"
 }
