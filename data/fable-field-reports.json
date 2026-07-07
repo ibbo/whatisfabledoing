@@ -2654,7 +2654,27 @@
       "url": "https://github.com/Will-Massey/engage-from-capstone/pull/22",
       "seen_at": "2026-07-07T12:27:38Z",
       "summary": "engage-from-capstone companion ops hardening PR co-authored by Claude Fable 5: composite hot-path indexes, shared health-check Prisma client, graceful shutdown, job health, webhook URL precedence, SQL row-loop collapse, and immutable static cache headers."
+    },
+    {
+      "url": "https://github.com/guillu97/EchoTerra/pull/5",
+      "seen_at": "2026-07-07T13:33:08Z",
+      "summary": "Claude Fable 5 co-authored EchoTerra multiplayer lobby PR with SQLite persistence, join codes, host starts, per-player heroes, lobby UI, and tests."
+    },
+    {
+      "url": "https://github.com/yerry262/Tesla-Dashboard/pull/5",
+      "seen_at": "2026-07-07T13:33:08Z",
+      "summary": "Merged Claude Fable 5 PR fixes Tesla-Dashboard loading spinner by replacing ESM-only uuid, setting Node 22 engines, and adding a request timeout."
+    },
+    {
+      "url": "https://github.com/yosephmo/ya-hyanglin/pull/5",
+      "seen_at": "2026-07-07T13:33:08Z",
+      "summary": "Merged Claude Fable 5-assisted ya-hyanglin PR migrates seven MDX accounting reports into Supabase-backed board pages with RLS, attachments, and fallback states."
+    },
+    {
+      "url": "https://github.com/ducktapegirl/game-scorer/pull/5",
+      "seen_at": "2026-07-07T13:33:08Z",
+      "summary": "Merged Claude-assisted game-scorer PR, including Claude Fable 5, adds photo correction/depth annotation UI and verifies three real test photos end to end."
     }
   ],
-  "last_run": "2026-07-07T12:27:38Z"
+  "last_run": "2026-07-07T13:33:08Z"
 }
