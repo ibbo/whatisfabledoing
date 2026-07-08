@@ -3439,7 +3439,27 @@
       "url": "https://github.com/apache/airflow/pull/68799",
       "seen_at": "2026-07-08T13:31:10Z",
       "summary": "Airflow Azure provider PR co-authored by Codex GPT-5 and Claude Code Fable 5 adds Azure AI Foundry hosted-agent create/update/run/delete operators, deferrable waits, responses/invocations protocol support, docs, dependency updates, and tests."
+    },
+    {
+      "url": "https://github.com/biafra23/myotis/pull/161",
+      "seen_at": "2026-07-08T14:36:43Z",
+      "summary": "Claude Fable 5 co-authored Myotis Android idle-sleep support: paused networking/timers with warm verified state, wake-on-RPC, daily catch-up, RPC logs, metrics, and review-driven wake-gate robustness fixes."
+    },
+    {
+      "url": "https://github.com/ssharpe42/template/pull/2",
+      "seen_at": "2026-07-08T14:36:43Z",
+      "summary": "Claude Fable 5 co-authored a sequence-motif-discovery skill with mining/verifier scripts, timing/itemset support, parallel matching, and a KDD Cup 2015 MOOC dropout experiment reaching 0.817 AUC with five readable rules."
+    },
+    {
+      "url": "https://github.com/selkies-project/selkies/pull/272",
+      "seen_at": "2026-07-08T14:36:43Z",
+      "summary": "Selkies PR assisted by Claude Fable 5 analyzes Firefox/WebCodecs H.264 padding: real decoder frames leak 16x16 macroblock padding despite clean metadata; a Firefox-only overscan workaround is proposed after Intel/NVIDIA testing."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3694",
+      "seen_at": "2026-07-08T14:36:43Z",
+      "summary": "Claude Fable 5 generated Coder Mux fix for lingering sub-agent workspaces: serializes config mutations, archives interrupted workflow-owned children, includes a pre-fix failing race test, 1200-workspace race probe with zero resurrections, and 469 tests passing."
     }
   ],
-  "last_run": "2026-07-08T13:31:10Z"
+  "last_run": "2026-07-08T14:36:43Z"
 }
