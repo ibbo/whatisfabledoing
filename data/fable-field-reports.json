@@ -3459,7 +3459,42 @@
       "url": "https://github.com/coder/mux/pull/3694",
       "seen_at": "2026-07-08T14:36:43Z",
       "summary": "Claude Fable 5 generated Coder Mux fix for lingering sub-agent workspaces: serializes config mutations, archives interrupted workflow-owned children, includes a pre-fix failing race test, 1200-workspace race probe with zero resurrections, and 469 tests passing."
+    },
+    {
+      "url": "https://github.com/containerd/containerd/pull/13735",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5-assisted containerd PR builds a whiteout integration-test image locally with archive.WriteDiff and a localhost registry, removing a prebuilt multi-arch fixture dependency."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6721",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored OWID Grapher daily-axis calendar tick/label support with daily, two-day, weekly and biweekly ladders plus staging screenshot evidence."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6722",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored OWID Grapher weekly-axis calendar tick/label support, keeping ticks on real Mondays and using WeekColumn labels for band axes."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6723",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored OWID Grapher quarterly-axis tick/label support, restricting steps to quarter multiples and thinning band axes to half-year/year tiers."
+    },
+    {
+      "url": "https://github.com/Mergifyio/gha-mergify-ci/pull/279",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored Mergify GitHub Action all_scopes input so build-system/CI PRs can act as queue-wide barriers and send --all through mergify ci scopes-send."
+    },
+    {
+      "url": "https://github.com/Leeman1982/gm_sam/pull/4",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored Pico 2/SAM2695 groovebox branch with serial-MIDI driver, 16-track sequencer, and iterative hardware debugging that traced a blank screen to multicore/display init ordering."
+    },
+    {
+      "url": "https://github.com/ayooooo123/Memeget/pull/27",
+      "seen_at": "2026-07-08T15:43:54Z",
+      "summary": "Claude Fable 5 co-authored Memeget native Android video clipboard fix, staging files behind a FileProvider and falling back to still-frame copy when unavailable."
     }
   ],
-  "last_run": "2026-07-08T14:36:43Z"
+  "last_run": "2026-07-08T15:43:54Z"
 }
