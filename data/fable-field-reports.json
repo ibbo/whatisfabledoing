@@ -3614,7 +3614,22 @@
       "url": "https://github.com/bagofwords1/bagofwords/pull/576",
       "seen_at": "2026-07-08T19:02:46Z",
       "summary": "Claude Fable 5 co-authored Bag of Words profile usage-tab fixes: uncapped users now still record usage counters, opening the tab refreshes quota data, and live-stack validation covered scripted LLM calls, SQL, and Playwright screenshots."
+    },
+    {
+      "url": "https://github.com/OpenNMS/opennms/pull/8622",
+      "seen_at": "2026-07-08T20:04:57Z",
+      "summary": "OpenNMS has a Fable 5-assisted PR for mutual TLS support in its XML, Prometheus, and HTTP collectors, motivated by Incus/LXC and Prometheus endpoints that require client certificates. The branch adds keystore and truststore service parameters, secure-credentials-vault interpolation, validated hostname handling, and shared SSL-context helpers across the collector stack. The commit trail is especially useful because an adversarial review tightened redirect behavior so a client certificate cannot follow redirects to a different scheme or port, and the tests use JDK HTTPS servers with required client auth, PKCS12 and JKS stores, hostname-mismatch cases, and duplicate-client coverage."
+    },
+    {
+      "url": "https://github.com/tibrewalrachit/sparkle/pull/2",
+      "seen_at": "2026-07-08T20:04:57Z",
+      "summary": "A Claude Fable 5 co-authored Sparkle PR extracts rules from ARM IHI 0022 Issue L and formalizes an AXI5-Lite interface in Lean. The first layer adds 36 theorems with zero `sorry`s for valid-ready handshakes, write and read dependencies, response encoding, Lite-only response restrictions, aligned-transfer bounds, trace-level safety, and bounded cooperative liveness. Later commits connect the spec FSMs to RTL gate forms and Signal DSL loop bodies, synthesize a SystemVerilog subordinate, and add a Veil/SMT cross-verification subproject with negative tests for broken BVALID and gate mutations."
+    },
+    {
+      "url": "https://github.com/SupplyChef/Chess/pull/139",
+      "seen_at": "2026-07-08T20:04:57Z",
+      "summary": "SupplyChef’s Fable 5 co-authored chess-engine fix starts from a reproduced blunder: the engine saw a shuffle endgame as +0cp by repetition, played a quiet move, and dropped to -1063cp one move later. The root cause was path-dependent repetition scoring leaking into exact transposition-table entries when a tainted child participated in the max but was not the chosen best move; a fabricated-history reproduction made a queen-winning `Qxd5` position store as exact 0 at depth 17. The patch tracks whether any child carried a repetition-tainted score, demotes or skips unsafe TT stores, changes the root tie-break toward certain repetition draws, and stamps TT entries by search generation so stale history-dependent entries become replaceable."
     }
   ],
-  "last_run": "2026-07-08T19:02:46Z"
+  "last_run": "2026-07-08T20:04:57Z"
 }
