@@ -3334,7 +3334,57 @@
       "url": "https://github.com/zts212653/clowder-ai/pull/1120",
       "seen_at": "2026-07-08T10:15:32Z",
       "summary": "clowder-ai PR 1120 fixes stale Claude CLI context-window reports that caused Fable 5 sessions to seal at 200k instead of the model’s 1M context, backed by production examples at 303k and 307k tokens and new tests."
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm/pull/32455",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "LiteLLM PR documents and fixes Bedrock Converse 400s for any strict-tool request to Sonnet 5 or Fable 5 by adding strict-tool opt-out flags and regression tests for all affected inference-profile entries."
+    },
+    {
+      "url": "https://github.com/Atom-oh/claude-code-usage-dashboard/pull/5",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "Atom-oh used a Claude Fable 5-chaired lens×model review matrix to harden a PR-review workflow against Kiro fs_read prompt-injection exfiltration, ignored nonzero exits, and vendor-axis coverage gating bugs, with a long public review comment explaining the threat model and verification."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14711",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14712",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14713",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14714",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14715",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14716",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14719",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
+    },
+    {
+      "url": "https://github.com/starkware-libs/sequencer/pull/14721",
+      "seen_at": "2026-07-08T11:20:51Z",
+      "summary": "StarkWare Fable 5 co-authored eleven-PR echonet stack: Kubernetes PVC rollout fix, raw cende blob retention, Starknet OS CLI input builder, class fetch cache, bounded worker subprocesses, OS-runner metrics/UI, and pod sizing."
     }
   ],
-  "last_run": "2026-07-08T10:15:32Z"
+  "last_run": "2026-07-08T11:20:51Z"
 }
