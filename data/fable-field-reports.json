@@ -3629,7 +3629,32 @@
       "url": "https://github.com/SupplyChef/Chess/pull/139",
       "seen_at": "2026-07-08T20:04:57Z",
       "summary": "SupplyChef’s Fable 5 co-authored chess-engine fix starts from a reproduced blunder: the engine saw a shuffle endgame as +0cp by repetition, played a quiet move, and dropped to -1063cp one move later. The root cause was path-dependent repetition scoring leaking into exact transposition-table entries when a tainted child participated in the max but was not the chosen best move; a fabricated-history reproduction made a queen-winning `Qxd5` position store as exact 0 at depth 17. The patch tracks whether any child carried a repetition-tainted score, demotes or skips unsafe TT stores, changes the root tie-break toward certain repetition draws, and stamps TT entries by search generation so stale history-dependent entries become replaceable."
+    },
+    {
+      "url": "https://github.com/anadon/JLS/pull/88",
+      "seen_at": "2026-07-08T21:14:40Z",
+      "summary": "Claude Fable 5 co-authored a large JLS simulator branch fixing save/checkpoint data-loss bugs, loader correctness, untrusted-file parsing, simulator threading, and assurance tooling with targeted regression tests."
+    },
+    {
+      "url": "https://github.com/merogith/battle/pull/375",
+      "seen_at": "2026-07-08T21:14:40Z",
+      "summary": "Claude Fable 5 co-authored a Battle UI/UX/accessibility audit using 22 agents, headless Chromium across viewports, a CSS census, verified P0/P1 findings, and a reusable Playwright audit rig."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69631",
+      "seen_at": "2026-07-08T21:14:40Z",
+      "summary": "Claude Code Fable 5 generated an Apache Airflow RedshiftDataOperator/Trigger fix so killed deferred tasks cancel running Redshift statements, with tests for cancellation, opt-out, serialization, and defer wiring."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper/pull/1580",
+      "seen_at": "2026-07-08T21:14:40Z",
+      "summary": "Claude Fable 5 co-authored a Harper config fix that warns, rather than honors, HARPER_*CONFIG variables supplied via component .env files, backed by pre-pass, loadEnv, and integration tests."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/646",
+      "seen_at": "2026-07-08T21:14:40Z",
+      "summary": "Claude Fable 5 co-authored a merged Block Schemabot fix making ClassifyStatement reject multi-statement SQL rather than hiding later destructive statements behind the first classification."
     }
   ],
-  "last_run": "2026-07-08T20:04:57Z"
+  "last_run": "2026-07-08T21:14:40Z"
 }
