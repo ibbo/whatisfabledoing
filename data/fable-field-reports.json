@@ -3264,7 +3264,37 @@
       "url": "https://github.com/open-telemetry/opentelemetry-ecosystem-explorer/pull/784",
       "seen_at": "2026-07-08T08:03:47Z",
       "summary": "OpenTelemetry Ecosystem Explorer PR 784 is co-authored with Claude Fable 5 and adds the first Phase 4 list-page facet primitives, with typecheck, lint, 1,146 tests, a deploy preview, screenshots, and visual diffs."
+    },
+    {
+      "url": "https://github.com/filipecabaco/codrift/pull/5",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "Codrift PR 5 is a merged Claude Fable 5 co-authored hardening batch that makes initiatives.json atomic, fixes updater asset verification, persists agent transcripts, and closes loopback-auth and symlink-escape risks."
+    },
+    {
+      "url": "https://github.com/TsumiNa/geo_pfn/pull/5",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "geo_pfn PR 5 is a merged Claude Fable 5 co-authored real-data study on 3,521 Haneda borehole specimens, adding leakage-safe evaluation, 23 tests, reports, and 95-minute MPS results comparing TabPFN v2, miniPFN, imputation, and feature sets."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3693",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "mux PR 3693 reports a $78.78 Claude Fable 5 run that found and fixed several places where billed AI usage was missing from analytics, including aborted streams, errors, stale pricing, deleted sub-agent children, and headless consumers."
+    },
+    {
+      "url": "https://github.com/tboerstad/agentic_matmul/pull/107",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "agentic_matmul PR 107 is a Claude Fable 5 co-authored Mojo AMX bf16 kernel showing all 16 benchmark shapes beating linalg, sq2048 improving from 296 to 2438 GFLOPS, and follow-up intrinsic gating for non-AMX machines."
+    },
+    {
+      "url": "https://github.com/watany-dev/ptuf/pull/153",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "ptuf PR 153 is a Claude Fable 5 co-authored profiler-driven hot-path optimization that copies shell-word spans, removes sensitive-token allocations, reuses parsed facts, and reports 20x speedup on a 1 MiB shell-parse benchmark."
+    },
+    {
+      "url": "https://github.com/scipy/scipy/pull/25585",
+      "seen_at": "2026-07-08T09:08:28Z",
+      "summary": "SciPy PR 25585 describes a maintainer audit of SuperLU glue code with Claude Fable 5, leading to CPython C-API error checks, deprecated API replacement, and cleanup of minor issues found and hand-reviewed."
     }
   ],
-  "last_run": "2026-07-08T08:03:47Z"
+  "last_run": "2026-07-08T09:08:28Z"
 }
