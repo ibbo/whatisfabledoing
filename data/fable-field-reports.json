@@ -3219,7 +3219,37 @@
       "url": "https://github.com/Banon-Labs/er-effects-rs/pull/40",
       "seen_at": "2026-07-08T05:54:31Z",
       "summary": "er-effects-rs PR 40 carries Claude Fable 5-attributed commits replacing OS save-file dialogs with Elden Ring native in-game picker menus, including reverse-engineering notes, validation pipeline reuse, live test failures, and startup picker fixes."
+    },
+    {
+      "url": "https://github.com/outline/outline/pull/12934",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "Outline PR replaces a blocking Redis KEYS cache clear with SCAN plus batched UNLINK, adding CacheHelper tests for multi-page prefix clears."
+    },
+    {
+      "url": "https://github.com/category-labs/monad-bft/pull/3157",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "monad-bft PR generated using Claude Fable 5 hardens secondary raptorcast cold-start state, validator checks, waker behavior, expiry, and overlapping invitations."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/385",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "QuantEcon.jl PR 385 is a Claude Fable 5 co-authored DiscreteDP bug-fix branch that flips eight broken tests, fixes v_init mutation/MPFI/index validation issues, and updates benchmarks."
+    },
+    {
+      "url": "https://github.com/ngx-signal-forms/ngx-signal-forms/pull/201",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "ngx-signal-forms PR 201, with related PRs 199 and 200, uses Claude Fable 5 to fix Vest adapter lifecycle/root-field bugs plus form-field diagnostics and toolkit testing packaging."
+    },
+    {
+      "url": "https://github.com/ngx-signal-forms/ngx-signal-forms/pull/199",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "Related ngx-signal-forms Fable 5 PR fixes strategy=\"on-submit\" diagnostics when a form-field wrapper lacks a form context."
+    },
+    {
+      "url": "https://github.com/ngx-signal-forms/ngx-signal-forms/pull/200",
+      "seen_at": "2026-07-08T07:00:31Z",
+      "summary": "Related ngx-signal-forms Fable 5 PR restores toolkit/testing as a real secondary entry point and reports toolkit build/lint plus 1,203 tests."
     }
   ],
-  "last_run": "2026-07-08T05:54:31Z"
+  "last_run": "2026-07-08T07:00:31Z"
 }
