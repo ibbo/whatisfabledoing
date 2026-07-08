@@ -3249,7 +3249,22 @@
       "url": "https://github.com/ngx-signal-forms/ngx-signal-forms/pull/200",
       "seen_at": "2026-07-08T07:00:31Z",
       "summary": "Related ngx-signal-forms Fable 5 PR restores toolkit/testing as a real secondary entry point and reports toolkit build/lint plus 1,203 tests."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/386",
+      "seen_at": "2026-07-08T08:03:47Z",
+      "summary": "QuantEcon.jl PR 386 is a Claude Fable 5 co-authored performance pass over DiscreteDP kernels, reporting 54x faster RQ_sigma, 9.4x faster dense PFI, and large allocation cuts with bit-identical solutions."
+    },
+    {
+      "url": "https://github.com/python/cpython/pull/152978",
+      "seen_at": "2026-07-08T08:03:47Z",
+      "summary": "CPython PR 152978 was drafted and investigated entirely by Claude Fable 5, fixing ProcessPoolExecutor max_tasks_per_child worker replacement races that stranded submitted work or crashed the manager thread."
+    },
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-ecosystem-explorer/pull/784",
+      "seen_at": "2026-07-08T08:03:47Z",
+      "summary": "OpenTelemetry Ecosystem Explorer PR 784 is co-authored with Claude Fable 5 and adds the first Phase 4 list-page facet primitives, with typecheck, lint, 1,146 tests, a deploy preview, screenshots, and visual diffs."
     }
   ],
-  "last_run": "2026-07-08T07:00:31Z"
+  "last_run": "2026-07-08T08:03:47Z"
 }
