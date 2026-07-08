@@ -3139,7 +3139,52 @@
       "url": "https://github.com/engram-app/Engram-obsidian/pull/196",
       "seen_at": "2026-07-08T03:45:25Z",
       "summary": "Engram’s Obsidian sync PR, co-authored by Claude Fable 5, starts from a deterministic end-to-end failure: after a rename broadcast, a receiving device recorded `received=yes` but never wrote the renamed note to disk because the WebSocket event carried no content change and CRDT enrollment was a no-op for an already-seen note. The fix first flushes the already-synced CRDT document to the new path, then a follow-up commit handles the fresh-boot case by copying trustworthy old-path disk content and ignoring stale backwards relocation events. The PR records red/green e2e evidence for `test_10`, a related echo-suppression fix, and new failing-first unit tests for both remaining rename-family bugs."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper/pull/1707",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Claude Fable 5 drafted Harper HTTP/2 h2c UDS ingress and the companion symphony ALPN dispatch path, with CPU measurements, protocol invariants, and review fixes."
+    },
+    {
+      "url": "https://github.com/pytest-dev/pytest/pull/14687",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Pytest PR using Claude Fable 5 from profiler output skips empty capture-file reads, reporting about an 8% runtime reduction on packaging’s 62k-test suite."
+    },
+    {
+      "url": "https://github.com/apache/grails-core/pull/15937",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Apache Grails PR with Claude Fable 5 adds testing-only request latency injection to reproduce timing flakes, with unit, integration, style, and docs verification."
+    },
+    {
+      "url": "https://github.com/aethersdr/AetherSDR/pull/4120",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "AetherSDR PR co-authored by Claude Fable 5 fixes a Windows Intel D3D11 multi-pan crash using minidump analysis, layout changes, tests, and reporter confirmation."
+    },
+    {
+      "url": "https://github.com/tsz-org/tsz/pull/15634",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Merged tsz PR attributed to Fable fixes TypeScript generator-yield literal widening parity, with conformance, targeted tests, and declaration-differential verification."
+    },
+    {
+      "url": "https://github.com/finterm-ai/finterm-cli/pull/12",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "finterm-cli PR co-authored by Claude Fable 5 fixes bundled-doc resolution for global npm installs and adds a neutral-cwd pack smoke test."
+    },
+    {
+      "url": "https://github.com/diegosouzapw/OmniRoute/pull/6556",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "OmniRoute PR implements an OmniGlyph context-as-image compression engine for direct Claude Fable 5 routes, reporting token reductions and passing compression/type/lint validation."
+    },
+    {
+      "url": "https://github.com/EveryInc/compound-engineering-plugin/pull/1073",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Every Compound Engineering plugin PR marked Fable 5 adds mechanical and semantic validation for generated solution docs, with 1,848 tests and behavioral eval gains."
+    },
+    {
+      "url": "https://github.com/HarperFast/symphony/pull/24",
+      "seen_at": "2026-07-08T04:50:38Z",
+      "summary": "Companion symphony proxy PR drafted by Claude Fable 5 adds ALPN-based h2 upstream dispatch and h2/XFF configuration invariants for Harper’s h2c UDS mirror."
     }
   ],
-  "last_run": "2026-07-08T03:45:25Z"
+  "last_run": "2026-07-08T04:50:38Z"
 }
