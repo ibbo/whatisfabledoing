@@ -3064,7 +3064,57 @@
       "url": "https://github.com/tsz-org/tsz/pull/15629",
       "seen_at": "2026-07-08T01:34:03Z",
       "summary": "tsz PR 15629 is a Claude-session PR deferring cross-evaluator re-entry of in-flight Application expansions for recursive TypeScript type graphs."
+    },
+    {
+      "url": "https://github.com/apache/kvrocks/pull/3547",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Apache Kvrocks PR 3547 uses Claude Fable 5 to fix a Lua scripting crash where deeply self-nested reply tables could overflow worker thread stacks; a follow-up replaced an insufficient lua_checkstack guard with explicit nesting-depth control and a Go regression test."
+    },
+    {
+      "url": "https://github.com/apiome/apiome/pull/4701",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Apiome PR 4701, performed by Claude Code model Fable 5, adds a faceted MCP catalog API/UI with live counts over grade, transport, safety, complexity, protocol, health, and other dimensions; it reports 4,027 backend tests, 5,160 UI tests, a root build, and 33 live dev DB checks."
+    },
+    {
+      "url": "https://github.com/nextcloud/Android-SingleSignOn/pull/1023",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Nextcloud Android-SingleSignOn PR 1023 uses Claude Code model claude-fable-5 to fix a host-app crash where a late AccountManagerService connection called a nulled listener after close; it adds tests for normal, stale-callback, and close-before-connected cases."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69300",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Apache Airflow PR 69300 uses Claude Code Fable 5 to add KubernetesExecutor streaming task logs, reporting peak heap growth of about 179.9 MiB instead of 2,093.9 MiB on a ~415 MB running-task log; PR 69301 adds a configurable running_pod_log_lines cap."
+    },
+    {
+      "url": "https://github.com/wrzonance/SpecR/pull/418",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "SpecR PR 418 is a Claude Fable 5 co-authored hierarchy-inference confidence feature with persisted provenance, read-time scoring, REST/MCP surfaces, 0/703 fixture drift, and 1,463 unit plus 1,143 integration tests; PR 417 fixes withdrawn-library re-imports that stayed hidden."
+    },
+    {
+      "url": "https://github.com/markafitzgerald1/cribbage-trainer/pull/646",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Cribbage Trainer PR 646 is a Claude Fable 5 co-authored deep-linking feature that encodes hand, role, discards, sort, and seed in URLs with strict soft-failing parsing, history semantics, Playwright/Jest coverage, and review-driven fixes."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/798",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "The For Good Project PRs 798 and 797 are Claude Fable 5 re-research runs after fetch-tooling improvements: PR 798 recovers NZ Budget 2025 mental-health sources and confirms no published national community bed count; PR 797 recovers MPI HPAI strategy evidence and confirms no public sized wild-bird surveillance design."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69301",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "Apache Airflow PR 69301, linked from the streaming Kubernetes logs entry, uses Claude Code Fable 5 to add a running_pod_log_lines configuration option for KubernetesExecutor tail-log behavior."
+    },
+    {
+      "url": "https://github.com/wrzonance/SpecR/pull/417",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "SpecR PR 417, linked from the hierarchy-confidence entry, is a Claude Fable 5 co-authored fix for a withdrawn-library-master re-import bug that rebuilt content in a tombstoned hidden row."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/797",
+      "seen_at": "2026-07-08T02:39:40Z",
+      "summary": "The For Good Project PR 797, linked from the policy-research rerun entry, is a Claude Fable 5 re-research run that recovered MPI HPAI strategy evidence and confirmed no public sized wild-bird surveillance design."
     }
   ],
-  "last_run": "2026-07-08T01:34:03Z"
+  "last_run": "2026-07-08T02:39:40Z"
 }
