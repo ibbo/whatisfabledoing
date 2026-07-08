@@ -3184,7 +3184,42 @@
       "url": "https://github.com/HarperFast/symphony/pull/24",
       "seen_at": "2026-07-08T04:50:38Z",
       "summary": "Companion symphony proxy PR drafted by Claude Fable 5 adds ALPN-based h2 upstream dispatch and h2/XFF configuration invariants for Harper’s h2c UDS mirror."
+    },
+    {
+      "url": "https://github.com/boatbomber/Highlighter/pull/42",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "Highlighter PR 42 uses Claude Fable 5 to replace a classic Lua parser with a Luau-aware lexer, adding tests, tooling, hot-swapping restoration, docs, and benchmarks."
+    },
+    {
+      "url": "https://github.com/heshamdar/polars-cv/pull/27",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "polars-cv PR 27 is an eight-commit Claude Fable 5 co-authored bug-fix branch covering AP/PR-AUC estimator math, image-kernel shape/stride issues, blob bounds checks, Arrow offsets/nulls, file URLs, and aligned deallocation."
+    },
+    {
+      "url": "https://github.com/RedPandaMC/Mallard/pull/57",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "Mallard PR 57 uses Claude Fable 5 to stop deactivate() from wiping events.duckdb/global state on window close, with related architecture, config, attribution, and test-coverage changes."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/383",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "QuantEcon.jl PR 383 adds Claude Fable 5 co-authored DiscreteDP BenchmarkTools/PkgBenchmark cases; linked QuantEcon.py PR 855 fixes duplicate state-action, no-action trailing state, max_iter, and beta-validation edge cases found in a Julia/Python comparison."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.py/pull/855",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "QuantEcon.jl PR 383 adds Claude Fable 5 co-authored DiscreteDP BenchmarkTools/PkgBenchmark cases; linked QuantEcon.py PR 855 fixes duplicate state-action, no-action trailing state, max_iter, and beta-validation edge cases found in a Julia/Python comparison."
+    },
+    {
+      "url": "https://github.com/walles/moor/pull/444",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "moor PR 444 is a Claude Fable 5 co-authored cross-platform terminal-mode fix that reasserts raw mode after cmd.exe or Node restores cooked mode, while preserving flags and respecting intentional pause/close states."
+    },
+    {
+      "url": "https://github.com/Banon-Labs/er-effects-rs/pull/40",
+      "seen_at": "2026-07-08T05:54:31Z",
+      "summary": "er-effects-rs PR 40 carries Claude Fable 5-attributed commits replacing OS save-file dialogs with Elden Ring native in-game picker menus, including reverse-engineering notes, validation pipeline reuse, live test failures, and startup picker fixes."
     }
   ],
-  "last_run": "2026-07-08T04:50:38Z"
+  "last_run": "2026-07-08T05:54:31Z"
 }
