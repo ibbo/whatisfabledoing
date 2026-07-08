@@ -3409,7 +3409,37 @@
       "url": "https://github.com/llvm/llvm-project/pull/207299",
       "seen_at": "2026-07-08T12:25:48Z",
       "summary": "LLVM MLIR PR assisted by Claude Fable 5 fixes a vector mask tracing crash/possible infinite loop when masks come from block arguments or unsupported defining ops, with negative maskedload/maskedstore tests."
+    },
+    {
+      "url": "https://x.com/Lhmisme/status/2074845208726921231",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "VATA adversarial benchmark of Claude Fable 5: 75 trials each across three fraud domains yielded 0% attacker success, with hard API refusals in 61/75 insurance, 68/75 payroll, and 75/75 executive-wire cases, anchored with raw logs on Sepolia."
+    },
+    {
+      "url": "https://github.com/bearlikelion/godot-box3d/pull/5",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "godot-box3d maintainer says Fable handled fork updates validated in a real game project, fixing trimesh winding, collision masks, shape updates, character motion, crowd oscillation, gravity queries, and MSVC builds while adding joints, cylinders, scale, exceptions, and record/replay debugging."
+    },
+    {
+      "url": "https://github.com/bcmyguest/graphql-core/pull/1",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "Claude Fable 5-assisted graphql-core PR hardens OverlappingFieldsCanBeMerged against duplicate-field CPU DoS by deduplicating structurally identical fields, adding comparison bounds, and shipping long-running regression coverage."
+    },
+    {
+      "url": "https://github.com/aql-lang/aql/pull/233",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "Claude Fable 5 co-authored AQL audit of every sub-engine spawn site, measuring fresh engine+tape allocation around 92µs/189KB versus reuse around 9µs/112B and following with pooled sub-engines and argument-semantics work."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/189090",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "PyTorch PR co-authored by Claude Fable 5 preserves caller rank order in dist.split_group instead of silently sorting, with code-search compatibility review and reversed-rank/NCCL verification."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/68799",
+      "seen_at": "2026-07-08T13:31:10Z",
+      "summary": "Airflow Azure provider PR co-authored by Codex GPT-5 and Claude Code Fable 5 adds Azure AI Foundry hosted-agent create/update/run/delete operators, deferrable waits, responses/invocations protocol support, docs, dependency updates, and tests."
     }
   ],
-  "last_run": "2026-07-08T12:25:48Z"
+  "last_run": "2026-07-08T13:31:10Z"
 }
