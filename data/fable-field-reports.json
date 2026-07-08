@@ -3009,7 +3009,62 @@
       "url": "https://github.com/dmarzzz/shape-rotator-os/pull/583",
       "seen_at": "2026-07-08T00:30:09Z",
       "summary": "shape-rotator-os PR 583 is a Claude Fable 5 co-authored calendar builder fix where multi-paragraph markdown descriptions created roughly 30 phantom chips from five events; it adds flattening, markdown stripping, and 11 tests."
+    },
+    {
+      "url": "https://github.com/arjunrajlaboratory/NimbusImage/pull/1219",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "NimbusImage PR 1219 uses Claude Fable 5 for SAM WebGPU/ONNX load-time and preprocessing work: persistent 350 MB model caching, high-performance adapter selection, cache-failure handling, onnxruntime-web upgrade, parity checks, and 2,123 Vitest tests."
+    },
+    {
+      "url": "https://github.com/flux-framework/flux-sched/pull/1505",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "Flux-sched PR 1505 is a Claude Fable 5 collaboration fixing policy-dependent granulated-resource matching, adding a shared packable-share tally and tests that fail without the fix while explicitly separating unresolved ERANGE errors."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/810",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "The For Good Project PR 810 is part of a Claude Fable 5 re-research batch after fetch-ladder upgrades, recovering NZ youth mental-health regional cross-tabs and validated source evidence previously blocked by bot protection."
+    },
+    {
+      "url": "https://github.com/tsz-org/tsz/pull/15630",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "tsz PR 15630, alongside PR 15629, uses Claude sessions for TypeScript checker parity: in-flight Application deferral for recursive aliases and literal-source display generalization across nested relation leaves verified against tsc 6.0.2."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69272",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "Apache Airflow PR 69272 adds a Databricks supplied-token OIDC federation path, with a real-workspace verification comment drafted using Claude Code Fable 5 and reviewed by a Databricks maintainer."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog-js/pull/4093",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "PostHog-js PR 4093 says Claude Code Fable 5 helped research and implement request-scoped WeakMap deduplication for Next.js getDistinctId resolution, avoiding repeated server-side identity lookups per App Router request."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/795",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "The For Good Project PR 795 is part of the Fable 5 re-research batch, recovering five official NZ legislation XML sources and classifying 142 statutory-amendment provisions."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/796",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "The For Good Project PR 796 is part of the Fable 5 re-research batch, recovering British Business Bank Angel CoFund and Regional Angels primary data."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/799",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "The For Good Project PR 799 is part of the Fable 5 re-research batch, recovering DataGrid rebuttal evidence and a 1 GW versus roughly 280 MW dispute."
+    },
+    {
+      "url": "https://github.com/thecolab-ai/the-for-good-project/pull/802",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "The For Good Project PR 802 is part of the Fable 5 re-research batch, recovering Ministry of Transport observed battery-EV kilometres at 2.16% of light-vehicle km in 2024."
+    },
+    {
+      "url": "https://github.com/tsz-org/tsz/pull/15629",
+      "seen_at": "2026-07-08T01:34:03Z",
+      "summary": "tsz PR 15629 is a Claude-session PR deferring cross-evaluator re-entry of in-flight Application expansions for recursive TypeScript type graphs."
     }
   ],
-  "last_run": "2026-07-08T00:30:09Z"
+  "last_run": "2026-07-08T01:34:03Z"
 }
