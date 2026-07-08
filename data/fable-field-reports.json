@@ -2979,7 +2979,37 @@
       "url": "https://github.com/jbaruch/nanoclaw-conferences/pull/41",
       "seen_at": "2026-07-07T23:25:19Z",
       "summary": "nanoclaw-conferences PR 41 lists claude-fable-5 as Author-Model and prevents lost updates across six cfp-state.json writers with a persistent sibling flock lock, lock-timeout handling, and six new tests in a 300-test suite."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22228",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "Rocq PR 22228 is a Claude Fable 5-written fix for a typeclass-resolution regression breaking fiat-crypto, with failed earlier designs documented, a distilled regression test, full local suite, and fiat-crypto verification."
+    },
+    {
+      "url": "https://github.com/pawntest/vla_play/pull/1",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "vla_play PR 1 is a Claude Fable 5-authored SO-101 robot-arm package with MuJoCo/mink kinematics, sim and real backends, Viser UI, CLI/docs, tests, and reported ~1 mm IK convergence."
+    },
+    {
+      "url": "https://github.com/Hijodeagua/Election-models-by-Tre/pull/15",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "Election-models-by-Tre PR 15 is a Claude Fable 5-authored data-science methodology audit and implementation pass across calibration, cross-validation, pollster ratings, Senate simulation, generated data, and a public report."
+    },
+    {
+      "url": "https://github.com/adepke/VanguardEngine/pull/61",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "VanguardEngine PR 61 is a Claude Fable 5-authored volumetric temporal accumulation/upscale experiment whose author reports mediocre results, blurrier output, edge shimmering, and screenshots versus baseline."
+    },
+    {
+      "url": "https://github.com/bevlee/karaoke/pull/1",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "karaoke PR 1 is a Claude Fable 5 co-authored fix for six playback, WebSocket, range-request, and path-validation failures, including zombie reconnect loops, duplicate-song stalls, double-skips, and YouTube ID validation."
+    },
+    {
+      "url": "https://github.com/dmarzzz/shape-rotator-os/pull/583",
+      "seen_at": "2026-07-08T00:30:09Z",
+      "summary": "shape-rotator-os PR 583 is a Claude Fable 5 co-authored calendar builder fix where multi-paragraph markdown descriptions created roughly 30 phantom chips from five events; it adds flattening, markdown stripping, and 11 tests."
     }
   ],
-  "last_run": "2026-07-07T23:25:19Z"
+  "last_run": "2026-07-08T00:30:09Z"
 }
