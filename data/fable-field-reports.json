@@ -3494,7 +3494,42 @@
       "url": "https://github.com/ayooooo123/Memeget/pull/27",
       "seen_at": "2026-07-08T15:43:54Z",
       "summary": "Claude Fable 5 co-authored Memeget native Android video clipboard fix, staging files behind a FileProvider and falling back to still-frame copy when unavailable."
+    },
+    {
+      "url": "https://github.com/AlecBhamani1/skillmap/pull/5",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Claude Fable 5 made nine Skillmap agent-readiness fixes, including stemming, project-only root handling, origin filtering before truncation, project-skill shadowing, EOF frontmatter parsing, trigger extraction, uv fallback syntax, shebang parsing, and docs refresh."
+    },
+    {
+      "url": "https://github.com/lan-party-tech/realtime-csharp/pull/1",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Claude Fable 5 co-authored LAN Party Tech realtime-csharp fixes for broadcast handler/timer leaks and stale Supabase presence rosters, verified with a live two-client Supabase harness; a companion supabase-csharp PR bumps the dependency."
+    },
+    {
+      "url": "https://github.com/lan-party-tech/supabase-csharp/pull/1",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Claude Fable 5 co-authored LAN Party Tech realtime-csharp fixes for broadcast handler/timer leaks and stale Supabase presence rosters, verified with a live two-client Supabase harness; a companion supabase-csharp PR bumps the dependency."
+    },
+    {
+      "url": "https://github.com/FreiFahren/FreiFahren/pull/807",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Claude Fable 5 co-authored FreiFahren caching for the /v0/transit/distance graph inputs in Cloudflare D1, with tests proving cached-only topology before purge and D1 fallback after purge."
+    },
+    {
+      "url": "https://github.com/StefanSko/bayescycle/pull/54",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Claude Fable 5 co-authored bayescycle work restoring 133 migrated package tests across bayesite-idata and bayesite-viz, adding CI ty/pytest checks, golden-artifact coverage, and a root README; local validation reports 56 + 77 package tests and 13 root guards passing."
+    },
+    {
+      "url": "https://artificialanalysis.ai/evaluations/harvey-lab-aa",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "Artificial Analysis reports Claude Fable 5 leading the Harvey LAB-AA legal benchmark with 14.2% all-pass on 120 real legal tasks, ahead of Claude Opus 4.8 and GLM-5.2 at 7.5% each under strict all-pass grading."
+    },
+    {
+      "url": "https://careersatdoordash.com/blog/how-we-learned-to-trust-our-ai-code-reviewer-at-doordash/",
+      "seen_at": "2026-07-08T16:50:37Z",
+      "summary": "DoorDash reports DashBench results on 105 historical PRs where a Kimi K2.6 scout plus Claude Fable 5 reviewer reached 65.2% weighted recall and 75.3% weighted F1, outperforming its Sonnet 4.6 plus Opus 4.8 production reviewer at 53.6% weighted recall."
     }
   ],
-  "last_run": "2026-07-08T15:43:54Z"
+  "last_run": "2026-07-08T16:50:37Z"
 }
