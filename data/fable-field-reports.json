@@ -3529,7 +3529,67 @@
       "url": "https://careersatdoordash.com/blog/how-we-learned-to-trust-our-ai-code-reviewer-at-doordash/",
       "seen_at": "2026-07-08T16:50:37Z",
       "summary": "DoorDash reports DashBench results on 105 historical PRs where a Kimi K2.6 scout plus Claude Fable 5 reviewer reached 65.2% weighted recall and 75.3% weighted F1, outperforming its Sonnet 4.6 plus Opus 4.8 production reviewer at 53.6% weighted recall."
+    },
+    {
+      "url": "https://github.com/getplumber/plumber/pull/321",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5 co-authored Plumber’s advisory PR-review workflow using claude-code-action with four read-only review controls, structured artifacts, pinned actions, same-repo-only triggers, and resolvable review comments."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22233",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Jason Gross opened a series of Claude Fable 5-written Rocq Ltac2 standard-library PRs adding list, string, char, bool, message, and int utilities with changelog entries and focused tests across PRs 22233-22242."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22234",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding List.take_while, drop_while, and take_drop_while with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22235",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding longest common-prefix utilities for lists with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22236",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding relaxed firstn/skipn variants with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22237",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding List.map_opt option-traverse utility with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22238",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding String.starts_with/ends_with and index functions with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22239",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding Char.is_space, String.split_on_char, and String.trim with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22240",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding common_prefix, strip_prefix, and replace_char with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22241",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding Bool.to_string and Message printers with tests and changelog."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22242",
+      "seen_at": "2026-07-08T17:54:57Z",
+      "summary": "Claude Fable 5-written Rocq Ltac2 stdlib PR adding Int.min and Int.max with tests and changelog."
+    },
+    {
+      "url": "https://github.com/Blue-Ocean-Technologies-Inc/heater-microdrop-plugin-py/pull/7",
+      "seen_at": "2026-07-08T17:57:34Z",
+      "summary": "Claude Fable 5 co-authored a heater-controller fix that probes Pico serial ports with Microdrop whoami before claiming them, avoiding attachment to a fluorescence LED board sharing the same VID:PID."
     }
   ],
-  "last_run": "2026-07-08T16:50:37Z"
+  "last_run": "2026-07-08T17:57:34Z"
 }
