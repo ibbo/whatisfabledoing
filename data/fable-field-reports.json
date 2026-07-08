@@ -3654,7 +3654,47 @@
       "url": "https://github.com/block/schemabot/pull/646",
       "seen_at": "2026-07-08T21:14:40Z",
       "summary": "Claude Fable 5 co-authored a merged Block Schemabot fix making ClassifyStatement reject multi-statement SQL rather than hiding later destructive statements behind the first classification."
+    },
+    {
+      "url": "https://github.com/fork-tongue/observ/pull/181",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored an Observ benchmark-CI repair after measuring that identical code exceeded the old 5% mean gate in 25 of 56 benchmarks, replacing it with GC-disabled, hash-seeded, interleaved A/B runs and validating false-positive and injected-slowdown behavior."
+    },
+    {
+      "url": "https://github.com/engram-app/Engram/pull/965",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored an Engram production alert-noise fix: client plugin errors are re-emitted as warnings with original severity metadata so one broken plugin cannot page on-call, with 3,524 tests and static checks reported clean."
+    },
+    {
+      "url": "https://github.com/ehfazrezwan/neuralscape/pull/187",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored Neuralscape ICEBench harness fixes found during a live measured matrix, including host-run ns_ice indexing, REST and adapter contract repairs, blast_radius query generation, and a validation run with 1,867 symbols, 7,278 edges, 163 seconds, and 403 MB RSS."
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/pull/41517",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable assisted a mathlib PR defining Hellinger affinity with checked Lean proofs for symmetry, dominating-measure invariance, bounds, computation rules, and zero-affinity iff mutual singularity, as groundwork for Kakutani dichotomy formalization."
+    },
+    {
+      "url": "https://github.com/S01-Issuer/st0x.deploy/pull/232",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored a st0x.deploy Ethereum bootstrap stack: chain-parametric principals, an authoriser clone runbook/script, scheduled cross-chain parity, and a fork test proving the v1.3.0 Safe genesis parameters reproduce the exact Base token-owner Safe address on Ethereum."
+    },
+    {
+      "url": "https://github.com/S01-Issuer/st0x.deploy/pull/228",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored a st0x.deploy Ethereum bootstrap stack: chain-parametric principals, an authoriser clone runbook/script, scheduled cross-chain parity, and a fork test proving the v1.3.0 Safe genesis parameters reproduce the exact Base token-owner Safe address on Ethereum."
+    },
+    {
+      "url": "https://github.com/S01-Issuer/st0x.deploy/pull/229",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored a st0x.deploy Ethereum bootstrap stack: chain-parametric principals, an authoriser clone runbook/script, scheduled cross-chain parity, and a fork test proving the v1.3.0 Safe genesis parameters reproduce the exact Base token-owner Safe address on Ethereum."
+    },
+    {
+      "url": "https://github.com/S01-Issuer/st0x.deploy/pull/230",
+      "seen_at": "2026-07-08T22:18:58Z",
+      "summary": "Fable co-authored a st0x.deploy Ethereum bootstrap stack: chain-parametric principals, an authoriser clone runbook/script, scheduled cross-chain parity, and a fork test proving the v1.3.0 Safe genesis parameters reproduce the exact Base token-owner Safe address on Ethereum."
     }
   ],
-  "last_run": "2026-07-08T21:14:40Z"
+  "last_run": "2026-07-08T22:18:58Z"
 }
