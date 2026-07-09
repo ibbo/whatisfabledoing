@@ -3814,7 +3814,27 @@
       "url": "https://github.com/Barneyjm/prompt-fidelity/pull/5",
       "seen_at": "2026-07-09T01:33:42Z",
       "summary": "Fable 5 co-authored Prompt Fidelity as an installable Claude skill and Claude Code plugin, including a stdlib-only scoring script and a follow-up fix for singular/plural constraint-count reporting."
+    },
+    {
+      "url": "https://github.com/signoiidx/bokuraway/pull/15",
+      "seen_at": "2026-07-09T02:37:06Z",
+      "summary": "Claude Fable 5 co-authored a bokuraway rhythm-game recommendation feature that identifies near-miss lamp, full-combo, and grade goals with a pure nudge module and unit/e2e tests."
+    },
+    {
+      "url": "https://github.com/FunkeePanda/Claude_taskapp/pull/1",
+      "seen_at": "2026-07-09T02:37:06Z",
+      "summary": "Claude Fable 5 co-authored a Capacitor focus-task app PR that grew from scaffold into CRUD tasks, nag reminders, calendar/subtasks, signed APK release workflow, and Pages preview."
+    },
+    {
+      "url": "https://github.com/fluffyland/the-unspoken-gift/pull/1",
+      "seen_at": "2026-07-09T02:37:06Z",
+      "summary": "Claude Fable 5 co-authored LeaveDesk SG, a leave-management demo plus Supabase schema/RLS/functions with approvals, balances, calendars, notifications, and a 13-step smoke test."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/rulespec-uk/pull/129",
+      "seen_at": "2026-07-09T02:37:06Z",
+      "summary": "Claude Fable 5 co-authored a rulespec-uk bulk encoding PR for UK legal modules with signed apply manifests, rule/test YAML, coverage updates, and green validation gates."
     }
   ],
-  "last_run": "2026-07-09T01:33:42Z"
+  "last_run": "2026-07-09T02:37:06Z"
 }
