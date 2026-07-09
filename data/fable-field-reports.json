@@ -4329,7 +4329,47 @@
       "url": "https://github.com/apache/texera/pull/6130",
       "seen_at": "2026-07-09T17:50:33Z",
       "summary": "Apache Texera PR generated with Claude Code, Opus 4.8, and Fable 5 fixes PVE routing by moving frontend calls to /api/pve and removing gateway rewrites, with Angular, Docker-stack, and Helm checks."
+    },
+    {
+      "url": "https://github.com/ALive-research/Slicer-Liver/pull/576",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "ALive Research’s Slicer-Liver work used Claude Fable 5 across a three-PR Stage-2 redesign: the [ADR](https://github.com/ALive-research/Slicer-Liver/pull/575) collapses separate structure tabs into one anatomy-segments table with per-row review states, while the headline PR wires real TotalSegmentator inference behind the Run seam. The implementation exports the Slicer volume to NIfTI, runs TotalSegmentator out of process, imports per-label outputs back as tagged scratch segments, streams backend progress into the card, and adds target mappings for liver, portal vein, hepatic vein, and mass. Seven red-to-green tests cover synthetic output import, command shaping, declined-install handling, busy-state painting, and cursor restoration; a small [docs-lint fix](https://github.com/ALive-research/Slicer-Liver/pull/577) then pinned Lychee on Ubuntu 24.04 after every PR started failing before link checks could run."
+    },
+    {
+      "url": "https://github.com/ALive-research/Slicer-Liver/pull/575",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "Slicer-Liver Stage-2 ADR drafted with Claude Fable 5 replaces separate structure tabs with a unified anatomy-segments table, tool registry, and queued segmentation workflow design."
+    },
+    {
+      "url": "https://github.com/ALive-research/Slicer-Liver/pull/577",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "Slicer-Liver docs-lint fix drafted with Claude Fable 5 moves Lychee checks to Ubuntu 24.04 and pins the Lychee version after glibc 2.38 binary failures blocked link checks."
+    },
+    {
+      "url": "https://github.com/komleff/u2/pull/547",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "U2’s follow-up Gates-2 PR uses Claude Fable 5 on the server side of warmed jump gates, emitting a `SectorPreview` message with the neighboring room’s config as a gate enters the warmup state. The branch adds a single snapshot builder wrapper, dispatch injection through the message processor, idempotent preview emission on Cold→Warming and Warming→Ready transitions, reliable control-queue delivery, and guard tests around repeated previews and route state. The public thread is unusually explicit about review: an internal Fable pass with five independent subagents approved the architecture/security/quality aspects but found two fix-now issues, and the author reports 1,313 NUnit tests plus an escalation over a 1,383-byte preview exceeding the original MTU target."
+    },
+    {
+      "url": "https://github.com/Modusmundi/keycloak-mfa-plugins/pull/5",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "Modusmundi’s merged Keycloak MFA PR uses Claude Fable 5 on a PCI-oriented SMS OTP hardening pass. Phone numbers in server logs are now masked to last four digits by default, non-HTTPS SMS gateway URLs are refused unless explicitly disabled, and a Trivy SCA workflow gates critical findings while producing SARIF and a CycloneDX SBOM. The PR reports 27 unit tests passing, including 16 new cases for masking, HTTPS predicates, invalid codes, and TTL expiry, plus a local Docker runtime check in the `fwc-kc` realm showing logs changing from `+120****7890` to `••••••7890` with Twilio simulation enabled."
+    },
+    {
+      "url": "https://github.com/karx/kaaroViewer/pull/62",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "kaaroViewer’s Fable co-authored video-agent PR goes from discovery notes to a concrete media toolchain. The branch adds ffmpeg-backed probe/trim/concat/transcode/audio-mix operations, a timeline schema and compiler, a headless Chromium render harness, deliverable verifiers, and a `kaaro-vid` CLI, with 21 tests including a full end-to-end render. Later commits add story-beat video generation, session traces, a Claude Code skill for the probe-plan-execute-verify loop, golden-frame regression checks, contact sheets, and a 343.4-second 720p sample render with 38 voiceover chunks, 11 crossfades, and six of six verifiers passing."
+    },
+    {
+      "url": "https://github.com/fortiz1422/Gota/pull/45",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "Gota’s Spanish-language finance app used Claude Fable 5 for a 21-file intelligence slice around extraordinary expenses, goals, recurring income, installments, and safe-to-spend projections. The commits add month snapshots that exclude marked extraordinary spending from baselines, future-installment horizons, goal pace and missing-income facts, deterministic affordability simulation for cash or installment purchases, and mobile home-surface summaries. Review-driven fixes catch two double-counting mistakes where credit-card debt had already been netted out of the available balance, and the branch reports 57 new tests over projections, rules, planner intents, evidence, and hero rendering."
+    },
+    {
+      "url": "https://github.com/Oltan/java-test-reports/pull/4",
+      "seen_at": "2026-07-09T18:54:50Z",
+      "summary": "java-test-reports used Claude Fable 5 to fix three scenario-history endpoints that returned HTTP 500 against a real on-disk DuckDB database. The handlers opened the connection read-only and then called `init_schema`, whose `CREATE TABLE IF NOT EXISTS` statements DuckDB rejects; the existing unit suite missed it because fixtures monkeypatched the connection to in-memory databases. The patch switches those paths to writable connections like the rest of the schema callers and adds regression tests that hit the endpoints through the real `db.get_connection` against a temporary database file; later commits in the same PR add browserless Gherkin demo scenarios, Jira matching fixes, and LLM-backed repair-loop infrastructure."
     }
   ],
-  "last_run": "2026-07-09T17:50:33Z"
+  "last_run": "2026-07-09T18:54:50Z"
 }
