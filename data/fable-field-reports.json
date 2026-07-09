@@ -3939,7 +3939,32 @@
       "url": "https://github.com/apache/spark/pull/57151",
       "seen_at": "2026-07-09T04:48:00Z",
       "summary": "Claude Fable 5 generated an Apache Spark NettyStreamManager hardening PR that restricts served files to the registered directory and adds a focused NettyStreamManagerSuite test."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/389",
+      "seen_at": "2026-07-09T05:53:53Z",
+      "summary": "Claude Fable 5 co-authored QuantEcon.jl DiscreteDP feature parity with QuantEcon.py, adding s_indices storage, pair-count helpers, form converters, direct sparse fill after review, and 318 passing tests plus a full package test pass."
+    },
+    {
+      "url": "https://github.com/zcash/librustzcash/pull/2572",
+      "seen_at": "2026-07-09T05:53:53Z",
+      "summary": "Claude Fable 5 co-authored a 23-file librustzcash crate for Orchard-to-Ironwood wallet value-pool migration, with PCZT signing, external-signer flows, persistence tables, 95 unit tests, four seeded-wallet end-to-end tests, and workspace-wide cargo gates."
+    },
+    {
+      "url": "https://github.com/pypa/cibuildwheel/pull/2907",
+      "seen_at": "2026-07-09T05:53:53Z",
+      "summary": "Henry Schreiner posted an unedited Claude Fable 5 plan for cibuildwheel shared build-runner refactoring, contrasting it with an Opus attempt and showing platform-specific behavior changes and maintainer review feedback."
+    },
+    {
+      "url": "https://github.com/Silo-Server/silo-server/pull/351",
+      "seen_at": "2026-07-09T05:53:53Z",
+      "summary": "Claude Fable 5 implemented Silo Server binary-quantized Meilisearch embeddings, with production benchmarks on a 607.9k-document catalog showing index size 18G to 8.3G, pure semantic median latency 9ms to 4ms, and hybrid search unchanged within jitter."
+    },
+    {
+      "url": "https://github.com/solvespace/solvespace/pull/1729",
+      "seen_at": "2026-07-09T05:53:53Z",
+      "summary": "A SolveSpace contributor says Claude Fable 5 did essentially all of the work on NURBS boolean fixes, finding an OpenMP use-after-free and edge-on-edge classification gaps, adding volume-based regression tests, and impressing maintainers with spatial reasoning."
     }
   ],
-  "last_run": "2026-07-09T04:48:00Z"
+  "last_run": "2026-07-09T05:53:53Z"
 }
