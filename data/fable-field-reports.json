@@ -4134,7 +4134,37 @@
       "url": "https://github.com/kumavis/vibe-dump/pull/9",
       "seen_at": "2026-07-09T11:20:15Z",
       "summary": "vibe-dump merged a Claude Fable 5 co-authored mewlang PR adding a first-order functional language backed by an e-graph propagator engine, interactive inspector, correctness-contract follow-up, and tests for parser, lattice, rule, scheduler, confluence, and golden-example behavior."
+    },
+    {
+      "url": "https://github.com/NethermindEth/nethermind/pull/12142",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "Nethermind used Claude Fable 5 on a FlatDB long-finality storage tier with persisted mmap-backed snapshots, logarithmic compaction, and follow-up review loops that found and fixed deadlock, resource-management, and corrupt-table read-path bugs."
+    },
+    {
+      "url": "https://github.com/NoesisVision/nasde-toolkit/pull/75",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "NoesisVision used Claude Fable 5 to build and calibrate NASDE evaluator changes from a human-reviewed weather-discount task: diff-first judging, per-task dimensions, deterministic prechecks, judge matrices, and rubric revisions verified against Fable/Opus runs."
+    },
+    {
+      "url": "https://github.com/bitwuzla/bitwuzla/pull/212",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "Bitwuzla has a Claude Fable 5 co-authored rewrite rule that recognizes Alive2-style signed-remainder encodings after sdiv elimination, avoiding two independent signed divisions and 90s+ timeout cases, with matching and near-miss tests."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/703",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "Lunima used Claude Fable 5 on two photonics UI/simulation fixes: a shared light-source classifier for suffixed PDK grating/edge couplers, plus per-coupler laser on/off behavior with Fable review catching a transient-mode visibility gap."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/699",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "Companion Lunima PR unifying shared light-source classification for suffixed PDK grating/edge couplers, linked from the per-coupler laser on/off field report."
+    },
+    {
+      "url": "https://github.com/Unsiloed-AI/cookbook/pull/11",
+      "seen_at": "2026-07-09T12:27:17Z",
+      "summary": "Unsiloed AI published a source corpus for a Claude Sonnet 5 versus Claude Fable 5 coding comparison, including exact prompts and both models’ generated code for a browser battle game and an Open WebUI RAG Debugger feature."
     }
   ],
-  "last_run": "2026-07-09T11:20:15Z"
+  "last_run": "2026-07-09T12:27:17Z"
 }
