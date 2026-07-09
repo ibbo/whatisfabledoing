@@ -4369,7 +4369,42 @@
       "url": "https://github.com/Oltan/java-test-reports/pull/4",
       "seen_at": "2026-07-09T18:54:50Z",
       "summary": "java-test-reports used Claude Fable 5 to fix three scenario-history endpoints that returned HTTP 500 against a real on-disk DuckDB database. The handlers opened the connection read-only and then called `init_schema`, whose `CREATE TABLE IF NOT EXISTS` statements DuckDB rejects; the existing unit suite missed it because fixtures monkeypatched the connection to in-memory databases. The patch switches those paths to writable connections like the rest of the schema callers and adds regression tests that hit the endpoints through the real `db.get_connection` against a temporary database file; later commits in the same PR add browserless Gherkin demo scenarios, Jira matching fixes, and LLM-backed repair-loop infrastructure."
+    },
+    {
+      "url": "https://github.com/scottlinddk/BoligData/pull/5",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "BoligData merged a Claude Fable 5 co-authored PR replacing mock-only Danish property crawlers with real Boliga/Boligsiden JSON clients, ingest hardening, API/frontend error handling, and mapper/ingest tests."
+    },
+    {
+      "url": "https://github.com/pgste/reaper/pull/18",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "Reaper PR #18, co-authored by Claude Fable 5, persists monotonic sequence numbers into durable decision logs and lays the ordering key for a tamper-evident audit stream; CI reported 1,121 tests passing."
+    },
+    {
+      "url": "https://github.com/artstudiouzb-gif/artstudio/pull/3",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "artstudio PR #3, co-authored by Claude Fable 5, fixes SVG XXE/billion-laughs exposure and SMTP header injection by changing sanitizer and mailer validation, with tests and a larger CMS design pass in the same branch."
+    },
+    {
+      "url": "https://github.com/heisencoder/heisencoder.github.io/pull/2",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "HeisenMICR PR #2 says Matt Ball wrote the font spec and Claude Fable 5 created the implementation files: TTF artifact, Python build/preview/specimen tooling, project metadata, and tests."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/714",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "Two Lunima PRs reviewed with Claude Fable 5 simplify Python environment naming and restore user PDKs at startup, with targeted tests and reported suite runs; PR #715 is linked in the public entry."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/715",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "Companion Lunima startup-restore PR linked from the public entry: restores saved user PDKs on app initialization, prunes missing files, tolerates editable PDKs, and adds regression tests."
+    },
+    {
+      "url": "https://github.com/GameOneDev/hydra/pull/9",
+      "seen_at": "2026-07-09T20:00:15Z",
+      "summary": "Hydra PR #9, co-authored by Claude Fable 5, stops catalogue metadata and search failures from surfacing as global error overlays and adds a follow-up fix for axios errors without config metadata."
     }
   ],
-  "last_run": "2026-07-09T18:54:50Z"
+  "last_run": "2026-07-09T20:00:15Z"
 }
