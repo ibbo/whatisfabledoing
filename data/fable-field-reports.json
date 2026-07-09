@@ -4164,7 +4164,47 @@
       "url": "https://github.com/Unsiloed-AI/cookbook/pull/11",
       "seen_at": "2026-07-09T12:27:17Z",
       "summary": "Unsiloed AI published a source corpus for a Claude Sonnet 5 versus Claude Fable 5 coding comparison, including exact prompts and both models’ generated code for a browser battle game and an Open WebUI RAG Debugger feature."
+    },
+    {
+      "url": "https://github.com/flintlib/flint/pull/2773",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "FLINT maintainer Fredrik Johansson reports new radix square-root and inverse-square-root functions generated with Claude Fable 5 from division-code patterns, with tests/profile programs and benchmark claims of about 2x asymptotic speedups over mpn_sqrtrem and up to 3x faster approximate square roots."
+    },
+    {
+      "url": "https://github.com/pktck/dectalk-python/pull/296",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "dectalk-python merged a Fable-authored corpus phoneme parity repair: decimal expansion, 96 lexicon alignments, and CI wiring moved a 133,641-prompt gate from roughly 46% pass to 99.958% byte-identical against the C oracle."
+    },
+    {
+      "url": "https://github.com/gautierbureau/powsybl-core/pull/21",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "powsybl-core has a Fable 5 co-authored performance sweep across IIDM and CGMES hot paths, with documented profiling wins such as 7,567 ms to 6,850 ms CGMES import and 5,900 ms to 3,223 ms variant clone/remove, plus large module test runs."
+    },
+    {
+      "url": "https://github.com/github/spec-kit/pull/3380",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "spec-kit Fable-assisted fix for keep-config reinstall data loss: preserved config files were wiped by reinstall after remove --keep-config; new fail-before/pass-after test and review follow-up preserve original file mode."
+    },
+    {
+      "url": "https://github.com/zauberzeug/lizard/pull/227",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "Zauberzeug lizard used Fable review passes and follow-up commits to harden espresso.py flashing/debug tooling, adding remote --host flow, coredump integration, side-effect-free import, command registry, and multiple concrete remote/rsync/dry-run fixes."
+    },
+    {
+      "url": "https://github.com/google-deepmind/formal-conjectures/pull/4411",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "A custom Lean theorem-proving harness using Claude Fable 5 closed the Erdős Problem 92 bounded-above target on attempt 1, with lake build completing 8,795 jobs and an axiom check showing only Lean foundation axioms."
+    },
+    {
+      "url": "https://github.com/github/spec-kit/pull/3350",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "Companion spec-kit Fable-assisted fix for prefix-colliding environment variables that could crash config parsing or silently disable config-based hook conditions; includes fail-before/pass-after public-hook tests."
+    },
+    {
+      "url": "https://github.com/github/spec-kit/pull/3344",
+      "seen_at": "2026-07-09T13:33:03Z",
+      "summary": "Companion spec-kit Fable-assisted bundle fix, pivoted after maintainer review from accepting file URLs to rejecting local catalog download_url values with tests for the intended HTTPS-only contract."
     }
   ],
-  "last_run": "2026-07-09T12:27:17Z"
+  "last_run": "2026-07-09T13:33:03Z"
 }
