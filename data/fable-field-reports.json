@@ -4094,7 +4094,47 @@
       "url": "https://github.com/philomena-dev/philomena/pull/708",
       "seen_at": "2026-07-09T10:16:11Z",
       "summary": "Fable 5 and Opus 4.8 generated a large Philomena characterization-testing plan and infrastructure branch to pin observable behavior across roughly 200 controller modules and 454 routed actions."
+    },
+    {
+      "url": "https://github.com/elixir-lang/elixir/pull/15559",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "Elixir added a Fable-assisted CI script comparing public Dialyzer specs to inferred type contracts, tightening several specs and documenting translation artifacts, API-contract widenings, opacity cases, and OTP 28 nominal-type handling."
+    },
+    {
+      "url": "https://github.com/zeroc-ice/ice/pull/5900",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "ZeroC Ice published two IceStorm PRs from an automated Claude Fable 5 correctness audit, fixing an icestormdb comparator mismatch that could corrupt restored subscriber lookups plus five replica/admin edge cases; both were cross-verified by Codex."
+    },
+    {
+      "url": "https://github.com/zeroc-ice/ice/pull/5903",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "Companion ZeroC Ice PR from an automated Claude Fable 5 correctness audit fixing five IceStorm edge cases: node-id stagger underflow, null observer acceptance, destroy/re-create race, Send.QueueSizeMax=0 corruption, and subscriber-admin lookup handling."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.py/pull/857",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "QuantEcon.py has a Claude Code/Fable 5 PR replacing batched dense Q@v dispatch with a GEMV view, preserving bit-identical results and reporting 2.7x to 3.0x Bellman-operator speedups on measured cases."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69605",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "PostHog used Claude Code/Fable 5 to add a gated Rust HogVM primary execution path for transformations, with sync N-API execution, Node fallback only for unsupported/missing-addon cases, log capture, rollout metrics, and focused Rust/Jest tests."
+    },
+    {
+      "url": "https://github.com/wdes/tab-atelier/pull/11",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "Tab Atelier merged a Claude Fable 5 co-authored terminal-performance batch that Rc-shares cached rows, avoids blocking the repaint pump on the parser lock after p99 ~540 ms stalls, and removes several repeated per-frame costs."
+    },
+    {
+      "url": "https://github.com/ctrimm/synthetic-gov-data-kit/pull/5",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "Synthetic Gov Data Kit used Claude Code/Fable 5 on a review-driven cleanup that fixed reproducibility, evaluator scoring, mutable-cache, Pydantic, and notebook JSON bugs; added Medicaid generation and CI; and raised tests from 109 to 263 with reported coverage from 76% to 95%."
+    },
+    {
+      "url": "https://github.com/kumavis/vibe-dump/pull/9",
+      "seen_at": "2026-07-09T11:20:15Z",
+      "summary": "vibe-dump merged a Claude Fable 5 co-authored mewlang PR adding a first-order functional language backed by an e-graph propagator engine, interactive inspector, correctness-contract follow-up, and tests for parser, lattice, rule, scheduler, confluence, and golden-example behavior."
     }
   ],
-  "last_run": "2026-07-09T10:16:11Z"
+  "last_run": "2026-07-09T11:20:15Z"
 }
