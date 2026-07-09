@@ -3834,7 +3834,67 @@
       "url": "https://github.com/TheAxiomFoundation/rulespec-uk/pull/129",
       "seen_at": "2026-07-09T02:37:06Z",
       "summary": "Claude Fable 5 co-authored a rulespec-uk bulk encoding PR for UK legal modules with signed apply manifests, rule/test YAML, coverage updates, and green validation gates."
+    },
+    {
+      "url": "https://github.com/aliasunder/vault-cortex/pull/291",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored a vault-cortex Docker rewrite into local and remote OCI targets, with real Obsidian Sync verification that found and fixed a duplicated sync-setup token bug in the absorbed fork."
+    },
+    {
+      "url": "https://github.com/block/cachew/pull/386",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored Block cachew streaming downloads for huge git snapshots using ranged parallel fetch, spill files, hole punching, direct extraction, and tests."
+    },
+    {
+      "url": "https://github.com/tessio-ai/tessio/pull/8",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored Tessio PRs for per-team outbound/inbound email routing and CSAT surveys, spanning database migrations, API, IMAP worker logic, web UI, reports, tests, and Cloudflare previews."
+    },
+    {
+      "url": "https://github.com/tessio-ai/tessio/pull/7",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored Tessio PRs for per-team outbound/inbound email routing and CSAT surveys, spanning database migrations, API, IMAP worker logic, web UI, reports, tests, and Cloudflare previews."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/64",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/59",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/60",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/61",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/62",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/Shpigford/knockoff/pull/63",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 authored a Knockoff Safari/userscript and marketplace-filtering batch: userscript bundling, cached blocklist preservation, seller-name warnings, filtered-brand panel actions, settings backup, diacritic dedupe, and Node/Safari validation."
+    },
+    {
+      "url": "https://github.com/qlan-ro/mainframe/pull/423",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored Mainframe’s context-meter fix, persisting CLI-reported usage/max tokens, honoring 1M Fable sessions, filtering subagent usage, and adding broad regression tests."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/pull/102355",
+      "seen_at": "2026-07-09T03:41:57Z",
+      "summary": "Claude Fable 5 co-authored an OpenClaw fix exposing Claude CLI effort levels for Fable/Mythos, with live CLI checks for low/high/xhigh/max and provider-policy/runtime regression tests."
     }
   ],
-  "last_run": "2026-07-09T02:37:06Z"
+  "last_run": "2026-07-09T03:41:57Z"
 }
