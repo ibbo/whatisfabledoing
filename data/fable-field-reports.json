@@ -4404,7 +4404,27 @@
       "url": "https://github.com/GameOneDev/hydra/pull/9",
       "seen_at": "2026-07-09T20:00:15Z",
       "summary": "Hydra PR #9, co-authored by Claude Fable 5, stops catalogue metadata and search failures from surfacing as global error overlays and adds a follow-up fix for axios errors without config metadata."
+    },
+    {
+      "url": "https://github.com/mrcryptooo/virtual-gallery/pull/5",
+      "seen_at": "2026-07-09T21:04:34Z",
+      "summary": "virtual-gallery PR #5, co-authored by Claude Fable 5, implements an end-to-end panorama walkthrough integration test with pipeline, viewer engine, hotspots, and tour UI, reporting 102 tests and a browser walkthrough that caught and fixed a cubemap pole-face orientation defect."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/717",
+      "seen_at": "2026-07-09T21:04:34Z",
+      "summary": "Lunima PR #717 records an automated Claude Fable 5 review of routing fixes for stale crossings, A* self-loops, and terminal waveguide overlaps, with new regression tests and only nits left by the Fable review."
+    },
+    {
+      "url": "https://github.com/vincentmakes/turbo-ea/pull/796",
+      "seen_at": "2026-07-09T21:04:34Z",
+      "summary": "turbo-ea PR #796, co-authored by Claude Fable 5, builds a signed extension bundle and licensing system with admin UI, backend/UI plugin runtime, CLI tooling, static catalogue installs, renewal flow, content-pack lifecycle handling, and several review-driven hardening fixes."
+    },
+    {
+      "url": "https://github.com/Jobaben/Argus/pull/12",
+      "seen_at": "2026-07-09T21:04:34Z",
+      "summary": "Argus PR #12, co-authored by Claude Fable 5, adds a Chronicle timeline that combines scheduler runs, background agents, and transcript sessions into swimlanes with live polling, deep links, run totals, and design-system artifacts."
     }
   ],
-  "last_run": "2026-07-09T20:00:15Z"
+  "last_run": "2026-07-09T21:04:34Z"
 }
