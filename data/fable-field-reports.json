@@ -4239,7 +4239,67 @@
       "url": "https://github.com/oven-sh/bun/pull/30412",
       "seen_at": "2026-07-09T15:44:35Z",
       "summary": "Bun PR #30412 is the merged Rust rewrite referenced by the field report: about 1,009,257 additions, 4,024 deletions, 100 commits in GitHub’s PR view, and notes that the existing test suite passed on all platforms."
+    },
+    {
+      "url": "https://github.com/tbuckley/escape-clause/pull/5",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "escape-clause used Claude Fable 5 to add configurable directory-access profiles and a host-persistence write-deny floor to a Claude Code sandbox wrapper, backed by 41 guard tests and documented real-host verification gaps."
+    },
+    {
+      "url": "https://github.com/komleff/u2/pull/546",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "U2 used Claude Fable 5 to implement a gate-readiness protocol and migration guard, then ran a five-subagent Fable review that found four fix-now issues before a second approval pass; reported verification included 1,300 NUnit and 321 Vitest tests."
+    },
+    {
+      "url": "https://github.com/freelensapp/freelens/pull/2115",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "Freelens used Claude Code with model claude-fable-5 to finish a large Jest-to-Vitest migration: roughly 1,450 core failures were cleared and the final report shows 328 test files, 3,370 passing tests, and 44 skipped tests, with workflow reactivation staged for a maintainer."
+    },
+    {
+      "url": "https://github.com/pytorch/tensordict/pull/1740",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TensorDict PR #1740, co-authored by Claude Fable 5, chunks threaded consolidate copies by byte size and reports an 8x128MB in-memory case improving from 218 ms sequential / 202 ms old-threaded to 20 ms with eight threads."
+    },
+    {
+      "url": "https://github.com/pytorch/tensordict/pull/1741",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TensorDict PR #1741, co-authored by Claude Fable 5, reuses a shared thread pool for memmap and consolidate calls, avoiding about 0.3 ms of executor spawn/teardown overhead per call and preventing leaked pools on return_early paths."
+    },
+    {
+      "url": "https://github.com/pytorch/tensordict/pull/1742",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TensorDict PR #1742, co-authored by Claude Fable 5, adds threaded consolidate return_early support via TensorDictFuture while preserving exceptions for combinations that still require main-thread work."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3969",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TorchRL PR #3969, co-authored by Claude Fable 5, fixes a fresh-interpreter ReplayBuffer pickle failure by requiring pyvers 0.2.3 and adds an ordering-independent regression test."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3970",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TorchRL PR #3970, co-authored by Claude Fable 5, fixes pytest-xdist-only mock environment observation-key nondeterminism with a fresh-interpreter regression test across six mock classes."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3971",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TorchRL PR #3971, co-authored by Claude Fable 5, trims Linux container setup by replacing blanket apt upgrades with targeted installs, saving roughly half a minute per paired optdeps job."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3972",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TorchRL PR #3972, co-authored by Claude Fable 5, exports COVERAGE_PROCESS_START so pytest-xdist workers contribute coverage; local verification went from one data file and 105 traced lines to seven files and a full 66k-line report."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3973",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "TorchRL PR #3973, co-authored by Claude Fable 5, parallelizes roughly 24,000 CPU tests with pytest-xdist and reports large script-time reductions across Python versions, leaving the serial quarantine as the next bottleneck."
+    },
+    {
+      "url": "https://github.com/mastra-ai/mastra/pull/19079",
+      "seen_at": "2026-07-09T16:48:59Z",
+      "summary": "Mastra used Mastra Code with anthropic/claude-fable-5 to add SlackSignals, a user-token polling signal provider that persists thread subscriptions/cursors and wakes agents on new Slack messages; reported verification includes 16 provider tests and 105 package tests, with manual e2e still unchecked."
     }
   ],
-  "last_run": "2026-07-09T15:44:35Z"
+  "last_run": "2026-07-09T16:48:59Z"
 }
