@@ -4004,7 +4004,32 @@
       "url": "https://github.com/uppertoe/server-instance-template/pull/27",
       "seen_at": "2026-07-09T06:59:08Z",
       "summary": "Claude Fable 5 co-authored a server-instance-template PR that turns live hands-off deployment lessons into pipeline state checks, weekly freshness alerts, Renovate grouping, and signed-deploy documentation."
+    },
+    {
+      "url": "https://alphasignalai.substack.com/p/claude-fable-5s-hardest-test-was",
+      "seen_at": "2026-07-09T08:04:20Z",
+      "summary": "AlphaSignal ran Claude Fable 5 on three private ML debugging repos built around misleading success metrics. In the first, Fable gave up perfect validation after finding post-outcome leakage; in the second, it ignored a plausible drift story and traced a missed Enterprise Plus segment to a plan-name schema mismatch; in the third, it replaced raw churn targeting with an uplift model and expected-net-value ranking. The hardest case was only a partial pass — 68.8% of offered accounts were still negative-value on the private potential-outcomes holdout — and an Opus 4.8 rerun made slightly more simulated money while Fable found more true uplift."
+    },
+    {
+      "url": "https://github.com/RevenueCat/purchases-ios/pull/7174",
+      "seen_at": "2026-07-09T08:04:20Z",
+      "summary": "RevenueCat’s Fable 5-assisted PR adds a macOS `SDKConfigBenchmark` suite that measures legacy offerings delivery against a new config-endpoint path through the same manager-level SDK calls used by `Purchases.updateAllCaches`. It ships deterministic simulated transports, live runs against a pinned stress-test project, JSONL percentile output, a comparison gate that rejects invalid or mismatched rows, 65 unit tests, and methodology docs. The author records a six-pass Codex review loop around Fable’s implementation, with headline findings that config cold LTE runs are about 10x slower when all workflows are prefetch-gated, warm config delivery is at parity with legacy, and the kill switch costs about one extra API round trip per launch."
+    },
+    {
+      "url": "https://github.com/manaflow-ai/cmux/pull/7711",
+      "seen_at": "2026-07-09T08:04:20Z",
+      "summary": "A cmux PR co-authored by Claude Fable 5 fixes a remote SSH PTY reconnect path that advertised 20 attempts but stopped after the first retry because bridge-establishment failures exited with fatal code 1 instead of retryable 255. The branch starts with a red regression test for transient `workspace.remote.pty_bridge` failures, then adds a typed exit-code taxonomy, structured v2 error-code classification, a bounded pre-ready bridge wait so silent bridges do not hang forever, and state-preserving cleanup for wrapper-retryable failures. Later review-driven commits add tests for session-lost messages and `pty_attach_end` behavior, showing the Fable loop moving from reproducer to protocol-level cleanup rather than a one-line status-code patch."
+    },
+    {
+      "url": "https://github.com/sho29saka31/Sporive/pull/26",
+      "seen_at": "2026-07-09T08:04:20Z",
+      "summary": "A follow-up Sporive PR co-authored by Claude Fable 5 fixes another real account-recovery edge case: logged-in users opening a password-reset link were redirected to `/home?code=...` before the recovery code could be exchanged. The diagnosis ties the failure to Supabase SSR’s PKCE query-parameter flow and middleware that redirected authenticated users away from `/login`; the fix routes password reset, magic-link, and email-change flows through the existing `/auth/callback` code-exchange endpoint. The PR reports `npx tsc --noEmit`, lint, and a 21-route production build passing, while explicitly noting that live Supabase email-link behavior still needs preview-environment confirmation."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/189343",
+      "seen_at": "2026-07-09T08:04:20Z",
+      "summary": "A PyTorch PR authored with Claude Opus 4.8 and Fable addresses a distributed-systems footgun in symmetric memory: `nvshmem_free` is collective, but tensor storage destruction is local and unordered. Instead of freeing from the storage deleter, the patch assigns collective allocation ids, queues local frees, and drains only the ids all ranks agree on at the next collective allocation boundary, avoiding divergent free order and deadlock. The trade-off is explicit in the PR: memory from free-heavy phases stays resident until a later collective allocation, but the free path becomes collective-safe without forcing every tensor destructor into a rank-synchronized operation."
     }
   ],
-  "last_run": "2026-07-09T06:59:08Z"
+  "last_run": "2026-07-09T08:04:20Z"
 }
