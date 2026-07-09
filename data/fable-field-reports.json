@@ -4489,7 +4489,42 @@
       "url": "https://github.com/pytorch/rl/pull/3982",
       "seen_at": "2026-07-09T22:08:01Z",
       "summary": "TorchRL Fable co-authored CI PR moving benchmark jobs to nightly or PR-label opt-in and handling skipped benchmark artifacts cleanly."
+    },
+    {
+      "url": "https://github.com/fork-tongue/observ/pull/188",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "observ PR #188, co-authored by Claude Fable 5, adds a Vue-style trigger_ref API for shallow-proxy deep mutations and follows up with a type fix so target-typed proxy values remain accepted."
+    },
+    {
+      "url": "https://github.com/hesedcasa/ssh/pull/7",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "hesedcasa ssh PR #7, co-authored by Claude Fable 5, adds hard-coded pre-execution guards for destructive shell/artisan/tinker commands and then closes review-found bypasses in wrapper parsing and SQL pattern coverage."
+    },
+    {
+      "url": "https://github.com/hesedcasa/mysql/pull/71",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "hesedcasa mysql PR #71, co-authored by Claude Fable 5, adds per-profile MySQL query semaphores, profile-level configuration, safe clamping, and queued-waiter rejection on shutdown with focused concurrency tests."
+    },
+    {
+      "url": "https://github.com/assentorp/design-in-the-browser/pull/29",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "design-in-the-browser PR #29, co-authored by Claude Fable 5, fixes a cluster of interaction and desktop-app bugs across shortcuts, selector generation, token mentions, VS Code launching, IPC rebinding, WSL prompt paths, listener cleanup, stop behavior, and terminal-tab closing."
+    },
+    {
+      "url": "https://github.com/hrntsm/Squid-N/pull/33",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "Squid-N PR #33, co-authored by Claude Fable 5, adds N-My-Mz yield-surface computation and visualization for simple-spring, multispring, and multifiber models, with exact-section tests and follow-up model/dependency fixes."
+    },
+    {
+      "url": "https://github.com/laurent-altr/OpenRadioss/pull/162",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "OpenRadioss PR #162, co-authored by Claude Fable 5, adds a local MCP code-index server that builds SQLite symbol, reference, search, and call-graph indexes over about 6,750 source files, 14,500 symbols, and 168,000 edges in roughly 50 seconds."
+    },
+    {
+      "url": "https://github.com/pspeter/bracket/pull/273",
+      "seen_at": "2026-07-09T23:13:02Z",
+      "summary": "bracket PR #273, co-authored by Claude Fable 5, adds a play_all_sets option that completes best-of-n matches at majority win while preserving reconciliation, reopening, surplus-set statistics, generated clients, and localized UI."
     }
   ],
-  "last_run": "2026-07-09T22:08:01Z"
+  "last_run": "2026-07-09T23:13:02Z"
 }
