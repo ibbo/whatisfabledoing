@@ -3894,7 +3894,52 @@
       "url": "https://github.com/openclaw/openclaw/pull/102355",
       "seen_at": "2026-07-09T03:41:57Z",
       "summary": "Claude Fable 5 co-authored an OpenClaw fix exposing Claude CLI effort levels for Fable/Mythos, with live CLI checks for low/high/xhigh/max and provider-policy/runtime regression tests."
+    },
+    {
+      "url": "https://github.com/davidlovas/gitea/pull/4",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 assisted a four-PR Gitea incremental migration-sync stack covering downloader interfaces, GitHub updated-issue/PR listing, upsert helpers, and SyncRepository orchestration, tested end-to-end on a live self-hosted Gitea mirror of about 30 private repos plus auth0/auth0-cli."
+    },
+    {
+      "url": "https://github.com/davidlovas/gitea/pull/1",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 assisted a four-PR Gitea incremental migration-sync stack covering downloader interfaces, GitHub updated-issue/PR listing, upsert helpers, and SyncRepository orchestration, tested end-to-end on a live self-hosted Gitea mirror of about 30 private repos plus auth0/auth0-cli."
+    },
+    {
+      "url": "https://github.com/davidlovas/gitea/pull/2",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 assisted a four-PR Gitea incremental migration-sync stack covering downloader interfaces, GitHub updated-issue/PR listing, upsert helpers, and SyncRepository orchestration, tested end-to-end on a live self-hosted Gitea mirror of about 30 private repos plus auth0/auth0-cli."
+    },
+    {
+      "url": "https://github.com/davidlovas/gitea/pull/3",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 assisted a four-PR Gitea incremental migration-sync stack covering downloader interfaces, GitHub updated-issue/PR listing, upsert helpers, and SyncRepository orchestration, tested end-to-end on a live self-hosted Gitea mirror of about 30 private repos plus auth0/auth0-cli."
+    },
+    {
+      "url": "https://github.com/jamesdchen/hpc-copilot/pull/9",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 assisted a hpc-copilot ten-subsystem audit that found 40 concrete issues and then landed ten follow-up commits across 98 files covering result-corruption, state-loss, CI, tooling, and cluster-runtime failures."
+    },
+    {
+      "url": "https://github.com/HarperFast/oauth/pull/165",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 co-authored Harper OAuth client-assertion primitives with strict Ed25519/JWK validation, per-client replay protection, 35 new tests, and review-driven hardening for input caps, malformed JWK entries, and replay fail-closed behavior."
+    },
+    {
+      "url": "https://github.com/mklute101/calendrome/pull/94",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 co-authored a Calendrome fix for inconsistent time-entry range semantics, adding a shared UTC day-range helper across timesheet, pending-review, week-layout, and harvest-push paths with parity regression tests."
+    },
+    {
+      "url": "https://github.com/anandgupta42/receipts/pull/200",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 co-authored a receipts telemetry-notice fix that suppresses first-run disclosure output when opt-out environment variables are already active, with red-then-green tests and a full 1,737-test verification gate."
+    },
+    {
+      "url": "https://github.com/apache/spark/pull/57151",
+      "seen_at": "2026-07-09T04:48:00Z",
+      "summary": "Claude Fable 5 generated an Apache Spark NettyStreamManager hardening PR that restricts served files to the registered directory and adds a focused NettyStreamManagerSuite test."
     }
   ],
-  "last_run": "2026-07-09T03:41:57Z"
+  "last_run": "2026-07-09T04:48:00Z"
 }
