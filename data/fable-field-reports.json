@@ -4069,7 +4069,32 @@
       "url": "https://github.com/zauberzeug/rosys/pull/429",
       "seen_at": "2026-07-09T09:09:05Z",
       "summary": "RoSys used Fable 5 on a design-heavy fix for page-owned `on_repeat` handlers that otherwise keep their owner objects alive forever through the global task registry. The PR evolves through reviewer pushback: an initial `scope` API gains startup-stop fixes, handler release on client deletion, a CameraProjector lifetime escape hatch, removal of the tempting but unsafe `auto` inference, and finally a smaller `client_scoped=True` flag. The thread includes runnable counterexamples, analysis of `gc.disable()`, weak-reference cleanup limits, and why the chosen fix tears down behavior deterministically even when object graphs may wait for pressure-triggered collection."
+    },
+    {
+      "url": "https://github.com/nntrainer/nntrainer/pull/4065",
+      "seen_at": "2026-07-09T10:16:11Z",
+      "summary": "Fable 5 co-authored an nntrainer cache-aware tiling optimization for an int8 GEMM path, with Galaxy S26+ measurements showing kernel and Qwen3-0.6B prefill speedups plus build/run tests."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/9280",
+      "seen_at": "2026-07-09T10:16:11Z",
+      "summary": "Fable 5 helped Paperclip diagnose and fix multi-minute authenticated API stalls caused by sequential DB pool waits in agent auth middleware, with focused tests and live load validation."
+    },
+    {
+      "url": "https://github.com/apache/ozone/pull/10698",
+      "seen_at": "2026-07-09T10:16:11Z",
+      "summary": "A Fable 5-generated Apache Ozone PR fixes HDDS stream-read error handling where premature stream completion and short-payload diagnostics could mask retryable failures, with unit tests."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69591",
+      "seen_at": "2026-07-09T10:16:11Z",
+      "summary": "Fable 5 assisted PostHog in fixing wizard cloud runs that lost track of bot-authored PRs, using production evidence, branch-state binding, webhook lookup changes, and 80 local tests."
+    },
+    {
+      "url": "https://github.com/philomena-dev/philomena/pull/708",
+      "seen_at": "2026-07-09T10:16:11Z",
+      "summary": "Fable 5 and Opus 4.8 generated a large Philomena characterization-testing plan and infrastructure branch to pin observable behavior across roughly 200 controller modules and 454 routed actions."
     }
   ],
-  "last_run": "2026-07-09T09:09:05Z"
+  "last_run": "2026-07-09T10:16:11Z"
 }
