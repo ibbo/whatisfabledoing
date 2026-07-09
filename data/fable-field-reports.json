@@ -4204,7 +4204,32 @@
       "url": "https://github.com/github/spec-kit/pull/3344",
       "seen_at": "2026-07-09T13:33:03Z",
       "summary": "Companion spec-kit Fable-assisted bundle fix, pivoted after maintainer review from accepting file URLs to rejecting local catalog download_url values with tests for the intended HTTPS-only contract."
+    },
+    {
+      "url": "https://github.com/Pranav-Karra-3301/tuck/pull/115",
+      "seen_at": "2026-07-09T14:37:32Z",
+      "summary": "tuck has a Claude Fable 5 co-authored value-level secret-encryption PR that encrypts only detected secret values while preserving file structure for diff and merge review, with review-driven fixes for scanner capture and sync workflow plus 1,538 reported tests."
+    },
+    {
+      "url": "https://github.com/aieasycep/AYAZ/pull/2",
+      "seen_at": "2026-07-09T14:37:32Z",
+      "summary": "AYAZ published a Fable 5 UI/UX audit over 41 desktop, 8 mobile, and 4 dark-theme screens, then used the branch to fix Turkish localization, metric semantics, raw UUID/channel leaks, mobile table hints, accessibility, and silent error handling with thousands of reported tests."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/706",
+      "seen_at": "2026-07-09T14:37:32Z",
+      "summary": "Lunima added a Fable-reviewed photonics mode-probe inspector that solves waveguide modes from clicked canvas objects, estimates fiber overlap at couplers, warns on assumed geometry, and avoids misleading single-mode output for multimode/interference components, with 52 tests."
+    },
+    {
+      "url": "https://github.com/Silo-Server/silo-server/pull/340",
+      "seen_at": "2026-07-09T14:37:32Z",
+      "summary": "Silo Server used Claude Code with Fable 5 on a production-validated smart-collection fix: removing a hidden 500-item cap after a 10,625-match language collection showed under 1%, then adding SQL pagination so Jellyfin browsing scales by page size."
+    },
+    {
+      "url": "https://github.com/seanssoh/agent-bridge-public/pull/2416",
+      "seen_at": "2026-07-09T14:37:32Z",
+      "summary": "agent-bridge-public fixed a Fable 5-specific terminal classifier bug where stacked file-attachment chips were mistaken for picker options, causing healthy idle agents to be escalated as stuck every roughly five minutes."
     }
   ],
-  "last_run": "2026-07-09T13:33:03Z"
+  "last_run": "2026-07-09T14:37:32Z"
 }
