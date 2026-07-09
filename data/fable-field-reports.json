@@ -4424,7 +4424,72 @@
       "url": "https://github.com/Jobaben/Argus/pull/12",
       "seen_at": "2026-07-09T21:04:34Z",
       "summary": "Argus PR #12, co-authored by Claude Fable 5, adds a Chronicle timeline that combines scheduler runs, background agents, and transcript sessions into swimlanes with live polling, deep links, run totals, and design-system artifacts."
+    },
+    {
+      "url": "https://github.com/sillsdev/DesktopAnalytics.net/pull/43",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "Fable 5-reviewed DesktopAnalytics.net PR makes Mixpanel event delivery durable with a DiskQueue spool, live offline smoke tests, network-failure hardening, consent-purge byte deletion, and 81/81 tests passing."
+    },
+    {
+      "url": "https://github.com/komleff/u2/pull/543",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "U2 gate-window PR uses Claude Fable 5 supervisor/review loop for Unity neighboring-sector skybox preview, with editor verification, standalone builds, live smoke, and follow-up fixes for window fade and star rendering."
+    },
+    {
+      "url": "https://github.com/aignermax/Lunima/pull/718",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "Lunima Fable 5-assisted crossing insertion lifecycle PR fixes delete, undo/redo, persistence, rebuild, rollback, stale-anchor, and targeted thread-safety blockers with 3,449 tests passing."
+    },
+    {
+      "url": "https://github.com/elixir-lang/elixir/pull/15571",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "Elixir Fable-assisted spec-domain stdlib fix adjusts specs that made real clauses unreachable, part of a three-PR type-checker-derived stdlib cleanup."
+    },
+    {
+      "url": "https://github.com/elixir-lang/elixir/pull/15572",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "Elixir stdlib Fable-assisted spec-domain fix adding missing Calendar.time calendar key and aligning NaiveDateTime spec; reports full stdlib recompile with no new warnings and passing calendar suites."
+    },
+    {
+      "url": "https://github.com/elixir-lang/elixir/pull/15573",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "Elixir stdlib Fable-assisted fix normalizing chardata paths in Mix.Release.make_boot_script/4 after spec-derived body checking found valid charlist paths raised."
+    },
+    {
+      "url": "https://github.com/llvm/llvm-project/pull/208537",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "LLVM Claude Fable 5 co-authored PR adds target-independent llvm.dynamicshuffle intrinsic with AArch64, x86, and RISC-V lowering plus public AI-use disclosure."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3977",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI stack starts by running CPU quarantine shards only on oldest/newest Python versions, part of six measured CI-runtime PRs."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3978",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI PR sharding the 84-minute olddeps job into three shards after verifying identical 29,597-test collection with no overlap."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3979",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI PR containing hard optdeps hangs with pytest thread timeout and a 100-minute process guard."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3980",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI PR splitting SOTA smoke tests into two GPU jobs with verified identical 35-test union and no overlap."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3981",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI PR demoting the 71-minute Windows suite to nightly/release/manual runs to save PR runner time."
+    },
+    {
+      "url": "https://github.com/pytorch/rl/pull/3982",
+      "seen_at": "2026-07-09T22:08:01Z",
+      "summary": "TorchRL Fable co-authored CI PR moving benchmark jobs to nightly or PR-label opt-in and handling skipped benchmark artifacts cleanly."
     }
   ],
-  "last_run": "2026-07-09T21:04:34Z"
+  "last_run": "2026-07-09T22:08:01Z"
 }
