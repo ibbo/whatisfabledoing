@@ -3784,7 +3784,37 @@
       "url": "https://github.com/ribbons-digital/memory-lane/pull/163",
       "seen_at": "2026-07-09T00:30:01Z",
       "summary": "Fable 5 diagnosed and reviewed a Memory Lane secret-detector fix that makes generic entropy checks require secret-bearing context, preserves stronger secret patterns, and verifies branch-name false positives plus adapter and CLI tests."
+    },
+    {
+      "url": "https://github.com/Wachirawut2023/AegisMed/pull/1",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored AegisMed, a multi-agent diagnostic app with specialist agents, demo UI, Docker packaging, rare-disease dataset generation, evaluation cases, retrieval, routing, and a fine-tuning pipeline."
+    },
+    {
+      "url": "https://github.com/DavidDworetzky/Geist/pull/277",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored a Geist refactor that centralizes agent lifecycle logic in BaseAgent and fixes generation-parameter, chat-history, mutable-default, newline, phase, enum, and adapter-dispatch bugs with route-level tests."
+    },
+    {
+      "url": "https://github.com/BoatrightTBC/timeclock/pull/5",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored a PHP Timeclock modernization that migrates roughly 260 queries in about 40 files to prepared statements, upgrades password hashing, removes tracked credentials, and fixes PHP 8 compatibility failures."
+    },
+    {
+      "url": "https://github.com/cfg-is/cfgms/pull/2456",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored a cfgms .gitattributes fix for Windows checkouts where CRLF-smudged workflow scripts were rejected as hidden-control-character inputs; validation showed w/lf checkout, zero CR bytes, workflow launch success, and make test passing."
+    },
+    {
+      "url": "https://github.com/ragunawan/EggSpend/pull/1",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored an EggSpend audit-to-implementation PR that adds subagent workflow files and CI, then fixes net-worth calculation, liability signs, transaction filtering, and CSV import parsing in the Swift app."
+    },
+    {
+      "url": "https://github.com/Barneyjm/prompt-fidelity/pull/5",
+      "seen_at": "2026-07-09T01:33:42Z",
+      "summary": "Fable 5 co-authored Prompt Fidelity as an installable Claude skill and Claude Code plugin, including a stdlib-only scoring script and a follow-up fix for singular/plural constraint-count reporting."
     }
   ],
-  "last_run": "2026-07-09T00:30:01Z"
+  "last_run": "2026-07-09T01:33:42Z"
 }
