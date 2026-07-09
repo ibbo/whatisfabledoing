@@ -3964,7 +3964,47 @@
       "url": "https://github.com/solvespace/solvespace/pull/1729",
       "seen_at": "2026-07-09T05:53:53Z",
       "summary": "A SolveSpace contributor says Claude Fable 5 did essentially all of the work on NURBS boolean fixes, finding an OpenMP use-after-free and edge-on-edge classification gaps, adding volume-based regression tests, and impressing maintainers with spatial reasoning."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6285",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Code with Claude Fable 5 virtualized Texera dataset version file trees, reducing a measured 400-file frontend freeze from 24.5s to 1.3s and main-thread blocking from 22.2s to 0.2s."
+    },
+    {
+      "url": "https://github.com/Silo-Server/silo-android/pull/49",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Code with Claude Fable 5 drove a 37-item Silo Android phone QA sweep across playback, navigation, detail pages, and downloads, with root-cause notes and build/unit-test validation."
+    },
+    {
+      "url": "https://github.com/vardirhq/tunga/pull/5",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored a merged Tunga i18n extraction/apply fix for collision-suffixed keys, inline handler strings, JSX whitespace fusion, low-confidence orphan keys, and scan noise."
+    },
+    {
+      "url": "https://github.com/KingInYellows/yellow-plugins/pull/625",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored yellow-core setup:all validator hardening with explicit ERROR-SETUP codes, derived command maps, plugin readiness fixes, and 11 historical-drift integration fixtures."
+    },
+    {
+      "url": "https://github.com/sho29saka31/Sporive/pull/23",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored a three-PR Sporive authentication fix: stop treating current_password_required as success, add account-settings password changes, and add reset-email recovery for two affected accounts."
+    },
+    {
+      "url": "https://github.com/sho29saka31/Sporive/pull/24",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored a three-PR Sporive authentication fix: stop treating current_password_required as success, add account-settings password changes, and add reset-email recovery for two affected accounts."
+    },
+    {
+      "url": "https://github.com/sho29saka31/Sporive/pull/25",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored a three-PR Sporive authentication fix: stop treating current_password_required as success, add account-settings password changes, and add reset-email recovery for two affected accounts."
+    },
+    {
+      "url": "https://github.com/uppertoe/server-instance-template/pull/27",
+      "seen_at": "2026-07-09T06:59:08Z",
+      "summary": "Claude Fable 5 co-authored a server-instance-template PR that turns live hands-off deployment lessons into pipeline state checks, weekly freshness alerts, Renovate grouping, and signed-deploy documentation."
     }
   ],
-  "last_run": "2026-07-09T05:53:53Z"
+  "last_run": "2026-07-09T06:59:08Z"
 }
