@@ -4299,7 +4299,37 @@
       "url": "https://github.com/mastra-ai/mastra/pull/19079",
       "seen_at": "2026-07-09T16:48:59Z",
       "summary": "Mastra used Mastra Code with anthropic/claude-fable-5 to add SlackSignals, a user-token polling signal provider that persists thread subscriptions/cursors and wakes agents on new Slack messages; reported verification includes 16 provider tests and 105 package tests, with manual e2e still unchecked."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69025",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "PostHog Duckgres consumer PR makes permanent live incremental apply errors fail fast and marks divergent schemas for resync after a Fable-assisted audit found the silent divergence path."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/68785",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "PostHog Duckgres backfill PR records failure streaks, retry backoff, and durable stuck gauges so wedged schemas stop hiding healthy backlog signals."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/68808",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "PostHog Duckgres per-org concurrency PR adds fleet-wide org budgets; an adversarial Fable audit found and fixed post-LIMIT starvation by saturated orgs."
+    },
+    {
+      "url": "https://github.com/zhaow-de/zcrypto-kraken/pull/77",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "zcrypto-kraken merged a Fable co-authored drawdown-governor risk layer with 34 tests and a pre-registered threshold backtest improving Sharpe and reducing max drawdown on the frozen candidate."
+    },
+    {
+      "url": "https://github.com/dcltdw/annotated-maps-sp/pull/47",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "annotated-maps-sp merged a Fable-planned AWS EKS/Terraform demo environment with hand-written IAM, OIDC/IRSA guardrails, cost controls, static CI gates, and review-found fork-PR OIDC hardening."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6130",
+      "seen_at": "2026-07-09T17:50:33Z",
+      "summary": "Apache Texera PR generated with Claude Code, Opus 4.8, and Fable 5 fixes PVE routing by moving frontend calls to /api/pve and removing gateway rewrites, with Angular, Docker-stack, and Helm checks."
     }
   ],
-  "last_run": "2026-07-09T16:48:59Z"
+  "last_run": "2026-07-09T17:50:33Z"
 }
