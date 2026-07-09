@@ -4229,7 +4229,17 @@
       "url": "https://github.com/seanssoh/agent-bridge-public/pull/2416",
       "seen_at": "2026-07-09T14:37:32Z",
       "summary": "agent-bridge-public fixed a Fable 5-specific terminal classifier bug where stacked file-attachment chips were mistaken for picker options, causing healthy idle agents to be escalated as stuck every roughly five minutes."
+    },
+    {
+      "url": "https://bun.com/blog/bun-in-rust",
+      "seen_at": "2026-07-09T15:44:35Z",
+      "summary": "Jarred Sumner reports using a pre-release Claude Fable 5 with Claude Code dynamic workflows to port Bun from 535,496 lines of Zig to Rust in 11 days, reaching 100% of the existing test suite across six platforms with no skipped/deleted tests and about 1.0M additions in the merged PR."
+    },
+    {
+      "url": "https://github.com/oven-sh/bun/pull/30412",
+      "seen_at": "2026-07-09T15:44:35Z",
+      "summary": "Bun PR #30412 is the merged Rust rewrite referenced by the field report: about 1,009,257 additions, 4,024 deletions, 100 commits in GitHub’s PR view, and notes that the existing test suite passed on all platforms."
     }
   ],
-  "last_run": "2026-07-09T14:37:32Z"
+  "last_run": "2026-07-09T15:44:35Z"
 }
