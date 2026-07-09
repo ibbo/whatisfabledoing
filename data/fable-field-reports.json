@@ -3744,7 +3744,47 @@
       "url": "https://github.com/ChristianPresley/threat-dashboard/pull/5",
       "seen_at": "2026-07-08T23:23:07Z",
       "summary": "Threat-dashboard PR co-authored by Claude Fable 5 closes audit gaps across feed/case/rule mutations, Postgres parity, audit persistence, keyboard commands, panels, and AI tool surfaces, with end-to-end mock and Postgres validation including restart persistence."
+    },
+    {
+      "url": "https://github.com/apache/iceberg-python/pull/3630",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 wrote two Iceberg Python PRs: one makes multi-argument transform metadata load as UnknownTransform with round-trip preservation, and the other adds explicit rewrite_manifests maintenance with sequence-preserving replace snapshots and Spark interop coverage."
+    },
+    {
+      "url": "https://github.com/apache/iceberg-python/pull/3631",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 wrote two Iceberg Python PRs: one makes multi-argument transform metadata load as UnknownTransform with round-trip preservation, and the other adds explicit rewrite_manifests maintenance with sequence-preserving replace snapshots and Spark interop coverage."
+    },
+    {
+      "url": "https://github.com/gaby/syncthing/pull/48",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 co-authored Syncthing hot-path optimizations across protocol, model, filesystem, ignore, config, events, API, and connections code, with review follow-ups preserving metrics surface and deterministic behavior."
+    },
+    {
+      "url": "https://github.com/ayooooo123/Memeget/pull/28",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 co-authored a Memeget branch that switches to Gemma 4 E2B for on-device vision tagging, adds few-shot teaching from CLIP-similar examples, speeds indexing, and overhauls learner negatives to improve common-label accuracy."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69539",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 assisted two PostHog PRs: one moves scheduled survey maintenance queries into HogQL and fixes a missing team filter, and another deletes an unused sessions backfill after repo, ops-log, and query-log checks found no remaining executions."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69477",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Claude Fable 5 assisted two PostHog PRs: one moves scheduled survey maintenance queries into HogQL and fixes a missing team filter, and another deletes an unused sessions backfill after repo, ops-log, and query-log checks found no remaining executions."
+    },
+    {
+      "url": "https://github.com/colin-prologue/Switchboard/pull/53",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "A Fable co-authored Switchboard PR adds a YAML transition table and triage-passed dispatch guard, verifies poll/retry refusal paths, and fixes a direct todo-entry bypass found by Codex review."
+    },
+    {
+      "url": "https://github.com/ribbons-digital/memory-lane/pull/163",
+      "seen_at": "2026-07-09T00:30:01Z",
+      "summary": "Fable 5 diagnosed and reviewed a Memory Lane secret-detector fix that makes generic entropy checks require secret-bearing context, preserves stronger secret patterns, and verifies branch-name false positives plus adapter and CLI tests."
     }
   ],
-  "last_run": "2026-07-08T23:23:07Z"
+  "last_run": "2026-07-09T00:30:01Z"
 }
