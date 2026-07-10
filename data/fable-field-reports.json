@@ -4799,7 +4799,37 @@
       "url": "https://github.com/ArmonicPvP/gw2bot/pull/25",
       "seen_at": "2026-07-10T06:42:56Z",
       "summary": "gw2bot’s Claude Fable 5 PR adds a full `/event new` system for Raid, Strike, Fractal, and World vs. World events in Discord. Event creators get a three-step modal flow, private preview, channel posting, persistent signup/signout/settings buttons, capacity-aware roles with waitlisting and promotion, remembered role preferences, recurring events, thread/status transitions, and SQLite persistence with timezone handling. Multiple later commits are explicitly review-driven: failed recurrence posting becomes retryable, manual post failures clean up partial state, over-event signouts and in-progress signup completions are blocked, and failed status refreshes no longer silently mark old occurrences over."
+    },
+    {
+      "url": "https://github.com/m4r1k/Eneru/pull/93",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "Eneru used a parallel Claude Fable 5 ship-review fan-out to turn an initial NO-GO on shutdown-safety and config-loader issues into a 77-file remediation PR covering schema validation, observable shutdown failures, host-header and credential hardening, API bounding, CI/release hardening, and test coverage."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.py/pull/860",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "QuantEcon.py used Claude Fable 5 to fix MarkovChain sampling bugs where deficient CDF rows and negative sparse initial states could produce out-of-range or undefined paths; the PR adds fail-before/pass-after tests, then incorporates review corrections for zero-probability clamp targets and invalid initial distributions."
+    },
+    {
+      "url": "https://github.com/pktck/dectalk-python/pull/312",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "dectalk-python used Claude Fable 5 on a full-corpus WAV parity burn-down, adding a resumable 133,641-prompt byte-comparison sweep, porting missing ph_sort rules for clause-final function-word vowel unreduction and dangling-stress cleanup, and making FULL+VTM1 the no-CAPI default with CI green."
+    },
+    {
+      "url": "https://github.com/etrepum/lexical/pull/18",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "Lexical used Claude Fable 5 to replace a long keyboard-shortcut predicate chain with compiled modifier-mask/key dispatch, preserving non-Latin layout fallback semantics through exhaustive parity tests and follow-up build fixes around TS/JSX parsing."
+    },
+    {
+      "url": "https://github.com/run-ai/runai-model-streamer/pull/158",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "runai-model-streamer used Claude Fable 5 to fix a silent model-loading data-loss bug where an empty safetensors shard caused iteration to terminate and drop remaining files; the PR adds two regression tests and validates the affected vLLM path."
+    },
+    {
+      "url": "https://github.com/solidjs/solid/pull/2867",
+      "seen_at": "2026-07-10T07:45:28Z",
+      "summary": "SolidJS used Claude Fable 5 to fix nullish async rejection handling where StatusError wrappers leaked into user error surfaces; the author reports tests written first, confirmed failing on the unfixed code, verified against the published beta, with full Solid suites passing."
     }
   ],
-  "last_run": "2026-07-10T06:42:56Z"
+  "last_run": "2026-07-10T07:45:28Z"
 }
