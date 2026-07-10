@@ -4549,7 +4549,32 @@
       "url": "https://github.com/instill-ai/models/pull/112",
       "seen_at": "2026-07-10T00:17:46Z",
       "summary": "Instill AI’s Docling service has a small but concrete Claude Fable 5 co-authored PDF parsing fix. On arXiv paper 2411.14199, overlapping author-flow bounding boxes caused the same physical line to be consumed by two candidate bands, duplicating names such as “Pang Wei Koh” and “Hannaneh Hajishirzi” with identical text and boxes. The patch assigns each physical line to the containing band with the tightest fit, adds a regression with overlapping flows sharing a row, and reports the real PDF changing from 26 created author nodes with three duplicates to 23 unique authors."
+    },
+    {
+      "url": "https://github.com/shearmanb/drop-tracker/pull/5",
+      "seen_at": "2026-07-10T01:21:54Z",
+      "summary": "drop-tracker used Claude Fable 5 to audit 783 live Discord-linked drop rows, narrowing a suspected timestamp problem to one shifted cell and a weekday convention split while producing concrete flagged rows, corrections, and a verification checklist."
+    },
+    {
+      "url": "https://github.com/ZhihaoZhang97/wcpredict/pull/13",
+      "seen_at": "2026-07-10T01:21:54Z",
+      "summary": "wcpredict fixed a Fable-specific LangChain streaming parser bug that dropped scout briefings from mixed thinking/text content, then verified regenerated match traces with full briefings and a correct Argentina–Egypt scoreline."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6306",
+      "seen_at": "2026-07-10T01:21:54Z",
+      "summary": "Apache Texera used Claude Code with Claude Fable 5 to speed dataset bulk upload by caching queue names and virtualizing pending/finished lists after 1,100-file uploads were taking about 12 minutes."
+    },
+    {
+      "url": "https://github.com/ferynd/Website/pull/151",
+      "seen_at": "2026-07-10T01:21:54Z",
+      "summary": "Ferynd’s Claude Fable 5 co-authored transcriber PR parallelizes chunk transcription, adds resume caches across OpenAI/Gemini/cleanup phases, and adds guardrails against hallucinated correction rewrites with 1,190 tests passing."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/nearmiss/pull/29",
+      "seen_at": "2026-07-10T01:21:54Z",
+      "summary": "Nearmiss used Claude Fable 5 to implement contributor export/delete/retention tooling across raw, moderation, and approved stores, with tombstone anti-resurrection tests, 93% total coverage, ruff, and strict mypy clean."
     }
   ],
-  "last_run": "2026-07-10T00:17:46Z"
+  "last_run": "2026-07-10T01:21:54Z"
 }
