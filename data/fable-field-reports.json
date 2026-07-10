@@ -4524,7 +4524,32 @@
       "url": "https://github.com/pspeter/bracket/pull/273",
       "seen_at": "2026-07-09T23:13:02Z",
       "summary": "bracket PR #273, co-authored by Claude Fable 5, adds a play_all_sets option that completes best-of-n matches at majority win while preserving reconciliation, reopening, surplus-set statistics, generated clients, and localized UI."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/877",
+      "seen_at": "2026-07-10T00:17:46Z",
+      "summary": "Mitos used Claude Fable 5 with extended thinking on a Python SDK latency pass for its Firecracker-backed sandbox service. The PR starts from a measured time-to-interactive path: warm engine activation was already about 60 ms P50, but create-to-first-exec from a same-region client was 572 ms P50 because each sandbox creation paid two fresh TLS handshakes of roughly 95 ms apiece. The Fable-authored fix pools keep-alive `httpx.Client` instances, keeps them alive across agent thinking pauses, stops closing them after every `exec`, adds a reproducible `bench/tti-latency.py` harness, and reports a 197 ms P50 improvement before later transport follow-ups."
+    },
+    {
+      "url": "https://github.com/siuying/tswift/pull/259",
+      "seen_at": "2026-07-10T00:17:46Z",
+      "summary": "TSwift used Claude Fable 5 as an advisor to triage Foundation gaps into implement-now and documented-Darwin-gap buckets before a seven-slice implementation pass. The result raises implemented Foundation coverage from 59.8% to 70.3% and verified coverage from 54.6% to 65.0%, with concrete additions such as all 58 `URLError.Code` cases, stored `URLRequest` policy properties, nonconforming-float coder strategies, `Calendar` weekend helpers, and `DateComponents.isRepeatedDay`. The PR notes that independent review caught a real interpreter `type_hint` push/pop leak during the URLRequest slice, and `scripts/presubmit` ran green before every commit."
+    },
+    {
+      "url": "https://github.com/florianhorner/mammamiradio/pull/806",
+      "seen_at": "2026-07-10T00:17:46Z",
+      "summary": "MammamiRadio found that reasoning-model responses from `claude-fable-5` broke its Anthropic scriptwriter parser because the code assumed `content[0].text`; thinking blocks raised `AttributeError`, and every creative call silently regenerated through the OpenAI fallback. A Fable co-authored fix joins text blocks past the reasoning content, preserves max-token truncation handling, and adds a guarded model-catalog key that no shipped profile can resolve accidentally. The proof artifacts record before-and-after local ledger rows — `anthropic_AttributeError` fallbacks before, clean Fable generation after — plus 4,376 passing tests, 93% coverage, ruff/format/mypy, and changelog lint."
+    },
+    {
+      "url": "https://github.com/A2-ai/miniextendr/pull/1227",
+      "seen_at": "2026-07-10T00:17:46Z",
+      "summary": "A miniextendr dogfood hiccup turned into a Claude Fable 5-drafted API fix: `TypedList::get::<Vec<_>>()` could not compile because `get` and `get_opt` required `TryFromSexp<Error = SexpError>`, while vector conversions use the narrower `SexpTypeError`. The PR widens the bound for `TypedList` and the sibling `DataFrame::column` accessors, adds an R fixture that retrieves numeric, integer, and character vectors through the exact failing call shape, and updates docs and generated R files. Its verification list includes multiple all-feature `cargo clippy -D warnings` runs, `just check`, R 4.6 package install/documentation passes, and a focused testthat run with 31 passes."
+    },
+    {
+      "url": "https://github.com/instill-ai/models/pull/112",
+      "seen_at": "2026-07-10T00:17:46Z",
+      "summary": "Instill AI’s Docling service has a small but concrete Claude Fable 5 co-authored PDF parsing fix. On arXiv paper 2411.14199, overlapping author-flow bounding boxes caused the same physical line to be consumed by two candidate bands, duplicating names such as “Pang Wei Koh” and “Hannaneh Hajishirzi” with identical text and boxes. The patch assigns each physical line to the containing band with the tightest fit, adds a regression with overlapping flows sharing a row, and reports the real PDF changing from 26 created author nodes with three duplicates to 23 unique authors."
     }
   ],
-  "last_run": "2026-07-09T23:13:02Z"
+  "last_run": "2026-07-10T00:17:46Z"
 }
