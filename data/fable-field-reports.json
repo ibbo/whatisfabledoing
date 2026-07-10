@@ -4574,7 +4574,37 @@
       "url": "https://github.com/ChelseaKR/nearmiss/pull/29",
       "seen_at": "2026-07-10T01:21:54Z",
       "summary": "Nearmiss used Claude Fable 5 to implement contributor export/delete/retention tooling across raw, moderation, and approved stores, with tombstone anti-resurrection tests, 93% total coverage, ruff, and strict mypy clean."
+    },
+    {
+      "url": "https://github.com/ThousandBirdsInc/chidori/pull/99",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Fable 5 co-authored a Chidori runtime performance stack removing O(history²) safepoint, replay, mirror-write, and actor-message costs, with measured debug-run, resume, mirror, and actor speedups plus 390 passing tests."
+    },
+    {
+      "url": "https://github.com/charliebeckstrand/midgard/pull/946",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Fable 5 co-authored Midgard’s browser-mode chart benchmark suite comparing mount, live-update, and hover behavior against AG Charts and Highcharts, with baseline results showing near-linear Midgard growth at larger row counts."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.py/pull/859",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Fable 5 generated a QuantEcon.py fix replacing per-instance DiscreteDP closures with an ordinary method so instances pickle cleanly across all three representations, with a new round-trip test."
+    },
+    {
+      "url": "https://github.com/LibreBooking/librebooking/pull/1534",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Fable 5 assisted a LibreBooking reservation-page fix for an unbounded date-advance loop that froze browsers, with local reproduction before the patch and manual confirmation afterward."
+    },
+    {
+      "url": "https://github.com/apache/fluss/pull/3629",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Code with Fable 5 assisted an Apache Fluss fix where PrimaryKey.equals and hashCode disagreed after schema round trips, backed by a public reproducer, new unit and admin integration tests, and 1,684 passing tests."
+    },
+    {
+      "url": "https://github.com/chaeminyoon/Data-Analyze-MCP/pull/5",
+      "seen_at": "2026-07-10T02:24:47Z",
+      "summary": "Claude Fable 5 co-authored a Data-Analyze-MCP chart-theme and demo rewrite, adding two MCP theme tools, rebuilding screenshots from server-returned values, and verifying stdio serving, theme switching, and error handling."
     }
   ],
-  "last_run": "2026-07-10T01:21:54Z"
+  "last_run": "2026-07-10T02:24:47Z"
 }
