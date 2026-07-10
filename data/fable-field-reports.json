@@ -5109,7 +5109,52 @@
       "url": "https://github.com/Akibalogh/listings-analyzer/pull/5",
       "seen_at": "2026-07-10T21:27:07Z",
       "summary": "listings-analyzer PR #5 uses Claude Fable 5 to add scheduled Redfin search synchronization via Jina Reader, address-level deduplication, enrichment/scoring handoff, Slack notifications, and 12 targeted tests."
+    },
+    {
+      "url": "https://www.xda-developers.com/i-used-claude-fable-5-for-zero-shot-coding-and-understood-why-anthropic-locked-it-down/",
+      "seen_at": "2026-07-10T22:30:29Z",
+      "summary": "Abhinav Raj ran the same zero-shot Pygame prompt at High effort through Fable 5 and Opus 4.8; both made playable games without manual debugging, while Fable used over 22% of his credits versus roughly 15% for Opus."
+    },
+    {
+      "url": "https://github.com/jop3/ebook-games/pull/12",
+      "seen_at": "2026-07-10T22:30:29Z",
+      "summary": "Claude Fable 5 co-authored a 92-file PocketBook game-suite pass that added an on-device store, fixed review findings across games, and added interaction tests plus a 32-bit ARM cross-compile check."
+    },
+    {
+      "url": "https://github.com/consolacionburriana-tic/tools/pull/5",
+      "seen_at": "2026-07-10T22:30:29Z",
+      "summary": "Claude Fable 5 co-authored a production school-administration migration: import/sync workflows, role-based Google login, data migration, and end-to-end authorization checks over a central student and teacher database."
+    },
+    {
+      "url": "https://github.com/yangop8/gstore-rust/pull/5",
+      "seen_at": "2026-07-10T22:30:29Z",
+      "summary": "A Claude Fable 5-assisted adversarial audit of gstore-rust found seven hand-verified defects: two SPARQL privilege-gate flaws, three panic paths, an ORDER BY correctness bug, and poisoned-mutex handling, backed by regression tests."
+    },
+    {
+      "url": "https://github.com/imperasus/sylqon/pull/5",
+      "seen_at": "2026-07-10T22:30:29Z",
+      "summary": "Claude Fable 5 co-authored a SQL rewrite of Sylqon’s Discord matchup query, replacing a Python ORM scan over 463,000 participant rows with a typed self-join aggregate while preserving matching semantics and 133 passing tests."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69736",
+      "seen_at": "2026-07-10T23:33:28Z",
+      "summary": "Apache Airflow PR #69736, co-authored with Claude Code (Fable 5), fixes SQL check tolerance for negative expected values by widening bounds from magnitude, with regression coverage across five comparators."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/70179",
+      "seen_at": "2026-07-10T23:33:28Z",
+      "summary": "PostHog PR #70179, authored with Claude Code (Fable 5), adds typed input widgets to notebooks that generate validated Python assignments, mark dependent cells stale, and automatically rerun their dependency chain."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6323",
+      "seen_at": "2026-07-10T23:33:28Z",
+      "summary": "Apache Texera PR #6323, co-authored with Claude Code (Fable 5), turns CSV/JSONL type-inference parse failures from silent row drops into clear fail-fast errors, backed by 1,721 passing backend tests and a manual UI repro."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/896",
+      "seen_at": "2026-07-10T23:33:28Z",
+      "summary": "Mitos PR #896, co-authored with Claude Fable 5, designs an opt-in pre-claimed sandbox checkout buffer to remove control-plane work from eligible creates, with race/envtest/Helm verification and a recorded production latency baseline for rollout comparison."
     }
   ],
-  "last_run": "2026-07-10T21:27:07Z"
+  "last_run": "2026-07-10T23:33:28Z"
 }
