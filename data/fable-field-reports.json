@@ -4699,7 +4699,67 @@
       "url": "https://github.com/sparq-org/sparq/pull/1836",
       "seen_at": "2026-07-10T04:34:01Z",
       "summary": "SPARQ’s Fable 5 agent profiled its SP2Bench q09 `SELECT DISTINCT ?p` path before optimizing it, finding that two branches examined about 251,000 rows to answer four predicates because most candidate blocks overlapped the anchor id window but contained no anchor members. The PR adds an opt-in `cs-anchor-incidence` feature that precomputes the exact set of predicates touching an anchor join position, so absent predicates can be rejected with an O(1) membership test while feature-off builds compile out the new path. Differential tests assert incidence-pruned answers match the exact scan and that pending-update overlays decline to the old path; the diagnostic benchmark on 250k triples reports q09 falling from about 4.62 ms to 3.39 ms per query while leaving canonical-host payoff as a separate follow-up."
+    },
+    {
+      "url": "https://github.com/rocne/gostow/pull/20",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "gostow used an external Claude Fable 5 audit to find six divergences from GNU Stow 2.4.1, then reproduced each against the oracle binary before fixing four and ruling on two. The PR includes differential and hermetic fixtures, plus harness repairs so new tests fail against mutated implementations."
+    },
+    {
+      "url": "https://github.com/ThousandBirdsInc/chidori/pull/100",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "Chidori used Claude Fable 5 to add runtime and JavaScript benchmark coverage, exposing O(N²) replay lookup, per-call cloning, whole-session SQLite rewrites, run-store scans, and string/typed-array/recursion interpreter gaps; later commits flatten several curves and report cross-runtime benchmark and Test262 data."
+    },
+    {
+      "url": "https://github.com/richkuo/go-trader/pull/1299",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "go-trader has a three-PR Claude Fable 5 risk-control series adding configurable circuit-breaker cooldowns, fail-open/fail-closed regime-gate behavior, and direction-aware exposure caps, with full Go/Python test coverage and Claude review jobs reporting builds and focused suites green."
+    },
+    {
+      "url": "https://github.com/richkuo/go-trader/pull/1300",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "go-trader has a three-PR Claude Fable 5 risk-control series adding configurable circuit-breaker cooldowns, fail-open/fail-closed regime-gate behavior, and direction-aware exposure caps, with full Go/Python test coverage and Claude review jobs reporting builds and focused suites green."
+    },
+    {
+      "url": "https://github.com/richkuo/go-trader/pull/1301",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "go-trader has a three-PR Claude Fable 5 risk-control series adding configurable circuit-breaker cooldowns, fail-open/fail-closed regime-gate behavior, and direction-aware exposure caps, with full Go/Python test coverage and Claude review jobs reporting builds and focused suites green."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/41",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/42",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/43",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/44",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/45",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/falkcorp/ubuntu-autoinstall-agent/pull/47",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "ubuntu-autoinstall-agent landed a cluster of Claude Fable 5 PRs adding metadata-only config inventory, target reconfiguration, UEFI boot-order repair, an HTML dashboard, and selective phase reruns with compile-time wipe authorization and non-destructive existing-target mounting."
+    },
+    {
+      "url": "https://github.com/simonw/tools/pull/292",
+      "seen_at": "2026-07-10T05:37:22Z",
+      "summary": "Simon Willison opened a Claude Fable 5 co-authored single-file SVG animation editor with drawing tools, a multi-track timeline, auto-keyed tweens, path morphing, easing, onion skinning, autosave, import/save/load, and SMIL export."
     }
   ],
-  "last_run": "2026-07-10T04:34:01Z"
+  "last_run": "2026-07-10T05:37:22Z"
 }
