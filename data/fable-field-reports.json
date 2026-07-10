@@ -4974,7 +4974,37 @@
       "url": "https://github.com/EnzymeAD/Reactant.jl/pull/3049",
       "seen_at": "2026-07-10T13:13:44Z",
       "summary": "Reactant.jl PR #3049 says Claude Fable generated support for Static.jl numeric types in traced code, fixing x + static(0.0) style failures via dynamic type mapping, promotion rules, and integration tests."
+    },
+    {
+      "url": "https://github.com/reabal-n/instantmed/pull/314",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "instantmed PR #314 uses Claude Fable 5 to fix a daily auto-approval cap that silently fell back to per-process memory because the DB audit-log read used a non-UUID actor; tests include targeted regressions, 4,099 full-suite tests, typecheck, lint, and E2E exercise."
+    },
+    {
+      "url": "https://github.com/pyvista/pyvista/pull/8817",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "PyVista PR #8817 uses Claude Fable 5 to fix GL capability probes that crash under Wayland after an EGL render window already exists; the report includes a minimal repro, before/after behavior, and a PyVistaQt context."
+    },
+    {
+      "url": "https://github.com/borgbackup/borg/pull/9877",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "BorgBackup PR #9877 has multiple Claude Fable 5 review comments that found compaction safety issues around EOF checks, damaged-repository undelete, and unreclaimable superseded duplicate waste, leading to additional tests and explicit trade-off discussion."
+    },
+    {
+      "url": "https://github.com/JaviMaligno/code-world-models/pull/18",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "code-world-models PR #18 is a long Claude Fable 5 co-authored research branch adding continuous/hybrid control experiments, mechanism harnesses, mitigation and epsilon-sensitivity sweeps, measured results, and paper updates over a large public commit trail."
+    },
+    {
+      "url": "https://github.com/Blackmarket-coa/blackout/pull/841",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "Blackout PR #841 uses Claude Fable 5 to verify a competitor-depth analysis against repo ground truth, correct factual errors, plan gap-fill work, and implement analytics, creator insights, feed diversity caps, payout transparency, and tip ordering fixes."
+    },
+    {
+      "url": "https://github.com/3mdistal/bwrb/pull/818",
+      "seen_at": "2026-07-10T14:18:03Z",
+      "summary": "bwrb PR #818 uses Claude Fable 5 planning/review packets to make shared Markdown body searches ignore YAML frontmatter across many commands, preserving line numbers and validating with broad build/test/docs gates plus disposable-vault CLI checks."
     }
   ],
-  "last_run": "2026-07-10T13:13:44Z"
+  "last_run": "2026-07-10T14:18:03Z"
 }
