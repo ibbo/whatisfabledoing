@@ -4829,7 +4829,42 @@
       "url": "https://github.com/solidjs/solid/pull/2867",
       "seen_at": "2026-07-10T07:45:28Z",
       "summary": "SolidJS used Claude Fable 5 to fix nullish async rejection handling where StatusError wrappers leaked into user error surfaces; the author reports tests written first, confirmed failing on the unfixed code, verified against the published beta, with full Solid suites passing."
+    },
+    {
+      "url": "https://github.com/Atom-oh/security-ops/pull/9",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "Atom-oh ported hardening found during a 19-round Fable-chaired review cycle into a PR-review workflow, including CLI exit-status sidecars, vendor-axis coverage gates, isolated Codex environments, pre-scrubbed diffs, PEM redaction fixes, and prompt-heredoc truncation protection."
+    },
+    {
+      "url": "https://github.com/mitos-run/mitos/pull/879",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "Mitos used Claude Fable 5 with extended thinking to instrument and remove control-plane latency around Firecracker warm claims, cutting mean warm claim time by 51 ms and eliminating a 296 ms cold mTLS spike while adding claim-stage metrics and race fixes."
+    },
+    {
+      "url": "https://github.com/solidjs/solid/pull/2870",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "SolidJS PR written with Claude Fable 5 fixes two async-iterator settlement bugs verified against beta.16, with red-first tests and full solid-signals, solid-js, and @solidjs/web suites passing."
+    },
+    {
+      "url": "https://github.com/fork-tongue/observ/pull/189",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "observ added a Claude Fable 5 co-authored no-reference-cycle test module that disables Python GC, uses weakrefs and proxy_db registry checks, exercises callback traceback and exception paths, and asserts gc.collect finds nothing left to collect."
+    },
+    {
+      "url": "https://github.com/seanleecoder/rule-trace/pull/5",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "rule-trace merged a Claude Fable 5 co-authored repository review plus follow-up work: 12-perspective design review, severity/effort/impact findings, agent-ready specs, phase-one metrics, fixes, and publish verification notes."
+    },
+    {
+      "url": "https://github.com/yutsuki3/riverpod_devtools/pull/48",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "riverpod_devtools merged a Fable co-authored bug-fix PR for async-state badge detection, clear-all wiring, active-provider cleanup, unique event IDs, vm_service constraints, and leftover commentary removal."
+    },
+    {
+      "url": "https://github.com/yutsuki3/riverpod_devtools/pull/49",
+      "seen_at": "2026-07-10T08:50:49Z",
+      "summary": "riverpod_devtools followed with a Fable co-authored Event Log feature adding type filters, full-text search, empty states, and clear-all behavior while noting prebuilt extension bundles are rebuilt only at release time."
     }
   ],
-  "last_run": "2026-07-10T07:45:28Z"
+  "last_run": "2026-07-10T08:50:49Z"
 }
