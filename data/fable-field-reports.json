@@ -4894,7 +4894,27 @@
       "url": "https://github.com/sebastienrousseau/noyalib/pull/172",
       "seen_at": "2026-07-10T09:56:28Z",
       "summary": "noyalib used Claude Fable 5 in a coverage campaign that moved all-feature line coverage from 93.11% to 94.74% without adding shallow tests around unreachable code. The first chunk removes about 110 lines of orphaned tag-preserving deserializer code whose only entry point had become a recursive dead loop after v0.0.14 changed the public loaders. The second chunk adds semantic tests for `Number::cmp` cross-type ordering across integer, unsigned, float, negative, positive, and NaN values, with each chunk checked against the coverage tool before landing and clippy follow-ups fixing new Rust 1.95 lints."
+    },
+    {
+      "url": "https://github.com/tahnok/colmi_r02_client/pull/61",
+      "seen_at": "2026-07-10T11:01:02Z",
+      "summary": "colmi_r02_client PR #61 is a Claude Fable 5 co-authored codebase-review fix batch for BLE ring sync bugs, including cross-ring data loss, infinite polling, parser-state leakage, CLI date handling, and tests across client/db/hr/steps modules."
+    },
+    {
+      "url": "https://github.com/miketheman/unladen/pull/56",
+      "seen_at": "2026-07-10T11:01:02Z",
+      "summary": "unladen PR #56 used Claude Fable 5 to fix requirements parsing, metadata-dir matching, config errors, call-edge extraction, and scanner performance; CodSpeed reported one benchmark 16.99% faster with seven unchanged."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/12899",
+      "seen_at": "2026-07-10T11:01:02Z",
+      "summary": "pnpm PR #12899 is a Claude Fable 5 co-authored pacquet parity fix for Bit workspaces/capsules, covering six v11 regressions behind ~160 failing e2es and verifying with unit tests, cargo/clippy, and Bit e2e suites."
+    },
+    {
+      "url": "https://github.com/ALive-research/Slicer-Liver/pull/582",
+      "seen_at": "2026-07-10T11:01:02Z",
+      "summary": "Slicer-Liver PR #582 was drafted with Claude Fable 5 assistance and adds camera-aware, draggable slicing-plane init handles, with tests for seeding, idempotence, gestures, planning-decline behavior, and 303 plus 95 tests reported passing."
     }
   ],
-  "last_run": "2026-07-10T09:56:28Z"
+  "last_run": "2026-07-10T11:01:02Z"
 }
