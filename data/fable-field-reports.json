@@ -5094,7 +5094,22 @@
       "url": "https://github.com/jateeter/RealityEngine_CI/pull/59",
       "seen_at": "2026-07-10T17:30:12Z",
       "summary": "RealityEngine_CI PR #59 uses Claude Fable 5 to make cesgen recurse over the domain-organized machine corpus, expanding regenerated coverage to 1,320 machines and 8,763 replay steps."
+    },
+    {
+      "url": "https://github.com/pattei/ralph/pull/5",
+      "seen_at": "2026-07-10T21:27:07Z",
+      "summary": "Ralph PR #5 uses Claude Fable 5 to add bounded planner sessions to an agent harness: lock-gated task mutations, per-task replan budgets, append-only audit history, and 508 new verb tests."
+    },
+    {
+      "url": "https://github.com/theveloped/analyzer/pull/5",
+      "seen_at": "2026-07-10T21:27:07Z",
+      "summary": "Analyzer PR #5 uses Claude Fable 5 to turn a CNC accessibility CLI into shared pipeline/API/frontend architecture, including a visibility-based undercut replacement that reduces a test-part speckle count from about 13,800 to 180."
+    },
+    {
+      "url": "https://github.com/Akibalogh/listings-analyzer/pull/5",
+      "seen_at": "2026-07-10T21:27:07Z",
+      "summary": "listings-analyzer PR #5 uses Claude Fable 5 to add scheduled Redfin search synchronization via Jina Reader, address-level deduplication, enrichment/scoring handoff, Slack notifications, and 12 targeted tests."
     }
   ],
-  "last_run": "2026-07-10T17:30:12Z"
+  "last_run": "2026-07-10T21:27:07Z"
 }
