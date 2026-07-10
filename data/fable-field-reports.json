@@ -4759,7 +4759,47 @@
       "url": "https://github.com/simonw/tools/pull/292",
       "seen_at": "2026-07-10T05:37:22Z",
       "summary": "Simon Willison opened a Claude Fable 5 co-authored single-file SVG animation editor with drawing tools, a multi-track timeline, auto-keyed tweens, path morphing, easing, onion skinning, autosave, import/save/load, and SMIL export."
+    },
+    {
+      "url": "https://github.com/U4E-glitch/graphify/pull/1",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "graphify’s first PR is a 7,733-line Claude Fable 5 co-authored Android app called Qiyas, built as a staged sequence rather than one opaque dump. The commits scaffold a Gradle/Hilt/Room/DataStore app, add Appendix-backed glucose and blood-pressure classification, entry/history/dashboard/report/export flows, Arabic localization, CSV and PDF export, scheduled notifications, release signing, and a BiDi fix for numeric fragments in Arabic reports. The same branch adds Robolectric end-to-end tests over real database save/edit/delete flows, emergency alerts, mmol canonical storage, report generation, CSV/PDF content, and Compose entry screens."
+    },
+    {
+      "url": "https://github.com/sitespeedio/sitespeed.io/pull/4807",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "sitespeed.io has a four-PR Claude Fable 5 pass over its HTML reports: the [summary page](https://github.com/sitespeedio/sitespeed.io/pull/4807) now leads with an overall grade, vital thresholds, worst-page ordering, and degradation fallbacks; the [Domains page](https://github.com/sitespeedio/sitespeed.io/pull/4808) calls out the slowest, heaviest, and chattiest domains; the [Toplist page](https://github.com/sitespeedio/sitespeed.io/pull/4809) adds cache and problem-severity signals; and the [Assets page](https://github.com/sitespeedio/sitespeed.io/pull/4811) sorts heaviest-first with transfer-size and cache-lifetime tones. The write-ups are concrete about preserving self-contained reports, hiding empty sections instead of crashing, and using medians rather than noisy max timings for verdicts."
+    },
+    {
+      "url": "https://github.com/sitespeedio/sitespeed.io/pull/4808",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "sitespeed.io has a four-PR Claude Fable 5 pass over its HTML reports: the [summary page](https://github.com/sitespeedio/sitespeed.io/pull/4807) now leads with an overall grade, vital thresholds, worst-page ordering, and degradation fallbacks; the [Domains page](https://github.com/sitespeedio/sitespeed.io/pull/4808) calls out the slowest, heaviest, and chattiest domains; the [Toplist page](https://github.com/sitespeedio/sitespeed.io/pull/4809) adds cache and problem-severity signals; and the [Assets page](https://github.com/sitespeedio/sitespeed.io/pull/4811) sorts heaviest-first with transfer-size and cache-lifetime tones. The write-ups are concrete about preserving self-contained reports, hiding empty sections instead of crashing, and using medians rather than noisy max timings for verdicts."
+    },
+    {
+      "url": "https://github.com/sitespeedio/sitespeed.io/pull/4809",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "sitespeed.io has a four-PR Claude Fable 5 pass over its HTML reports: the [summary page](https://github.com/sitespeedio/sitespeed.io/pull/4807) now leads with an overall grade, vital thresholds, worst-page ordering, and degradation fallbacks; the [Domains page](https://github.com/sitespeedio/sitespeed.io/pull/4808) calls out the slowest, heaviest, and chattiest domains; the [Toplist page](https://github.com/sitespeedio/sitespeed.io/pull/4809) adds cache and problem-severity signals; and the [Assets page](https://github.com/sitespeedio/sitespeed.io/pull/4811) sorts heaviest-first with transfer-size and cache-lifetime tones. The write-ups are concrete about preserving self-contained reports, hiding empty sections instead of crashing, and using medians rather than noisy max timings for verdicts."
+    },
+    {
+      "url": "https://github.com/sitespeedio/sitespeed.io/pull/4811",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "sitespeed.io has a four-PR Claude Fable 5 pass over its HTML reports: the [summary page](https://github.com/sitespeedio/sitespeed.io/pull/4807) now leads with an overall grade, vital thresholds, worst-page ordering, and degradation fallbacks; the [Domains page](https://github.com/sitespeedio/sitespeed.io/pull/4808) calls out the slowest, heaviest, and chattiest domains; the [Toplist page](https://github.com/sitespeedio/sitespeed.io/pull/4809) adds cache and problem-severity signals; and the [Assets page](https://github.com/sitespeedio/sitespeed.io/pull/4811) sorts heaviest-first with transfer-size and cache-lifetime tones. The write-ups are concrete about preserving self-contained reports, hiding empty sections instead of crashing, and using medians rather than noisy max timings for verdicts."
+    },
+    {
+      "url": "https://github.com/ulyssesdotcodes/livecodata/pull/55",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "livecodata used Claude Fable 5 to split hand-built DOM views from non-view logic without changing the public wiring. Playback becomes a pure engine emitting view state, table-panel keeps formatting and chart resolution while Solid renders the panel, editor-support retains completion and hover behavior behind injected DOM factories, and preview canvas drawing stays separate from the tooltip UI. The PR says all CSS classes, element IDs, and public APIs were preserved, 212 tests passed, and both solo and multiplayer flows were checked in a real browser against the previous build."
+    },
+    {
+      "url": "https://github.com/CWBudde/algo-fft/pull/10",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "algo-fft’s Claude Fable 5 session started with roughly 1,000 `go vet -tags asm` findings and grew into a full assembly/SIMD cleanup. The commits fix 984 slice frame-pointer names, 25 wrong TEXT frame sizes, missing arm64 NEON declarations, ship SIMD kernels in the default build with `purego` as the opt-out, repair a 386 radix-16 in-place transpose corruption, and take golangci-lint from thousands of findings to zero after exposing formerly asm-gated files. Verification spans default and purego builds, vet on amd64/arm64/386 and wasm, full amd64 test suites including race variants, and native 386 package runs."
+    },
+    {
+      "url": "https://github.com/ArmonicPvP/gw2bot/pull/25",
+      "seen_at": "2026-07-10T06:42:56Z",
+      "summary": "gw2bot’s Claude Fable 5 PR adds a full `/event new` system for Raid, Strike, Fractal, and World vs. World events in Discord. Event creators get a three-step modal flow, private preview, channel posting, persistent signup/signout/settings buttons, capacity-aware roles with waitlisting and promotion, remembered role preferences, recurring events, thread/status transitions, and SQLite persistence with timezone handling. Multiple later commits are explicitly review-driven: failed recurrence posting becomes retryable, manual post failures clean up partial state, over-event signouts and in-progress signup completions are blocked, and failed status refreshes no longer silently mark old occurrences over."
     }
   ],
-  "last_run": "2026-07-10T05:37:22Z"
+  "last_run": "2026-07-10T06:42:56Z"
 }
