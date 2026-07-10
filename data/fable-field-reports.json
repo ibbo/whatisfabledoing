@@ -4654,7 +4654,52 @@
       "url": "https://github.com/sparq-org/sparq/pull/1827",
       "seen_at": "2026-07-10T03:29:11Z",
       "summary": "SPARQ Fable 5 agent reran canonical D3 SP2Bench measurements on a quiet c6i.4xlarge, reporting 10 of 14 wins against QLever while preserving still-behind cases and wrong-count disqualifications."
+    },
+    {
+      "url": "https://github.com/lis186/ccxray/pull/212",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "ccxray found a Fable-specific observability bug after a `claude-fable-5` session showed 17.3% context used in the dashboard while Claude Code’s own `/context` reported 172.7k of 200k tokens, or 86%. The root cause was a LiteLLM capability value — Fable’s 1M-token API ceiling — being treated as the active Claude Code session window for ordinary 200k sessions. The fix clamps dynamic Claude-model context data unless the real 1M beta signal or `[1m]` marker is present, adds restore-time self-healing for polluted index rows, and reports fail-before/pass-after tests plus a full suite moving from 1,083 to 1,088 passing tests after review fixes."
+    },
+    {
+      "url": "https://github.com/jkitchin/scimax_vscode/pull/48",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "scimax_vscode used Claude Fable 5 on a whole-repository correctness audit after an earlier command-registration mismatch. The PR fixes runtime calls to nonexistent commands for clearing results, citation navigation, Dired opening, and screenshot refresh; registers settings that were read but invisible in VS Code; wires previously ignored indexer, Dired, manuscript, and capture settings; and removes or deprecates dead configuration. The Fable-attributed commit stack adds a manifest-consistency guard plus focused tests for size-limit indexing, cite-key/path helpers, Zotero formatting, Dired sorting, compile-option resolution, journal refresh, and capture datetree behavior."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6579",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "ITK has another Claude Code `claude-fable-5` image-processing batch, this time covering tied label voting, rank filters, and area morphology: [6579](https://github.com/InsightSoftwareConsortium/ITK/pull/6579) skips voting-undecided pixels before they corrupt the next confusion-matrix row, [6580](https://github.com/InsightSoftwareConsortium/ITK/pull/6580) forwards `FastApproximateRankImageFilter::SetRank()` to the last axis instead of silently using the median there, and [6581](https://github.com/InsightSoftwareConsortium/ITK/pull/6581) fixes an off-by-one sort range that let the last raster pixel survive area opening. Each PR documents the exact unfixed output, then reports the new regression failing on unmodified `main` and passing after the fix, along with the relevant ITK module suites."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6580",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "ITK has another Claude Code `claude-fable-5` image-processing batch, this time covering tied label voting, rank filters, and area morphology: [6579](https://github.com/InsightSoftwareConsortium/ITK/pull/6579) skips voting-undecided pixels before they corrupt the next confusion-matrix row, [6580](https://github.com/InsightSoftwareConsortium/ITK/pull/6580) forwards `FastApproximateRankImageFilter::SetRank()` to the last axis instead of silently using the median there, and [6581](https://github.com/InsightSoftwareConsortium/ITK/pull/6581) fixes an off-by-one sort range that let the last raster pixel survive area opening. Each PR documents the exact unfixed output, then reports the new regression failing on unmodified `main` and passing after the fix, along with the relevant ITK module suites."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6581",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "ITK has another Claude Code `claude-fable-5` image-processing batch, this time covering tied label voting, rank filters, and area morphology: [6579](https://github.com/InsightSoftwareConsortium/ITK/pull/6579) skips voting-undecided pixels before they corrupt the next confusion-matrix row, [6580](https://github.com/InsightSoftwareConsortium/ITK/pull/6580) forwards `FastApproximateRankImageFilter::SetRank()` to the last axis instead of silently using the median there, and [6581](https://github.com/InsightSoftwareConsortium/ITK/pull/6581) fixes an off-by-one sort range that let the last raster pixel survive area opening. Each PR documents the exact unfixed output, then reports the new regression failing on unmodified `main` and passing after the fix, along with the relevant ITK module suites."
+    },
+    {
+      "url": "https://github.com/moq-dev/moq/pull/2140",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "moq has two Claude Fable 5-written media-pipeline PRs on its `dev` branch. [2140](https://github.com/moq-dev/moq/pull/2140) adds an open-source `moq-transcode` crate that builds derivative hang broadcasts on demand: catalog rungs are filtered from the source, live subscriptions materialize only requested tracks, and a FETCH for group N transcodes just that group while preserving sequence numbers. [2141](https://github.com/moq-dev/moq/pull/2141) rewrites `moq-hls` so playlists come from catalog and timeline metadata while media bytes move only when a player requests a CMAF segment; the test plan lists full-workspace checks, rustdoc, unit tests around timeline windows and fMP4 muxing, and an in-process broadcast-to-playlist-to-segment end-to-end path, with live relay and hls.js validation still pending."
+    },
+    {
+      "url": "https://github.com/moq-dev/moq/pull/2141",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "moq has two Claude Fable 5-written media-pipeline PRs on its `dev` branch. [2140](https://github.com/moq-dev/moq/pull/2140) adds an open-source `moq-transcode` crate that builds derivative hang broadcasts on demand: catalog rungs are filtered from the source, live subscriptions materialize only requested tracks, and a FETCH for group N transcodes just that group while preserving sequence numbers. [2141](https://github.com/moq-dev/moq/pull/2141) rewrites `moq-hls` so playlists come from catalog and timeline metadata while media bytes move only when a player requests a CMAF segment; the test plan lists full-workspace checks, rustdoc, unit tests around timeline windows and fMP4 muxing, and an in-process broadcast-to-playlist-to-segment end-to-end path, with live relay and hls.js validation still pending."
+    },
+    {
+      "url": "https://github.com/Bright-Bots-Initiative/brightboost/pull/692",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "BrightBoost used Claude Fable 5 to turn a reviewed prototype into “石犀工坊 · Waterworks,” an unlinked `/waterworks` K–8 sandbox where children build river systems inspired by Dujiangyan, run the water, storm-test with rain, and save creations locally. The PR deliberately keeps the showcase off the backend — no auth, no API, no database diff, `localStorage` only — and maps lead-review notes into tested behavior such as stable save-in-place IDs, autosave on navigation, duplicate-name guards, pattern-book examples, and unlock announcements. Verification reports 528 unit tests passing with 49 Waterworks tests, clean typecheck/lint/build, zero network requests on cold mount, storage-failure degradation, Chinese-language coverage, and founder manual QA over the full build-flow-save-reopen loop."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1836",
+      "seen_at": "2026-07-10T04:34:01Z",
+      "summary": "SPARQ’s Fable 5 agent profiled its SP2Bench q09 `SELECT DISTINCT ?p` path before optimizing it, finding that two branches examined about 251,000 rows to answer four predicates because most candidate blocks overlapped the anchor id window but contained no anchor members. The PR adds an opt-in `cs-anchor-incidence` feature that precomputes the exact set of predicates touching an anchor join position, so absent predicates can be rejected with an O(1) membership test while feature-off builds compile out the new path. Differential tests assert incidence-pruned answers match the exact scan and that pending-update overlays decline to the old path; the diagnostic benchmark on 250k triples reports q09 falling from about 4.62 ms to 3.39 ms per query while leaving canonical-host payoff as a separate follow-up."
     }
   ],
-  "last_run": "2026-07-10T03:29:11Z"
+  "last_run": "2026-07-10T04:34:01Z"
 }
