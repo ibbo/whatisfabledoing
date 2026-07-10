@@ -5059,7 +5059,42 @@
       "url": "https://github.com/WildMeOrg/Wildbook/pull/1675",
       "seen_at": "2026-07-10T16:24:17Z",
       "summary": "Wildbook PR #1675 is a Fable-led follow-up to a QA review, shutting down a fixed executor that leaked one idle non-daemon thread per bulk indexing task."
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/pull/48261",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "vLLM PR #48261 uses Claude Fable 5 to fix stale attention metadata during speculator prefill CUDA graph capture, verified on a failing H200 MIG slice and a full H200."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6278",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "Apache Texera PR #6278 uses Claude Fable 5 to coerce numpy integer and bool scalar outputs before schema validation, with coverage showing all modified coverable lines tested."
+    },
+    {
+      "url": "https://github.com/eisbaw/nano_ssh_server/pull/30",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "nano_ssh_server PR #30 uses Claude Fable 5 to produce a 12,074-byte v26 SSH server by generating SHA/Ed25519 constants and golfing the ELF layout, with OpenSSH smoke tests passing."
+    },
+    {
+      "url": "https://github.com/vi-phuong-158/bandocapt/pull/20",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "bandocapt PR #20 uses Claude Fable 5 to improve RAG retrieval with exact-token boosts, follow-up query rewriting, cheaper utility models, and 90-turn regression evidence without legal hallucinations."
+    },
+    {
+      "url": "https://github.com/vi-phuong-158/bandocapt/pull/21",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "bandocapt PR #21 is the stacked Claude Fable 5 UX/regression follow-up, adding SSE status, exact-title guide deep links, Telegram alerts, and documenting a flaky GV02 case as sampling variance."
+    },
+    {
+      "url": "https://github.com/filipecabaco/supablock/pull/15",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "supablock PR #15 uses Claude Fable 5 to add no-mount find, grep, head, and tail commands over the API, with Docker e2e fixture work and pipe-safety follow-ups."
+    },
+    {
+      "url": "https://github.com/jateeter/RealityEngine_CI/pull/59",
+      "seen_at": "2026-07-10T17:30:12Z",
+      "summary": "RealityEngine_CI PR #59 uses Claude Fable 5 to make cesgen recurse over the domain-organized machine corpus, expanding regenerated coverage to 1,320 machines and 8,763 replay steps."
     }
   ],
-  "last_run": "2026-07-10T16:24:17Z"
+  "last_run": "2026-07-10T17:30:12Z"
 }
