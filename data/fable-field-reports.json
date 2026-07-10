@@ -4864,7 +4864,37 @@
       "url": "https://github.com/yutsuki3/riverpod_devtools/pull/49",
       "seen_at": "2026-07-10T08:50:49Z",
       "summary": "riverpod_devtools followed with a Fable co-authored Event Log feature adding type filters, full-text search, empty states, and clear-all behavior while noting prebuilt extension bundles are rebuilt only at release time."
+    },
+    {
+      "url": "https://github.com/SuzukiDaishi/z-audio-dsp-plugin/pull/6",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "z-audio-dsp-plugin has a Claude Fable 5 co-authored expansion of its wavetable instrument from four to nine tables, then onward to a 32-table factory library and 60 categorized presets. The first layer adds vowel, growl, FM, sync, and grit tables through the existing mip pipeline; Serum-style bend, sync, mirror, squeeze, quantize, FM/RM/AM warps; notch, comb, and formant filters; and a master distortion stage with new modulation destinations. The follow-up rewrites factory-table generation through inverse FFT synthesis, cutting a 32-table build from about 2.0 seconds to about 290 ms, while tests keep the additive renderer as the oracle and cover alias suppression, compatibility, preset IDs, and new DSP behavior."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/394",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "QuantEcon.jl used Claude Fable 5 on a small API extension with a precise compatibility constraint: `random_stochastic_matrix` and `random_markov_chain` can now return sparse `SparseMatrixCSC` output without materializing a dense matrix first. The implementation uses a `Val(true)` keyword so the methods stay type-stable, and it shares the nonzero-position sampler so a fixed RNG produces the identical matrix in dense and sparse formats. Tests assert `@inferred` behavior, fixed-seed dense/sparse equality, row-sum tolerances, and irreducibility of the generated sparse chain, while a second commit renames private benchmark generators that shadowed public exports."
+    },
+    {
+      "url": "https://github.com/freelensapp/freelens/pull/2120",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "Freelens used `claude-fable-5` for the “fiddliest deliverable” in its v2 extension plan: making `@freelensapp/extensions` publishable with a single bundled declaration file and a tiny ESM runtime shim. Declaration emit first surfaced a real import bug in the `ws` types and 14 `TS2742` annotation gaps where inferred injectable types expanded into unnameable internals; those were fixed before the rollup. The PR says the generated whole-graph TypeScript declaration build and `rollup-plugin-dts` pass run clean, and that a strict scratch consumer type-checks against the bundled `extension-api.d.ts`, while noting that a full build/test rerun and example-extension port are still pending."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/69696",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "Apache Airflow has a Fable 5-generated fix for a task-runtime logging failure mode: once a task dropped its log socket, it could not reconnect, so logs buffered during the outage were silently lost. The patch adds a non-blocking reaccepter to the logs server, verifies that a reconnecting peer belongs to the child process tree, and tolerates transient socket errors without stalling the supervisor loop. The accompanying tests cover reconnection forwarding, rejection paths, and spurious wakeups, and the PR discloses Claude Code with Fable 5 under Airflow’s generative-AI contribution guidelines."
+    },
+    {
+      "url": "https://github.com/richkuo/go-trader/pull/1303",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "go-trader’s latest Claude Fable 5 PR adds opt-in `risk_per_trade_pct` sizing for Hyperliquid perpetuals, where position size is derived from cash, risk percentage, and resolved stop distance instead of a notional fallback. The branch deliberately fails closed when stop distance cannot be resolved, makes risk mode mutually exclusive with older leverage and margin settings, preserves byte-identical behavior for existing configs, and blocks hot-reload mode switches while a position is open. The test surface spans Go scheduler/risk sizing/config reload paths, backtester parity under `--config`, JSON init output, and Python backtest tests for ATR-derived skips and loud rejects."
+    },
+    {
+      "url": "https://github.com/sebastienrousseau/noyalib/pull/172",
+      "seen_at": "2026-07-10T09:56:28Z",
+      "summary": "noyalib used Claude Fable 5 in a coverage campaign that moved all-feature line coverage from 93.11% to 94.74% without adding shallow tests around unreachable code. The first chunk removes about 110 lines of orphaned tag-preserving deserializer code whose only entry point had become a recursive dead loop after v0.0.14 changed the public loaders. The second chunk adds semantic tests for `Number::cmp` cross-type ordering across integer, unsigned, float, negative, positive, and NaN values, with each chunk checked against the coverage tool before landing and clippy follow-ups fixing new Rust 1.95 lints."
     }
   ],
-  "last_run": "2026-07-10T08:50:49Z"
+  "last_run": "2026-07-10T09:56:28Z"
 }
