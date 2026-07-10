@@ -4944,7 +4944,37 @@
       "url": "https://github.com/M0nkeyFl0wer/agentic-coding-topology/pull/1",
       "seen_at": "2026-07-10T12:09:20Z",
       "summary": "agentic-coding-topology PR #1 used Claude Fable 5 to rewrite its data-flow graph normalizer and clone detector after self-analysis showed 144 nodes but only 23 edges; tests now cover real dependency edges, control-flow capture, renamed clones, false-positive shape matches, cycles, and a self-check regression."
+    },
+    {
+      "url": "https://github.com/3mdistal/bwrb/pull/817",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "bwrb PR #817 uses Claude Fable 5 planning/review logs for guarded existing-note lineage adoption, preserving note body bytes, rejecting unsafe graph state, rolling back failed registry writes, and verifying with 2,988 tests plus disposable-vault evidence."
+    },
+    {
+      "url": "https://github.com/paulbellamy/sheaf/pull/27",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "sheaf PR #27 is a Claude Fable 5 co-authored fix for orphaned SSE subscribers after app restarts, adding preClose cleanup, EOF-triggered reconnects, resumable stream IDs, and a regression test around app.close()."
+    },
+    {
+      "url": "https://github.com/CLYEH/graphRAG/pull/60",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "graphRAG PR #60 is a Claude Fable 5 co-authored REST query playground for semantic/sql/global modes that reuses the MCP bounded-query machinery and tests top_k, 503, rejection, and pure-Postgres grounded query paths."
+    },
+    {
+      "url": "https://github.com/niltonperimneto/libratbag-rs/pull/3",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "libratbag-rs PR #3 is a Claude Fable 5 co-authored ASUS driver hardening pass with active-profile commit fixes, timeout/retry handling, sleeping-device recovery, a scripted mock backend, and ten exact-wire protocol tests."
+    },
+    {
+      "url": "https://github.com/fluffos/fluffos/pull/1230",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "FluffOS PR #1230 is a Claude Fable 5 co-authored compiler feature adding inherit_program/include_file master applies, with tests and docs using the resulting dependency graph for auto hot-reload demonstrations."
+    },
+    {
+      "url": "https://github.com/EnzymeAD/Reactant.jl/pull/3049",
+      "seen_at": "2026-07-10T13:13:44Z",
+      "summary": "Reactant.jl PR #3049 says Claude Fable generated support for Static.jl numeric types in traced code, fixing x + static(0.0) style failures via dynamic type mapping, promotion rules, and integration tests."
     }
   ],
-  "last_run": "2026-07-10T12:09:20Z"
+  "last_run": "2026-07-10T13:13:44Z"
 }
