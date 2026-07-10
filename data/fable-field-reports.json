@@ -5004,7 +5004,62 @@
       "url": "https://github.com/3mdistal/bwrb/pull/818",
       "seen_at": "2026-07-10T14:18:03Z",
       "summary": "bwrb PR #818 uses Claude Fable 5 planning/review packets to make shared Markdown body searches ignore YAML frontmatter across many commands, preserving line numbers and validating with broad build/test/docs gates plus disposable-vault CLI checks."
+    },
+    {
+      "url": "https://github.com/ServesYouRice/nextra/pull/5",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "nextra PR #5 uses Claude Fable 5 to fix eleven audited UI issues in a stream-sharing app, including double-submit joins, live settings, modal focus, stop-sharing confirmation, mobile overflow, URL-paste handling, and Playwright verification."
+    },
+    {
+      "url": "https://github.com/ysetbon/elemental-rescue/pull/5",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "elemental-rescue PR #5 uses Claude Fable 5 for Godot web-performance work: decor distance culling, adaptive render scaling, TCP_NODELAY, per-guest relay backpressure, and local multiplayer smoke/gdparse verification."
+    },
+    {
+      "url": "https://github.com/vititth-eng/ccd-design-system/pull/5",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "ccd-design-system PR #5 uses Claude Fable 5 to graduate segmented controls/meters, fix small-button typography and shell action sizing, make long modals scroll correctly, and update galleries that teach the design rules."
+    },
+    {
+      "url": "https://github.com/ai2cm/ace/pull/1347",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "ACE PR #1347 contains a Claude Fable 5 pre-review that found silent metric-skip, accumulation-invariant, missing multi-window-test, and private-import issues; the author addressed them with errors, invariant guards, and tests."
+    },
+    {
+      "url": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator/pull/3850",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "SPIRV-LLVM-Translator PR #3850 is a Claude Fable 5-assisted patch caching SPIR-V stream size instead of repeated seeks, with the author reporting about 20% faster toy translations on global/decorations-heavy modules."
+    },
+    {
+      "url": "https://github.com/zeroc-ice/ice/pull/5901",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "ZeroC Ice PR #5901 says a Claude Fable 5 automated correctness audit found missing destroyed-state guards on transient IceStorm topic subscribe/link paths and missing Finder registration in transient mode."
+    },
+    {
+      "url": "https://github.com/WildMeOrg/Wildbook/pull/1673",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "Wildbook PR #1673 uses Claude Fable 5 as QA reviewer on a bulk-import indexing race that left about 34% of encounters URL-less in one import; Fable also identified follow-up derivative-helper and executor-leak bugs."
+    },
+    {
+      "url": "https://github.com/ThousandBirdsInc/chidori/pull/101",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "chidori PR #101 uses Claude Fable 5 to kernelize captured closure cells in loop bounds/accumulators, with explicit soundness exclusions, regression corpus, cross-runtime benchmarks, heap tables, and 45,448/48,070 Test262 executed tests passing."
+    },
+    {
+      "url": "https://github.com/KhronosGroup/SPIRV-LLVM-Translator/pull/3852",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "SPIRV-LLVM-Translator PR #3852 is a Claude Fable 5-assisted follow-up that skips writer-only NamedId maintenance while reading SPIR-V and gates capability collection on AutoAddCapability."
+    },
+    {
+      "url": "https://github.com/WildMeOrg/Wildbook/pull/1674",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "Wildbook PR #1674 is a Fable-led follow-up to a QA review, fixing a single-id derivative helper that passed an empty capacity list instead of a singleton id list."
+    },
+    {
+      "url": "https://github.com/WildMeOrg/Wildbook/pull/1675",
+      "seen_at": "2026-07-10T16:24:17Z",
+      "summary": "Wildbook PR #1675 is a Fable-led follow-up to a QA review, shutting down a fixed executor that leaked one idle non-daemon thread per bulk indexing task."
     }
   ],
-  "last_run": "2026-07-10T14:18:03Z"
+  "last_run": "2026-07-10T16:24:17Z"
 }
