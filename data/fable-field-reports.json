@@ -4604,7 +4604,57 @@
       "url": "https://github.com/chaeminyoon/Data-Analyze-MCP/pull/5",
       "seen_at": "2026-07-10T02:24:47Z",
       "summary": "Claude Fable 5 co-authored a Data-Analyze-MCP chart-theme and demo rewrite, adding two MCP theme tools, rebuilding screenshots from server-returned values, and verifying stdio serving, theme switching, and error handling."
+    },
+    {
+      "url": "https://github.com/st3fan/ewm/pull/244",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "The ewm Apple II emulator used Claude Fable 5 to replace a hardwired //e auxiliary-memory model with a swappable `AuxCard` trait covering the Apple 1K 80-column card, the Extended 64K card, and RamWorks III cards up to 8 MB. The PR is specific about the hardware subtlety Fable researched: `$C073` bank switching affects RAMRD/RAMWRT, ALTZP, and aux language-card memory, while 80STORE video pages stay pinned to bank 0 and unpopulated banks float as `0xFF`."
+    },
+    {
+      "url": "https://github.com/lammps/lammps/pull/5072",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "LAMMPS Coverity triage bug-fix layer generated with Claude Code using Claude Fable 5, covering wrong-result, crash, undefined-behavior, restart-state, and KOKKOS defects from the Coverity report set."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6576",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "ITK Fable-assisted fix for raster-order-dependent IterativeInverseDisplacementField residual reuse, with a fail-before/pass-after regression and focused suites passing."
+    },
+    {
+      "url": "https://github.com/pktck/dectalk-python/pull/299",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "dectalk-python used Claude Fable 5 on a detailed audio-parity rollout for a 500-prompt FULL+VTM1 sample, raising byte-exact matches from 213 to 348 without regressions and count-exact matches from 352 to 354. The PR documents three found clusters: a VTM silence ramp-down gate that proved `OUT_PH` was audio-relevant, an active `set_tglst` variant needed for consonant-to-stressed-vowel glottal gestures, and a stress-counting mask that mistimed clause-final F0 hat falls when secondary stress followed the last primary."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1822",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "SPARQ Fable 5 agent reconciled numeric cache and lenient parsing seams with datatype-aware literal semantics, documenting conformance-neutral measured policy choices."
+    },
+    {
+      "url": "https://github.com/lammps/lammps/pull/5073",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "LAMMPS stacked hardening layer following the Fable-assisted Coverity triage, adding further guards and robustness fixes for rescan findings."
+    },
+    {
+      "url": "https://github.com/lammps/lammps/pull/5074",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "LAMMPS stacked regression-test layer following the Fable-assisted Coverity triage, adding tests for fixed Coverity-derived failure modes."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6577",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "ITK Fable-assisted fix propagating direction cosines to inverse-displacement subsampling, with a rotated-field regression failing before and passing after the one-line fix."
+    },
+    {
+      "url": "https://github.com/InsightSoftwareConsortium/ITK/pull/6578",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "ITK Fable-assisted fix guarding empty ConfidenceConnected re-estimation passes to avoid NaN statistics and full-image flooding, with deterministic regression coverage."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1827",
+      "seen_at": "2026-07-10T03:29:11Z",
+      "summary": "SPARQ Fable 5 agent reran canonical D3 SP2Bench measurements on a quiet c6i.4xlarge, reporting 10 of 14 wins against QLever while preserving still-behind cases and wrong-count disqualifications."
     }
   ],
-  "last_run": "2026-07-10T02:24:47Z"
+  "last_run": "2026-07-10T03:29:11Z"
 }
