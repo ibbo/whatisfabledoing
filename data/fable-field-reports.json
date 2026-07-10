@@ -4914,7 +4914,37 @@
       "url": "https://github.com/ALive-research/Slicer-Liver/pull/582",
       "seen_at": "2026-07-10T11:01:02Z",
       "summary": "Slicer-Liver PR #582 was drafted with Claude Fable 5 assistance and adds camera-aware, draggable slicing-plane init handles, with tests for seeding, idempotence, gestures, planning-decline behavior, and 303 plus 95 tests reported passing."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/395",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "QuantEcon.jl PR #395 used Claude Fable 5 to cache Markov-chain transition CDFs, add a sparse simulate path, and short-circuit positive dense recurrent classes; benchmarks report dense n1000 simulation dropping from 928µs to 3.6µs and sparse n1000_k4 from 1.83ms to 138µs."
+    },
+    {
+      "url": "https://github.com/powdr-labs/apc-optimizer/pull/87",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "powdr-labs apc-optimizer PR #87 is a Claude Fable 5 co-authored optimizer change relaxing bus-pair cancellation behind blocked heads; quick benchmarks show aggregate bus-interaction effectiveness improving from 2.868x to 2.983x while runtime rises from 38.0s to 46.6s."
+    },
+    {
+      "url": "https://github.com/zauberzeug/rosys/pull/432",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "RoSys PR #432 uses Claude Fable 5 to verify Lizard ESP startup-code checksums on connection, fixing premature ESP_CONNECTED handling and stale checksum reads; tests cover matching/mismatching and configure-restart-reconnect flows, and a follow-up source review says the check adds no flash writes."
+    },
+    {
+      "url": "https://github.com/mfbernardes/scad-pub/pull/91",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "scad-pub PR #91 is a 61-file Claude Fable 5 co-authored hardening sweep covering same-file upload retries, async read errors, preset/storage validation, service-worker cache safety, WebGL cleanup, schema checks, download URL lifetime, and CI token permissions, with a Cloudflare Workers preview posted."
+    },
+    {
+      "url": "https://github.com/Carreau/papyri/pull/385",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "Papyri PR #385 is a Claude Fable 5 co-authored documentation-tooling sweep: pack now enforces substitution-node failures and sentinel/missing-figure diagnostics, while later commits handle Sphinx/numpydoc/reference-resolution edge cases and adversarial-review findings."
+    },
+    {
+      "url": "https://github.com/M0nkeyFl0wer/agentic-coding-topology/pull/1",
+      "seen_at": "2026-07-10T12:09:20Z",
+      "summary": "agentic-coding-topology PR #1 used Claude Fable 5 to rewrite its data-flow graph normalizer and clone detector after self-analysis showed 144 nodes but only 23 edges; tests now cover real dependency edges, control-flow capture, renamed clones, false-positive shape matches, cycles, and a self-check regression."
     }
   ],
-  "last_run": "2026-07-10T11:01:02Z"
+  "last_run": "2026-07-10T12:09:20Z"
 }
