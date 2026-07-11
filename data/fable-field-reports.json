@@ -5334,7 +5334,22 @@
       "url": "https://github.com/kibertoad/toad-scheduler/pull/275",
       "seen_at": "2026-07-11T13:31:36Z",
       "summary": "A Fable 5 co-authored Toad Scheduler feature adds opt-in Node timer unref support across cron and interval job types, with tests for timer state, long-delay propagation, and per-job precedence."
+    },
+    {
+      "url": "https://github.com/neomjs/neo/pull/15039",
+      "seen_at": "2026-07-11T14:36:57Z",
+      "summary": "A Claude Fable 5 production initialization audit found StorageRouter and MCP clients being initialized twice, migrated 40 external initAsync calls across 22 files to ready(), and added a red-green invariant guard."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1946",
+      "seen_at": "2026-07-11T14:36:57Z",
+      "summary": "A Fable 5 autonomous agent built SPARQ's opt-in ODRL desktop policy workbench, including real-engine fail-closed authorization previews and native/UI test coverage proving access changes."
+    },
+    {
+      "url": "https://github.com/jwildfire/safety.viz/pull/23",
+      "seen_at": "2026-07-11T14:36:57Z",
+      "summary": "A Claude Fable 5 session traced safety.viz histogram discrepancies to shared-bin and binning-algorithm behavior, restored the original renderer's semantics, and verified them against the live demo with unit and browser tests."
     }
   ],
-  "last_run": "2026-07-11T13:31:36Z"
+  "last_run": "2026-07-11T14:36:57Z"
 }
