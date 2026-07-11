@@ -5194,7 +5194,12 @@
       "url": "https://github.com/anthropics/claude-code/issues/76553",
       "seen_at": "2026-07-11T01:43:23Z",
       "summary": "A Claude Code user documents three Fable 5 repair regressions in one GUI verification-harness session: an exec-context NameError, a false success receipt, and a visible-input versus analyzed-data divergence that the model’s own checks missed."
+    },
+    {
+      "url": "https://codemeetai.substack.com/p/my-honest-weekend-building-with-fable",
+      "seen_at": "2026-07-11T02:45:34Z",
+      "summary": "Malik Chohra used Fable 5 to make design-token and architecture decisions for a six-site rebrand, then routed routine propagation to Opus 4.8 subagents after Fable-driven parallel fan-outs stalled."
     }
   ],
-  "last_run": "2026-07-11T01:43:23Z"
+  "last_run": "2026-07-11T02:45:34Z"
 }
