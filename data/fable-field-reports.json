@@ -5419,7 +5419,22 @@
       "url": "https://github.com/CarlDog/openchronicle-mcp/issues/14",
       "seen_at": "2026-07-11T21:04:25Z",
       "summary": "Fable 5 fleet review finds invalid embedding configuration can crash-loop the OpenChronicle memory server, and checks test, documentation, and SQL-query health."
+    },
+    {
+      "url": "https://github.com/levibroeksma/dart-analytics/pull/5",
+      "seen_at": "2026-07-11T22:08:44Z",
+      "summary": "A Claude Fable 5 session created a context map and scoped instruction packs for dart-analytics, cutting combined nested instruction files from 23.6KB to 11.3KB and adding consistency checks."
+    },
+    {
+      "url": "https://github.com/acantrell0523/polymarket-bot/pull/1",
+      "seen_at": "2026-07-11T22:08:44Z",
+      "summary": "Claude Fable 5 hardening uncovered six live-market blockers in a Polymarket paper-trading bot, including deep pagination, fee, fill, and restart-state errors, then verified four real-data paper trades."
+    },
+    {
+      "url": "https://github.com/fiedl/wingolfsplattform/pull/133",
+      "seen_at": "2026-07-11T22:08:44Z",
+      "summary": "A Claude Fable 5 follow-up moved graph traversal reads from a materialized closure table to recursive CTEs; a production-copy parity run classified all 28 mismatches as prior stale-closure data."
     }
   ],
-  "last_run": "2026-07-11T21:04:25Z"
+  "last_run": "2026-07-11T22:08:44Z"
 }
