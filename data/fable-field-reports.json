@@ -5239,7 +5239,17 @@
       "url": "https://github.com/Cjbuilds/Codex-Orchestration/pull/1",
       "seen_at": "2026-07-11T05:54:43Z",
       "summary": "Codex-Orchestration adds an opt-in Fable 5 read-only plan-advisor bridge and reports 139 tests, marketplace lifecycle smokes, and a live Fable PLAN_APPROVED followed by a GPT executor END_TO_END_OK run."
+    },
+    {
+      "url": "https://github.com/aurokin/custom_skills/pull/5",
+      "seen_at": "2026-07-11T06:58:16Z",
+      "summary": "Claude Fable 5 co-authored a TypeScript port of a Python agent-definition schema, backed by 63 parity cases, review evidence and adversarial passes, and 224 reported green tests."
+    },
+    {
+      "url": "https://github.com/aoprisan/Megawat/pull/5",
+      "seen_at": "2026-07-11T06:58:16Z",
+      "summary": "Claude Fable 5 co-authored Megawat's regional ENTSO-E price comparison and interactive Romanian interconnection map, with 74 backend tests, strict clippy, TypeScript, end-to-end checks, and Chromium layout screenshots reported green."
     }
   ],
-  "last_run": "2026-07-11T05:54:43Z"
+  "last_run": "2026-07-11T06:58:16Z"
 }
