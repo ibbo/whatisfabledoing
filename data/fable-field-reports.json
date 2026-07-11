@@ -5199,7 +5199,22 @@
       "url": "https://codemeetai.substack.com/p/my-honest-weekend-building-with-fable",
       "seen_at": "2026-07-11T02:45:34Z",
       "summary": "Malik Chohra used Fable 5 to make design-token and architecture decisions for a six-site rebrand, then routed routine propagation to Opus 4.8 subagents after Fable-driven parallel fan-outs stalled."
+    },
+    {
+      "url": "https://github.com/BloomBooks/BloomDesktop/pull/8048",
+      "seen_at": "2026-07-11T03:48:33Z",
+      "summary": "Bloom Desktop’s Fable 5-assisted Cloud Team Collections draft spans 217 commits and 240 files, adding S3/Supabase storage, RLS, sharing, two-instance end-to-end tests, and explicit disclosure of one outstanding lock-takeover failure."
+    },
+    {
+      "url": "https://github.com/richkuo/go-trader/pull/1325",
+      "seen_at": "2026-07-11T03:48:33Z",
+      "summary": "Fable 5 produced a reproducible fee/noise/held-out-window research pass for five go-trader strategies, documenting per-leg retain/deprecate/withhold verdicts and their committed harness evidence."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76557",
+      "seen_at": "2026-07-11T03:48:33Z",
+      "summary": "A Claude Code user reports Fable 5 repeatedly verifying rendered-report proxies instead of equality between visible and analyzed GUI input, including a failed self-correction in the same repair session."
     }
   ],
-  "last_run": "2026-07-11T02:45:34Z"
+  "last_run": "2026-07-11T03:48:33Z"
 }
