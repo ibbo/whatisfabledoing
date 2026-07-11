@@ -5304,7 +5304,17 @@
       "url": "https://github.com/Chravel-Inc/chravel-web/pull/800",
       "seen_at": "2026-07-11T11:18:40Z",
       "summary": "Claude Fable 5 co-authored a production-readiness audit for Chravel that found former trip members retained read/write access in live database policies, then added active-membership enforcement and a sync-concurrency regression test."
+    },
+    {
+      "url": "https://github.com/ishioka771977-sketch/uranai-monster/pull/5",
+      "seen_at": "2026-07-11T12:26:11Z",
+      "summary": "Claude Fable 5 generated and retried 120 structured content records for a Japanese spiritual-guidance app, while a related provenance-preserving shrine-data pipeline verified 15 records across 13 prefectures with zero rejected matches."
+    },
+    {
+      "url": "https://github.com/CityBear3/dotfiles/pull/5",
+      "seen_at": "2026-07-11T12:26:11Z",
+      "summary": "A Fable 5-led Claude Code workflow refactored its own global instructions into a single-source-of-truth contract, reconciled seven configuration drifts, and checked both policy structure and three installed copies."
     }
   ],
-  "last_run": "2026-07-11T11:18:40Z"
+  "last_run": "2026-07-11T12:26:11Z"
 }
