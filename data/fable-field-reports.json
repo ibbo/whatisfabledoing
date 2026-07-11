@@ -5229,7 +5229,17 @@
       "url": "https://github.com/aieo-product/AIkeychain/pull/143",
       "seen_at": "2026-07-11T04:51:18Z",
       "summary": "AIkeychain PR #143 credits Fable 5 with adversarial review and validation of a zsh proxy-hook repair, including live-listener red/green evidence, migration coverage for existing managed blocks, and a 144-test Swift suite."
+    },
+    {
+      "url": "https://github.com/harshsingh8005/rosenbound-benchmarks/pull/5",
+      "seen_at": "2026-07-11T05:54:43Z",
+      "summary": "Claude Fable 5 audit of a public clinical benchmark found a discharge-coded leakage feature, replaced it with prior-admission Charlson history, relocked the lower leak-free score, and added a deterministic FAERS reproducer with 24 passing tests."
+    },
+    {
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration/pull/1",
+      "seen_at": "2026-07-11T05:54:43Z",
+      "summary": "Codex-Orchestration adds an opt-in Fable 5 read-only plan-advisor bridge and reports 139 tests, marketplace lifecycle smokes, and a live Fable PLAN_APPROVED followed by a GPT executor END_TO_END_OK run."
     }
   ],
-  "last_run": "2026-07-11T04:51:18Z"
+  "last_run": "2026-07-11T05:54:43Z"
 }
