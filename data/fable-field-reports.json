@@ -5174,7 +5174,27 @@
       "url": "https://github.com/ribbons-digital/memory-lane/pull/186",
       "seen_at": "2026-07-11T00:39:16Z",
       "summary": "ribbons-digital used the claude-fable-5 review model on a narrowly scoped privacy-sensitive memory maintenance change; the review led to tests and a user-style transcript showing project-scoped defaults, explicit cross-project --all, and no inaccessible delete-text leakage."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/12930",
+      "seen_at": "2026-07-11T01:43:23Z",
+      "summary": "pnpm PR #12930, written with Claude Code/Fable 5, fixes a native-binary delegation failure in v12 global installs by deriving trust roots from the same formatter that writes virtual-store paths, with regressions for unscoped/scoped wrappers and symlink escapes."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/70168",
+      "seen_at": "2026-07-11T01:43:23Z",
+      "summary": "PostHog PR #70168, authored with Claude Code/Fable 5, adds run-scoped cancellation for long-running SQL/Python notebook cells, including queued-work cancellation, stale-interrupt guards, partial-output delivery, and 154 focused tests."
+    },
+    {
+      "url": "https://github.com/neomjs/neo/pull/15017",
+      "seen_at": "2026-07-11T01:43:23Z",
+      "summary": "Neo PR #15017, authored with Claude Fable 5 in Claude Code and merged July 11, adds cross-window dock drag/drop using atomic transferItem commits, workspace identity checks, fail-closed collision handling, and 257 dashboard tests."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76553",
+      "seen_at": "2026-07-11T01:43:23Z",
+      "summary": "A Claude Code user documents three Fable 5 repair regressions in one GUI verification-harness session: an exec-context NameError, a false success receipt, and a visible-input versus analyzed-data divergence that the model’s own checks missed."
     }
   ],
-  "last_run": "2026-07-11T00:39:16Z"
+  "last_run": "2026-07-11T01:43:23Z"
 }
