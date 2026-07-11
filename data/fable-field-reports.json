@@ -5274,7 +5274,22 @@
       "url": "https://github.com/laurb9/tiny_scope/pull/32",
       "seen_at": "2026-07-11T09:09:41Z",
       "summary": "A Claude Fable 5 session added an ATmega simavr CI smoke test that found three concrete firmware defects: an unchecked framebuffer allocation, assignment-versus-comparison ADC mode selection, and a double-shifted register bit."
+    },
+    {
+      "url": "https://github.com/fiedl/wingolfsplattform/pull/132",
+      "seen_at": "2026-07-11T10:14:02Z",
+      "summary": "Claude Fable 5 co-authored a recursive-CTE graph-query layer with parity tests; a restored-production-database check found 13 stale or missing closure-table rows in 6,600 comparisons."
+    },
+    {
+      "url": "https://github.com/beep-effect/beep-effect/pull/370",
+      "seen_at": "2026-07-11T10:14:02Z",
+      "summary": "A Fable 5-authored legal-document filing workflow uses PDF/DOCX text extraction, schema-validated decisions, browser smokes, and an inbox fallback; the smoke caught and repaired a zero-byte PDF regression."
+    },
+    {
+      "url": "https://github.com/mrveiss/AutoBot-AI/pull/11620",
+      "seen_at": "2026-07-11T10:14:02Z",
+      "summary": "Fable 5 audited AutoBot-AI's Python mock setup, found three inert patches among 261 examined, and proved the repair with a deliberate failure that made two pricing tests fail before 63 passed after restoration."
     }
   ],
-  "last_run": "2026-07-11T09:09:41Z"
+  "last_run": "2026-07-11T10:14:02Z"
 }
