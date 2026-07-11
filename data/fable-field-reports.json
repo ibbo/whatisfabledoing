@@ -5434,7 +5434,22 @@
       "url": "https://github.com/fiedl/wingolfsplattform/pull/133",
       "seen_at": "2026-07-11T22:08:44Z",
       "summary": "A Claude Fable 5 follow-up moved graph traversal reads from a materialized closure table to recursive CTEs; a production-copy parity run classified all 28 mismatches as prior stale-closure data."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/107",
+      "seen_at": "2026-07-11T23:12:23Z",
+      "summary": "Claude Fable 5, Opus 4.8, and GPT-5.5 assisted a transit-routing optimization that corrected 11 window-sampling cells and kept a 3.3-million-cell door-to-door matrix identical across the remaining performance changes."
+    },
+    {
+      "url": "https://github.com/Darkein/learn-japan/pull/80",
+      "seen_at": "2026-07-11T23:12:23Z",
+      "summary": "Claude Fable 5 co-authored a merged PWA podcast-player repair that replaces background-throttled timers and per-segment audio objects with a persistent audio stream, lock-screen media controls, and browser tests."
+    },
+    {
+      "url": "https://github.com/usejota/agentic-model-gateway/pull/3",
+      "seen_at": "2026-07-11T23:12:23Z",
+      "summary": "A Claude Code/Fable 5 multi-agent implementation adds model-routed subagent delegation with an opt-in strict mode, renameable local installs, and a reported 1,724-test validation suite plus live gateway smoke tests."
     }
   ],
-  "last_run": "2026-07-11T22:08:44Z"
+  "last_run": "2026-07-11T23:12:23Z"
 }
