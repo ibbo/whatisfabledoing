@@ -5289,7 +5289,22 @@
       "url": "https://github.com/mrveiss/AutoBot-AI/pull/11620",
       "seen_at": "2026-07-11T10:14:02Z",
       "summary": "Fable 5 audited AutoBot-AI's Python mock setup, found three inert patches among 261 examined, and proved the repair with a deliberate failure that made two pricing tests fail before 63 passed after restoration."
+    },
+    {
+      "url": "https://github.com/cagojeiger/filegate/pull/10",
+      "seen_at": "2026-07-11T11:18:40Z",
+      "summary": "Claude Fable 5 co-authored a multipart-upload implementation covering direct and relay storage modes, with a 12MiB three-part end-to-end scenario passing 52 assertions twice in each mode."
+    },
+    {
+      "url": "https://github.com/jasontitus/lrzip/pull/1",
+      "seen_at": "2026-07-11T11:18:40Z",
+      "summary": "Claude Fable 5 co-authored lrzip's Zstandard backend and compression retuning; the author reports a 100/100 Zstandard round-trip matrix and a zpaq text comparison favoring the retained classic configuration."
+    },
+    {
+      "url": "https://github.com/Chravel-Inc/chravel-web/pull/800",
+      "seen_at": "2026-07-11T11:18:40Z",
+      "summary": "Claude Fable 5 co-authored a production-readiness audit for Chravel that found former trip members retained read/write access in live database policies, then added active-membership enforcement and a sync-concurrency regression test."
     }
   ],
-  "last_run": "2026-07-11T10:14:02Z"
+  "last_run": "2026-07-11T11:18:40Z"
 }
