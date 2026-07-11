@@ -5214,7 +5214,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/76557",
       "seen_at": "2026-07-11T03:48:33Z",
       "summary": "A Claude Code user reports Fable 5 repeatedly verifying rendered-report proxies instead of equality between visible and analyzed GUI input, including a failed self-correction in the same repair session."
+    },
+    {
+      "url": "https://github.com/varjoranta/turboquant-vllm/pull/57",
+      "seen_at": "2026-07-11T04:51:18Z",
+      "summary": "TurboQuant-vLLM PR #57 is a Fable 5-generated audit and repair of quantized vLLM loading and CUDA dispatch: it fixes silent MoE corruption paths and Blackwell/CUDA 13 compatibility, reports 191 CPU tests passing, and explicitly leaves GPU compilation and hardware smoke tests outstanding."
+    },
+    {
+      "url": "https://github.com/dork-labs/dorkos/pull/226",
+      "seen_at": "2026-07-11T04:51:18Z",
+      "summary": "Dorkos PR #226 uses Fable 5 to reproduce and deflake multi-package test failures, replacing a racing TTL test with a deterministic sweep, distinguishing host starvation from application defects, and reporting repeated isolated and realistic-gate passes without retries."
+    },
+    {
+      "url": "https://github.com/aieo-product/AIkeychain/pull/143",
+      "seen_at": "2026-07-11T04:51:18Z",
+      "summary": "AIkeychain PR #143 credits Fable 5 with adversarial review and validation of a zsh proxy-hook repair, including live-listener red/green evidence, migration coverage for existing managed blocks, and a 144-test Swift suite."
     }
   ],
-  "last_run": "2026-07-11T03:48:33Z"
+  "last_run": "2026-07-11T04:51:18Z"
 }
