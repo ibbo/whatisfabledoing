@@ -5249,7 +5249,17 @@
       "url": "https://github.com/aoprisan/Megawat/pull/5",
       "seen_at": "2026-07-11T06:58:16Z",
       "summary": "Claude Fable 5 co-authored Megawat's regional ENTSO-E price comparison and interactive Romanian interconnection map, with 74 backend tests, strict clippy, TypeScript, end-to-end checks, and Chromium layout screenshots reported green."
+    },
+    {
+      "url": "https://github.com/filippo-fonseca/better-gsd/pull/5",
+      "seen_at": "2026-07-11T08:04:14Z",
+      "summary": "Better GSD's Fable 5-authored advisor mode makes the conductor review sealed plans and verification reports, author next-wave seeds, and skip redundant Fable pre-planners; it includes 15 new gate cases and 10 run-live tests, with an end-to-end Fable run still outstanding."
+    },
+    {
+      "url": "https://github.com/mdebono/parlament.podcast.mt/pull/5",
+      "seen_at": "2026-07-11T08:04:14Z",
+      "summary": "Claude Fable 5 co-authored a Maltese Parliament podcast-feed repair that merges archive and homepage media discovery into a durable R2 episode catalogue, keeps rolled-off episodes and GUIDs stable, and adds failure/degradation and duplicate-source tests."
     }
   ],
-  "last_run": "2026-07-11T06:58:16Z"
+  "last_run": "2026-07-11T08:04:14Z"
 }
