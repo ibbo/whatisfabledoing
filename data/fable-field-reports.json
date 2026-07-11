@@ -5154,7 +5154,27 @@
       "url": "https://github.com/mitos-run/mitos/pull/896",
       "seen_at": "2026-07-10T23:33:28Z",
       "summary": "Mitos PR #896, co-authored with Claude Fable 5, designs an opt-in pre-claimed sandbox checkout buffer to remove control-plane work from eligible creates, with race/envtest/Helm verification and a recorded production latency baseline for rollout comparison."
+    },
+    {
+      "url": "https://www.futureofbeinghuman.com/p/a-quick-update-on-using-claude-fable-5",
+      "seen_at": "2026-07-11T00:39:16Z",
+      "summary": "Andrew Maynard used Fable 5 in Claude Code to draft an education-and-AI preprint with 80+ subagents, 2,000 tools, 120+ primary sources, nearly 15 task-clock hours, and 8M+ tokens; he found the 53-page result rigorous but overly dense and stylistically homogenized."
+    },
+    {
+      "url": "https://charliehills.substack.com/p/how-to-actually-use-fable-5",
+      "seen_at": "2026-07-11T00:39:16Z",
+      "summary": "Charlie Hills had Fable build a rubric from 110 past newsletter editions, score a draft at 51/100, and iteratively rewrite it until it passed; he documents the draft-score-rewrite loop and prompts used to constrain autonomous work."
+    },
+    {
+      "url": "https://github.com/jkitchin/discopt-doe/pull/1",
+      "seen_at": "2026-07-11T00:39:16Z",
+      "summary": "A Claude Fable 5 co-authored full-repository review of discopt-doe produced 80 prioritized correctness/usability/docs issues with confirm/fix/verify plans, then a 57-commit merged PR spanning 49 files fixed many of the identified scientific-computing and workbook issues."
+    },
+    {
+      "url": "https://github.com/ribbons-digital/memory-lane/pull/186",
+      "seen_at": "2026-07-11T00:39:16Z",
+      "summary": "ribbons-digital used the claude-fable-5 review model on a narrowly scoped privacy-sensitive memory maintenance change; the review led to tests and a user-style transcript showing project-scoped defaults, explicit cross-project --all, and no inaccessible delete-text leakage."
     }
   ],
-  "last_run": "2026-07-10T23:33:28Z"
+  "last_run": "2026-07-11T00:39:16Z"
 }
