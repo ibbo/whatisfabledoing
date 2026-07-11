@@ -5314,7 +5314,27 @@
       "url": "https://github.com/CityBear3/dotfiles/pull/5",
       "seen_at": "2026-07-11T12:26:11Z",
       "summary": "A Fable 5-led Claude Code workflow refactored its own global instructions into a single-source-of-truth contract, reconciled seven configuration drifts, and checked both policy structure and three installed copies."
+    },
+    {
+      "url": "https://simonw.substack.com/p/claude-fable-is-relentlessly-proactive",
+      "seen_at": "2026-07-11T13:31:36Z",
+      "summary": "Simon Willison documented a Fable 5 debugging session that wrote browser probes and a local CORS receiver to diagnose a Datasette Agent scrollbar, then continued through an Opus fallback to a verified two-line fix."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1942",
+      "seen_at": "2026-07-11T13:31:36Z",
+      "summary": "A Fable 5 agent added lazy prepared-geometry caching to SPARQ's relation registry; the author reports byte-identical differential tests and a box-local 72x probe improvement on a repeated-polygon workload."
+    },
+    {
+      "url": "https://github.com/mrveiss/AutoBot-AI/pull/11660",
+      "seen_at": "2026-07-11T13:31:36Z",
+      "summary": "A Fable 5-led AutoBot-AI branch replaces per-worker takeover and desktop-session state with Redis metadata and pub/sub, testing cross-worker approval atomicity, expiry, and relay behavior."
+    },
+    {
+      "url": "https://github.com/kibertoad/toad-scheduler/pull/275",
+      "seen_at": "2026-07-11T13:31:36Z",
+      "summary": "A Fable 5 co-authored Toad Scheduler feature adds opt-in Node timer unref support across cron and interval job types, with tests for timer state, long-delay propagation, and per-job precedence."
     }
   ],
-  "last_run": "2026-07-11T12:26:11Z"
+  "last_run": "2026-07-11T13:31:36Z"
 }
