@@ -5404,7 +5404,22 @@
       "url": "https://github.com/affaan-m/ECC/pull/2497",
       "seen_at": "2026-07-11T19:59:32Z",
       "summary": "A Fable 5 integration found that an agent framework treated its native one-million-token context window as 200,000 tokens early in a session, producing premature compaction advice; regression tests reproduce and repair it."
+    },
+    {
+      "url": "https://github.com/LegalQuants/lq-ai/issues/288",
+      "seen_at": "2026-07-11T21:04:25Z",
+      "summary": "Claude Fable 5 five-agent, adversarially rechecked LQ.AI audit found 22 hardening gaps, including unauthenticated inference routes, a cross-tenant knowledge-base IDOR, and stored XSS in the skill viewer."
+    },
+    {
+      "url": "https://github.com/WpfMusicPlayer-Dev/WpfMusicPlayer/issues/51",
+      "seen_at": "2026-07-11T21:04:25Z",
+      "summary": "Claude Fable 5 WpfMusicPlayer audit maps native/managed crashes and races plus an unbounded metadata-supplied album-art download path, with repro and stress-test recipes."
+    },
+    {
+      "url": "https://github.com/CarlDog/openchronicle-mcp/issues/14",
+      "seen_at": "2026-07-11T21:04:25Z",
+      "summary": "Fable 5 fleet review finds invalid embedding configuration can crash-loop the OpenChronicle memory server, and checks test, documentation, and SQL-query health."
     }
   ],
-  "last_run": "2026-07-11T19:59:32Z"
+  "last_run": "2026-07-11T21:04:25Z"
 }
