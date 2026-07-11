@@ -5259,7 +5259,22 @@
       "url": "https://github.com/mdebono/parlament.podcast.mt/pull/5",
       "seen_at": "2026-07-11T08:04:14Z",
       "summary": "Claude Fable 5 co-authored a Maltese Parliament podcast-feed repair that merges archive and homepage media discovery into a durable R2 episode catalogue, keeps rolled-off episodes and GUIDs stable, and adds failure/degradation and duplicate-source tests."
+    },
+    {
+      "url": "https://github.com/genesisdotre/network-state-genesis/issues/3",
+      "seen_at": "2026-07-11T09:09:41Z",
+      "summary": "A Fable 5 review recompiled and bytecode-matched an NFT contract, simulated its mainnet paths, found a permanently failing WBTC purchase amount, and reproduced a historical Solidity event-emission compiler quirk."
+    },
+    {
+      "url": "https://github.com/root-project/root/pull/22788",
+      "seen_at": "2026-07-11T09:09:41Z",
+      "summary": "Henry Schreiner used Claude Fable to review a ROOT Minuit2 CMake modernization, resulting in nine-file fixes for standalone includes, package discovery, nested generators, installation paths, and legacy fallbacks."
+    },
+    {
+      "url": "https://github.com/laurb9/tiny_scope/pull/32",
+      "seen_at": "2026-07-11T09:09:41Z",
+      "summary": "A Claude Fable 5 session added an ATmega simavr CI smoke test that found three concrete firmware defects: an unchecked framebuffer allocation, assignment-versus-comparison ADC mode selection, and a double-shifted register bit."
     }
   ],
-  "last_run": "2026-07-11T08:04:14Z"
+  "last_run": "2026-07-11T09:09:41Z"
 }
