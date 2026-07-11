@@ -5384,8 +5384,27 @@
       "url": "https://github.com/nmcginn/bluray-collection-tracker/pull/5",
       "seen_at": "2026-07-11T17:50:56Z",
       "summary": "Claude Fable 5 helped diagnose real-disc barcode failures and added camera constraints, scanner diagnostics, and an end-to-end synthetic UPC-A video test in Chromium."
-
+    },
+    {
+      "url": "https://github.com/trycua/cua/pull/2162",
+      "seen_at": "2026-07-11T19:59:32Z",
+      "summary": "A Claude Fable 5 computer-use benchmark integration added a function-tool fallback for Bedrock and reports 10/13 basic tasks plus a 0.267 KiCad mean, with public CI checks passing."
+    },
+    {
+      "url": "https://github.com/varjoranta/turboquant-vllm/pull/58",
+      "seen_at": "2026-07-11T19:59:32Z",
+      "summary": "A Fable 5 full-codebase quantization audit and four adversarial review rounds repaired vLLM, MLX, export, and pruning bugs; 221 CPU tests and three public CI Python versions passed."
+    },
+    {
+      "url": "https://github.com/nxm-rs/nectar/pull/227",
+      "seen_at": "2026-07-11T19:59:32Z",
+      "summary": "Claude Fable-led review lenses swept a Rust storage refactor with 13 million fuzz executions and a 4,000-image differential harness, leading to targeted correctness fixes and green CI."
+    },
+    {
+      "url": "https://github.com/affaan-m/ECC/pull/2497",
+      "seen_at": "2026-07-11T19:59:32Z",
+      "summary": "A Fable 5 integration found that an agent framework treated its native one-million-token context window as 200,000 tokens early in a session, producing premature compaction advice; regression tests reproduce and repair it."
     }
   ],
-  "last_run": "2026-07-11T17:50:56Z"
+  "last_run": "2026-07-11T19:59:32Z"
 }
