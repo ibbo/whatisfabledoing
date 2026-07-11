@@ -5359,7 +5359,22 @@
       "url": "https://github.com/jacobgawel/flexapi/pull/5",
       "seen_at": "2026-07-11T15:39:51Z",
       "summary": "A merged Fable 5 co-authored FlexApi change adds opt-in SQL-translated list filtering and sorting, with unit and container-backed integration coverage and a passing GitHub Actions check."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1972",
+      "seen_at": "2026-07-11T16:46:31Z",
+      "summary": "Claude Fable 5 agent consolidated five SPARQ workflows from 33 CI jobs to nine while preserving gate semantics, with actionlint and gate/selector/advisory checks reported clean."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/1973",
+      "seen_at": "2026-07-11T16:46:31Z",
+      "summary": "Claude Fable 5 agent added opt-in SPARQ WebAssembly ODRL evaluation and conflict probes, measured a 135,028-byte feature-on bundle delta, and ran unit, mutation, and real Node WASM smoke tests."
+    },
+    {
+      "url": "https://github.com/moq-dev/moq/pull/2158",
+      "seen_at": "2026-07-11T16:46:31Z",
+      "summary": "Claude Fable 5 session refactored moq-transcode to decode each source once for multi-rung GPU/CPU resizing, validated with RTX kernel comparisons, deterministic multi-rung tests, and a live relay/ffprobe pipeline."
     }
   ],
-  "last_run": "2026-07-11T15:39:51Z"
+  "last_run": "2026-07-11T16:46:31Z"
 }
