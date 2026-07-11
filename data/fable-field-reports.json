@@ -5374,7 +5374,18 @@
       "url": "https://github.com/moq-dev/moq/pull/2158",
       "seen_at": "2026-07-11T16:46:31Z",
       "summary": "Claude Fable 5 session refactored moq-transcode to decode each source once for multi-rung GPU/CPU resizing, validated with RTX kernel comparisons, deterministic multi-rung tests, and a live relay/ffprobe pipeline."
+    },
+    {
+      "url": "https://github.com/PaulDelamare/Nutrichain-Mobile/pull/5",
+      "seen_at": "2026-07-11T17:50:56Z",
+      "summary": "Claude Fable 5 audited an offline warehouse app, finding a duplicate-receipt camera race, hidden blocked operations, misleading online state, and inadequate SQL tests; the merged repair reports 106 tests and green CI."
+    },
+    {
+      "url": "https://github.com/nmcginn/bluray-collection-tracker/pull/5",
+      "seen_at": "2026-07-11T17:50:56Z",
+      "summary": "Claude Fable 5 helped diagnose real-disc barcode failures and added camera constraints, scanner diagnostics, and an end-to-end synthetic UPC-A video test in Chromium."
+
     }
   ],
-  "last_run": "2026-07-11T16:46:31Z"
+  "last_run": "2026-07-11T17:50:56Z"
 }
