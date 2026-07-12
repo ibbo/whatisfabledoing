@@ -5784,7 +5784,22 @@
       "url": "https://github.com/korjavin/medicationtrackerbot/pull/626",
       "seen_at": "2026-07-12T22:00:59Z",
       "summary": "Fable 5 security-review findings led to a medication reminder privacy patch that clears delivered Telegram plaintext and defaults new users to generic notifications; 3,545 frontend tests and cloudstore Go tests passed, with project CI green."
+    },
+    {
+      "url": "https://github.com/C-Hipple/camera_rip/pull/10",
+      "seen_at": "2026-07-12T23:08:55Z",
+      "summary": "Claude Fable 5 co-authored a Camera Rip path-traversal repair that blocks directory parameters escaping the photo root, including an arbitrary-host-file deletion path, with a regression test and four successful public checks."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76906",
+      "seen_at": "2026-07-12T23:08:55Z",
+      "summary": "A Claude Code user running Fable 5 reproduced a Workflow tool defect that serializes JSON-array args into strings, causing ordinary args.map/args.filter scripts to fail at runtime; the issue includes a minimal call, stack trace, and defensive parsing workaround."
+    },
+    {
+      "url": "https://github.com/DanielLourencoFil/agentic-harness/pull/5",
+      "seen_at": "2026-07-12T23:08:55Z",
+      "summary": "Claude Fable 5 co-authored reusable Claude Code skills for spec-to-feature delivery, a read-only reproducible audit agent, and kickoff interviews; self-tests and two public CI variants passed."
     }
   ],
-  "last_run": "2026-07-12T22:00:59Z"
+  "last_run": "2026-07-12T23:08:55Z"
 }
