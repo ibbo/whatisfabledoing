@@ -5624,7 +5624,12 @@
       "url": "https://github.com/aoprisan/Megawat/pull/13",
       "seen_at": "2026-07-12T11:11:02Z",
       "summary": "Claude Fable 5 co-authored a 72-hour electricity-price risk radar using residual-load analogues, calibrated probabilities, and a leak-free walk-forward Brier/reliability report."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76189",
+      "seen_at": "2026-07-12T12:16:51Z",
+      "summary": "A Claude Code user reproduced a Fable 5 advisor failure triggered by any prior tool call: 104 real-session failures versus 9 no-tool-call successes, with a controlled Fable/Opus comparison and headless repro commands."
     }
   ],
-  "last_run": "2026-07-12T11:11:02Z"
+  "last_run": "2026-07-12T12:16:51Z"
 }
