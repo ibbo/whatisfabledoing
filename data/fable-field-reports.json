@@ -5449,7 +5449,22 @@
       "url": "https://github.com/usejota/agentic-model-gateway/pull/3",
       "seen_at": "2026-07-11T23:12:23Z",
       "summary": "A Claude Code/Fable 5 multi-agent implementation adds model-routed subagent delegation with an opt-in strict mode, renameable local installs, and a reported 1,724-test validation suite plus live gateway smoke tests."
+    },
+    {
+      "url": "https://github.com/yuubae215/easy-extrude/pull/318",
+      "seen_at": "2026-07-12T00:18:57Z",
+      "summary": "Claude Fable 5 co-authored a scene-fact-driven desktop onboarding tour for Easy Extrude, with 598 unit tests, six E2E smoke cases, a live walkthrough, and a 1.83KB gzip increase."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/69946",
+      "seen_at": "2026-07-12T00:18:57Z",
+      "summary": "A Claude Code/Fable 5 review and implementation reworks PostHog group-batch ingestion to avoid per-key reads, unnecessary writes, and synchronized retry storms, with targeted regression and Postgres integration coverage."
+    },
+    {
+      "url": "https://github.com/fivetaku/fablize",
+      "seen_at": "2026-07-12T00:18:57Z",
+      "summary": "A Fable-versus-Opus self-study over 19 A/B runs, 26 real sessions, and about 1,500 tool calls found procedural verification habits transferable but not Fable's self-driven open-ended defect discovery."
     }
   ],
-  "last_run": "2026-07-11T23:12:23Z"
+  "last_run": "2026-07-12T00:18:57Z"
 }
