@@ -5714,7 +5714,22 @@
       "url": "https://github.com/PostHog/posthog/pull/69147",
       "seen_at": "2026-07-12T17:42:51Z",
       "summary": "A Fable 5-assisted PostHog toolbar audit measured the effect of removing bundle deny rules and preserved all of them after showing 125.58 MiB of source would be re-inlined."
+    },
+    {
+      "url": "https://github.com/libusb/libusb/pull/1872",
+      "seen_at": "2026-07-12T18:48:04Z",
+      "summary": "Claude Fable 5 helped turn a macOS libusb stress-test hang investigation into a watchdog-backed verification branch that accumulated 71 consecutive clean CI runs after Darwin race fixes."
+    },
+    {
+      "url": "https://github.com/fdb/research/pull/5",
+      "seen_at": "2026-07-12T18:48:04Z",
+      "summary": "Claude Fable 5 co-authored Spektrum, a 7,073-line live-coding lab combining a functional pattern language, a visual node patcher, and a miniature file-tool agent with offline replay."
+    },
+    {
+      "url": "https://github.com/vormadal/Anything/pull/619",
+      "seen_at": "2026-07-12T18:48:04Z",
+      "summary": "Claude Fable 5 co-authored an OCR recipe-import feature that parses editable photo text client-side, adds a server parse endpoint, and fixes a multipart File serialization failure."
     }
   ],
-  "last_run": "2026-07-12T17:42:51Z"
+  "last_run": "2026-07-12T18:48:04Z"
 }
