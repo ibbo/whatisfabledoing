@@ -5584,7 +5584,32 @@
       "url": "https://github.com/aoprisan/wyrd/pull/5",
       "seen_at": "2026-07-12T09:01:01Z",
       "summary": "A Claude Fable 5 co-authored merged Wyrd change adds causal latency attribution and baseline-versus-current regression analysis for recorded Tokio task traces, with core synthetic-recording and MCP JSON-RPC tests."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/116",
+      "seen_at": "2026-07-12T10:05:52Z",
+      "summary": "Claude Fable 5 and GPT-5.5 co-authored destination-frontier pruning for Cafein multicriteria routing, with an exact-match carve-out and oracle/cross-engine regression tests."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2106",
+      "seen_at": "2026-07-12T10:05:52Z",
+      "summary": "A Claude Fable 5 SPARQ agent moved the wasm SIMD flag to workspace scope and added a binary-feature assertion guard after identifying a CWD-dependent build parity gap."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2104",
+      "seen_at": "2026-07-12T10:05:52Z",
+      "summary": "Claude Fable 5 added opt-in, fail-closed XSD date/dateTime host encoders to SPARQ, including strict canonical parsing, non-wrapping epoch arithmetic, and mutation-witnessed unit tests."
+    },
+    {
+      "url": "https://github.com/wrzonance/SpecR/pull/469",
+      "seen_at": "2026-07-12T10:05:52Z",
+      "summary": "A Claude Fable 5-orchestrated SpecR change makes DOCX numbering tiers derived from authoritative levels and rejects conflicting client data, with corpus and API/MCP coverage."
+    },
+    {
+      "url": "https://github.com/fmadore/iwac-ai-pipelines/pull/4",
+      "seen_at": "2026-07-12T10:05:52Z",
+      "summary": "A Claude Fable 5 co-authored IWAC pipeline repair fixes silent configuration, retry, timeout, CSV-write, and metadata-reconciliation failures across shared and media-processing modules."
     }
   ],
-  "last_run": "2026-07-12T09:01:01Z"
+  "last_run": "2026-07-12T10:05:52Z"
 }
