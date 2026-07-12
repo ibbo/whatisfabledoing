@@ -5464,7 +5464,27 @@
       "url": "https://github.com/fivetaku/fablize",
       "seen_at": "2026-07-12T00:18:57Z",
       "summary": "A Fable-versus-Opus self-study over 19 A/B runs, 26 real sessions, and about 1,500 tool calls found procedural verification habits transferable but not Fable's self-driven open-ended defect discovery."
+    },
+    {
+      "url": "https://github.com/shortgigsfounder/Research-LLM/pull/5",
+      "seen_at": "2026-07-12T01:23:34Z",
+      "summary": "A frozen five-run T1 experiment found Claude Fable 5 returned full primary and planted-violation recall at the authorized 16,384-token cap, while the comparison model showed silent omissions in two of five identical runs."
+    },
+    {
+      "url": "https://github.com/jtrachtenberg/decant/pull/49",
+      "seen_at": "2026-07-12T01:23:34Z",
+      "summary": "A five-pass Claude Fable 5 review of the Decant browser extension found a default-deny bypass, denial-of-service allocation and quadratic-time paths, and prompt/interception failures; the follow-up patch adds regression tests and reports the full suite green."
+    },
+    {
+      "url": "https://github.com/jdubray/SysMoBench-1/pull/5",
+      "seen_at": "2026-07-12T01:23:34Z",
+      "summary": "A Claude Fable 5 co-authored Raft formalization study built and validated a 97-window etcd trace corpus, then found Fable reached 97/97 conformance in four of five derivations but needed full-corpus repair feedback to reach four all-pass specifications."
+    },
+    {
+      "url": "https://github.com/robmorgan/timestretch-rs/pull/5",
+      "seen_at": "2026-07-12T01:23:34Z",
+      "summary": "A merged Claude Fable 5 co-authored timestretch-rs rework adds a multi-resolution streaming engine, a varispeed-first keylock path, and a BPM harness while documenting crossover losses and a pre-existing failed benchmark."
     }
   ],
-  "last_run": "2026-07-12T00:18:57Z"
+  "last_run": "2026-07-12T01:23:34Z"
 }
