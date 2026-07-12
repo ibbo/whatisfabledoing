@@ -5679,7 +5679,27 @@
       "url": "https://github.com/sparq-org/sparq/pull/2167",
       "seen_at": "2026-07-12T15:33:22Z",
       "summary": "A Fable 5 agent added a deterministic opt-in parallel OWL EL saturation mode whose closure and ordering are tested bit-for-bit against the sequential engine across thread counts and mutation witnesses."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2183",
+      "seen_at": "2026-07-12T16:38:14Z",
+      "summary": "Claude Fable 5 implemented opt-in incremental maintenance for SPARQ stratified Datalog rules, with differential random update testing against full recomputation and explicit non-monotonic rederivation coverage."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2184",
+      "seen_at": "2026-07-12T16:38:14Z",
+      "summary": "Claude Fable 5 added an opt-in GeoSPARQL exact-candidate certification path that skips residual geometry filters only for provider-certified indexed rows, with mixed-corpus differential and mutation tests."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper/pull/1769",
+      "seen_at": "2026-07-12T16:38:14Z",
+      "summary": "A Claude Fable 5-generated Harper fix reproduced a root-mounted static-app regression in production-style integration tests and restores subpath serving without changing non-root routing."
+    },
+    {
+      "url": "https://github.com/ViperJuice/agent-harness/pull/185",
+      "seen_at": "2026-07-12T16:38:14Z",
+      "summary": "An agent-harness Fable integration repair runs a usable Claude/Fable TUI leg headlessly outside Claude Code and makes intentionally deferred Fable seats explicit typed fill requests rather than silent shortfalls."
     }
   ],
-  "last_run": "2026-07-12T15:33:22Z"
+  "last_run": "2026-07-12T16:38:14Z"
 }
