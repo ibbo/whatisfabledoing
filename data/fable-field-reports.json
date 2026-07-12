@@ -5649,7 +5649,22 @@
       "url": "https://github.com/dseinternational/vocabulary-growth/pull/159",
       "seen_at": "2026-07-12T13:22:00Z",
       "summary": "Claude Fable 5-assisted Bayesian crosswalk used 34 children observed on 416- and 810-item vocabulary forms to reassess a pooling assumption, with R-hat 1.00 and cross-platform model-fit tests passing."
+    },
+    {
+      "url": "https://github.com/Automattic/agents-api/pull/420",
+      "seen_at": "2026-07-12T14:25:06Z",
+      "summary": "Claude Fable 5 via an OpenCode subagent fleet helped investigate and repair a WP Cloud workflow dispatcher that fabricated success when all internal loopback runner requests failed."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/119",
+      "seen_at": "2026-07-12T14:25:06Z",
+      "summary": "Claude Fable 5 and GPT-5.5 added persistent caching for Cafein's multicriteria transit transfer sets, with parity tests across cached, uncached, mismatched, and reloaded artifacts."
+    },
+    {
+      "url": "https://github.com/KarpelesLab/teamclaude/pull/99",
+      "seen_at": "2026-07-12T14:25:06Z",
+      "summary": "A TeamClaude maintainer documented that Claude Code's Fable advisor model is nested in tools rather than the top-level model field, and added routing that prevents advisor-wide session failure."
     }
   ],
-  "last_run": "2026-07-12T13:22:00Z"
+  "last_run": "2026-07-12T14:25:06Z"
 }
