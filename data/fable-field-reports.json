@@ -5729,7 +5729,27 @@
       "url": "https://github.com/vormadal/Anything/pull/619",
       "seen_at": "2026-07-12T18:48:04Z",
       "summary": "Claude Fable 5 co-authored an OCR recipe-import feature that parses editable photo text client-side, adds a server parse endpoint, and fixes a multipart File serialization failure."
+    },
+    {
+      "url": "https://github.com/gwtransport/gwtransport/issues/312",
+      "seen_at": "2026-07-12T19:53:09Z",
+      "summary": "A Fable 5 deep-math review found that a nonlinear-sorption zero-concentration branch can emit physically incorrect waves and fabricate outlet concentration; the report includes a minimal reproduction against an independent finite-volume oracle."
+    },
+    {
+      "url": "https://github.com/fsnow/cst/issues/321",
+      "seen_at": "2026-07-12T19:53:09Z",
+      "summary": "A Fable-led review found two state-desynchronization bugs in CST's book toggles, leading to a merged repair that rebuilds scroll anchors after layout reflow and preserves a pending highlight-visibility intent."
+    },
+    {
+      "url": "https://github.com/jeroenk22/prijslijst-checker/issues/12",
+      "seen_at": "2026-07-12T19:53:09Z",
+      "summary": "A Fable pricing audit identified latent silent-failure paths and an unresolved exact-hectare boundary ambiguity, while explicitly finding no confirmed erroneous field price in the current subset data."
+    },
+    {
+      "url": "https://github.com/mar3co/fable-orchestrator/issues/4",
+      "seen_at": "2026-07-12T19:53:09Z",
+      "summary": "A Fable-orchestrated Xcode workflow logged five incomplete Grok implementation-lane runs across roughly 15 tasks, including a detached process that committed and pushed during orchestration-side verification."
     }
   ],
-  "last_run": "2026-07-12T18:48:04Z"
+  "last_run": "2026-07-12T19:53:09Z"
 }
