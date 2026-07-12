@@ -5504,7 +5504,32 @@
       "url": "https://github.com/jyjeanne/crustly/pull/37",
       "seen_at": "2026-07-12T03:32:59Z",
       "summary": "A Claude Fable 5 graph-guided review of Crustly found UTF-8 slice panics, stale tool-cache reads after mutations, bad loop signatures, premature context compaction, and an allowlist shell-operator bypass; the 10-file repair has Linux/macOS checks green while Windows jobs run."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2055",
+      "seen_at": "2026-07-12T04:36:57Z",
+      "summary": "Claude Fable 5 added a mutation-witnessed Solid ACL-status table oracle that distinguishes retryable unavailable ACLs (503-class) from anonymous (401) and authenticated (403) denials; public crate and feature-matrix checks are green."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2056",
+      "seen_at": "2026-07-12T04:36:57Z",
+      "summary": "A Claude Fable 5 session added a fail-closed Web Access Control escalation corpus covering encoded, Unicode, trailing-dot, and trailing-space .acl child names, with owner anchors, mutation witnesses, 18 unit tests, and green public CI."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2059",
+      "seen_at": "2026-07-12T04:36:57Z",
+      "summary": "Claude Fable 5 wrote a deterministic 64-case pattern-scope fuzz oracle that compares scoped SPARQL results to physically masked datasets across select, OPTIONAL, EXISTS, MINUS, aggregates, graph enumeration, and property paths."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2060",
+      "seen_at": "2026-07-12T04:36:57Z",
+      "summary": "Claude Fable 5 hardened SPARQ Solid content negotiation to parse JSON-LD profiles and fall back to Turtle for unsupported Accept values while retaining explicit q=0 406 responses and remote-context rejection; the author reports 577 unit tests and integration suites green."
+    },
+    {
+      "url": "https://github.com/jmill823/deltascanner-ai-pm/pull/14",
+      "seen_at": "2026-07-12T04:36:57Z",
+      "summary": "A frozen Fable 5 cold review found 13 evidence and taxonomy problems in Deltascanner's Structural Mistrust framework while independently confirming four cited commit receipts; the merged exhibit publishes the full annotated review and its SHA-256."
     }
   ],
-  "last_run": "2026-07-12T03:32:59Z"
+  "last_run": "2026-07-12T04:36:57Z"
 }
