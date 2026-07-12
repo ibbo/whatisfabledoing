@@ -5664,7 +5664,22 @@
       "url": "https://github.com/KarpelesLab/teamclaude/pull/99",
       "seen_at": "2026-07-12T14:25:06Z",
       "summary": "A TeamClaude maintainer documented that Claude Code's Fable advisor model is nested in tools rather than the top-level model field, and added routing that prevents advisor-wide session failure."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/12953",
+      "seen_at": "2026-07-12T15:33:22Z",
+      "summary": "A Claude Code Fable 5 session implemented pnpm native monorepo versioning phases 1–2 across TypeScript and Rust, with intent-to-graduation CLI integration tests and one documented Rust command-form gap."
+    },
+    {
+      "url": "https://github.com/Mycelium-tools/alignment-data-pipeline/pull/73",
+      "seen_at": "2026-07-12T15:33:22Z",
+      "summary": "Fable 5 performed the rewrite pass in a committed 100-document, matrix-composed alignment-data run with exact quota accounting, audit artifacts, recovered retries, and multilingual evaluation fixes."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2167",
+      "seen_at": "2026-07-12T15:33:22Z",
+      "summary": "A Fable 5 agent added a deterministic opt-in parallel OWL EL saturation mode whose closure and ordering are tested bit-for-bit against the sequential engine across thread counts and mutation witnesses."
     }
   ],
-  "last_run": "2026-07-12T14:25:06Z"
+  "last_run": "2026-07-12T15:33:22Z"
 }
