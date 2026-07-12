@@ -5559,7 +5559,27 @@
       "url": "https://github.com/alexgunsberg/hermes-agent/pull/5",
       "seen_at": "2026-07-12T06:51:45Z",
       "summary": "Claude Fable 5 co-authored Hermes Agent’s local event-driven monitor and cron token ceiling, whose tests exercise fail-open metrics handling and normal budget exhaustion for unattended runs."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2093",
+      "seen_at": "2026-07-12T07:56:18Z",
+      "summary": "Claude Fable 5 added a 20-lane certification-edge closure benchmark whose byte-equality and mutation checks detect unintended changes to direct rules."
+    },
+    {
+      "url": "https://github.com/fiedl/wingolfsplattform/pull/134",
+      "seen_at": "2026-07-12T07:56:18Z",
+      "summary": "A Claude Fable 5 session replaced stored indirect memberships with gap-aware read-time derivation and compared 300 production-copy rows against the old materialization."
+    },
+    {
+      "url": "https://github.com/ChelseaKR/queer-the-stacks/pull/32",
+      "seen_at": "2026-07-12T07:56:18Z",
+      "summary": "Claude Fable 5 co-authored a seeded 10-run synthetic recommender battery that replaces a saturated 1.0 demo gate and proves a reduced author bonus fails it."
+    },
+    {
+      "url": "https://github.com/yuubae215/easy-extrude/pull/320",
+      "seen_at": "2026-07-12T07:56:18Z",
+      "summary": "Claude Fable 5 co-authored a merged snap-feedback feature with reduced-motion behavior, visual validation, 616 unit tests, 23 contract checks, and seven E2E tests."
     }
   ],
-  "last_run": "2026-07-12T06:51:45Z"
+  "last_run": "2026-07-12T07:56:18Z"
 }
