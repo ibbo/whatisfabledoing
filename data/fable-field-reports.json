@@ -5549,7 +5549,17 @@
       "url": "https://github.com/noamh98/workshop-design-system/pull/5",
       "seen_at": "2026-07-12T05:43:07Z",
       "summary": "Claude Fable 5 created a Hebrew presentation-agent workflow with static and Playwright visual deck validation; the visual gate found and verified a repair for overlapping slide cards."
+    },
+    {
+      "url": "https://github.com/codedevmk/Mnemos/pull/296",
+      "seen_at": "2026-07-12T06:51:45Z",
+      "summary": "Claude Fable 5 co-authored parity repairs in Mnemos’ deterministic Sega Saturn bring-up, with BIOS checkpoint, replay, SCU, SMPC, and video coverage plus reported 293-test and green CI validation."
+    },
+    {
+      "url": "https://github.com/alexgunsberg/hermes-agent/pull/5",
+      "seen_at": "2026-07-12T06:51:45Z",
+      "summary": "Claude Fable 5 co-authored Hermes Agent’s local event-driven monitor and cron token ceiling, whose tests exercise fail-open metrics handling and normal budget exhaustion for unattended runs."
     }
   ],
-  "last_run": "2026-07-12T05:43:07Z"
+  "last_run": "2026-07-12T06:51:45Z"
 }
