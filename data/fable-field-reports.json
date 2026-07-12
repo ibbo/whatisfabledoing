@@ -5484,7 +5484,17 @@
       "url": "https://github.com/robmorgan/timestretch-rs/pull/5",
       "seen_at": "2026-07-12T01:23:34Z",
       "summary": "A merged Claude Fable 5 co-authored timestretch-rs rework adds a multi-resolution streaming engine, a varispeed-first keylock path, and a BPM harness while documenting crossover losses and a pre-existing failed benchmark."
+    },
+    {
+      "url": "https://github.com/berkayturk/appstore-precheck/pull/24",
+      "seen_at": "2026-07-12T02:29:41Z",
+      "summary": "A three-repeat, 21-case App Store preflight baseline reported Fable 5 with perfect planted-case detection but two pass-versus-not-applicable wording inconsistencies."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2028",
+      "seen_at": "2026-07-12T02:29:41Z",
+      "summary": "Claude Fable 5 agent added behavioral mutation-kill tests for WAC/ACP/ODRL access-control oracles and compilers, reported with 132 crate tests green."
     }
   ],
-  "last_run": "2026-07-12T01:23:34Z"
+  "last_run": "2026-07-12T02:29:41Z"
 }
