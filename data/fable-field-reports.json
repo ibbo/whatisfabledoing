@@ -5764,7 +5764,27 @@
       "url": "https://github.com/HarpElle/volunteercalendar/pull/286",
       "seen_at": "2026-07-12T20:57:56Z",
       "summary": "Claude Fable 5 co-authored a merged volunteer-scheduler hardening pass that blocks self-approval, repairs a production Teams-page legacy-data crash, and reopens reviews after role changes."
+    },
+    {
+      "url": "https://github.com/CWBudde/algo-fft/pull/14",
+      "seen_at": "2026-07-12T22:00:59Z",
+      "summary": "Claude Fable 5 co-authored a merged AVX2 FFT kernel for a previously generic complex128 size-4096 path, reporting a 1.7x speedup with full cross-platform tests, fuzzing, lint, and formatting checks green."
+    },
+    {
+      "url": "https://github.com/wienerdog-ai/wienerdog/pull/90",
+      "seen_at": "2026-07-12T22:00:59Z",
+      "summary": "Fable orchestrated a merged Wienerdog tarball-installer hardening patch that preflights archive member names, closes a predictable-tempfile race, and makes partial installs detectable; macOS and Ubuntu tests, lint, and boundary checks passed."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/70318",
+      "seen_at": "2026-07-12T22:00:59Z",
+      "summary": "A Fable 5 audit of PostHog's toolbar request paths led to a policy and enforcement rewrite that separates ordinary transport failures from genuine error-tracking exceptions, with 500 affected-suite tests and Semgrep guard fixtures reported green."
+    },
+    {
+      "url": "https://github.com/korjavin/medicationtrackerbot/pull/626",
+      "seen_at": "2026-07-12T22:00:59Z",
+      "summary": "Fable 5 security-review findings led to a medication reminder privacy patch that clears delivered Telegram plaintext and defaults new users to generic notifications; 3,545 frontend tests and cloudstore Go tests passed, with project CI green."
     }
   ],
-  "last_run": "2026-07-12T20:57:56Z"
+  "last_run": "2026-07-12T22:00:59Z"
 }
