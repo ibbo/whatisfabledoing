@@ -5579,7 +5579,12 @@
       "url": "https://github.com/yuubae215/easy-extrude/pull/320",
       "seen_at": "2026-07-12T07:56:18Z",
       "summary": "Claude Fable 5 co-authored a merged snap-feedback feature with reduced-motion behavior, visual validation, 616 unit tests, 23 contract checks, and seven E2E tests."
+    },
+    {
+      "url": "https://github.com/aoprisan/wyrd/pull/5",
+      "seen_at": "2026-07-12T09:01:01Z",
+      "summary": "A Claude Fable 5 co-authored merged Wyrd change adds causal latency attribution and baseline-versus-current regression analysis for recorded Tokio task traces, with core synthetic-recording and MCP JSON-RPC tests."
     }
   ],
-  "last_run": "2026-07-12T07:56:18Z"
+  "last_run": "2026-07-12T09:01:01Z"
 }
