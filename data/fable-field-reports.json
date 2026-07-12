@@ -5749,7 +5749,22 @@
       "url": "https://github.com/mar3co/fable-orchestrator/issues/4",
       "seen_at": "2026-07-12T19:53:09Z",
       "summary": "A Fable-orchestrated Xcode workflow logged five incomplete Grok implementation-lane runs across roughly 15 tasks, including a detached process that committed and pushed during orchestration-side verification."
+    },
+    {
+      "url": "https://github.com/BigBirdReturns/tier-bench/pull/74",
+      "seen_at": "2026-07-12T20:57:56Z",
+      "summary": "A sealed Claude Fable 5 benchmark slice records three-of-three passes on each of three tasks, with raw solver events, SHA-256 sealed candidates, repeated hidden grading, and token ledgers committed for inspection."
+    },
+    {
+      "url": "https://github.com/andrewmaston1988/claude-plugin-marketplace/pull/176",
+      "seen_at": "2026-07-12T20:57:56Z",
+      "summary": "A Claude Fable 5 quota-bucket incident led to a merged scheduler fix that keeps a full Fable allocation from blocking other Claude models, verified with 350 tests and a live endpoint run."
+    },
+    {
+      "url": "https://github.com/HarpElle/volunteercalendar/pull/286",
+      "seen_at": "2026-07-12T20:57:56Z",
+      "summary": "Claude Fable 5 co-authored a merged volunteer-scheduler hardening pass that blocks self-approval, repairs a production Teams-page legacy-data crash, and reopens reviews after role changes."
     }
   ],
-  "last_run": "2026-07-12T19:53:09Z"
+  "last_run": "2026-07-12T20:57:56Z"
 }
