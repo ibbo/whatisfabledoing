@@ -5609,7 +5609,22 @@
       "url": "https://github.com/fmadore/iwac-ai-pipelines/pull/4",
       "seen_at": "2026-07-12T10:05:52Z",
       "summary": "A Claude Fable 5 co-authored IWAC pipeline repair fixes silent configuration, retry, timeout, CSV-write, and metadata-reconciliation failures across shared and media-processing modules."
+    },
+    {
+      "url": "https://github.com/volter-ai/open-autonomy/pull/181",
+      "seen_at": "2026-07-12T11:11:02Z",
+      "summary": "A Claude Fable 5 skeptic review exposed an agent-installer near-miss and led to a dry-run path with an end-to-end disposable-repository proof of zero writes, processes, ports, or dispatches."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2125",
+      "seen_at": "2026-07-12T11:11:02Z",
+      "summary": "A Claude Fable 5 adversarial audit found an authority-escalation path through non-monotone SHACL constraints; the merged fix rejects unproven narrowing and includes semantic, positive, and mutation tests."
+    },
+    {
+      "url": "https://github.com/aoprisan/Megawat/pull/13",
+      "seen_at": "2026-07-12T11:11:02Z",
+      "summary": "Claude Fable 5 co-authored a 72-hour electricity-price risk radar using residual-load analogues, calibrated probabilities, and a leak-free walk-forward Brier/reliability report."
     }
   ],
-  "last_run": "2026-07-12T10:05:52Z"
+  "last_run": "2026-07-12T11:11:02Z"
 }
