@@ -5529,7 +5529,27 @@
       "url": "https://github.com/jmill823/deltascanner-ai-pm/pull/14",
       "seen_at": "2026-07-12T04:36:57Z",
       "summary": "A frozen Fable 5 cold review found 13 evidence and taxonomy problems in Deltascanner's Structural Mistrust framework while independently confirming four cited commit receipts; the merged exhibit publishes the full annotated review and its SHA-256."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/113",
+      "seen_at": "2026-07-12T05:43:07Z",
+      "summary": "Claude Fable 5 and GPT-5.5 added selectable RAPTOR/TBTR routing to Cafein’s Helsinki grid benchmark, separating TBTR setup time and confirming equal reachable-cell counts in end-to-end runs."
+    },
+    {
+      "url": "https://github.com/JustasMonkev/jm-playwright-args/pull/6",
+      "seen_at": "2026-07-12T05:43:07Z",
+      "summary": "Claude Fable 5 ported the pw-args TypeScript library and CLI to Rust, then repaired npm, CommonJS, no-Cargo, signal-forwarding, and Windows compatibility seams after review."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/2068",
+      "seen_at": "2026-07-12T05:43:07Z",
+      "summary": "A Claude Fable 5 agent built a deterministic deletion-heavy RDF reasoning benchmark, exposed an existing axiom-sampler seam, and used fixture and known-bad-tier mutations to prove its gates fire."
+    },
+    {
+      "url": "https://github.com/noamh98/workshop-design-system/pull/5",
+      "seen_at": "2026-07-12T05:43:07Z",
+      "summary": "Claude Fable 5 created a Hebrew presentation-agent workflow with static and Playwright visual deck validation; the visual gate found and verified a repair for overlapping slide cards."
     }
   ],
-  "last_run": "2026-07-12T04:36:57Z"
+  "last_run": "2026-07-12T05:43:07Z"
 }
