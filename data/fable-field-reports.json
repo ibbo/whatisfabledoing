@@ -5494,7 +5494,17 @@
       "url": "https://github.com/sparq-org/sparq/pull/2028",
       "seen_at": "2026-07-12T02:29:41Z",
       "summary": "Claude Fable 5 agent added behavioral mutation-kill tests for WAC/ACP/ODRL access-control oracles and compilers, reported with 132 crate tests green."
+    },
+    {
+      "url": "https://github.com/laurb9/tiny_scope/pull/38",
+      "seen_at": "2026-07-12T03:32:59Z",
+      "summary": "Claude Fable 5 co-authored an AVR oscilloscope quiet-capture path that sleeps the CPU during single ADC conversions while retaining timer/PWM clocks, plus two latent state bugs; all public build and simulator checks passed."
+    },
+    {
+      "url": "https://github.com/jyjeanne/crustly/pull/37",
+      "seen_at": "2026-07-12T03:32:59Z",
+      "summary": "A Claude Fable 5 graph-guided review of Crustly found UTF-8 slice panics, stale tool-cache reads after mutations, bad loop signatures, premature context compaction, and an allowlist shell-operator bypass; the 10-file repair has Linux/macOS checks green while Windows jobs run."
     }
   ],
-  "last_run": "2026-07-12T02:29:41Z"
+  "last_run": "2026-07-12T03:32:59Z"
 }
