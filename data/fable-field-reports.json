@@ -5629,7 +5629,27 @@
       "url": "https://github.com/anthropics/claude-code/issues/76189",
       "seen_at": "2026-07-12T12:16:51Z",
       "summary": "A Claude Code user reproduced a Fable 5 advisor failure triggered by any prior tool call: 104 real-session failures versus 9 no-tool-call successes, with a controlled Fable/Opus comparison and headless repro commands."
+    },
+    {
+      "url": "https://github.com/spiritbuun/buun-llama-cpp/pull/80",
+      "seen_at": "2026-07-12T13:22:00Z",
+      "summary": "Claude Fable 5-assisted SM 6.0 llama.cpp fix replaces a detrimental FP16 fast path with FP32 arithmetic, improving Qwen3.6-27B quality metrics from 0.002298 to 0.000001 median KLD with throughput unchanged within noise."
+    },
+    {
+      "url": "https://github.com/vyakimov/luxctl/pull/1",
+      "seen_at": "2026-07-12T13:22:00Z",
+      "summary": "Claude Fable 5 co-authored luxctl JSON-contract and TLS hardening: 37 tests cover failure envelopes and CI smoke tests passed on Python 3.10 through 3.13."
+    },
+    {
+      "url": "https://github.com/ForumHFR/redface2/issues/894",
+      "seen_at": "2026-07-12T13:22:00Z",
+      "summary": "Claude Fable 5 investigation reproduced Redface2 search failures against live HFR threads and led to a merged parser repair using captured anonymous and authenticated response fixtures."
+    },
+    {
+      "url": "https://github.com/dseinternational/vocabulary-growth/pull/159",
+      "seen_at": "2026-07-12T13:22:00Z",
+      "summary": "Claude Fable 5-assisted Bayesian crosswalk used 34 children observed on 416- and 810-item vocabulary forms to reassess a pooling assumption, with R-hat 1.00 and cross-platform model-fit tests passing."
     }
   ],
-  "last_run": "2026-07-12T12:16:51Z"
+  "last_run": "2026-07-12T13:22:00Z"
 }
