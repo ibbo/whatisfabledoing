@@ -5994,7 +5994,32 @@
       "url": "https://github.com/zcash/zallet/issues/596",
       "seen_at": "2026-07-13T14:49:44Z",
       "summary": "A Zcash operator reports multi-address z_listunspent filters returned no Sapling or Orchard notes because the code used all rather than any; the linked downstream Claude Fable 5 patch preserves empty-filter behavior and fixes matching."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/129",
+      "seen_at": "2026-07-13T15:56:08Z",
+      "summary": "Claude Fable 5 and Codex jointly assisted a merged Cafein transit-router repair that cancels now-dominated pending route segments without changing the dominance relation; 176 core tests and the full pytest suite passed, with identical output frames on a large profiling workload."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/714",
+      "seen_at": "2026-07-13T15:56:08Z",
+      "summary": "Claude Fable 5 wrote a SchemaBot PR-first check-backfill command that identifies absent and stuck GitHub checks across bounded repository sweeps, preserves in-flight applies, and exposes rate-limit pacing; its visible build, unit, integration, E2E, security, and lint checks are green."
+    },
+    {
+      "url": "https://github.com/nangchang/DevIsland/pull/383",
+      "seen_at": "2026-07-13T15:56:08Z",
+      "summary": "A Claude Fable 5-generated DevIsland repair makes malformed Codex and Gemini hook settings fail without overwriting users' JSON, installs the Codex auto-review wrapper from the app path, and fixes a possible empty-screen crash; its public Build & Test check passed."
+    },
+    {
+      "url": "https://github.com/Code-and-Sorts/chirp-ai-note-app/pull/135",
+      "seen_at": "2026-07-13T15:56:08Z",
+      "summary": "A Claude Fable 5 co-authored Chirp test repair bounded a concurrent export fixture and added thread-liveness and snapshot assertions, cutting the author's full suite from 103 to 31 seconds wall time and the race test from 5.0 to 0.5 seconds; macOS builds remain in progress."
+    },
+    {
+      "url": "https://github.com/The-Focus-AI/umwelten/pull/256",
+      "seen_at": "2026-07-13T15:56:08Z",
+      "summary": "A Claude Fable 5 co-authored Umwelten migration repaired roughly 44 TypeScript errors across seven packages after an AI SDK rename, lifted targets to ES2022, and added a CI typecheck gate; the author reports 670 affected tests passing and the public test check is green."
     }
   ],
-  "last_run": "2026-07-13T14:49:44Z"
+  "last_run": "2026-07-13T15:56:08Z"
 }
