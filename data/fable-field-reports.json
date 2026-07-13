@@ -5814,7 +5814,27 @@
       "url": "https://github.com/fmadore/IWAC-theme/pull/8",
       "seen_at": "2026-07-13T00:14:52Z",
       "summary": "Claude Fable 5 co-authored a seven-phase, 98-file IWAC Omeka theme repair spanning correctness, accessibility, French localization, performance, and build guardrails, with generated-artifact freshness verification passing publicly."
+    },
+    {
+      "url": "https://github.com/morganlinton/VulcanBench/pull/17",
+      "seen_at": "2026-07-13T01:18:57Z",
+      "summary": "VulcanBench ran Claude Fable 5 across 23 hidden-test tasks and 69 effort-configured attempts, reporting 20/23 at low and high effort and 19/23 at medium; six cyber-classified calls used an explicit Opus 4.8 refusal fallback."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/399",
+      "seen_at": "2026-07-13T01:18:57Z",
+      "summary": "Claude Code with Fable 5 produced a QuantEcon.jl Lemke LCP solver optimization using caller workspace buffers, reaching 330ns with zero allocations on Julia 1.12; the open PR adds allocation regression tests while its matrix is still running."
+    },
+    {
+      "url": "https://github.com/petergpt/lean-3d-game-axiom/pull/2",
+      "seen_at": "2026-07-13T01:18:57Z",
+      "summary": "Claude Code with Fable 5 found and fixed a Lean record-projection pattern that made voxel mesh building quadratic, reducing synchronous full-island meshing from 12.7-19.3 seconds to 114-127ms; the final-sha macOS workflow passed."
+    },
+    {
+      "url": "https://github.com/autogluon/tabarena/pull/441",
+      "seen_at": "2026-07-13T01:18:57Z",
+      "summary": "Claude Fable 5 co-authored TabArena's opt-in pre-timing warm-up API, keeping heavy imports, JIT compilation, and CUDA context setup out of modeled fit time while recording warm-up duration; its public build, lint, install, and CodeQL checks passed."
     }
   ],
-  "last_run": "2026-07-13T00:14:52Z"
+  "last_run": "2026-07-13T01:18:57Z"
 }
