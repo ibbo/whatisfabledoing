@@ -6049,7 +6049,10 @@
       "url": "https://github.com/chase-sets/chase-sets/pull/5159",
       "seen_at": "2026-07-13T19:08:09Z",
       "summary": "A Claude Fable 5 co-authored operational diagnosis traced a live DOKS admin SSO 404 to a missing Google Workspace domains runtime variable in the Kubernetes deploy workflow, then adds it to both staging and production with targeted tests."
-    }
+    },
+    {"url": "https://github.com/GruntworkAI/gruntwork-travel-skills/pull/5", "seen_at": "2026-07-13T20:14:17Z", "summary": "GruntworkAI used Claude Fable 5 on Claude Code to turn travel-calendar skills into a marketplace plugin for Claude Code and claude.ai, adding a four-source configuration ladder, config builder, and 103 reported tests before merging."},
+    {"url": "https://github.com/cradle/newtonia/pull/323", "seen_at": "2026-07-13T20:14:17Z", "summary": "Cradle used Claude Fable 5 for an open 158-file cross-platform Newtonia netplay branch with device-playtest fixes, relay hardening, replay and loss rigs, and public build jobs across Web, Android, Linux, macOS, Windows, and Xbox."},
+    {"url": "https://github.com/firedrakeproject/fiat/pull/259", "seen_at": "2026-07-13T20:14:17Z", "summary": "Firedrake developer Peter Brubeck used Claude Fable 5 to automate finite-element basis transformations directly from FIAT dual bases, covering several standard elements and passing the public Python CI matrix."}
   ],
-  "last_run": "2026-07-13T19:08:09Z"
+  "last_run": "2026-07-13T20:14:17Z"
 }
