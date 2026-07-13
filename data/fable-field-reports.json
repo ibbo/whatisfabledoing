@@ -5834,7 +5834,22 @@
       "url": "https://github.com/autogluon/tabarena/pull/441",
       "seen_at": "2026-07-13T01:18:57Z",
       "summary": "Claude Fable 5 co-authored TabArena's opt-in pre-timing warm-up API, keeping heavy imports, JIT compilation, and CUDA context setup out of modeled fit time while recording warm-up duration; its public build, lint, install, and CodeQL checks passed."
+    },
+    {
+      "url": "https://github.com/Automattic/mcp-context-wporg/pull/32",
+      "seen_at": "2026-07-13T02:24:40Z",
+      "summary": "A Claude Fable 5-orchestrated OpenCode subagent fixed a stale WordPress Trac component list by parsing the live query form, with fixture, cache, fallback, and live-provider checks; the PR merged."
+    },
+    {
+      "url": "https://github.com/Kabilan108/dotfiles/issues/9",
+      "seen_at": "2026-07-13T02:24:40Z",
+      "summary": "A 2,317-session local usage audit recorded only 25 Claude Fable sessions, where writes without a following check command were 8% versus 18% for a 529-session Opus 4.x cohort; the author deferred a commit hook pending more Fable data."
+    },
+    {
+      "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26582",
+      "seen_at": "2026-07-13T02:24:40Z",
+      "summary": "A Claude Code/Fable 5 patch replaces five Algalon encounter-state no-ops with SetBossState calls, supported by an upstream implementation comparison and green Linux build/integration checks; the author explicitly has not tested it in-game."
     }
   ],
-  "last_run": "2026-07-13T01:18:57Z"
+  "last_run": "2026-07-13T02:24:40Z"
 }
