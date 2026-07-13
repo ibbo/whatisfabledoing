@@ -5874,7 +5874,22 @@
       "url": "https://github.com/aaronsb/agent-ways/pull/360",
       "seen_at": "2026-07-13T04:35:39Z",
       "summary": "A Fable 5 session exposed an agent-ways context-window resolver that reported 200K and 106% used after 212,899 tokens despite the session's 1M window; the proposed shared resolver repaired the gauge and its downstream scheduling, with public tests and builds passing."
+    },
+    {
+      "url": "https://github.com/LuicdLabs/OneMMC/pull/2",
+      "seen_at": "2026-07-13T05:42:43Z",
+      "summary": "A Fable 5 and Opus 4.8-assisted OneMMC Native AOT migration replaced reflection-dependent Windows APIs, published detailed stage gates, and shipped a 70.4MB 13-file executable after 0-warning builds, publish, and UI smoke tests."
+    },
+    {
+      "url": "https://github.com/dat31/apartments/pull/58",
+      "seen_at": "2026-07-13T05:42:43Z",
+      "summary": "A Claude Fable 5 co-authored Next.js audit repaired two open-redirect paths, stale listing-cache behavior, hydration lint errors, and a missing root error boundary; the PR's public checks passed."
+    },
+    {
+      "url": "https://github.com/ViperJuice/agent-harness/issues/196",
+      "seen_at": "2026-07-13T05:42:43Z",
+      "summary": "Four Fable 5 advisor runs that appeared to hang in a PTY were traced to an immediately emitted CLI 429 with zero input/output tokens; the report identifies the adapter's failure to surface the typed provider event."
     }
   ],
-  "last_run": "2026-07-13T04:35:39Z"
+  "last_run": "2026-07-13T05:42:43Z"
 }
