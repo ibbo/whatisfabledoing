@@ -5969,7 +5969,12 @@
       "url": "https://github.com/KyleMit/Splotch/pull/126",
       "seen_at": "2026-07-13T11:34:16Z",
       "summary": "A Claude Fable 5-co-authored 25-subagent Splotch research handoff preserved full reports, metadata, before/after artifacts, and re-applicable patches for 25 asset-pipeline ideas, reporting 24 worked and one partial outcome; tests passed, while formatting remains red."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/70427",
+      "seen_at": "2026-07-13T12:37:59Z",
+      "summary": "Claude Code with Fable 5 used PostHog MCP payloads to diagnose native Rust error stacks misclassifying dependency frames as in-app, then added post-symbolication demotion for cargo, toolchain, and vendored source paths with regression coverage."
     }
   ],
-  "last_run": "2026-07-13T11:34:16Z"
+  "last_run": "2026-07-13T12:37:59Z"
 }
