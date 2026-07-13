@@ -5849,7 +5849,27 @@
       "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26582",
       "seen_at": "2026-07-13T02:24:40Z",
       "summary": "A Claude Code/Fable 5 patch replaces five Algalon encounter-state no-ops with SetBossState calls, supported by an upstream implementation comparison and green Linux build/integration checks; the author explicitly has not tested it in-game."
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/issues/62965",
+      "seen_at": "2026-07-13T03:30:47Z",
+      "summary": "A Bedrock Fable 5 user isolated auxiliary vision and compaction 400s to Hermes: raw boto3 image requests and ordinary text calls worked, while pinning the auxiliary vision model to Sonnet restored production use."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76607",
+      "seen_at": "2026-07-13T03:30:47Z",
+      "summary": "After server fallback from Fable to Opus, Claude Code displayed an explicitly Fable-run background subagent as Opus in its task list even though its transcript was entirely stamped claude-fable-5."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/76369",
+      "seen_at": "2026-07-13T03:30:47Z",
+      "summary": "A Max user ran a nine-case Fable/Opus 1M context selection matrix across macOS and Linux, finding the mid-session entitlement gate could reject an Opus [1m] target that direct startup and an 812k-token session proved available."
+    },
+    {
+      "url": "https://github.com/tiXor-code/icp-agent/pull/1",
+      "seen_at": "2026-07-13T03:30:47Z",
+      "summary": "A Fable 5-generated SSRF repair for an inbound agent validates and pins public scrape targets on every redirect, fails closed when the production webhook secret is absent, and reports 23 Vitest cases plus typecheck clean; the PR remains open."
     }
   ],
-  "last_run": "2026-07-13T02:24:40Z"
+  "last_run": "2026-07-13T03:30:47Z"
 }
