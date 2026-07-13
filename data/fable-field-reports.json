@@ -5889,7 +5889,22 @@
       "url": "https://github.com/ViperJuice/agent-harness/issues/196",
       "seen_at": "2026-07-13T05:42:43Z",
       "summary": "Four Fable 5 advisor runs that appeared to hang in a PTY were traced to an immediately emitted CLI 429 with zero input/output tokens; the report identifies the adapter's failure to surface the typed provider event."
+    },
+    {
+      "url": "https://github.com/glanzz/simq/pull/78",
+      "seen_at": "2026-07-13T06:46:07Z",
+      "summary": "A Claude Fable 5 co-authored SimQ repair turned 16-qubit VQE/QAOA results from 22–30x losses to Qiskit Aer into 1.6x wins on a reproducible cross-validated suite, while documenting Aer’s remaining 3.4x lead at 28 qubits."
+    },
+    {
+      "url": "https://github.com/hanifridho62-rgb/Lintester-project/pull/50",
+      "seen_at": "2026-07-13T06:46:07Z",
+      "summary": "A Fable 5 autonomous-research loop was run on a 6GB RTX 3050, surfacing real WSL/Triton, timing, OOM, and workspace failures before an agent edit reportedly improved val_bpb from a 1.8587 human baseline to 1.5858; the PR merged with all public test jobs green."
+    },
+    {
+      "url": "https://github.com/QuantEcon/GameTheory.jl/pull/237",
+      "seen_at": "2026-07-13T06:46:07Z",
+      "summary": "Claude Code with Fable 5 produced a workspace-taking Julia Lemke–Howson solver with 0-byte full-workspace calls, benchmarked median gains from 1.67µs to 0.96µs at n=10 and 2.74ms to 2.15ms at n=100, and green cross-platform Julia checks."
     }
   ],
-  "last_run": "2026-07-13T05:42:43Z"
+  "last_run": "2026-07-13T06:46:07Z"
 }
