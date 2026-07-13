@@ -5799,7 +5799,22 @@
       "url": "https://github.com/DanielLourencoFil/agentic-harness/pull/5",
       "seen_at": "2026-07-12T23:08:55Z",
       "summary": "Claude Fable 5 co-authored reusable Claude Code skills for spec-to-feature delivery, a read-only reproducible audit agent, and kickoff interviews; self-tests and two public CI variants passed."
+    },
+    {
+      "url": "https://github.com/lukealonso/b12x/pull/31",
+      "seen_at": "2026-07-13T00:14:52Z",
+      "summary": "A Claude Fable 5 co-authored b12x W4A16 MoE change adds a 3-bit NF3 tail-expert layout and fixes its planner accounting, with production quality and throughput receipts for a 753B all-expert GLM-5.2 hybrid on four RTX PRO 6000 GPUs."
+    },
+    {
+      "url": "https://github.com/ForumHFR/redface2/pull/922",
+      "seen_at": "2026-07-13T00:14:52Z",
+      "summary": "Claude Fable 5 reproduced a Redface2 REST discrepancy involving sticky favorite topics and hardened quote submission, with captured live fixtures plus green Android build, test, lint, Detekt, and repository-guard checks."
+    },
+    {
+      "url": "https://github.com/fmadore/IWAC-theme/pull/8",
+      "seen_at": "2026-07-13T00:14:52Z",
+      "summary": "Claude Fable 5 co-authored a seven-phase, 98-file IWAC Omeka theme repair spanning correctness, accessibility, French localization, performance, and build guardrails, with generated-artifact freshness verification passing publicly."
     }
   ],
-  "last_run": "2026-07-12T23:08:55Z"
+  "last_run": "2026-07-13T00:14:52Z"
 }
