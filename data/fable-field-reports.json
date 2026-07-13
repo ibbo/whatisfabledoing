@@ -5974,7 +5974,12 @@
       "url": "https://github.com/PostHog/posthog/pull/70427",
       "seen_at": "2026-07-13T12:37:59Z",
       "summary": "Claude Code with Fable 5 used PostHog MCP payloads to diagnose native Rust error stacks misclassifying dependency frames as in-app, then added post-symbolication demotion for cargo, toolchain, and vendored source paths with regression coverage."
+    },
+    {
+      "url": "https://github.com/shiinedev/crm-system/pull/1",
+      "seen_at": "2026-07-13T13:43:41Z",
+      "summary": "A Claude Fable 5 session turned a 252-line CRM codebase audit into 17 commits: it repaired deploy blockers, added migrations and CI, wired dormant automations, hardened AI/auth paths, paginated lists, and added audit logging and accessible drag-and-drop."
     }
   ],
-  "last_run": "2026-07-13T12:37:59Z"
+  "last_run": "2026-07-13T13:43:41Z"
 }
