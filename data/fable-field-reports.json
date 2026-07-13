@@ -5979,7 +5979,22 @@
       "url": "https://github.com/shiinedev/crm-system/pull/1",
       "seen_at": "2026-07-13T13:43:41Z",
       "summary": "A Claude Fable 5 session turned a 252-line CRM codebase audit into 17 commits: it repaired deploy blockers, added migrations and CI, wired dormant automations, hardened AI/auth paths, paginated lists, and added audit logging and accessible drag-and-drop."
+    },
+    {
+      "url": "https://github.com/Fields2Cover/Fields2Cover/pull/223",
+      "seen_at": "2026-07-13T14:49:44Z",
+      "summary": "Claude Fable 5 authored a Fields2Cover macOS portability repair for a UTM regex rejected by libc++, with the author reporting full C++ and Python test suites passing on macOS 14 Apple Silicon."
+    },
+    {
+      "url": "https://github.com/zcash/zallet/issues/595",
+      "seen_at": "2026-07-13T14:49:44Z",
+      "summary": "A Zcash operator reports that z_listunspent ignored its address filter for transparent UTXOs; Claude Fable 5 helped analyze and author a downstream patch that derives and filters transparent receivers."
+    },
+    {
+      "url": "https://github.com/zcash/zallet/issues/596",
+      "seen_at": "2026-07-13T14:49:44Z",
+      "summary": "A Zcash operator reports multi-address z_listunspent filters returned no Sapling or Orchard notes because the code used all rather than any; the linked downstream Claude Fable 5 patch preserves empty-filter behavior and fixes matching."
     }
   ],
-  "last_run": "2026-07-13T13:43:41Z"
+  "last_run": "2026-07-13T14:49:44Z"
 }
