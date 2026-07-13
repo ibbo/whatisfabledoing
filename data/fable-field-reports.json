@@ -5904,7 +5904,27 @@
       "url": "https://github.com/QuantEcon/GameTheory.jl/pull/237",
       "seen_at": "2026-07-13T06:46:07Z",
       "summary": "Claude Code with Fable 5 produced a workspace-taking Julia Lemke–Howson solver with 0-byte full-workspace calls, benchmarked median gains from 1.67µs to 0.96µs at n=10 and 2.74ms to 2.15ms at n=100, and green cross-platform Julia checks."
+    },
+    {
+      "url": "https://github.com/honojs/node-server/pull/373",
+      "seen_at": "2026-07-13T07:55:29Z",
+      "summary": "Claude Fable 5 (medium) supplied the initial patch and regression tests for a Hono Node server bug where an HTTP/1 client could send its entire body, disconnect during asynchronous handler work, and then trigger a misleading body-unusable error; the author reviewed, manually tested, and revised the change."
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/pull/63650",
+      "seen_at": "2026-07-13T07:55:29Z",
+      "summary": "A Hermes contributor tested Anthropic SDK 0.88 with Bedrock bearer-token authentication in us-east-1 and obtained successful completions from Claude Fable 5 and Sonnet 5; their proposed repair also raises Hermes’s static Fable context mapping from the 128K fallback to 1M."
+    },
+    {
+      "url": "https://github.com/plasticparticle/mneme/pull/39",
+      "seen_at": "2026-07-13T07:55:29Z",
+      "summary": "Claude Fable audited Mneme’s Go relay and Preact client through manual review of all security-critical files and two focused passes, publishing 18 linked findings; it judged the E2EE core sound but identified unauthenticated device binding and missing CSP/security headers as pre-internet-exposure priorities."
+    },
+    {
+      "url": "https://github.com/IsmaelMartinez/ismaelmartinez.me.uk/pull/163",
+      "seen_at": "2026-07-13T07:55:29Z",
+      "summary": "A Claude Fable 5 session produced a Pixel Park rendering and interaction update with a reusable rotation controller, high-DPI canvas handling, retained coaster drafts, and new unit/property/regression tests; public validation, analysis, CodeQL, and preview checks passed."
     }
   ],
-  "last_run": "2026-07-13T06:46:07Z"
+  "last_run": "2026-07-13T07:55:29Z"
 }
