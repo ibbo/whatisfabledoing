@@ -5939,7 +5939,22 @@
       "url": "https://github.com/LeeByeongMuk/nextjs-starter-kit/pull/155",
       "seen_at": "2026-07-13T09:00:59Z",
       "summary": "A 25-agent Fable 5 adversarial review of a Next.js tooling migration produced 14 confirmed findings, all addressed before an open PR's public build, lint, coverage, test, CodeQL, and boundary checks passed."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3716",
+      "seen_at": "2026-07-13T10:08:22Z",
+      "summary": "Claude Fable 5/xhigh generated a 22-file mux fix for queued tool-call timers, adding a true execution-start event and race-aware tests; Linux, VS Code, macOS/Linux E2E, integration, static, visual, and smoke checks were green while Unit and macOS builds remained in progress."
+    },
+    {
+      "url": "https://github.com/zcash/zallet/issues/594",
+      "seen_at": "2026-07-13T10:08:22Z",
+      "summary": "A Claude Fable 5 analysis and downstream repair found that z_listunspent silently omitted valid transparent outputs at or below the 5,000-zatoshi marginal-fee threshold, including a real unspent 2,796-zatoshi deposit; the downstream commit adds a direct query plus normal spendability checks."
+    },
+    {
+      "url": "https://github.com/tdamsma/Delft3D/pull/4",
+      "seen_at": "2026-07-13T10:08:22Z",
+      "summary": "A human-directed, Claude Fable 5-assisted Delft3D benchmark/tuning pass published a repeat-aware harness and measured a 576k-cell tidal model at about 23 ms per step on 24 M3 Ultra ranks, alongside power and thermal measurements."
     }
   ],
-  "last_run": "2026-07-13T09:00:59Z"
+  "last_run": "2026-07-13T10:08:22Z"
 }
