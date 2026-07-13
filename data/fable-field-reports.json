@@ -5924,7 +5924,22 @@
       "url": "https://github.com/IsmaelMartinez/ismaelmartinez.me.uk/pull/163",
       "seen_at": "2026-07-13T07:55:29Z",
       "summary": "A Claude Fable 5 session produced a Pixel Park rendering and interaction update with a reusable rotation controller, high-DPI canvas handling, retained coaster drafts, and new unit/property/regression tests; public validation, analysis, CodeQL, and preview checks passed."
+    },
+    {
+      "url": "https://github.com/tsz-org/tsz/pull/15762",
+      "seen_at": "2026-07-13T09:00:59Z",
+      "summary": "Claude Code using Fable 5 repaired a TypeScript checker identity-collision family, added regression guards, and merged after the author reported 150 additional full-conformance passes with the existing failure set unchanged."
+    },
+    {
+      "url": "https://github.com/irontec/sngrep/issues/550",
+      "seen_at": "2026-07-13T09:00:59Z",
+      "summary": "A Fable 5 troubleshooting session helped a non-C developer isolate a reproducible sngrep crash from an empty SIP Warning capture to a zero-length copy underflow; the reporter rebuilt the proposed repair and says it stopped the crash."
+    },
+    {
+      "url": "https://github.com/LeeByeongMuk/nextjs-starter-kit/pull/155",
+      "seen_at": "2026-07-13T09:00:59Z",
+      "summary": "A 25-agent Fable 5 adversarial review of a Next.js tooling migration produced 14 confirmed findings, all addressed before an open PR's public build, lint, coverage, test, CodeQL, and boundary checks passed."
     }
   ],
-  "last_run": "2026-07-13T07:55:29Z"
+  "last_run": "2026-07-13T09:00:59Z"
 }
