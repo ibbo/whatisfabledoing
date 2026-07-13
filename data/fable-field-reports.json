@@ -5869,7 +5869,12 @@
       "url": "https://github.com/tiXor-code/icp-agent/pull/1",
       "seen_at": "2026-07-13T03:30:47Z",
       "summary": "A Fable 5-generated SSRF repair for an inbound agent validates and pins public scrape targets on every redirect, fails closed when the production webhook secret is absent, and reports 23 Vitest cases plus typecheck clean; the PR remains open."
+    },
+    {
+      "url": "https://github.com/aaronsb/agent-ways/pull/360",
+      "seen_at": "2026-07-13T04:35:39Z",
+      "summary": "A Fable 5 session exposed an agent-ways context-window resolver that reported 200K and 106% used after 212,899 tokens despite the session's 1M window; the proposed shared resolver repaired the gauge and its downstream scheduling, with public tests and builds passing."
     }
   ],
-  "last_run": "2026-07-13T03:30:47Z"
+  "last_run": "2026-07-13T04:35:39Z"
 }
