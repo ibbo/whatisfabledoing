@@ -5954,7 +5954,22 @@
       "url": "https://github.com/tdamsma/Delft3D/pull/4",
       "seen_at": "2026-07-13T10:08:22Z",
       "summary": "A human-directed, Claude Fable 5-assisted Delft3D benchmark/tuning pass published a repeat-aware harness and measured a 576k-cell tidal model at about 23 ms per step on 24 M3 Ultra ranks, alongside power and thermal measurements."
+    },
+    {
+      "url": "https://github.com/jyjeanne/crustly/pull/38",
+      "seen_at": "2026-07-13T11:34:16Z",
+      "summary": "Claude Fable 5 co-authored a merged Crustly repair that restores streamed Anthropic tool-call JSON arguments and Qwen streamed tool-call recognition, backed by new regression tests and green stable/beta builds on Linux, macOS, and Windows."
+    },
+    {
+      "url": "https://github.com/wienerdog-ai/wienerdog/pull/102",
+      "seen_at": "2026-07-13T11:34:16Z",
+      "summary": "A Wienerdog contributor used Claude Fable 5 as orchestrator for a Google OAuth loopback hardening pass that adds state validation, PKCE, and a bounded consent timeout; the merged PR reports 755 passing tests and green macOS/Linux CI."
+    },
+    {
+      "url": "https://github.com/KyleMit/Splotch/pull/126",
+      "seen_at": "2026-07-13T11:34:16Z",
+      "summary": "A Claude Fable 5-co-authored 25-subagent Splotch research handoff preserved full reports, metadata, before/after artifacts, and re-applicable patches for 25 asset-pipeline ideas, reporting 24 worked and one partial outcome; tests passed, while formatting remains red."
     }
   ],
-  "last_run": "2026-07-13T10:08:22Z"
+  "last_run": "2026-07-13T11:34:16Z"
 }
