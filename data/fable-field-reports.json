@@ -6034,7 +6034,22 @@
       "url": "https://github.com/cafein-py/cafein/pull/130",
       "seen_at": "2026-07-13T18:03:36Z",
       "summary": "A Claude Fable 5 and Codex-assisted transit-router measurement pass adds a shadow rejection cache and differential tests that reproduce 20,000 bag decisions with zero cache false positives while preserving production behavior outside diagnostic modes."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/9516",
+      "seen_at": "2026-07-13T19:08:09Z",
+      "summary": "Claude Fable 5 used extended thinking and Claude Code tools to replace Paperclip's round-robin server-test sharding with deterministic duration-aware partitions, projected to reduce the CI critical path by about 40 seconds."
+    },
+    {
+      "url": "https://github.com/mindroom-ai/mindroom/pull/1506",
+      "seen_at": "2026-07-13T19:08:09Z",
+      "summary": "A Claude Fable 5 agent implemented Mindroom's per-schedule history limits, including trusted-fire handling, compatibility for legacy schedules, persistence, editing, and anti-spoofing tests; the author reports 9,757 tests passing."
+    },
+    {
+      "url": "https://github.com/chase-sets/chase-sets/pull/5159",
+      "seen_at": "2026-07-13T19:08:09Z",
+      "summary": "A Claude Fable 5 co-authored operational diagnosis traced a live DOKS admin SSO 404 to a missing Google Workspace domains runtime variable in the Kubernetes deploy workflow, then adds it to both staging and production with targeted tests."
     }
   ],
-  "last_run": "2026-07-13T18:03:36Z"
+  "last_run": "2026-07-13T19:08:09Z"
 }
