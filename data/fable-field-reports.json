@@ -6063,7 +6063,10 @@
     {"url": "https://github.com/antiwork/gumroad/pull/5865", "seen_at": "2026-07-14T00:28:48Z", "summary": "Gumroad used a Claude Fable 5 agent to make 350,000-recipient mailing retries resume from an atomic Redis audience snapshot, with seven specs and adversarial-review fixes for stale recipient data and partial snapshots."},
     {"url": "https://github.com/cameron-cp/cwm-fine-art-app/pull/25", "seen_at": "2026-07-14T00:28:48Z", "summary": "A Claude Fable 5 co-authored fine-art dealer chat uses five record-reading tools and one schema-validated interest-writing tool, returning citations for every answered query."},
     {"url": "https://github.com/ghostface2232/idolverse/pull/7", "seen_at": "2026-07-14T00:28:48Z", "summary": "A Claude Fable 5 co-authored Idolverse repair closed five investor-economy failure modes and then added snapshots, save round trips, contract tests, and targeted regressions."},
-    {"url": "https://github.com/anthropics/claude-code/issues/77335", "seen_at": "2026-07-14T00:28:48Z", "summary": "A Fable 5 user documented eight background Bash deployment polls that lose completion notifications and output, leave stale UI task state, and make asynchronous deployment workflows stall."}
+    {"url": "https://github.com/anthropics/claude-code/issues/77335", "seen_at": "2026-07-14T00:28:48Z", "summary": "A Fable 5 user documented eight background Bash deployment polls that lose completion notifications and output, leave stale UI task state, and make asynchronous deployment workflows stall."},
+    {"url": "https://github.com/coder/mux/pull/3721", "seen_at": "2026-07-14T01:36:20Z", "summary": "A Claude Fable 5 xhigh dogfood session repaired four Mux onboarding and narrow-viewport faults, with live re-verification and green build, test, E2E, visual-regression, and static checks."},
+    {"url": "https://github.com/JabRef/jabref/pull/16245", "seen_at": "2026-07-14T01:36:20Z", "summary": "A JabRef contributor used Claude Code with Fable 5 to repair PDF BibTeX imports broken by email-address @ signs, adding real-PDF reproduction steps and two focused tests."},
+    {"url": "https://github.com/SuzukiDaishi/dispersion_equalizer/pull/10", "seen_at": "2026-07-14T01:36:20Z", "summary": "A Claude Fable 5 co-authored audio-plugin repair memoizes a roughly 100-million-operation per-frame preview fit that had pinned an idle GUI at 100% CPU; Linux, Windows, and macOS builds are green."}
   ],
-  "last_run": "2026-07-14T00:28:48Z"
+  "last_run": "2026-07-14T01:36:20Z"
 }
