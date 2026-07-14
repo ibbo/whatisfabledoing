@@ -6118,7 +6118,8 @@
     {"url": "https://github.com/JPHutchins/code-review/pull/75", "seen_at": "2026-07-14T20:42:25Z", "summary": "J. P. Hutchins used Claude Fable 5 to implement a Claude Code fan-out guard after a live ten-subagent review froze without drafting; the branch reports 613 tests and live background-spawn evidence on two CLI versions."},
     {"url": "https://github.com/gasyoun/Systema-Sanscriticum/pull/516", "seen_at": "2026-07-14T20:42:25Z", "summary": "gasyoun used Fable 5 to turn five recorded stakeholder rulings into an eight-page student-portal prototype, with headless-Chrome checks and eleven committed screenshots."},
     {"url": "https://github.com/dseinternational/language-reading-predictors/pull/331", "seen_at": "2026-07-14T20:42:25Z", "summary": "Claude Code/Fable 5 produced a time-unrolled DAG audit across 13 reading-study mediation models, preserving the results while adding a NetworkX derivation and 40 specification guards."},
-    {"url": "https://github.com/ForumHFR/redface2/pull/941", "seen_at": "2026-07-14T20:42:25Z", "summary": "XaaT used Fable 5 to implement a multi-touch page-swipe repair after a GPT-5.6 Sol review found three semantic mismatches; the follow-up was merged with six targeted tests and green checks."}
+    {"url": "https://github.com/ForumHFR/redface2/pull/941", "seen_at": "2026-07-14T20:42:25Z", "summary": "XaaT used Fable 5 to implement a multi-touch page-swipe repair after a GPT-5.6 Sol review found three semantic mismatches; the follow-up was merged with six targeted tests and green checks."},
+    {"url": "https://github.com/anthropics/claude-code/issues/77578", "seen_at": "2026-07-14T21:49:48Z", "summary": "A Fable 5 background coordinator session repeatedly lost subagent wake-ups after tracked SSH waiters completed, even though the child processes wrote their expected output and identical main-session waiters re-woke reliably."}
   ],
-  "last_run": "2026-07-14T20:42:25Z"
+  "last_run": "2026-07-14T21:49:48Z"
 }
