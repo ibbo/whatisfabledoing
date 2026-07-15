@@ -6187,7 +6187,22 @@
       "url": "https://github.com/netdust/stridelms/pull/9",
       "seen_at": "2026-07-15T07:44:22Z",
       "summary": "Claude Fable 5 traced eight Stride LMS admin-workspace surfaces, their REST endpoints, and exports, producing a source-backed production-readiness review with 18 high-severity, 30 medium-severity, and roughly 22 low-severity findings."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6442",
+      "seen_at": "2026-07-15T08:52:24Z",
+      "summary": "OWID contributor edomt says Claude Fable 5 wrote a population-peak status table for UN estimates and projections from 1950 to 2100, with country-year coverage assertions and documented country spot checks."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/77727",
+      "seen_at": "2026-07-15T08:52:24Z",
+      "summary": "A 1,250-message Fable 5 dynamic-loop session went idle seven minutes after promising continuous work; the detailed report identifies wake-up scheduling and notes a similar Opus incident."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/77730",
+      "seen_at": "2026-07-15T08:52:24Z",
+      "summary": "A Fable 5-led design workflow reportedly lost five completed background-agent transcripts, forcing 30k–60k-token cold-start respawns and dropping a queued instruction."
     }
   ],
-  "last_run": "2026-07-15T07:44:22Z"
+  "last_run": "2026-07-15T08:52:24Z"
 }
