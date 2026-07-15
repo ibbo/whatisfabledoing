@@ -6142,7 +6142,22 @@
         "url": "https://github.com/NVIDIA/OpenShell/pull/2285",
         "seen_at": "2026-07-15T02:12:47Z",
         "summary": "OpenShell contributor cjfit says Fable 5 helped prepare a human-reviewed Anthropic subscription OAuth provider that keeps tokens gateway-side while letting sandboxed Claude Code sessions authenticate through inference.local."
+    },
+    {
+      "url": "https://superframeworks.com/articles/fable-5-vs-gpt-56-sol-founder-benchmark",
+      "seen_at": "2026-07-15T03:19:36Z",
+      "summary": "Superframeworks ran Fable 5 through Claude Code against GPT-5.6 Sol on four founder/operator tasks, preserved raw outputs and scorecards, and reported Fable winning all four at 53.8/60 versus 47.2/60."
+    },
+    {
+      "url": "https://github.com/jewei/claude-meter/pull/19",
+      "seen_at": "2026-07-15T03:19:36Z",
+      "summary": "jewei used real Claude Code transcripts to find that a meter missed subagent usage and priced Fable 5 as Sonnet when its offline catalog was absent; the seven-day estimate changed from $153.85 to $696.92 after the repair."
+    },
+    {
+      "url": "https://github.com/HarperFast/studio/pull/1510",
+      "seen_at": "2026-07-15T03:19:36Z",
+      "summary": "A Fable 5-attributed runtime-verification repair isolates a React Query cache subscription that updated a sibling during render; its regression test reproduces the warning and the visible PR checks are green."
     }
   ],
-  "last_run": "2026-07-15T02:12:47Z"
+  "last_run": "2026-07-15T03:19:36Z"
 }
