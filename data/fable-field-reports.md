@@ -3578,3 +3578,6 @@ LLVM contributor MaskRay credits Claude Fable 5 with aiding a compact refactor o
 
 ### [JupyterLab gets renameable code-console tabs](https://github.com/jupyterlab/jupyterlab/pull/19156) — jtpio
 JupyterLab contributor jtpio marked Claude Fable 5 as an AI model used for this feature and says the code was carefully reviewed and run by a human. The five-file patch adds a `console:rename` command, a tab-context-menu entry, user documentation, and a Galata browser test that renames “Console 1” to “Custom Name.” All 29 completed visible checks are green while the PR remains open.
+
+### [A SONiC migration keeps old monitoring names while changing the collector](https://github.com/metal-stack/metal-roles/pull/670) — Sven-Ric
+With the existing SONiC exporter deprecated, Sven-Ric used Claude Fable 5 to compare community and enterprise gNMI implementations, then manually confirmed the resulting deployment design. The 20-file migration runs gNMIc as a systemd-managed container, maps its telemetry into the existing Prometheus naming scheme, and adds a separate `vtysh`-based BGP collector because this deployment’s direct FRR configuration is not visible through gNMI or Redis. The open branch’s build, ansible-lint, spelling, markdown-lint, and OCI artifact checks are green.
