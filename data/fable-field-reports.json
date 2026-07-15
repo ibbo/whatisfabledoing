@@ -6157,7 +6157,17 @@
       "url": "https://github.com/HarperFast/studio/pull/1510",
       "seen_at": "2026-07-15T03:19:36Z",
       "summary": "A Fable 5-attributed runtime-verification repair isolates a React Query cache subscription that updated a sibling during render; its regression test reproduces the warning and the visible PR checks are green."
+    },
+    {
+      "url": "https://github.com/gasyoun/SanskritGrammar/pull/186",
+      "seen_at": "2026-07-15T04:24:10Z",
+      "summary": "Claude Fable 5 ran a six-reader claim-verification pipeline across all 48 lessons of Bühler's 1923 Sanskrit grammar, yielding a 64-claim adjudicated register, 339-candidate backlog, corpus checks, and an independently reconciled five-claim overlap."
+    },
+    {
+      "url": "https://github.com/scipy/scipy/pull/25632",
+      "seen_at": "2026-07-15T04:24:10Z",
+      "summary": "SciPy maintainer Ralf Gommers used Claude Fable 5 while reproducing and monitoring a platform-sensitive TFQMR convergence failure, leading to an all-platform skip for an ill-conditioned single-precision test."
     }
   ],
-  "last_run": "2026-07-15T03:19:36Z"
+  "last_run": "2026-07-15T04:24:10Z"
 }
