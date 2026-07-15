@@ -6182,7 +6182,12 @@
       "url": "https://github.com/gasyoun/SanskritGrammar/pull/201",
       "seen_at": "2026-07-15T06:36:11Z",
       "summary": "Claude Fable 5 completed 68 pending checks for a 1978 Sanskrit grammar register, producing 74 adjudicated claims, reproducible corpus metrics, named instrument gaps, and preserved negative pilots."
+    },
+    {
+      "url": "https://github.com/netdust/stridelms/pull/9",
+      "seen_at": "2026-07-15T07:44:22Z",
+      "summary": "Claude Fable 5 traced eight Stride LMS admin-workspace surfaces, their REST endpoints, and exports, producing a source-backed production-readiness review with 18 high-severity, 30 medium-severity, and roughly 22 low-severity findings."
     }
   ],
-  "last_run": "2026-07-15T06:36:11Z"
+  "last_run": "2026-07-15T07:44:22Z"
 }
