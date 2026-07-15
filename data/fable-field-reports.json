@@ -6215,7 +6215,10 @@
     },
     {"url": "https://github.com/mastra-ai/mastra/pull/19483", "seen_at": "2026-07-15T11:09:52Z", "summary": "Claude Fable 5 co-authored Mastra's 21-file Factory metrics page and session-scoping repair, with 454 unit, 89 node, and 415 MSW tests reported green."},
     {"url": "https://github.com/AI7891/IRIS_Headless_Engine/pull/7", "seen_at": "2026-07-15T11:09:52Z", "summary": "A Fable 5 co-authored IRIS outbox replaces unattended social posting with platform-specific, SQLite-tracked, operator-confirmed packages; its visible build-and-test check passed."},
-    {"url": "https://github.com/EnzymeAD/Reactant.jl/pull/3067", "seen_at": "2026-07-15T11:09:52Z", "summary": "Reactant contributor oschulz credits Fable 5 Max with diagnosing tuple/struct broadcast failures over traced arrays; the open repair adds StructArrays allocation and integration tests, with a mixed public matrix."}
+    {"url": "https://github.com/EnzymeAD/Reactant.jl/pull/3067", "seen_at": "2026-07-15T11:09:52Z", "summary": "Reactant contributor oschulz credits Fable 5 Max with diagnosing tuple/struct broadcast failures over traced arrays; the open repair adds StructArrays allocation and integration tests, with a mixed public matrix."},
+    {"url": "https://github.com/kuhlman-labs/fishhawk/pull/1946","seen_at": "2026-07-15T12:16:33Z","summary": "Fishhawk used Claude Fable 5 to review a five-file scope-provenance change; it approved with two low-severity findings about byte-identity and conditional path assertions while the verification gate passed."},
+    {"url": "https://github.com/hatch3r/hatch3r/pull/131","seen_at": "2026-07-15T12:16:33Z","summary": "Denis Masatovic assigned Claude Fable 5 to 16 high-effort verdict and sign-off roles in Hatch3r’s 30-agent workflow, validating model emission across three adapters and reporting more than 1,100 targeted tests."},
+    {"url": "https://github.com/microsoft/amplifier-module-provider-anthropic/pull/71","seen_at": "2026-07-15T12:16:33Z","summary": "Michael J. Jabbour used Fable 5 in an Anthropic-provider effort-capability test and fixed a silent fallback by clamping known effort levels; the mocked Fable request preserved max effort and the suite reported 535 passes."}
   ],
-  "last_run": "2026-07-15T11:09:52Z"
+  "last_run": "2026-07-15T12:16:33Z"
 }
