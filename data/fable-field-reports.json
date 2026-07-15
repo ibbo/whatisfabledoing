@@ -6127,7 +6127,22 @@
     {"url": "https://github.com/VikashLoomba/agentprism-workflows/issues/147", "seen_at": "2026-07-15T00:00:01Z", "summary": "A live AgentPrism run requested Fable 5 high effort but matched its [1m] context variant, causing the client to silently omit the requested effort and suppress its modifier-fallback audit signal."},
     {"url": "https://github.com/bagofwords1/bagofwords/pull/665", "seen_at": "2026-07-15T01:07:03Z", "summary": "A Claude Fable 5 co-authored bagofwords repair fixed two Graph connector failures found through live UI use: variadic clients had credentials stripped from test calls, and Outlook OAuth lacked routing and scope wiring."},
     {"url": "https://github.com/Mazikorn/Coreone-Procurement-Sales-and-Inventory-PSI-Management-System/pull/189", "seen_at": "2026-07-15T01:07:03Z", "summary": "Claude Code with Fable 5 fixes a SQLite reconciliation-close race by rechecking under BEGIN IMMEDIATE, with deterministic two-connection tests for both silent overwrite and UNIQUE-error variants and green public checks."},
-    {"url": "https://github.com/samibel/graphi/pull/51", "seen_at": "2026-07-15T01:07:03Z", "summary": "A Claude Fable 5 co-authored Graphi hardening pass makes unsupported extract/move operations, Labs HTTP routes, and remote memory export fail closed, with mutation-state, route, and file-write boundary tests."}
+    {"url": "https://github.com/samibel/graphi/pull/51", "seen_at": "2026-07-15T01:07:03Z", "summary": "A Claude Fable 5 co-authored Graphi hardening pass makes unsupported extract/move operations, Labs HTTP routes, and remote memory export fail closed, with mutation-state, route, and file-write boundary tests."},
+    {
+        "url": "https://github.com/anthropics/claude-code/issues/77651",
+        "seen_at": "2026-07-15T02:12:47Z",
+        "summary": "Claude Code user kk1987 documented Fable 5 interleaved-thinking responses losing mid-turn narration from both the UI and persisted session JSONL, including an approximately 1,800-character message before AskUserQuestion."
+    },
+    {
+        "url": "https://github.com/MyNameIsTaeYeong/project-context-loop-system/pull/97",
+        "seen_at": "2026-07-15T02:12:47Z",
+        "summary": "Claude Fable 5 co-authored Confluence sync repair isolates failed imports in a retry table so four permanent failures among 15,000 pages no longer pin the incremental watermark and force full refetches."
+    },
+    {
+        "url": "https://github.com/NVIDIA/OpenShell/pull/2285",
+        "seen_at": "2026-07-15T02:12:47Z",
+        "summary": "OpenShell contributor cjfit says Fable 5 helped prepare a human-reviewed Anthropic subscription OAuth provider that keeps tokens gateway-side while letting sandboxed Claude Code sessions authenticate through inference.local."
+    }
   ],
-  "last_run": "2026-07-15T01:07:03Z"
+  "last_run": "2026-07-15T02:12:47Z"
 }
