@@ -6212,7 +6212,10 @@
       "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1044",
       "seen_at": "2026-07-15T10:00:55Z",
       "summary": "A Fable 5 design-and-review pass for NeoWiki specified source-qualified schema references, compatibility behavior, and adversarial probe coverage; an Opus subagent implemented the 49-file branch, whose visible CI checks are green."
-    }
+    },
+    {"url": "https://github.com/mastra-ai/mastra/pull/19483", "seen_at": "2026-07-15T11:09:52Z", "summary": "Claude Fable 5 co-authored Mastra's 21-file Factory metrics page and session-scoping repair, with 454 unit, 89 node, and 415 MSW tests reported green."},
+    {"url": "https://github.com/AI7891/IRIS_Headless_Engine/pull/7", "seen_at": "2026-07-15T11:09:52Z", "summary": "A Fable 5 co-authored IRIS outbox replaces unattended social posting with platform-specific, SQLite-tracked, operator-confirmed packages; its visible build-and-test check passed."},
+    {"url": "https://github.com/EnzymeAD/Reactant.jl/pull/3067", "seen_at": "2026-07-15T11:09:52Z", "summary": "Reactant contributor oschulz credits Fable 5 Max with diagnosing tuple/struct broadcast failures over traced arrays; the open repair adds StructArrays allocation and integration tests, with a mixed public matrix."}
   ],
-  "last_run": "2026-07-15T10:00:55Z"
+  "last_run": "2026-07-15T11:09:52Z"
 }
