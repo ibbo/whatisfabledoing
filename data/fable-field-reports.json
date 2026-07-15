@@ -6172,7 +6172,17 @@
       "url": "https://github.com/chercherai/buddhomics/issues/2",
       "seen_at": "2026-07-15T05:29:58Z",
       "summary": "Claude Fable 5 was used as the Pali-first reference translator in a 12-passage, six-model bake-off for 13.1M untranslated Pali characters; the author recommends a Fable Batch API translation with Opus fallback after documenting model-specific failures."
+    },
+    {
+      "url": "https://github.com/qwasg/Rurix/pull/135",
+      "seen_at": "2026-07-15T06:36:11Z",
+      "summary": "A Fable-assisted Rurix GPU-simulation milestone records 11.461ms SPH steps, 0.1157s offline frames, and 14.8334ms real-window frames on an RTX 4070 Ti, while documenting an unresolved full-renderer hang and temporary 32-spp/two-bounce slice."
+    },
+    {
+      "url": "https://github.com/gasyoun/SanskritGrammar/pull/201",
+      "seen_at": "2026-07-15T06:36:11Z",
+      "summary": "Claude Fable 5 completed 68 pending checks for a 1978 Sanskrit grammar register, producing 74 adjudicated claims, reproducible corpus metrics, named instrument gaps, and preserved negative pilots."
     }
   ],
-  "last_run": "2026-07-15T05:29:58Z"
+  "last_run": "2026-07-15T06:36:11Z"
 }
