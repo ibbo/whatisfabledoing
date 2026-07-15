@@ -6167,7 +6167,12 @@
       "url": "https://github.com/scipy/scipy/pull/25632",
       "seen_at": "2026-07-15T04:24:10Z",
       "summary": "SciPy maintainer Ralf Gommers used Claude Fable 5 while reproducing and monitoring a platform-sensitive TFQMR convergence failure, leading to an all-platform skip for an ill-conditioned single-precision test."
+    },
+    {
+      "url": "https://github.com/chercherai/buddhomics/issues/2",
+      "seen_at": "2026-07-15T05:29:58Z",
+      "summary": "Claude Fable 5 was used as the Pali-first reference translator in a 12-passage, six-model bake-off for 13.1M untranslated Pali characters; the author recommends a Fable Batch API translation with Opus fallback after documenting model-specific failures."
     }
   ],
-  "last_run": "2026-07-15T04:24:10Z"
+  "last_run": "2026-07-15T05:29:58Z"
 }
