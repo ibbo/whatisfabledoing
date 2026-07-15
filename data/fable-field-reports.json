@@ -6202,7 +6202,17 @@
       "url": "https://github.com/anthropics/claude-code/issues/77730",
       "seen_at": "2026-07-15T08:52:24Z",
       "summary": "A Fable 5-led design workflow reportedly lost five completed background-agent transcripts, forcing 30k–60k-token cold-start respawns and dropping a queued instruction."
+    },
+    {
+      "url": "https://github.com/mastra-ai/mastra/pull/19474",
+      "seen_at": "2026-07-15T10:00:55Z",
+      "summary": "Claude Fable 5 authored Mastra's Convex Observational Memory implementation, including 18 operations, atomic storage flows, schema migration guidance, and live self-hosted deployment verification."
+    },
+    {
+      "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1044",
+      "seen_at": "2026-07-15T10:00:55Z",
+      "summary": "A Fable 5 design-and-review pass for NeoWiki specified source-qualified schema references, compatibility behavior, and adversarial probe coverage; an Opus subagent implemented the 49-file branch, whose visible CI checks are green."
     }
   ],
-  "last_run": "2026-07-15T08:52:24Z"
+  "last_run": "2026-07-15T10:00:55Z"
 }
