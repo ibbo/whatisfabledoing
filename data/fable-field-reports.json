@@ -6238,7 +6238,8 @@
     {"url": "https://github.com/Gurio/brr/pull/425","seen_at": "2026-07-15T19:54:31Z","summary": "A brr maintainer found Fable-pinned runs reporting as Opus 4.8 were actual substitutions, not a billing alias; the merged detector re-alerts on the mismatch and its full suite reported 1,845 passes."},
     {"url": "https://github.com/rolker/marine_perception_tools/pull/23","seen_at": "2026-07-15T19:54:31Z","summary": "Rolker used Claude Fable 5 on a 17-file multi-pass sonar-cloud viewer and reader; a 2.5 GB real-data smoke dropped from 50 seconds to 478 ms while reading 994,908 soundings."},
     {"url": "https://github.com/Crpaxton4/devcontainer-features/pull/399","seen_at": "2026-07-15T19:54:31Z","summary": "A Claude Fable 5 co-authored resync overhaul stopped phantom task lanes by widening capture and rejecting weak task-ID matches; 1,762 tests and 17 visible checks passed."},
-    {"url": "https://github.com/arvind9981/harness-workflow/pull/8","seen_at": "2026-07-15T19:54:31Z","summary": "Arvind9981 built and merged a portable multi-model workflow using Fable for planning and review, reporting two live smoke runs with a byte-identical repository and 58 scripted tests passing."}
+    {"url": "https://github.com/arvind9981/harness-workflow/pull/8","seen_at": "2026-07-15T19:54:31Z","summary": "Arvind9981 built and merged a portable multi-model workflow using Fable for planning and review, reporting two live smoke runs with a byte-identical repository and 58 scripted tests passing."},
+    {"url": "https://github.com/rkrumins/dataviz/pull/245", "seen_at": "2026-07-15T20:59:06Z", "summary": "A Claude Fable 5 co-authored FalkorDB connectivity pass normalizes blank credentials before preflight and connection paths, adds topology safeguards, and supplies remap/TLS integration fixtures."}
   ],
-  "last_run": "2026-07-15T19:54:31Z"
+  "last_run": "2026-07-15T20:59:06Z"
 }
