@@ -6222,7 +6222,8 @@
     {"url": "https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/","seen_at": "2026-07-15T13:22:17Z","summary": "Tessl evaluated Fable 5 and Opus 4.8 on 917 shared agent-skill scenarios, finding a 0.9-point Fable lead with skill context, a 73% higher average task cost, and 26 Fable refusals excluded from the shared score."},
     {"url": "https://github.com/llvm/llvm-project/pull/209666","seen_at": "2026-07-15T13:22:17Z","summary": "MaskRay credits Fable 5 with aiding an LLVM GenericCycle cache refactor that reduces object size from 128 to 80 bytes; the approved open PR has nine visible successful checks."},
     {"url": "https://github.com/jupyterlab/jupyterlab/pull/19156","seen_at": "2026-07-15T13:22:17Z","summary": "JupyterLab contributor jtpio used Fable 5 on a five-file console-rename feature with UI coverage and documentation; the author reports human review and execution, and 29 completed checks are green."},
-    {"url": "https://github.com/metal-stack/metal-roles/pull/670","seen_at": "2026-07-15T14:29:00Z","summary": "Sven-Ric used Fable 5 to compare SONiC gNMI implementations for a 20-file monitoring migration, then manually confirmed the design; visible build, lint, spelling, Markdown, and OCI checks passed."}
+    {"url": "https://github.com/metal-stack/metal-roles/pull/670","seen_at": "2026-07-15T14:29:00Z","summary": "Sven-Ric used Fable 5 to compare SONiC gNMI implementations for a 20-file monitoring migration, then manually confirmed the design; visible build, lint, spelling, Markdown, and OCI checks passed."},
+    {"url": "https://github.com/OpenNMS/opennms/pull/8634", "seen_at": "2026-07-15T15:34:40Z", "summary": "Marshall Massengill credits Claude Fable 5 with assisting OpenNMS IPLIKE-to-native-PostgreSQL-inet filter translation, with index support, fallback semantics, broad integration coverage, successful checks, and maintainer approval."}
   ],
-  "last_run": "2026-07-15T14:29:00Z"
+  "last_run": "2026-07-15T15:34:40Z"
 }
