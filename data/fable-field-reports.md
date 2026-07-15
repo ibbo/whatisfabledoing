@@ -3480,3 +3480,14 @@ A macOS Claude Desktop user inspected local Claude Code transcripts after findin
 
 ### [A Fable challenge becomes a preflight check for multi-model advice](https://github.com/9uiLe/plugins/pull/58) — 9uiLe
 While dogfooding a “Decision Council” workflow, 9uiLe checked the requested Fable 5 terminal configuration before dispatch and incorporated Fable’s objections to treating configuration as proof, leaving token ceilings unset, and accepting weak authorization records. The resulting guard requires separate requested and runtime-effective model and effort fields, finite round/retry/fallback and token bounds, and explicit approval before budget excess can proceed. Its tests deliberately block silent fallbacks and model or effort mismatches, while allowing a low-stakes run to proceed only as explicitly degraded when runtime metadata is unavailable; the visible verification check passed.
+
+## 2026-07-15
+
+### [A model switch leaves commit credits on Fable](https://github.com/anthropics/claude-code/issues/77612) — rec3141
+A Claude Code 2.1.207 user began a session on Fable 5, switched it to Opus 4.8, and confirmed through `/model` that the active model had changed. The model's injected self-identity string nevertheless remained Fable for the rest of the session, so it rejected the correct status reading as inconsistent and stamped subsequent Git commits with `Co-Authored-By: Claude Fable 5`. The report separates the stale model-visible context from `/model`, which continued to show the right active model.
+
+### [LiteLLM consumes Fable's fallback request before Anthropic sees it](https://github.com/BerriAI/litellm/issues/33294) — wwwillchen
+A LiteLLM 1.89.2 user tested Anthropic's server-side fallback on Fable 5 with an Opus 4.8 fallback and a documented beta header. When the fallback used Anthropic's bare model name, LiteLLM returned a 400 model-authorization error; when it used LiteLLM's configured alias, the request streamed Fable's cyber refusal unchanged and never called Opus. The issue includes the proxy configuration, curl reproduction, and streamed events, tracing the conflict to LiteLLM treating Anthropic's `fallbacks` field as its own router configuration.
+
+### [A context-window tag silently swallows Fable's requested effort](https://github.com/VikashLoomba/agentprism-workflows/issues/147) — VikashLoomba
+A live AgentPrism run requested `claude-fable-5[high]`, but the recorded model was `claude-fable-5[1m]` at default effort. The model matcher reasonably selected the 1-million-token variant, then incorrectly treated any bracket as proof that the requested effort had already been supplied, so it neither set `reasoning_effort: high` nor emitted its normal fallback record. The author proposes recognizing only brackets that actually contain the requested effort token, preserving both the intended call and audit signal.
