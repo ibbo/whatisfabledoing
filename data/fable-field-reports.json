@@ -6264,7 +6264,9 @@
     {"url": "https://github.com/llvm/llvm-project/pull/209981","seen_at": "2026-07-16T07:53:10Z","summary": "MaskRay credits Fable 5 with aiding an LLVM GenericCycle storage refactor that flattens heap-owned cycle trees into a preorder value array and reduces object size from 72 to 48 bytes."},
     {"url": "https://github.com/rattanasak-ops/hermes-agent/pull/55", "seen_at": "2026-07-16T09:01:14Z", "summary": "A Fable 5 subscription relay fix removes the inherited CLAUDECODE nested-session guard only for child Claude processes; a focused regression test and a live fable call both succeeded, with 98/98 tests reported green."},
     {"url": "https://github.com/Crossbill-Highlights/crossbill-web/pull/407", "seen_at": "2026-07-16T09:01:14Z", "summary": "A Fable 5 co-authored Crossbill feature adds note-linked flashcards, suggestions grounded in note/highlight text, and note-view integration; five visible backend, frontend, and CodeQL checks passed."},
-    {"url": "https://github.com/jbergstroem/filtron/pull/314", "seen_at": "2026-07-16T09:01:14Z", "summary": "A Fable 5 Claude Code implementation adds SQL dialect parameter-style presets with explicit overrides; its new behavior tests and 20 visible quality, unit, performance, and cross-runtime checks passed."}
+    {"url": "https://github.com/jbergstroem/filtron/pull/314", "seen_at": "2026-07-16T09:01:14Z", "summary": "A Fable 5 Claude Code implementation adds SQL dialect parameter-style presets with explicit overrides; its new behavior tests and 20 visible quality, unit, performance, and cross-runtime checks passed."},
+    {"url": "https://github.com/gasyoun/SanskritGrammar/pull/317", "seen_at": "2026-07-16T10:07:05Z", "summary": "Claude Fable 5 extended a Sanskrit voice-grammar evidence register with 22 adjudicated claims, a deterministic DCS-corpus instrument, 49.1% ending-classification coverage across 494,022 tokens, and explicit untestable cases."},
+    {"url": "https://github.com/fedora-selinux/selinux-policy/pull/3289", "seen_at": "2026-07-16T10:07:05Z", "summary": "Benjamin Vouillaume used Claude Fable 5 on a real Fedora 44 SELinux investigation that reproduces PID 1 API-bus loss from denied inherited stdio FDs and validates a narrowly scoped policy repair."}
   ],
-  "last_run": "2026-07-16T09:01:14Z"
+  "last_run": "2026-07-16T10:07:05Z"
 }
