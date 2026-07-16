@@ -6292,7 +6292,8 @@
     {"url": "https://github.com/NousResearch/hermes-agent/pull/58201", "seen_at": "2026-07-16T17:56:31Z", "summary": "A Bedrock picker exposed a bare Fable ID that persisted but failed every invocation; the profile-preference repair adds regressions and has successful visible CI."},
     {"url": "https://github.com/OpenNMS/opennms/pull/8638", "seen_at": "2026-07-16T17:56:31Z", "summary": "Fable 5 assisted a 19-file OpenNMS change replacing its version-locked Elasticsearch flow plugin with Painless scripts and stock-Elasticsearch integration coverage."},
     {"url": "https://github.com/ThousandBirdsInc/chidori/pull/135", "seen_at": "2026-07-16T19:03:02Z", "summary": "Claude Fable 5 co-authored a Chidori end-user critique that exercised deterministic durability without an LLM key, verified exact replay/resume behavior, exposed eight bugs, and reverified repairs with green public test gates."},
-    {"url": "https://github.com/bigduu/Bamboo-agent/issues/520", "seen_at": "2026-07-16T19:03:02Z", "summary": "A Fable-orchestrated Bamboo-agent report documents an HTTP 400 when a GPT-5.6 Sol session switches to real Claude Fable 5 and replays unsigned foreign reasoning as Anthropic thinking blocks."}
+    {"url": "https://github.com/bigduu/Bamboo-agent/issues/520", "seen_at": "2026-07-16T19:03:02Z", "summary": "A Fable-orchestrated Bamboo-agent report documents an HTTP 400 when a GPT-5.6 Sol session switches to real Claude Fable 5 and replays unsigned foreign reasoning as Anthropic thinking blocks."},
+    {"url": "https://github.com/agent-of-empires/agent-of-empires/pull/2911", "seen_at": "2026-07-16T20:08:02Z", "summary": "Claude Code with Fable 5 repaired dead tmux-channel recovery and cursor-mode replay in agent-of-empires, with live tmux 3.6 validation, targeted regression tests, and several visible checks passing while the full matrix continued."}
   ],
-  "last_run": "2026-07-16T19:03:02Z"
+  "last_run": "2026-07-16T20:08:02Z"
 }
