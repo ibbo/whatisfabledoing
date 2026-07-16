@@ -6255,7 +6255,9 @@
     {"url": "https://github.com/obra/superpowers/pull/1993","seen_at": "2026-07-16T03:30:37Z","summary": "Jesse Vincent used Claude Fable 5 to reproduce and repair Superpowers SessionStart-hook failures on Windows, validating the shell selection route across real Windows, Linux, Git-Bash-absent, metacharacter-path, and older-Claude-Code cases."},
     {"url": "https://github.com/Episteme-Foundation/episteme/pull/156","seen_at": "2026-07-16T04:35:47Z","summary": "Episteme ran Fable 5 through three evidence-graph corpora, preserving static research artifacts while finding intermittent bio-context assessment refusals."},
     {"url": "https://github.com/gasyoun/SanskritGrammar/pull/256","seen_at": "2026-07-16T04:35:47Z","summary": "A Fable 5/Opus workflow audited 942 Sanskrit-grammar claims and 214 parses with generated registries, corpus measurements, and reproducible scripts."},
-    {"url": "https://github.com/Theprofitplatform/ad-cleaner/pull/23","seen_at": "2026-07-16T04:35:47Z","summary": "A Fable 5 co-authored Android charging-port test samples live ADB telemetry, reports charging power and verdicts, and was tested on an S26 Ultra."}
+    {"url": "https://github.com/Theprofitplatform/ad-cleaner/pull/23","seen_at": "2026-07-16T04:35:47Z","summary": "A Fable 5 co-authored Android charging-port test samples live ADB telemetry, reports charging power and verdicts, and was tested on an S26 Ultra."},
+    {"url": "https://github.com/bare-devcontainer/images/pull/182","seen_at": "2026-07-16T05:41:22Z","summary": "A Fable 5 co-authored 11-file devcontainer-image repair makes versioned trust material declarative and updates matching checksums atomically through Git's data API; CodeQL and initial image-matrix jobs are green."},
+    {"url": "https://github.com/noricha-vr/oreore-bench/pull/11","seen_at": "2026-07-16T05:41:22Z","summary": "Noricha-vr's frozen-prompt browser comparison added Fable 5 and four other frontier models, publishing unedited outputs; Fable's fluid demo worked while GPT-5.6 Luna and Sol rendered blank after interaction despite no JavaScript errors."}
   ],
-  "last_run": "2026-07-16T04:35:47Z"
+  "last_run": "2026-07-16T05:41:22Z"
 }
