@@ -6356,7 +6356,22 @@
       "url": "https://github.com/sparq-org/sparq/issues/2504",
       "seen_at": "2026-07-17T13:33:43Z",
       "summary": "A SPARQ maintainer reports that a Fable-routed worker followed a stale hard-coded Sonnet provenance instruction, producing false inline model attribution despite registry evidence that it ran Claude Fable 5."
+    },
+    {
+      "url": "https://github.com/Open-Chat-Graph/Open-Chat-Graph/pull/623",
+      "seen_at": "2026-07-17T14:38:16Z",
+      "summary": "Claude Fable 5 generated an idempotent delta-sync replacement for a staging job that was deleting and reinserting about 2.7 million rows hourly; SQLite fixture scenarios and visible test/deploy checks succeeded."
+    },
+    {
+      "url": "https://github.com/agent-of-empires/agent-of-empires/pull/2928",
+      "seen_at": "2026-07-17T14:38:16Z",
+      "summary": "Under human direction, Claude Fable 5 investigated and implemented a TUI plugin lifecycle expansion with manifest-hash-pinned re-approval and end-to-end coverage; most public checks succeeded while macOS Rust testing remained in progress."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog-ruby/pull/221",
+      "seen_at": "2026-07-17T14:38:16Z",
+      "summary": "A PostHog Ruby contributor used Fable for code review, most test-writing, and documentation support on async feature-flag loading; a controllable-server smoke test measured 0.00-second startup in async mode versus a two-second synchronous block."
     }
   ],
-  "last_run": "2026-07-17T13:33:43Z"
+  "last_run": "2026-07-17T14:38:16Z"
 }
