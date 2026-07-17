@@ -6431,7 +6431,22 @@
       "url": "https://github.com/caasi/dong3/pull/65",
       "seen_at": "2026-07-17T18:58:26Z",
       "summary": "A Fable direction-guard pass helped redesign a review-loop plugin, then dogfooded four multi-model rounds that narrowed findings from nine to zero with 59 content checks reported green."
+    },
+    {
+      "url": "https://github.com/Eddy1919/openEtruscan/pull/82",
+      "seen_at": "2026-07-17T20:04:22Z",
+      "summary": "A Claude Fable 5 verification pass reproduced an evaluation baseline, exposed a fabricated fallback vocabulary size, and added fail-closed regression coverage; the merged PR has successful public lint, test, and analysis checks."
+    },
+    {
+      "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/41",
+      "seen_at": "2026-07-17T20:04:22Z",
+      "summary": "A Fable 5 byte-level revalidation of an implementation-audit PR found CRLF churn hiding a seven-line change, a prefix-alias validation hole, and missing scope enforcement, then added regressions from 26 to 32 focused checks."
+    },
+    {
+      "url": "https://github.com/can1357/oh-my-pi/issues/5881",
+      "seen_at": "2026-07-17T20:04:22Z",
+      "summary": "A Windows user reproduced an Oh My Pi compaction bug that replayed signed thinking-only Fable responses, then confirmed the focused fix prevented the second call and merged with successful tests and checks."
     }
   ],
-  "last_run": "2026-07-17T18:58:26Z"
+  "last_run": "2026-07-17T20:04:22Z"
 }
