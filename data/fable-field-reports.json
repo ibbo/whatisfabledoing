@@ -6315,7 +6315,10 @@
     {"url": "https://github.com/awslabs/cli-agent-orchestrator/issues/459", "seen_at": "2026-07-17T04:51:47Z", "summary": "A CLI Agent Orchestrator user reproduced Fable 5 blocking handoff falsely completing in about 20 seconds and sending /exit while the worker still processed."},
     {"url": "https://github.com/LibreDWG/libredwg/pull/1313", "seen_at": "2026-07-17T04:51:47Z", "summary": "A Fable co-authored LibreDWG repair fixes multi-path associative hatches losing patterns during DXF→DWG→DXF conversion, verified on 57 real-plan hatches and 254 tests."},
     {"url": "https://github.com/Yuu6798/ugh-prompt-engine/pull/184", "seen_at": "2026-07-17T04:51:47Z", "summary": "Fable authored a 14-file Ugh Prompt Engine provenance change for content-digest build identity and immutable atomic publication; the author reports 1,385 pytest cases passing."},
-    {"url": "https://github.com/DaveGerson/agent-baton/pull/113", "seen_at": "2026-07-17T04:51:47Z", "summary": "A Fable-authored Agent Baton repair prevents worktree-isolated worker commits from being mistaken for absent and then discarded; visible Bead-suite checks succeeded."}
+    {"url": "https://github.com/DaveGerson/agent-baton/pull/113", "seen_at": "2026-07-17T04:51:47Z", "summary": "A Fable-authored Agent Baton repair prevents worktree-isolated worker commits from being mistaken for absent and then discarded; visible Bead-suite checks succeeded."},
+    {"url": "https://github.com/CosmoStat/shapepipe/issues/848", "seen_at": "2026-07-17T05:56:08Z", "summary": "A Fable-authored Snakemake orchestration for ShapePipe reached four final catalogs and passed scientific-equivalence checks against the bash baseline on real nibi survey data."},
+    {"url": "https://github.com/jungsunp/worship-deck-builder/issues/209", "seen_at": "2026-07-17T05:56:08Z", "summary": "An operator reports Fable 5 vision read all red arrangement marks on three real church bandsheets, including handwriting, for a human-reviewed weekly workflow."},
+    {"url": "https://github.com/anthropics/claude-code/issues/77960", "seen_at": "2026-07-17T05:56:08Z", "summary": "A Fable 5 user isolated a deterministic Claude Code failure where text emitted after a tool result disappears from both display and transcript; a WSL2 user independently corroborated the positional repro."}
   ],
-  "last_run": "2026-07-17T04:51:47Z"
+  "last_run": "2026-07-17T05:56:08Z"
 }
