@@ -6446,7 +6446,22 @@
       "url": "https://github.com/can1357/oh-my-pi/issues/5881",
       "seen_at": "2026-07-17T20:04:22Z",
       "summary": "A Windows user reproduced an Oh My Pi compaction bug that replayed signed thinking-only Fable responses, then confirmed the focused fix prevented the second call and merged with successful tests and checks."
+    },
+    {
+      "url": "https://github.com/CWBudde/algo-fft/pull/27",
+      "seen_at": "2026-07-17T21:10:57Z",
+      "summary": "A Claude Fable 5 co-authored radix-8 mixed-radix FFT stage reduced pure-Go benchmark geomean by 16.9% across radix-8-bearing sizes while preserving zero allocations; the merged PR has successful platform, fuzz, unit, lint, and format checks."
+    },
+    {
+      "url": "https://github.com/DillyVee/LiquidUI/pull/46",
+      "seen_at": "2026-07-17T21:10:57Z",
+      "summary": "A Fable 5 co-authored quantitative-research loop repaired biased OOS handling and a Sortino objective, then demoted a seemingly promising validation veto after a 15-fold real-market replication was directionally negative."
+    },
+    {
+      "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/45",
+      "seen_at": "2026-07-17T21:10:57Z",
+      "summary": "A Claude Fable 5 adversarial revalidation of an implementation-audit scorer found five concrete loopholes and added minimal fixes plus five regression cases, with the extended suite red before the changes and green after."
     }
   ],
-  "last_run": "2026-07-17T20:04:22Z"
+  "last_run": "2026-07-17T21:10:57Z"
 }
