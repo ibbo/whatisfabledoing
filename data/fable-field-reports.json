@@ -6416,7 +6416,22 @@
       "url": "https://github.com/PostHog/posthog/pull/72055",
       "seen_at": "2026-07-17T17:53:59Z",
       "summary": "Fable 5 authored a PostHog webhook HMAC scheme that lets GitHub-signed raw-body deliveries authenticate without exposing the secret, backed by unit and real-route tests."
+    },
+    {
+      "url": "https://github.com/kareemschultz/platform-design-authority/pull/80",
+      "seen_at": "2026-07-17T18:58:26Z",
+      "summary": "A Fable 5 twelve-lens whole-project audit found 27 documented findings but no shipped-code correctness defect, while reproducing clean gates, PostgreSQL migrations, and project test evidence."
+    },
+    {
+      "url": "https://github.com/mrveiss/AutoBot-AI/pull/11845",
+      "seen_at": "2026-07-17T18:58:26Z",
+      "summary": "Fable 5 implemented an Ansible dynamic-inventory fix after a live self-update silently lost group_vars; targeted failure-sensitive tests and visible security, Python, smoke, and integration checks succeeded."
+    },
+    {
+      "url": "https://github.com/caasi/dong3/pull/65",
+      "seen_at": "2026-07-17T18:58:26Z",
+      "summary": "A Fable direction-guard pass helped redesign a review-loop plugin, then dogfooded four multi-model rounds that narrowed findings from nine to zero with 59 content checks reported green."
     }
   ],
-  "last_run": "2026-07-17T17:53:59Z"
+  "last_run": "2026-07-17T18:58:26Z"
 }
