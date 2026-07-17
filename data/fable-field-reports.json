@@ -6401,7 +6401,22 @@
       "url": "https://github.com/mit-plv/riscv-coq/issues/48",
       "seen_at": "2026-07-17T16:49:19Z",
       "summary": "A Fable 5-root-caused RISC-V formal-semantics report shows RV64 W-form division and remainder operations using full 64-bit operands rather than lower 32 bits, with concrete qemu and Coq divergences."
+    },
+    {
+      "url": "https://github.com/itsHabib/ship/pull/220",
+      "seen_at": "2026-07-17T17:53:59Z",
+      "summary": "Claude Code with Fable 5 fixed Ship’s inert Claude effort tiers: extra had mapped to low, max to high, and the runner dropped the parameter; public Windows and Ubuntu checks succeeded."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/72054",
+      "seen_at": "2026-07-17T17:53:59Z",
+      "summary": "Fable 5 authored PostHog’s runner-side GitHub App request tool, with RS256 JWT signing, installation-token caching, host pinning, secret isolation, and focused regression tests."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/72055",
+      "seen_at": "2026-07-17T17:53:59Z",
+      "summary": "Fable 5 authored a PostHog webhook HMAC scheme that lets GitHub-signed raw-body deliveries authenticate without exposing the secret, backed by unit and real-route tests."
     }
   ],
-  "last_run": "2026-07-17T16:49:19Z"
+  "last_run": "2026-07-17T17:53:59Z"
 }
