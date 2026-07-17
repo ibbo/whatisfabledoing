@@ -6471,7 +6471,22 @@
       "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/46",
       "seen_at": "2026-07-17T22:15:19Z",
       "summary": "A Claude Fable 5 revalidation of a handoff-packet checker found a short-SHA prefix bypass, duplicate-key smuggling, and an unchecked content hash, then added adversarial regressions; the public package check succeeded."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/pull/110213",
+      "seen_at": "2026-07-17T23:21:38Z",
+      "summary": "Claude Fable 5 authored an OpenClaw launchd reload-handoff fix with simulated before/after recovery evidence for active-run restarts that previously stranded the gateway."
+    },
+    {
+      "url": "https://github.com/alejoamiras/nulo/pull/282",
+      "seen_at": "2026-07-17T23:21:38Z",
+      "summary": "A Fable dual-audit and review workflow accompanied Nulo’s Aztec 5.0 migration and capped testnet redeploy, where a live canary caught a private-fuel app bug before promotion."
+    },
+    {
+      "url": "https://github.com/s-silt/fxapk/pull/182",
+      "seen_at": "2026-07-17T23:21:38Z",
+      "summary": "A Claude Fable 5 co-authored fxapk feature assembles remote Android config, crypto, decoded infrastructure, and attribution into an additive report chain, with successful public cross-platform checks."
     }
   ],
-  "last_run": "2026-07-17T22:15:19Z"
+  "last_run": "2026-07-17T23:21:38Z"
 }
