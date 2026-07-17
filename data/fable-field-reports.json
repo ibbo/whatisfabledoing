@@ -6371,7 +6371,22 @@
       "url": "https://github.com/PostHog/posthog-ruby/pull/221",
       "seen_at": "2026-07-17T14:38:16Z",
       "summary": "A PostHog Ruby contributor used Fable for code review, most test-writing, and documentation support on async feature-flag loading; a controllable-server smoke test measured 0.00-second startup in async mode versus a two-second synchronous block."
+    },
+    {
+      "url": "https://github.com/agent-of-empires/agent-of-empires/pull/2934",
+      "seen_at": "2026-07-17T15:44:07Z",
+      "summary": "A Fable 5 investigation fixed a tmux virtual-terminal seed race by pairing capture with agreeing state probes; focused tests, live tmux checks, and the merged PR's public checks succeeded."
+    },
+    {
+      "url": "https://github.com/Goldislops/UtilityFog-Fractal-TreeOpen/pull/376",
+      "seen_at": "2026-07-17T15:44:07Z",
+      "summary": "A Fable 5 repair makes an artifact validator reject hostile non-string dictionary keys before hash or equality hooks can run; its regression matrix and public verification checks passed."
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/33846",
+      "seen_at": "2026-07-17T15:44:07Z",
+      "summary": "Mladen Lotar reports using Fable 5 with Sol and Grok as independent review lanes over eight checksum-pinned iterations, finding eleven defects in a proposed multi-provider review gate."
     }
   ],
-  "last_run": "2026-07-17T14:38:16Z"
+  "last_run": "2026-07-17T15:44:07Z"
 }
