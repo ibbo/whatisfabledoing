@@ -6341,7 +6341,22 @@
     {"url": "https://github.com/agent-of-empires/agent-of-empires/pull/2923", "seen_at": "2026-07-17T11:22:45Z", "summary": "A Fable 5-built native structured-agent TUI expansion reports substantial local tests, but its current open-PR CodeQL check reports three new critical alerts and broader jobs remain in progress."},
     {"url": "https://github.com/mamedev/mame/pull/15715", "seen_at": "2026-07-17T12:27:56Z", "summary": "MAME contributor frangarcj used Fable 5 to investigate and repair a stopped Model 1 timer read that erased Virtua Fighter’s hair physics, verified by bisection, 400,000-read instrumentation, pixel snapshots, and successful platform builds."},
     {"url": "https://github.com/FaroutYLq/AutoAxionLimits/pull/736", "seen_at": "2026-07-17T12:27:56Z", "summary": "A 54-paper Fable 5 versus Opus 4.8 probe for axion-paper extraction recovered 6/14 catastrophic-tail papers and fixed 5/20 wrong-type cases at a flat control median, prompting a merged production-extractor switch while retaining Opus review."},
-    {"url": "https://github.com/agent-of-empires/agent-of-empires/pull/2921", "seen_at": "2026-07-17T12:27:56Z", "summary": "A Fable 5 Claude Code investigation and repair addresses cross-process duplicate Claude session IDs in a roughly 16-session fleet through flock-scoped ownership checks, delayed tmux publication, path normalization, and 4,008 reported library tests."}
+    {"url": "https://github.com/agent-of-empires/agent-of-empires/pull/2921", "seen_at": "2026-07-17T12:27:56Z", "summary": "A Fable 5 Claude Code investigation and repair addresses cross-process duplicate Claude session IDs in a roughly 16-session fleet through flock-scoped ownership checks, delayed tmux publication, path normalization, and 4,008 reported library tests."},
+    {
+      "url": "https://github.com/Goldislops/UtilityFog-Fractal-TreeOpen/pull/375",
+      "seen_at": "2026-07-17T13:33:43Z",
+      "summary": "Claude Fable 5 implementation replaces direct JSONL append with same-directory staging plus atomic replace, using deterministic fault injection to preserve the canonical log under partial-write, fsync, replace, and serialization failures."
+    },
+    {
+      "url": "https://github.com/BumpyClock/gpui-component/pull/8",
+      "seen_at": "2026-07-17T13:33:43Z",
+      "summary": "Claude Fable 5 orchestrated a 64-file GPUI application-platform layer with Opus and Codex subagents; five review cycles fixed 24 findings and native launch-smoke/test checks passed on Windows, Linux, and macOS."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/issues/2504",
+      "seen_at": "2026-07-17T13:33:43Z",
+      "summary": "A SPARQ maintainer reports that a Fable-routed worker followed a stale hard-coded Sonnet provenance instruction, producing false inline model attribution despite registry evidence that it ran Claude Fable 5."
+    }
   ],
-  "last_run": "2026-07-17T12:27:56Z"
+  "last_run": "2026-07-17T13:33:43Z"
 }
