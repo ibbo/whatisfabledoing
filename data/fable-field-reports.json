@@ -6386,7 +6386,22 @@
       "url": "https://github.com/openai/codex/issues/33846",
       "seen_at": "2026-07-17T15:44:07Z",
       "summary": "Mladen Lotar reports using Fable 5 with Sol and Grok as independent review lanes over eight checksum-pinned iterations, finding eleven defects in a proposed multi-provider review gate."
+    },
+    {
+      "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6613",
+      "seen_at": "2026-07-17T16:49:19Z",
+      "summary": "A four-model Solidity gas-optimization council reports Claude Fable 5 independently finding or corroborating four of five adjudicated Paymaster optimizations, with deterministic whole-transaction measurements and 8,007 author-reported passing tests."
+    },
+    {
+      "url": "https://github.com/qgis/QGIS/issues/66822",
+      "seen_at": "2026-07-17T16:49:19Z",
+      "summary": "A Claude Fable 5 diagnostic traces QGIS 4.x GeoParquet default exports that silently write zero rows to a negative GDAL compression-level default clamped by a QSpinBox; another maintainer reproduced it on QGIS 4.2."
+    },
+    {
+      "url": "https://github.com/mit-plv/riscv-coq/issues/48",
+      "seen_at": "2026-07-17T16:49:19Z",
+      "summary": "A Fable 5-root-caused RISC-V formal-semantics report shows RV64 W-form division and remainder operations using full 64-bit operands rather than lower 32 bits, with concrete qemu and Coq divergences."
     }
   ],
-  "last_run": "2026-07-17T15:44:07Z"
+  "last_run": "2026-07-17T16:49:19Z"
 }
