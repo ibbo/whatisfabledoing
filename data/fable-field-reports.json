@@ -6461,7 +6461,17 @@
       "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/45",
       "seen_at": "2026-07-17T21:10:57Z",
       "summary": "A Claude Fable 5 adversarial revalidation of an implementation-audit scorer found five concrete loopholes and added minimal fixes plus five regression cases, with the extended suite red before the changes and green after."
+    },
+    {
+      "url": "https://github.com/oxidecomputer/sprockets/pull/110",
+      "seen_at": "2026-07-17T22:15:19Z",
+      "summary": "A Claude Fable 5-built experimental QUIC transport for Oxide's attested TLS library stays feature-gated and default-off, with 12 integration tests and successful public default and QUIC-enabled build, test, lint, and style checks."
+    },
+    {
+      "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/46",
+      "seen_at": "2026-07-17T22:15:19Z",
+      "summary": "A Claude Fable 5 revalidation of a handoff-packet checker found a short-SHA prefix bypass, duplicate-key smuggling, and an unchecked content hash, then added adversarial regressions; the public package check succeeded."
     }
   ],
-  "last_run": "2026-07-17T21:10:57Z"
+  "last_run": "2026-07-17T22:15:19Z"
 }
