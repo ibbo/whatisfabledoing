@@ -6631,7 +6631,22 @@
       "url": "https://github.com/harbor-framework/terminal-bench-science/pull/587",
       "seen_at": "2026-07-18T06:55:43Z",
       "summary": "Terminal-Bench Science bridge-forensics evaluation reports Fable 5 solving 2 of 4 isolated trials; all 16 model runs passed state/fault suites, with modal-frequency tolerance deciding full solves."
+    },
+    {
+      "url": "https://github.com/prashantm912/artha-yantra-2/pull/911",
+      "seen_at": "2026-07-18T08:00:51Z",
+      "summary": "A Fable-orchestrated, 13-shard audit of Artha Yantra found roughly 55 issues, including live evidence that display-curve downsampling corrupts risk metrics on 166 stored intraday backtests."
+    },
+    {
+      "url": "https://github.com/bjornpagen/bumbledb/pull/5",
+      "seen_at": "2026-07-18T08:00:51Z",
+      "summary": "An all-Fable fanout refactored bumbledb's TypeScript SDK across 54 files, adding a 29-recipe compile-pinned cookbook; public check, corpus replay, and Lean jobs succeeded."
+    },
+    {
+      "url": "https://github.com/neomjs/neo/pull/15444",
+      "seen_at": "2026-07-18T08:00:51Z",
+      "summary": "Fable co-authored Neo's dock tear-out workflow and exposed a real-gesture bug unit tests missed; 4 headed CDP tests and the 360-case dashboard suite passed, with public checks green."
     }
   ],
-  "last_run": "2026-07-18T06:55:43Z"
+  "last_run": "2026-07-18T08:00:51Z"
 }
