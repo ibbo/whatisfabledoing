@@ -6506,7 +6506,27 @@
       "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/109",
       "seen_at": "2026-07-18T00:24:15Z",
       "summary": "A Fable 5-authored ContinuousDPs.jl refactor separates model primitives from reusable solver types, records exact old/new solution agreement across algorithms, and measures 0.1–0.4% per-solve setup overhead."
+    },
+    {
+      "url": "https://github.com/sinoda1114/tokkyo-search/pull/14",
+      "seen_at": "2026-07-18T01:28:21Z",
+      "summary": "A Claude Fable 5 third-party review of a patent-search app, including Chrome E2E, identified practical search, workflow, and case-management gaps that were fixed in a merged 33-file change."
+    },
+    {
+      "url": "https://github.com/kt0319/any-console/pull/101",
+      "seen_at": "2026-07-18T01:28:21Z",
+      "summary": "Claude Fable 5 co-authored a merged any-console repair that distinguishes transient tmux failures from absent sessions, preventing live terminals from being deleted during restore races."
+    },
+    {
+      "url": "https://github.com/goehringcory-lang/The-Talus-Field/pull/211",
+      "seen_at": "2026-07-18T01:28:21Z",
+      "summary": "Claude Fable 5 co-authored a merged PWA authentication repair that keeps a JWT in memory when localStorage is blocked, verified by a full local Worker and Playwright purchase/login flow."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/issues/379",
+      "seen_at": "2026-07-18T01:28:21Z",
+      "summary": "A Claude Code report authored across Opus 4.8 and Fable 5 finds that a minimal expert cache is about five times faster than defaults on an M5 Max Metal inference workload, with controlled cache-residency experiments."
     }
   ],
-  "last_run": "2026-07-18T00:24:15Z"
+  "last_run": "2026-07-18T01:28:21Z"
 }
