@@ -6696,7 +6696,27 @@
       "url": "https://github.com/chris-yyau/busdriver/pull/408",
       "seen_at": "2026-07-18T12:20:27Z",
       "summary": "A Fable-generated Busdriver change removed an unused 44KB credential-handling gateway path, retained Fable-subagent to Opus fallback, and merged with public checks successful."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/2112",
+      "seen_at": "2026-07-18T13:25:54Z",
+      "summary": "Fable 5 orchestrated and adversarially reviewed an Opus implementation across three emdash security PRs: label-enforcement parity, Cloudflare Access/PDS SSRF protection, and label-publication durability."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/2113",
+      "seen_at": "2026-07-18T13:25:54Z",
+      "summary": "Companion emdash Fable-reviewed security PR fixes Cloudflare Access custom-claim role parsing and blocks unsafe or slow publisher-controlled PDS fetches, with 1,023 reported labeler tests."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/2115",
+      "seen_at": "2026-07-18T13:25:54Z",
+      "summary": "Companion emdash Fable-reviewed durability PR repairs label publication, subscription replay across signing-key rotation, and replay notification redrives, with 1,017 reported labeler tests."
+    },
+    {
+      "url": "https://github.com/dealfluence/adeu/pull/54",
+      "seen_at": "2026-07-18T13:25:54Z",
+      "summary": "A merged Fable co-authored Adeu repair turns 20 DOCX CLI QA findings into cross-part, table, sanitize, markup, and JSON-error regression coverage, with public build/test jobs successful."
     }
   ],
-  "last_run": "2026-07-18T12:20:27Z"
+  "last_run": "2026-07-18T13:25:54Z"
 }
