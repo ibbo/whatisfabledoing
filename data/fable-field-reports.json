@@ -6486,7 +6486,27 @@
       "url": "https://github.com/s-silt/fxapk/pull/182",
       "seen_at": "2026-07-17T23:21:38Z",
       "summary": "A Claude Fable 5 co-authored fxapk feature assembles remote Android config, crypto, decoded infrastructure, and attribution into an additive report chain, with successful public cross-platform checks."
+    },
+    {
+      "url": "https://github.com/mne-tools/mne-python/pull/14063",
+      "seen_at": "2026-07-18T00:24:15Z",
+      "summary": "MNE-Python maintainer Eric Larson used Fable 5 and Opus 4.8 to investigate and draft a 49-file test-speedup branch, then revised it himself; successful checks span Windows, ultraslow Linux, package, CodeQL, Bandit, and several platform legs."
+    },
+    {
+      "url": "https://github.com/Hereon-InstituteMS/OASiS/pull/46",
+      "seen_at": "2026-07-18T00:24:15Z",
+      "summary": "OASiS merged a Fable 5 handoff-verified simulation-tool repair that adds an explicit critic-and-numerics verification gate, fixes Python-environment and instruction-truncation failures, and reports 587 Linux tests passing."
+    },
+    {
+      "url": "https://github.com/duplico/gamequeer/pull/324",
+      "seen_at": "2026-07-18T00:24:15Z",
+      "summary": "A Fable co-authored GameQueer extension repair fixes three Python-grammar divergences, exposes a silent repeated-assignment AST collapse, and adds 15 tests plus clean parses of 14 real fixtures."
+    },
+    {
+      "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/109",
+      "seen_at": "2026-07-18T00:24:15Z",
+      "summary": "A Fable 5-authored ContinuousDPs.jl refactor separates model primitives from reusable solver types, records exact old/new solution agreement across algorithms, and measures 0.1–0.4% per-solve setup overhead."
     }
   ],
-  "last_run": "2026-07-17T23:21:38Z"
+  "last_run": "2026-07-18T00:24:15Z"
 }
