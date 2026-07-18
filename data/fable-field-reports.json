@@ -6661,7 +6661,22 @@
       "url": "https://github.com/AtalayaLabs/OxiCloud/pull/614",
       "seen_at": "2026-07-18T10:10:26Z",
       "summary": "Fable co-authored an OxiCloud performance pass that adds reproducible benchmark gates for four SPA hot paths, including 7.8x faster progressive folder listing, 399x faster large-set toggles, and 5.9x faster 100-item deletes."
+    },
+    {
+      "url": "https://github.com/biyooon-ex/zenohex/issues/216",
+      "seen_at": "2026-07-18T11:15:17Z",
+      "summary": "Fable 5 spotted a Zenohex burst-delivery ordering fault: 27 inversions in 2,000 messages versus zero on same-router Zenoh Python and MQTT controls."
+    },
+    {
+      "url": "https://github.com/jeffljones/passby-tnm/pull/1",
+      "seen_at": "2026-07-18T11:15:17Z",
+      "summary": "A Fable co-authored 98-vehicle aerial-traffic control improved phantom, class, and lane metrics but failed its strict no-regression gate as matches fell from 93 to 91."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/78811",
+      "seen_at": "2026-07-18T11:15:17Z",
+      "summary": "A user reports Fable 5 multi-agent orchestration drifted from a written delivery plan: review, tracker, packaging, prioritization, and runtime-verification requirements were missed."
     }
   ],
-  "last_run": "2026-07-18T10:10:26Z"
+  "last_run": "2026-07-18T11:15:17Z"
 }
