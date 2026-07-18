@@ -6561,7 +6561,37 @@
       "url": "https://github.com/s-silt/fxapk/pull/190",
       "seen_at": "2026-07-18T03:38:07Z",
       "summary": "A Fable co-authored fxapk deduplication repair reduces nested-scope ciphertext findings from two chains to one on a real sample; 3,171 local tests and all visible cross-platform checks passed."
+    },
+    {
+      "url": "https://github.com/K5PTB/fldigi/pull/4",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable 5-assisted fldigi repair adds WebSocket liveness detection and backoff reconnects after documented TCI audio-link failures; the author reports scripted mock-server crash and half-open-link validation."
+    },
+    {
+      "url": "https://github.com/K5PTB/fldigi/pull/5",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable 5-assisted fldigi repair caps TCI receive-audio backlog so a transient stall cannot leave an RX-only monitoring session permanently 1.4 seconds behind."
+    },
+    {
+      "url": "https://github.com/K5PTB/fldigi/pull/6",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable 5-assisted fldigi repair rejects RX_AUDIO frames from nonzero TCI receiver indexes, preventing another client or runtime re-indexing from feeding the modem the wrong audio stream."
+    },
+    {
+      "url": "https://github.com/kraft87/synapse/pull/80",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable co-authored Synapse MinHash reuse cuts a 44,000-entity LSH build from 63 seconds to 4 seconds; the merged PR has successful Web bundle, Mypy, Pytest, Ruff, and Bandit checks."
+    },
+    {
+      "url": "https://github.com/kraft87/synapse/pull/81",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable co-authored Synapse forces HNSW planning for pure ANN lookups, reported to reduce live 44,000-entity lookup latency from 2,370ms to 179ms; the merged PR has successful test and static-analysis checks."
+    },
+    {
+      "url": "https://github.com/kraft87/synapse/pull/82",
+      "seen_at": "2026-07-18T04:44:15Z",
+      "summary": "Fable co-authored Synapse adds ordered OpenRouter provider preferences while retaining fallback routing; the merged PR has successful Web bundle, Mypy, Pytest, Ruff, and Bandit checks."
     }
   ],
-  "last_run": "2026-07-18T03:38:07Z"
+  "last_run": "2026-07-18T04:44:15Z"
 }
