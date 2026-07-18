@@ -6801,7 +6801,22 @@
       "url": "https://github.com/dimensionalOS/dimos/pull/3047",
       "seen_at": "2026-07-18T19:56:56Z",
       "summary": "Fable 5 assisted a Rust port of DimOS's Go2 voxel and cost mappers; a committed CPU-only replay benchmark reports tenfold lidar-to-map latency reduction, lower RSS, golden comparisons, and stated CUDA and hardware-validation limits."
+    },
+    {
+      "url": "https://github.com/llvm/llvm-project/pull/210491",
+      "seen_at": "2026-07-18T21:00:49Z",
+      "summary": "Claude Fable 5 aided an LLVM single-pass cycle-analysis rewrite; 51-round interleaved benchmarks report 27% fewer instructions and 33% fewer cycles on sqlite3, with randomized equivalence checks and platform builds still underway."
+    },
+    {
+      "url": "https://github.com/Cloudgeni-ai/opengeni/pull/457",
+      "seen_at": "2026-07-18T21:00:49Z",
+      "summary": "OpenGeni used Fable 5 as an independent reviewer for a context-compaction repair; its 144MB adversarial-output benchmark reports a 1.44MB result in 28.6ms, alongside 3,158 passing real-database tests."
+    },
+    {
+      "url": "https://github.com/anolilab/lunora/pull/146",
+      "seen_at": "2026-07-18T21:00:49Z",
+      "summary": "Eight Fable 5 audit agents surveyed 47 Lunora packages, producing 23 human-vetted fixes across 20 packages; author-reported red/green tests are tempered by an open PR with integration jobs running and two failing lint gates."
     }
   ],
-  "last_run": "2026-07-18T19:56:56Z"
+  "last_run": "2026-07-18T21:00:49Z"
 }
