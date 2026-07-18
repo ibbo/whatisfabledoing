@@ -6781,7 +6781,17 @@
       "url": "https://github.com/GBrooks1970/magento-checkout-automation/pull/38",
       "seen_at": "2026-07-18T17:47:33Z",
       "summary": "Claude Fable 5 authored a nine-artifact second review of a Magento checkout suite, confirming six prior risks closed while finding five fresh issues including an empty-report CI publish path and persistent WebKit failures."
+    },
+    {
+      "url": "https://github.com/jleechanorg/dark-factory/pull/333",
+      "seen_at": "2026-07-18T18:52:36Z",
+      "summary": "A Fable 5 co-authored Dark Factory repair resets stale per-attempt autonomy time on redispatch and adds a regression based on a live immediate-repark incident, with 397 author-reported daemon tests passing."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5926",
+      "seen_at": "2026-07-18T18:52:36Z",
+      "summary": "An autonomous Fable 5 agent built Gumroad’s sandboxed preview for proposed custom-HTML changes, backed by before/after captures and controller/component coverage; public lint, Minitest, and CI-gate checks passed at inspection."
     }
   ],
-  "last_run": "2026-07-18T17:47:33Z"
+  "last_run": "2026-07-18T18:52:36Z"
 }
