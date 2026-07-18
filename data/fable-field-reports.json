@@ -6766,7 +6766,22 @@
       "url": "https://github.com/Oichkatzelesfrettschen/mesa-26-gororoba/pull/1146",
       "seen_at": "2026-07-18T16:42:23Z",
       "summary": "A Fable-assisted, merged Mesa r300 change turns assumptions about producer-side vertex fetches into explicit checks before emission: element format, stride, offsets, index bounds, and the final fetched byte must all fit the buffer."
+    },
+    {
+      "url": "https://github.com/opencv/opencv/issues/29279",
+      "seen_at": "2026-07-18T17:47:33Z",
+      "summary": "Claude Fable 5 helped diagnose and document an OpenCV IPP/native nearest-neighbor warpAffine mismatch with a C++ reproducer finding 442–534 differences per 810,000 pixels; a maintainer opened a native-fallback regression fix."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/issues/387",
+      "seen_at": "2026-07-18T17:47:33Z",
+      "summary": "Fable 5 co-authored a controlled M5 Max 128GB decode-tuning study whose output-checked A/Bs found MTP-off and cap-one independently improve this 384GB GLM-5.2 run from roughly 0.4 to about 2.0 tok/s."
+    },
+    {
+      "url": "https://github.com/GBrooks1970/magento-checkout-automation/pull/38",
+      "seen_at": "2026-07-18T17:47:33Z",
+      "summary": "Claude Fable 5 authored a nine-artifact second review of a Magento checkout suite, confirming six prior risks closed while finding five fresh issues including an empty-report CI publish path and persistent WebKit failures."
     }
   ],
-  "last_run": "2026-07-18T16:42:23Z"
+  "last_run": "2026-07-18T17:47:33Z"
 }
