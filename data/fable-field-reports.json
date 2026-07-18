@@ -6526,7 +6526,22 @@
       "url": "https://github.com/JustVugg/colibri/issues/379",
       "seen_at": "2026-07-18T01:28:21Z",
       "summary": "A Claude Code report authored across Opus 4.8 and Fable 5 finds that a minimal expert cache is about five times faster than defaults on an M5 Max Metal inference workload, with controlled cache-residency experiments."
+    },
+    {
+      "url": "https://github.com/ChronoAIProject/NyxID/pull/1200",
+      "seen_at": "2026-07-18T02:32:39Z",
+      "summary": "Fable 5 and Codex repaired NyxID browser-chat forwarding by adding an outbound-only, five-minute Bearer token with replay rejection, resource/scope restrictions, a kill switch, 4,681 green backend tests, and a live streaming-chat test."
+    },
+    {
+      "url": "https://github.com/Goldislops/UtilityFog-Fractal-TreeOpen/pull/380",
+      "seen_at": "2026-07-18T02:32:39Z",
+      "summary": "A Claude Fable 5 calibration hardening pass turned 25 of 27 malformed-input paths that escaped validation or reached compute into deterministic pre-compute ValueErrors, backed by 32 boundary regressions and successful visible verification/security checks."
+    },
+    {
+      "url": "https://github.com/velocity-venture/slabhaul/pull/84",
+      "seen_at": "2026-07-18T02:32:39Z",
+      "summary": "A Fable 5-authored Match the Hatch fix stops empty temperature inputs from fabricating a 19°C Spawn recommendation and from leaking app-global inputs across visits, with 845 Flutter tests and clean analysis reported."
     }
   ],
-  "last_run": "2026-07-18T01:28:21Z"
+  "last_run": "2026-07-18T02:32:39Z"
 }
