@@ -6831,7 +6831,22 @@
       "url": "https://github.com/wkumik/RubyFPV/pull/4",
       "seen_at": "2026-07-18T22:04:45Z",
       "summary": "A Fable 5 co-authored RubyFPV warning-cleanup pass fixed radio-link metric, RC validation, packed-timer, format-string, and C/C++ type-checking defects across 18 files."
+    },
+    {
+      "url": "https://github.com/arockwell/emdx/pull/1053",
+      "seen_at": "2026-07-18T23:10:43Z",
+      "summary": "A Fable 5 co-authored six-category emdx audit found a backup restore that can overwrite the live database, disconnected subprocess environment handling, model-ID drift, and untested mutating paths; it also records 5,000- and 20,000-document performance measurements."
+    },
+    {
+      "url": "https://github.com/stephendor/TDL/pull/132",
+      "seen_at": "2026-07-18T23:10:43Z",
+      "summary": "Fable 5 authored a 373-line adversarial mathematical review that found four validity-threatening mismatches between TDL papers and their implemented null generator, p-value calculation, calibration, and filtration procedure."
+    },
+    {
+      "url": "https://github.com/isseis/go-safe-cmd-runner/pull/865",
+      "seen_at": "2026-07-18T23:10:43Z",
+      "summary": "A Fable-based security audit of 17 go-safe-cmd-runner components recorded 2 high, 46 medium, 61 low, and 65 informational findings, including two fail-open paths; the 19-file report was merged."
     }
   ],
-  "last_run": "2026-07-18T22:04:45Z"
+  "last_run": "2026-07-18T23:10:43Z"
 }
