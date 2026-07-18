@@ -6591,7 +6591,22 @@
       "url": "https://github.com/kraft87/synapse/pull/82",
       "seen_at": "2026-07-18T04:44:15Z",
       "summary": "Fable co-authored Synapse adds ordered OpenRouter provider preferences while retaining fallback routing; the merged PR has successful Web bundle, Mypy, Pytest, Ruff, and Bandit checks."
+    },
+    {
+      "url": "https://github.com/Consiliency/agent-harness/pull/228",
+      "seen_at": "2026-07-18T05:50:09Z",
+      "summary": "Agent Harness fixes its Fable/Claude reviewer PTY so it clears Claude Code’s workspace-trust prompt and completes a real smoke in 68 seconds instead of a 180-second false stall."
+    },
+    {
+      "url": "https://github.com/K5PTB/fldigi/pull/7",
+      "seen_at": "2026-07-18T05:50:09Z",
+      "summary": "Fable 5-assisted fldigi repair prevents a starved TCI audio callback from permanently latching libsamplerate end-of-input, which had caused silent audio and 100% receive-thread CPU."
+    },
+    {
+      "url": "https://github.com/osolmaz/alman/pull/31",
+      "seen_at": "2026-07-18T05:50:09Z",
+      "summary": "Almanbench reran Fable 5 across its complete 1,029-item translation set: 939 accepted outputs (91.3%) and 1,027 compliance passes, with seven retried content-filter empties retained as failures."
     }
   ],
-  "last_run": "2026-07-18T04:44:15Z"
+  "last_run": "2026-07-18T05:50:09Z"
 }
