@@ -6541,7 +6541,27 @@
       "url": "https://github.com/velocity-venture/slabhaul/pull/84",
       "seen_at": "2026-07-18T02:32:39Z",
       "summary": "A Fable 5-authored Match the Hatch fix stops empty temperature inputs from fabricating a 19°C Spawn recommendation and from leaking app-global inputs across visits, with 845 Flutter tests and clean analysis reported."
+    },
+    {
+      "url": "https://github.com/traderhc123/agentic-trader/pull/21",
+      "seen_at": "2026-07-18T03:38:07Z",
+      "summary": "A Fable co-authored repair to a live Robinhood trading mirror fixes a zero-result instrument filter, phantom positions after rejected or unfilled orders, and stale per-track configuration, with 195 tests and an end-to-end reconciliation harness reported passing."
+    },
+    {
+      "url": "https://github.com/s-silt/fxapk/pull/187",
+      "seen_at": "2026-07-18T03:38:07Z",
+      "summary": "A Fable co-authored fxapk pass scopes ciphertext-to-decrypt matches to decompiled Java methods and explicitly labels them as low-confidence triage heuristics rather than full dataflow proof."
+    },
+    {
+      "url": "https://github.com/s-silt/fxapk/pull/189",
+      "seen_at": "2026-07-18T03:38:07Z",
+      "summary": "A Fable co-authored fxapk follow-up covers assigned ciphertext variables passed to helper methods, while documenting class-field, concatenation, and array-element limits."
+    },
+    {
+      "url": "https://github.com/s-silt/fxapk/pull/190",
+      "seen_at": "2026-07-18T03:38:07Z",
+      "summary": "A Fable co-authored fxapk deduplication repair reduces nested-scope ciphertext findings from two chains to one on a real sample; 3,171 local tests and all visible cross-platform checks passed."
     }
   ],
-  "last_run": "2026-07-18T02:32:39Z"
+  "last_run": "2026-07-18T03:38:07Z"
 }
