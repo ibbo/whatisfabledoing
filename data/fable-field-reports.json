@@ -6816,7 +6816,22 @@
       "url": "https://github.com/anolilab/lunora/pull/146",
       "seen_at": "2026-07-18T21:00:49Z",
       "summary": "Eight Fable 5 audit agents surveyed 47 Lunora packages, producing 23 human-vetted fixes across 20 packages; author-reported red/green tests are tempered by an open PR with integration jobs running and two failing lint gates."
+    },
+    {
+      "url": "https://github.com/mattemangia/GeoscientistToolkit/pull/181",
+      "seen_at": "2026-07-18T22:04:45Z",
+      "summary": "A Fable 5 co-authored Geoscientist Toolkit import optimization replaced per-voxel I/O and quadratic TIFF seeking; real GUI imports produced bit-identical Volume.bin and .gvt output for folder, TIFF, and binned inputs."
+    },
+    {
+      "url": "https://github.com/mattemangia/GeoscientistToolkit/pull/182",
+      "seen_at": "2026-07-18T22:04:45Z",
+      "summary": "A Fable 5 co-authored out-of-core pore-network generator streams CT volumes through overlapping RAM-bounded blocks, with tests preserving topology and volume against in-memory output."
+    },
+    {
+      "url": "https://github.com/wkumik/RubyFPV/pull/4",
+      "seen_at": "2026-07-18T22:04:45Z",
+      "summary": "A Fable 5 co-authored RubyFPV warning-cleanup pass fixed radio-link metric, RC validation, packed-timer, format-string, and C/C++ type-checking defects across 18 files."
     }
   ],
-  "last_run": "2026-07-18T21:00:49Z"
+  "last_run": "2026-07-18T22:04:45Z"
 }
