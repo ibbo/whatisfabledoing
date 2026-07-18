@@ -6736,7 +6736,22 @@
       "url": "https://github.com/SSFSKIM/doperpowers/pull/23",
       "seen_at": "2026-07-18T14:31:38Z",
       "summary": "Claude Fable 5 built Doperpowers' unattended seven-pass agent-dispatch sweep, which live-dispatched three tickets without repeat dispatch on its next tick and absorbed four fresh-review fixes."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/74260",
+      "seen_at": "2026-07-18T15:36:33Z",
+      "summary": "A multi-platform Claude Code report finds Fable 5 mid-turn text loss correlated with thinking-text-thinking-tool shapes, with corpus scans, a JSONL detector, controls, and a workaround."
+    },
+    {
+      "url": "https://github.com/tolibear/goalbuddy/issues/35",
+      "seen_at": "2026-07-18T15:36:33Z",
+      "summary": "Fable 5 found that goalbuddy's published npm tarball omitted a referenced skill execution contract; the maintainer reports a packed-tree regression fix, 127 local tests, and green Node 18/24 CI."
+    },
+    {
+      "url": "https://github.com/ESCOMP/CAM-SIMA/pull/518",
+      "seen_at": "2026-07-18T15:36:33Z",
+      "summary": "Fable 5 identified and drafted CAM-SIMA's case-insensitive constituent-input fix, refined by Opus 4.8; current public Intel/GNU, Python, GPU, and source checks succeeded."
     }
   ],
-  "last_run": "2026-07-18T14:31:38Z"
+  "last_run": "2026-07-18T15:36:33Z"
 }
