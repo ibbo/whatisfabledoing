@@ -6676,7 +6676,27 @@
       "url": "https://github.com/anthropics/claude-code/issues/78811",
       "seen_at": "2026-07-18T11:15:17Z",
       "summary": "A user reports Fable 5 multi-agent orchestration drifted from a written delivery plan: review, tracker, packaging, prioritization, and runtime-verification requirements were missed."
+    },
+    {
+      "url": "https://github.com/ottto-ai/ottto/pull/239",
+      "seen_at": "2026-07-18T12:20:27Z",
+      "summary": "A Fable 5 Claude Code session repaired a macOS agent-daemon transport stall that blocked uploads for 2.75 hours, with a typed recovery ladder, PF_ROUTE observer, 676 reported passing tests, and a live M4 validation."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/2111",
+      "seen_at": "2026-07-18T12:20:27Z",
+      "summary": "Fable 5 orchestrated and adversarially reviewed an Opus implementation of an emdash migration fix that reproduces real upgrades from frozen historical SQL; the author reports 315 tests passing."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13125",
+      "seen_at": "2026-07-18T12:20:27Z",
+      "summary": "A Claude Code Fable 5 agent repaired pnpm's null empty-intents release ledger regression across TypeScript and Rust, with round-trip tests and successful visible Rust and build checks."
+    },
+    {
+      "url": "https://github.com/chris-yyau/busdriver/pull/408",
+      "seen_at": "2026-07-18T12:20:27Z",
+      "summary": "A Fable-generated Busdriver change removed an unused 44KB credential-handling gateway path, retained Fable-subagent to Opus fallback, and merged with public checks successful."
     }
   ],
-  "last_run": "2026-07-18T11:15:17Z"
+  "last_run": "2026-07-18T12:20:27Z"
 }
