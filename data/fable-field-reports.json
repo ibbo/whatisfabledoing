@@ -6751,7 +6751,22 @@
       "url": "https://github.com/ESCOMP/CAM-SIMA/pull/518",
       "seen_at": "2026-07-18T15:36:33Z",
       "summary": "Fable 5 identified and drafted CAM-SIMA's case-insensitive constituent-input fix, refined by Opus 4.8; current public Intel/GNU, Python, GPU, and source checks succeeded."
+    },
+    {
+      "url": "https://github.com/sparq-org/sparq/pull/3511",
+      "seen_at": "2026-07-18T16:42:23Z",
+      "summary": "A maintainer-directed Claude Fable 5 agent reworked SPARQ’s opt-in CI matrix so 159 feature legs are bin-packed into about 38 jobs while preserving each leg’s existing check name through the GitHub Checks API."
+    },
+    {
+      "url": "https://github.com/gokhanmergen/information-theory-problems/pull/2",
+      "seen_at": "2026-07-18T16:42:23Z",
+      "summary": "A Claude Fable 5 attempt built a reproducible 16-atom numerical testbed for Cover’s primitive relay channel, first mapping a 0.1048-bit gap between the best decode/compress-forward schemes and the cutset bound at one binary-symmetric setting."
+    },
+    {
+      "url": "https://github.com/Oichkatzelesfrettschen/mesa-26-gororoba/pull/1146",
+      "seen_at": "2026-07-18T16:42:23Z",
+      "summary": "A Fable-assisted, merged Mesa r300 change turns assumptions about producer-side vertex fetches into explicit checks before emission: element format, stride, offsets, index bounds, and the final fetched byte must all fit the buffer."
     }
   ],
-  "last_run": "2026-07-18T15:36:33Z"
+  "last_run": "2026-07-18T16:42:23Z"
 }
