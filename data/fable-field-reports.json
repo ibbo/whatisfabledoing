@@ -6656,7 +6656,12 @@
       "url": "https://github.com/gasyoun/SanskritGrammar/pull/408",
       "seen_at": "2026-07-18T09:06:03Z",
       "summary": "A Fable 5 lead and 12 fork agents audited 432 Sanskrit grammar claims against Whitney, tallying 364 agrees, 42 conflicts, 26 silent rows, and roughly 65 bad section references."
+    },
+    {
+      "url": "https://github.com/AtalayaLabs/OxiCloud/pull/614",
+      "seen_at": "2026-07-18T10:10:26Z",
+      "summary": "Fable co-authored an OxiCloud performance pass that adds reproducible benchmark gates for four SPA hot paths, including 7.8x faster progressive folder listing, 399x faster large-set toggles, and 5.9x faster 100-item deletes."
     }
   ],
-  "last_run": "2026-07-18T09:06:03Z"
+  "last_run": "2026-07-18T10:10:26Z"
 }
