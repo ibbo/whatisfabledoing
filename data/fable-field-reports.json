@@ -6646,7 +6646,17 @@
       "url": "https://github.com/neomjs/neo/pull/15444",
       "seen_at": "2026-07-18T08:00:51Z",
       "summary": "Fable co-authored Neo's dock tear-out workflow and exposed a real-gesture bug unit tests missed; 4 headed CDP tests and the 360-case dashboard suite passed, with public checks green."
+    },
+    {
+      "url": "https://github.com/chainvue/verus-sdk/pull/21",
+      "seen_at": "2026-07-18T09:06:03Z",
+      "summary": "Chainvue used Fable 5 and Opus 4.8 as independent review lanes for 11 Verus SDK hardening fixes, including a live-node referral registration overpayment from 100 to 80 VRSC."
+    },
+    {
+      "url": "https://github.com/gasyoun/SanskritGrammar/pull/408",
+      "seen_at": "2026-07-18T09:06:03Z",
+      "summary": "A Fable 5 lead and 12 fork agents audited 432 Sanskrit grammar claims against Whitney, tallying 364 agrees, 42 conflicts, 26 silent rows, and roughly 65 bad section references."
     }
   ],
-  "last_run": "2026-07-18T08:00:51Z"
+  "last_run": "2026-07-18T09:06:03Z"
 }
