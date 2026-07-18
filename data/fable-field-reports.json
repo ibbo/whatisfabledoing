@@ -6716,7 +6716,27 @@
       "url": "https://github.com/dealfluence/adeu/pull/54",
       "seen_at": "2026-07-18T13:25:54Z",
       "summary": "A merged Fable co-authored Adeu repair turns 20 DOCX CLI QA findings into cross-part, table, sanitize, markup, and JSON-error regression coverage, with public build/test jobs successful."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/78338",
+      "seen_at": "2026-07-18T14:31:38Z",
+      "summary": "A Fable 5-authored Claude Code incident report traces queued background messages that can be lost after acknowledgement or duplicated across follow-on turns, combining a 11.3-hour production stall with scripted repros."
+    },
+    {
+      "url": "https://github.com/jtroo/kanata/issues/2114",
+      "seen_at": "2026-07-18T14:31:38Z",
+      "summary": "A Fable-assisted Kanata report provides a deterministic home-row-modifier/chord-buffer regression, a control case, a proposed queue-age fix, and 92 unit plus 241 simulation tests reported passing."
+    },
+    {
+      "url": "https://github.com/HarperFast/harper/pull/1860",
+      "seen_at": "2026-07-18T14:31:38Z",
+      "summary": "A Fable 5-generated, human-supervised Harper fix preserves writes deferred behind read iterators and adds regression coverage; the open PR's visible cross-runtime test, build, lint, security, and review checks succeeded."
+    },
+    {
+      "url": "https://github.com/SSFSKIM/doperpowers/pull/23",
+      "seen_at": "2026-07-18T14:31:38Z",
+      "summary": "Claude Fable 5 built Doperpowers' unattended seven-pass agent-dispatch sweep, which live-dispatched three tickets without repeat dispatch on its next tick and absorbed four fresh-review fixes."
     }
   ],
-  "last_run": "2026-07-18T13:25:54Z"
+  "last_run": "2026-07-18T14:31:38Z"
 }
