@@ -6791,7 +6791,17 @@
       "url": "https://github.com/antiwork/gumroad/pull/5926",
       "seen_at": "2026-07-18T18:52:36Z",
       "summary": "An autonomous Fable 5 agent built Gumroad’s sandboxed preview for proposed custom-HTML changes, backed by before/after captures and controller/component coverage; public lint, Minitest, and CI-gate checks passed at inspection."
+    },
+    {
+      "url": "https://github.com/jamesbraid/go-unifi/pull/3",
+      "seen_at": "2026-07-18T19:56:56Z",
+      "summary": "A single Fable 5 Claude Code session moved go-unifi's generator from UniFi Network 9.5.21 to 10.4.57 across three package layouts, with byte-identical live-source extraction and visible lint, test, YAML, and generation checks succeeding."
+    },
+    {
+      "url": "https://github.com/dimensionalOS/dimos/pull/3047",
+      "seen_at": "2026-07-18T19:56:56Z",
+      "summary": "Fable 5 assisted a Rust port of DimOS's Go2 voxel and cost mappers; a committed CPU-only replay benchmark reports tenfold lidar-to-map latency reduction, lower RSS, golden comparisons, and stated CUDA and hardware-validation limits."
     }
   ],
-  "last_run": "2026-07-18T18:52:36Z"
+  "last_run": "2026-07-18T19:56:56Z"
 }
