@@ -6606,7 +6606,32 @@
       "url": "https://github.com/osolmaz/alman/pull/31",
       "seen_at": "2026-07-18T05:50:09Z",
       "summary": "Almanbench reran Fable 5 across its complete 1,029-item translation set: 939 accepted outputs (91.3%) and 1,027 compliance passes, with seven retried content-filter empties retained as failures."
+    },
+    {
+      "url": "https://github.com/majiayu000/specrail/pull/132",
+      "seen_at": "2026-07-18T06:55:43Z",
+      "summary": "Fable 5-generated SpecRail depth gate enforces 8 invariants, 8 boundary cases, and 5 source anchors for non-trivial specifications, with 562 reported tests and a successful public workflow check."
+    },
+    {
+      "url": "https://github.com/majiayu000/specrail/pull/133",
+      "seen_at": "2026-07-18T06:55:43Z",
+      "summary": "Companion Fable 5 SpecRail patch requires two distinct failed review lanes before automatic self-review can substitute, with 560 reported tests and a successful public workflow check."
+    },
+    {
+      "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md/pull/65",
+      "seen_at": "2026-07-18T06:55:43Z",
+      "summary": "Fable 5 implementation adds a PL1-PL7 proof taxonomy and lints unqualified PROVEN-style public claims; the stacked draft has a successful public package check."
+    },
+    {
+      "url": "https://github.com/mrveiss/AutoBot-AI/pull/11856",
+      "seen_at": "2026-07-18T06:55:43Z",
+      "summary": "Fable 5 fixed AutoBot-AI OAuth state binding that collapsed dict-backed admin identities to a zero UUID, with a red-to-green 403 regression and successful public security/test jobs."
+    },
+    {
+      "url": "https://github.com/harbor-framework/terminal-bench-science/pull/587",
+      "seen_at": "2026-07-18T06:55:43Z",
+      "summary": "Terminal-Bench Science bridge-forensics evaluation reports Fable 5 solving 2 of 4 isolated trials; all 16 model runs passed state/fault suites, with modal-frequency tolerance deciding full solves."
     }
   ],
-  "last_run": "2026-07-18T05:50:09Z"
+  "last_run": "2026-07-18T06:55:43Z"
 }
