@@ -7096,7 +7096,27 @@
       "url": "https://github.com/pnpm/pnpm/pull/13151",
       "seen_at": "2026-07-19T17:30:55Z",
       "summary": "An agent-authored Claude Code/Fable 5 pnpm Rust-port PR implements repeat-install repair, promotes 22 known-failing test ports, and has major Rust CI, security, formatting, lint, docs, and benchmark checks passing while some jobs remain in progress."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70096",
+      "seen_at": "2026-07-19T18:36:22Z",
+      "summary": "Claude Code with Fable 5 and Codex co-authored an Apache Airflow repair that validates malformed Common AI tool arguments against the advertised JSON Schema so bounded retry replaces KeyError/TypeError failure paths; the author reports 1,043 unit tests passing."
+    },
+    {
+      "url": "https://github.com/arvindfroi/Amerikaneren-App/pull/1",
+      "seen_at": "2026-07-19T18:36:22Z",
+      "summary": "A Fable 5 co-authored Swift card-game search bot matched brute-force minimax on 800 random positions, with Monte Carlo world sampling and alpha-beta endgame solving; both simulator build-and-test jobs succeeded."
+    },
+    {
+      "url": "https://github.com/Qiskit/qiskit/pull/16610",
+      "seen_at": "2026-07-19T18:36:22Z",
+      "summary": "Qiskit contributor lukedev45 used Claude Code with Fable 5 to port Gaussian-elimination stabilizer-circuit synthesis from Python to Rust, maintaining a Clifford tableau incrementally while preserving reported circuit and error-message behavior."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13152",
+      "seen_at": "2026-07-19T18:36:22Z",
+      "summary": "A Fable-authored pnpm pacquet workspace-test port adds multi-importer coverage, uses deliberate breakage to validate new tests, fixes a reporter-parity gap, and records two remaining Rust-versus-TypeScript behavioral divergences as known failures."
     }
   ],
-  "last_run": "2026-07-19T17:30:55Z"
+  "last_run": "2026-07-19T18:36:22Z"
 }
