@@ -6876,7 +6876,17 @@
       "url": "https://github.com/santosbruno94/Mortem-new/pull/67",
       "seen_at": "2026-07-19T01:20:28Z",
       "summary": "Claude Fable 5 co-authored a deterministic crime-autobattler Monte Carlo harness and calibration pass that ran 200,000 cases in 215 seconds, meeting stated bands for desperation, incidental injury, arming, action traces, and observable defendant injuries."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge-dev/pull/706",
+      "seen_at": "2026-07-19T02:25:28Z",
+      "summary": "An 18-agent Claude Code workflow used Fable 5 to identify a dead identity multiply in Gemma 4 attention decoding; bitwise and 64-token checks passed, but the official benchmark score of 1.21448 missed the 1.21633 best and was not promoted."
+    },
+    {
+      "url": "https://github.com/yashneil75/gitlord/pull/1",
+      "seen_at": "2026-07-19T02:25:28Z",
+      "summary": "A Gitlord contributor used Fable for a concurrent stress test that found 62% turn loss and 10/15 subagent-drain losses; the proposed regression-tested fixes report zero lost turns and 15/15 drained results."
     }
   ],
-  "last_run": "2026-07-19T01:20:28Z"
+  "last_run": "2026-07-19T02:25:28Z"
 }
