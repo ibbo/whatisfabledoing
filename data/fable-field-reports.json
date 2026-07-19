@@ -6901,7 +6901,27 @@
       "url": "https://github.com/gasyoun/kosha/pull/139",
       "seen_at": "2026-07-19T03:29:31Z",
       "summary": "A Fable 5 handoff built a 106-entry beginner Sanskrit reader from 7,537 public-domain sayings, with reproducible grading, a 144-row curation reject log, sandhi and metre annotations, web reader, and Anki deck."
+    },
+    {
+      "url": "https://github.com/sekrit-twc/znedi3/pull/26",
+      "seen_at": "2026-07-19T04:34:02Z",
+      "summary": "A Claude Fable 5-authored NEON baseline in znedi3’s new Arm kernel suite measured 8.4–17.4× the C implementation across M4 Max, M5, and Graviton machines; the PR supplies reproducible build, correctness, and benchmark scripts."
+    },
+    {
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration/issues/18",
+      "seen_at": "2026-07-19T04:34:02Z",
+      "summary": "A Codex Orchestration user found that Team auth, resolved Fable runtime identity, and prose-only plan verdicts broke live Fable reviews; a JSON-schema repair reports 44 focused tests and a live approved review."
+    },
+    {
+      "url": "https://github.com/HeddleCo/heddle/issues/1059",
+      "seen_at": "2026-07-19T04:34:02Z",
+      "summary": "A Fable adversarial review found Heddle’s supposedly restricted contributor template exactly matched all 28 SAFE_AGENT_OPERATIONS, granting no attenuation even though current widening logic remains safe."
+    },
+    {
+      "url": "https://github.com/haotool/app/issues/781",
+      "seen_at": "2026-07-19T04:34:02Z",
+      "summary": "Independent Sonnet and Fable final-review passes found PaperTrade’s high-leverage stop-loss slider exposes return values liquidation will preempt, leaving an unmarked mathematically unreachable range."
     }
   ],
-  "last_run": "2026-07-19T03:29:31Z"
+  "last_run": "2026-07-19T04:34:02Z"
 }
