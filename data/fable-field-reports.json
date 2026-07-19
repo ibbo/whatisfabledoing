@@ -7176,7 +7176,12 @@
       "url": "https://github.com/CuriosityOS/betterwright/issues/29",
       "seen_at": "2026-07-19T21:50:31Z",
       "summary": "A Betterwright user used Fable 5 to diagnose an IPv6-literal and DNS-failure SOCKS retry storm that saturated a CPU core at thousands of failures per second on an IPv4-only host."
+    },
+    {
+      "url": "https://github.com/melodic-software/claude-code-plugins/issues/524",
+      "seen_at": "2026-07-19T22:55:12Z",
+      "summary": "A documented Fable 5/Sonnet worker-lease collision on a Claude Code plugin PR duplicated two P1 fixes; timestamps and later conflicts exposed session-local locking as the root cause."
     }
   ],
-  "last_run": "2026-07-19T21:50:31Z"
+  "last_run": "2026-07-19T22:55:12Z"
 }
