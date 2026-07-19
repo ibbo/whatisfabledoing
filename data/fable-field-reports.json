@@ -7021,7 +7021,22 @@
       "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2265",
       "seen_at": "2026-07-19T11:04:42Z",
       "summary": "A Fable 5-authored 22-file time-validity repair canonicalizes RFC 3339 values to UTC microseconds across SQLite and Postgres to prevent bytewise timestamp misordering, with 460 regression-test lines."
+    },
+    {
+      "url": "https://github.com/mattmre/CHELATEDAI/pull/295",
+      "seen_at": "2026-07-19T12:10:08Z",
+      "summary": "Fable 5 chaired and implemented a preregistered quantization-aware adapter-routing experiment that failed its promotion gate on two retrieval arenas; corrected analysis attributes the negative result to encoder-swap misrouting rather than specialist capacity."
+    },
+    {
+      "url": "https://github.com/mne-tools/mne-python/pull/14072",
+      "seen_at": "2026-07-19T12:10:08Z",
+      "summary": "MNE-Python maintainer Eric Larson used Fable 5 and Opus 4.8 to investigate and draft test-suite speedups, then revised and vouched for fixture reuse, caching, and ultraslow markings with public CI checks green."
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-native/pull/4389",
+      "seen_at": "2026-07-19T12:10:08Z",
+      "summary": "MapLibre contributor acalcutt reports using Fable with Opus and Sonnet on a WIP four-backend 3D-terrain renderer, while documenting incomplete non-OpenGL testing and remaining rendering issues."
     }
   ],
-  "last_run": "2026-07-19T11:04:42Z"
+  "last_run": "2026-07-19T12:10:08Z"
 }
