@@ -6971,7 +6971,22 @@
       "url": "https://github.com/thewrz/plasma-applet-cellsignal/pull/21",
       "seen_at": "2026-07-19T07:49:13Z",
       "summary": "A Fable 5 co-authored KDE cell-signal feed expands live modem telemetry while omitting device/subscriber identifiers, reporting 55 unit tests and deferred real-hardware end-to-end verification."
+    },
+    {
+      "url": "https://github.com/withastro/astro/pull/17430",
+      "seen_at": "2026-07-19T08:54:40Z",
+      "summary": "Astro contributor ocavue says most of a Fable 5-assisted refactor replaces content-store object literals with JSON.parse strings to structurally eliminate multi-megabyte dev SSR AST failures; green CI and 21 untouched CodSpeed benchmarks showed no regression."
+    },
+    {
+      "url": "https://github.com/zarbopiero963-droid/xtrader-bridge-2/pull/111",
+      "seen_at": "2026-07-19T08:54:40Z",
+      "summary": "A Fable 5 review pass on XTrader Bridge identified a UI-thread filesystem probe after TTL expiry; the daemon-worker repair adds five integration tests, passes 16 focused tests and 2,947 overall, and receives a follow-up stale-path guard."
+    },
+    {
+      "url": "https://github.com/zarbopiero963-droid/SANZY-POKER/pull/19",
+      "seen_at": "2026-07-19T08:54:40Z",
+      "summary": "A Claude Code/Fable workflow fixes a poker HUD rebuild that caused visible flicker and raise-slider resets; Fable review catches signature omissions before a follow-up, while typecheck, build, and 138 Vitest tests pass pending manual WebGL verification."
     }
   ],
-  "last_run": "2026-07-19T07:49:13Z"
+  "last_run": "2026-07-19T08:54:40Z"
 }
