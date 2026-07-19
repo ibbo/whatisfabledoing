@@ -7046,7 +7046,22 @@
       "url": "https://github.com/indexable-inc/index/pull/3696",
       "seen_at": "2026-07-19T13:15:29Z",
       "summary": "A merged Fable 5-built cache-watchdog update gives split Linux and Darwin publish lanes independent 190- and 420-minute self-heal budgets, with actionlint and ShellCheck passing."
+    },
+    {
+      "url": "https://github.com/VictorHaine/VictorHaine/pull/5",
+      "seen_at": "2026-07-19T15:21:23Z",
+      "summary": "Victor Haine's 120-prompt, blind and counterbalanced comparison found Opus 4.8 plus a Fable-written operating manual scoring 9.41 versus 8.97 for bare Fable, with raw artifacts and independent CI recomputation."
+    },
+    {
+      "url": "https://github.com/paritytech/revive/pull/576",
+      "seen_at": "2026-07-19T15:21:23Z",
+      "summary": "A Fable 5-implemented 256-bit division and Barrett-reduction experiment removes LLVM bit-loop lowering, with reported 6.24x-19.67x runtime-operation gains and an explicit slow constant-site counterexample."
+    },
+    {
+      "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/116",
+      "seen_at": "2026-07-19T15:21:23Z",
+      "summary": "A Fable 5 verifier independently reproduced and checked a shared NUL-byte metadata guard across 15 endpoint-position combinations, replacing mixed 500 and silent-200 behavior with validated errors."
     }
   ],
-  "last_run": "2026-07-19T13:15:29Z"
+  "last_run": "2026-07-19T15:21:23Z"
 }
