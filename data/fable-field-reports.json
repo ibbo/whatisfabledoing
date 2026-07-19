@@ -7061,7 +7061,27 @@
       "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/116",
       "seen_at": "2026-07-19T15:21:23Z",
       "summary": "A Fable 5 verifier independently reproduced and checked a shared NUL-byte metadata guard across 15 endpoint-position combinations, replacing mixed 500 and silent-200 behavior with validated errors."
+    },
+    {
+      "url": "https://github.com/llvm/llvm-project/pull/210568",
+      "seen_at": "2026-07-19T16:27:12Z",
+      "summary": "LLVM developer Keno says Fable 5 generated a patch that lets LICM hoist unrelated loads and readonly calls past release stores while correcting an unsafe Sink transformation; Linux, Windows, AArch64, and macOS checks passed."
+    },
+    {
+      "url": "https://github.com/masterwishx/ca.mover.tuning/pull/152",
+      "seen_at": "2026-07-19T16:27:12Z",
+      "summary": "After an Unraid web UI outage, Joly0 says Fable diagnosed and authored a fix for an rsync eval injection/data-loss path; a reproducer shows the old path executing filename content and deleting a state symlink while the array-based replacement moves all test files safely."
+    },
+    {
+      "url": "https://github.com/nextbsd-redux/nextbsd-userland/pull/50",
+      "seen_at": "2026-07-19T16:27:12Z",
+      "summary": "jrjsmrtn reports using Fable 5 to investigate an Arm64 VM login hang, traced to a getty class without CLOCAL; a live guest reload with 3wire.9600 restored shell prompts."
+    },
+    {
+      "url": "https://github.com/wrburgess/bryce/pull/1",
+      "seen_at": "2026-07-19T16:27:12Z",
+      "summary": "wrburgess used Claude Code with Fable 5 to establish a TypeScript/SQLite/MCP-first daily baseball digest project, vendoring a nine-skill agent configuration and recording architecture choices; its parity checks passed."
     }
   ],
-  "last_run": "2026-07-19T15:21:23Z"
+  "last_run": "2026-07-19T16:27:12Z"
 }
