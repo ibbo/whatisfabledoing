@@ -7116,7 +7116,17 @@
       "url": "https://github.com/pnpm/pnpm/pull/13152",
       "seen_at": "2026-07-19T18:36:22Z",
       "summary": "A Fable-authored pnpm pacquet workspace-test port adds multi-importer coverage, uses deliberate breakage to validate new tests, fixes a reporter-parity gap, and records two remaining Rust-versus-TypeScript behavioral divergences as known failures."
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/25852",
+      "seen_at": "2026-07-19T19:40:39Z",
+      "summary": "A Fable 5 and Opus 4.8 auto-research loop identified a SYCL concat optimization that raised the author's Arc Pro B70 llama-bench prompt-processing result from 920 to 1,006 tokens/s; the open PR includes a follow-up for a reported cross-hardware regression."
+    },
+    {
+      "url": "https://github.com/ottto-ai/ottto/pull/242",
+      "seen_at": "2026-07-19T19:40:39Z",
+      "summary": "A Claude Code Fable 5 session built a redacted dashboard preview for managed Codex and Claude Code config fences, with tests for ambiguous fences and secret redaction plus four public checks passing."
     }
   ],
-  "last_run": "2026-07-19T18:36:22Z"
+  "last_run": "2026-07-19T19:40:39Z"
 }
