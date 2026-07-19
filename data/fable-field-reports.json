@@ -7036,7 +7036,17 @@
       "url": "https://github.com/maplibre/maplibre-native/pull/4389",
       "seen_at": "2026-07-19T12:10:08Z",
       "summary": "MapLibre contributor acalcutt reports using Fable with Opus and Sonnet on a WIP four-backend 3D-terrain renderer, while documenting incomplete non-OpenGL testing and remaining rendering issues."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5963",
+      "seen_at": "2026-07-19T13:15:29Z",
+      "summary": "A Sentry-triggered Fable 5 agent reproduced Gumroad's product-page 500 for a missing live price, added a nil guard and regression spec, and reports four focused examples passing with RuboCop clean."
+    },
+    {
+      "url": "https://github.com/indexable-inc/index/pull/3696",
+      "seen_at": "2026-07-19T13:15:29Z",
+      "summary": "A merged Fable 5-built cache-watchdog update gives split Linux and Darwin publish lanes independent 190- and 420-minute self-heal budgets, with actionlint and ShellCheck passing."
     }
   ],
-  "last_run": "2026-07-19T12:10:08Z"
+  "last_run": "2026-07-19T13:15:29Z"
 }
