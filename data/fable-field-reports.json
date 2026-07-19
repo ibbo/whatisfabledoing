@@ -6861,7 +6861,22 @@
       "url": "https://github.com/0xHoneyJar/loa/issues/1227",
       "seen_at": "2026-07-19T00:14:16Z",
       "summary": "A governed Fable/Cursor/Codex review council falsely approved an exit-zero Cursor prose response as a clean 3/3 vote before schema validation; the same probe found a timed-out Fable child surviving until manually killed."
+    },
+    {
+      "url": "https://github.com/BloomBooks/BloomDesktop/pull/8079",
+      "seen_at": "2026-07-19T01:20:28Z",
+      "summary": "Claude Fable 5 co-authored a Bloom Desktop fix for an unobserved WebView2 fire-and-forget task behind roughly 11,005 recurring Sentry events in 90 days, adding lifecycle guards and a fault-observing continuation."
+    },
+    {
+      "url": "https://github.com/lemoz/darwin-godel-machine/pull/43",
+      "seen_at": "2026-07-19T01:20:28Z",
+      "summary": "A held-out Darwin Godel Machine experiment reports Claude Fable 5’s selected hard-problem strategy mutation improving average LiveCodeBench performance from 7.5 to 8.5 solved problems across two disjoint evaluations with 507 tests, 480 private."
+    },
+    {
+      "url": "https://github.com/santosbruno94/Mortem-new/pull/67",
+      "seen_at": "2026-07-19T01:20:28Z",
+      "summary": "Claude Fable 5 co-authored a deterministic crime-autobattler Monte Carlo harness and calibration pass that ran 200,000 cases in 215 seconds, meeting stated bands for desperation, incidental injury, arming, action traces, and observable defendant injuries."
     }
   ],
-  "last_run": "2026-07-19T00:14:16Z"
+  "last_run": "2026-07-19T01:20:28Z"
 }
