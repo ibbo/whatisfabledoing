@@ -7126,7 +7126,22 @@
       "url": "https://github.com/ottto-ai/ottto/pull/242",
       "seen_at": "2026-07-19T19:40:39Z",
       "summary": "A Claude Code Fable 5 session built a redacted dashboard preview for managed Codex and Claude Code config fences, with tests for ambiguous fences and secret redaction plus four public checks passing."
+    },
+    {
+      "url": "https://github.com/mindroom-ai/mindroom/pull/1594",
+      "seen_at": "2026-07-19T20:44:44Z",
+      "summary": "MindRoom reproduced a real-production-session compaction refusal from Fable 5 on a 181,876-byte, 90,873-token input, then verified a bounded same-input fallback to Opus 4.8 that returned a valid summary."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/issues/417",
+      "seen_at": "2026-07-19T20:44:44Z",
+      "summary": "A Fable 5-authored, human-reviewed Colibri issue diagnosed a frozen Metal LFRU cache clock; a post-fix M5 Max rerun confirmed expected clock growth and live recency fields across 397 candidate events."
+    },
+    {
+      "url": "https://github.com/jax-ml/jax/issues/39289",
+      "seen_at": "2026-07-19T20:44:44Z",
+      "summary": "A human-edited Fable 5 JAX issue separated genuine JIT tracing from C++ fast-path misses that falsely tripped no_tracing(), with a follow-up regression fix reported as passing existing tests."
     }
   ],
-  "last_run": "2026-07-19T19:40:39Z"
+  "last_run": "2026-07-19T20:44:44Z"
 }
