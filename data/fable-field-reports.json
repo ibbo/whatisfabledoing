@@ -7001,7 +7001,27 @@
       "url": "https://github.com/masanami/claude-harness/pull/92",
       "seen_at": "2026-07-19T10:01:10Z",
       "summary": "A Fable 5 co-authored Claude workflow-runtime repair followed four live self-review runs that found five contract failures, converged from five to zero findings across 16 agents, and added regression tests for argument/schema/terminal-failure handling."
+    },
+    {
+      "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/113",
+      "seen_at": "2026-07-19T11:04:42Z",
+      "summary": "A Fable 5-pinned verifier mutation-tested a new agent-platform tool-flow suite, found an unpinned COALESCE branch and an overclaim about prior coverage, and reports make verify passing with 91.68% coverage."
+    },
+    {
+      "url": "https://github.com/MingoDynasty/Corporate-Serf-Dashboard/pull/159",
+      "seen_at": "2026-07-19T11:04:42Z",
+      "summary": "A Claude Code/Fable 5 Windows installer and updater uses token-and-SHA health promotion, then exercises fresh install, rollback, kill, fail-open, schema, and archive-fallback scenarios; 621 tests and the public Windows job pass."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/3749",
+      "seen_at": "2026-07-19T11:04:42Z",
+      "summary": "T3 Code's Fable-reviewed SSH OAuth flow adds pasted PKCE authorization and optional pinned systemd service setup; review passes found systemd, CSRF, and credential-refresh issues, with production redirect registration still pending."
+    },
+    {
+      "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2265",
+      "seen_at": "2026-07-19T11:04:42Z",
+      "summary": "A Fable 5-authored 22-file time-validity repair canonicalizes RFC 3339 values to UTC microseconds across SQLite and Postgres to prevent bytewise timestamp misordering, with 460 regression-test lines."
     }
   ],
-  "last_run": "2026-07-19T10:01:10Z"
+  "last_run": "2026-07-19T11:04:42Z"
 }
