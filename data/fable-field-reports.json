@@ -6986,7 +6986,22 @@
       "url": "https://github.com/zarbopiero963-droid/SANZY-POKER/pull/19",
       "seen_at": "2026-07-19T08:54:40Z",
       "summary": "A Claude Code/Fable workflow fixes a poker HUD rebuild that caused visible flicker and raise-slider resets; Fable review catches signature omissions before a follow-up, while typecheck, build, and 138 Vitest tests pass pending manual WebGL verification."
+    },
+    {
+      "url": "https://github.com/nonprofittechy/fetch_public_data/pull/2",
+      "seen_at": "2026-07-19T10:01:10Z",
+      "summary": "A Fable 5-authored 959-scenario legal-routing benchmark exposed two FETCH follow-up-context bugs; after repair, post-fix runs reported +181/+220 net expected-label gains and six seeded reruns remained net-positive."
+    },
+    {
+      "url": "https://github.com/nitzzzu/unarc/pull/1",
+      "seen_at": "2026-07-19T10:01:10Z",
+      "summary": "A Fable 5 co-authored Go port of FreeArc unarc adds parallel block decoding and pipelined codec chains, reporting 4.7x-5.2x decode and 36x CRC-test speedups with byte-for-byte reference fixtures."
+    },
+    {
+      "url": "https://github.com/masanami/claude-harness/pull/92",
+      "seen_at": "2026-07-19T10:01:10Z",
+      "summary": "A Fable 5 co-authored Claude workflow-runtime repair followed four live self-review runs that found five contract failures, converged from five to zero findings across 16 agents, and added regression tests for argument/schema/terminal-failure handling."
     }
   ],
-  "last_run": "2026-07-19T08:54:40Z"
+  "last_run": "2026-07-19T10:01:10Z"
 }
