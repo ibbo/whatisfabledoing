@@ -6921,7 +6921,22 @@
       "url": "https://github.com/haotool/app/issues/781",
       "seen_at": "2026-07-19T04:34:02Z",
       "summary": "Independent Sonnet and Fable final-review passes found PaperTrade’s high-leverage stop-loss slider exposes return values liquidation will preempt, leaving an unmarked mathematically unreachable range."
+    },
+    {
+      "url": "https://github.com/choisungwook/obsidian-plugins/pull/1",
+      "seen_at": "2026-07-19T05:39:33Z",
+      "summary": "A merged Claude Fable 5 co-authored Obsidian plugin synchronizes Markdown vaults to Notion with SHA-256 reconciliation, creates/updates/archives, secure local state, OAuth, throttling, and a passing public test check."
+    },
+    {
+      "url": "https://github.com/mblauberg/provenant/issues/304",
+      "seen_at": "2026-07-19T05:39:33Z",
+      "summary": "A registered Fable peer completed a 25-minute, 139-turn review before its MCP answer channel remained terminal for 35 minutes; the linked draft repair adds timeout reconnect and fail-closed replay rules."
+    },
+    {
+      "url": "https://github.com/mblauberg/provenant/pull/329",
+      "seen_at": "2026-07-19T05:39:33Z",
+      "summary": "The linked Agent Fabric timeout-recovery draft reconnects terminal transports, replays only provably safe work, and reports passing focused, harness, workspace, evaluation/load, audit, and GitHub CI gates while review remains pending."
     }
   ],
-  "last_run": "2026-07-19T04:34:02Z"
+  "last_run": "2026-07-19T05:39:33Z"
 }
