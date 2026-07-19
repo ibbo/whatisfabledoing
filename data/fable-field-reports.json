@@ -6846,7 +6846,22 @@
       "url": "https://github.com/isseis/go-safe-cmd-runner/pull/865",
       "seen_at": "2026-07-18T23:10:43Z",
       "summary": "A Fable-based security audit of 17 go-safe-cmd-runner components recorded 2 high, 46 medium, 61 low, and 65 informational findings, including two fail-open paths; the 19-file report was merged."
+    },
+    {
+      "url": "https://github.com/RxFit/hub-overlay/pull/116",
+      "seen_at": "2026-07-19T00:14:16Z",
+      "summary": "RxFit reports Claude Fable 5 silently producing a clean zero-text completion on an EXA-backed research request when thinking exhausted a 4,096-token limit; the repair raises the budget and makes empty completions fall through to a backup model."
+    },
+    {
+      "url": "https://github.com/zeerebel/whisperx_caption/pull/31",
+      "seen_at": "2026-07-19T00:14:16Z",
+      "summary": "A Fable-assisted multi-model audit of whisperx_caption confirmed five export/rendering defects, including malformed ASS rows, a 65,535-entry ZIP boundary failure, crop-band clipping, an ffmpeg.wasm leak, and stale cancellation status."
+    },
+    {
+      "url": "https://github.com/0xHoneyJar/loa/issues/1227",
+      "seen_at": "2026-07-19T00:14:16Z",
+      "summary": "A governed Fable/Cursor/Codex review council falsely approved an exit-zero Cursor prose response as a clean 3/3 vote before schema validation; the same probe found a timed-out Fable child surviving until manually killed."
     }
   ],
-  "last_run": "2026-07-18T23:10:43Z"
+  "last_run": "2026-07-19T00:14:16Z"
 }
