@@ -6936,7 +6936,22 @@
       "url": "https://github.com/mblauberg/provenant/pull/329",
       "seen_at": "2026-07-19T05:39:33Z",
       "summary": "The linked Agent Fabric timeout-recovery draft reconnects terminal transports, replays only provably safe work, and reports passing focused, harness, workspace, evaluation/load, audit, and GitHub CI gates while review remains pending."
+    },
+    {
+      "url": "https://github.com/GeyserMC/Geyser/pull/6560",
+      "seen_at": "2026-07-19T06:45:14Z",
+      "summary": "ThioJoe reports asking Fable 5 to implement a Geyser bamboo-collision fix, then personally testing a 145-line path meant to reduce teleporting between stems; the open PR's visible build check passed."
+    },
+    {
+      "url": "https://github.com/LegionForge/convobox/pull/96",
+      "seen_at": "2026-07-19T06:45:14Z",
+      "summary": "A live ConvoBox UAT branch attributed to Claude Code with Fable 5 repaired a voice-session question deadlock, added calibration and release artifacts, and merged with 673 reported passing tests plus visible quality/security checks succeeding."
+    },
+    {
+      "url": "https://github.com/cafein-py/beanpicker/pull/5",
+      "seen_at": "2026-07-19T06:45:14Z",
+      "summary": "A Beanpicker validation slice credits Fable 5 and Codex for 17-file GTFS field validation and 30 referential-integrity rules, reporting 39 Rust, 51 Python, and cross-platform CI checks passing."
     }
   ],
-  "last_run": "2026-07-19T05:39:33Z"
+  "last_run": "2026-07-19T06:45:14Z"
 }
