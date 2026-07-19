@@ -6886,7 +6886,22 @@
       "url": "https://github.com/yashneil75/gitlord/pull/1",
       "seen_at": "2026-07-19T02:25:28Z",
       "summary": "A Gitlord contributor used Fable for a concurrent stress test that found 62% turn loss and 10/15 subagent-drain losses; the proposed regression-tested fixes report zero lost turns and 15/15 drained results."
+    },
+    {
+      "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/106",
+      "seen_at": "2026-07-19T03:29:31Z",
+      "summary": "A Fable 5 verifier reproduced K8s sandbox WriteFile success after only 32 KiB of a 1 MiB payload landed, while a stream-counting repair passed 5/5 live kind retries and failed 5/5 reverted retries."
+    },
+    {
+      "url": "https://github.com/AtalayaLabs/OxiCloud/pull/620",
+      "seen_at": "2026-07-19T03:29:31Z",
+      "summary": "A Fable 5 co-authored OxiCloud performance round adds before/after plus equivalence harnesses and reports indexed search, blob-cache, serializer, and media-path gains while retaining a rejected noise-level optimization."
+    },
+    {
+      "url": "https://github.com/gasyoun/kosha/pull/139",
+      "seen_at": "2026-07-19T03:29:31Z",
+      "summary": "A Fable 5 handoff built a 106-entry beginner Sanskrit reader from 7,537 public-domain sayings, with reproducible grading, a 144-row curation reject log, sandhi and metre annotations, web reader, and Anki deck."
     }
   ],
-  "last_run": "2026-07-19T02:25:28Z"
+  "last_run": "2026-07-19T03:29:31Z"
 }
