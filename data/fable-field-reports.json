@@ -7141,7 +7141,42 @@
       "url": "https://github.com/jax-ml/jax/issues/39289",
       "seen_at": "2026-07-19T20:44:44Z",
       "summary": "A human-edited Fable 5 JAX issue separated genuine JIT tracing from C++ fast-path misses that falsely tripped no_tracing(), with a follow-up regression fix reported as passing existing tests."
+    },
+    {
+      "url": "https://github.com/jorio/gitfourchette/issues/126",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "A Fable 5 low-effort code and security review of GitFourchette produced four focused public fix PRs for stash deletion, LFS EOF hangs, malformed status parsing, and Windows binary-patch writes."
+    },
+    {
+      "url": "https://github.com/jorio/gitfourchette/pull/122",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "Companion GitFourchette fix from a Fable 5 review: dropping or applying-and-deleting a stash no longer fails when the optional trash feature is disabled."
+    },
+    {
+      "url": "https://github.com/jorio/gitfourchette/pull/123",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "Companion GitFourchette fix from a Fable 5 review: the application closes child stdin after writing so git-lfs smudge can receive EOF instead of hanging."
+    },
+    {
+      "url": "https://github.com/jorio/gitfourchette/pull/124",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "Companion GitFourchette fix from a Fable 5 review: malformed or unknown Git status records no longer cause a parser loop or match-related crash."
+    },
+    {
+      "url": "https://github.com/jorio/gitfourchette/pull/125",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "Companion GitFourchette fix from a Fable 5 review: patch exports explicitly use UTF-8 and LF line endings to avoid Windows encoding errors and corrupt binary patch payloads."
+    },
+    {
+      "url": "https://github.com/ProfessionalWiki/Maps/pull/925",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "Fable 5 designed and briefed a merged MediaWiki Maps JSON Leaflet-config feature, implemented by Opus 4.8 with 370 locally reported PHPUnit tests, mutation checks, an attribution-sanitizer fuzz pass, and green visible checks."
+    },
+    {
+      "url": "https://github.com/CuriosityOS/betterwright/issues/29",
+      "seen_at": "2026-07-19T21:50:31Z",
+      "summary": "A Betterwright user used Fable 5 to diagnose an IPv6-literal and DNS-failure SOCKS retry storm that saturated a CPU core at thousands of failures per second on an IPv4-only host."
     }
   ],
-  "last_run": "2026-07-19T20:44:44Z"
+  "last_run": "2026-07-19T21:50:31Z"
 }
