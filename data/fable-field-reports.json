@@ -7081,7 +7081,22 @@
       "url": "https://github.com/wrburgess/bryce/pull/1",
       "seen_at": "2026-07-19T16:27:12Z",
       "summary": "wrburgess used Claude Code with Fable 5 to establish a TypeScript/SQLite/MCP-first daily baseball digest project, vendoring a nine-skill agent configuration and recording architecture choices; its parity checks passed."
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/pull/245",
+      "seen_at": "2026-07-19T17:30:55Z",
+      "summary": "A senpi user reproduced Fable 5 refusing compacted 341,658-token serialized transcripts; native message blocks fixed the exact real-CLI case, which compacted in 52.4 seconds with focused tests and cross-platform CI passing."
+    },
+    {
+      "url": "https://github.com/warwickallan/Fusion247PKA/pull/38",
+      "seen_at": "2026-07-19T17:30:55Z",
+      "summary": "Fable 5 and Codex adversarially reviewed a development-only PostgreSQL control-plane migration through five rounds, ending in dual approval after 25/25 real database subtests and green visible checks."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13151",
+      "seen_at": "2026-07-19T17:30:55Z",
+      "summary": "An agent-authored Claude Code/Fable 5 pnpm Rust-port PR implements repeat-install repair, promotes 22 known-failing test ports, and has major Rust CI, security, formatting, lint, docs, and benchmark checks passing while some jobs remain in progress."
     }
   ],
-  "last_run": "2026-07-19T16:27:12Z"
+  "last_run": "2026-07-19T17:30:55Z"
 }
