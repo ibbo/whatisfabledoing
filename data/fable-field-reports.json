@@ -7411,7 +7411,27 @@
       "url": "https://github.com/antiwork/gumroad-mobile/pull/317",
       "seen_at": "2026-07-20T13:06:22Z",
       "summary": "A Fable 5 Sentry-webhook agent traced 1,019 mostly false iOS app-hang reports to background/OS activity, switched to Sentry’s v2 detector, and added focused regression tests."
+    },
+    {
+      "url": "https://github.com/scipy/scipy/issues/25667",
+      "seen_at": "2026-07-20T14:10:20Z",
+      "summary": "A Claude Fable 5 investigation found and modeled a SciPy 1.17 df=1 Student-t CDF accuracy regression near zero, with a precise reproducer and a proposed numerically stable Boost-path alternative."
+    },
+    {
+      "url": "https://github.com/mne-tools/mne-python/pull/14071",
+      "seen_at": "2026-07-20T14:10:20Z",
+      "summary": "Eric Larson reports using Claude Fable 5 and Opus 4.8 to investigate and draft an MNE-Python BEM solver tolerance/cache change that reduces a fit from about one second to under 100 ms."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/72302",
+      "seen_at": "2026-07-20T14:10:20Z",
+      "summary": "A human-directed Claude Code Fable 5 session implemented PostHog managed-warehouse team onboarding with schema ownership, dual writes, legacy-team migration, deletion safeguards, and detailed automated tests."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79432",
+      "seen_at": "2026-07-20T14:10:20Z",
+      "summary": "A Claude Code user reports Fable 5 creating a worktree branch that tracked origin/main, allowing an ordinary IDE push to bypass PR review and trigger production artifact publishing; the issue includes a reproduction."
     }
   ],
-  "last_run": "2026-07-20T13:06:22Z"
+  "last_run": "2026-07-20T14:10:20Z"
 }
