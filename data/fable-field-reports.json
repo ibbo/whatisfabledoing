@@ -7301,7 +7301,27 @@
       "url": "https://github.com/antiwork/gumroad/pull/6004",
       "seen_at": "2026-07-20T06:32:30Z",
       "summary": "A Gumroad Sentry webhook routed 19,120 malformed-multipart errors to Claude Fable 5, which reproduced the Rack::Attack 500 path and opened a focused regression-tested rescue fix; broader CI remained in progress."
+    },
+    {
+      "url": "https://github.com/littlebearapps/untether/issues/659",
+      "seen_at": "2026-07-20T07:37:38Z",
+      "summary": "Live Fable 5 testing exposed a four-deny ExitPlanMode loop in Untether's outline gate; a plan-input fix completed the same flow in about 80 seconds with three regression tests."
+    },
+    {
+      "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/116",
+      "seen_at": "2026-07-20T07:37:38Z",
+      "summary": "A Claude Code/Fable 5 PR makes ContinuousDPs.jl reject bad shock-weight lengths at construction, closes an implicit-constructor validation bypass, and has visible cross-platform and nightly Julia checks green."
+    },
+    {
+      "url": "https://github.com/Micka420-collab/vibeos/pull/140",
+      "seen_at": "2026-07-20T07:37:38Z",
+      "summary": "A Fable-generated VibeOS deployment-inspection tool uses allowlisted targets, sealed environment credentials, restricted egress, and opaque outputs; 224 library and three integration tests are reported green while human review remains required."
+    },
+    {
+      "url": "https://github.com/gasyoun/Systema-Sanscriticum/pull/609",
+      "seen_at": "2026-07-20T07:37:38Z",
+      "summary": "A Fable 5 execution lane reshaped a school platform's referral feature across dashboard, confirmed-payment, and referral-landing surfaces; the author reports 1,729 passing tests and six new feature tests."
     }
   ],
-  "last_run": "2026-07-20T06:32:30Z"
+  "last_run": "2026-07-20T07:37:38Z"
 }
