@@ -7381,7 +7381,22 @@
       "url": "https://github.com/antiwork/gumroad/pull/6038",
       "seen_at": "2026-07-20T10:55:56Z",
       "summary": "A Gumroad Fable 5 webhook agent investigated 101 truncated streamed-tool-call errors, attributed them to gateway fragment loss, and added bounded retry handling with 68 focused specs reported passing."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13172",
+      "seen_at": "2026-07-20T12:00:46Z",
+      "summary": "A Claude Code agent using Fable 5 replaced eight pacquet known-failure stubs with parity implementations and tests, while documenting two remaining install-path and hoisted-linker follow-ups."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad-mobile/pull/316",
+      "seen_at": "2026-07-20T12:00:46Z",
+      "summary": "A Gumroad Sentry webhook sent Fable 5 to diagnose 38,000 concurrent Expo Sharing rejections, producing an app-wide guard, 28 targeted passing tests, and successful visible checks."
+    },
+    {
+      "url": "https://github.com/hsma-tools/lokigi/issues/120",
+      "seen_at": "2026-07-20T12:00:46Z",
+      "summary": "A Fable 5/Sonnet 5 review identified five copies of cost-ranking direction logic and explained the all-NaN no-op case that had caused repeated wrong-sort fixes."
     }
   ],
-  "last_run": "2026-07-20T10:55:56Z"
+  "last_run": "2026-07-20T12:00:46Z"
 }
