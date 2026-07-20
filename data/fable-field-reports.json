@@ -7281,7 +7281,27 @@
       "url": "https://github.com/tensor4all/tenferro-rs/issues/1426",
       "seen_at": "2026-07-20T05:27:21Z",
       "summary": "At a maintainer's request, Claude Fable 5 made a pinned-commit static audit of tenferro-rs and mapped repeated-work risks across einsum planning, cuTENSOR plans, GPU syncs, graph scheduling, copies, and batched CPU GEMM. Maintainers refined the parallelism proposal and assigned architecture owners, while the report correctly labels its findings as benchmark targets rather than measured regressions."
+    },
+    {
+      "url": "https://github.com/toobuntu/blackoutd/pull/29",
+      "seen_at": "2026-07-20T06:32:30Z",
+      "summary": "With Claude Fable 5 High assisting, a blackoutd maintainer documented 94 paired Mac-display wake runs, found a WindowServer marker in 56/56 black wakes and 0/33 clean wakes, and added guarded automatic recovery."
+    },
+    {
+      "url": "https://github.com/yukiyokotani/office-open-xml-viewer/pull/1060",
+      "seen_at": "2026-07-20T06:32:30Z",
+      "summary": "Claude Fable 5 reviewed a DOCX floating-table layout refactor, caught two blockers before merge, and helped validate a 21-file change with 2,609 DOCX tests, 5,536 repository tests, and 90 mutation tests reported passing."
+    },
+    {
+      "url": "https://github.com/ferrum-edge/ferrum-edge/pull/2760",
+      "seen_at": "2026-07-20T06:32:30Z",
+      "summary": "Fable 5 High independently reviewed a gRPC trailers-only/RST_STREAM race fix, found one medium rationale issue and two low coverage/scope concerns, and the revised branch reports 43 hosted check successes and seven intentional skips."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6004",
+      "seen_at": "2026-07-20T06:32:30Z",
+      "summary": "A Gumroad Sentry webhook routed 19,120 malformed-multipart errors to Claude Fable 5, which reproduced the Rack::Attack 500 path and opened a focused regression-tested rescue fix; broader CI remained in progress."
     }
   ],
-  "last_run": "2026-07-20T05:27:21Z"
+  "last_run": "2026-07-20T06:32:30Z"
 }
