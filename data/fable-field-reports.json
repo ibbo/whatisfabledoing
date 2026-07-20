@@ -7211,7 +7211,27 @@
       "url": "https://github.com/shushuo/masters/pull/6",
       "seen_at": "2026-07-20T01:03:57Z",
       "summary": "Fable 5 co-authored a merged forward-only paper-trading simulation lab that separates model allocation reasoning from deterministic portfolio settlement, with offline integration coverage and a successful public fmt/clippy/build/test check."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3738",
+      "seen_at": "2026-07-20T02:09:46Z",
+      "summary": "A Fable 5 mux session repaired stale task_await terminal states after an agent self-healed through retry, with six behavioral tests and mixed visible CI: macOS/Windows checks passed, visual regression failed, and several jobs remained in progress."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5980",
+      "seen_at": "2026-07-20T02:09:46Z",
+      "summary": "Gumroad's autonomous Fable 5 agent added alphabetical creator filtering and creator-name search for a buyer library with more than 94 purchases, with regression specs and a hosted-preview demonstration."
+    },
+    {
+      "url": "https://github.com/sgktmk/chill_scenes/pull/32",
+      "seen_at": "2026-07-20T02:09:46Z",
+      "summary": "Fable co-authored a zero-dependency PNG-to-layered-scene pipeline with unified palette cutouts, stateful sprites, end-to-end Node self-tests, a headless-Chromium check, and a successful Vercel preview."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/775",
+      "seen_at": "2026-07-20T02:09:46Z",
+      "summary": "Fable co-authored SchemaBot's PR-visible warning for schema configurations outside allowed directories, with rendering and end-to-end coverage and 30 successful visible checks on the inspected head."
     }
   ],
-  "last_run": "2026-07-20T01:03:57Z"
+  "last_run": "2026-07-20T02:09:46Z"
 }
