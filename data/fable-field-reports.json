@@ -7361,7 +7361,27 @@
       "url": "https://github.com/Farhaan96/trends-today/pull/17",
       "seen_at": "2026-07-20T09:49:50Z",
       "summary": "An exact-SHA Fable 5 review found no blockers in a draft publishing pipeline that removes fabricated monetization outputs, makes commercial claims owner-gated, and reports 59 pipeline tests plus a successful preview check."
+    },
+    {
+      "url": "https://github.com/agent-of-empires/agent-of-empires/pull/3005",
+      "seen_at": "2026-07-20T10:55:56Z",
+      "summary": "Claude Code with Fable 5 reproduced a 30ms tmux geometry bounce caused by a transient toast, then added a two-refresh debounce and focused regression tests; broader integration jobs remain in progress."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6482",
+      "seen_at": "2026-07-20T10:55:56Z",
+      "summary": "A Fable 5-authored OWID skill records per-step wall/active time and transcript-derived token usage, tested across a 444-request session and a 380-request, 12-subagent real dataset update."
+    },
+    {
+      "url": "https://github.com/jleechanorg/dark-factory/pull/389",
+      "seen_at": "2026-07-20T10:55:56Z",
+      "summary": "A Fable co-authored Rust detector flags five classes of vacuous tests; a red proof made three tests fail when detection was stubbed, and the merged PR’s test, daemon-test, and evidence-gate checks succeeded."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6038",
+      "seen_at": "2026-07-20T10:55:56Z",
+      "summary": "A Gumroad Fable 5 webhook agent investigated 101 truncated streamed-tool-call errors, attributed them to gateway fragment loss, and added bounded retry handling with 68 focused specs reported passing."
     }
   ],
-  "last_run": "2026-07-20T09:49:50Z"
+  "last_run": "2026-07-20T10:55:56Z"
 }
