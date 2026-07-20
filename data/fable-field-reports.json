@@ -7491,7 +7491,22 @@
       "url": "https://github.com/stablyai/orca/pull/9499",
       "seen_at": "2026-07-20T18:31:16Z",
       "summary": "A Fable 5-authored Orca repair preserves Claude sessions’ start directories so resume commands no longer fail after a mid-session cwd change; the source includes a red-to-green transcript regression."
+    },
+    {
+      "url": "https://github.com/kesslerio/dialpad-openclaw-skill/pull/127",
+      "seen_at": "2026-07-20T19:35:50Z",
+      "summary": "A Fable 5 Claude Code debugging session repaired Dialpad contact upserts that overwrote phone lists, with 696 tests and a live production rerun restoring the dropped-number lookup."
+    },
+    {
+      "url": "https://github.com/QR-Madness/agentx/pull/50",
+      "seen_at": "2026-07-20T19:35:50Z",
+      "summary": "A Fable 5-assisted AgentX test repair removes a stale media-resolver alias, turns 1,075 branch tests green, and preserves a route-format exception without restoring retired UI wording."
+    },
+    {
+      "url": "https://github.com/osism/ovn-network-agent/issues/216",
+      "seen_at": "2026-07-20T19:35:50Z",
+      "summary": "A Fable 5-assisted OVN chaos investigation uses a replay and timestamped FRR logs to show a Docker reincarnation erasing network repairs, with a concrete entrypoint-hardening proposal."
     }
   ],
-  "last_run": "2026-07-20T18:31:16Z"
+  "last_run": "2026-07-20T19:35:50Z"
 }
