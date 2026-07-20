@@ -7196,7 +7196,22 @@
       "url": "https://github.com/yyyyynny/kIkI/pull/19",
       "seen_at": "2026-07-19T23:59:22Z",
       "summary": "Fable co-authored a merged Android IME detector repair that reads observed settings rather than stale platform state, adds slow-propagation confirmation probes, and passed public unit/build/lint jobs."
+    },
+    {
+      "url": "https://github.com/rodmen07/infraportal/pull/31",
+      "seen_at": "2026-07-20T01:03:57Z",
+      "summary": "Fable 5 co-authored a merged Infraportal token pass that fixes five ghost surface classes and the dark-to-light first-load flash, with 383 reported tests and visible type-check, lint, and unit jobs succeeding."
+    },
+    {
+      "url": "https://github.com/zkysar1/Zak-Code/pull/128",
+      "seen_at": "2026-07-20T01:03:57Z",
+      "summary": "Fable 5 co-authored Zak-Code provider-error backoff hardening after a live decommission incident triggered 1,941 rapid retries, with two regressions and 2,417 locally reported tests."
+    },
+    {
+      "url": "https://github.com/shushuo/masters/pull/6",
+      "seen_at": "2026-07-20T01:03:57Z",
+      "summary": "Fable 5 co-authored a merged forward-only paper-trading simulation lab that separates model allocation reasoning from deterministic portfolio settlement, with offline integration coverage and a successful public fmt/clippy/build/test check."
     }
   ],
-  "last_run": "2026-07-19T23:59:22Z"
+  "last_run": "2026-07-20T01:03:57Z"
 }

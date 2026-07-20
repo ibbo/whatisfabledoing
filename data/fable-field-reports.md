@@ -4396,3 +4396,14 @@ A Fable co-authored BoxLang change adds an `obfuscate` CLI action for turning CF
 
 ### [An Android IME detector stops trusting a stale platform value](https://github.com/yyyyynny/kIkI/pull/19) — yyyyynny
 Fable co-authored a merged repair for an Android input-method switcher that could flicker twice or swallow quick Korean-to-English-to-Korean changes. The new detector derives input state from the settings values its observer actually watches, confirms no-change readings after 200 and 400 milliseconds for slow propagation, and keeps the echo guard only for fallback hints rather than applying broad cooldowns. The same 36-file branch refreshed the app screens without changing the settings surface; the public unit-test and build/lint jobs passed.
+
+## 2026-07-20
+
+### [Five ghost surfaces and a first-load theme flash fixed](https://github.com/rodmen07/infraportal/pull/31) — rodmen07
+A merged Fable 5 co-authored Infraportal change turns five previously missing or one-theme-only surface classes into semantic CSS tokens for both light and dark modes. It also fixes the first-load flash caused by `index.html` booting dark while React defaulted to light, and adds regression tests that compare the two boot paths and scan every audited use site. The author reports 383 tests across 38 files, while the visible type-check, lint, and unit-test jobs succeeded.
+
+### [A provider error loop stops retrying every 1.6 seconds](https://github.com/zkysar1/Zak-Code/pull/128) — zkysar1
+After Groq removed `qwen3-32b`, Zak-Code’s agent driver encountered 1,941 provider-error retries at roughly 1.6-second intervals, creating a 1.1 MB session of resume prompts without a journal entry. Fable 5 co-authored a fix that compounds the delay only on healthy-stop absence, jumps to the configured cap after five consecutive provider errors, logs each occurrence, and retains metadata for historical sessions while registering the successor model. The open PR adds two regression tests and reports 2,417 tests passing locally.
+
+### [A paper-trading lab keeps model reasoning separate from settlement](https://github.com/shushuo/masters/pull/6) — mastersatshushuo
+Fable 5 co-authored a merged forward-only simulation lab in which configured “masters” explain target allocations, while a deterministic engine—not the model—enforces constraints, values portfolios, and rebalances against one recorded end-of-day quote snapshot. The 5,000-plus-line branch adds isolated simulation tables, concurrent round claiming, read-only master runs, scheduled rounds, an explicit benchmark line, API and desktop views, and offline end-to-end tests for market movement, unparsed reasoning, and scheduled execution. Its public `fmt · clippy · build · test` check succeeded.
