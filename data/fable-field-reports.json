@@ -7346,7 +7346,22 @@
       "url": "https://github.com/zorkian/roundhouse/pull/341",
       "seen_at": "2026-07-20T08:44:43Z",
       "summary": "A Pi integration exposed a Fable 5 rejection of legacy thinking parameters, then adopted Anthropic’s adaptive-thinking request shape; the merged fix reports 145 tests and successful visible check and deployment jobs."
+    },
+    {
+      "url": "https://github.com/relux-works/barycenter/pull/299",
+      "seen_at": "2026-07-20T09:49:50Z",
+      "summary": "A 49-turn Claude Fable 5 exact-SHA review accepted an encrypted-media engineering evidence pack after recomputing lineage and hashes; its 16-stage harness reported 256 acceptance tests and 356 Swift tests, while real-world E2EE gates remain explicitly open."
+    },
+    {
+      "url": "https://github.com/nyldn/claude-octopus/pull/654",
+      "seen_at": "2026-07-20T09:49:50Z",
+      "summary": "A Claude Octopus maintainer used a live four-provider dispatch to validate Fable 5-primary review routing on Windows, with scoped Opus fallback and regressions for configuration, retries, and concurrent capture-file isolation."
+    },
+    {
+      "url": "https://github.com/Farhaan96/trends-today/pull/17",
+      "seen_at": "2026-07-20T09:49:50Z",
+      "summary": "An exact-SHA Fable 5 review found no blockers in a draft publishing pipeline that removes fabricated monetization outputs, makes commercial claims owner-gated, and reports 59 pipeline tests plus a successful preview check."
     }
   ],
-  "last_run": "2026-07-20T08:44:43Z"
+  "last_run": "2026-07-20T09:49:50Z"
 }
