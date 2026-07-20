@@ -7526,7 +7526,22 @@
       "url": "https://github.com/cafein-py/transitio/pull/20",
       "seen_at": "2026-07-20T20:41:38Z",
       "summary": "A transitio PR assisted by Fable 5 and GPT-5.6 adds GTFS shapes plus OSM network snapping, with a real Helsinki fixture and all public lint and OS/Python matrix checks green."
+    },
+    {
+      "url": "https://github.com/scikit-build/scikit-build/pull/1185",
+      "seen_at": "2026-07-20T21:46:12Z",
+      "summary": "Henry Schreiner's Fable 5-produced scikit-build migration replaces roughly 3,700 legacy backend lines, then uses downstream A/B builds, a 167-repository census, and compatibility shims to find and address migration gaps."
+    },
+    {
+      "url": "https://github.com/andysolomon/arc-orchestrator/pull/224",
+      "seen_at": "2026-07-20T21:46:12Z",
+      "summary": "A Fable 5 retry-storm report led to an arc-orchestrator policy that records or caps per-label fallback retries, with byte-identical default behavior and 574 reported repository tests."
+    },
+    {
+      "url": "https://github.com/PittampalliOrg/workflow-builder/pull/763",
+      "seen_at": "2026-07-20T21:46:12Z",
+      "summary": "A Fable 5 co-authored workflow-builder repair flattens deep trace trees after a live execution exposed a depth-12 MCP redaction limit; the merged public checks are green."
     }
   ],
-  "last_run": "2026-07-20T20:41:38Z"
+  "last_run": "2026-07-20T21:46:12Z"
 }
