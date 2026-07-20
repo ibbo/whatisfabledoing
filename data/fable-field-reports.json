@@ -7321,7 +7321,32 @@
       "url": "https://github.com/gasyoun/Systema-Sanscriticum/pull/609",
       "seen_at": "2026-07-20T07:37:38Z",
       "summary": "A Fable 5 execution lane reshaped a school platform's referral feature across dashboard, confirmed-payment, and referral-landing surfaces; the author reports 1,729 passing tests and six new feature tests."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6026",
+      "seen_at": "2026-07-20T08:44:43Z",
+      "summary": "A Gumroad Fable 5 webhook agent narrowed 26 checkout overflow alerts to expected validation failures, added a classifier that preserves mixed-error reporting, and shipped a merged fix with focused regressions and successful visible tests."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6451",
+      "seen_at": "2026-07-20T08:44:43Z",
+      "summary": "Fable 5 co-authored OWID’s adversarial data-review workflow, whose first production run found an unchanged-version source revision affecting about 6,800 cells; documented smoke tests and visible build and security checks succeeded."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6474",
+      "seen_at": "2026-07-20T08:44:43Z",
+      "summary": "Fable 5 wrote an OWID metadata-diff prototype that traces rendered text changes across 44 poverty-data views and tests the site’s array-replacement merge behavior; its visible build and security checks succeeded."
+    },
+    {
+      "url": "https://github.com/GBrooks1970/bfx-ws-screenplay/pull/10",
+      "seen_at": "2026-07-20T08:44:43Z",
+      "summary": "A Claude Fable 5 re-review verified seven earlier Bitfinex WebSocket findings as fixed, found an unchecked acknowledgement cast and smaller hygiene gaps, and documented green type, lint, proof, audit, and live-API checks."
+    },
+    {
+      "url": "https://github.com/zorkian/roundhouse/pull/341",
+      "seen_at": "2026-07-20T08:44:43Z",
+      "summary": "A Pi integration exposed a Fable 5 rejection of legacy thinking parameters, then adopted Anthropic’s adaptive-thinking request shape; the merged fix reports 145 tests and successful visible check and deployment jobs."
     }
   ],
-  "last_run": "2026-07-20T07:37:38Z"
+  "last_run": "2026-07-20T08:44:43Z"
 }
