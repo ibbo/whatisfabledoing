@@ -7541,7 +7541,22 @@
       "url": "https://github.com/PittampalliOrg/workflow-builder/pull/763",
       "seen_at": "2026-07-20T21:46:12Z",
       "summary": "A Fable 5 co-authored workflow-builder repair flattens deep trace trees after a live execution exposed a depth-12 MCP redaction limit; the merged public checks are green."
+    },
+    {
+      "url": "https://github.com/ForumHFR/redface2/pull/968",
+      "seen_at": "2026-07-20T22:52:36Z",
+      "summary": "A Fable 5 image-interaction change for Redface2 adds link-safe gestures, accessibility coverage, a four-host test matrix, and author-reported Docker plus connected-device validation."
+    },
+    {
+      "url": "https://github.com/csm/corium/pull/27",
+      "seen_at": "2026-07-20T22:52:36Z",
+      "summary": "A Fable co-authored Corium point-in-time database-fork PR adds restart-tested forks that diverge safely from a selected source transaction basis."
+    },
+    {
+      "url": "https://github.com/averagejoematt/life-platform/pull/1604",
+      "seen_at": "2026-07-20T22:52:36Z",
+      "summary": "A Fable co-authored life-platform maintenance PR adds model-label completeness, suite-duration, and gate-ownership checks with 34 targeted tests and documented full-suite results."
     }
   ],
-  "last_run": "2026-07-20T21:46:12Z"
+  "last_run": "2026-07-20T22:52:36Z"
 }
