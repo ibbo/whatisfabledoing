@@ -7231,7 +7231,27 @@
       "url": "https://github.com/block/schemabot/pull/775",
       "seen_at": "2026-07-20T02:09:46Z",
       "summary": "Fable co-authored SchemaBot's PR-visible warning for schema configurations outside allowed directories, with rendering and end-to-end coverage and 30 successful visible checks on the inspected head."
+    },
+    {
+      "url": "https://github.com/dosbox-staging/dosbox-staging/pull/4991",
+      "seen_at": "2026-07-20T03:18:13Z",
+      "summary": "DOSBox Staging maintainer John Novák used Fable on xhigh to isolate a 20-year-old DOS file-I/O timing bug behind high-cycle startup crashes in five CD-era games, with instrumentation showing the old slice cap skipped 76–97% of nominal delay and an A/B fix that made Ishar 3 deterministic above 35k cycles in both renderer modes."
+    },
+    {
+      "url": "https://github.com/ForumHFR/redface2/pull/964",
+      "seen_at": "2026-07-20T03:18:13Z",
+      "summary": "Claude Fable 5 implemented a pure AST-based media segmentation policy for Redface2, backed by 34 unit tests and 14 tests against an anonymized real forum-topic fixture; the merged PR had successful build, lint, test, detekt, assemble, and repository-guard checks."
+    },
+    {
+      "url": "https://github.com/KirkDiggler/rpg-api/pull/675",
+      "seen_at": "2026-07-20T03:18:13Z",
+      "summary": "A Fable 5 co-authored and merged RPG API repair adds a host-only abandonment path for otherwise terminally stuck encounters, with 12 new orchestrator/handler tests, a full green Go suite, and an end-to-end isolated-stack playtest covering live abandonment, server-push notification, and a fresh lobby after cleanup."
+    },
+    {
+      "url": "https://github.com/capt-pancakes/loop/pull/5",
+      "seen_at": "2026-07-20T03:18:13Z",
+      "summary": "A merged Fable 5 co-authored puzzle-generator change replaces an ambiguity gate that forced every generated ring to maximum hidden-link difficulty, restoring a 6/9/6 easy-medium-hard pool and a weekday-specific publishing schedule; both visible test checks succeeded."
     }
   ],
-  "last_run": "2026-07-20T02:09:46Z"
+  "last_run": "2026-07-20T03:18:13Z"
 }
