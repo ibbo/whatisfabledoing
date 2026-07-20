@@ -7556,7 +7556,27 @@
       "url": "https://github.com/averagejoematt/life-platform/pull/1604",
       "seen_at": "2026-07-20T22:52:36Z",
       "summary": "A Fable co-authored life-platform maintenance PR adds model-label completeness, suite-duration, and gate-ownership checks with 34 targeted tests and documented full-suite results."
+    },
+    {
+      "url": "https://github.com/Saivineeth147/lora-speedrun/pull/11",
+      "seen_at": "2026-07-20T23:57:33Z",
+      "summary": "A Fable 5-built LoRA speedrun was independently rerun on three fresh L40S seeds, accepted at a 104.0-second mean and 3/3 accuracy passes."
+    },
+    {
+      "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/119",
+      "seen_at": "2026-07-20T23:57:33Z",
+      "summary": "A Claude Code/Fable 5 PR splits ContinuousDPs.jl transition kernels into general and fast structured tiers while retaining harness result hashes and reported benchmark invariance."
+    },
+    {
+      "url": "https://github.com/MaxHandMade/mhm-rentiva/pull/14",
+      "seen_at": "2026-07-20T23:57:33Z",
+      "summary": "Three Fable audits informed a merged WordPress-plugin compliance repair with 981 reported PHPUnit passes, zero PHPCS errors, and green public PHP checks."
+    },
+    {
+      "url": "https://github.com/dimensionalOS/dimos/pull/3004",
+      "seen_at": "2026-07-20T23:57:33Z",
+      "summary": "A mixed Fable 5/Opus 4.8 xArm teleoperation PR adds brokered command handling, stale-command and E-stop guards, and documents mixed current CI results."
     }
   ],
-  "last_run": "2026-07-20T22:52:36Z"
+  "last_run": "2026-07-20T23:57:33Z"
 }
