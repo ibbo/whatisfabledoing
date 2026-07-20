@@ -7476,7 +7476,22 @@
       "url": "https://github.com/tpsdev-ai/flair/pull/764",
       "seen_at": "2026-07-20T17:25:33Z",
       "summary": "A Fable 5 co-authored Flair repair replaces exit-based child-process capture with close-based capture, addressing a production deploy output race with stress and CI evidence."
+    },
+    {
+      "url": "https://github.com/aeonBTC/IbisWallet/issues/23",
+      "seen_at": "2026-07-20T18:31:16Z",
+      "summary": "An Ibis Wallet user had Fable diagnose a passphrase-only Liquid signing failure as a PSBTv0 field assumption applied to PSETv2, with L-BTC and USDT reproductions."
+    },
+    {
+      "url": "https://github.com/timholy/PenalizedDensity.jl/pull/17",
+      "seen_at": "2026-07-20T18:31:16Z",
+      "summary": "Fable 5 assisted a tail-stable Gaussianizing transport and log-Jacobian implementation for PenalizedDensity.jl, with 429 added implementation and test lines and successful public Julia checks."
+    },
+    {
+      "url": "https://github.com/stablyai/orca/pull/9499",
+      "seen_at": "2026-07-20T18:31:16Z",
+      "summary": "A Fable 5-authored Orca repair preserves Claude sessions’ start directories so resume commands no longer fail after a mid-session cwd change; the source includes a red-to-green transcript regression."
     }
   ],
-  "last_run": "2026-07-20T17:25:33Z"
+  "last_run": "2026-07-20T18:31:16Z"
 }
