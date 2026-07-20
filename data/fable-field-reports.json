@@ -7396,7 +7396,22 @@
       "url": "https://github.com/hsma-tools/lokigi/issues/120",
       "seen_at": "2026-07-20T12:00:46Z",
       "summary": "A Fable 5/Sonnet 5 review identified five copies of cost-ranking direction logic and explained the all-NaN no-op case that had caused repeated wrong-sort fixes."
+    },
+    {
+      "url": "https://github.com/dClimate/jaxray/pull/7",
+      "seen_at": "2026-07-20T13:06:22Z",
+      "summary": "Claude Fable adversarially reviewed a TypedArray, CF-calendar, UTC parsing, and NaN-semantics pass, finding four implementation gaps; the author reports a 7.89 ms 4.19M-float read and 547 passing tests."
+    },
+    {
+      "url": "https://github.com/emdash-cms/emdash/pull/2106",
+      "seen_at": "2026-07-20T13:06:22Z",
+      "summary": "A Fable 5 Claude Code branch migrates EmDash from better-sqlite3 to node:sqlite, preserving RETURNING semantics and avoiding native-binary deployment failures; 4,751 tests and an end-to-end site check are reported."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad-mobile/pull/317",
+      "seen_at": "2026-07-20T13:06:22Z",
+      "summary": "A Fable 5 Sentry-webhook agent traced 1,019 mostly false iOS app-hang reports to background/OS activity, switched to Sentry’s v2 detector, and added focused regression tests."
     }
   ],
-  "last_run": "2026-07-20T12:00:46Z"
+  "last_run": "2026-07-20T13:06:22Z"
 }
