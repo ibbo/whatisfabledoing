@@ -7431,7 +7431,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/79432",
       "seen_at": "2026-07-20T14:10:20Z",
       "summary": "A Claude Code user reports Fable 5 creating a worktree branch that tracked origin/main, allowing an ordinary IDE push to bypass PR review and trigger production artifact publishing; the issue includes a reproduction."
+    },
+    {
+      "url": "https://github.com/sanchaymittal/agent-ops/pull/7",
+      "seen_at": "2026-07-20T15:15:43Z",
+      "summary": "A Claude Fable review of agent-ops identified two lease-recovery defects, and its final pass approved the repaired preflight/one-writer implementation after portable and concurrent-race checks."
+    },
+    {
+      "url": "https://github.com/Agenta-AI/agenta/pull/5411",
+      "seen_at": "2026-07-20T15:15:43Z",
+      "summary": "A four-lens Claude Fable review found an astral-Unicode cursor-pagination loop in Agenta’s Files drawer; the fix has a terminating reproduction plus Docker and unit-test evidence."
+    },
+    {
+      "url": "https://github.com/eval-sys/mcpmark-experiments/pull/17",
+      "seen_at": "2026-07-20T15:15:43Z",
+      "summary": "MCPMark publishes a verified-revision, single-run Fable 5 tool-use evaluation over 127 tasks with per-task outcomes and trajectories, reporting 86.6% Pass@1."
     }
   ],
-  "last_run": "2026-07-20T14:10:20Z"
+  "last_run": "2026-07-20T15:15:43Z"
 }
