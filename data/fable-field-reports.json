@@ -7181,7 +7181,22 @@
       "url": "https://github.com/melodic-software/claude-code-plugins/issues/524",
       "seen_at": "2026-07-19T22:55:12Z",
       "summary": "A documented Fable 5/Sonnet worker-lease collision on a Claude Code plugin PR duplicated two P1 fixes; timestamps and later conflicts exposed session-local locking as the root cause."
+    },
+    {
+      "url": "https://github.com/LegionForge/convobox/pull/102",
+      "seen_at": "2026-07-19T23:59:22Z",
+      "summary": "Fable co-authored ConvoBox workspace isolation after UAT showed an inherited cwd let a coding agent modify host-app source; the nine-file change adds explicit working dirs, guardrails, configuration/UI wiring, and 134 reported tests."
+    },
+    {
+      "url": "https://github.com/ortus-boxlang/BoxLang/pull/593",
+      "seen_at": "2026-07-19T23:59:22Z",
+      "summary": "Fable co-authored BoxLang AST-level obfuscation that strips comments and renames private implementation identifiers while preserving public language contracts, covered by 17 listed tests and green multi-platform jobs."
+    },
+    {
+      "url": "https://github.com/yyyyynny/kIkI/pull/19",
+      "seen_at": "2026-07-19T23:59:22Z",
+      "summary": "Fable co-authored a merged Android IME detector repair that reads observed settings rather than stale platform state, adds slow-propagation confirmation probes, and passed public unit/build/lint jobs."
     }
   ],
-  "last_run": "2026-07-19T22:55:12Z"
+  "last_run": "2026-07-19T23:59:22Z"
 }
