@@ -7266,7 +7266,22 @@
       "url": "https://github.com/jeong-sik/masc/pull/25407",
       "seen_at": "2026-07-20T04:22:41Z",
       "summary": "Claude Fable 5 co-authored a MASC runtime-routing fix that permits structured-judge and cross-verifier routes to target failover lanes only when every candidate meets the required JSON or structured-output capability, closing a shadowed lane-versus-runtime validation gap; new tests failed before the patch and passed afterward, with 41 runtime-config tests and adjacent 17/17 and 40/40 suites reported green."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5997",
+      "seen_at": "2026-07-20T05:27:21Z",
+      "summary": "A Sentry-triggered Claude Fable 5 agent investigated Gumroad SSL certificate retry exhaustion, sampling 30 events and finding 29 account-wide Let's Encrypt rate-limit failures. Its patch reschedules after reset plus jitter instead of burning immediate retries; four new cases and a focused seven-example RSpec run passed locally."
+    },
+    {
+      "url": "https://github.com/BaseInfinity/claude-sdlc-wizard/issues/456",
+      "seen_at": "2026-07-20T05:27:21Z",
+      "summary": "A live Claude Desktop Cowork test with Fable 5 High found prompt-injection hooks unreliable on code-writing tasks: plan-first, TDD, and completion behaviors all failed in concrete prompts despite static validation and 17 drift checks passing; three explanation-only completion cases did work."
+    },
+    {
+      "url": "https://github.com/tensor4all/tenferro-rs/issues/1426",
+      "seen_at": "2026-07-20T05:27:21Z",
+      "summary": "At a maintainer's request, Claude Fable 5 made a pinned-commit static audit of tenferro-rs and mapped repeated-work risks across einsum planning, cuTENSOR plans, GPU syncs, graph scheduling, copies, and batched CPU GEMM. Maintainers refined the parallelism proposal and assigned architecture owners, while the report correctly labels its findings as benchmark targets rather than measured regressions."
     }
   ],
-  "last_run": "2026-07-20T04:22:41Z"
+  "last_run": "2026-07-20T05:27:21Z"
 }
