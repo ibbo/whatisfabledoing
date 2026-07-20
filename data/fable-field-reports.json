@@ -7446,7 +7446,22 @@
       "url": "https://github.com/eval-sys/mcpmark-experiments/pull/17",
       "seen_at": "2026-07-20T15:15:43Z",
       "summary": "MCPMark publishes a verified-revision, single-run Fable 5 tool-use evaluation over 127 tasks with per-task outcomes and trajectories, reporting 86.6% Pass@1."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6052",
+      "seen_at": "2026-07-20T16:20:55Z",
+      "summary": "A Fable 5 autonomous Gumroad dispatcher traced iOS Safari caption placement to a JW Player default and added a centralized, locally tested renderer override."
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/pull/543899",
+      "seen_at": "2026-07-20T16:20:55Z",
+      "summary": "A Fable 5-assisted Nixpkgs fix follows VS Code’s macOS ripgrep path change, backed by archive comparisons and an aarch64-darwin build."
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/pull/65436",
+      "seen_at": "2026-07-20T16:20:55Z",
+      "summary": "An eleven-model test including Fable 5 reproduced a stale dynamic-MCP tool manifest; the host-side fix adds scoped re-polling and regression coverage."
     }
   ],
-  "last_run": "2026-07-20T15:15:43Z"
+  "last_run": "2026-07-20T16:20:55Z"
 }
