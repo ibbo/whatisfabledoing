@@ -7251,7 +7251,22 @@
       "url": "https://github.com/capt-pancakes/loop/pull/5",
       "seen_at": "2026-07-20T03:18:13Z",
       "summary": "A merged Fable 5 co-authored puzzle-generator change replaces an ambiguity gate that forced every generated ring to maximum hidden-link difficulty, restoring a 6/9/6 easy-medium-hard pool and a weekday-specific publishing schedule; both visible test checks succeeded."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5986",
+      "seen_at": "2026-07-20T04:22:41Z",
+      "summary": "Claude Fable 5 authored a Gumroad Sentry-webhook repair for a UTM-link creation race affecting 75,000-plus events and 4,400 users: it retries only the transient new-UtmLink validation case once, preserving analytics visits without an infinite retry loop, with two targeted regression cases and 18 local concern specs passing."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/5987",
+      "seen_at": "2026-07-20T04:22:41Z",
+      "summary": "A Gumroad Fable 5 agent investigated 1.9 million Stripe missing-chargeable alerts and fixed the residual connected-account dispute path, adding account provenance and narrowly suppressing only sellers\u2019 own refund or dispute noise; the targeted 11-example spec passed locally while broader CI was running."
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/pull/25407",
+      "seen_at": "2026-07-20T04:22:41Z",
+      "summary": "Claude Fable 5 co-authored a MASC runtime-routing fix that permits structured-judge and cross-verifier routes to target failover lanes only when every candidate meets the required JSON or structured-output capability, closing a shadowed lane-versus-runtime validation gap; new tests failed before the patch and passed afterward, with 41 runtime-config tests and adjacent 17/17 and 40/40 suites reported green."
     }
   ],
-  "last_run": "2026-07-20T03:18:13Z"
+  "last_run": "2026-07-20T04:22:41Z"
 }
