@@ -7616,7 +7616,22 @@
       "url": "https://github.com/godotengine/godot/issues/121591",
       "seen_at": "2026-07-21T03:11:48Z",
       "summary": "A Fable 5-assisted Godot report provides a minimal reproduction of an autowrapped-label dialog requesting a 19,254-pixel native window, independently tested across three releases."
+    },
+    {
+      "url": "https://github.com/HarperFast/rocksdb-js/pull/715",
+      "seen_at": "2026-07-21T04:15:03Z",
+      "summary": "A Fable 5 RocksDB repair caps open table files after a 90,049-descriptor reproduction, with a measured slower-but-alive eviction tradeoff and green cross-platform checks."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70158",
+      "seen_at": "2026-07-21T04:15:03Z",
+      "summary": "A Fable 5 co-authored Airflow Go SDK branch adds typed TaskFlow-style return-value dependencies, DAG serialization, parsing support, and integration coverage."
+    },
+    {
+      "url": "https://github.com/eumemic/aios/issues/1999",
+      "seen_at": "2026-07-21T04:15:03Z",
+      "summary": "A Fable 5 session below its token window repeatedly hit Anthropic's approximately 32 MB request-body limit; the author documents a byte-budgeting and adaptive-retry design direction."
     }
   ],
-  "last_run": "2026-07-21T03:11:48Z"
+  "last_run": "2026-07-21T04:15:03Z"
 }
