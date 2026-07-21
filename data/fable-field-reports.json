@@ -7646,7 +7646,27 @@
       "url": "https://github.com/Yeachan-Heo/gajae-code/issues/2791",
       "seen_at": "2026-07-21T05:20:10Z",
       "summary": "A gajae-code user shows its Fable 5 thinking-mode misclassification billing invisible reasoning; a same-account adaptive-thinking API control streamed four deltas."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6073",
+      "seen_at": "2026-07-21T06:26:11Z",
+      "summary": "A Fable 5-generated Gumroad retry path classifies transient signup-email failures and retries them three times over 12 hours, with author-reported 195 passing focused and adjacent examples."
+    },
+    {
+      "url": "https://github.com/QuantEcon/ContinuousDPs.jl/pull/120",
+      "seen_at": "2026-07-21T06:26:11Z",
+      "summary": "A Fable 5-generated ContinuousDP extension adds state-dependent callable shock weights and general transition kernels, with byte-identical fixed-path results reported by its author."
+    },
+    {
+      "url": "https://github.com/deancureton/jacobian/issues/1",
+      "seen_at": "2026-07-21T06:26:11Z",
+      "summary": "Fable 5 agents independently audited a Lean Jacobian Conjecture formalization: 8,661 build jobs passed and a full axiom sweep found only standard classical mathlib axioms."
+    },
+    {
+      "url": "https://github.com/x402-foundation/x402/pull/2616",
+      "seen_at": "2026-07-21T06:26:11Z",
+      "summary": "A Fable 5 and Opus 4.8 Sui payment implementation has live-testnet evidence and an independent round trip, alongside six failing hardening vectors found in review."
     }
   ],
-  "last_run": "2026-07-21T05:20:10Z"
+  "last_run": "2026-07-21T06:26:11Z"
 }
