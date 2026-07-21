@@ -7606,7 +7606,17 @@
       "url": "https://github.com/stablyai/orca/pull/9647",
       "seen_at": "2026-07-21T02:07:09Z",
       "summary": "Fable 5 authored an Orca SSH sidebar fix that preserves spinner-only panes through recorded launch identity, with boundary tests for generic and explicitly named titles."
+    },
+    {
+      "url": "https://github.com/EstarinAzx/Wisp-Router/issues/145",
+      "seen_at": "2026-07-21T03:11:48Z",
+      "summary": "Four captured Claude Code sessions show a Wisp proxy re-billing full history when it hoists mid-conversation system turns; a dummy-endpoint capture confirmed the sequence and the author proposes positioned passthrough."
+    },
+    {
+      "url": "https://github.com/godotengine/godot/issues/121591",
+      "seen_at": "2026-07-21T03:11:48Z",
+      "summary": "A Fable 5-assisted Godot report provides a minimal reproduction of an autowrapped-label dialog requesting a 19,254-pixel native window, independently tested across three releases."
     }
   ],
-  "last_run": "2026-07-21T02:07:09Z"
+  "last_run": "2026-07-21T03:11:48Z"
 }
