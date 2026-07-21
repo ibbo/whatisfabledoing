@@ -7631,7 +7631,22 @@
       "url": "https://github.com/eumemic/aios/issues/1999",
       "seen_at": "2026-07-21T04:15:03Z",
       "summary": "A Fable 5 session below its token window repeatedly hit Anthropic's approximately 32 MB request-body limit; the author documents a byte-budgeting and adaptive-retry design direction."
+    },
+    {
+      "url": "https://github.com/dependabot/dependabot-core/pull/15638",
+      "seen_at": "2026-07-21T05:20:10Z",
+      "summary": "Claude Code with Fable 5 assisted a Dependabot Cargo repair for same-name multi-version lockfile entries, with per-line update/security handling and 582 author-run examples."
+    },
+    {
+      "url": "https://github.com/bottlenome/onepagers/pull/52",
+      "seen_at": "2026-07-21T05:20:10Z",
+      "summary": "A merged Fable 5 co-authored WebGPU engine runs a ternary Bonsai 0.5B model without bf16 expansion, with NumPy/logit, greedy-decode, and tokenizer comparisons."
+    },
+    {
+      "url": "https://github.com/Yeachan-Heo/gajae-code/issues/2791",
+      "seen_at": "2026-07-21T05:20:10Z",
+      "summary": "A gajae-code user shows its Fable 5 thinking-mode misclassification billing invisible reasoning; a same-account adaptive-thinking API control streamed four deltas."
     }
   ],
-  "last_run": "2026-07-21T04:15:03Z"
+  "last_run": "2026-07-21T05:20:10Z"
 }
