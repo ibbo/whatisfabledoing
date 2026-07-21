@@ -7831,7 +7831,27 @@
       "url": "https://github.com/openmc-dev/openmc/pull/3965",
       "seen_at": "2026-07-21T17:14:05Z",
       "summary": "OpenMC contributor Jordan Tramm reports using Fable to develop a deep-shielding Monte Carlo fixture that supports a reproducible five-stage weight-window/MGXS bootstrap regression test."
+    },
+    {
+      "url": "https://github.com/CWBudde/algo-fft/pull/31",
+      "seen_at": "2026-07-21T18:20:55Z",
+      "summary": "A Fable 5 co-authored algo-fft optimization reports 70–85% faster one-shot prime-length convolutions and a 91.5% faster steady-state length-1009 convolver, backed by new invariant tests and successful public checks."
+    },
+    {
+      "url": "https://github.com/Synaptic-Labs-AI/PACT-Plugin/issues/1217",
+      "seen_at": "2026-07-21T18:20:55Z",
+      "summary": "A PACT maintainer traced Fable 5 task-tool disappearance to a remotely served Claude Code model gate, documented the resulting bootstrap deadlock, and falsified an initial diagnostic before choosing a safer user-facing check."
+    },
+    {
+      "url": "https://github.com/Fizzizist/illustrious-manager/issues/260",
+      "seen_at": "2026-07-21T18:20:55Z",
+      "summary": "An Illustrious Manager reproduction of an Anthropic/Fable role switch identifies stale 8,192-token configuration and a blind empty-stream retry guard behind a silent blank agent response."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79871",
+      "seen_at": "2026-07-21T18:20:55Z",
+      "summary": "A Fable 5 user documents first-turn context-tail echoes and routing frames that can return exit code zero without work, including headless and tmux incident counts plus one forensic safety-styled output observation."
     }
   ],
-  "last_run": "2026-07-21T17:14:05Z"
+  "last_run": "2026-07-21T18:20:55Z"
 }
