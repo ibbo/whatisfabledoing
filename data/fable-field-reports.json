@@ -7851,7 +7851,27 @@
       "url": "https://github.com/anthropics/claude-code/issues/79871",
       "seen_at": "2026-07-21T18:20:55Z",
       "summary": "A Fable 5 user documents first-turn context-tail echoes and routing frames that can return exit code zero without work, including headless and tmux incident counts plus one forensic safety-styled output observation."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13200",
+      "seen_at": "2026-07-21T19:27:37Z",
+      "summary": "Fable-assisted pnpm Rust pacquet implementation adds npm-style version bumping, lifecycle and git/tag behavior, plus 27 upstream-equivalent integration scenarios; several public tests were still running."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/9974",
+      "seen_at": "2026-07-21T19:27:37Z",
+      "summary": "A Fable 5 agentic Paperclip repair limits reserved environment filtering to the API key, protects harness tokens across adapters, and reports 127 adapter-utils plus 68 server tests passing."
+    },
+    {
+      "url": "https://github.com/run-llama/liteparse/issues/379",
+      "seen_at": "2026-07-21T19:27:37Z",
+      "summary": "Fable generated and executed a LiteParse 2.8.0 PDF reproducer showing intentional zero inline-image coverage for full-page scans, leading to a request for Python/Node binding documentation."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79896",
+      "seen_at": "2026-07-21T19:27:37Z",
+      "summary": "A Fable 5 user audited 12 Claude Code transcripts to show VS Code terminal scrollback duplication is a rendering issue, not repeated model output or API billing."
     }
   ],
-  "last_run": "2026-07-21T18:20:55Z"
+  "last_run": "2026-07-21T19:27:37Z"
 }
