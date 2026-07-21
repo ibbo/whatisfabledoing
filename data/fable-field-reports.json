@@ -7576,7 +7576,22 @@
       "url": "https://github.com/dimensionalOS/dimos/pull/3004",
       "seen_at": "2026-07-20T23:57:33Z",
       "summary": "A mixed Fable 5/Opus 4.8 xArm teleoperation PR adds brokered command handling, stale-command and E-stop guards, and documents mixed current CI results."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79608",
+      "seen_at": "2026-07-21T01:02:34Z",
+      "summary": "A Fable 5 user reported one system-styled fabricated RemoteTrigger handoff warning after a 103k-token cache-miss context rebuild, with a detailed local forensic audit."
+    },
+    {
+      "url": "https://github.com/harbor-framework/harbor-index/pull/131",
+      "seen_at": "2026-07-21T01:02:34Z",
+      "summary": "A Harbor Framework probe removes a score-clipping false-pass artifact and records Fable 5 at 1,1,0 across three Simon-algorithm runs, including one timeout."
+    },
+    {
+      "url": "https://github.com/Nuix/jnode-fs/issues/33",
+      "seen_at": "2026-07-21T01:02:34Z",
+      "summary": "David Baird reports a largely Fable 5-built read-only Btrfs driver with 16 classes, real compressed-image fixtures, and 109 green tests."
     }
   ],
-  "last_run": "2026-07-20T23:57:33Z"
+  "last_run": "2026-07-21T01:02:34Z"
 }
