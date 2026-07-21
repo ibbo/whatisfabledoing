@@ -7591,7 +7591,22 @@
       "url": "https://github.com/Nuix/jnode-fs/issues/33",
       "seen_at": "2026-07-21T01:02:34Z",
       "summary": "David Baird reports a largely Fable 5-built read-only Btrfs driver with 16 classes, real compressed-image fixtures, and 109 green tests."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge-dev/pull/730",
+      "seen_at": "2026-07-21T02:07:09Z",
+      "summary": "A Claude Fable 5 MLX benchmark submission compiles and caches Gemma 4 speculative drafting by KV bucket; its initial platform correctness/parity and ranked benchmark run completed successfully, with no score yet published."
+    },
+    {
+      "url": "https://github.com/vetcoders/codescribe/pull/65",
+      "seen_at": "2026-07-21T02:07:09Z",
+      "summary": "A 27-commit Fable 5/Codex Codescribe branch unifies dictation, adds clipboard and workspace-root safeguards, and has green public security, formatting, Clippy, and test jobs."
+    },
+    {
+      "url": "https://github.com/stablyai/orca/pull/9647",
+      "seen_at": "2026-07-21T02:07:09Z",
+      "summary": "Fable 5 authored an Orca SSH sidebar fix that preserves spinner-only panes through recorded launch identity, with boundary tests for generic and explicitly named titles."
     }
   ],
-  "last_run": "2026-07-21T01:02:34Z"
+  "last_run": "2026-07-21T02:07:09Z"
 }
