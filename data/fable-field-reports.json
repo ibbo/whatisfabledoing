@@ -7706,7 +7706,22 @@
       "url": "https://github.com/rcpch/rcpch-audit-engine/pull/1431",
       "seen_at": "2026-07-21T09:41:15Z",
       "summary": "RCPCH maintainer Michael Barton reports a Fable 5 security review prompted a CSV-export allowlist after it identified password exposure, while the author notes its claimed OTP-secret exposure was a misclassification."
+    },
+    {
+      "url": "https://github.com/dependabot/dependabot-core/pull/15549",
+      "seen_at": "2026-07-21T10:45:03Z",
+      "summary": "Ian Butterworth reports that a Claude Fable 5 review of Dependabot's Julia updater produced 18 focused fixes for update discovery, manifests, compatibility semantics, registry freshness, and error handling, with expanded tests and green public checks."
+    },
+    {
+      "url": "https://github.com/xiaoming96/xiaosanlun/pull/4",
+      "seen_at": "2026-07-21T10:45:03Z",
+      "summary": "A Cursor run reports four Fable 5 subagents built the physics, cargo, level, save, server, and UI portions of a tricycle cargo game in an 87-file branch with 384 passing tests and two successful public check runs."
+    },
+    {
+      "url": "https://github.com/Bigi-HS/marveen/pull/416",
+      "seen_at": "2026-07-21T10:45:03Z",
+      "summary": "A Fable 5 capability trial rewrote an inter-agent router's delivery policy as a pure planner, with 39 contract tests and a reported 3,840-test full suite, while leaving the live path unchanged."
     }
   ],
-  "last_run": "2026-07-21T09:41:15Z"
+  "last_run": "2026-07-21T10:45:03Z"
 }
