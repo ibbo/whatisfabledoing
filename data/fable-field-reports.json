@@ -7746,7 +7746,32 @@
       "url": "https://github.com/coder/mux/pull/3743",
       "seen_at": "2026-07-21T12:53:19Z",
       "summary": "A Fable 5-generated mux branch separates agent context instrumentation from cost reporting, with Storybook validation and several completed public build, test, smoke, static, and visual checks."
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/pull/25533",
+      "seen_at": "2026-07-21T13:59:16Z",
+      "summary": "A Fable 5 co-authored repair changed a Read tool’s mistaken byte-based limit into line-window pagination after a live agent loop produced 201 tool calls."
+    },
+    {
+      "url": "https://github.com/nikibrdev/ai-studio-os/pull/61",
+      "seen_at": "2026-07-21T13:59:16Z",
+      "summary": "A merged Fable 5 co-authored Go persistence change adds Postgres project/task stores, migration support, restoration constructors, and focused domain tests; its public verify check passed."
+    },
+    {
+      "url": "https://github.com/Fenral/svingbue/pull/6",
+      "seen_at": "2026-07-21T13:59:16Z",
+      "summary": "A Fable 5 final review accompanied a TrackMan-calibrated golf-flight engine and lesson migration, with reported engine, UX, browser, and academy test results plus two documented unchanged baseline failures."
+    },
+    {
+      "url": "https://github.com/wrzonance/agile-github-sync/pull/53",
+      "seen_at": "2026-07-21T13:59:16Z",
+      "summary": "A Fable 5 co-authored fix followed a live AgilePlace 422 failure, reproduced it in a stricter offline double, and adds 331 passing unit tests; the live post-fix rerun remains pending."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6496",
+      "seen_at": "2026-07-21T13:59:16Z",
+      "summary": "A Fable 5-written OWID skills update turns composite-index migration findings into chart-shape and cross-indicator checks, and records a corrected source-number workflow; visible deployment and security checks passed."
     }
   ],
-  "last_run": "2026-07-21T12:53:19Z"
+  "last_run": "2026-07-21T13:59:16Z"
 }
