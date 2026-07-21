@@ -7771,7 +7771,32 @@
       "url": "https://github.com/owid/etl/pull/6496",
       "seen_at": "2026-07-21T13:59:16Z",
       "summary": "A Fable 5-written OWID skills update turns composite-index migration findings into chart-shape and cross-indicator checks, and records a corrected source-number workflow; visible deployment and security checks passed."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6740",
+      "seen_at": "2026-07-21T15:03:34Z",
+      "summary": "A Fable 5-written OWID Grapher PR corrects low-value significant-figure display and unnecessary short-label abbreviation, with formatting tests and successful public build, test, typecheck, formatting, security, and analysis checks."
+    },
+    {
+      "url": "https://github.com/Techtrisdev/gbrain/pull/77",
+      "seen_at": "2026-07-21T15:03:34Z",
+      "summary": "A live Fable 5 replay found a hybrid-search zero-keyword failure that hid a canonical current-status page; a distinctive-token fallback has mutation coverage and author-reported no-regression nDCG results."
+    },
+    {
+      "url": "https://github.com/dennougorilla/glinfs/pull/86",
+      "seen_at": "2026-07-21T15:03:34Z",
+      "summary": "A Fable-reviewed Sonnet implementation fixes virtualized focus loss and thumbnail-quality-setting regressions in glinfs, with pre-fix-failing tests and successful public lint, end-to-end, and test checks."
+    },
+    {
+      "url": "https://github.com/tsukasaI/shguard/issues/42",
+      "seen_at": "2026-07-21T15:03:34Z",
+      "summary": "A Fable adversarial review found command-substitution and variable bypasses of shguard's flag/token block rules, with working destructive-command reproducers and a scoped fail-closed design response."
+    },
+    {
+      "url": "https://github.com/leanprover/lean-eval-submissions/issues/856",
+      "seen_at": "2026-07-21T15:03:34Z",
+      "summary": "A Lean-eval submission uses Fable 5 as multi-model orchestration, pairing GPT-5.6-Sol and Opus 4.8 prover/builder agents with a claimed kernel-checked theorem free of sorry, extra axioms, and native_decide."
     }
   ],
-  "last_run": "2026-07-21T13:59:16Z"
+  "last_run": "2026-07-21T15:03:34Z"
 }
