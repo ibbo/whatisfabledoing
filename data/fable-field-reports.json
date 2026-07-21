@@ -7811,7 +7811,27 @@
       "url": "https://github.com/jeong-sik/masc/pull/25546",
       "seen_at": "2026-07-21T16:08:50Z",
       "summary": "A Fable 5 co-authored MASC repair addresses an approval-delivery requeue loop measured at 8,349 receipts over 42 hours, with real approval-store regression tests and public checks still underway."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6028",
+      "seen_at": "2026-07-21T17:14:05Z",
+      "summary": "A Fable 5 automated Sentry-webhook repair turns Gumroad's 607-event zero-payable-balance scheduled-payout retry loop into an admin-review state, with focused specs and a merged green check rollup."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6497",
+      "seen_at": "2026-07-21T17:14:05Z",
+      "summary": "Pablo Arriagada reports driving Fable 5 to build OWID's staging metadata-review wizard, which traces proposed page-copy edits to verified YAML, Jinja, or code sources and has 35 unit tests plus real-data checks."
+    },
+    {
+      "url": "https://github.com/asheshgoplani/agent-deck/pull/1700",
+      "seen_at": "2026-07-21T17:14:05Z",
+      "summary": "An independent Fable 5 review of agent-deck's tmux deadline hardening found unbounded high-frequency notification commands and an ErrWaitDelay handling defect after a 14-client, 590%-CPU incident."
+    },
+    {
+      "url": "https://github.com/openmc-dev/openmc/pull/3965",
+      "seen_at": "2026-07-21T17:14:05Z",
+      "summary": "OpenMC contributor Jordan Tramm reports using Fable to develop a deep-shielding Monte Carlo fixture that supports a reproducible five-stage weight-window/MGXS bootstrap regression test."
     }
   ],
-  "last_run": "2026-07-21T16:08:50Z"
+  "last_run": "2026-07-21T17:14:05Z"
 }
