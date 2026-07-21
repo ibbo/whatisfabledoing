@@ -7921,7 +7921,27 @@
       "url": "https://github.com/phase-rs/phase/pull/6304",
       "seen_at": "2026-07-21T22:41:35Z",
       "summary": "Claude Fable 5 repair for a Magic rules parser restores strict fewer-than gating conditions, with four integration tests and an author-reported 21,142 passing engine tests while two hosted Rust gates are failing."
+    },
+    {
+      "url": "https://github.com/JuliaLang/julia/pull/62449",
+      "seen_at": "2026-07-21T23:47:01Z",
+      "summary": "Ian Butterworth’s Claude Fable audit of Julia Profile identifies sampler and allocation-profiler races, unrooted pointers, snapshot corruption and cleanup defects, with regression coverage while broader CI is pending."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/89",
+      "seen_at": "2026-07-21T23:47:01Z",
+      "summary": "Claude Fable 5-authored Manga Downloader fix correctly labels translation downloads, avoids Unicode truncation and a no-match filter panic, with 33 author-reported tests, live checks, and successful public test/image jobs."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/793",
+      "seen_at": "2026-07-21T23:47:01Z",
+      "summary": "Claude Fable 5 co-authored Schemabot migration-status repair distinguishes never-started tables from actual failures across API, CLI and webhook summaries, with visible unit through end-to-end jobs succeeding."
+    },
+    {
+      "url": "https://github.com/JM-Addington/RSS-TTS/pull/241",
+      "seen_at": "2026-07-21T23:47:01Z",
+      "summary": "A Fable co-authored RSS-TTS chunking fix handles abbreviations in two split paths and adds regression tests; the author reports 778 passing Docker tests while hosted jobs are still queued."
     }
   ],
-  "last_run": "2026-07-21T22:41:35Z"
+  "last_run": "2026-07-21T23:47:01Z"
 }
