@@ -7721,7 +7721,17 @@
       "url": "https://github.com/Bigi-HS/marveen/pull/416",
       "seen_at": "2026-07-21T10:45:03Z",
       "summary": "A Fable 5 capability trial rewrote an inter-agent router's delivery policy as a pure planner, with 39 contract tests and a reported 3,840-test full suite, while leaving the live path unchanged."
+    },
+    {
+      "url": "https://github.com/oe-alliance/DreamPlex/pull/5",
+      "seen_at": "2026-07-21T11:51:00Z",
+      "summary": "DreamPlex maintainer jrodzar reports that Claude Fable 5 researched, diagnosed, implemented, and tested a 124-file repair of the Enigma2 Plex client, with the maintainer directing and verifying it on physical receivers."
+    },
+    {
+      "url": "https://github.com/NjoyimPeguy/augments/pull/24",
+      "seen_at": "2026-07-21T11:51:00Z",
+      "summary": "A maintainer-directed Claude Fable 5 session rewrote five agent-skill descriptions and recorded five expected-skill activations in Claude Code plus five in Kimi Code, while explicitly limiting the result to one run per scenario."
     }
   ],
-  "last_run": "2026-07-21T10:45:03Z"
+  "last_run": "2026-07-21T11:51:00Z"
 }
