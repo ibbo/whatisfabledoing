@@ -7686,7 +7686,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/79662",
       "seen_at": "2026-07-21T07:32:49Z",
       "summary": "A Windows Claude Code user isolated a Fable 5 resume failure to a false credit fallback and an archived Remote Control registration conflict."
+    },
+    {
+      "url": "https://github.com/ImL1s/oh-my-grok/pull/2",
+      "seen_at": "2026-07-21T08:35:59Z",
+      "summary": "Six Fable 5 reviewer findings became tested CLI hardening fixes, including dotfile normalization, installed-snapshot locking, and precise interpreter-flag scanning."
+    },
+    {
+      "url": "https://github.com/vocdoni/saas-backend/pull/586",
+      "seen_at": "2026-07-21T08:35:59Z",
+      "summary": "A Fable 5-authored Vocdoni fix atomically records immediate-start voting processes' actual start time, with voconed end-to-end coverage."
+    },
+    {
+      "url": "https://github.com/gamasenninn/tealus/issues/342",
+      "seen_at": "2026-07-21T08:35:59Z",
+      "summary": "A Fable 5 survey led Tealus to consolidate four socket-first chat send paths while pinning the webhook and REST-fallback invariants."
     }
   ],
-  "last_run": "2026-07-21T07:32:49Z"
+  "last_run": "2026-07-21T08:35:59Z"
 }
