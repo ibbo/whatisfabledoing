@@ -7891,7 +7891,22 @@
       "url": "https://github.com/PostHog/posthog/pull/71758",
       "seen_at": "2026-07-21T20:33:16Z",
       "summary": "A Claude Code Fable 5-assisted PostHog refactor threads a source API-version pin across roughly 450 warehouse-source overrides, backed by large local suites and mypy review."
+    },
+    {
+      "url": "https://github.com/Abe-Borg/build-a-spec/pull/5",
+      "seen_at": "2026-07-21T21:37:15Z",
+      "summary": "Build-a-Spec 0.9.0 adds a Fable 5 final-QC workflow with five parallel review lenses, adversarial refutation, deterministic edit validation, 193 pytest cases, and outstanding live-run validation."
+    },
+    {
+      "url": "https://github.com/can1357/oh-my-pi/issues/4615",
+      "seen_at": "2026-07-21T21:37:15Z",
+      "summary": "An oh-my-pi Fable 5 context-imaging evaluation measured 49.0% whole-block token savings across six sessions, but identifier-safe sub-blocking reduced aggregate savings to 7.7% and the maintainer closed it in favor of snapcompact."
+    },
+    {
+      "url": "https://github.com/itambox/itambox-webapp/issues/56",
+      "seen_at": "2026-07-21T21:37:15Z",
+      "summary": "Fable 5 static analysis traced 5-10 second all-tenant page loads to per-tenant grant-query repetition and recursive group walks, with a measured query-cost model and cache-focused repair criteria."
     }
   ],
-  "last_run": "2026-07-21T20:33:16Z"
+  "last_run": "2026-07-21T21:37:15Z"
 }
