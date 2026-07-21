@@ -7666,7 +7666,27 @@
       "url": "https://github.com/x402-foundation/x402/pull/2616",
       "seen_at": "2026-07-21T06:26:11Z",
       "summary": "A Fable 5 and Opus 4.8 Sui payment implementation has live-testnet evidence and an independent round trip, alongside six failing hardening vectors found in review."
+    },
+    {
+      "url": "https://github.com/nanomq/NanoNNG/pull/1560",
+      "seen_at": "2026-07-21T07:32:49Z",
+      "summary": "A Fable 5-built NanoNNG branch fixes persistent MQTT-session backlog loss and slow redelivery, with a reported 5-message catch-up falling from 25+ seconds to about 0.1 seconds."
+    },
+    {
+      "url": "https://github.com/wingfoil-io/wingfoil/pull/472",
+      "seen_at": "2026-07-21T07:32:49Z",
+      "summary": "A Fable 5 co-authored Wingfoil branch compiles a graph execution schedule into static Rust and checks generated behavior against the interpreted engine."
+    },
+    {
+      "url": "https://github.com/eltmon/overdeck/issues/2971",
+      "seen_at": "2026-07-21T07:32:49Z",
+      "summary": "A detailed Fable 5 autonomous-orchestrator incident shows a finalized run continuing for roughly 19 hours while dashboard controls could not reach it."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79662",
+      "seen_at": "2026-07-21T07:32:49Z",
+      "summary": "A Windows Claude Code user isolated a Fable 5 resume failure to a false credit fallback and an archived Remote Control registration conflict."
     }
   ],
-  "last_run": "2026-07-21T06:26:11Z"
+  "last_run": "2026-07-21T07:32:49Z"
 }
