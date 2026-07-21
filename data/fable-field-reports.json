@@ -7906,7 +7906,22 @@
       "url": "https://github.com/itambox/itambox-webapp/issues/56",
       "seen_at": "2026-07-21T21:37:15Z",
       "summary": "Fable 5 static analysis traced 5-10 second all-tenant page loads to per-tenant grant-query repetition and recursive group walks, with a measured query-cost model and cache-focused repair criteria."
+    },
+    {
+      "url": "https://github.com/AlienKevin/frontier-bench/pull/9",
+      "seen_at": "2026-07-21T22:41:35Z",
+      "summary": "A promoted FrontierBench Claude Fable 5 max/Claude Code submission reports 33.78% accuracy across 370 records for 74 terminal-work tasks, at $7,064.59 and 3.58 billion tokens."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6106",
+      "seen_at": "2026-07-21T22:41:35Z",
+      "summary": "A Claude Fable 5-assisted Gumroad repair moves agent custom-page previews from CSP-constrained srcdoc into seller-scoped Redis-backed endpoints, with focused public checks green."
+    },
+    {
+      "url": "https://github.com/phase-rs/phase/pull/6304",
+      "seen_at": "2026-07-21T22:41:35Z",
+      "summary": "Claude Fable 5 repair for a Magic rules parser restores strict fewer-than gating conditions, with four integration tests and an author-reported 21,142 passing engine tests while two hosted Rust gates are failing."
     }
   ],
-  "last_run": "2026-07-21T21:37:15Z"
+  "last_run": "2026-07-21T22:41:35Z"
 }
