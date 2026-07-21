@@ -7871,7 +7871,27 @@
       "url": "https://github.com/anthropics/claude-code/issues/79896",
       "seen_at": "2026-07-21T19:27:37Z",
       "summary": "A Fable 5 user audited 12 Claude Code transcripts to show VS Code terminal scrollback duplication is a rendering issue, not repeated model output or API billing."
+    },
+    {
+      "url": "https://github.com/teamchong/pxpipe/pull/134",
+      "seen_at": "2026-07-21T20:33:16Z",
+      "summary": "pxpipe records a rendered-context comparison where Fable 5 matched Gemini on arithmetic, recall, state tracking, and confabulation guards but used more vision tokens and read one fewer dense hex string."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/80",
+      "seen_at": "2026-07-21T20:33:16Z",
+      "summary": "A Fable 5 session adds raw image-folder output to manga-downloader, with magic-byte tests and a live 13-page WebP download."
+    },
+    {
+      "url": "https://github.com/aashrayap/dot-agent/pull/163",
+      "seen_at": "2026-07-21T20:33:16Z",
+      "summary": "dot-agent's 15-call four-model pilot preserved raw evidence and recorded Fable plus GPT-5.6 Sol agreeing that three runtime chunks were contested, resulting in no fabricated capsule output."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/71758",
+      "seen_at": "2026-07-21T20:33:16Z",
+      "summary": "A Claude Code Fable 5-assisted PostHog refactor threads a source API-version pin across roughly 450 warehouse-source overrides, backed by large local suites and mypy review."
     }
   ],
-  "last_run": "2026-07-21T19:27:37Z"
+  "last_run": "2026-07-21T20:33:16Z"
 }
