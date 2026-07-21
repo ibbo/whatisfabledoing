@@ -7796,7 +7796,22 @@
       "url": "https://github.com/leanprover/lean-eval-submissions/issues/856",
       "seen_at": "2026-07-21T15:03:34Z",
       "summary": "A Lean-eval submission uses Fable 5 as multi-model orchestration, pairing GPT-5.6-Sol and Opus 4.8 prover/builder agents with a claimed kernel-checked theorem free of sorry, extra axioms, and native_decide."
+    },
+    {
+      "url": "https://github.com/apache/datafusion/pull/23761",
+      "seen_at": "2026-07-21T16:08:50Z",
+      "summary": "A DataFusion contributor says Fable entirely wrote an async-generator rewrite of the SortMergeJoin bitwise stream, with a broad public test/check rollup largely successful and two jobs still running."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/76",
+      "seen_at": "2026-07-21T16:08:50Z",
+      "summary": "A Fable 5 session added scheduled live-site smoke tests and a CBZ verifier that catches downloader false successes; the author reports a 10.6MB real run and malformed-archive negative tests."
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/pull/25546",
+      "seen_at": "2026-07-21T16:08:50Z",
+      "summary": "A Fable 5 co-authored MASC repair addresses an approval-delivery requeue loop measured at 8,349 receipts over 42 hours, with real approval-store regression tests and public checks still underway."
     }
   ],
-  "last_run": "2026-07-21T15:03:34Z"
+  "last_run": "2026-07-21T16:08:50Z"
 }
