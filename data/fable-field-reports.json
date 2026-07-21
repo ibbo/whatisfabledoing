@@ -7731,7 +7731,22 @@
       "url": "https://github.com/NjoyimPeguy/augments/pull/24",
       "seen_at": "2026-07-21T11:51:00Z",
       "summary": "A maintainer-directed Claude Fable 5 session rewrote five agent-skill descriptions and recorded five expected-skill activations in Claude Code plus five in Kimi Code, while explicitly limiting the result to one run per scenario."
+    },
+    {
+      "url": "https://github.com/gasyoun/IndologyScholars/pull/123",
+      "seen_at": "2026-07-21T12:53:19Z",
+      "summary": "A Fable 5 handoff reconciled incompatible corpus snapshots in a submitted Indology manuscript, extended its publication checker from 25 detected drifts to zero, and reported 161 pytest cases passing."
+    },
+    {
+      "url": "https://github.com/danReynolds/fleury/pull/159",
+      "seen_at": "2026-07-21T12:53:19Z",
+      "summary": "A Fable 5 co-authored Dart VM reload report pairs a two-file reproduction with a fresh-clone 10-run control-versus-bug rerun and passing smoke checks on three operating systems."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3743",
+      "seen_at": "2026-07-21T12:53:19Z",
+      "summary": "A Fable 5-generated mux branch separates agent context instrumentation from cost reporting, with Storybook validation and several completed public build, test, smoke, static, and visual checks."
     }
   ],
-  "last_run": "2026-07-21T11:51:00Z"
+  "last_run": "2026-07-21T12:53:19Z"
 }
