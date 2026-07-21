@@ -7701,7 +7701,12 @@
       "url": "https://github.com/gamasenninn/tealus/issues/342",
       "seen_at": "2026-07-21T08:35:59Z",
       "summary": "A Fable 5 survey led Tealus to consolidate four socket-first chat send paths while pinning the webhook and REST-fallback invariants."
+    },
+    {
+      "url": "https://github.com/rcpch/rcpch-audit-engine/pull/1431",
+      "seen_at": "2026-07-21T09:41:15Z",
+      "summary": "RCPCH maintainer Michael Barton reports a Fable 5 security review prompted a CSV-export allowlist after it identified password exposure, while the author notes its claimed OTP-secret exposure was a misclassification."
     }
   ],
-  "last_run": "2026-07-21T08:35:59Z"
+  "last_run": "2026-07-21T09:41:15Z"
 }
