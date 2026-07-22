@@ -7941,7 +7941,22 @@
       "url": "https://github.com/JM-Addington/RSS-TTS/pull/241",
       "seen_at": "2026-07-21T23:47:01Z",
       "summary": "A Fable co-authored RSS-TTS chunking fix handles abbreviations in two split paths and adds regression tests; the author reports 778 passing Docker tests while hosted jobs are still queued."
+    },
+    {
+      "url": "https://github.com/indexable-inc/index/pull/3888",
+      "seen_at": "2026-07-22T00:51:24Z",
+      "summary": "Fable 5-authored Index kernel repair guards primary worktrees and makes SQLite ActionLog contention non-fatal, with two reproduced failure modes and 115 author-reported passing tests."
+    },
+    {
+      "url": "https://github.com/SamSaffron/term-llm/pull/940",
+      "seen_at": "2026-07-22T00:51:24Z",
+      "summary": "Claude Fable 5 review of term-llm’s long-running WebUI hardening found seven rendering/reconnect defects; the measured streaming harness reduced wall time 28.3% and a real Chromium smoke covered recovery."
+    },
+    {
+      "url": "https://github.com/iterate/iterate/pull/2237",
+      "seen_at": "2026-07-22T00:51:24Z",
+      "summary": "An independent Claude Fable/xhigh review hardened Iterate’s CI telemetry artifact pipeline; the PR reports 2,118 passing OS tests and a 10-artifact audit yielding 3,517 complete, uniquely identified events."
     }
   ],
-  "last_run": "2026-07-21T23:47:01Z"
+  "last_run": "2026-07-22T00:51:24Z"
 }
