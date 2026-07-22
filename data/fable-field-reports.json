@@ -8066,7 +8066,27 @@
       "url": "https://github.com/Constructive-Programming/eo/pull/82",
       "seen_at": "2026-07-22T08:24:30Z",
       "summary": "A Fable 5 Claude Code session optimized Scala Traversal composition and leaf folds with paired JMH allocation/time results, preserving benchmarked non-improvements as documented rejected options."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/79989",
+      "seen_at": "2026-07-22T09:29:35Z",
+      "summary": "A Claude Code user reports five long-running 1M-context sessions including Fable 5 and Opus becoming unrecoverable after cache expiry above 200k tokens, with controlled tests and a validated offline compact-summary recovery."
+    },
+    {
+      "url": "https://github.com/sunholo-data/ailang/issues/326",
+      "seen_at": "2026-07-22T09:29:35Z",
+      "summary": "AILANG's constrained-code benchmark reports reproducible empty Fable 5 refusals on three of four benign short tasks and 17 refusals in 53 Python cases on a July 22 rerun, now tracked as typed evaluation results."
+    },
+    {
+      "url": "https://github.com/szduda/redunsy/pull/65",
+      "seen_at": "2026-07-22T09:29:35Z",
+      "summary": "A Fable 5 High review of Redunsy's four-instrument/240-bar editor performance work led to cached parsing, static canvas layers, drag and storage repairs, with 233 author-reported focused tests and successful public checks."
+    },
+    {
+      "url": "https://github.com/SocialGouv/iterion/pull/256",
+      "seen_at": "2026-07-22T09:29:35Z",
+      "summary": "A Fable 5 co-authored Iterion docs-refresh optimization stops unchanged trees from repeating costly LLM/build verification after two cloud runs spent about $31 on 18 zero-drift passes; the merged PR's public checks are successful."
     }
   ],
-  "last_run": "2026-07-22T08:24:30Z"
+  "last_run": "2026-07-22T09:29:35Z"
 }
