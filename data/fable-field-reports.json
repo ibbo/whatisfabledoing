@@ -7956,7 +7956,12 @@
       "url": "https://github.com/iterate/iterate/pull/2237",
       "seen_at": "2026-07-22T00:51:24Z",
       "summary": "An independent Claude Fable/xhigh review hardened Iterate’s CI telemetry artifact pipeline; the PR reports 2,118 passing OS tests and a 10-artifact audit yielding 3,517 complete, uniquely identified events."
+    },
+    {
+      "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26729",
+      "seen_at": "2026-07-22T01:56:23Z",
+      "summary": "Claude Code with Fable 5 assisted an AzerothCore raid-respawn repair for self-linked and hard-reset bosses; author and issue-reporter in-game checks confirmed the fix, and public C++ builds succeeded."
     }
   ],
-  "last_run": "2026-07-22T00:51:24Z"
+  "last_run": "2026-07-22T01:56:23Z"
 }
