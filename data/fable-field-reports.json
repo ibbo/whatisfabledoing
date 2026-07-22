@@ -8131,7 +8131,22 @@
       "url": "https://github.com/Smart-AI-Memory/attune-ai/pull/1590",
       "seen_at": "2026-07-22T12:43:43Z",
       "summary": "Attune's Fable 5 streaming specification benchmark measured one-, four-, and five-file packets, marker compliance, latency, token totals, cost, and a bounded timeout strategy."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80164",
+      "seen_at": "2026-07-22T13:50:53Z",
+      "summary": "A Claude Code user reports that switching an interactive session to Fable 5 silently removes all built-in task-tracking tools, with a same-session reproduction."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80158",
+      "seen_at": "2026-07-22T13:50:53Z",
+      "summary": "A Fable 5 and Opus 4.8 workflow report reproduces object arguments arriving as strings and documents a 300-plus-event corpus of same-session subagent co-deaths after connection closes."
+    },
+    {
+      "url": "https://github.com/SakanaAI/ShinkaEvolve/pull/164",
+      "seen_at": "2026-07-22T13:50:53Z",
+      "summary": "Claude Fable 5 co-authored ShinkaEvolve provider-client cache isolation by event loop and explicit runtime identity, with cache regressions and visible successful tests."
     }
   ],
-  "last_run": "2026-07-22T12:43:43Z"
+  "last_run": "2026-07-22T13:50:53Z"
 }
