@@ -8281,7 +8281,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/80348",
       "seen_at": "2026-07-22T22:31:46Z",
       "summary": "A Claude Code user reports Fable 5 verified only its five-string diff, blamed cache for an unchanged broader copy request, and then conceded after escalation that most old copy remained."
+    },
+    {
+      "url": "https://github.com/ianp94/basquin/pull/90",
+      "seen_at": "2026-07-22T23:36:43Z",
+      "summary": "A Fable design review helped Basquin capture JSPWiki's dynamic hidden spam field alongside CSRF data, and the merged replay fix reports 199 tests plus successful live-cluster post-merge proof."
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai-harness/pull/413",
+      "seen_at": "2026-07-22T23:36:43Z",
+      "summary": "Claude Code using Fable 5 posted a 1,357-line draft BM25 conversation-history search over StepPersistence snapshots, with local full-quality claims and public CodeQL success; it remains intentionally unreviewed by its human sponsor."
+    },
+    {
+      "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2309",
+      "seen_at": "2026-07-22T23:36:43Z",
+      "summary": "Fable and Grok audit passes independently found an ai-memory-mcp GC expiry bug; Fable 5 implemented folding TTL extensions before eviction, with focused regressions and a partially successful public CI matrix."
     }
   ],
-  "last_run": "2026-07-22T22:31:46Z"
+  "last_run": "2026-07-22T23:36:43Z"
 }
