@@ -8161,7 +8161,22 @@
       "url": "https://github.com/oxcaml/oxcaml/pull/6475",
       "seen_at": "2026-07-22T14:55:55Z",
       "summary": "An OxCaml Fable formalization of Flambda 2 grew into a 148-file, 52,612-line compiler artifact with 453 Rocq rules and a reported constant-folding bug discovery."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/190581",
+      "seen_at": "2026-07-22T16:01:08Z",
+      "summary": "A Fable 5 co-authored PyTorch patch makes selective activation-checkpoint caches honor user saved-tensor hooks, with regression coverage, H100 runs, and visible successful sanitizer and Dynamo jobs."
+    },
+    {
+      "url": "https://github.com/DarriEy/CLM.jl/pull/298",
+      "seen_at": "2026-07-22T16:01:08Z",
+      "summary": "Fable 5 assistance helped reconnect an opt-in Julia Community Land Model dry-deposition path, with an independent formula oracle, full-suite results, and successful Julia and MPI checks."
+    },
+    {
+      "url": "https://github.com/kortiene/app.jeliya.ai/pull/87",
+      "seen_at": "2026-07-22T16:01:08Z",
+      "summary": "An independent Fable 5 session re-reviewed a Rust encryption/recovery gate through adversarial lenses and measurements, finding no blockers or highs while recording approval conditions."
     }
   ],
-  "last_run": "2026-07-22T14:55:55Z"
+  "last_run": "2026-07-22T16:01:08Z"
 }
