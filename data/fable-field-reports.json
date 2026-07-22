@@ -8086,7 +8086,22 @@
       "url": "https://github.com/SocialGouv/iterion/pull/256",
       "seen_at": "2026-07-22T09:29:35Z",
       "summary": "A Fable 5 co-authored Iterion docs-refresh optimization stops unchanged trees from repeating costly LLM/build verification after two cloud runs spent about $31 on 18 zero-drift passes; the merged PR's public checks are successful."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6498",
+      "seen_at": "2026-07-22T10:35:04Z",
+      "summary": "Claude Fable 5 authored an OWID pipeline for DHS U.S. lawful-permanent-resident data from 1820–2024, with exact source-total checks and decade cross-edition validation."
+    },
+    {
+      "url": "https://github.com/jupyterlab/jupyterlab/pull/18948",
+      "seen_at": "2026-07-22T10:35:04Z",
+      "summary": "JupyterLab reports Fable 5 refinement of its debugger-console completion rewrite, measured at 3.6x and 3.9x faster medians across two representative cases with broad public checks succeeding."
+    },
+    {
+      "url": "https://github.com/Bike4Mind/bike4mind/issues/696",
+      "seen_at": "2026-07-22T10:35:04Z",
+      "summary": "A Bike4Mind ReAct-agent report records a Fable 5 run stuck rereading files and searches for about 190k tokens without edits, with the controller's compaction/handoff behavior identified as the likely integration failure."
     }
   ],
-  "last_run": "2026-07-22T09:29:35Z"
+  "last_run": "2026-07-22T10:35:04Z"
 }
