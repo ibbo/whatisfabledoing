@@ -8246,7 +8246,27 @@
       "url": "https://github.com/st0012/rubylens/pull/57",
       "seen_at": "2026-07-22T20:21:53Z",
       "summary": "Fable 5 co-authored a Rubylens indexer optimization reporting byte-identical output, 1.3x speed, and 29% fewer allocations, but with an open P2 review concern."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/pull/528",
+      "seen_at": "2026-07-22T21:26:38Z",
+      "summary": "A Fable 5-authored Colibri FP8 E4M3 CPU-and-Metal path preserves raw weight bytes, refuses ambiguous binary layouts, and reports exhaustive 256-code GPU validation."
+    },
+    {
+      "url": "https://github.com/actualbudget/actual/pull/8551",
+      "seen_at": "2026-07-22T21:26:38Z",
+      "summary": "A contributor says Fable generated Actual Budget's experimental Monte Carlo retirement report, with deterministic simulation tests and successful public build, functional, and visual checks."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/101",
+      "seen_at": "2026-07-22T21:26:38Z",
+      "summary": "A Fable 5-orchestrated agent added a Mangahere downloader by unpacking page-level JavaScript, with a live 17-page CBZ and merged public checks."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/102",
+      "seen_at": "2026-07-22T21:26:38Z",
+      "summary": "A companion Fable 5-orchestrated Fanfox downloader handles the site's age cookie and packed page payloads, verified on 7- and 53-page live chapters."
     }
   ],
-  "last_run": "2026-07-22T20:21:53Z"
+  "last_run": "2026-07-22T21:26:38Z"
 }
