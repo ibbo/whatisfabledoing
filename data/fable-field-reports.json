@@ -8176,7 +8176,22 @@
       "url": "https://github.com/kortiene/app.jeliya.ai/pull/87",
       "seen_at": "2026-07-22T16:01:08Z",
       "summary": "An independent Fable 5 session re-reviewed a Rust encryption/recovery gate through adversarial lenses and measurements, finding no blockers or highs while recording approval conditions."
+    },
+    {
+      "url": "https://github.com/Censseo/rhizome/pull/9",
+      "seen_at": "2026-07-22T17:06:37Z",
+      "summary": "A Fable 5 co-authored fifth Rhizome security audit fixed seven consensus and denial-of-service flaws, with 402 reported passing tests and direct regressions for the core failure modes."
+    },
+    {
+      "url": "https://github.com/wmpg/WesternMeteorPyLib/pull/87",
+      "seen_at": "2026-07-22T17:06:37Z",
+      "summary": "Fable 5 and Opus 4.8 co-authored an analytic meteor-ablation engine reported up to 21x faster than the RK4 reference, with 49 fidelity tests across fragmentation modes."
+    },
+    {
+      "url": "https://github.com/mkmik/boxel/pull/18",
+      "seen_at": "2026-07-22T17:06:37Z",
+      "summary": "A Fable 5 co-authored Boxel OAuth/OIDC provider adds PKCE, dynamic registration, JWTs, default-deny MCP auth, full flow tests, and a successful public build-and-test check."
     }
   ],
-  "last_run": "2026-07-22T16:01:08Z"
+  "last_run": "2026-07-22T17:06:37Z"
 }
