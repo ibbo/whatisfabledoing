@@ -8226,7 +8226,27 @@
       "url": "https://github.com/owid/etl/pull/6506",
       "seen_at": "2026-07-22T19:16:44Z",
       "summary": "Fable 5 helped OWID add a stale-year-pin audit after finding 21 outdated defaults in a 40-chart sample; the merged workflow recognizes documented exceptions and passed final build-and-deploy."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/137",
+      "seen_at": "2026-07-22T20:21:53Z",
+      "summary": "A Fable 5-orchestrated agent added a deterministic tiled-image descrambler for a manga downloader, with live CBZ inspection and successful visible checks."
+    },
+    {
+      "url": "https://github.com/elboletaire/manga-downloader/pull/138",
+      "seen_at": "2026-07-22T20:21:53Z",
+      "summary": "A Fable 5-orchestrated agent used an out-of-range page redirect to build a second manga-site downloader, verified live in a 16-page CBZ."
+    },
+    {
+      "url": "https://github.com/aio-libs/aiohttp/pull/13222",
+      "seen_at": "2026-07-22T20:21:53Z",
+      "summary": "A Fable 5 Claude Code session drafted aiohttp's bounded-buffer C parser error-path repair, with focused and full parser tests plus successful visible matrix checks."
+    },
+    {
+      "url": "https://github.com/st0012/rubylens/pull/57",
+      "seen_at": "2026-07-22T20:21:53Z",
+      "summary": "Fable 5 co-authored a Rubylens indexer optimization reporting byte-identical output, 1.3x speed, and 29% fewer allocations, but with an open P2 review concern."
     }
   ],
-  "last_run": "2026-07-22T19:16:44Z"
+  "last_run": "2026-07-22T20:21:53Z"
 }
