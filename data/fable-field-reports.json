@@ -7996,7 +7996,32 @@
       "url": "https://github.com/pbakaus/impeccable/pull/397",
       "seen_at": "2026-07-22T04:05:02Z",
       "summary": "Fable 5/Codex-assisted Impeccable design-agent evaluation found ranked options chose the first direction 27/30 times, while externally assigned choices produced ten distinct directions in twelve trials."
+    },
+    {
+      "url": "https://github.com/codyjohnsontx/frontStage/pull/7",
+      "seen_at": "2026-07-22T05:09:34Z",
+      "summary": "Fable 5 co-authored frontStage attachment workflow adds tenant-scoped storage, clean-scan freeze gating, hash-bound frozen versions, and live upload/download verification."
+    },
+    {
+      "url": "https://github.com/saeedkolivand/ai-job-hunter-app/pull/828",
+      "seen_at": "2026-07-22T05:09:34Z",
+      "summary": "Fable 5 co-authored ai-job-hunter-app repair persists think-stripped completed text so missed stream frames recover through the poll fallback, with visible CI and quality checks successful."
+    },
+    {
+      "url": "https://github.com/lidge-jun/opencodex/pull/256",
+      "seen_at": "2026-07-22T05:09:34Z",
+      "summary": "OpenCodex fixes a Fable 5 adaptive-thinking integration where an 8,192-token output limit could yield empty visible responses falsely marked complete; the repair raises the max-effort limit and propagates stop reasons."
+    },
+    {
+      "url": "https://github.com/indexable-inc/index/pull/3964",
+      "seen_at": "2026-07-22T05:09:34Z",
+      "summary": "Fable 5-authored Index duplicate-finder cleanup consolidates seven search-crate helpers, retains a reasoned skip, and reports 158 affected-crate tests plus format and Nix lint passing."
+    },
+    {
+      "url": "https://github.com/enayetsyl/scd-hub/pull/324",
+      "seen_at": "2026-07-22T05:09:34Z",
+      "summary": "Fable 5 co-authored scd-hub worksheet-print workflow adds one-off Markdown and layout editing while preserving old PDF settings byte-for-byte by default, with 2,079 author-reported server tests passing."
     }
   ],
-  "last_run": "2026-07-22T04:05:02Z"
+  "last_run": "2026-07-22T05:09:34Z"
 }
