@@ -8211,7 +8211,22 @@
       "url": "https://github.com/rolker/unh_echoboats_project11/pull/384",
       "seen_at": "2026-07-22T18:11:48Z",
       "summary": "A Fable 5 agent calibrated a four-camera boat mast using 1.43 million waterline observations, two independent solves, reproducible scripts, numeric residual gates, and successful visible checks."
+    },
+    {
+      "url": "https://github.com/macanderson/stella/pull/321",
+      "seen_at": "2026-07-22T19:16:44Z",
+      "summary": "A Terminal-Bench 2 run of Fable 5 exposed a single-model witness abort and an OpenRouter reasoning-disabled 400; the draft repair has author-reported green local tests but a failing combined CI job."
+    },
+    {
+      "url": "https://github.com/phase-rs/phase/pull/6352",
+      "seen_at": "2026-07-22T19:16:44Z",
+      "summary": "A Fable 5 card-engine repair adds cast-payment lifecycle tests after a trigger bug, but a post-review finding identifies unresolved source-qualified payment provenance at battlefield exit."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6506",
+      "seen_at": "2026-07-22T19:16:44Z",
+      "summary": "Fable 5 helped OWID add a stale-year-pin audit after finding 21 outdated defaults in a 40-chart sample; the merged workflow recognizes documented exceptions and passed final build-and-deploy."
     }
   ],
-  "last_run": "2026-07-22T18:11:48Z"
+  "last_run": "2026-07-22T19:16:44Z"
 }
