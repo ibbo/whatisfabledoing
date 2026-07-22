@@ -8146,7 +8146,22 @@
       "url": "https://github.com/SakanaAI/ShinkaEvolve/pull/164",
       "seen_at": "2026-07-22T13:50:53Z",
       "summary": "Claude Fable 5 co-authored ShinkaEvolve provider-client cache isolation by event loop and explicit runtime identity, with cache regressions and visible successful tests."
+    },
+    {
+      "url": "https://github.com/preactjs/preact/pull/5174",
+      "seen_at": "2026-07-22T14:55:55Z",
+      "summary": "A Claude Fable 5-authored Preact v11 patch uses a longest-increasing-subsequence pass to minimize keyed DOM moves, with 1,000-row benchmark and visible CI evidence."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6137",
+      "seen_at": "2026-07-22T14:55:55Z",
+      "summary": "Gumroad's autonomous claude-fable-5 agent repaired NFC/NFD S3-key mismatches behind 2,803 events and 138 seller-impacting download failures, with red-first tests and merged CI."
+    },
+    {
+      "url": "https://github.com/oxcaml/oxcaml/pull/6475",
+      "seen_at": "2026-07-22T14:55:55Z",
+      "summary": "An OxCaml Fable formalization of Flambda 2 grew into a 148-file, 52,612-line compiler artifact with 453 Rocq rules and a reported constant-folding bug discovery."
     }
   ],
-  "last_run": "2026-07-22T13:50:53Z"
+  "last_run": "2026-07-22T14:55:55Z"
 }
