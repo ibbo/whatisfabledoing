@@ -7961,7 +7961,22 @@
       "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26729",
       "seen_at": "2026-07-22T01:56:23Z",
       "summary": "Claude Code with Fable 5 assisted an AzerothCore raid-respawn repair for self-linked and hard-reset bosses; author and issue-reporter in-game checks confirmed the fix, and public C++ builds succeeded."
+    },
+    {
+      "url": "https://github.com/LBANN/HPC-launcher/pull/67",
+      "seen_at": "2026-07-22T03:01:08Z",
+      "summary": "Nathan Dryden used Fable 5 for a 32-file HPC Launcher repair series covering state leaks, exit codes, Ctrl-C child cleanup, quoting, scheduler arguments, and selected-GPU memory caps; public Python 3.9 and 3.13 tests pass."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/pull/386",
+      "seen_at": "2026-07-22T03:01:08Z",
+      "summary": "Fable 5-authored Colibri Metal cache-default patch follows a 0.4 to ~2.0 tok/s four-knob M5 Max experiment, adds an F_NOCACHE storage probe, and limits automatic changes to two cache knobs with cross-platform checks green."
+    },
+    {
+      "url": "https://github.com/Machell1/Scalp-trader-/pull/65",
+      "seen_at": "2026-07-22T03:01:08Z",
+      "summary": "Fable 5 co-authored preregistered 30-minute trading-signal study rejected all six initial candidates after costs, sampling, and measured FTMO swaps erased apparent overnight-drift gains."
     }
   ],
-  "last_run": "2026-07-22T01:56:23Z"
+  "last_run": "2026-07-22T03:01:08Z"
 }
