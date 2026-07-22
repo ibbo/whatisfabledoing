@@ -8036,7 +8036,22 @@
       "url": "https://github.com/avivsinai/yoetz/pull/334",
       "seen_at": "2026-07-22T06:14:22Z",
       "summary": "A Yoetz live probe ran Claude Fable 5 Max entirely in an inactive browser tab for 126 seconds, enabling removal of focus-stealing job machinery; public tests and browser smokes passed."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/issues/112549",
+      "seen_at": "2026-07-22T07:21:55Z",
+      "summary": "OpenClaw user steipete reproduced a selected Claude Fable 5 CLI-auth-profile gateway crash twice in production and with deterministic regression tests, tracing it to a late fd 3 credential-pipe ECONNRESET after an otherwise completed turn."
+    },
+    {
+      "url": "https://github.com/APIDevTools/json-schema-ref-parser/pull/425",
+      "seen_at": "2026-07-22T07:21:55Z",
+      "summary": "A Fable 5 Claude Code PR adds synchronous in-memory dereference and bundle APIs to json-schema-ref-parser, with 14 new tests, author-reported 491 Node and 458 browser tests, and clean TypeScript/lint checks."
+    },
+    {
+      "url": "https://github.com/fedify-dev/fedify/pull/966",
+      "seen_at": "2026-07-22T07:21:55Z",
+      "summary": "Fedify contributor mike182uk reports Fable 5, via OpenCode, investigated and authored a bundled SWICG ActivityPub JSON-LD context to keep outages from breaking expansion, with Deno and Node checks run and reviewed by the author."
     }
   ],
-  "last_run": "2026-07-22T06:14:22Z"
+  "last_run": "2026-07-22T07:21:55Z"
 }
