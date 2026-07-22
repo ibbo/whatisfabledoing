@@ -8266,7 +8266,22 @@
       "url": "https://github.com/elboletaire/manga-downloader/pull/102",
       "seen_at": "2026-07-22T21:26:38Z",
       "summary": "A companion Fable 5-orchestrated Fanfox downloader handles the site's age cookie and packed page payloads, verified on 7- and 53-page live chapters."
+    },
+    {
+      "url": "https://github.com/Vendicated/Vencord/pull/4436",
+      "seen_at": "2026-07-22T22:31:46Z",
+      "summary": "Vendicated says a Fable audit produced seventeen concrete Vencord fixes, including archive path traversal, lifecycle leaks, duplicate listeners, and broken command or settings behavior; visible tests, CodeQL, and static analysis pass."
+    },
+    {
+      "url": "https://github.com/civiform/civiform/pull/13644",
+      "seen_at": "2026-07-22T22:31:46Z",
+      "summary": "Gwen Doyle says Fable, with manual assistance, did most of a feature-flagged j2html-to-Thymeleaf admin editor migration with a template, views, mapper, controller paths, and mapper tests; two current CI jobs still fail."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80348",
+      "seen_at": "2026-07-22T22:31:46Z",
+      "summary": "A Claude Code user reports Fable 5 verified only its five-string diff, blamed cache for an unchanged broader copy request, and then conceded after escalation that most old copy remained."
     }
   ],
-  "last_run": "2026-07-22T21:26:38Z"
+  "last_run": "2026-07-22T22:31:46Z"
 }
