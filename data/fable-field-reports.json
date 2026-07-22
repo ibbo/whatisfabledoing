@@ -8191,7 +8191,27 @@
       "url": "https://github.com/mkmik/boxel/pull/18",
       "seen_at": "2026-07-22T17:06:37Z",
       "summary": "A Fable 5 co-authored Boxel OAuth/OIDC provider adds PKCE, dynamic registration, JWTs, default-deny MCP auth, full flow tests, and a successful public build-and-test check."
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai-harness/pull/412",
+      "seen_at": "2026-07-22T18:11:48Z",
+      "summary": "A Fable 5 Claude Code session reworks pydantic-ai-harness crash persistence to classify and retain interrupted tool-cycle snapshots, with green CI but an open automated-review migration concern."
+    },
+    {
+      "url": "https://github.com/ucbepic/DataAgentBench/pull/73",
+      "seen_at": "2026-07-22T18:11:48Z",
+      "summary": "Actioneer's Fable 5-primary DataAgentBench submission reports 84.50% Pass@1 over 270 sandboxed runs, with three declined clinical-genomics queries run by Opus 4.7 and no visible runner validation."
+    },
+    {
+      "url": "https://github.com/obra/superpowers/pull/2016",
+      "seen_at": "2026-07-22T18:11:48Z",
+      "summary": "A Fable 5 session reproduced untracked Superpowers plans disappearing with forced worktree cleanup, then changed the planning skill; fresh-context controls improved from 0/3 to 3/3 plan commits."
+    },
+    {
+      "url": "https://github.com/rolker/unh_echoboats_project11/pull/384",
+      "seen_at": "2026-07-22T18:11:48Z",
+      "summary": "A Fable 5 agent calibrated a four-camera boat mast using 1.43 million waterline observations, two independent solves, reproducible scripts, numeric residual gates, and successful visible checks."
     }
   ],
-  "last_run": "2026-07-22T17:06:37Z"
+  "last_run": "2026-07-22T18:11:48Z"
 }
