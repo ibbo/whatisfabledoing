@@ -7976,7 +7976,27 @@
       "url": "https://github.com/Machell1/Scalp-trader-/pull/65",
       "seen_at": "2026-07-22T03:01:08Z",
       "summary": "Fable 5 co-authored preregistered 30-minute trading-signal study rejected all six initial candidates after costs, sampling, and measured FTMO swaps erased apparent overnight-drift gains."
+    },
+    {
+      "url": "https://github.com/decolua/9router/pull/2760",
+      "seen_at": "2026-07-22T04:05:02Z",
+      "summary": "9router live-tested a Fable 5 thinking-format integration bug: legacy budget thinking returned HTTP 400 while adaptive thinking returned 200, leading to shared 4.6+ capability rules and regression coverage."
+    },
+    {
+      "url": "https://github.com/rewardwise/RewardWise/pull/255",
+      "seen_at": "2026-07-22T04:05:02Z",
+      "summary": "Fable 5 co-authored RewardWise production repair after a travel agent ignored no-pricing instructions and returned fare quotes; deterministic backend suppression and visible test/analysis checks passed."
+    },
+    {
+      "url": "https://github.com/RetireGolden/RetireGolden-MCP/pull/18",
+      "seen_at": "2026-07-22T04:05:02Z",
+      "summary": "RetireGolden traced a 13% Kentucky tax-planning discrepancy partly to a Fable 5 co-authored documentation assumption, then merged browser-parity testing and combined federal/state calculation across six paths."
+    },
+    {
+      "url": "https://github.com/pbakaus/impeccable/pull/397",
+      "seen_at": "2026-07-22T04:05:02Z",
+      "summary": "Fable 5/Codex-assisted Impeccable design-agent evaluation found ranked options chose the first direction 27/30 times, while externally assigned choices produced ten distinct directions in twelve trials."
     }
   ],
-  "last_run": "2026-07-22T03:01:08Z"
+  "last_run": "2026-07-22T04:05:02Z"
 }
