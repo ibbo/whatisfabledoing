@@ -8101,7 +8101,22 @@
       "url": "https://github.com/Bike4Mind/bike4mind/issues/696",
       "seen_at": "2026-07-22T10:35:04Z",
       "summary": "A Bike4Mind ReAct-agent report records a Fable 5 run stuck rereading files and searches for about 190k tokens without edits, with the controller's compaction/handoff behavior identified as the likely integration failure."
+    },
+    {
+      "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26737",
+      "seen_at": "2026-07-22T11:39:29Z",
+      "summary": "A Claude Code Fable 5 session repaired AzerothCore taxi-status routing so neutral opposite-faction flight masters no longer advertise unusable nearby nodes; the author reports targeted in-game checks and several public jobs succeeding."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6077",
+      "seen_at": "2026-07-22T11:39:29Z",
+      "summary": "Gumroad's Fable 5-authored repair fixes second-upgrade proration credits that used the prior incremental charge rather than the current tier's full period value, with focused local tests and successful public Buildkite jobs."
+    },
+    {
+      "url": "https://github.com/QuentinMeow/jobs-finder-toolkit/pull/61",
+      "seen_at": "2026-07-22T11:39:29Z",
+      "summary": "A model-pinned Fable 5 five-canary regression run found and drove a fix for a fail-closed metadata-editor end-marker overshoot during a job-tracker schema migration; reruns passed and public build and secret-scan checks succeeded."
     }
   ],
-  "last_run": "2026-07-22T10:35:04Z"
+  "last_run": "2026-07-22T11:39:29Z"
 }
