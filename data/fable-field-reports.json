@@ -8116,7 +8116,22 @@
       "url": "https://github.com/QuentinMeow/jobs-finder-toolkit/pull/61",
       "seen_at": "2026-07-22T11:39:29Z",
       "summary": "A model-pinned Fable 5 five-canary regression run found and drove a fix for a fail-closed metadata-editor end-marker overshoot during a job-tracker schema migration; reruns passed and public build and secret-scan checks succeeded."
+    },
+    {
+      "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26738",
+      "seen_at": "2026-07-22T12:43:43Z",
+      "summary": "Claude Code with Fable 5 repaired AzerothCore Icecrown dragon flight-animation regressions and a landing-event mismatch, with author-reported in-game coverage and visible public checks succeeding."
+    },
+    {
+      "url": "https://github.com/jeremycochoy/contrastive-forecasting/pull/381",
+      "seen_at": "2026-07-22T12:43:43Z",
+      "summary": "A Fable 5 agent added a latent-drift probe and analyzed 68 forecasting checkpoints, separating feature-axis rotation from residual geometry change across six training arms."
+    },
+    {
+      "url": "https://github.com/Smart-AI-Memory/attune-ai/pull/1590",
+      "seen_at": "2026-07-22T12:43:43Z",
+      "summary": "Attune's Fable 5 streaming specification benchmark measured one-, four-, and five-file packets, marker compliance, latency, token totals, cost, and a bounded timeout strategy."
     }
   ],
-  "last_run": "2026-07-22T11:39:29Z"
+  "last_run": "2026-07-22T12:43:43Z"
 }
