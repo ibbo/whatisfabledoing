@@ -8051,7 +8051,22 @@
       "url": "https://github.com/fedify-dev/fedify/pull/966",
       "seen_at": "2026-07-22T07:21:55Z",
       "summary": "Fedify contributor mike182uk reports Fable 5, via OpenCode, investigated and authored a bundled SWICG ActivityPub JSON-LD context to keep outages from breaking expansion, with Deno and Node checks run and reviewed by the author."
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-react-native/pull/1602",
+      "seen_at": "2026-07-22T08:24:30Z",
+      "summary": "MapLibre React Native used Fable 5 assistance in a production iOS crash investigation, serializing local style-image loading to stop a CUICatalog double-free while preserving parallel network downloads."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6806",
+      "seen_at": "2026-07-22T08:24:30Z",
+      "summary": "OWID contributor edomt describes Fable 5 authoring a Mailchimp-synced newsletter archive, validated on staging with 480 imported newsletters and 18 Brief-era editions rendered in the new feed filter."
+    },
+    {
+      "url": "https://github.com/Constructive-Programming/eo/pull/82",
+      "seen_at": "2026-07-22T08:24:30Z",
+      "summary": "A Fable 5 Claude Code session optimized Scala Traversal composition and leaf folds with paired JMH allocation/time results, preserving benchmarked non-improvements as documented rejected options."
     }
   ],
-  "last_run": "2026-07-22T07:21:55Z"
+  "last_run": "2026-07-22T08:24:30Z"
 }
