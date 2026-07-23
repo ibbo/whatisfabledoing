@@ -8536,7 +8536,27 @@
       "url": "https://github.com/elsvv/foundry-tron/pull/8",
       "seen_at": "2026-07-23T15:55:47Z",
       "summary": "Foundry-tron used Fable 5 as the orchestration layer, with Opus workers executing and verifying a 50-file compatibility pass that was subsequently merged."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/73293",
+      "seen_at": "2026-07-23T16:59:17Z",
+      "summary": "A human-driven Claude Code Fable 5 investigation fixed PostHog's EU Bedrock global-profile token-count routing, replacing a 403ing runtime path with the existing Mantle fallback; focused tests and visible checks passed."
+    },
+    {
+      "url": "https://github.com/chatwright/studio/pull/4",
+      "seen_at": "2026-07-23T16:59:17Z",
+      "summary": "A Fable co-authored Chatwright repair traced production autoplay freezes to same-reference Angular effect reruns that reset playback, with deterministic engine regressions and reported local validation."
+    },
+    {
+      "url": "https://github.com/SkipLabs/skip/pull/1482",
+      "seen_at": "2026-07-23T16:59:17Z",
+      "summary": "Claude Code with Fable 5 reviewed and repaired early validation, readonly input support, documentation, and test paths for Skip's new TypeScript service-input API."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80604",
+      "seen_at": "2026-07-23T16:59:17Z",
+      "summary": "A Fable 5 Agent Teams user measured three 396k-513k cache rewrites among 44 teammate deliveries and ruled out message-size, timing, hook, delivery-mode, and nearby-config correlations."
     }
   ],
-  "last_run": "2026-07-23T15:55:47Z"
+  "last_run": "2026-07-23T16:59:17Z"
 }
