@@ -8421,7 +8421,22 @@
       "url": "https://github.com/Cjbuilds/Codex-Orchestration/pull/27",
       "seen_at": "2026-07-23T08:19:17Z",
       "summary": "Codex-Orchestration 0.8.0 expected a top-level object from Claude Code, but version 2.1.218 returned an event array, causing valid Fable planner and advisor calls to fail during response parsing."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6821",
+      "seen_at": "2026-07-23T09:22:51Z",
+      "summary": "A Fable 5-authored OWID dev-server repair recovers from local EADDRINUSE conflicts by retrying successive ports, with manual two- and three-way conflict tests and successful visible CI."
+    },
+    {
+      "url": "https://github.com/ozontech/testo/pull/27",
+      "seen_at": "2026-07-23T09:22:51Z",
+      "summary": "Metafates used Claude Fable 5 to find and reproduce eight Testo framework bugs, including deterministic plugin ordering, parallel-state guards, panic recording, generic annotation isolation, and a symlink-swap cache race."
+    },
+    {
+      "url": "https://github.com/indexable-inc/index/pull/4081",
+      "seen_at": "2026-07-23T09:22:51Z",
+      "summary": "A Fable 5 agent working through Claude Code repaired an Index policy after a shared kernel crash left agents without MCP tools or a shell fallback; the merged change restores degraded-mode Bash access."
     }
   ],
-  "last_run": "2026-07-23T08:19:17Z"
+  "last_run": "2026-07-23T09:22:51Z"
 }
