@@ -8386,7 +8386,17 @@
       "url": "https://github.com/sligo-droid/hermes-agent/pull/747",
       "seen_at": "2026-07-23T05:02:31Z",
       "summary": "A Fable 5 read-only review supported a merged fail-closed Discord action-escalation design, with 386 focused and 1,188 smoke tests reported passing and five visible checks successful."
+    },
+    {
+      "url": "https://github.com/LBANN/ScaFFold/pull/88",
+      "seen_at": "2026-07-23T06:07:45Z",
+      "summary": "Fable 5 identified a broad ScaFFold distributed-training repair pass covering MPI collective failure handling, deterministic parallel data loading, checkpoint recovery, global metrics, and CPU training, with extensive targeted regression infrastructure."
+    },
+    {
+      "url": "https://github.com/PaperArmada/turnstile/issues/40",
+      "seen_at": "2026-07-23T06:07:45Z",
+      "summary": "A Fable 5-generated Claude Code report reproduced a Turnstile quickstart registry/traceback failure twice; the follow-up repair added safe registration and error handling with 20 regression tests and a successful visible test check."
     }
   ],
-  "last_run": "2026-07-23T05:02:31Z"
+  "last_run": "2026-07-23T06:07:45Z"
 }
