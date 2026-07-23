@@ -8466,7 +8466,22 @@
       "url": "https://github.com/vocdoni/saas-backend/pull/602",
       "seen_at": "2026-07-23T11:32:24Z",
       "summary": "A Fable 5-authored Vocdoni repair fixes organization-name import emails across three languages, then adds locale-map metadata handling after review; visible checks are successful."
+    },
+    {
+      "url": "https://github.com/VisionChengzhuo/lark-coding-agent-bridge/pull/3",
+      "seen_at": "2026-07-23T12:37:26Z",
+      "summary": "A Fable-facing Feishu coding-agent bridge unifies Mac and KML model controls, fixes bounded progress updates and proxy handling, with 583 tests, cross-platform CI, and live Fable connection checks reported."
+    },
+    {
+      "url": "https://github.com/CesiumGS/cesium/pull/13643",
+      "seen_at": "2026-07-23T12:37:26Z",
+      "summary": "A Claude Fable 5-assisted Cesium loader change replaces retained number arrays with typed arrays, reducing measured JS heap from roughly 460 MB to 45 MB on a 306-tile dataset while visible checks pass."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6508",
+      "seen_at": "2026-07-23T12:37:26Z",
+      "summary": "Claude Fable 5-authored OWID World Bank PIP metadata rewrite adds context-specific poverty and inequality fact text, fixes a unit-label bug, and updates audit serialization handling; build-and-deploy and security checks pass."
     }
   ],
-  "last_run": "2026-07-23T11:32:24Z"
+  "last_run": "2026-07-23T12:37:26Z"
 }
