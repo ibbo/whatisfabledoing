@@ -8331,7 +8331,32 @@
       "url": "https://github.com/anthropics/claude-code/issues/80401",
       "seen_at": "2026-07-23T01:45:33Z",
       "summary": "A detailed Fable 5 Claude Code report traces disappearing Task tools across versions, sessions, local flags, and a mid-session transient outage, pointing to a remote registry or feature-flag failure."
+    },
+    {
+      "url": "https://github.com/mmacy/osr-editor/pull/12",
+      "seen_at": "2026-07-23T02:50:13Z",
+      "summary": "Claude Fable 5 implemented a forge-backed OSR editor integration with a seven-flag fixture, a translation-and-undo protocol, and 442 pytest, 221 Vitest, and seven Playwright checks reported passing; public macOS/Ubuntu, type, E2E, and frontend checks succeeded."
+    },
+    {
+      "url": "https://github.com/galadd/eth_state_diff/issues/1",
+      "seen_at": "2026-07-23T02:50:13Z",
+      "summary": "A Lighthouse engineer’s Fable-assisted integration of eth-state-diff recorded byte-exact mainnet-state round trips, 5x/7x compute/apply speedups on a 92,379-slot span, and a larger 10.5MB delta that led to concrete multi-epoch correctness findings."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80405",
+      "seen_at": "2026-07-23T02:50:13Z",
+      "summary": "A Fable 5 user compared five Claude Code sessions and found a plan-mode session with eight interrupted tool calls lost every long assistant text block from its JSONL transcript, while otherwise similar sessions preserved text up to 5,004 characters."
+    },
+    {
+      "url": "https://github.com/thanhtranarch/t3lab-revit-api/pull/179",
+      "seen_at": "2026-07-23T02:50:13Z",
+      "summary": "A T3Lab Fable integration audit replaced a deprecated Claude extended-thinking request that Fable 5 rejects with HTTP 400, adding adaptive-first requests, legacy fallback caching, a 114-line smoke test, and a merged repair."
+    },
+    {
+      "url": "https://github.com/nagarjunveerapu/ConverseSpine/pull/109",
+      "seen_at": "2026-07-23T02:50:13Z",
+      "summary": "A Fable 5 co-authored real-estate assistant repair stopped unserved-city searches from being presented as matches, with three live checks each for Mumbai, Chennai, and Coimbatore, 687 tests, and a successful public test check."
     }
   ],
-  "last_run": "2026-07-23T01:45:33Z"
+  "last_run": "2026-07-23T02:50:13Z"
 }
