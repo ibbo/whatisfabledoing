@@ -8521,7 +8521,22 @@
       "url": "https://github.com/can1357/oh-my-pi/issues/6379",
       "seen_at": "2026-07-23T14:50:04Z",
       "summary": "A reproducible oh-my-pi report finds that a Kimi-to-Claude Fable 5 switch forwards a foreign latest thinking signature to Anthropic, causing deterministic HTTP 400 failures until a fallback completes a turn."
+    },
+    {
+      "url": "https://github.com/jamulussoftware/jamulus/pull/3828",
+      "seen_at": "2026-07-23T15:55:47Z",
+      "summary": "Jamulus contributor dtinth used Claude Code with Fable 5 to build the project's first Qt protocol-test harness, but documented the non-one-shot workflow: it took substantial steering and eleven rounds of design corrections."
+    },
+    {
+      "url": "https://github.com/rolker/cube_bathymetry/pull/108",
+      "seen_at": "2026-07-23T15:55:47Z",
+      "summary": "After a Massabesic deployment showed live coverage tiles disappearing, a Fable 5-authored ROS 2 repair closed a gap in the boat-to-shore anti-entropy protocol."
+    },
+    {
+      "url": "https://github.com/elsvv/foundry-tron/pull/8",
+      "seen_at": "2026-07-23T15:55:47Z",
+      "summary": "Foundry-tron used Fable 5 as the orchestration layer, with Opus workers executing and verifying a 50-file compatibility pass that was subsequently merged."
     }
   ],
-  "last_run": "2026-07-23T14:50:04Z"
+  "last_run": "2026-07-23T15:55:47Z"
 }
