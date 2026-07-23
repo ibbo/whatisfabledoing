@@ -8371,7 +8371,22 @@
       "url": "https://github.com/nagarjunveerapu/ConverseSpine/pull/112",
       "seen_at": "2026-07-23T03:56:41Z",
       "summary": "A Fable 5 co-authored embedding-router A/B experiment found its fallback inert in focused contexts and identified roughly 1,541 corpus rows that instead need new evidence paths, with a successful public test check."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/73065",
+      "seen_at": "2026-07-23T05:02:31Z",
+      "summary": "A Fable 5 Claude Code investigation traced a 1.3s-to-44.8–52.1s DuckLake catalog lookup swing to per-batch information_schema rematerialization, then added per-connection positive-result caching with focused TDD coverage."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6167",
+      "seen_at": "2026-07-23T05:02:31Z",
+      "summary": "Claude Fable 5 authored Gumroad's additive buyer-currency Sales API v2 fields with no-N+1 and refund-edge regression cases; the contributor reports 76 local examples passing and 75 visible checks are successful."
+    },
+    {
+      "url": "https://github.com/sligo-droid/hermes-agent/pull/747",
+      "seen_at": "2026-07-23T05:02:31Z",
+      "summary": "A Fable 5 read-only review supported a merged fail-closed Discord action-escalation design, with 386 focused and 1,188 smoke tests reported passing and five visible checks successful."
     }
   ],
-  "last_run": "2026-07-23T03:56:41Z"
+  "last_run": "2026-07-23T05:02:31Z"
 }
