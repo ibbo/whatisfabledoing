@@ -8356,7 +8356,22 @@
       "url": "https://github.com/nagarjunveerapu/ConverseSpine/pull/109",
       "seen_at": "2026-07-23T02:50:13Z",
       "summary": "A Fable 5 co-authored real-estate assistant repair stopped unserved-city searches from being presented as matches, with three live checks each for Mumbai, Chennai, and Coimbatore, 687 tests, and a successful public test check."
+    },
+    {
+      "url": "https://github.com/yuki777/pr-codex/pull/119",
+      "seen_at": "2026-07-23T03:56:41Z",
+      "summary": "A recorded Fable 5 code-review run on seeded authorization and pagination defects improved acceptable-pass rate from 0.3333 in one pass to 1.0 iteratively without false positives, at a 46.9-second rather than 35.8-second duration."
+    },
+    {
+      "url": "https://github.com/teslamint/cogvault/pull/8",
+      "seen_at": "2026-07-23T03:56:41Z",
+      "summary": "A CogVault run found 2 of 65 PDFs refused by Fable 5 safeguards and fixed its Claude Code adapter to classify the observed exit-0 api_error response as terminal until a model change, with refusal/recovery/migration tests."
+    },
+    {
+      "url": "https://github.com/nagarjunveerapu/ConverseSpine/pull/112",
+      "seen_at": "2026-07-23T03:56:41Z",
+      "summary": "A Fable 5 co-authored embedding-router A/B experiment found its fallback inert in focused contexts and identified roughly 1,541 corpus rows that instead need new evidence paths, with a successful public test check."
     }
   ],
-  "last_run": "2026-07-23T02:50:13Z"
+  "last_run": "2026-07-23T03:56:41Z"
 }
