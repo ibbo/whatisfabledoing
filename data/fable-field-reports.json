@@ -8591,7 +8591,22 @@
       "url": "https://github.com/Dreaming-Codes/immich-cloud-media/pull/15",
       "seen_at": "2026-07-23T19:10:48Z",
       "summary": "A Fable 5-authored Immich v3 Android picker repair was manually exercised against a 29,000-asset real-device library, while its author notes no line-by-line code review or public CI."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge-dev/pull/770",
+      "seen_at": "2026-07-23T20:19:36Z",
+      "summary": "A high-effort Claude Fable 5 MLXFast submission reports a 7% local score gain and 7.4% lower decode time with bit-exact outputs, while public ranked validation is still running."
+    },
+    {
+      "url": "https://github.com/apache/ozone/pull/10844",
+      "seen_at": "2026-07-23T20:19:36Z",
+      "summary": "A Claude Code Fable 5-generated Apache Ozone repair refreshes dead SCM DNS routes after missed heartbeats, with focused regressions and several public CI jobs successful while build jobs run."
+    },
+    {
+      "url": "https://github.com/Acadian-Capital-Partners/firstmate/pull/1",
+      "seen_at": "2026-07-23T20:19:36Z",
+      "summary": "Firstmate reports safely adopting and supervising a live Fable 5 Claude Code tmux session, with identity checks, live usage, non-destructive release, and 11 reported adoption tests."
     }
   ],
-  "last_run": "2026-07-23T19:10:48Z"
+  "last_run": "2026-07-23T20:19:36Z"
 }
