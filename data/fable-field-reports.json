@@ -8621,7 +8621,17 @@
       "url": "https://github.com/WordPress/wordpress-develop/pull/12667",
       "seen_at": "2026-07-23T21:25:11Z",
       "summary": "A WordPress contributor used Fable 5 for comment-moderation E2E test authoring and cross-environment verification, covering five admin flows in a new 241-line browser test while public matrix jobs run."
+    },
+    {
+      "url": "https://github.com/flippercloud/flipper/pull/1029",
+      "seen_at": "2026-07-23T22:30:39Z",
+      "summary": "A Fable 5-generated Flipper gate optimization reports 11–25% faster off-feature checks and fewer allocations in a five-round local M5 Pro benchmark, with author review and local testing but no public check rollup."
+    },
+    {
+      "url": "https://github.com/thoughtbot/shoulda-matchers/pull/1721",
+      "seen_at": "2026-07-23T22:30:39Z",
+      "summary": "A Fable 5-generated shoulda-matchers change replaces a full record-method scan with direct secure-password predicates, reporting 4.3–7.6x faster runs and 71–83% fewer allocations; 17 public build jobs succeeded."
     }
   ],
-  "last_run": "2026-07-23T21:25:11Z"
+  "last_run": "2026-07-23T22:30:39Z"
 }
