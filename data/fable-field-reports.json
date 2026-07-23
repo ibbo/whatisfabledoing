@@ -8411,7 +8411,17 @@
       "url": "https://github.com/amanthanvi/winghostty/pull/93",
       "seen_at": "2026-07-23T07:12:47Z",
       "summary": "A Fable 5 audit found four P3 issues in Winghostty’s Windows accessibility and release-signing hardening pass; the author says each was fixed and the focused re-audit was clean."
+    },
+    {
+      "url": "https://github.com/teamchong/pxpipe/pull/135",
+      "seen_at": "2026-07-23T08:19:17Z",
+      "summary": "Pxpipe found that volatile token counters, a movable environment wrapper, and model-identity lines were changing the cached prefix on every Anthropic request."
+    },
+    {
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration/pull/27",
+      "seen_at": "2026-07-23T08:19:17Z",
+      "summary": "Codex-Orchestration 0.8.0 expected a top-level object from Claude Code, but version 2.1.218 returned an event array, causing valid Fable planner and advisor calls to fail during response parsing."
     }
   ],
-  "last_run": "2026-07-23T07:12:47Z"
+  "last_run": "2026-07-23T08:19:17Z"
 }
