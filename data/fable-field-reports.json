@@ -8481,7 +8481,32 @@
       "url": "https://github.com/owid/etl/pull/6508",
       "seen_at": "2026-07-23T12:37:26Z",
       "summary": "Claude Fable 5-authored OWID World Bank PIP metadata rewrite adds context-specific poverty and inequality fact text, fixes a unit-label bug, and updates audit serialization handling; build-and-deploy and security checks pass."
+    },
+    {
+      "url": "https://github.com/mozilla-ai/otari/pull/384",
+      "seen_at": "2026-07-23T13:43:09Z",
+      "summary": "Mozilla AI's Otari reports a Fable 5-built dashboard-session repair with human design/review: an HttpOnly cookie, hashed DB-backed sessions, rotation revocation, live-gateway exercises, and successful visible CI."
+    },
+    {
+      "url": "https://github.com/aallan/vera-bench/pull/93",
+      "seen_at": "2026-07-23T13:43:09Z",
+      "summary": "Vera Bench's preflight found Fable 5 ThinkingBlocks before TextBlocks broke a response.content[0].text assumption, silently emptying its Fable benchmark tier; a regression double and release validation were added."
+    },
+    {
+      "url": "https://github.com/software-mansion/react-native-reanimated/pull/10032",
+      "seen_at": "2026-07-23T13:43:09Z",
+      "summary": "A contributor used Claude/Fable 5 to trace a shared Babel-options mutation that made Jest cache keys change per file; the proposed per-pass fix turns a repeated cache rebuild into a zero-new-file warm rerun."
+    },
+    {
+      "url": "https://github.com/TAIPANBOX/verdryx/pull/4",
+      "seen_at": "2026-07-23T13:43:09Z",
+      "summary": "Verdryx found hard-coded temperature=0.0 made Fable 5 completion, judging, and tool calls return HTTP 400; its merged default-omission repair has request-shape tests and successful public checks."
+    },
+    {
+      "url": "https://github.com/rolker/unh_marine_navigation/pull/102",
+      "seen_at": "2026-07-23T13:43:09Z",
+      "summary": "A Fable 5-authored autonomous-boat repair clamps a post-PID crab-angle multiplier after a bag-confirmed sail-away incident; eight regressions, a 67-test suite, and public checks passed before merge."
     }
   ],
-  "last_run": "2026-07-23T12:37:26Z"
+  "last_run": "2026-07-23T13:43:09Z"
 }
