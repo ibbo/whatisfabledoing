@@ -8556,7 +8556,27 @@
       "url": "https://github.com/anthropics/claude-code/issues/80604",
       "seen_at": "2026-07-23T16:59:17Z",
       "summary": "A Fable 5 Agent Teams user measured three 396k-513k cache rewrites among 44 teammate deliveries and ruled out message-size, timing, hook, delivery-mode, and nearby-config correlations."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10100",
+      "seen_at": "2026-07-23T18:06:03Z",
+      "summary": "Fable 5 with extended thinking and tool use repaired Paperclip plugin config delivery races and tenant-binding transitions, with successful public server, end-to-end, security, and review checks."
+    },
+    {
+      "url": "https://github.com/renovatebot/renovate/pull/44805",
+      "seen_at": "2026-07-23T18:06:03Z",
+      "summary": "Bram Rongen used Fable 5 to diagnose Composer packages-dev lockfile handling that rebuilt unchanged Renovate branches; the patch and focused tests have successful public checks."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13250",
+      "seen_at": "2026-07-23T18:06:03Z",
+      "summary": "A Fable 5 agent replay found pnpm update-lockfile runtime-dependency and Node-floor blockers; the follow-up reports an exact local replay exiting zero while some public tests remain in progress."
+    },
+    {
+      "url": "https://github.com/indexable-inc/index/pull/4110",
+      "seen_at": "2026-07-23T18:06:03Z",
+      "summary": "A Fable 5 Claude Code agent added TypeScript-to-Nix runtime type lowering, with 67 reported Cargo tests, native/WASM builds, 27 lint stages, and a flake check still running."
     }
   ],
-  "last_run": "2026-07-23T16:59:17Z"
+  "last_run": "2026-07-23T18:06:03Z"
 }
