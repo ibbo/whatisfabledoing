@@ -8436,7 +8436,22 @@
       "url": "https://github.com/indexable-inc/index/pull/4081",
       "seen_at": "2026-07-23T09:22:51Z",
       "summary": "A Fable 5 agent working through Claude Code repaired an Index policy after a shared kernel crash left agents without MCP tools or a shell fallback; the merged change restores degraded-mode Bash access."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6823",
+      "seen_at": "2026-07-23T10:28:03Z",
+      "summary": "A Fable 5-authored OWID Grapher PR adds calendar-aware month, day, week, and quarter ticks and labels, with 1,739 changed lines and successful visible type, test, build, format, and lint checks."
+    },
+    {
+      "url": "https://github.com/zeroc-ice/ice/issues/5843",
+      "seen_at": "2026-07-23T10:28:03Z",
+      "summary": "A Fable 5 multi-agent IceGrid audit reported that unlimited RLIMIT_NOFILE can trigger roughly 2.1 billion pre-exec close calls and stall the node activator; the public finding remains explicitly untriaged."
+    },
+    {
+      "url": "https://github.com/wdes/tab-atelier/pull/33",
+      "seen_at": "2026-07-23T10:28:03Z",
+      "summary": "A Fable co-authored Rust Catbus PR adds an Infomaniak OpenAI-compatible backend, preserving existing tool-loop and transcript behavior with a 350-line mock suite; Codecov checks are successful and the main job is in progress."
     }
   ],
-  "last_run": "2026-07-23T09:22:51Z"
+  "last_run": "2026-07-23T10:28:03Z"
 }
