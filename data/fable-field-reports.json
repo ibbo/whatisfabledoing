@@ -8506,7 +8506,22 @@
       "url": "https://github.com/rolker/unh_marine_navigation/pull/102",
       "seen_at": "2026-07-23T13:43:09Z",
       "summary": "A Fable 5-authored autonomous-boat repair clamps a post-PID crab-angle multiplier after a bag-confirmed sail-away incident; eight regressions, a 67-test suite, and public checks passed before merge."
+    },
+    {
+      "url": "https://github.com/jundot/omlx/pull/2245",
+      "seen_at": "2026-07-23T14:50:04Z",
+      "summary": "A Claude Fable 5 co-authored production kernel fuses GLM-5.2 DSA decode scoring, recording 1.46x-1.74x scan/select speedups, exact top-2048 agreement, and a 6.7% live 131k-context throughput gain."
+    },
+    {
+      "url": "https://github.com/PolicyEngine/us-frb-model/pull/5",
+      "seen_at": "2026-07-23T14:50:04Z",
+      "summary": "A merged Claude Fable 5 co-authored macroeconomic-model update adds seeded residual-bootstrap uncertainty bands, solver robustness fixes, and four vendor-reference validation scenarios agreeing within 2.1e-8."
+    },
+    {
+      "url": "https://github.com/can1357/oh-my-pi/issues/6379",
+      "seen_at": "2026-07-23T14:50:04Z",
+      "summary": "A reproducible oh-my-pi report finds that a Kimi-to-Claude Fable 5 switch forwards a foreign latest thinking signature to Anthropic, causing deterministic HTTP 400 failures until a fallback completes a turn."
     }
   ],
-  "last_run": "2026-07-23T13:43:09Z"
+  "last_run": "2026-07-23T14:50:04Z"
 }
