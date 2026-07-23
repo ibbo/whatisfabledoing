@@ -8606,7 +8606,22 @@
       "url": "https://github.com/Acadian-Capital-Partners/firstmate/pull/1",
       "seen_at": "2026-07-23T20:19:36Z",
       "summary": "Firstmate reports safely adopting and supervising a live Fable 5 Claude Code tmux session, with identity checks, live usage, non-destructive release, and 11 reported adoption tests."
+    },
+    {
+      "url": "https://github.com/zakura-core/zakura/pull/419",
+      "seen_at": "2026-07-23T21:25:11Z",
+      "summary": "A Claude Code Fable 5 session built a reproducible Zakura mainnet-sync CPU profiler with a 22,790-block A/A run, 0.97x noise comparison, flamegraphs, traces, and public checks partly still running."
+    },
+    {
+      "url": "https://github.com/OpenAgentHQ/openagent-eval/pull/229",
+      "seen_at": "2026-07-23T21:25:11Z",
+      "summary": "Fable 5 briefed and reviewed a retrieval-metric repair that fixed rank-two NDCG scoring as first place; the merged Opus implementation adds 52 test lines and public build, test, coverage, CodeQL, and lint checks passed."
+    },
+    {
+      "url": "https://github.com/WordPress/wordpress-develop/pull/12667",
+      "seen_at": "2026-07-23T21:25:11Z",
+      "summary": "A WordPress contributor used Fable 5 for comment-moderation E2E test authoring and cross-environment verification, covering five admin flows in a new 241-line browser test while public matrix jobs run."
     }
   ],
-  "last_run": "2026-07-23T20:19:36Z"
+  "last_run": "2026-07-23T21:25:11Z"
 }
