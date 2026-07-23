@@ -8311,7 +8311,27 @@
       "url": "https://github.com/PostHog/posthog/pull/73032",
       "seen_at": "2026-07-23T00:40:46Z",
       "summary": "Claude Code using Fable 5 built and headlessly verified a five-variant PostHog Cmd+K discovery experiment with typed source instrumentation, while frontend, visual, Jest, Semgrep, and aggregate Node checks are successful."
+    },
+    {
+      "url": "https://github.com/deneb-viz/deneb/pull/729",
+      "seen_at": "2026-07-23T01:45:33Z",
+      "summary": "A Fable 5-generated Deneb patch reproduced and repaired a Power BI late-iframe-resize failure with a guarded ResizeObserver, exact update-sequence replay, manual Desktop verification, and successful public CI."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10058",
+      "seen_at": "2026-07-23T01:45:33Z",
+      "summary": "A Fable 5 extended-thinking/tool-use session added Paperclip's fail-closed managed-config parser and read-time operator overlay, with focused local suites reported and an open compatibility fix before merge."
+    },
+    {
+      "url": "https://github.com/nickswami/ChapterMaster/pull/462",
+      "seen_at": "2026-07-23T01:45:33Z",
+      "summary": "A Fable co-authored ChapterMaster harness patch replaces consistently missed VirtualEye clicks with a tested four-step hover, settle, click, settle gesture, pending the larger battery gate."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80401",
+      "seen_at": "2026-07-23T01:45:33Z",
+      "summary": "A detailed Fable 5 Claude Code report traces disappearing Task tools across versions, sessions, local flags, and a mid-session transient outage, pointing to a remote registry or feature-flag failure."
     }
   ],
-  "last_run": "2026-07-23T00:40:46Z"
+  "last_run": "2026-07-23T01:45:33Z"
 }
