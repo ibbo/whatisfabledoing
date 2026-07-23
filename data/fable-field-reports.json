@@ -8451,7 +8451,22 @@
       "url": "https://github.com/wdes/tab-atelier/pull/33",
       "seen_at": "2026-07-23T10:28:03Z",
       "summary": "A Fable co-authored Rust Catbus PR adds an Infomaniak OpenAI-compatible backend, preserving existing tool-loop and transcript behavior with a 350-line mock suite; Codecov checks are successful and the main job is in progress."
+    },
+    {
+      "url": "https://github.com/alphaonedev/ai-memory-mcp/issues/2308",
+      "seen_at": "2026-07-23T11:32:24Z",
+      "summary": "A Fable 5 audit found that ai-memory-mcp could hard-delete recently recalled data because its default MCP stdio path skipped TTL-extension folding before GC; a regression-tested repair landed."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13231",
+      "seen_at": "2026-07-23T11:32:24Z",
+      "summary": "A Claude Code Fable 5 agent traced near-empty pnpm library tarballs to inherited ignores beating manifest allowlists; the proposed repair has a reviewer-identified empty-allowlist edge case and running Rust tests."
+    },
+    {
+      "url": "https://github.com/vocdoni/saas-backend/pull/602",
+      "seen_at": "2026-07-23T11:32:24Z",
+      "summary": "A Fable 5-authored Vocdoni repair fixes organization-name import emails across three languages, then adds locale-map metadata handling after review; visible checks are successful."
     }
   ],
-  "last_run": "2026-07-23T10:28:03Z"
+  "last_run": "2026-07-23T11:32:24Z"
 }
