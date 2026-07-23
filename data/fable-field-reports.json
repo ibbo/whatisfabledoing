@@ -8576,7 +8576,22 @@
       "url": "https://github.com/indexable-inc/index/pull/4110",
       "seen_at": "2026-07-23T18:06:03Z",
       "summary": "A Fable 5 Claude Code agent added TypeScript-to-Nix runtime type lowering, with 67 reported Cargo tests, native/WASM builds, 27 lint stages, and a flake check still running."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6206",
+      "seen_at": "2026-07-23T19:10:48Z",
+      "summary": "A Fable 5 Gumroad agent replaced 24 sequential mobile-library seller probes with two batched queries, with parity specs and public lint checks successful while build and Minitest jobs run."
+    },
+    {
+      "url": "https://github.com/unjs/unpdf/issues/59",
+      "seen_at": "2026-07-23T19:10:48Z",
+      "summary": "A Fable 5 Claude Code review for untrusted-PDF adoption identified unbounded page fan-out and unlimited image-decoding exposure, with concrete API and documentation proposals."
+    },
+    {
+      "url": "https://github.com/Dreaming-Codes/immich-cloud-media/pull/15",
+      "seen_at": "2026-07-23T19:10:48Z",
+      "summary": "A Fable 5-authored Immich v3 Android picker repair was manually exercised against a 29,000-asset real-device library, while its author notes no line-by-line code review or public CI."
     }
   ],
-  "last_run": "2026-07-23T18:06:03Z"
+  "last_run": "2026-07-23T19:10:48Z"
 }
