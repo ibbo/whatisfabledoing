@@ -8296,7 +8296,22 @@
       "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2309",
       "seen_at": "2026-07-22T23:36:43Z",
       "summary": "Fable and Grok audit passes independently found an ai-memory-mcp GC expiry bug; Fable 5 implemented folding TTL extensions before eviction, with focused regressions and a partially successful public CI matrix."
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai/pull/6679",
+      "seen_at": "2026-07-23T00:40:46Z",
+      "summary": "Claude Code using Fable 5 reproduced pydantic-ai retrying real Google Model Armor blocks instead of raising ContentFilterError, then added the enum-value fix and wire-truth cassettes while recording an OpenAI moderation-policy discrepancy."
+    },
+    {
+      "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1136",
+      "seen_at": "2026-07-23T00:40:46Z",
+      "summary": "A Fable 5 pagination review found three unexecuted NeoWiki behaviors; mutation-checked regressions pin cursor state, skipped imported rows, and 100-row keyset drains, with successful visible CI but pending human review."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/73032",
+      "seen_at": "2026-07-23T00:40:46Z",
+      "summary": "Claude Code using Fable 5 built and headlessly verified a five-variant PostHog Cmd+K discovery experiment with typed source instrumentation, while frontend, visual, Jest, Semgrep, and aggregate Node checks are successful."
     }
   ],
-  "last_run": "2026-07-22T23:36:43Z"
+  "last_run": "2026-07-23T00:40:46Z"
 }
