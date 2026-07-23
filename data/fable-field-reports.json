@@ -8396,7 +8396,22 @@
       "url": "https://github.com/PaperArmada/turnstile/issues/40",
       "seen_at": "2026-07-23T06:07:45Z",
       "summary": "A Fable 5-generated Claude Code report reproduced a Turnstile quickstart registry/traceback failure twice; the follow-up repair added safe registration and error handling with 20 regression tests and a successful visible test check."
+    },
+    {
+      "url": "https://github.com/curiositech/port-daddy/pull/3137",
+      "seen_at": "2026-07-23T07:12:47Z",
+      "summary": "Port Daddy replayed a real Fable 5 transcript after checkpoint perturbation, finding a 9/12 versus 0/12 investigate-versus-blind-retry split (Fisher’s exact p≈0.00017) after correcting an initial Haiku model mismatch."
+    },
+    {
+      "url": "https://github.com/sensmetry/sysand/pull/453",
+      "seen_at": "2026-07-23T07:12:47Z",
+      "summary": "A mostly Fable 5 one-shot sysand auth build adds OS-keyring credential storage, login/logout/status/whoami flows, lazy retry behavior, and author-reported 463 core plus 164 CLI tests."
+    },
+    {
+      "url": "https://github.com/amanthanvi/winghostty/pull/93",
+      "seen_at": "2026-07-23T07:12:47Z",
+      "summary": "A Fable 5 audit found four P3 issues in Winghostty’s Windows accessibility and release-signing hardening pass; the author says each was fixed and the focused re-audit was clean."
     }
   ],
-  "last_run": "2026-07-23T06:07:45Z"
+  "last_run": "2026-07-23T07:12:47Z"
 }
