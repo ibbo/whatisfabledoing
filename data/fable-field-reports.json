@@ -8631,7 +8631,17 @@
       "url": "https://github.com/thoughtbot/shoulda-matchers/pull/1721",
       "seen_at": "2026-07-23T22:30:39Z",
       "summary": "A Fable 5-generated shoulda-matchers change replaces a full record-method scan with direct secure-password predicates, reporting 4.3–7.6x faster runs and 71–83% fewer allocations; 17 public build jobs succeeded."
+    },
+    {
+      "url": "https://github.com/hershalakenya519-arch/Luker/pull/41",
+      "seen_at": "2026-07-23T23:35:14Z",
+      "summary": "A Luker Fable 5 integration report traces empty thinking summaries to shallow request-body merging and adds narrowly targeted repair and diagnostics, with smoke checks and reported tests."
+    },
+    {
+      "url": "https://github.com/115dkk/EqualizerAPO-XT/issues/221",
+      "seen_at": "2026-07-23T23:35:14Z",
+      "summary": "A locally run Fable 5 sixteen-agent EqualizerAPO audit of 437 changed files retained 70 verified findings, including three high-severity risks, after adversarial verification."
     }
   ],
-  "last_run": "2026-07-23T22:30:39Z"
+  "last_run": "2026-07-23T23:35:14Z"
 }
