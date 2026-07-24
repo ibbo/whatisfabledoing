@@ -8836,7 +8836,32 @@
     "url": "https://github.com/diegosouzapw/OmniRoute/issues/8402",
     "seen_at": "2026-07-24T13:41:32Z",
     "summary": "A live Cursor/OpenCode route with claude-fable-5-thinking-xhigh showed native TodoWrite completions being discarded by OmniRoute's interaction-update decoder, leaving tasks in progress; the maintainer independently confirmed the path."
+},
+{
+    "url": "https://github.com/neomjs/neo/pull/15814",
+    "seen_at": "2026-07-24T14:46:00Z",
+    "summary": "Fable 5 traced a deterministic headed Chrome second-run crash to obsolete GL flags, falsified the original SharedWorker theory, and verified two consecutive headed passes after removing them."
+},
+{
+    "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2374",
+    "seen_at": "2026-07-24T14:46:00Z",
+    "summary": "Claude Fable 5 implemented signed database IDs for rollback anchors so shared host logs no longer make a healthy SQLite database fail closed, with backward-compatible wire records and targeted tests."
+},
+{
+    "url": "https://github.com/mozilla-ai/otari/pull/417",
+    "seen_at": "2026-07-24T14:46:00Z",
+    "summary": "A Fable 5-generated Otari fix restored inline activity-row details after a deployed dashboard regression, with scripted browser verification, a 282-test web suite, and successful public checks."
+},
+{
+    "url": "https://github.com/anthropics/claude-code/issues/80884",
+    "seen_at": "2026-07-24T14:46:00Z",
+    "summary": "A live Fable 5 Cowork debugging session isolated an opaque Linux VM-support failure to missing /dev/vhost-vsock access for users outside the kvm group, then verified the group change resolved it."
+},
+{
+    "url": "https://github.com/paperclipai/paperclip/pull/10176",
+    "seen_at": "2026-07-24T14:46:00Z",
+    "summary": "Fable 5 investigated laptop dark-wake heartbeats whose one-hour run JWTs expired before execution, leading to a tested Paperclip default increase to 48 hours with documented risk."
 }
   ],
-  "last_run": "2026-07-24T13:41:32Z"
+  "last_run": "2026-07-24T14:46:00Z"
 }
