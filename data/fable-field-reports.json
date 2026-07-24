@@ -8651,7 +8651,22 @@
       "url": "https://github.com/devcamke/PgKeeper/pull/57",
       "seen_at": "2026-07-24T00:39:53Z",
       "summary": "A Fable co-authored PgKeeper audit found and patched one critical plus twelve high-severity backup/PITR defects, including an archive-command path that can wedge after the first base-backup sidecar."
+    },
+    {
+      "url": "https://github.com/vinodlal/market-dawn/pull/11",
+      "seen_at": "2026-07-24T01:44:27Z",
+      "summary": "A Fable co-authored walk-forward market backtest evaluated 18 threshold-and-confidence combinations on two years of BankNifty and Nifty data, then rejected tighter settings after held-out performance deteriorated."
+    },
+    {
+      "url": "https://github.com/flippercloud/flipper/pull/1031",
+      "seen_at": "2026-07-24T01:44:27Z",
+      "summary": "A Fable co-authored Flipper ActiveRecord optimization replaces repeated gate-row scans with a single bucketed pass; the author reports 51% faster checks for a 2,000-actor feature and a regression spec for unknown keys."
+    },
+    {
+      "url": "https://github.com/flippercloud/flipper/pull/1032",
+      "seen_at": "2026-07-24T01:44:27Z",
+      "summary": "A Fable-generated Flipper memory-adapter change reuses a frozen default configuration for unknown features, cutting five allocations and reporting 18–24% faster checks in the author’s benchmark."
     }
   ],
-  "last_run": "2026-07-24T00:39:53Z"
+  "last_run": "2026-07-24T01:44:27Z"
 }
