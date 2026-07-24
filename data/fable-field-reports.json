@@ -8941,7 +8941,27 @@
     "url": "https://github.com/obra/superpowers/pull/2035",
     "seen_at": "2026-07-24T21:15:41Z",
     "summary": "A Fable-authored Superpowers diagnosis of Codex SDD spinouts proposes bounded review waves, explicit role routing, fresh gate evidence, and a compaction bootstrap hook after a corpus measured 8/22 GPT-5.6-era runs spinning out."
+},
+{
+    "url": "https://github.com/jwildfire/obot.roadmap/pull/86",
+    "seen_at": "2026-07-24T22:21:21Z",
+    "summary": "A Fable 5 Claude Code session drafted an ideas-triage workflow after a 14-run calibration reported identical filed-issue decisions across seven Fable and seven Opus runs, plus a successful live sandbox run."
+},
+{
+    "url": "https://github.com/AgentEvalHQ/AgentEval/pull/139",
+    "seen_at": "2026-07-24T22:21:21Z",
+    "summary": "A Fable 5 Gatekeeper review found fail-open and evasion cases; the merged response added closed-default protections and regression coverage, with 8,313 reported tests and public security/build checks successful."
+},
+{
+    "url": "https://github.com/PostHog/posthog/pull/73633",
+    "seen_at": "2026-07-24T22:21:21Z",
+    "summary": "A Fable 5-authored PostHog replay-scrubber change replaces barriered image batches with slot-by-slot scheduling, backed by a red-green concurrency regression, 78 reported focused tests, and successful public checks."
+},
+{
+    "url": "https://github.com/quanticsoul4772/mcp-parallax/pull/57",
+    "seen_at": "2026-07-24T22:21:21Z",
+    "summary": "A Parallax routing fix corrects model and cost attribution, with a live three-model sweep recording Fable 5 correctly in 8.4 seconds and 513 reported Rust unit/integration tests passing."
 }
   ],
-  "last_run": "2026-07-24T21:15:41Z"
+  "last_run": "2026-07-24T22:21:21Z"
 }
