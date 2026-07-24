@@ -8666,7 +8666,22 @@
       "url": "https://github.com/flippercloud/flipper/pull/1032",
       "seen_at": "2026-07-24T01:44:27Z",
       "summary": "A Fable-generated Flipper memory-adapter change reuses a frozen default configuration for unknown features, cutting five allocations and reporting 18–24% faster checks in the author’s benchmark."
+    },
+    {
+      "url": "https://github.com/al8n/tokora/issues/88",
+      "seen_at": "2026-07-24T02:49:12Z",
+      "summary": "Fable 5 reviewed and controlled an adversarial audit of tokora input/rollback paths, finding terminal scanner stops represented as Decline and documenting focused suites plus committed probes."
+    },
+    {
+      "url": "https://github.com/alphaonedev/ai-memory-mcp/pull/2367",
+      "seen_at": "2026-07-24T02:49:12Z",
+      "summary": "Fable 5 lanes repaired ai-memory-mcp governance-gate dispatch and reserved-namespace validation across HTTP, MCP, CLI, and agent-action paths, with targeted regression coverage and a mixed current check rollup."
+    },
+    {
+      "url": "https://github.com/xencon/aixcl/pull/2002",
+      "seen_at": "2026-07-24T02:49:12Z",
+      "summary": "A Fable 5 Claude Code session fixed an aixcl fallback that could make a pgAdmin database password world-readable, changing it to fail closed; the merged PR’s public security and policy checks passed."
     }
   ],
-  "last_run": "2026-07-24T01:44:27Z"
+  "last_run": "2026-07-24T02:49:12Z"
 }
