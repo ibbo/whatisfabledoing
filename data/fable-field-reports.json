@@ -8886,7 +8886,22 @@
     "url": "https://github.com/HendrikGC02/Astroray/pull/522",
     "seen_at": "2026-07-24T16:56:05Z",
     "summary": "A Fable co-authored Astroray rough-glass fix corrects a CPU/GPU visible-normal sampler transcription, reports 0.45° sampled-versus-PDF peak alignment at N=180,977, and retains explicit chi-squared and hardware-verification limits."
+},
+{
+    "url": "https://github.com/PostHog/posthog/pull/73589",
+    "seen_at": "2026-07-24T18:01:25Z",
+    "summary": "A human-directed Fable 5 Claude Code session diagnosed replay-image scrubbers stuck at one effective concurrent job, then added pre-chunk deduplication, cache-capacity metrics, and regression tests that restore four concurrent scrubs."
+},
+{
+    "url": "https://github.com/AVSystem/scala-commons/pull/906",
+    "seen_at": "2026-07-24T18:01:25Z",
+    "summary": "A Claude Code/Fable 5-developed Scala JSON number codec reports 1.25x-1.76x throughput and 22-49% allocation reductions on arm64 JMH, backed by bit-exact conversion sweeps and cross-platform tests."
+},
+{
+    "url": "https://github.com/wrzonance/agile-github-sync/pull/92",
+    "seen_at": "2026-07-24T18:01:25Z",
+    "summary": "A Fable co-authored production-sync repair turns missing GitHub labels from fatal errors into guarded create-and-retry operations, with six regressions and 1,444 reported unit tests."
 }
   ],
-  "last_run": "2026-07-24T16:56:05Z"
+  "last_run": "2026-07-24T18:01:25Z"
 }
