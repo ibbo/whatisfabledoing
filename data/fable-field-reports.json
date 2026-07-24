@@ -8921,7 +8921,27 @@
     "url": "https://github.com/Oichkatzelesfrettschen/mesa-26-gororoba/pull/1187",
     "seen_at": "2026-07-24T20:11:13Z",
     "summary": "A Fable 5-assisted merged Mesa/Gallium test refactor makes unmeasured negative source reads indeterminate, adds deterministic schedule artifacts, and registers a previously unrun lattice-exhaustive sweep that reports 10 ms."
+},
+{
+    "url": "https://github.com/paperclipai/paperclip/pull/10216",
+    "seen_at": "2026-07-24T21:15:41Z",
+    "summary": "Claude Fable 5 fixed Paperclip agent wakes that duplicated issue briefs and replayed them on ordinary resumes, with 137 focused tests, 58 Hermes-adapter tests, and public build and core checks succeeding."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6245",
+    "seen_at": "2026-07-24T21:15:41Z",
+    "summary": "A Fable-authored Gumroad repair rejects stale full-snapshot product-editor writes before mutation, provides a structured seller conflict flow, and adds two-session regression coverage with public CI gates succeeding."
+},
+{
+    "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1131",
+    "seen_at": "2026-07-24T21:15:41Z",
+    "summary": "A merged Fable 5-authored NeoWiki change replaces permission-leaking list totals with opaque cursor pagination, backed by permission-denial tests, a live 23-item walk, and successful public jobs."
+},
+{
+    "url": "https://github.com/obra/superpowers/pull/2035",
+    "seen_at": "2026-07-24T21:15:41Z",
+    "summary": "A Fable-authored Superpowers diagnosis of Codex SDD spinouts proposes bounded review waves, explicit role routing, fresh gate evidence, and a compaction bootstrap hook after a corpus measured 8/22 GPT-5.6-era runs spinning out."
 }
   ],
-  "last_run": "2026-07-24T20:11:13Z"
+  "last_run": "2026-07-24T21:15:41Z"
 }
