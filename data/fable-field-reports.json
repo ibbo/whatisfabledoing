@@ -8746,7 +8746,22 @@
     "url": "https://github.com/pantsbuild/pants/pull/23424",
     "seen_at": "2026-07-24T08:12:17Z",
     "summary": "A Pants contributor credits Fable 5, with other-model consults, for a named Go module cache that eliminated 103 warm-cache downloads in a 206-module reproducer; an independent maintainer confirmed cache behavior but found a 20–25% fully-cold tradeoff."
+},
+{
+    "url": "https://github.com/nxm-rs/nectar/pull/475",
+    "seen_at": "2026-07-24T09:18:13Z",
+    "summary": "A Fable implementation adds a serial-prepare/parallel-sign path for every Nectar StampIssuer, with six focused tests and 955 author-reported nextest passes; public feature jobs are still running."
+},
+{
+    "url": "https://github.com/nickswami/ChapterMaster/pull/631",
+    "seen_at": "2026-07-24T09:18:13Z",
+    "summary": "A Fable co-authored ChapterMaster watchdog repair adds arm-time and fire-time load guards; six high-contention fast-load runs reached live campaigns, while diagnostics reframed the original screenshot evidence as capture-pipeline noise."
+},
+{
+    "url": "https://github.com/block/buzz/issues/2692",
+    "seen_at": "2026-07-24T09:18:13Z",
+    "summary": "A Buzz Desktop reproduction shows a Claude Code agent configured for Sonnet silently restarting as the global Fable 5 default, traced to a missing model-propagation channel and verified ANTHROPIC_MODEL override."
 }
   ],
-  "last_run": "2026-07-24T08:12:17Z"
+  "last_run": "2026-07-24T09:18:13Z"
 }
