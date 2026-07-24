@@ -8761,7 +8761,22 @@
     "url": "https://github.com/block/buzz/issues/2692",
     "seen_at": "2026-07-24T09:18:13Z",
     "summary": "A Buzz Desktop reproduction shows a Claude Code agent configured for Sonnet silently restarting as the global Fable 5 default, traced to a missing model-propagation channel and verified ANTHROPIC_MODEL override."
+},
+{
+    "url": "https://github.com/unjs/unpdf/pull/57",
+    "seen_at": "2026-07-24T10:23:38Z",
+    "summary": "A Claude Code Fable session traced unpdf serverless PDF proxy leakage to unowned cleanup; a maintainer accepted the ownership-rule fix but split out the model's PNG-output rewrite as user-visible behavior."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6234",
+    "seen_at": "2026-07-24T10:23:38Z",
+    "summary": "Fable diagnosed an uncapped snapshot-revalidation query behind a stalled roughly 349k-recipient Gumroad blast; the merged repair reuses the existing tunable statement cap and public CI passed."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6178",
+    "seen_at": "2026-07-24T10:23:38Z",
+    "summary": "A Fable-authored Gumroad repair guards product-editor saves from deleting restored hidden content, adds recovery and explicit conflict handling, and documents incident-path browser tests; one public fast-test shard remains failed."
 }
   ],
-  "last_run": "2026-07-24T09:18:13Z"
+  "last_run": "2026-07-24T10:23:38Z"
 }
