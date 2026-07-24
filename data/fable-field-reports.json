@@ -8861,7 +8861,22 @@
     "url": "https://github.com/paperclipai/paperclip/pull/10176",
     "seen_at": "2026-07-24T14:46:00Z",
     "summary": "Fable 5 investigated laptop dark-wake heartbeats whose one-hour run JWTs expired before execution, leading to a tested Paperclip default increase to 48 hours with documented risk."
+},
+{
+    "url": "https://github.com/btq-ag/btq-core/issues/79",
+    "seen_at": "2026-07-24T15:50:11Z",
+    "summary": "A Fable 5-assisted BTQ Core testnet investigation documents P2MR/Dilithium inputs silently omitted from PSBT signing despite succeeding through the raw-signing path, with an RPC log and deterministic reproducer."
+},
+{
+    "url": "https://github.com/EricssonResearch/scream/issues/76",
+    "seen_at": "2026-07-24T15:50:11Z",
+    "summary": "A Fable investigation identified an uninitialized RTP acknowledgement watermark that can manufacture loss signals under normal random initial timestamps, with a deterministic reproduction and narrow proposed repair."
+},
+{
+    "url": "https://github.com/aaif-goose/goose/issues/10669",
+    "seen_at": "2026-07-24T15:50:11Z",
+    "summary": "A Goose user showed its Claude Code ACP picker can display a Fable selection while never forwarding it to the adapter, leaving sessions on the globally configured model."
 }
   ],
-  "last_run": "2026-07-24T14:46:00Z"
+  "last_run": "2026-07-24T15:50:11Z"
 }
