@@ -8701,7 +8701,17 @@
       "url": "https://github.com/vellum-ai/vellum-assistant/pull/39024",
       "seen_at": "2026-07-24T04:59:57Z",
       "summary": "Vellum Assistant measured roughly 5,161 short image captions routed to Claude Fable 5 over 15 days at about $208, then changed its vision-profile selection to choose the cheapest usable capable model."
+    },
+    {
+      "url": "https://github.com/arevalogutierrezbajares-spec/--CRM---/pull/65",
+      "seen_at": "2026-07-24T06:04:07Z",
+      "summary": "A Fable co-authored token-free diarization change reports an end-to-end 10-voice conference run separated into 11 speakers, while its public check job is failing."
+    },
+    {
+      "url": "https://github.com/devcamke/PgKeeper/pull/59",
+      "seen_at": "2026-07-24T06:04:07Z",
+      "summary": "A Fable co-authored PgKeeper deployment kit adds Compose and Kamal paths for existing PostgreSQL servers, with mixed current public checks."
     }
   ],
-  "last_run": "2026-07-24T04:59:57Z"
+  "last_run": "2026-07-24T06:04:07Z"
 }
