@@ -8726,7 +8726,27 @@
     "url": "https://github.com/getpiper/piper/pull/327",
     "seen_at": "2026-07-24T07:08:40Z",
     "summary": "Piper credits Fable 5 with the brief and review for a login-flow repair that makes post-login GitHub App installation polling advisory while preserving genuine failures; implementation is credited to Opus 4.8 and public verification/e2e checks pass."
+},
+{
+    "url": "https://github.com/al8n/tokora/issues/104",
+    "seen_at": "2026-07-24T08:12:17Z",
+    "summary": "Fable 5's final tokora parser audit used 11 dynamic probes to reproduce incorrect lexer-error gap placement and quadratic gap verification, with a measured n(n+1)/2 operation count and broad feature-matrix checks."
+},
+{
+    "url": "https://github.com/filipkunc/wrap-esm-lambda/pull/3",
+    "seen_at": "2026-07-24T08:12:17Z",
+    "summary": "Fable 5 co-authored a merged Acorn JavaScript engine for wrap-esm-lambda, with byte-level parity tests and benchmarks that quantify a 6x parse-path penalty alongside a faster parse-free path."
+},
+{
+    "url": "https://github.com/jayleekr/hypeproof-studio/pull/407",
+    "seen_at": "2026-07-24T08:12:17Z",
+    "summary": "A HypeProof Studio integration test found Fable 5-specific request fields surviving a gateway model reroute and causing 400s; a merged repair turned the affected production requests to 200 and completed a 286-second end-to-end SDK run."
+},
+{
+    "url": "https://github.com/pantsbuild/pants/pull/23424",
+    "seen_at": "2026-07-24T08:12:17Z",
+    "summary": "A Pants contributor credits Fable 5, with other-model consults, for a named Go module cache that eliminated 103 warm-cache downloads in a 206-module reproducer; an independent maintainer confirmed cache behavior but found a 20–25% fully-cold tradeoff."
 }
   ],
-  "last_run": "2026-07-24T07:08:40Z"
+  "last_run": "2026-07-24T08:12:17Z"
 }
