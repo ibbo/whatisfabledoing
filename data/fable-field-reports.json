@@ -8901,7 +8901,12 @@
     "url": "https://github.com/wrzonance/agile-github-sync/pull/92",
     "seen_at": "2026-07-24T18:01:25Z",
     "summary": "A Fable co-authored production-sync repair turns missing GitHub labels from fatal errors into guarded create-and-retry operations, with six regressions and 1,444 reported unit tests."
+},
+{
+    "url": "https://github.com/Khan/actions/pull/294",
+    "seen_at": "2026-07-24T19:06:31Z",
+    "summary": "Khan Academy's review-workflow team reports a pooled Fable 5 A/B that raised must-catch recall from 82% to 89% but increased claim-validation noise from 43% to 49%; a roster-wide Opus 5 swap now awaits a full three-repeat live A/B."
 }
   ],
-  "last_run": "2026-07-24T18:01:25Z"
+  "last_run": "2026-07-24T19:06:31Z"
 }
