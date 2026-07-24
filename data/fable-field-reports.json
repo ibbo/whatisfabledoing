@@ -8816,7 +8816,27 @@
     "url": "https://github.com/VibecodingGermany/whatsapp-agent/pull/2",
     "seen_at": "2026-07-24T12:34:29Z",
     "summary": "A Fable 5 integration report shows always-on thinking exhausting a 2,048-token metadata-extraction budget on valid long documents; the merged repair raises it to 8,192 and reports 80 tests passing."
+},
+{
+    "url": "https://github.com/mozilla-ai/otari/pull/416",
+    "seen_at": "2026-07-24T13:41:32Z",
+    "summary": "Claude Fable 5 traced a dashboard selection slowdown to full-page row rebuilding and react-aria per-row work, then reduced a 1.2-second 500-row interaction to roughly 64–68ms at a capped 100-row page."
+},
+{
+    "url": "https://github.com/archestra-ai/archestra/pull/6826",
+    "seen_at": "2026-07-24T13:41:32Z",
+    "summary": "Archestra's merged Fable 5 integration exposes summarized default thinking through a fetch wrapper without changing billing or explicit thinking settings, backed by wire-level tests and successful visible checks."
+},
+{
+    "url": "https://github.com/PostHog/posthog/pull/73425",
+    "seen_at": "2026-07-24T13:41:32Z",
+    "summary": "A human-directed Fable 5 subagent workflow consolidated PostHog's query cache from roughly ten modules behind one facade, retaining byte-compatible formats and adding regression coverage for freshness bookkeeping."
+},
+{
+    "url": "https://github.com/diegosouzapw/OmniRoute/issues/8402",
+    "seen_at": "2026-07-24T13:41:32Z",
+    "summary": "A live Cursor/OpenCode route with claude-fable-5-thinking-xhigh showed native TodoWrite completions being discarded by OmniRoute's interaction-update decoder, leaving tasks in progress; the maintainer independently confirmed the path."
 }
   ],
-  "last_run": "2026-07-24T12:34:29Z"
+  "last_run": "2026-07-24T13:41:32Z"
 }
