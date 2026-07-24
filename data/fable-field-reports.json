@@ -8961,7 +8961,27 @@
     "url": "https://github.com/quanticsoul4772/mcp-parallax/pull/57",
     "seen_at": "2026-07-24T22:21:21Z",
     "summary": "A Parallax routing fix corrects model and cost attribution, with a live three-model sweep recording Fable 5 correctly in 8.4 seconds and 513 reported Rust unit/integration tests passing."
+},
+{
+    "url": "https://github.com/grafana/pdc-agent/issues/320",
+    "seen_at": "2026-07-24T23:27:48Z",
+    "summary": "A Fable-written production incident report traces one permanent 100%-CPU goroutine per Go SSH reconnect to x/crypto v0.52.0, with a ten-core deployment and an independent five-event reproduction."
+},
+{
+    "url": "https://github.com/jayfromsandiego-byte/imy-app/pull/11",
+    "seen_at": "2026-07-24T23:27:48Z",
+    "summary": "Three Fable 5 reviews of a mobile memorial app led to database-enforced anonymous-memory moderation, safe media URL normalization, and reported QA, render, worker, build, and smoke-test results ahead of a held deployment."
+},
+{
+    "url": "https://github.com/apache/spark/pull/57516",
+    "seen_at": "2026-07-24T23:27:48Z",
+    "summary": "A Fable-generated Apache Spark repair replaces unordered map iteration for five-plus positional SQL parameters, with a posted six-value reproduction changing from scrambled output to the expected order."
+},
+{
+    "url": "https://github.com/komleff/u2/pull/603",
+    "seen_at": "2026-07-24T23:27:48Z",
+    "summary": "A Claude Fable 5 architecture audit builds a 75-task Unity-game launch plan from three read-only passes; a separate GPT-5.6-Sol review found ten issues, nine adopted in the v0.12 revision."
 }
   ],
-  "last_run": "2026-07-24T22:21:21Z"
+  "last_run": "2026-07-24T23:27:48Z"
 }
