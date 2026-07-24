@@ -8776,7 +8776,27 @@
     "url": "https://github.com/antiwork/gumroad/pull/6178",
     "seen_at": "2026-07-24T10:23:38Z",
     "summary": "A Fable-authored Gumroad repair guards product-editor saves from deleting restored hidden content, adds recovery and explicit conflict handling, and documents incident-path browser tests; one public fast-test shard remains failed."
+},
+{
+    "url": "https://github.com/owid/etl/pull/6517",
+    "seen_at": "2026-07-24T11:28:42Z",
+    "summary": "Fable authored an Our World in Data metadata-editing skill that resolves staging targets, maps shared-edit blast radius, refuses production writes, and reports live-server smokes plus green checks."
+},
+{
+    "url": "https://github.com/anthropics/claude-code/issues/80834",
+    "seen_at": "2026-07-24T11:28:42Z",
+    "summary": "A Fable 5 Claude Code subagent report reproduces background shell tasks dying when the subagent stops despite a notification promise, with two lost production runs and nested-agent controls."
+},
+{
+    "url": "https://github.com/block/buzz/issues/2698",
+    "seen_at": "2026-07-24T11:28:42Z",
+    "summary": "Buzz Desktop's controlled three-session-per-model comparison shows Fable 5 sending replies through an implicit tool contract while Sonnet 5's visible plain-text responses were dropped; a prompt repair landed."
+},
+{
+    "url": "https://github.com/polecatspeaks/StarCar/issues/47",
+    "seen_at": "2026-07-24T11:28:42Z",
+    "summary": "A live port to GitHub Copilot CLI with Fable 5 exposed fail-closed shell hooks, incompatible tool payloads, cached configuration, and still-unverified agent lifecycle records after dispatch recovery."
 }
   ],
-  "last_run": "2026-07-24T10:23:38Z"
+  "last_run": "2026-07-24T11:28:42Z"
 }
