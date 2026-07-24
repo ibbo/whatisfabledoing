@@ -8641,7 +8641,17 @@
       "url": "https://github.com/115dkk/EqualizerAPO-XT/issues/221",
       "seen_at": "2026-07-23T23:35:14Z",
       "summary": "A locally run Fable 5 sixteen-agent EqualizerAPO audit of 437 changed files retained 70 verified findings, including three high-severity risks, after adversarial verification."
+    },
+    {
+      "url": "https://github.com/jharvieux/Harvey/pull/891",
+      "seen_at": "2026-07-24T00:39:53Z",
+      "summary": "Two independent fresh-context Fable 5 reviewers agreed on all twelve files in Harvey’s simplification corpus, flagging seven planted targets and sparing five intentional lookalikes; the PR commits verdicts and comparison output."
+    },
+    {
+      "url": "https://github.com/devcamke/PgKeeper/pull/57",
+      "seen_at": "2026-07-24T00:39:53Z",
+      "summary": "A Fable co-authored PgKeeper audit found and patched one critical plus twelve high-severity backup/PITR defects, including an archive-command path that can wedge after the first base-backup sidecar."
     }
   ],
-  "last_run": "2026-07-23T23:35:14Z"
+  "last_run": "2026-07-24T00:39:53Z"
 }
