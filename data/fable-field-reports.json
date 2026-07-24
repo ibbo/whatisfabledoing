@@ -8876,7 +8876,17 @@
     "url": "https://github.com/aaif-goose/goose/issues/10669",
     "seen_at": "2026-07-24T15:50:11Z",
     "summary": "A Goose user showed its Claude Code ACP picker can display a Fable selection while never forwarding it to the adapter, leaving sessions on the globally configured model."
+},
+{
+    "url": "https://github.com/RenseiAI/donmai/pull/211",
+    "seen_at": "2026-07-24T16:56:05Z",
+    "summary": "A Fable co-authored Donmai fix used live OpenCode 1.17.18 SSE frames to catch a data-versus-properties decoder mismatch that zeroed session, tool, text, result, and error payloads; captured-frame regressions and public tests back the repair."
+},
+{
+    "url": "https://github.com/HendrikGC02/Astroray/pull/522",
+    "seen_at": "2026-07-24T16:56:05Z",
+    "summary": "A Fable co-authored Astroray rough-glass fix corrects a CPU/GPU visible-normal sampler transcription, reports 0.45° sampled-versus-PDF peak alignment at N=180,977, and retains explicit chi-squared and hardware-verification limits."
 }
   ],
-  "last_run": "2026-07-24T15:50:11Z"
+  "last_run": "2026-07-24T16:56:05Z"
 }
