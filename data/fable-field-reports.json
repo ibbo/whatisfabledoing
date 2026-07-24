@@ -8686,7 +8686,22 @@
       "url": "https://github.com/mengxi-ream/read-frog/pull/1944",
       "seen_at": "2026-07-24T03:53:35Z",
       "summary": "A Claude Code session naming Fable 5 and GPT-5 added provider-registry model discovery to Read Frog; the author reports 74 focused tests, 2,138 full-suite tests, and a 199-model DeepInfra Chrome run, with an open review regression."
+    },
+    {
+      "url": "https://github.com/DarriEy/CLM.jl/pull/309",
+      "seen_at": "2026-07-24T04:59:57Z",
+      "summary": "Fable 5 assisted a comprehensive CLM.jl CPU/Metal validation sweep that found and isolated a production Metal state-adapter regression; the report records 27,402 CPU tests, 118 GPU harnesses, and 28 available Fortran-parity passes."
+    },
+    {
+      "url": "https://github.com/al8n/tokora/issues/96",
+      "seen_at": "2026-07-24T04:59:57Z",
+      "summary": "Fable 5’s tokora emitter/error audit found 11 specialized Verbose diagnostic channels bypassing rollback bookkeeping, alongside six confirmed P2 composition and error-path defects, with probes and scoped test evidence."
+    },
+    {
+      "url": "https://github.com/vellum-ai/vellum-assistant/pull/39024",
+      "seen_at": "2026-07-24T04:59:57Z",
+      "summary": "Vellum Assistant measured roughly 5,161 short image captions routed to Claude Fable 5 over 15 days at about $208, then changed its vision-profile selection to choose the cheapest usable capable model."
     }
   ],
-  "last_run": "2026-07-24T03:53:35Z"
+  "last_run": "2026-07-24T04:59:57Z"
 }
