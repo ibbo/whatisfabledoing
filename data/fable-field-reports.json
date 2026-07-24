@@ -8711,7 +8711,22 @@
       "url": "https://github.com/devcamke/PgKeeper/pull/59",
       "seen_at": "2026-07-24T06:04:07Z",
       "summary": "A Fable co-authored PgKeeper deployment kit adds Compose and Kamal paths for existing PostgreSQL servers, with mixed current public checks."
-    }
+    },
+{
+    "url": "https://research.composite.com/composite-bench",
+    "seen_at": "2026-07-24T07:08:40Z",
+    "summary": "Composite Research benchmarked Claude Fable 5 on 100 hidden, certified-optimal long-horizon browser tasks: 74% macro success (95% CI 65\u201382), $1,166 evaluation cost, and 0.471 on a separately preregistered number-partitioning slice."
+},
+{
+    "url": "https://github.com/terassyi/tomei/pull/294",
+    "seen_at": "2026-07-24T07:08:40Z",
+    "summary": "Claude Fable 5 co-authored Tomei fixes for OS/version-overridden package URLs and archive file mappings, including matching requested binaries rather than installing files[0]; public build, lint, unit, integration, CUE, and cross-platform E2E checks are green."
+},
+{
+    "url": "https://github.com/getpiper/piper/pull/327",
+    "seen_at": "2026-07-24T07:08:40Z",
+    "summary": "Piper credits Fable 5 with the brief and review for a login-flow repair that makes post-login GitHub App installation polling advisory while preserving genuine failures; implementation is credited to Opus 4.8 and public verification/e2e checks pass."
+}
   ],
-  "last_run": "2026-07-24T06:04:07Z"
+  "last_run": "2026-07-24T07:08:40Z"
 }
