@@ -8681,7 +8681,12 @@
       "url": "https://github.com/xencon/aixcl/pull/2002",
       "seen_at": "2026-07-24T02:49:12Z",
       "summary": "A Fable 5 Claude Code session fixed an aixcl fallback that could make a pgAdmin database password world-readable, changing it to fail closed; the merged PR’s public security and policy checks passed."
+    },
+    {
+      "url": "https://github.com/mengxi-ream/read-frog/pull/1944",
+      "seen_at": "2026-07-24T03:53:35Z",
+      "summary": "A Claude Code session naming Fable 5 and GPT-5 added provider-registry model discovery to Read Frog; the author reports 74 focused tests, 2,138 full-suite tests, and a 199-model DeepInfra Chrome run, with an open review regression."
     }
   ],
-  "last_run": "2026-07-24T02:49:12Z"
+  "last_run": "2026-07-24T03:53:35Z"
 }
