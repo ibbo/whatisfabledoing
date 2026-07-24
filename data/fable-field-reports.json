@@ -8906,7 +8906,22 @@
     "url": "https://github.com/Khan/actions/pull/294",
     "seen_at": "2026-07-24T19:06:31Z",
     "summary": "Khan Academy's review-workflow team reports a pooled Fable 5 A/B that raised must-catch recall from 82% to 89% but increased claim-validation noise from 43% to 49%; a roster-wide Opus 5 swap now awaits a full three-repeat live A/B."
+},
+{
+    "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1161",
+    "seen_at": "2026-07-24T20:11:13Z",
+    "summary": "A Fable 5-authored NeoWiki RDF-export change selects .trig/.ttl filenames from the negotiated format, preserves inline Turtle rendering, and adds shared endpoint tests; public PHPUnit, PHPStan and PHPCS checks succeeded."
+},
+{
+    "url": "https://github.com/palmier-io/palmier-pro/issues/402",
+    "seen_at": "2026-07-24T20:11:13Z",
+    "summary": "A Palmier Pro user reports that Fable 5 guided a hung-process and source investigation that isolated a VideoProject.write() error path leaving macOS save UI permanently blocked; a local unblock-before-throw patch changed the failure into a visible failed save."
+},
+{
+    "url": "https://github.com/Oichkatzelesfrettschen/mesa-26-gororoba/pull/1187",
+    "seen_at": "2026-07-24T20:11:13Z",
+    "summary": "A Fable 5-assisted merged Mesa/Gallium test refactor makes unmeasured negative source reads indeterminate, adds deterministic schedule artifacts, and registers a previously unrun lattice-exhaustive sweep that reports 10 ms."
 }
   ],
-  "last_run": "2026-07-24T19:06:31Z"
+  "last_run": "2026-07-24T20:11:13Z"
 }
