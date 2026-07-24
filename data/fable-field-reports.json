@@ -8796,7 +8796,27 @@
     "url": "https://github.com/polecatspeaks/StarCar/issues/47",
     "seen_at": "2026-07-24T11:28:42Z",
     "summary": "A live port to GitHub Copilot CLI with Fable 5 exposed fail-closed shell hooks, incompatible tool payloads, cached configuration, and still-unverified agent lifecycle records after dispatch recovery."
+},
+{
+    "url": "https://github.com/PyPSA/linopy/pull/870",
+    "seen_at": "2026-07-24T12:34:29Z",
+    "summary": "A Fable-generated linopy sparse groupby implementation reports 6.4x-9.0x lower peak memory on skewed constraint builds, backed by LP/Polars parity tests and an explicit CSR fallback contract."
+},
+{
+    "url": "https://github.com/CueCrux/Crux/pull/514",
+    "seen_at": "2026-07-24T12:34:29Z",
+    "summary": "A Claude Fable 5 agent built MCP fleet telemetry after a live 8,815-event audit found 36 of 118 tools used and the top five carrying about 77% of calls."
+},
+{
+    "url": "https://github.com/irykelee/clipmemory/pull/10",
+    "seen_at": "2026-07-24T12:34:29Z",
+    "summary": "A Fable co-authored ClipMemory audit repair fixed cold-Keychain data loss, self-cancelling update probes, encrypted RTF visibility, and two release-pipeline failure modes; build-and-test passed while release failed."
+},
+{
+    "url": "https://github.com/VibecodingGermany/whatsapp-agent/pull/2",
+    "seen_at": "2026-07-24T12:34:29Z",
+    "summary": "A Fable 5 integration report shows always-on thinking exhausting a 2,048-token metadata-extraction budget on valid long documents; the merged repair raises it to 8,192 and reports 80 tests passing."
 }
   ],
-  "last_run": "2026-07-24T11:28:42Z"
+  "last_run": "2026-07-24T12:34:29Z"
 }
