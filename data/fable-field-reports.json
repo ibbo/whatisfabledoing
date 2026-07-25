@@ -9281,7 +9281,12 @@
       "url": "https://github.com/fastfields/fastfields-kernels/pull/13",
       "seen_at": "2026-07-25T22:17:16Z",
       "summary": "A Fable-reviewed Fastfields C++ kernel refactor replaced five hand-specialized SPD matrix implementations with a single teeny-view header, exposed two old-kernel bugs, and was merged after bit-exact, brute-force, sanitizer, and CI-oracle checks."
+    },
+    {
+      "url": "https://github.com/TheAxiomFoundation/axiom-encode/pull/1284",
+      "seen_at": "2026-07-25T23:24:14Z",
+      "summary": "EncodeBench UK v1 recorded Claude Fable 5 at 9/16 because four of 16 cases hit a fixed 600-second harness timeout despite a 211-second median; the author reports 9/12 completed cases passed and patches configurable, structured timeout handling."
     }
   ],
-  "last_run": "2026-07-25T22:17:16Z"
+  "last_run": "2026-07-25T23:24:14Z"
 }
