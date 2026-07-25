@@ -9091,7 +9091,22 @@
     "url": "https://github.com/get-convex/convex-backend/issues/507",
     "seen_at": "2026-07-25T08:09:50Z",
     "summary": "A supervised Claude Fable 5 session produced a live Convex reproduction showing storage-backed Blob slices over the requested length throw RangeError, then traced the defect to an untrimmed chunk enqueue in the current runtime source."
+},
+{
+    "url": "https://github.com/rudi-cilibrasi/leanos/pull/157",
+    "seen_at": "2026-07-25T10:15:59Z",
+    "summary": "Claude Fable 5 built LeanOS bounded identity issuance, with typed exhaustion, no-reuse proofs, a wrapping-issuer negative regression, and green Lean/QEMU/hygiene checks."
+},
+{
+    "url": "https://github.com/webpresso/github-actions/pull/30",
+    "seen_at": "2026-07-25T10:15:59Z",
+    "summary": "Claude Fable 5 added CI for Webpresso reusable-workflow contract tests: 434 Ruby assertions, 11 Node tests, a deleted-trigger negative test, and a green contract check."
+},
+{
+    "url": "https://github.com/josh-project/josh/pull/2314",
+    "seen_at": "2026-07-25T10:15:59Z",
+    "summary": "A Fable-assisted josh fix preserves parent links during no-base vendoring of disconnected Git history, backed by a new 105-line CLI regression test and successful CI."
 }
   ],
-  "last_run": "2026-07-25T08:09:50Z"
+  "last_run": "2026-07-25T10:15:59Z"
 }
