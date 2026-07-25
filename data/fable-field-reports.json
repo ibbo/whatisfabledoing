@@ -9141,7 +9141,22 @@
     "url": "https://github.com/scalameta/scalafmt/issues/5359",
     "seen_at": "2026-07-25T12:24:15Z",
     "summary": "A human-verified Claude Fable 5 report reproduces Scalafmt suppressing valid formatting diffs and exiting zero when the batch also contains an unparseable file."
-}
+    },
+    {
+      "url": "https://github.com/jwildfire/open.csr/pull/4",
+      "seen_at": "2026-07-25T13:30:13Z",
+      "summary": "Claude Code using Fable 5 drafted an open.csr demo spanning Reader, Tables, Text, and Templates panes plus a browser webR experiment that matched 3,665 committed statistics while exposing package-pinning and client-resource constraints."
+    },
+    {
+      "url": "https://github.com/RustAudio/baseview/issues/302",
+      "seen_at": "2026-07-25T13:30:13Z",
+      "summary": "A FL Studio plugin developer using Claude Fable reported an instrumented Win32 mouse-capture probe finding a persistent capture leak after a host steals capture mid-press, with a concrete WM_CAPTURECHANGED fix direction."
+    },
+    {
+      "url": "https://github.com/Pmobilee/Recall-Rogue/issues/328",
+      "seen_at": "2026-07-25T13:30:13Z",
+      "summary": "A Claude Fable audit lane reproduced Recall Rogue Quick Play crediting unasked cards as correct, corrupting FSRS reviews, run accuracy, mastery, and permanent stability bonuses; the report includes Docker captures and code-path evidence."
+    }
   ],
-  "last_run": "2026-07-25T12:24:15Z"
+  "last_run": "2026-07-25T13:30:13Z"
 }
