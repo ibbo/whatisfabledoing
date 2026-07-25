@@ -9036,7 +9036,22 @@
     "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/180",
     "seen_at": "2026-07-25T03:47:38Z",
     "summary": "A pinned Fable 5 verifier reran pre-fix race failures and a real Postgres control-plane rotation test for a merged one-live-credential repair."
+},
+{
+    "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/65",
+    "seen_at": "2026-07-25T04:53:01Z",
+    "summary": "A Claude Fable 5 MLXFast cache-fusion submission was byte-identical through 1,025 local steps and passed official correctness, but its 1.11424 composite score did not beat the 1.12131 best."
+},
+{
+    "url": "https://github.com/lcjanke2020/ob1-selfhosted/pull/42",
+    "seen_at": "2026-07-25T04:53:01Z",
+    "summary": "A Claude Fable 5-authored MCP-server fix converts an eager Postgres connection rejection into an explicit startup probe, a refused-port repro, and a deliberate failure."
+},
+{
+    "url": "https://github.com/JDonaghy/claude-coordinator/issues/1379",
+    "seen_at": "2026-07-25T04:53:01Z",
+    "summary": "A read-only Claude Fable 5 audit found coord-tui had cloned about 1,500 lines of already-shipped framework layers, with three live bugs and a false README help claim."
 }
   ],
-  "last_run": "2026-07-25T03:47:38Z"
+  "last_run": "2026-07-25T04:53:01Z"
 }
