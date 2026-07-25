@@ -9076,7 +9076,22 @@
     "url": "https://github.com/anthropics/claude-code/issues/81074",
     "seen_at": "2026-07-25T07:04:15Z",
     "summary": "A Claude Code user isolated intermittent Fable 5 safety fallback to auto-loaded public biostatistics repository context; safe mode remained reliable with the same model."
+},
+{
+    "url": "https://github.com/xinquan568/roamux/pull/222",
+    "seen_at": "2026-07-25T08:09:50Z",
+    "summary": "Roamux used a Claude Fable 5 worker in a reviewed issue-to-PR workflow to diagnose a Chromium teardown stall, adding self-attributing watchdog diagnostics and nine targeted tests after the source was identified during local gates."
+},
+{
+    "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/184",
+    "seen_at": "2026-07-25T08:09:50Z",
+    "summary": "A pinned Claude Fable 5 verifier independently reviewed a daily live-model evaluation workflow, reproduced its hard-fail behavior, found and corrected a timeout-artifact overclaim, and reran the verification gate."
+},
+{
+    "url": "https://github.com/get-convex/convex-backend/issues/507",
+    "seen_at": "2026-07-25T08:09:50Z",
+    "summary": "A supervised Claude Fable 5 session produced a live Convex reproduction showing storage-backed Blob slices over the requested length throw RangeError, then traced the defect to an untrimmed chunk enqueue in the current runtime source."
 }
   ],
-  "last_run": "2026-07-25T07:04:15Z"
+  "last_run": "2026-07-25T08:09:50Z"
 }
