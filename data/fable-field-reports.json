@@ -9231,7 +9231,22 @@
       "url": "https://github.com/thetangstr/agentdash/pull/454",
       "seen_at": "2026-07-25T18:59:49Z",
       "summary": "A Claude Fable 5 implementation agent added AgentDash MCP-native founding-user signup with single-use bootstrap, key-handling safeguards, and endpoint/journey coverage; public e2e, audit, policy, dependency, launch-signoff, and drift jobs pass while check fails and verify remains in progress."
+    },
+    {
+      "url": "https://github.com/Pmobilee/Recall-Rogue/issues/345",
+      "seen_at": "2026-07-25T20:04:57Z",
+      "summary": "Pmobilee’s Claude Fable audit lane live-tested Recall Rogue’s rest preview at ascension 3+, finding the UI promises +20 HP to 70 while the handler applies the 0.83 multiplier and delivers 67; the report traces the duplicated formulas and requires a shared calculation plus a Docker proof."
+    },
+    {
+      "url": "https://github.com/Pmobilee/Recall-Rogue/issues/346",
+      "seen_at": "2026-07-25T20:04:57Z",
+      "summary": "Pmobilee’s Claude Fable audit lane identified a reachable Recall Rogue rest-room softlock shape: Rest, Study, and Meditate can each be independently disabled while the hub has no Leave or Escape route; Docker inspection confirmed no escape control and the report specifies a forced-state regression and lint expansion."
+    },
+    {
+      "url": "https://github.com/Pmobilee/Recall-Rogue/issues/347",
+      "seen_at": "2026-07-25T20:04:57Z",
+      "summary": "Pmobilee’s Claude Fable audit found Recall Rogue’s rest-site Study gate reads fallback run-pool cards but the reward reads activeDeck, so a null deck state can advertise Study, accept three correct answers, then resolve with no upgrade; the author distinguishes the code-path evidence from the still-needed live reproduction."
     }
   ],
-  "last_run": "2026-07-25T18:59:49Z"
+  "last_run": "2026-07-25T20:04:57Z"
 }
