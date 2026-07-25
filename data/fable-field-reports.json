@@ -9266,7 +9266,22 @@
       "url": "https://github.com/dvsvds/lamiapizzeria/pull/5",
       "seen_at": "2026-07-25T21:11:11Z",
       "summary": "A four-agent Claude Fable 5 review of the La Mia Pizzeria system found public static-file exposure, forged POS-order paths, manipulated web prices, and customer-facing order/kitchen failures, which were fixed in a merged six-file patch."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/81178",
+      "seen_at": "2026-07-25T22:17:16Z",
+      "summary": "Sean the Geek documented Fable 5 self-review blind spots across two parsedmarc PRs: independent cold-context Copilot review repeatedly caught cross-file contract and scope defects despite explicit seam-review guidance being loaded into Fable context."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/111",
+      "seen_at": "2026-07-25T22:17:16Z",
+      "summary": "A Claude Fable 5 design and failure-autopsy pass traced two MLXFast no-score attempts to an NVFP4 split-K dispatch change; an Opus 5 subagent implemented the parity pin, which was bit-exact locally but the challenge submission closed unmerged."
+    },
+    {
+      "url": "https://github.com/fastfields/fastfields-kernels/pull/13",
+      "seen_at": "2026-07-25T22:17:16Z",
+      "summary": "A Fable-reviewed Fastfields C++ kernel refactor replaced five hand-specialized SPD matrix implementations with a single teeny-view header, exposed two old-kernel bugs, and was merged after bit-exact, brute-force, sanitizer, and CI-oracle checks."
     }
   ],
-  "last_run": "2026-07-25T21:11:11Z"
+  "last_run": "2026-07-25T22:17:16Z"
 }
