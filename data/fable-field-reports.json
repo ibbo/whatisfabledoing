@@ -9206,7 +9206,17 @@
       "url": "https://github.com/Pmobilee/Recall-Rogue/issues/288",
       "seen_at": "2026-07-25T16:45:05Z",
       "summary": "Pmobilee runs Claude Fable as an independent design-intent audit lane for Recall Rogue, pairing source review with Docker click-throughs and coordinating scope with a parallel Codex lane. Eight completed surfaces yielded 51 open findings and ten rejected candidates after verification; the lane files evidence-backed issues rather than applying fixes itself."
+    },
+    {
+      "url": "https://github.com/Luolc/locode-core/pull/228",
+      "seen_at": "2026-07-25T17:54:22Z",
+      "summary": "Luolc reproduced a Claude Fable 5 tool-call truncation loop at 4,096 output tokens in locode-core; the merged repair raises Anthropic limits, detects incomplete terminal tool calls, and adds regression tests."
+    },
+    {
+      "url": "https://github.com/sanskrit-lexicon/csl-atlas/pull/300",
+      "seen_at": "2026-07-25T17:54:22Z",
+      "summary": "A Claude Fable 5 executor built csl-atlas’s 323,417-lemma ghost-stock audit pipeline, producing a 37,931-candidate review queue and committed statistical artifacts with explicit provenance and limitations."
     }
   ],
-  "last_run": "2026-07-25T16:45:05Z"
+  "last_run": "2026-07-25T17:54:22Z"
 }
