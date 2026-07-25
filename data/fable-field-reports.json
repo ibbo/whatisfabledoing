@@ -8981,7 +8981,22 @@
     "url": "https://github.com/komleff/u2/pull/603",
     "seen_at": "2026-07-24T23:27:48Z",
     "summary": "A Claude Fable 5 architecture audit builds a 75-task Unity-game launch plan from three read-only passes; a separate GPT-5.6-Sol review found ten issues, nine adopted in the v0.12 revision."
+},
+{
+    "url": "https://github.com/pytest-dev/pytest-xdist/pull/1363",
+    "seen_at": "2026-07-25T00:32:53Z",
+    "summary": "Eric Larson used Claude Fable 5 to reduce a 20-minute MNE-Python hang to a pytest-xdist scheduler repro, then verified the branch stopped the hang and exposed the remaining Qt/Cocoa error."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6254",
+    "seen_at": "2026-07-25T00:32:53Z",
+    "summary": "A local Fable 5 adversarial review of a Gumroad guest-purchase discount fix found renewal-repricing and coverage gaps that were fixed before merge, alongside production-replica query measurements."
+},
+{
+    "url": "https://github.com/donovan-yohan/open-music-player/pull/306",
+    "seen_at": "2026-07-25T00:32:53Z",
+    "summary": "Claude Code with Fable 5 handled specification, orchestration, and verification for an honest spectral-waveform rewrite; a Claude review caught a decoder-coverage crash risk before green public checks."
 }
   ],
-  "last_run": "2026-07-24T23:27:48Z"
+  "last_run": "2026-07-25T00:32:53Z"
 }
