@@ -9216,7 +9216,22 @@
       "url": "https://github.com/sanskrit-lexicon/csl-atlas/pull/300",
       "seen_at": "2026-07-25T17:54:22Z",
       "summary": "A Claude Fable 5 executor built csl-atlas’s 323,417-lemma ghost-stock audit pipeline, producing a 37,931-candidate review queue and committed statistical artifacts with explicit provenance and limitations."
+    },
+    {
+      "url": "https://github.com/Homebrew/brew/pull/23300",
+      "seen_at": "2026-07-25T18:59:49Z",
+      "summary": "Mike McQuaid used Claude Fable 5 Max for Homebrew warm-cache improvements: verified JWS payload sidecars, direct formula path lookup, and updated executable data, with reported 10% warm-load savings and public checks successful."
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-gl-js/pull/8006",
+      "seen_at": "2026-07-25T18:59:49Z",
+      "summary": "Claude Fable 5 generated a MapLibre GL JS fix for an abort-during-await race in tile and image loading, pinned by deterministic held-transform regression tests and validated by public unit, integration, render, build, hygiene, and CodeQL checks."
+    },
+    {
+      "url": "https://github.com/thetangstr/agentdash/pull/454",
+      "seen_at": "2026-07-25T18:59:49Z",
+      "summary": "A Claude Fable 5 implementation agent added AgentDash MCP-native founding-user signup with single-use bootstrap, key-handling safeguards, and endpoint/journey coverage; public e2e, audit, policy, dependency, launch-signoff, and drift jobs pass while check fails and verify remains in progress."
     }
   ],
-  "last_run": "2026-07-25T17:54:22Z"
+  "last_run": "2026-07-25T18:59:49Z"
 }
