@@ -8996,7 +8996,22 @@
     "url": "https://github.com/donovan-yohan/open-music-player/pull/306",
     "seen_at": "2026-07-25T00:32:53Z",
     "summary": "Claude Code with Fable 5 handled specification, orchestration, and verification for an honest spectral-waveform rewrite; a Claude review caught a decoder-coverage crash risk before green public checks."
+},
+{
+    "url": "https://github.com/si2org/lbc-bench.github.io/pull/40",
+    "seen_at": "2026-07-25T01:38:17Z",
+    "summary": "Dash Crystal reports Fable 5 resolving 191 of 302 public CVDP Verilog tasks (63.25%) in a single non-agentic run, with logs still pending publication."
+},
+{
+    "url": "https://github.com/jeswr/agent-account-registry/pull/565",
+    "seen_at": "2026-07-25T01:38:17Z",
+    "summary": "A Fable-authored claude-code-action worker trial was halted after review found a model could poison GITHUB_ENV or GITHUB_PATH before later token-bearing publish steps."
+},
+{
+    "url": "https://github.com/thetangstr/agentdash/pull/453",
+    "seen_at": "2026-07-25T01:38:17Z",
+    "summary": "AgentDash reports a three-agent Claude Fable 5 workflow delivering a 15-tool approval-gated MCP launch flow, atomic company creation, and green public checks."
 }
   ],
-  "last_run": "2026-07-25T00:32:53Z"
+  "last_run": "2026-07-25T01:38:17Z"
 }
