@@ -9061,7 +9061,22 @@
     "url": "https://github.com/openwrt/openwrt/pull/24400",
     "seen_at": "2026-07-25T05:57:58Z",
     "summary": "An OpenWrt contributor says Fable 5 assisted the analysis and bench testing for RTL930x jumbo frames, including 9,000-MTU hardware boundaries and zero-loss payload sweeps."
+},
+{
+    "url": "https://github.com/cbebot/Henry-Co/pull/529",
+    "seen_at": "2026-07-25T07:04:15Z",
+    "summary": "Two Fable 5 adversarial privacy rounds found and then re-tested an unscoped user_addresses read that could expose another user’s coarse city to staff accounts."
+},
+{
+    "url": "https://github.com/scipy/scipy/pull/25699",
+    "seen_at": "2026-07-25T07:04:15Z",
+    "summary": "Ralf Gommers reports heavy Fable 5 use on SciPy device-propagation work, including a linter and PyTorch meta-device tests, with this hand-reviewed batch fixing seven array-creation paths."
+},
+{
+    "url": "https://github.com/anthropics/claude-code/issues/81074",
+    "seen_at": "2026-07-25T07:04:15Z",
+    "summary": "A Claude Code user isolated intermittent Fable 5 safety fallback to auto-loaded public biostatistics repository context; safe mode remained reliable with the same model."
 }
   ],
-  "last_run": "2026-07-25T05:57:58Z"
+  "last_run": "2026-07-25T07:04:15Z"
 }
