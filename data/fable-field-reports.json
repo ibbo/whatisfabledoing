@@ -9011,7 +9011,17 @@
     "url": "https://github.com/thetangstr/agentdash/pull/453",
     "seen_at": "2026-07-25T01:38:17Z",
     "summary": "AgentDash reports a three-agent Claude Fable 5 workflow delivering a 15-tool approval-gated MCP launch flow, atomic company creation, and green public checks."
+},
+{
+    "url": "https://github.com/aalexander/plinth/pull/23",
+    "seen_at": "2026-07-25T02:43:40Z",
+    "summary": "A Fable 5-driven Plinth release records 17 reviewer rounds and four Grok audits while replacing full-diff review payloads with cumulative scoped verification, round caps, and reviewer-override receipts."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6266",
+    "seen_at": "2026-07-25T02:43:40Z",
+    "summary": "A Fable 5 adversarial review found a Stripe retry could transfer an inactive account's balance twice; the open repair adds account-and-amount idempotency keys and a red-green interruption regression."
 }
   ],
-  "last_run": "2026-07-25T01:38:17Z"
+  "last_run": "2026-07-25T02:43:40Z"
 }
