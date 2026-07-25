@@ -9156,7 +9156,22 @@
       "url": "https://github.com/Pmobilee/Recall-Rogue/issues/328",
       "seen_at": "2026-07-25T13:30:13Z",
       "summary": "A Claude Fable audit lane reproduced Recall Rogue Quick Play crediting unasked cards as correct, corrupting FSRS reviews, run accuracy, mastery, and permanent stability bonuses; the report includes Docker captures and code-path evidence."
+    },
+    {
+      "url": "https://github.com/beep-effect/beep-effect/pull/445",
+      "seen_at": "2026-07-25T14:35:29Z",
+      "summary": "Claude Fable 5 co-authored Beep Effect hardening across agent permissions, workspace restoration, deterministic graph sampling, telemetry configuration, and symlink-safe taxonomy loading, with public checks successful."
+    },
+    {
+      "url": "https://github.com/jack-michaud/faire/pull/2",
+      "seen_at": "2026-07-25T14:35:29Z",
+      "summary": "Claude Fable 5 co-authored an STE-linter plugin with a committed Claude Agent SDK spec-revision evaluation that reduced 54 initial findings to two warnings."
+    },
+    {
+      "url": "https://github.com/rudi-cilibrasi/leanos/pull/166",
+      "seen_at": "2026-07-25T14:35:29Z",
+      "summary": "Claude Fable 5 generated merged LeanOS machine-level negative fixtures for CPL3 divide-error/breakpoint containment, including forged-QEMU PASS rejection and a green 48-scenario QEMU matrix."
     }
   ],
-  "last_run": "2026-07-25T13:30:13Z"
+  "last_run": "2026-07-25T14:35:29Z"
 }
