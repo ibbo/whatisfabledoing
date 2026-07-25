@@ -9051,7 +9051,17 @@
     "url": "https://github.com/JDonaghy/claude-coordinator/issues/1379",
     "seen_at": "2026-07-25T04:53:01Z",
     "summary": "A read-only Claude Fable 5 audit found coord-tui had cloned about 1,500 lines of already-shipped framework layers, with three live bugs and a false README help claim."
+},
+{
+    "url": "https://github.com/findit-studio/coremlit/pull/57",
+    "seen_at": "2026-07-25T05:57:58Z",
+    "summary": "A four-round Fable 5 adversarial review of Coremlit's one-pass Granite tokenizer found and closed regex, dropped-byte, and added-token edge cases; its final differential covered 135,317 pairs with zero divergences."
+},
+{
+    "url": "https://github.com/openwrt/openwrt/pull/24400",
+    "seen_at": "2026-07-25T05:57:58Z",
+    "summary": "An OpenWrt contributor says Fable 5 assisted the analysis and bench testing for RTL930x jumbo frames, including 9,000-MTU hardware boundaries and zero-loss payload sweeps."
 }
   ],
-  "last_run": "2026-07-25T04:53:01Z"
+  "last_run": "2026-07-25T05:57:58Z"
 }
