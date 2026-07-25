@@ -9126,7 +9126,22 @@
     "url": "https://github.com/pydantic/monty/pull/621",
     "seen_at": "2026-07-25T11:19:36Z",
     "summary": "Claude Fable 5 co-authored Monty's Path division fix, adding pathlib coverage while most public cross-platform checks are successful."
+},
+{
+    "url": "https://github.com/nimbalyst/nimbalyst/issues/989",
+    "seen_at": "2026-07-25T12:24:15Z",
+    "summary": "Derazien measured that bare Fable on Claude Code 2.1.220 uses 200K context while fable[1m] receives 1M, exposing a launcher and context-meter mismatch."
+},
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/303",
+    "seen_at": "2026-07-25T12:24:15Z",
+    "summary": "A Claude Fable audit lane found 68 Recall Rogue facts where a correct or accepted answer can be offered as a wrong multiple-choice distractor."
+},
+{
+    "url": "https://github.com/scalameta/scalafmt/issues/5359",
+    "seen_at": "2026-07-25T12:24:15Z",
+    "summary": "A human-verified Claude Fable 5 report reproduces Scalafmt suppressing valid formatting diffs and exiting zero when the batch also contains an unparseable file."
 }
   ],
-  "last_run": "2026-07-25T11:19:36Z"
+  "last_run": "2026-07-25T12:24:15Z"
 }
