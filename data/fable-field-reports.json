@@ -9181,7 +9181,32 @@
       "url": "https://github.com/code-yeongyu/senpi/pull/349",
       "seen_at": "2026-07-25T15:40:10Z",
       "summary": "Senpi added a Fable-aware client-side response to Anthropic server-side fallback receipts: abort the unrequested substitute stream, surface incomplete billing, and use the user's own fallback chain, with mocked real-CLI and focused regression coverage."
+    },
+    {
+      "url": "https://github.com/phpstan/phpstan-src/pull/6098",
+      "seen_at": "2026-07-25T16:45:05Z",
+      "summary": "Ondřej Mirtes used Claude Fable 5 for a 204-file PHPStan dependency-injection refactor, replacing hand-written extension providers with typed lazy extension collections. The author reports 17,676 local tests, static analysis, style, and lint passing, while several PHP 7.4 and Rector integration CI jobs are currently failing."
+    },
+    {
+      "url": "https://github.com/TransformerLensOrg/TransformerLens/pull/1542",
+      "seen_at": "2026-07-25T16:45:05Z",
+      "summary": "Jared Larson reports letting Fable 5 Ultra Code run over TransformerLens architecture gaps for a weekend, producing 60 initial commits across a 400-file adapter sweep, followed by 30 manual cleanup commits. Many adapters have reported exact CPU logit parity on real or tiny checkpoints, but compatibility, formatting, and coverage CI jobs currently fail."
+    },
+    {
+      "url": "https://github.com/vprover/vampire/pull/882",
+      "seen_at": "2026-07-25T16:45:05Z",
+      "summary": "quickbeam123 used Claude Fable 5 for a TPTP parser repair series in Vampire, with concrete before-and-after reproductions for silent formula truncation, CRLF line counts, block comments, THF binding, and malformed input. The 29-file PR adds parser regression fixtures and has a successful public build check."
+    },
+    {
+      "url": "https://github.com/06needhamt/wireshark/pull/5",
+      "seen_at": "2026-07-25T16:45:05Z",
+      "summary": "06needhamt used Claude Fable 5 to add a Wireshark RTP-over-QUIC dissector handling ALPN roq streams and DATAGRAM frames, flow IDs, stream reassembly, and RTP/RTCP demultiplexing. The new 319-line dissector is open and has no public checks reported yet."
+    },
+    {
+      "url": "https://github.com/Pmobilee/Recall-Rogue/issues/288",
+      "seen_at": "2026-07-25T16:45:05Z",
+      "summary": "Pmobilee runs Claude Fable as an independent design-intent audit lane for Recall Rogue, pairing source review with Docker click-throughs and coordinating scope with a parallel Codex lane. Eight completed surfaces yielded 51 open findings and ten rejected candidates after verification; the lane files evidence-backed issues rather than applying fixes itself."
     }
   ],
-  "last_run": "2026-07-25T15:40:10Z"
+  "last_run": "2026-07-25T16:45:05Z"
 }
