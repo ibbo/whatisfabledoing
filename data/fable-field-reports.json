@@ -9246,7 +9246,27 @@
       "url": "https://github.com/Pmobilee/Recall-Rogue/issues/347",
       "seen_at": "2026-07-25T20:04:57Z",
       "summary": "Pmobilee’s Claude Fable audit found Recall Rogue’s rest-site Study gate reads fallback run-pool cards but the reward reads activeDeck, so a null deck state can advertise Study, accept three correct answers, then resolve with no upgrade; the author distinguishes the code-path evidence from the still-needed live reproduction."
+    },
+    {
+      "url": "https://github.com/gNucleus-AI/cad-bench-submission/pull/5",
+      "seen_at": "2026-07-25T21:11:11Z",
+      "summary": "Eric Spencer ran Claude Fable 5 through Claude Code on all 100 CAD-Bench v1 tasks, reporting a 0.7577 combined mean, 0.7496 geometry similarity, 0.8625 CAD-spec consistency, zero errors, and complete Hugging Face trajectories."
+    },
+    {
+      "url": "https://github.com/Yolean/mirror-v3/pull/5",
+      "seen_at": "2026-07-25T21:11:11Z",
+      "summary": "A Claude Fable 5 review of Yolean mirror-v3 found and repaired multiple at-least-once webhook delivery failures, including concurrent acknowledgement overtake, unobserved terminal errors, restart gaps, mixed-sink flush deadlock, and stale DNS-A retry targets; merged CI passed."
+    },
+    {
+      "url": "https://github.com/dhouchin1/mediahub-setup/pull/5",
+      "seen_at": "2026-07-25T21:11:11Z",
+      "summary": "Dan Houchin used a worktree-isolated Claude Fable 5 deep audit on mediahub-setup, adding five installer/security fixes and nine tests while explicitly leaving CSRF and product decisions for human review; local tests passed but public CI jobs failed."
+    },
+    {
+      "url": "https://github.com/dvsvds/lamiapizzeria/pull/5",
+      "seen_at": "2026-07-25T21:11:11Z",
+      "summary": "A four-agent Claude Fable 5 review of the La Mia Pizzeria system found public static-file exposure, forged POS-order paths, manipulated web prices, and customer-facing order/kitchen failures, which were fixed in a merged six-file patch."
     }
   ],
-  "last_run": "2026-07-25T20:04:57Z"
+  "last_run": "2026-07-25T21:11:11Z"
 }
