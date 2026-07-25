@@ -9171,7 +9171,17 @@
       "url": "https://github.com/rudi-cilibrasi/leanos/pull/166",
       "seen_at": "2026-07-25T14:35:29Z",
       "summary": "Claude Fable 5 generated merged LeanOS machine-level negative fixtures for CPL3 divide-error/breakpoint containment, including forged-QEMU PASS rejection and a green 48-scenario QEMU matrix."
+    },
+    {
+      "url": "https://github.com/teamchong/pxpipe/pull/147",
+      "seen_at": "2026-07-25T15:40:10Z",
+      "summary": "Pxpipe's committed Fable 5 versus Opus 5 evaluation found Fable leading on dense exact-string transcription (13/15 versus 2/15) while preserving 100/100 arithmetic, 98/98 gist recall, 18/18 state tracking, and zero never-stated confabulations."
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/pull/349",
+      "seen_at": "2026-07-25T15:40:10Z",
+      "summary": "Senpi added a Fable-aware client-side response to Anthropic server-side fallback receipts: abort the unrequested substitute stream, surface incomplete billing, and use the user's own fallback chain, with mocked real-CLI and focused regression coverage."
     }
   ],
-  "last_run": "2026-07-25T14:35:29Z"
+  "last_run": "2026-07-25T15:40:10Z"
 }
