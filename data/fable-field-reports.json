@@ -9021,7 +9021,22 @@
     "url": "https://github.com/antiwork/gumroad/pull/6266",
     "seen_at": "2026-07-25T02:43:40Z",
     "summary": "A Fable 5 adversarial review found a Stripe retry could transfer an inactive account's balance twice; the open repair adds account-and-amount idempotency keys and a red-green interruption regression."
+},
+{
+    "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/63",
+    "seen_at": "2026-07-25T03:47:38Z",
+    "summary": "A Claude Fable 5 agent documents a rejected prefill-router optimization and a separate bit-exact MoE-tail fusion for MLXFast; its public ranked benchmark was queued."
+},
+{
+    "url": "https://github.com/zaneclaes/router-acp/pull/5",
+    "seen_at": "2026-07-25T03:47:38Z",
+    "summary": "A real Fable 5 routing trace exposed five reasons a request proxy made zero demotions across 366 calls; the merged repair sent six of eight live requests to Sonnet with HTTP 200 responses."
+},
+{
+    "url": "https://github.com/OpenSDLC-Dev/managed-agent-platform/pull/180",
+    "seen_at": "2026-07-25T03:47:38Z",
+    "summary": "A pinned Fable 5 verifier reran pre-fix race failures and a real Postgres control-plane rotation test for a merged one-live-credential repair."
 }
   ],
-  "last_run": "2026-07-25T02:43:40Z"
+  "last_run": "2026-07-25T03:47:38Z"
 }
