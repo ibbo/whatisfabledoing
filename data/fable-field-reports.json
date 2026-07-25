@@ -9106,7 +9106,27 @@
     "url": "https://github.com/josh-project/josh/pull/2314",
     "seen_at": "2026-07-25T10:15:59Z",
     "summary": "A Fable-assisted josh fix preserves parent links during no-base vendoring of disconnected Git history, backed by a new 105-line CLI regression test and successful CI."
+},
+{
+    "url": "https://github.com/antiwork/gumroad/pull/6285",
+    "seen_at": "2026-07-25T11:19:36Z",
+    "summary": "A Claude Fable 5 Hermes agent built Gumroad's feature-flagged Pix checkout path, with 16 passing new specs and pending preview/hosted validation."
+},
+{
+    "url": "https://github.com/rudi-cilibrasi/leanos/pull/160",
+    "seen_at": "2026-07-25T11:19:36Z",
+    "summary": "Claude Fable 5 generated a LeanOS shared containment proof for four CPL3 fault paths, with a negative reason-substitution fixture and successful merged checks."
+},
+{
+    "url": "https://github.com/xinquan568/roamux/pull/224",
+    "seen_at": "2026-07-25T11:19:36Z",
+    "summary": "A Claude Fable 5 Roamux worker added the bookmarks-side-panel tab-group action with 16 reported focused browser tests and successful public targeted checks."
+},
+{
+    "url": "https://github.com/pydantic/monty/pull/621",
+    "seen_at": "2026-07-25T11:19:36Z",
+    "summary": "Claude Fable 5 co-authored Monty's Path division fix, adding pathlib coverage while most public cross-platform checks are successful."
 }
   ],
-  "last_run": "2026-07-25T10:15:59Z"
+  "last_run": "2026-07-25T11:19:36Z"
 }
