@@ -9421,7 +9421,27 @@
     "url": "https://github.com/josh-project/josh/pull/2335",
     "seen_at": "2026-07-26T09:12:40Z",
     "summary": "Christian Schilling’s Fable-assisted josh PR ports three recursive Git tree merge operations to gix-object with an ODB-byte cache, reporting 1–33% gains on ultrawide benchmark cases."
+},
+{
+    "url": "https://github.com/agent-of-empires/agent-of-empires/pull/3111",
+    "seen_at": "2026-07-26T10:17:05Z",
+    "summary": "A Claude Code/Fable 5 session traced slow agent-dashboard startup to serial shell probes and reduced first render from 3.98s to 1.18s in a four-missing-agent test by batching fallback checks."
+},
+{
+    "url": "https://github.com/gittensor-model-hub/SparkDistill/pull/245",
+    "seen_at": "2026-07-26T10:17:05Z",
+    "summary": "SparkDistill uses Claude Fable 5 to recover explicitly tagged plaintext rationales when other teacher trajectories contain empty or encrypted reasoning, with best-effort failure handling and a newly enforced 321-test suite."
+},
+{
+    "url": "https://github.com/affaan-m/ECC/pull/2465",
+    "seen_at": "2026-07-26T10:17:05Z",
+    "summary": "ECC corrected its Fable 5 context-window detection so a 187k-token unmarked session uses the default 1M denominator rather than appearing 93% full on a 200k meter."
+},
+{
+    "url": "https://github.com/code-yeongyu/senpi/pull/374",
+    "seen_at": "2026-07-26T10:17:05Z",
+    "summary": "Senpi transcript mining found no Todo-schema failures in a combined 675 Claude Opus/Fable calls, contrasting with 17 failures in 2,435 total calls concentrated in Kimi and GLM families."
 }
   ],
-  "last_run": "2026-07-26T09:12:40Z"
+  "last_run": "2026-07-26T10:17:05Z"
 }
