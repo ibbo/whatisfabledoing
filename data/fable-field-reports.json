@@ -9286,7 +9286,32 @@
       "url": "https://github.com/TheAxiomFoundation/axiom-encode/pull/1284",
       "seen_at": "2026-07-25T23:24:14Z",
       "summary": "EncodeBench UK v1 recorded Claude Fable 5 at 9/16 because four of 16 cases hit a fixed 600-second harness timeout despite a 211-second median; the author reports 9/12 completed cases passed and patches configurable, structured timeout handling."
+    },
+    {
+      "url": "https://github.com/AdamWyatt34/Modulus/pull/2",
+      "seen_at": "2026-07-26T00:28:32Z",
+      "summary": "AdamWyatt34 used Claude Fable 5 for a six-area Modulus codebase audit that independently re-verified five critical architecture failures, then merged the report with public checks passing."
+    },
+    {
+      "url": "https://github.com/GiraffeTechnology/Giraffe-JP/pull/6",
+      "seen_at": "2026-07-26T00:28:32Z",
+      "summary": "A Claude Fable 5 co-authored Giraffe-JP audit live-exploited cross-tenant reads, a default-secret authentication bypass, and unauthenticated QC writes, alongside 21 other findings."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10269",
+      "seen_at": "2026-07-26T00:28:32Z",
+      "summary": "Eric D. Fields used Claude Fable 5 through Claude Code to reproduce and fix Paperclip’s issue-reopen conflict, with a 74-test regression suite and public CI success."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6195",
+      "seen_at": "2026-07-26T00:28:32Z",
+      "summary": "Gumroad’s Gumclaw agent used Claude Fable 5 to add a composite purchases index after Sentry traces showed mobile-library searches spending seconds in per-seller probes."
+    },
+    {
+      "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26768",
+      "seen_at": "2026-07-26T00:28:32Z",
+      "summary": "Nyeriah used Claude Code with Claude Fable 5 to fix an AzerothCore under-map handler that moved unreleased Eye of Eternity corpses to a different map, breaking resurrection and loot."
     }
   ],
-  "last_run": "2026-07-25T23:24:14Z"
+  "last_run": "2026-07-26T00:28:32Z"
 }
