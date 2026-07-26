@@ -9391,7 +9391,37 @@
     "url": "https://github.com/jaseci-labs/jac/pull/7745",
     "seen_at": "2026-07-26T08:06:32Z",
     "summary": "A reproducible Fable 5 integration test found that indentation embedded in Jac's triple-quoted system prompts caused benign by-LLM calls to return empty content with a content_filter reason; removing only the whitespace restored responses."
+} ,
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/356",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Claude Fable audit lane found 14 obtainable Recall Rogue relics whose effect resolvers have no production callers; direct resolver tests pass while real gameplay never invokes them."
+},
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/357",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Companion Claude Fable audit found Recall Rogue’s 200-configuration relic balance harness never passes configured relics into its simulator, leaving published rankings driven by seed/profile noise and stale IDs."
+},
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/364",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Claude Fable audit measured Recall Rogue’s Mastery Challenge rendering its answer in the visible statement for 4,243 of 5,424 facts (78.2%)."
+},
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/365",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Companion Claude Fable audit found Recall Rogue’s room Mastery Challenge has an asymmetric outcome: passes only update masteredAt while failures demote Tier 3 cards."
+},
+{
+    "url": "https://github.com/Pmobilee/Recall-Rogue/issues/366",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Companion Claude Fable audit documented Mastery Challenge timer failures: backgrounding immediately fails a wall-clock timer, slow-reader settings are ignored, and no non-punitive dismissal exists."
+},
+{
+    "url": "https://github.com/josh-project/josh/pull/2335",
+    "seen_at": "2026-07-26T09:12:40Z",
+    "summary": "Christian Schilling’s Fable-assisted josh PR ports three recursive Git tree merge operations to gix-object with an ODB-byte cache, reporting 1–33% gains on ultrawide benchmark cases."
 }
   ],
-  "last_run": "2026-07-26T08:06:32Z"
+  "last_run": "2026-07-26T09:12:40Z"
 }
