@@ -9601,7 +9601,17 @@
       "url": "https://github.com/JuliaLang/julia/pull/62514",
       "seen_at": "2026-07-26T22:11:30Z",
       "summary": "Ian Butterworth used an Opus 5-to-Sol-to-Fable-to-Opus coverage audit to produce a Julia PR that reduces instrumentation overhead, adds interpreter coverage, fixes output-path and long-line bugs, and documents remaining limitations."
+    },
+    {
+      "url": "https://github.com/flintlib/flint/pull/2784",
+      "seen_at": "2026-07-26T23:16:05Z",
+      "summary": "Fable 5 helped FLINT add an APRCL mpn_mod backend and tune primality testing, with reported speedups from 1.1x to 4.31x across 80–800-bit inputs and current cross-platform checks mostly successful."
+    },
+    {
+      "url": "https://github.com/btownbrief/stay-awhile/pull/4",
+      "seen_at": "2026-07-26T23:16:05Z",
+      "summary": "Fable 5 led a Stay Awhile editorial audit that cut a 311-question deck to 273 after validation and browser checks; GPT-5.6 Sol independently agreed with the diagnosis."
     }
   ],
-  "last_run": "2026-07-26T22:11:30Z"
+  "last_run": "2026-07-26T23:16:05Z"
 }
