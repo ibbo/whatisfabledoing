@@ -9521,7 +9521,22 @@
       "url": "https://github.com/ForumHFR/redface2/pull/980",
       "seen_at": "2026-07-26T15:41:26Z",
       "summary": "Claude Fable 5 repaired Redface2 quick-reply draft isolation across account switches, blocked topic submits during image uploads, and updated stale navigation documentation; the merged Android PR passed tests, lint, Detekt, build, and repo guards."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/845",
+      "seen_at": "2026-07-26T16:47:11Z",
+      "summary": "A Claude Code run using Fable 5 added a pre-rename quarantine-intent ledger so SchemaBot DROP reruns converge only when recorded recovery evidence exists; public lint, chart, matrix, and DCO checks pass while broader jobs run."
+    },
+    {
+      "url": "https://github.com/gasyoun/SanskritLexicography/pull/805",
+      "seen_at": "2026-07-26T16:47:11Z",
+      "summary": "A Fable 5 Claude Code run rebuilt a Sanskrit verse corpus from 1,427 scan pages, growing it to 19,852 records and preserving four audit-rejected map pairs; the merged PR reports 22/22 self-tests, 12/12 spot checks, and green public gates."
+    },
+    {
+      "url": "https://github.com/Alfian57/gin-kit/pull/22",
+      "seen_at": "2026-07-26T16:47:11Z",
+      "summary": "Under maintainer direction, Fable 5 implemented Gin scaffold authentication with Argon2id, replay-safe refresh rotation, generated flow tests, and a six-cell smoke matrix; local gates passed and public security/quality/docs gates are green while project smokes run."
     }
   ],
-  "last_run": "2026-07-26T15:41:26Z"
+  "last_run": "2026-07-26T16:47:11Z"
 }
