@@ -9441,7 +9441,17 @@
     "url": "https://github.com/code-yeongyu/senpi/pull/374",
     "seen_at": "2026-07-26T10:17:05Z",
     "summary": "Senpi transcript mining found no Todo-schema failures in a combined 675 Claude Opus/Fable calls, contrasting with 17 failures in 2,435 total calls concentrated in Kimi and GLM families."
+},
+{
+    "url": "https://github.com/Cjbuilds/Codex-Orchestration/pull/33",
+    "seen_at": "2026-07-26T11:21:07Z",
+    "summary": "A Claude Code 2.1.220 integration repair accepts reviewed Fable model identity metadata while preserving fail-closed validation; a live Fable 5 xhigh smoke returned PLAN_DRAFT."
+},
+{
+    "url": "https://github.com/dseinternational/vocabulary-growth/pull/183",
+    "seen_at": "2026-07-26T11:21:07Z",
+    "summary": "A Claude Code/Fable 5 session drafted a vocabulary-growth model critique with reproducible hypergeometric results and a 60-plus-claim verification script; later Fable review corrected details."
 }
   ],
-  "last_run": "2026-07-26T10:17:05Z"
+  "last_run": "2026-07-26T11:21:07Z"
 }
