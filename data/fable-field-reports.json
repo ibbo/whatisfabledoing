@@ -9321,7 +9321,27 @@
       "url": "https://github.com/chipi/podcast_scraper/pull/1334",
       "seen_at": "2026-07-26T01:35:04Z",
       "summary": "A Fable 5 production security and operations review of podcast_scraper led to rate limits, a fail-closed public-mode guard, backup coverage, and shared response-header hardening."
+    },
+    {
+      "url": "https://github.com/EnzymeAD/Enzyme/pull/3005",
+      "seen_at": "2026-07-26T02:40:21Z",
+      "summary": "A Fable-generated Enzyme PR bounds pathological autodiff recomputation: a downstream 2F1 reverse-mode reproducer fell from repeated 20-minute-plus hangs to roughly 21 seconds without changing completed gradients."
+    },
+    {
+      "url": "https://github.com/b-macker/NAAb/pull/102",
+      "seen_at": "2026-07-26T02:40:21Z",
+      "summary": "A Fable co-authored NAAb governance-harness extension found that a 116/116 prior run had never exercised tool calls or the engine ratchet; the new offline run forces both paths and reports 149 checks."
+    },
+    {
+      "url": "https://github.com/orestes-dev/repo-contract/issues/218",
+      "seen_at": "2026-07-26T02:40:21Z",
+      "summary": "A confounded paired run compared Fable 5 at xhigh with Opus 5 at medium on the same twelve-finding repair task; execution found two residual defects in the Fable route and one weak regression test in the cheaper route."
+    },
+    {
+      "url": "https://github.com/cybersemics/em/issues/4744",
+      "seen_at": "2026-07-26T02:40:21Z",
+      "summary": "A Fable-generated audit found that twelve forked iOS TDD runs were marked validated after BrowserStack configuration crashes; a simulator control confirmed the underlying regression test was valid."
     }
   ],
-  "last_run": "2026-07-26T01:35:04Z"
+  "last_run": "2026-07-26T02:40:21Z"
 }
