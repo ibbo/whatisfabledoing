@@ -9546,7 +9546,17 @@
       "url": "https://github.com/youngminnnn/wooi/pull/130",
       "seen_at": "2026-07-26T17:52:29Z",
       "summary": "Wooi directly measured Claude Fable 5 through the Agent SDK at a 1M-token context window and a 967k-token auto-compaction threshold, then merged a client fix to use the SDK's per-model threshold instead of a guessed percentage."
+    },
+    {
+      "url": "https://github.com/agent-of-empires/agent-of-empires/pull/3116",
+      "seen_at": "2026-07-26T18:56:51Z",
+      "summary": "Claude Code with Fable 5 repaired iOS alternate-screen terminal scrolling with touch momentum, gain, and pane-wide wheel forwarding; the author reports focused tests and the visible public test/build matrix is successful."
+    },
+    {
+      "url": "https://github.com/gastownhall/beads/pull/5013",
+      "seen_at": "2026-07-26T18:56:51Z",
+      "summary": "A Fable 5 High run hardened Beads' local database-proxy lifecycle with process birth tokens, an authenticated identity handshake, fail-closed adoption, stale-record quarantine, and real-Dolt lifecycle tests; broader CI remains in progress."
     }
   ],
-  "last_run": "2026-07-26T17:52:29Z"
+  "last_run": "2026-07-26T18:56:51Z"
 }
