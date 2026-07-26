@@ -9351,7 +9351,22 @@
     {"url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/160", "seen_at": "2026-07-26T05:53:58Z", "summary": "Claude Fable 5 at max effort authored an accepted MLX Fast challenge submission that changed async-evaluation scheduling, scored 1.32714, and preserved zero maximum absolute difference."},
     {"url": "https://github.com/sneakyfree/windy-chat/pull/159", "seen_at": "2026-07-26T05:53:58Z", "summary": "Two Fable 5 audits, involving 37 terminal agents and eight desktop agents, informed a merged Windy Chat repair covering a dead Matrix push module, an inert onboarding button, documentation, and token comparison."},
     {"url": "https://github.com/antiwork/gumroad/pull/6345", "seen_at": "2026-07-26T05:53:58Z", "summary": "A local Claude Fable 5 adversarial review of an Opus-authored Gumroad product-save repair found two reproduced P1s, leading to tighter preservation of unreadable content, file, and related state."},
-    {"url": "https://github.com/Jonnyton/TinyAssets/pull/1797", "seen_at": "2026-07-26T05:53:58Z", "summary": "Fable 5 served as final cross-family reviewer of TinyAssets branch-authority hardening, confirming raw caller strings were refused and 51 branch-auth tests passed."}
+    {"url": "https://github.com/Jonnyton/TinyAssets/pull/1797", "seen_at": "2026-07-26T05:53:58Z", "summary": "Fable 5 served as final cross-family reviewer of TinyAssets branch-authority hardening, confirming raw caller strings were refused and 51 branch-auth tests passed."},
+    {
+      "url": "https://github.com/thebhef/cannet/pull/94",
+      "seen_at": "2026-07-26T06:58:57Z",
+      "summary": "Ben Hefner and Claude Fable 5 added a hardware-derived CAN receive-cadence gate after ordinary throughput metrics missed bursty delivery; a 2xPCAN 60-second rig run cut the worst per-ID p95/median gap ratio from about 3.5 to 1.14 and short-gap fraction from about 28% to 0.33%."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/pull/401",
+      "seen_at": "2026-07-26T06:58:57Z",
+      "summary": "Daisuke Oyama used Claude Code with Claude Fable 5 to make QuantEcon.jl DPSolveResult immutable, consolidate solver metadata, remove legacy result-wrapper APIs, and hoist a PFI allocation buffer; an Aiyagari workload fell from 97.7 MiB to 87.7 MiB per solve and the public Julia/docs matrix passed."
+    },
+    {
+      "url": "https://github.com/firoorg/firo/pull/1883",
+      "seen_at": "2026-07-26T06:58:57Z",
+      "summary": "Reuben Yap and Claude Fable 5 produced a Firo Qt wallet fix that replaces GUI-thread blocking wallet locks with retry-safe try-lock paths and moves transaction/proof-generation operations onto a worker thread; the cross-platform build matrix was still running when recorded."
+    }
   ],
-  "last_run": "2026-07-26T05:53:58Z"
+  "last_run": "2026-07-26T06:58:57Z"
 }
