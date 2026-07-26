@@ -9536,7 +9536,17 @@
       "url": "https://github.com/Alfian57/gin-kit/pull/22",
       "seen_at": "2026-07-26T16:47:11Z",
       "summary": "Under maintainer direction, Fable 5 implemented Gin scaffold authentication with Argon2id, replay-safe refresh rotation, generated flow tests, and a six-cell smoke matrix; local gates passed and public security/quality/docs gates are green while project smokes run."
+    },
+    {
+      "url": "https://github.com/tqec/tqec/pull/995",
+      "seen_at": "2026-07-26T17:52:29Z",
+      "summary": "HaoTy reports Claude Fable 5 implemented most of a tqec correlation-surface overhaul: shared half-edge topology and bit-array XOR, partial-surface completion, and a fix for disconnected-component product expansion, with human review and green public checks."
+    },
+    {
+      "url": "https://github.com/youngminnnn/wooi/pull/130",
+      "seen_at": "2026-07-26T17:52:29Z",
+      "summary": "Wooi directly measured Claude Fable 5 through the Agent SDK at a 1M-token context window and a 967k-token auto-compaction threshold, then merged a client fix to use the SDK's per-model threshold instead of a guessed percentage."
     }
   ],
-  "last_run": "2026-07-26T16:47:11Z"
+  "last_run": "2026-07-26T17:52:29Z"
 }
