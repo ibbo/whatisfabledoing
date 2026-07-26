@@ -9556,7 +9556,27 @@
       "url": "https://github.com/gastownhall/beads/pull/5013",
       "seen_at": "2026-07-26T18:56:51Z",
       "summary": "A Fable 5 High run hardened Beads' local database-proxy lifecycle with process birth tokens, an authenticated identity handshake, fail-closed adoption, stale-record quarantine, and real-Dolt lifecycle tests; broader CI remains in progress."
+    },
+    {
+      "url": "https://github.com/amomand/flow/pull/68",
+      "seen_at": "2026-07-26T20:01:54Z",
+      "summary": "A Fable 5 review of Flow Coach's sequential patch validator found four concrete intermediate-state defects; the follow-up fixes add direct validation coverage and report 54 Worker tests plus a full iPhone simulator suite."
+    },
+    {
+      "url": "https://github.com/Alfian57/gin-kit/pull/29",
+      "seen_at": "2026-07-26T20:01:54Z",
+      "summary": "Under maintainer direction, Claude Code with Fable 5 built Gin Kit's cleanup-safe unit, integration, and Playwright browser-testing harness; the merged change passed race, vet, PostgreSQL smoke, and public quality/security/docs checks."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/184",
+      "seen_at": "2026-07-26T20:01:54Z",
+      "summary": "A Claude Code effort using Fable 5 alongside GPT-5.6 Sol adds target-directed A* to Cafein's single-route bicycle search, retaining bit-identical answers while reporting 13-24x faster short hops and green cross-platform CI."
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/pull/42116",
+      "seen_at": "2026-07-26T20:01:54Z",
+      "summary": "A Mathlib contributor reports collaborating with Claude Code's Opus and Fable models on a Lean formalization of a claimed 2026 Jacobian-conjecture counterexample, with the proposal's build and CI checks green."
     }
   ],
-  "last_run": "2026-07-26T18:56:51Z"
+  "last_run": "2026-07-26T20:01:54Z"
 }
