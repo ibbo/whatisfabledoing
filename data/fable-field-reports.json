@@ -9341,7 +9341,10 @@
       "url": "https://github.com/cybersemics/em/issues/4744",
       "seen_at": "2026-07-26T02:40:21Z",
       "summary": "A Fable-generated audit found that twelve forked iOS TDD runs were marked validated after BrowserStack configuration crashes; a simulator control confirmed the underlying regression test was valid."
-    }
+    },
+    {"url": "https://github.com/Boonanpro/done/pull/583", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored a merged production fix for a video-caption pipeline whose caption-design LLM was always skipped because transcription copies were mistaken for authored captions; a 41-caption live-video sample verified the new similarity gate."},
+    {"url": "https://github.com/nickswami/ChapterMaster/pull/807", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored a merged ChapterMaster asset investigation that proved a 9-slice PNG had a transparent interior, then imported it and added an in-engine checkerboard QA overlay; build and live verification succeeded."},
+    {"url": "https://github.com/esaueng/brepkit/pull/5", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored an open brepkit WASM API expansion exposing 26 per-fix healing switches and 13 ordered healing operators, with strict validation and 241 package tests passing locally; a known unrelated main-branch test failure still blocks hosted CI."}
   ],
-  "last_run": "2026-07-26T02:40:21Z"
+  "last_run": "2026-07-26T03:44:52Z"
 }
