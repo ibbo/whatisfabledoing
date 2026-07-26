@@ -9576,7 +9576,17 @@
       "url": "https://github.com/leanprover-community/mathlib4/pull/42116",
       "seen_at": "2026-07-26T20:01:54Z",
       "summary": "A Mathlib contributor reports collaborating with Claude Code's Opus and Fable models on a Lean formalization of a claimed 2026 Jacobian-conjecture counterexample, with the proposal's build and CI checks green."
+    },
+    {
+      "url": "https://github.com/ewang26/HorizonMath/pull/3",
+      "seen_at": "2026-07-26T21:05:29Z",
+      "summary": "HorizonMath repaired its Fable 5 benchmark path after long calls required streaming and a 32K output cap exhausted during adaptive thinking; a 128K run returned a proposed solution using about 46K output tokens."
+    },
+    {
+      "url": "https://github.com/gastownhall/beads/pull/5082",
+      "seen_at": "2026-07-26T21:05:29Z",
+      "summary": "A Fable 5 xhigh Beads release fix refreshes and validates the MCP uv.lock before protected tags, covering stale pins, release-candidate normalization, and no-uv behavior; merged package, upgrade, conformance, lint, and cross-platform checks passed."
     }
   ],
-  "last_run": "2026-07-26T20:01:54Z"
+  "last_run": "2026-07-26T21:05:29Z"
 }
