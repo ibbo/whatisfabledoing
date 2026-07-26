@@ -9496,7 +9496,32 @@
     "url": "https://github.com/Alfian57/gin-kit/pull/14",
     "seen_at": "2026-07-26T14:35:50Z",
     "summary": "Under maintainer direction, Fable 5 implemented Gin scaffold typed environment configuration, with validation, dotenv/template wiring, and reported unit, race, vet, documentation, rendered-template, and scaffold-smoke checks."
-}
+},
+    {
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/pull/52",
+      "seen_at": "2026-07-26T15:41:26Z",
+      "summary": "Pseudolife-MCP compared Fable 5, Sonnet 5, and Opus 5 on a 25-item knowledge-extraction smoke suite, with Fable reaching 0.84 cortex accuracy and 97 supersessions versus Sonnet’s 0.76 and 85."
+    },
+    {
+      "url": "https://github.com/dseinternational/language-reading-predictors/pull/440",
+      "seen_at": "2026-07-26T15:41:26Z",
+      "summary": "Claude Code/Fable 5 reviewed likelihood assumptions in a vocabulary/word-reading study, added reproducible sensitivity tools, and exposed a rounded R-hat extraction bug that made an exact-LOO convergence threshold materially weaker than stated."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/pull/529",
+      "seen_at": "2026-07-26T15:41:26Z",
+      "summary": "Fable 5 authored a native-FP8 loader/repacking change for Colibri: named safetensors metadata stamps verify or resolve byte-layout ambiguity while unsupported or mismatched formats refuse loudly, with CPU, Python, Metal, and cross-platform CI coverage."
+    },
+    {
+      "url": "https://github.com/Alfian57/gin-kit/pull/16",
+      "seen_at": "2026-07-26T15:41:26Z",
+      "summary": "Under maintainer direction, Fable 5 added typed Go query/URI binders and an in-process HTTP test helper to gin-kit; the merged change passed race, vet, security, documentation, and generated-project smoke checks."
+    },
+    {
+      "url": "https://github.com/ForumHFR/redface2/pull/980",
+      "seen_at": "2026-07-26T15:41:26Z",
+      "summary": "Claude Fable 5 repaired Redface2 quick-reply draft isolation across account switches, blocked topic submits during image uploads, and updated stale navigation documentation; the merged Android PR passed tests, lint, Detekt, build, and repo guards."
+    }
   ],
-  "last_run": "2026-07-26T14:35:50Z"
+  "last_run": "2026-07-26T15:41:26Z"
 }
