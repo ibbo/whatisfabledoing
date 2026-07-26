@@ -9344,7 +9344,10 @@
     },
     {"url": "https://github.com/Boonanpro/done/pull/583", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored a merged production fix for a video-caption pipeline whose caption-design LLM was always skipped because transcription copies were mistaken for authored captions; a 41-caption live-video sample verified the new similarity gate."},
     {"url": "https://github.com/nickswami/ChapterMaster/pull/807", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored a merged ChapterMaster asset investigation that proved a 9-slice PNG had a transparent interior, then imported it and added an in-engine checkerboard QA overlay; build and live verification succeeded."},
-    {"url": "https://github.com/esaueng/brepkit/pull/5", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored an open brepkit WASM API expansion exposing 26 per-fix healing switches and 13 ordered healing operators, with strict validation and 241 package tests passing locally; a known unrelated main-branch test failure still blocks hosted CI."}
+    {"url": "https://github.com/esaueng/brepkit/pull/5", "seen_at": "2026-07-26T03:44:52Z", "summary": "Claude Fable 5 co-authored an open brepkit WASM API expansion exposing 26 per-fix healing switches and 13 ordered healing operators, with strict validation and 241 package tests passing locally; a known unrelated main-branch test failure still blocks hosted CI."},
+    {"url": "https://github.com/sanskrit-lexicon/csl-atlas/pull/312", "seen_at": "2026-07-26T04:48:43Z", "summary": "A Fable 5 handoff added a reproducible Generalized Quartet Distance validation of csl-atlas’s 32-dictionary Sanskrit genealogy, finding 85.4% quartet agreement against documented descent and reporting explicit limits."},
+    {"url": "https://github.com/heyong4725/aisle/pull/33", "seen_at": "2026-07-26T04:48:43Z", "summary": "An Aisle 20-session Fable 5 graph-composition arm produced 20 schema-valid graphs but only 3 launched because 17 selected an uninstalled detector stack; the PR preserves per-attempt artifacts and auditability fixes."},
+    {"url": "https://github.com/computer-whisperer/shard/issues/20", "seen_at": "2026-07-26T04:48:43Z", "summary": "Fable 5 filed a Shard proof-generator report with committed reproductions for a solve-path regression hidden by replay-only CI; a follow-up isolated and repaired a stale primitive alias while retaining coverage follow-ups."}
   ],
-  "last_run": "2026-07-26T03:44:52Z"
+  "last_run": "2026-07-26T04:48:43Z"
 }
