@@ -9471,7 +9471,22 @@
     "url": "https://github.com/gasyoun/SanskritLexicography/pull/793",
     "seen_at": "2026-07-26T12:25:03Z",
     "summary": "A Fable 5-led 32-pair Ramayana verse-map audit approved 28 pairs and identified four OCR-driven half-verse shifts, which were made inert as audit-rejected rows with public checks passing."
+},
+{
+    "url": "https://github.com/corelli18512/kraki/pull/196",
+    "seen_at": "2026-07-26T13:30:00Z",
+    "summary": "Kraki’s pi adapter now discovers Fable 5’s actual effort ladder, restoring max effort through pi’s model-specific thinkingLevelMap; 13 new tests and the public Validate check passed."
+},
+{
+    "url": "https://github.com/ForumHFR/redface2/pull/979",
+    "seen_at": "2026-07-26T13:30:00Z",
+    "summary": "A Claude Fable 5 action fixed an Android quick-reply rotation bug with explicit saved-state restoration tests; 257 topic-module tests and all visible GitHub checks passed."
+},
+{
+    "url": "https://github.com/paperclipai/paperclip/pull/10270",
+    "seen_at": "2026-07-26T13:30:00Z",
+    "summary": "Eric Fields reports a Fable 5-authored repair for sibling issue wakes stranded after agent runs finalize, with 13 focused and 169 adjacent tests; Greptile still flags a validation-failure path."
 }
   ],
-  "last_run": "2026-07-26T12:25:03Z"
+  "last_run": "2026-07-26T13:30:00Z"
 }
