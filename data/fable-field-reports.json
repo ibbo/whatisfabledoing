@@ -9311,7 +9311,17 @@
       "url": "https://github.com/azerothcore/azerothcore-wotlk/pull/26768",
       "seen_at": "2026-07-26T00:28:32Z",
       "summary": "Nyeriah used Claude Code with Claude Fable 5 to fix an AzerothCore under-map handler that moved unreleased Eye of Eternity corpses to a different map, breaking resurrection and loot."
+    },
+    {
+      "url": "https://github.com/experientiallabs/world-model-harness/pull/259",
+      "seen_at": "2026-07-26T01:35:04Z",
+      "summary": "World Model Harness used Fable as the guarded fallback in a nine-model routing experiment; its 1,199-task evaluation reports a 0.9607 routed score versus 0.9045 for Fable alone at 33.9% lower cost."
+    },
+    {
+      "url": "https://github.com/chipi/podcast_scraper/pull/1334",
+      "seen_at": "2026-07-26T01:35:04Z",
+      "summary": "A Fable 5 production security and operations review of podcast_scraper led to rate limits, a fail-closed public-mode guard, backup coverage, and shared response-header hardening."
     }
   ],
-  "last_run": "2026-07-26T00:28:32Z"
+  "last_run": "2026-07-26T01:35:04Z"
 }
