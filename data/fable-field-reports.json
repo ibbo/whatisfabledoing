@@ -9586,7 +9586,22 @@
       "url": "https://github.com/gastownhall/beads/pull/5082",
       "seen_at": "2026-07-26T21:05:29Z",
       "summary": "A Fable 5 xhigh Beads release fix refreshes and validates the MCP uv.lock before protected tags, covering stale pins, release-candidate normalization, and no-uv behavior; merged package, upgrade, conformance, lint, and cross-platform checks passed."
+    },
+    {
+      "url": "https://github.com/scipy/scipy/pull/25717",
+      "seen_at": "2026-07-26T22:11:30Z",
+      "summary": "Ralf Gommers reports heavy use of Claude Fable 5 on a SciPy device-propagation series, including this hand-reviewed cubature fix that keeps rule constants device-neutral until evaluation."
+    },
+    {
+      "url": "https://github.com/aio-libs/aiohttp/pull/13249",
+      "seen_at": "2026-07-26T22:11:30Z",
+      "summary": "An aiohttp PR drafted with Fable 5 and reviewed by maintainer J. Nick Koston turns a reproducible decompression-path C-extension segfault into a ContentEncodingError, with 835 focused parser tests passing."
+    },
+    {
+      "url": "https://github.com/JuliaLang/julia/pull/62514",
+      "seen_at": "2026-07-26T22:11:30Z",
+      "summary": "Ian Butterworth used an Opus 5-to-Sol-to-Fable-to-Opus coverage audit to produce a Julia PR that reduces instrumentation overhead, adds interpreter coverage, fixes output-path and long-line bugs, and documents remaining limitations."
     }
   ],
-  "last_run": "2026-07-26T21:05:29Z"
+  "last_run": "2026-07-26T22:11:30Z"
 }
