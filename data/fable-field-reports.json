@@ -9366,7 +9366,32 @@
       "url": "https://github.com/firoorg/firo/pull/1883",
       "seen_at": "2026-07-26T06:58:57Z",
       "summary": "Reuben Yap and Claude Fable 5 produced a Firo Qt wallet fix that replaces GUI-thread blocking wallet locks with retry-safe try-lock paths and moves transaction/proof-generation operations onto a worker thread; the cross-platform build matrix was still running when recorded."
-    }
+    },
+{
+    "url": "https://github.com/scikit-hep/coffea/pull/1592",
+    "seen_at": "2026-07-26T08:06:32Z",
+    "summary": "Claude Fable 5 co-authored a merged Coffea dask/NanoEvents repair that restores correct all-None backfill for genuinely absent optional branches while preserving real values and loud errors for required fields."
+},
+{
+    "url": "https://github.com/AdamWyatt34/Modulus/pull/5",
+    "seen_at": "2026-07-26T08:06:32Z",
+    "summary": "A Claude Fable 5 session produced an audit-driven 206-file Modulus/.NET maintenance and feature wave, including messaging reliability, W3C tracing, generator/CLI work, testing infrastructure, API guards, and an end-to-end scaffold harness."
+},
+{
+    "url": "https://github.com/MovingBlocks/Terasology/pull/5336",
+    "seen_at": "2026-07-26T08:06:32Z",
+    "summary": "Claude Fable 5 performed a broad Terasology engine code sweep that found three verified defects: NPC-caused death crashes, a latent null dereference in network sending, and file-handle leaks on serialization failure."
+},
+{
+    "url": "https://github.com/maplibre/maplibre-gl-js/pull/8017",
+    "seen_at": "2026-07-26T08:06:32Z",
+    "summary": "Claude Fable 5 assisted MapLibre GL JS with a quaternion-based globe-drag fix that removes inverted or stalled panning near and across the poles, with the behavior made the default after review and a full green CI matrix."
+},
+{
+    "url": "https://github.com/jaseci-labs/jac/pull/7745",
+    "seen_at": "2026-07-26T08:06:32Z",
+    "summary": "A reproducible Fable 5 integration test found that indentation embedded in Jac's triple-quoted system prompts caused benign by-LLM calls to return empty content with a content_filter reason; removing only the whitespace restored responses."
+}
   ],
-  "last_run": "2026-07-26T06:58:57Z"
+  "last_run": "2026-07-26T08:06:32Z"
 }
