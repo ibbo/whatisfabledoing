@@ -9451,7 +9451,27 @@
     "url": "https://github.com/dseinternational/vocabulary-growth/pull/183",
     "seen_at": "2026-07-26T11:21:07Z",
     "summary": "A Claude Code/Fable 5 session drafted a vocabulary-growth model critique with reproducible hypergeometric results and a 60-plus-claim verification script; later Fable review corrected details."
+},
+{
+    "url": "https://github.com/GliteTech/sensebench/pull/218",
+    "seen_at": "2026-07-26T12:25:03Z",
+    "summary": "SenseBench reports Claude Fable 5 at 95.21% on 4,861 lexEN v1 word-sense items, statistically indistinguishable from GPT-5.5's 95.60% under its McNemar test, with raw responses and recomputation checks committed."
+},
+{
+    "url": "https://github.com/frostney/known-good-route/pull/11",
+    "seen_at": "2026-07-26T12:25:03Z",
+    "summary": "Frostney reports six targeted live skill-evaluation cases passing across Claude Fable 5, Claude Opus 5, and GPT-5.6 Sol, alongside 20 fixture scenarios and a 60-row dry-run plan."
+},
+{
+    "url": "https://github.com/1600822305/Aetherlink-flutter/pull/823",
+    "seen_at": "2026-07-26T12:25:03Z",
+    "summary": "Aetherlink traced Claude Fable 5 OAuth thinking integration behavior to a need for adaptive thinking without budget_tokens; direct real-token calls returned 200 for adaptive and 400 when a budget was included."
+},
+{
+    "url": "https://github.com/gasyoun/SanskritLexicography/pull/793",
+    "seen_at": "2026-07-26T12:25:03Z",
+    "summary": "A Fable 5-led 32-pair Ramayana verse-map audit approved 28 pairs and identified four OCR-driven half-verse shifts, which were made inert as audit-rejected rows with public checks passing."
 }
   ],
-  "last_run": "2026-07-26T11:21:07Z"
+  "last_run": "2026-07-26T12:25:03Z"
 }
