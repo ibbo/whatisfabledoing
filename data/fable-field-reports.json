@@ -9766,7 +9766,27 @@
       "url": "https://github.com/Tomy-ch/nextjs-boilerplate/pull/28",
       "seen_at": "2026-07-27T13:14:02Z",
       "summary": "A Fable 5 audit of a 64-PR Next.js implementation plan found seven hidden ordering and ownership failures, including a Phase 0 dependency on later CSP inputs, missing edges, duplicate rows, and self-references."
+    },
+    {
+      "url": "https://github.com/dcgoodwin2112/dkan-ai-skills/pull/68",
+      "seen_at": "2026-07-27T14:17:41Z",
+      "summary": "Dan Goodwin re-baselined seven version-specific Drupal skill tasks with Claude Fable 5 across 21 with-skill and 21 baseline runs: 100% versus 29%, with the same five tasks continuing to discriminate."
+    },
+    {
+      "url": "https://github.com/taburetka123/pr-review-poller/pull/4",
+      "seen_at": "2026-07-27T14:17:41Z",
+      "summary": "Aleksandr Beliakov diagnosed a Claude Code review-poller failure after 189 costly invocations: Fable sessions waited past a 600-second harness limit and self-killed reviewer processes. The repair moves long reviews out of the session, adds fail-loud evidence checks, and uses structural write-blocking for verification runs."
+    },
+    {
+      "url": "https://github.com/cardano-foundation/cardano-dev-skills/pull/28",
+      "seen_at": "2026-07-27T14:17:41Z",
+      "summary": "Cardano Foundation contributor bora used fresh Claude Fable 5 sessions to baseline skill routing across eight ambiguous prompts, then built 24 manual live-model regression evaluations from those prompts; the initial subset passed 3/3."
+    },
+    {
+      "url": "https://github.com/aiosbrain/aios-workspace/pull/432",
+      "seen_at": "2026-07-27T14:17:41Z",
+      "summary": "John Ellison and Claude Fable 5 split a 1,470-line update script into manifest-walk, merge, and stamp modules without changing function bodies; the claimed verbatim move was checked line by line and the full 2,074-test suite passed."
     }
   ],
-  "last_run": "2026-07-27T13:14:02Z"
+  "last_run": "2026-07-27T14:17:41Z"
 }
