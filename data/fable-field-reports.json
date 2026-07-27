@@ -9641,7 +9641,22 @@
       "url": "https://github.com/bytedance/deer-flow/pull/4406",
       "seen_at": "2026-07-27T02:29:48Z",
       "summary": "A Claude Code/Fable 5 TDD run added DeerFlow structured human-input forms with compatibility fallbacks, narrowed after maintainer feedback; contributor reports 8,973 backend, 730 frontend, and 108 end-to-end tests passing locally."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10296",
+      "seen_at": "2026-07-27T03:34:42Z",
+      "summary": "Claude Fable 5 used Claude Code to trace invalid client-forwarded run IDs through Paperclip\u2019s foreign-key-backed inserts, extending a prior fix to nine files; the PR reports 325 touched-surface tests, a clean TypeScript check, and a revert-checked regression."
+    },
+    {
+      "url": "https://github.com/trevorism/chat/pull/4",
+      "seen_at": "2026-07-27T03:34:42Z",
+      "summary": "A deployed chat relay sent claude-fable-5 an unsupported disabled-thinking field, producing HTTP 400/500 failures; removing that field and raising the adaptive-thinking token ceiling restored live Fable requests, with acceptance, build, and deploy checks passing."
+    },
+    {
+      "url": "https://github.com/CarlDog/wobblebot/issues/19",
+      "seen_at": "2026-07-27T03:34:42Z",
+      "summary": "A Claude Fable 5 four-lane source audit of Wobblebot\u2019s 159-commit v1.1 branch found eight concrete defects across live trading configuration, notification ordering, CI coverage, assistant response parsing, command expiry, and trade-history pagination."
     }
   ],
-  "last_run": "2026-07-27T02:29:48Z"
+  "last_run": "2026-07-27T03:34:42Z"
 }
