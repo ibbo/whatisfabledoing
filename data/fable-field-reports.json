@@ -9626,7 +9626,22 @@
       "url": "https://github.com/Kizunad/Bong/pull/1288",
       "seen_at": "2026-07-27T01:24:57Z",
       "summary": "A Claude Fable 5 run repaired Bong’s destructive technique-load fallback by distinguishing failed reads from new-player defaults and blocking all persistence paths for failed sessions, with 11,964 author-reported tests passing and public e2e still in progress."
+    },
+    {
+      "url": "https://github.com/apache/texera/pull/6915",
+      "seen_at": "2026-07-27T02:29:48Z",
+      "summary": "Claude Code with Fable 5 optimized Texera loop scheduling so only loop boundaries materialize, keeping loop bodies pipelined; contributor local suites report 62/62 WorkflowCore, 27/27 WorkflowOperator, 10/10 scheduler, and 6/6 loop-integration tests."
+    },
+    {
+      "url": "https://github.com/1jehuang/jcode/issues/600",
+      "seen_at": "2026-07-27T02:29:48Z",
+      "summary": "A jcode user documented three production Fable 5 auto-resume failures caused by an assistant-ending request rejected as unsupported prefill, then supplied a formatter repair, exact-shape probe, and 10 passing regression tests."
+    },
+    {
+      "url": "https://github.com/bytedance/deer-flow/pull/4406",
+      "seen_at": "2026-07-27T02:29:48Z",
+      "summary": "A Claude Code/Fable 5 TDD run added DeerFlow structured human-input forms with compatibility fallbacks, narrowed after maintainer feedback; contributor reports 8,973 backend, 730 frontend, and 108 end-to-end tests passing locally."
     }
   ],
-  "last_run": "2026-07-27T01:24:57Z"
+  "last_run": "2026-07-27T02:29:48Z"
 }
