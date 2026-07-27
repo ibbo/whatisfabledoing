@@ -9716,7 +9716,22 @@
       "url": "https://github.com/divyangchauhan/Pramana/pull/14",
       "seen_at": "2026-07-27T07:52:36Z",
       "summary": "Pramana's vulnerability-finder sweep measured a Fable 5 refusal with zero content and about nine output tokens on the same task where Opus completed 11/11/11, then added provider-neutral refusal handling and regression coverage."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6807",
+      "seen_at": "2026-07-27T08:57:51Z",
+      "summary": "A Claude Fable 5-written OWID change unifies duplicated Algolia filters and closest-match behavior between the site and API, fixes an income-group featured-metric bug, and reports 217 tests plus successful visible checks."
+    },
+    {
+      "url": "https://github.com/Smaug123/writ/pull/367",
+      "seen_at": "2026-07-27T08:57:51Z",
+      "summary": "A Fable review found writ config validation stopped at the first error; the merged repair lists independent errors together, protects side-effect ordering, and passed test/lint and Nix build checks."
+    },
+    {
+      "url": "https://github.com/BaseInfinity/claude-sdlc-wizard/pull/474",
+      "seen_at": "2026-07-27T08:57:51Z",
+      "summary": "Fable and Codex reviews of an agentic merge gate reproduced bypass vulnerabilities, including a single reviewer label meeting a two-reviewer threshold; the open repair keeps every non-denylist guard unconditional."
     }
   ],
-  "last_run": "2026-07-27T07:52:36Z"
+  "last_run": "2026-07-27T08:57:51Z"
 }
