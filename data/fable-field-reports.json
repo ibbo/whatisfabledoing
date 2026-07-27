@@ -9856,7 +9856,22 @@
     "url": "https://github.com/agent-of-empires/agent-of-empires/pull/3132",
     "seen_at": "2026-07-27T21:50:30Z",
     "summary": "Claude Fable 5 authored implementation and tests for an Agent of Empires fix that makes Codex /new create a real ACP session instead of only clearing the UI while retaining underlying context."
+},
+{
+    "url": "https://github.com/jason-easyazz/zoe-ai-assistant/pull/1580",
+    "seen_at": "2026-07-27T23:56:08Z",
+    "summary": "A Fable 5 session fixed a Zoe voice-assistant timer parser that had missed spoken-minute requests three times in seven days, adding explicit spoken-number handling and targeted tests."
+},
+{
+    "url": "https://github.com/ngranko/radioatelier/pull/100",
+    "seen_at": "2026-07-27T23:56:08Z",
+    "summary": "Nikita Granko used Claude Fable 5 on a 13-file map-rendering refactor that centralizes DOM-to-Deck switching at zoom thresholds and adds lifecycle regression tests."
+},
+{
+    "url": "https://github.com/rewardwise/RewardWise/pull/279",
+    "seen_at": "2026-07-27T23:56:08Z",
+    "summary": "A merged Fable 5 co-authored RewardWise change adds accessible rotating program chips, a live-verified United award deep link, and an abort guard that prevents stale searches from overwriting newer results."
 }
   ],
-  "last_run": "2026-07-27T21:50:30Z"
+  "last_run": "2026-07-27T23:56:08Z"
 }
