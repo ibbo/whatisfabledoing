@@ -9841,7 +9841,22 @@
     {"url": "https://github.com/obra/superpowers/pull/2041", "seen_at": "2026-07-27T18:34:58Z", "summary": "A Fable 5 Claude Code session reviewed a remote companion’s bearer-token exposure and authored a guard that rejects plaintext non-loopback binds unless explicitly acknowledged, with regression coverage for default rejection and opt-in behavior."},
     {"url": "https://github.com/optiland/optiland/pull/694", "seen_at": "2026-07-27T20:43:17Z", "summary": "Claude Fable orchestrated a verified fix for an off-axis optical-model crash: the patch probes 45 real rays to set Zernike normalization radius, passes the reported TMA reproduction and a 51-position decenter sweep, while preserving the centered-system fast path."},
     {"url": "https://github.com/agrology/multi-review/issues/22", "seen_at": "2026-07-27T20:43:17Z", "summary": "Kevin Agrology's five-round cross-vendor design review used Fable 5 with Codex and Gemini, found 21 issues, and documented Fable empirically disproving a false asyncio premise introduced during a prior edit. The run also measured reviewer saturation and a Gemini contract-read failure."},
-    {"url": "https://github.com/markdlabrecque/tome/issues/37", "seen_at": "2026-07-27T20:43:17Z", "summary": "Mark Labrecque had Fable 5 independently review an Opus 5-written PRD, then adversarially verified all 15 findings against the specification. The record distinguishes confirmed system/specification gaps from one withdrawn headline claim and briefing-dependent findings."}
+    {"url": "https://github.com/markdlabrecque/tome/issues/37", "seen_at": "2026-07-27T20:43:17Z", "summary": "Mark Labrecque had Fable 5 independently review an Opus 5-written PRD, then adversarially verified all 15 findings against the specification. The record distinguishes confirmed system/specification gaps from one withdrawn headline claim and briefing-dependent findings."},
+{
+    "url": "https://github.com/aallan/vera-bench/pull/116",
+    "seen_at": "2026-07-27T21:50:30Z",
+    "summary": "A Vera Bench maintainer caught a live Fable 5 benchmark sweep restarting healthy work after a result-filename version mismatch; the merged repair centralizes filename construction and verifies 921 tests plus exact reproduction of published results."
+},
+{
+    "url": "https://github.com/PostHog/posthog/pull/74066",
+    "seen_at": "2026-07-27T21:50:30Z",
+    "summary": "A PostHog engineer used Fable 5 in Claude Code to diagnose and fix a Windows-only CLI crash caused by verbatim paths passed from Rust to Node, reproducing the bug and verifying the repaired binary on the original setup."
+},
+{
+    "url": "https://github.com/agent-of-empires/agent-of-empires/pull/3132",
+    "seen_at": "2026-07-27T21:50:30Z",
+    "summary": "Claude Fable 5 authored implementation and tests for an Agent of Empires fix that makes Codex /new create a real ACP session instead of only clearing the UI while retaining underlying context."
+}
   ],
-  "last_run": "2026-07-27T20:43:17Z"
+  "last_run": "2026-07-27T21:50:30Z"
 }
