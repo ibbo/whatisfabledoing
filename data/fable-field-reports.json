@@ -9756,7 +9756,17 @@
       "url": "https://github.com/PostHog/code/issues/3092",
       "seen_at": "2026-07-27T11:07:06Z",
       "summary": "An API integrator reports Fable 5 long-thinking streams losing gateway keepalives and an Anthropic-compatible gateway silently filtering beta body fields, with controlled direct-versus-gateway reproductions."
+    },
+    {
+      "url": "https://github.com/FRIKKern/barkpark/pull/6332",
+      "seen_at": "2026-07-27T13:14:02Z",
+      "summary": "A Fable 5 spend-limit failure at the final stage of barkpark's multi-agent workflow showed that an Opus-fallback result did not reliably cache-hit on resume; the author documents a 1.6M-token retry and adds a separate final-stage model setting."
+    },
+    {
+      "url": "https://github.com/Tomy-ch/nextjs-boilerplate/pull/28",
+      "seen_at": "2026-07-27T13:14:02Z",
+      "summary": "A Fable 5 audit of a 64-PR Next.js implementation plan found seven hidden ordering and ownership failures, including a Phase 0 dependency on later CSP inputs, missing edges, duplicate rows, and self-references."
     }
   ],
-  "last_run": "2026-07-27T11:07:06Z"
+  "last_run": "2026-07-27T13:14:02Z"
 }
