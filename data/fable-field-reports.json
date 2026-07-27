@@ -9786,7 +9786,37 @@
       "url": "https://github.com/aiosbrain/aios-workspace/pull/432",
       "seen_at": "2026-07-27T14:17:41Z",
       "summary": "John Ellison and Claude Fable 5 split a 1,470-line update script into manifest-walk, merge, and stamp modules without changing function bodies; the claimed verbatim move was checked line by line and the full 2,074-test suite passed."
+    },
+    {
+      "url": "https://github.com/mikaku/Fiwix/pull/114",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "Claude Fable 5 researched and authored a merged Fiwix kernel fix for LP64 pointer-table counts that were accidentally calculated in unsigned-int units; a riscv64 fault and byte-identical i386 oracle build supported the diagnosis."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10324",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "A Fable 5 Claude Code session built Paperclip's fail-closed config-driven managed-sandbox provisioning path, with local typecheck and focused parser, boot, and environment service tests reported green."
+    },
+    {
+      "url": "https://github.com/compdemocracy/polis/pull/2663",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "A Fable 5 co-authored Polis batch applied 16 triaged review findings across stale clustering state, certification hashing, slug sanitation, numerical handling, and benchmark cleanup; two 20/20 certification runs and a 647-test gate passed."
+    },
+    {
+      "url": "https://github.com/sympy/sympy/pull/30153",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "A contributor used Claude Code with Fable 5 to implement its review suggestions for SymPy manualintegrate rational-function fallback handling, with 234 affected tests reported passing locally."
+    },
+    {
+      "url": "https://github.com/leonj1/determined/pull/39",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "A Fable 5 co-authored Determined log-view fix turned 300KB stream events from continuous 0.9-2.0-second main-thread long tasks into none by compacting traces and incrementally rendering log lines."
+    },
+    {
+      "url": "https://github.com/juspay/kolu/pull/2009",
+      "seen_at": "2026-07-27T15:22:48Z",
+      "summary": "Claude Code with Fable 5 fixed Kolu's second-click stale reactive-read crash using keyed children and one shared card mount; the failure is red-tested and the merged patch reports 1,001 client tests plus a Nix build green."
     }
   ],
-  "last_run": "2026-07-27T14:17:41Z"
+  "last_run": "2026-07-27T15:22:48Z"
 }
