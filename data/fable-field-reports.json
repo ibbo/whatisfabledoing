@@ -9741,7 +9741,22 @@
       "url": "https://github.com/promptfoo/promptfoo/pull/10210",
       "seen_at": "2026-07-27T10:02:20Z",
       "summary": "Promptfoo used Fable 5 as a live Vertex global verification workload, reporting exact cost math plus passing sampling-parameter and thinking normalization behavior in a merged multi-cloud provider update."
+    },
+    {
+      "url": "https://github.com/idl3/claude-control/pull/391",
+      "seen_at": "2026-07-27T11:07:06Z",
+      "summary": "Four live Fable 5 sessions exposed a context meter that treated an unsuffixed model as a 200k window and jumped from 4% to about 81%; the merged repair recognizes the one-million-token model ID and passed tests."
+    },
+    {
+      "url": "https://github.com/vocdoni/integrator-sdk/pull/9",
+      "seen_at": "2026-07-27T11:07:06Z",
+      "summary": "A Fable 5 session found ballots silently discarded at tally in Vocdoni's multichoice codec; a live 12-vote run now asserts decoded tallies and the visible coverage check passed."
+    },
+    {
+      "url": "https://github.com/PostHog/code/issues/3092",
+      "seen_at": "2026-07-27T11:07:06Z",
+      "summary": "An API integrator reports Fable 5 long-thinking streams losing gateway keepalives and an Anthropic-compatible gateway silently filtering beta body fields, with controlled direct-versus-gateway reproductions."
     }
   ],
-  "last_run": "2026-07-27T10:02:20Z"
+  "last_run": "2026-07-27T11:07:06Z"
 }
