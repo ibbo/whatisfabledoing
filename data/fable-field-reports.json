@@ -9831,7 +9831,9 @@
       "url": "https://github.com/billyy/schwab-mcp/pull/5",
       "seen_at": "2026-07-27T16:28:32Z",
       "summary": "A Fable 5 co-authored, merged Schwab MCP change gives a host-side Claude Code rebalancing task a scrubbed read-only snapshot endpoint and credential-isolated Slack notification route, with deployment validation green."
-    }
+    },
+    {"url": "https://github.com/BloomBooks/BloomDesktop/pull/8109", "seen_at": "2026-07-27T17:33:23Z", "summary": "Claude Fable 5 co-authored Bloom Desktop’s 49-file toolbox cleanup, removing the legacy hidden jQuery accordion and React bridge, consolidating tool metadata, and catching a post-refactor audio-state regression through live testing."},
+    {"url": "https://github.com/mne-tools/mne-qt-browser/pull/440", "seen_at": "2026-07-27T17:33:23Z", "summary": "Eric Larson worked with Claude Fable 5 to fix MNE Qt Browser’s precompute path so cached and on-the-fly views agree across projector, bad-channel, scaling, DC-removal, and scroll changes, with a direct parity test."}
   ],
-  "last_run": "2026-07-27T16:28:32Z"
+  "last_run": "2026-07-27T17:33:23Z"
 }
