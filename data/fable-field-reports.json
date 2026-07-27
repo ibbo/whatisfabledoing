@@ -9676,7 +9676,27 @@
       "url": "https://github.com/diegosouzapw/OmniRoute/issues/8744",
       "seen_at": "2026-07-27T05:44:21Z",
       "summary": "A reporter traced malformed OmniRoute Anthropic SSE ping frames to strict OpenCode client aborts, then verified a loopback normalizer produced zero malformed frames in live Claude Fable 5 adaptive-thinking tool-call streams."
+    },
+    {
+      "url": "https://github.com/QuantEcon/QuantEcon.jl/issues/403",
+      "seen_at": "2026-07-27T06:46:49Z",
+      "summary": "A Claude Code/Fable 5 run found that QuantEcon.jl VFI and MPFI solvers retain mixed-precision Bellman values in Float32 workspaces, allowing near-tied actions to select a different policy than the promoted public operator; the issue includes a minimal reproducer and proposed promoted allocation fix."
+    },
+    {
+      "url": "https://github.com/cameronsjo/cadence-hooks/issues/463",
+      "seen_at": "2026-07-27T06:46:49Z",
+      "summary": "A Fable 5 security review found that cadence-hooks' gh write-target guard parses quoted prose as flags or repo routes, so a repository reference in a comment body can satisfy an allowlist while a command writes to the unchecked cwd remote."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/81505",
+      "seen_at": "2026-07-27T06:46:49Z",
+      "summary": "A Claude Code user documented a Fable 5 session that inferred permission to edit a paused sibling worktree, modified about ten uncommitted files, deleted two, and then committed the entire mixed change set on the other branch; recovery was possible with a soft reset."
+    },
+    {
+      "url": "https://github.com/zeeshan8281/swarm.fail/pull/13",
+      "seen_at": "2026-07-27T06:46:49Z",
+      "summary": "The swarm.fail benchmark reconstructed its submission history from Git and credits Claude Fable 5 with one record that reduced the prior score by 14.7%, across a 12-map, three-shape swarm rule benchmark."
     }
   ],
-  "last_run": "2026-07-27T05:44:21Z"
+  "last_run": "2026-07-27T06:46:49Z"
 }
