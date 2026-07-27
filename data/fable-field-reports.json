@@ -9611,7 +9611,17 @@
       "url": "https://github.com/btownbrief/stay-awhile/pull/4",
       "seen_at": "2026-07-26T23:16:05Z",
       "summary": "Fable 5 led a Stay Awhile editorial audit that cut a 311-question deck to 273 after validation and browser checks; GPT-5.6 Sol independently agreed with the diagnosis."
+    },
+    {
+      "url": "https://github.com/gloopsAI/paperclip/pull/175",
+      "seen_at": "2026-07-27T00:19:20Z",
+      "summary": "A Fable 5 Claude Code agent repaired Paperclip workspace provisioning after 21 of 22 live heartbeat setups failed, adding exact-SHA worktrees, corrupt-clone recovery, and budget-free pre-model failures."
+    },
+    {
+      "url": "https://github.com/Kizunad/Bong/pull/1284",
+      "seen_at": "2026-07-27T00:19:20Z",
+      "summary": "Fable 5 led a four-lane Bong health/death audit that found eight unhandled lethal paths, incompatible wound severity scales, non-decaying bleeding, and reconnect state loss; the merged artifact is a repair plan."
     }
   ],
-  "last_run": "2026-07-26T23:16:05Z"
+  "last_run": "2026-07-27T00:19:20Z"
 }
