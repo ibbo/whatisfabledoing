@@ -9621,7 +9621,12 @@
       "url": "https://github.com/Kizunad/Bong/pull/1284",
       "seen_at": "2026-07-27T00:19:20Z",
       "summary": "Fable 5 led a four-lane Bong health/death audit that found eight unhandled lethal paths, incompatible wound severity scales, non-decaying bleeding, and reconnect state loss; the merged artifact is a repair plan."
+    },
+    {
+      "url": "https://github.com/Kizunad/Bong/pull/1288",
+      "seen_at": "2026-07-27T01:24:57Z",
+      "summary": "A Claude Fable 5 run repaired Bong’s destructive technique-load fallback by distinguishing failed reads from new-player defaults and blocking all persistence paths for failed sessions, with 11,964 author-reported tests passing and public e2e still in progress."
     }
   ],
-  "last_run": "2026-07-27T00:19:20Z"
+  "last_run": "2026-07-27T01:24:57Z"
 }
