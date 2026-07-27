@@ -9816,7 +9816,22 @@
       "url": "https://github.com/juspay/kolu/pull/2009",
       "seen_at": "2026-07-27T15:22:48Z",
       "summary": "Claude Code with Fable 5 fixed Kolu's second-click stale reactive-read crash using keyed children and one shared card mount; the failure is red-tested and the merged patch reports 1,001 client tests plus a Nix build green."
+    },
+    {
+      "url": "https://github.com/QingyunQian/ORBIT-Q/pull/1",
+      "seen_at": "2026-07-27T16:28:32Z",
+      "summary": "Qingyun Qian's Fable 5 Cursor run completed five ORBIT-Q TensorCircuit-NG quantum challenges with full functional, static, and Codex-audit marks; public artifacts include solutions, output logs, scores, and runtime comparisons."
+    },
+    {
+      "url": "https://github.com/posit-dev/ai-lib/issues/35",
+      "seen_at": "2026-07-27T16:28:32Z",
+      "summary": "A Posit Assistant developer reproduced every Claude Fable 5 Bedrock request failing before generation under default retention, with an actionable 30-day-retention configuration or client-parameter investigation path."
+    },
+    {
+      "url": "https://github.com/billyy/schwab-mcp/pull/5",
+      "seen_at": "2026-07-27T16:28:32Z",
+      "summary": "A Fable 5 co-authored, merged Schwab MCP change gives a host-side Claude Code rebalancing task a scrubbed read-only snapshot endpoint and credential-isolated Slack notification route, with deployment validation green."
     }
   ],
-  "last_run": "2026-07-27T15:22:48Z"
+  "last_run": "2026-07-27T16:28:32Z"
 }
