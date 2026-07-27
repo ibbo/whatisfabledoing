@@ -9655,8 +9655,23 @@
     {
       "url": "https://github.com/CarlDog/wobblebot/issues/19",
       "seen_at": "2026-07-27T03:34:42Z",
-      "summary": "A Claude Fable 5 four-lane source audit of Wobblebot\u2019s 159-commit v1.1 branch found eight concrete defects across live trading configuration, notification ordering, CI coverage, assistant response parsing, command expiry, and trade-history pagination."
+      "summary": "A Claude Fable 5 four-lane source audit of Wobblebot’s 159-commit v1.1 branch found eight concrete defects across live trading configuration, notification ordering, CI coverage, assistant response parsing, command expiry, and trade-history pagination."
+    },
+    {
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/pull/56",
+      "seen_at": "2026-07-27T04:39:29Z",
+      "summary": "A Claude Fable 5 co-authored Pseudolife-MCP evaluation found its original judge nondeterministic, then reran 78 extraction cases on a reproducible q8_0 setup where Fable led Sonnet and Opus on cortex and hybrid metrics but the paired differences remained statistically inconclusive."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/186",
+      "seen_at": "2026-07-27T04:39:29Z",
+      "summary": "A Claude Code implementation using Fable 5 and GPT-5.6 Sol adds reverse directed street searches and mode-aware multimodal stop links to Cafein, with 103 Rust and 14 Python tests plus Helsinki-network behavioral checks."
+    },
+    {
+      "url": "https://github.com/LietuvaAI/save-our-lithuanian-parishes/pull/88",
+      "seen_at": "2026-07-27T04:39:29Z",
+      "summary": "Claude Fable 5 co-authored a merged provenance sweep for 29 Lithuanian-American parish photo records, logging license and identity evidence per image, preserving uncertain sources as held alternatives, and passing the hosted preview check."
     }
   ],
-  "last_run": "2026-07-27T03:34:42Z"
+  "last_run": "2026-07-27T04:39:29Z"
 }
