@@ -9731,7 +9731,17 @@
       "url": "https://github.com/BaseInfinity/claude-sdlc-wizard/pull/474",
       "seen_at": "2026-07-27T08:57:51Z",
       "summary": "Fable and Codex reviews of an agentic merge gate reproduced bypass vulnerabilities, including a single reviewer label meeting a two-reviewer threshold; the open repair keeps every non-denylist guard unconditional."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6838",
+      "seen_at": "2026-07-27T10:02:20Z",
+      "summary": "Sophia Mersmann reports a Fable 5-written OWID migrant-demographics explorer built from UN DESA data, with documented source anomalies and a passing visible test/build/typecheck/lint/security matrix."
+    },
+    {
+      "url": "https://github.com/promptfoo/promptfoo/pull/10210",
+      "seen_at": "2026-07-27T10:02:20Z",
+      "summary": "Promptfoo used Fable 5 as a live Vertex global verification workload, reporting exact cost math plus passing sampling-parameter and thinking normalization behavior in a merged multi-cloud provider update."
     }
   ],
-  "last_run": "2026-07-27T08:57:51Z"
+  "last_run": "2026-07-27T10:02:20Z"
 }
