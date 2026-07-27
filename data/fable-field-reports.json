@@ -9671,7 +9671,12 @@
       "url": "https://github.com/LietuvaAI/save-our-lithuanian-parishes/pull/88",
       "seen_at": "2026-07-27T04:39:29Z",
       "summary": "Claude Fable 5 co-authored a merged provenance sweep for 29 Lithuanian-American parish photo records, logging license and identity evidence per image, preserving uncertain sources as held alternatives, and passing the hosted preview check."
+    },
+    {
+      "url": "https://github.com/diegosouzapw/OmniRoute/issues/8744",
+      "seen_at": "2026-07-27T05:44:21Z",
+      "summary": "A reporter traced malformed OmniRoute Anthropic SSE ping frames to strict OpenCode client aborts, then verified a loopback normalizer produced zero malformed frames in live Claude Fable 5 adaptive-thinking tool-call streams."
     }
   ],
-  "last_run": "2026-07-27T04:39:29Z"
+  "last_run": "2026-07-27T05:44:21Z"
 }
