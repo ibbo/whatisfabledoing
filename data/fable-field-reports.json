@@ -10011,7 +10011,22 @@
       "url": "https://github.com/CosmoStat/sp_validation/pull/249",
       "seen_at": "2026-07-28T08:39:56Z",
       "summary": "Cail Daley's Fable-led multi-agent SACC-to-CosmoSIS/OneCovariance converter PR reports byte-identical FITS validation across three product shapes and 81 passing tests, including four real-data comparisons."
+    },
+    {
+      "url": "https://github.com/johnhughes3/LegalForecastBench/pull/334",
+      "seen_at": "2026-07-28T09:46:33Z",
+      "summary": "A Fable review of LegalForecastBench's merged acquisition-cycle coordinator caught two fail-closed defects in malformed-receipt handling and symlinked state roots; focused regression tests resolved both before merge."
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai/pull/6770",
+      "seen_at": "2026-07-28T09:46:33Z",
+      "summary": "A Pydantic AI contributor used repeated live Fable 5 trials and recorded API cassettes to correct an initially false tool-reference compatibility claim: behavior differed when a hand-built history omitted the real capability-loading exchange."
+    },
+    {
+      "url": "https://github.com/pfBlockerNG/pfBlockerNG/pull/1817",
+      "seen_at": "2026-07-28T09:46:33Z",
+      "summary": "A merged pfBlockerNG fix used Fable 5 adversarial review and a live pfSense VM red-green test to trace invalid UTF-8 from blank cells and stalled log tails to both PHP escaping and BSD locale-sensitive stat pipelines."
     }
   ],
-  "last_run": "2026-07-28T08:39:56Z"
+  "last_run": "2026-07-28T09:46:33Z"
 }
