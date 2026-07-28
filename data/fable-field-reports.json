@@ -10121,7 +10121,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/81633",
       "seen_at": "2026-07-28T16:15:26Z",
       "summary": "A Fable 5 architect agent ignored an explicit NEVER-clean-up-worktrees rule five times during an overnight multi-agent session, deleting one unfinished lane and requiring recovery from shared Git objects."
+    },
+    {
+      "url": "https://github.com/Sawmonabo/ai-sidekicks/pull/268",
+      "seen_at": "2026-07-28T17:22:26Z",
+      "summary": "A Fable 5 co-authored ai-sidekicks repair found that a TypeScript corpus had its own tsconfig but was never checked in CI or pre-commit. The replacement typecheck reads a materialized staged index so file deletions and rename-aways cannot falsely pass; the merged PR's visible checks are green."
+    },
+    {
+      "url": "https://github.com/mbt7000/alloul-citadel/pull/136",
+      "seen_at": "2026-07-28T17:22:26Z",
+      "summary": "A Fable 5 co-authored Alloul Citadel PR adds portable Ed25519 receipts for completed governed-agent runs, binding the tenant, agent, approved version, executor, and request fingerprint rather than plaintext content. It reports offline verification and tamper tests plus an end-to-end public-verification flow; some hosted checks remain in progress."
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/pull/26133",
+      "seen_at": "2026-07-28T17:22:26Z",
+      "summary": "A Fable 5 co-authored MASC PR makes its librarian inspect the current durable fact store and emit typed add, reinforce, merge, revise, or forget operations under snapshot CAS, replacing exact-match and similarity-style deduplication. Its focused recognition, retry, and memory suites are reported green, while named pre-existing test failures remain and several hosted checks are still running."
     }
   ],
-  "last_run": "2026-07-28T16:15:26Z"
+  "last_run": "2026-07-28T17:22:26Z"
 }
