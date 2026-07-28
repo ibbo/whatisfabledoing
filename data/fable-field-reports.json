@@ -10086,7 +10086,27 @@
       "url": "https://github.com/cinatra-ai/cinatra/pull/2174",
       "seen_at": "2026-07-28T14:07:30Z",
       "summary": "A Claude Fable 5-assisted Cinatra PR implements durable, exactly-once confirmation of destructive connector calls, including consent-drift checks, deadline semantics, requester-bound cards, and focused security-oriented tests."
+    },
+    {
+      "url": "https://github.com/ottto-ai/ottto/pull/298",
+      "seen_at": "2026-07-28T15:12:37Z",
+      "summary": "Claude Fable 5 fixed two production billing-identity attribution bugs in Ottto: a Claude CLI plan observation omitted the account hash, and ambiguous multi-org desktop data could fabricate cross-organization pairs. The merged patch fails closed on ambiguity and reports 1,047 service tests plus green Rust, manifest, dependency, and audit checks."
+    },
+    {
+      "url": "https://github.com/mubit-ai/minima/pull/311",
+      "seen_at": "2026-07-28T15:12:37Z",
+      "summary": "A Claude Fable 5 co-authored Minima dashboard fix corrected cost tiles that subtracted per-call estimates from per-turn realized cost. On a 492-decision ledger it replaces the calculation with a row-level ratio, discloses direct versus inferred coverage, and reports 2,263 tests passing over six full runs."
+    },
+    {
+      "url": "https://github.com/cameronsjo/cadence-hooks/pull/487",
+      "seen_at": "2026-07-28T15:12:37Z",
+      "summary": "In Claude Code, Fable 5 orchestrated a Cadence Hooks test-hygiene repair that rechecked several audit premises before changing code. The merged PR centralizes process-environment locks, makes hook-script parsing handle quoted interpreter commands and env wrappers safely, pins git spawn arguments, and reports 3,604 passing tests with green Linux and Windows checks."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/81853",
+      "seen_at": "2026-07-28T15:12:37Z",
+      "summary": "A Windows Claude Code user reports that Claude Fable 5 mixed text-and-tool-call responses display only the tool call in the terminal, although the missing text remains in the detailed transcript. The issue gives a five-step reproduction and reports the same CLI/terminal setup works with Opus 4.8."
     }
   ],
-  "last_run": "2026-07-28T14:07:30Z"
+  "last_run": "2026-07-28T15:12:37Z"
 }
