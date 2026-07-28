@@ -9991,7 +9991,27 @@
       "url": "https://github.com/Quinn-With-Two-Ns/temporal-nexus-bindings/pull/5",
       "seen_at": "2026-07-28T07:33:56Z",
       "summary": "Quinn Klassen used Claude Fable 5 for a Java Temporal Nexus binding expression-validation pass that added compile-time conversion and escape checks, corrected workflow handler errors, and grew focused tests; the open PR has green CI and CodeQL checks."
+    },
+    {
+      "url": "https://github.com/jupyterlab/jupyterlab/pull/19195",
+      "seen_at": "2026-07-28T08:39:56Z",
+      "summary": "JupyterLab contributor jtpio reports using Claude Fable 5 to build an OSC 8 terminal-link Copy Link Address action with scheme validation and browser coverage; broad platform and integration checks pass, while its external-link audit currently fails."
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/pull/22309",
+      "seen_at": "2026-07-28T08:39:56Z",
+      "summary": "A Claude Fable 5-assisted Rocq kernel conversion cache cuts Bonak compilation from 2139.2s to 171.5s across an optimization series, trading 8.13GB peak memory for 12.5x cumulative speedup; Linux and benchmark jobs pass while Windows and GitLab currently fail."
+    },
+    {
+      "url": "https://github.com/leanprover-community/iris-lean/pull/521",
+      "seen_at": "2026-07-28T08:39:56Z",
+      "summary": "kdvkrs used Claude Code with Fable 5 and Opus 4.8 to navigate iris-lean and scaffold a 977-line HeapLang proof-tactics port with a 465-line test suite, retaining human ownership of design, code, and proofs."
+    },
+    {
+      "url": "https://github.com/CosmoStat/sp_validation/pull/249",
+      "seen_at": "2026-07-28T08:39:56Z",
+      "summary": "Cail Daley's Fable-led multi-agent SACC-to-CosmoSIS/OneCovariance converter PR reports byte-identical FITS validation across three product shapes and 81 passing tests, including four real-data comparisons."
     }
   ],
-  "last_run": "2026-07-28T07:33:56Z"
+  "last_run": "2026-07-28T08:39:56Z"
 }
