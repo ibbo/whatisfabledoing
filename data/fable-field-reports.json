@@ -10041,7 +10041,22 @@
       "url": "https://github.com/unison-ai-product/UT-TDD_AGENT-HARNESS/issues/178",
       "seen_at": "2026-07-28T10:51:23Z",
       "summary": "An independent Claude Fable 5 and GPT-5.6-Sol advisory pass over UT-TDD_AGENT-HARNESS database bloat converged on measurement before schema redesign, documenting an 80-table 62.8MB database whose 184KB duplicated file bodies were not the dominant cost."
+    },
+    {
+      "url": "https://github.com/mamedev/mame/pull/15780",
+      "seen_at": "2026-07-28T11:56:59Z",
+      "summary": "A MAME contributor directed Claude Fable 5 through a Wang PC expansion-memory repair, then reports BIOS POST, real disks, and MS-DOS confirming the emulator reaches 640KB rather than 128KB."
+    },
+    {
+      "url": "https://github.com/mamedev/mame/pull/15781",
+      "seen_at": "2026-07-28T11:56:59Z",
+      "summary": "With no schematics, a MAME contributor directed Fable 5 through reconstructing the PM001 Winchester Disk Controller from firmware, PROM, and BIOS evidence, with end-to-end DOS boot and formatter checks."
+    },
+    {
+      "url": "https://github.com/krhitoshi/pali-ai-notes/issues/11",
+      "seen_at": "2026-07-28T11:56:59Z",
+      "summary": "krhitoshi twice reproduced a detached Claude Fable 5 CLI generation job returning exit 0 with empty stdout/stderr after four minutes, while the identical foreground invocation emitted a 10,358-byte file."
     }
   ],
-  "last_run": "2026-07-28T10:51:23Z"
+  "last_run": "2026-07-28T11:56:59Z"
 }
