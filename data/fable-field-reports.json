@@ -10136,7 +10136,22 @@
       "url": "https://github.com/jeong-sik/masc/pull/26133",
       "seen_at": "2026-07-28T17:22:26Z",
       "summary": "A Fable 5 co-authored MASC PR makes its librarian inspect the current durable fact store and emit typed add, reinforce, merge, revise, or forget operations under snapshot CAS, replacing exact-match and similarity-style deduplication. Its focused recognition, retry, and memory suites are reported green, while named pre-existing test failures remain and several hosted checks are still running."
+    },
+    {
+      "url": "https://github.com/WordPress/mcp-adapter/pull/263",
+      "seen_at": "2026-07-28T18:27:32Z",
+      "summary": "WordPress MCP Adapter contributor Ovidiu Galatan reports using Claude Fable 5 alongside Claude Opus 5, Codex CLI, and GPT-5.6 Sol to implement and review a 22-file metadata propagation fix, manually verifying each behavior; static analysis and coding checks pass while the broader PHP/WordPress matrix is pending."
+    },
+    {
+      "url": "https://github.com/iuripereira/sdd-iuri/pull/61",
+      "seen_at": "2026-07-28T18:27:32Z",
+      "summary": "Iuri Pereira reports Fable 5 orchestrating and reviewing a subagent-driven harness upgrade: dependency-cycle and archive-convergence gates, parallel worktree execution, audit trails, and an optional graphify engine. Dogfooding caught two false negatives and the merged PR's visible CI checks pass."
+    },
+    {
+      "url": "https://github.com/alexanderop/liveclaudecode/pull/3",
+      "seen_at": "2026-07-28T18:27:32Z",
+      "summary": "Alexander Op's open Fable 5 co-authored liveclaudecode PR replaces full JSONL rescans with stat guards and byte-offset tail reads, shared single-flight catalog builds, bounded file concurrency, and dedicated incremental-read test fixtures; external review is still in progress."
     }
   ],
-  "last_run": "2026-07-28T17:22:26Z"
+  "last_run": "2026-07-28T18:27:32Z"
 }
