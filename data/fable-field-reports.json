@@ -10231,7 +10231,22 @@
       "url": "https://github.com/openclaw/openclaw/pull/115422",
       "seen_at": "2026-07-28T22:53:10Z",
       "summary": "An OpenClaw team used Fable 5 for root-cause analysis, implementation, and review of a tool-free Claude CLI subagent-handoff fix, with a live managed-Gateway proof and focused contract tests."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/74",
+      "seen_at": "2026-07-28T23:56:44Z",
+      "summary": "A Claude Fable 5 FLOCK submission wired a dead non-temporal witness-store optimization into the ranked producer, reporting byte-identical tests, a paired 0.4–1.4% local gain, and challenge acceptance by merge."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/4794",
+      "seen_at": "2026-07-28T23:56:44Z",
+      "summary": "Theo Browne used Claude Fable 5 to add URLSession-based, permessage-deflate WebSockets for T3’s iOS runtime, with a simulator finding that fixed dev-client URL-protocol interference."
+    },
+    {
+      "url": "https://github.com/lammps/lammps/pull/5113",
+      "seen_at": "2026-07-28T23:56:44Z",
+      "summary": "Axel Kohlmeyer reports Fable 5 produced most of a LAMMPS granular-model test expansion that exposed and fixed an undamped-wall NaN path, with current Linux, macOS, Windows, build, and style checks green."
     }
   ],
-  "last_run": "2026-07-28T22:53:10Z"
+  "last_run": "2026-07-28T23:56:44Z"
 }
