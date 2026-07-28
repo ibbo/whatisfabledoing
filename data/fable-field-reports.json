@@ -10191,7 +10191,27 @@
       "url": "https://github.com/Alexm-picard/the-bullpen/pull/381",
       "seen_at": "2026-07-28T20:41:01Z",
       "summary": "A merged Fable 5 co-authored baseball-model data fix makes historical pitch-type priors union live and archival tables under a strict as-of bound, with three targeted mutation tests and 900 of 901 full-suite tests passing (one environmental)."
+    },
+    {
+      "url": "https://github.com/deskflow/deskflow/pull/10010",
+      "seen_at": "2026-07-28T21:46:10Z",
+      "summary": "MrMage used Fable 5 for a macOS event-tap leak analysis and mechanism scripts, measuring one stale WindowServer tap per reconnect and system-wide input lag at about 1,000 stale entries."
+    },
+    {
+      "url": "https://github.com/hephbuild/heph/pull/241",
+      "seen_at": "2026-07-28T21:46:10Z",
+      "summary": "Two Fable 5 review agents rejected two unsafe fixes for a production semaphore wedge, leading to explicit interest tracking and generation-checked sandbox cleanup; local core, engine, and E2E tests passed while the open PR has current CI failures."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6444",
+      "seen_at": "2026-07-28T21:46:10Z",
+      "summary": "A third Fable 5 adversarial review of Gumroad's pay-what-you-want checkout fix caught a stale membership flag and a non-asserting regression test; the author measured the fixture against 39,875 products and replaced it with a reachable case."
+    },
+    {
+      "url": "https://github.com/pnathan/the-q/pull/6",
+      "seen_at": "2026-07-28T21:46:10Z",
+      "summary": "A Fable 5 Claude Code session generated a Verus-verified bounded-rational Rust crate, reporting 389 verified items with zero errors, no shipping assume/admit statements, exact-oracle tests, and four passing CI checks."
     }
   ],
-  "last_run": "2026-07-28T20:41:01Z"
+  "last_run": "2026-07-28T21:46:10Z"
 }
