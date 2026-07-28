@@ -9971,7 +9971,27 @@
       "url": "https://github.com/cmloegcmluin-org/excephalon/pull/37",
       "seen_at": "2026-07-28T06:29:43Z",
       "summary": "Fable 5 co-authored a merged Excephalon desktop voice-assistant pass that fixes a reproduced Windows quit deadlock, applies live speech-correction updates next chunk, and retains an empirically more reliable wake phrase."
+    },
+    {
+      "url": "https://github.com/richie3dev/firstmate/pull/5",
+      "seen_at": "2026-07-28T07:33:56Z",
+      "summary": "Richie used Claude Fable 5 to make Firstmate’s pinned ShellCheck gate provision and use its required 0.11.0 toolchain from a private version-keyed cache, avoiding false local/CI parity while retaining fail-closed behavior; the merged change also made related missing-tool test fixtures hermetic."
+    },
+    {
+      "url": "https://github.com/Hiroshi-Ichiyanagi/mandatehub/pull/76",
+      "seen_at": "2026-07-28T07:33:56Z",
+      "summary": "Hiroshi Ichiyanagi used Claude Fable 5 to ship MandateHub’s opt-in Snowball generator, a stdlib-only, fail-closed API seam that declines uncertain requests rather than publishing an artifact, and made every optional-dependency test run in CI."
+    },
+    {
+      "url": "https://github.com/tkelkermans/packer-ndb/pull/5",
+      "seen_at": "2026-07-28T07:33:56Z",
+      "summary": "Tristan Kelkermans used Claude Fable 5 for a 78-file Packer/Nutanix Database hardening pass that removed image-capture secrets, hardened network/API and validation paths, and discovered then repaired a nondeterministic Ubuntu firewalld/cloud-init boot cycle through live artifact testing."
+    },
+    {
+      "url": "https://github.com/Quinn-With-Two-Ns/temporal-nexus-bindings/pull/5",
+      "seen_at": "2026-07-28T07:33:56Z",
+      "summary": "Quinn Klassen used Claude Fable 5 for a Java Temporal Nexus binding expression-validation pass that added compile-time conversion and escape checks, corrected workflow handler errors, and grew focused tests; the open PR has green CI and CodeQL checks."
     }
   ],
-  "last_run": "2026-07-28T06:29:43Z"
+  "last_run": "2026-07-28T07:33:56Z"
 }
