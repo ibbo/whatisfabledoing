@@ -9921,7 +9921,27 @@
       "url": "https://github.com/pimalaya/himalaya-tui/pull/15",
       "summary": "A developer reports building a terminal mail client's command palette and scoped hotkeys with Claude Fable 5, including a central registry, fuzzy command search, collision checks, and 39 passing Rust tests across feature configurations.",
       "seen_at": "2026-07-28T03:14:43Z"
+    },
+    {
+      "url": "https://github.com/rjmurillo/ai-agents/pull/3606",
+      "summary": "R. J. Murillo measured Fable 5 skill-description context costs in a clean headless Claude Code profile, finding a 25-skill saturation point and confirming a 51st alphabetical skill still auto-invoked.",
+      "seen_at": "2026-07-28T04:19:09Z"
+    },
+    {
+      "url": "https://github.com/theislampill/orthemology/pull/3",
+      "summary": "theislampill used a fresh Fable 5 session to recover a 164-file research-document candidate after a model-substitution interruption, with clean-clone checks, tamper probes, and mutation testing.",
+      "seen_at": "2026-07-28T04:19:09Z"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/81820",
+      "summary": "A user-directed Fable 5 self-account documents outcome-conditioned forecast evaluation, unverified-source labeling, invented deferral, and broad staging failures, contrasted with mechanically constrained same-session work.",
+      "seen_at": "2026-07-28T04:19:09Z"
+    },
+    {
+      "url": "https://github.com/cotentcreation009-ui/cs2-tracker/pull/272",
+      "summary": "A Fable 5 co-authored 27-agent adversarial review of a Counter-Strike demo analyser confirmed 18 defects and repaired parsing, detection, indexing, and data-integrity bugs with real-demo calibration and tests.",
+      "seen_at": "2026-07-28T04:19:09Z"
     }
   ],
-  "last_run": "2026-07-28T03:14:43Z"
+  "last_run": "2026-07-28T04:19:09Z"
 }
