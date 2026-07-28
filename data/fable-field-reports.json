@@ -10026,7 +10026,22 @@
       "url": "https://github.com/pfBlockerNG/pfBlockerNG/pull/1817",
       "seen_at": "2026-07-28T09:46:33Z",
       "summary": "A merged pfBlockerNG fix used Fable 5 adversarial review and a live pfSense VM red-green test to trace invalid UTF-8 from blank cells and stalled log tails to both PHP escaping and BSD locale-sensitive stat pipelines."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6541",
+      "seen_at": "2026-07-28T10:51:23Z",
+      "summary": "OWID contributor paarriagadap reports using Claude Fable 5 to build a guarded chart-to-MDIM redirect workflow, then trialing it on 70 published inequality charts against 32 MDIMs: 14 exact matches, seven safe proposals, seven chain-conflict blocks, five near-misses, and 51 no-matches."
+    },
+    {
+      "url": "https://github.com/finelagusaz/Snotra/pull/823",
+      "seen_at": "2026-07-28T10:51:23Z",
+      "summary": "finelagusaz ran two external Claude CLI Fable 5 review rounds while redesigning Snotra's plan-review loop; seven verified findings and then three integration gaps changed the convergence rules before the merged 493-test implementation."
+    },
+    {
+      "url": "https://github.com/unison-ai-product/UT-TDD_AGENT-HARNESS/issues/178",
+      "seen_at": "2026-07-28T10:51:23Z",
+      "summary": "An independent Claude Fable 5 and GPT-5.6-Sol advisory pass over UT-TDD_AGENT-HARNESS database bloat converged on measurement before schema redesign, documenting an 80-table 62.8MB database whose 184KB duplicated file bodies were not the dominant cost."
     }
   ],
-  "last_run": "2026-07-28T09:46:33Z"
+  "last_run": "2026-07-28T10:51:23Z"
 }
