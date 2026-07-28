@@ -10211,7 +10211,27 @@
       "url": "https://github.com/pnathan/the-q/pull/6",
       "seen_at": "2026-07-28T21:46:10Z",
       "summary": "A Fable 5 Claude Code session generated a Verus-verified bounded-rational Rust crate, reporting 389 verified items with zero errors, no shipping assume/admit statements, exact-oracle tests, and four passing CI checks."
+    },
+    {
+      "url": "https://github.com/vertical-cloud-lab/byu-vcl/pull/60",
+      "seen_at": "2026-07-28T22:53:10Z",
+      "summary": "A Fable 5 Copilot run produced parametric CAD, OT-2 test tooling, and FEA for a P20 sensor-tip adapter; follow-up physical tests and a measured-nozzle rerun converged on a 3.40 mm slitted bore."
+    },
+    {
+      "url": "https://github.com/METR/hawk/pull/1045",
+      "seen_at": "2026-07-28T22:53:10Z",
+      "summary": "A high-thinking Fable 5 review of METR Hawk's import hardening independently reproduced a missing scan-parquet size cap and a retry gap, then helped verify the shared staging-flow changes."
+    },
+    {
+      "url": "https://github.com/openclaw/acpx/pull/478",
+      "seen_at": "2026-07-28T22:53:10Z",
+      "summary": "Fable 5 reviewed an ACP adapter lifecycle and queue-startup repair that cut a missing-socket probe median from 2,147.834 ms to 0.094 ms; its timing-test concern was addressed before a full 891-test gate passed."
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw/pull/115422",
+      "seen_at": "2026-07-28T22:53:10Z",
+      "summary": "An OpenClaw team used Fable 5 for root-cause analysis, implementation, and review of a tool-free Claude CLI subagent-handoff fix, with a live managed-Gateway proof and focused contract tests."
     }
   ],
-  "last_run": "2026-07-28T21:46:10Z"
+  "last_run": "2026-07-28T22:53:10Z"
 }
