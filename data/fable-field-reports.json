@@ -10151,7 +10151,27 @@
       "url": "https://github.com/alexanderop/liveclaudecode/pull/3",
       "seen_at": "2026-07-28T18:27:32Z",
       "summary": "Alexander Op's open Fable 5 co-authored liveclaudecode PR replaces full JSONL rescans with stat guards and byte-offset tail reads, shared single-flight catalog builds, bounded file concurrency, and dedicated incremental-read test fixtures; external review is still in progress."
+    },
+    {
+      "url": "https://github.com/rolker/camp/pull/179",
+      "seen_at": "2026-07-28T19:34:17Z",
+      "summary": "A Fable 5 Claude Code session turned a WMS XML-as-PNG cache-poisoning finding into a caller-aware QImage validation gate, with eight new cases and 188 reported passing tests."
+    },
+    {
+      "url": "https://github.com/romp-on/romp/pull/99",
+      "seen_at": "2026-07-28T19:34:17Z",
+      "summary": "Romp's maintainer isolated a Fable 5 transcript failure where prose before AskUserQuestion becomes a textless twin and disappears, then added text-aware salvage with 3,365 Python and 1,382 Node tests reported passing."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/42",
+      "seen_at": "2026-07-28T19:34:17Z",
+      "summary": "A Fable 5 FLOCK challenge submission reports non-temporal NTT stores and proof-buffer reservation improving M4 Max local throughput from 803,366 to 828,860 cycles per second, with external validation pending."
+    },
+    {
+      "url": "https://github.com/RikuKunMS2/moonlight-ios-vision/pull/25",
+      "seen_at": "2026-07-28T19:34:17Z",
+      "summary": "A Fable 5-authored visionOS HDR renderer replaces RealityKit custom textures with VideoMaterial and AVSampleBufferVideoRenderer, reporting 250-to-2,600-nit brightness and AV1 120fps extended playback without queue overflows."
     }
   ],
-  "last_run": "2026-07-28T18:27:32Z"
+  "last_run": "2026-07-28T19:34:17Z"
 }
