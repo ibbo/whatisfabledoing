@@ -9891,7 +9891,22 @@
   "url": "https://github.com/zhaow-de/zcrypto-kraken/pull/215",
   "seen_at": "2026-07-28T01:02:08Z",
   "summary": "A Fable 5 co-authored rules-corpus refinement run found 15 real documentation and governance defects, reduced one always-loaded guide by 1,597 bytes, and completed 2,466 tests."
-}
+},
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/pull/73017",
+      "summary": "A live Claude Fable 5 desktop-session measurement with a 67k-token prefix found prompt-cache prewarming cut the first real response from 20.4s to 3.8s after a 2.7s background warm-up, with a 100% cache read.",
+      "seen_at": "2026-07-28T02:07:40Z"
+    },
+    {
+      "url": "https://github.com/cmloegcmluin-org/entity/pull/30",
+      "summary": "A Claude Fable 5 co-authored Entity patch follows live browser testing: it keeps the record button visibly disabled until the microphone is genuinely ready and permits only tightly bounded same-order speech-repair substitutions such as “on Maine” to “on main.”",
+      "seen_at": "2026-07-28T02:07:40Z"
+    },
+    {
+      "url": "https://github.com/qazabc159-blip/iuf-trading-room/pull/1397",
+      "summary": "A Claude Fable 5 diagnostic of an AI trading-recommendation shortfall used production logs and a live endpoint to show eight technical-data calls succeeded, while the model’s risk filtering left only two candidates after excluding four of six, below the five-result minimum.",
+      "seen_at": "2026-07-28T02:07:40Z"
+    }
   ],
-  "last_run": "2026-07-28T01:02:08Z"
+  "last_run": "2026-07-28T02:07:40Z"
 }
