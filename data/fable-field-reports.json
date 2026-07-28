@@ -9941,7 +9941,22 @@
       "url": "https://github.com/cotentcreation009-ui/cs2-tracker/pull/272",
       "summary": "A Fable 5 co-authored 27-agent adversarial review of a Counter-Strike demo analyser confirmed 18 defects and repaired parsing, detection, indexing, and data-integrity bugs with real-demo calibration and tests.",
       "seen_at": "2026-07-28T04:19:09Z"
+    },
+    {
+      "url": "https://github.com/cmloegcmluin-org/entity/pull/36",
+      "seen_at": "2026-07-28T05:24:54Z",
+      "summary": "Claude Fable 5 co-authored a merged Entity recovery for a hung SDK ask that held a single-threaded brain lock, adding bounded acquisition and per-ask timeouts plus retry coverage."
+    },
+    {
+      "url": "https://github.com/StarshipSuperjam/engine-template/pull/667",
+      "seen_at": "2026-07-28T05:24:54Z",
+      "summary": "Claude Fable 5 planned, implemented, and reviewed a fix for engine-template upgrades that treated imports under a wholly absent optional module as dangling, with 4,630 tests and a module-absent behavioral reproduction."
+    },
+    {
+      "url": "https://github.com/joymin5655/Agent/pull/101",
+      "seen_at": "2026-07-28T05:24:54Z",
+      "summary": "Claude Fable 5 co-authored a merged model-routing advisory after an audit found all 7 of 7 agent dispatches silently inherited the top model, adding dispatch-time notices, per-model telemetry, and 58 passing verification checks."
     }
   ],
-  "last_run": "2026-07-28T04:19:09Z"
+  "last_run": "2026-07-28T05:24:54Z"
 }
