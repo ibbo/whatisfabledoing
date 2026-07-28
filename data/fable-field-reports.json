@@ -9871,7 +9871,27 @@
     "url": "https://github.com/rewardwise/RewardWise/pull/279",
     "seen_at": "2026-07-27T23:56:08Z",
     "summary": "A merged Fable 5 co-authored RewardWise change adds accessible rotating program chips, a live-verified United award deep link, and an abort guard that prevents stale searches from overwriting newer results."
+},
+{
+  "url": "https://github.com/sneakyfree/BookACleaner/pull/11",
+  "seen_at": "2026-07-28T01:02:08Z",
+  "summary": "Fable 5 audit of BookACleaner used five parallel specialist agents and live stress probes to find and fix roughly 25 security, correctness, and data-integrity defects, with 150 pytest and 81 Playwright tests passing."
+},
+{
+  "url": "https://github.com/agrology/multi-review/pull/23",
+  "seen_at": "2026-07-28T01:02:08Z",
+  "summary": "A live Fable/Codex/Gemini review loop found protocol-delivery and convergence defects in multi-review; the fix was exercised through a three-round smoke that produced 25 findings and passed 510 assertions."
+},
+{
+  "url": "https://github.com/ismailir10/annisaa-erp-v3/pull/415",
+  "seen_at": "2026-07-28T01:02:08Z",
+  "summary": "A four-way Claude Fable 5 review-and-fix pass hardened a student/guardian PII module in an ERP, addressing family-scoping, validation, authorization, state-transition, and rate-limit issues across 32 files."
+},
+{
+  "url": "https://github.com/zhaow-de/zcrypto-kraken/pull/215",
+  "seen_at": "2026-07-28T01:02:08Z",
+  "summary": "A Fable 5 co-authored rules-corpus refinement run found 15 real documentation and governance defects, reduced one always-loaded guide by 1,597 bytes, and completed 2,466 tests."
 }
   ],
-  "last_run": "2026-07-27T23:56:08Z"
+  "last_run": "2026-07-28T01:02:08Z"
 }
