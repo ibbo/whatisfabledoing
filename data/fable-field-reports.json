@@ -9956,7 +9956,22 @@
       "url": "https://github.com/joymin5655/Agent/pull/101",
       "seen_at": "2026-07-28T05:24:54Z",
       "summary": "Claude Fable 5 co-authored a merged model-routing advisory after an audit found all 7 of 7 agent dispatches silently inherited the top model, adding dispatch-time notices, per-model telemetry, and 58 passing verification checks."
+    },
+    {
+      "url": "https://github.com/JustasMonkev/headroom/pull/13",
+      "seen_at": "2026-07-28T06:29:43Z",
+      "summary": "Fable 5-assisted Headroom fixes exact offline BPE tokenization with a Rust-bundled tiktoken fallback, alongside regression-tested repairs to token accounting, storage paging, Unicode handling, and compression truncation."
+    },
+    {
+      "url": "https://github.com/yfuka86/finance/pull/14",
+      "seen_at": "2026-07-28T06:29:43Z",
+      "summary": "Fable 5 co-authored production configuration for a ¥20 million long-short trading system, reproducing its tested 2×-margin model with simulations, staged rollout guidance, 36 passing tests, and four baseline checks."
+    },
+    {
+      "url": "https://github.com/cmloegcmluin-org/excephalon/pull/37",
+      "seen_at": "2026-07-28T06:29:43Z",
+      "summary": "Fable 5 co-authored a merged Excephalon desktop voice-assistant pass that fixes a reproduced Windows quit deadlock, applies live speech-correction updates next chunk, and retains an empirically more reliable wake phrase."
     }
   ],
-  "last_run": "2026-07-28T05:24:54Z"
+  "last_run": "2026-07-28T06:29:43Z"
 }
