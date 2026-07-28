@@ -9906,7 +9906,22 @@
       "url": "https://github.com/qazabc159-blip/iuf-trading-room/pull/1397",
       "summary": "A Claude Fable 5 diagnostic of an AI trading-recommendation shortfall used production logs and a live endpoint to show eight technical-data calls succeeded, while the model’s risk filtering left only two candidates after excluding four of six, below the five-result minimum.",
       "seen_at": "2026-07-28T02:07:40Z"
+    },
+    {
+      "url": "https://github.com/mbayard-sorp/xdipx_store/pull/351",
+      "summary": "A merged Claude Fable 5 co-authored release engine automates guarded agent-PR merging with protected-path escalation, deployment polling, smoke tests, rollback and circuit-breaker controls; its 63 pure-function tests and typecheck/build gates passed before merge.",
+      "seen_at": "2026-07-28T03:14:43Z"
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10351",
+      "summary": "A Fable 5 heartbeat-agent experiment found prompt-only failure reminders did not stop premature done declarations: the direct agent passed 2/2 while the heartbeat arm remained 0/2 after three explicit failing-test nudges per trial. The PR adds shared continuation guidance while documenting that a server-side state guard is still needed.",
+      "seen_at": "2026-07-28T03:14:43Z"
+    },
+    {
+      "url": "https://github.com/pimalaya/himalaya-tui/pull/15",
+      "summary": "A developer reports building a terminal mail client's command palette and scoped hotkeys with Claude Fable 5, including a central registry, fuzzy command search, collision checks, and 39 passing Rust tests across feature configurations.",
+      "seen_at": "2026-07-28T03:14:43Z"
     }
   ],
-  "last_run": "2026-07-28T02:07:40Z"
+  "last_run": "2026-07-28T03:14:43Z"
 }
