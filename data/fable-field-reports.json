@@ -10171,7 +10171,27 @@
       "url": "https://github.com/RikuKunMS2/moonlight-ios-vision/pull/25",
       "seen_at": "2026-07-28T19:34:17Z",
       "summary": "A Fable 5-authored visionOS HDR renderer replaces RealityKit custom textures with VideoMaterial and AVSampleBufferVideoRenderer, reporting 250-to-2,600-nit brightness and AV1 120fps extended playback without queue overflows."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/pull/671",
+      "seen_at": "2026-07-28T20:41:01Z",
+      "summary": "Christopher Brand reports Fable 5 authored a merged C99 rANS codec and int4 container path that cuts a 5.4GB GLM-5.2 corpus 27.0%, with byte-identical vector decoding and extensive fuzz/refusal testing."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/54",
+      "seen_at": "2026-07-28T20:41:01Z",
+      "summary": "A Claude Fable 5 run in the Oh My Pi harness submitted an M4 Metal/CPU split for FLOCK zerocheck, reporting a local 30-trial score of 832,894 and byte-identical GPU/CPU proof checks; external challenge validation remains pending."
+    },
+    {
+      "url": "https://github.com/Banon-Labs/er-effects-rs/pull/80",
+      "seen_at": "2026-07-28T20:41:01Z",
+      "summary": "Claude Fable 5 authored a draft Elden Ring save-disable DLL and two-oracle harness, using a live Win32 write census plus byte-level BND4 diffs to verify four swallowed saves and expose five false-pass paths."
+    },
+    {
+      "url": "https://github.com/Alexm-picard/the-bullpen/pull/381",
+      "seen_at": "2026-07-28T20:41:01Z",
+      "summary": "A merged Fable 5 co-authored baseball-model data fix makes historical pitch-type priors union live and archival tables under a strict as-of bound, with three targeted mutation tests and 900 of 901 full-suite tests passing (one environmental)."
     }
   ],
-  "last_run": "2026-07-28T19:34:17Z"
+  "last_run": "2026-07-28T20:41:01Z"
 }
