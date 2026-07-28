@@ -10071,7 +10071,22 @@
       "url": "https://github.com/rolker/camp/issues/177",
       "seen_at": "2026-07-28T13:01:41Z",
       "summary": "A Fable 5-authored review issue identifies a WMS cache-poisoning path in camp: HTTP 200 XML error responses are cached under PNG tile names and can persist indefinitely for layers without refresh intervals."
+    },
+    {
+      "url": "https://github.com/Sahir619/fable-method",
+      "seen_at": "2026-07-28T14:07:30Z",
+      "summary": "Sahir619 distilled Fable 5 working sessions into a Claude Code plugin and published 15 small-cell eval rounds spanning 260+ agent runs, including both transfer gains and a bare-Fable unauthorized-deploy failure."
+    },
+    {
+      "url": "https://github.com/comet-ml/opik/pull/7650",
+      "seen_at": "2026-07-28T14:07:30Z",
+      "summary": "Comet's Opik team used Claude Fable 5 to fix prompt-optimizer jobs that misreported no-improvement outcomes, with adaptive reflection batches, canonical finish reasons, local end-to-end runs, and reported SDK/backend test gates."
+    },
+    {
+      "url": "https://github.com/cinatra-ai/cinatra/pull/2174",
+      "seen_at": "2026-07-28T14:07:30Z",
+      "summary": "A Claude Fable 5-assisted Cinatra PR implements durable, exactly-once confirmation of destructive connector calls, including consent-drift checks, deadline semantics, requester-bound cards, and focused security-oriented tests."
     }
   ],
-  "last_run": "2026-07-28T13:01:41Z"
+  "last_run": "2026-07-28T14:07:30Z"
 }
