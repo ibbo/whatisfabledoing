@@ -10056,7 +10056,22 @@
       "url": "https://github.com/krhitoshi/pali-ai-notes/issues/11",
       "seen_at": "2026-07-28T11:56:59Z",
       "summary": "krhitoshi twice reproduced a detached Claude Fable 5 CLI generation job returning exit 0 with empty stdout/stderr after four minutes, while the identical foreground invocation emitted a 10,358-byte file."
+    },
+    {
+      "url": "https://github.com/tursodatabase/turso/pull/8069",
+      "seen_at": "2026-07-28T13:01:41Z",
+      "summary": "Under close contributor direction, Claude Code with Fable 5 turned an adversarial review of Turso sync into a watermark and pending-push protocol that prevents generation-mismatch replays from duplicating history or overwriting newer concurrent writes."
+    },
+    {
+      "url": "https://github.com/cafein-py/cafein/pull/199",
+      "seen_at": "2026-07-28T13:01:41Z",
+      "summary": "cafein used Claude Fable 5 alongside GPT-5.6-Sol to add rental-transfer attribution to its transit cost matrix, validating a Helsinki fixture with two scooter legs, 2.2 km of attributed street distance, and a seven-minute gain over walking transfers."
+    },
+    {
+      "url": "https://github.com/rolker/camp/issues/177",
+      "seen_at": "2026-07-28T13:01:41Z",
+      "summary": "A Fable 5-authored review issue identifies a WMS cache-poisoning path in camp: HTTP 200 XML error responses are cached under PNG tile names and can persist indefinitely for layers without refresh intervals."
     }
   ],
-  "last_run": "2026-07-28T11:56:59Z"
+  "last_run": "2026-07-28T13:01:41Z"
 }
