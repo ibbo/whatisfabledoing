@@ -10449,7 +10449,12 @@
       "url": "https://github.com/pnpm/pnpm/pull/13492",
       "seen_at": "2026-07-29T15:15:57Z",
       "summary": "Zoltan Kochan and Claude Fable 5 diagnosed pnpm's N-API lockfile churn as unordered Rust HashMap deserialization, replacing it with IndexMap and adding fallback diagnostics; the open PR's current TypeScript success check passes."
+    },
+    {
+      "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+      "seen_at": "2026-07-29T16:24:26Z",
+      "summary": "Kilo AI's phase-separated feature-flag-service evaluation found Fable 5 wrote the higher-scoring plan (9.1 vs 8.3), but Fable and GPT-5.5 then passed all 15 independent acceptance checks when implementing that plan; GPT's $6.30 run versus Fable's $16.66 produced matching 35%-rollout behavior for 100 user IDs."
     }
   ],
-  "last_run": "2026-07-29T15:15:57Z"
+  "last_run": "2026-07-29T16:24:26Z"
 }
