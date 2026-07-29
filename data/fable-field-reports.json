@@ -10424,7 +10424,12 @@
       "url": "https://github.com/BirdoVPN/Mobile-Client/pull/237",
       "seen_at": "2026-07-29T13:06:00Z",
       "summary": "Birdo’s Fable 5-assisted adversarial audit verified ten Android/iOS VPN client defects, then shipped merged fixes for client-side WireGuard key generation, IPv6 handling, post-quantum failure behavior, authentication race conditions, account deletion, cache invalidation, and widget state; required checks passed."
+    },
+    {
+      "url": "https://github.com/ddnet/ddnet/pull/12396",
+      "seen_at": "2026-07-29T14:11:33Z",
+      "summary": "DDNet contributor def- reports Fable 5 wrote a merged 36-line server-network batching patch that coalesces per-packet flushes into one outbound packet per recipient; the author tested it in-game, a maintainer approved it, and all 37 current checks passed."
     }
   ],
-  "last_run": "2026-07-29T13:06:00Z"
+  "last_run": "2026-07-29T14:11:33Z"
 }
