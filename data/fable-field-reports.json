@@ -10479,7 +10479,22 @@
       "url": "https://github.com/apphane-dev/nehir/pull/193",
       "seen_at": "2026-07-29T19:40:13Z",
       "summary": "A Claude Code/Fable 5 pair-debugging session fixed macOS window-management regressions in Nehir: Finder inline rename no longer loses focus, Ghostty tab churn preserves window identity, and quick-terminal close no longer drags focus or viewport. The author reports real runtime reproductions; the open PR's CodeRabbit pre-merge report flags docstring coverage below its threshold."
+    },
+    {
+      "url": "https://github.com/Banon-Labs/er-effects-rs/pull/89",
+      "seen_at": "2026-07-29T20:46:01Z",
+      "summary": "Claude Fable 5-authored a merged fix for a live P0 in er-effects-rs: cloned \u201cLoad Profile\u201d and \u201cLoad Save Profiles\u201d rows shared the same native action pointer as Return to Desktop, so clicking a profile row could call `ExitProcess(0)`. Instead of trusting that shared pointer, the patch resolves the game\u2019s list cursor through the grid coordinates and a live row label, suppressing an irreversible action when identity cannot be established. The project owner runtime-tested all four rows; GitHub\u2019s required `check` job passed, while the author separately reports 5 graphics tests and 11 Wine-run resolver tests."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82252",
+      "seen_at": "2026-07-29T20:46:01Z",
+      "summary": "A Claude Code Max user on Windows 11 found that subagents requested as `claude-fable-5` or `fable` were silently served by `claude-sonnet-5`. In repeated low-effort probes, each agent\u2019s metadata retained the requested Fable name while every assistant entry in the JSONL transcript named Sonnet; an Opus 4.8 control honored its override. Asking the agents which model they were produced \u201cFable 5\u201d answers in three of four runs despite the transcript metadata, so the report recommends checking raw message records rather than self-identification."
+    },
+    {
+      "url": "https://github.com/jamesdchen/hpc-copilot/pull/29",
+      "seen_at": "2026-07-29T20:46:01Z",
+      "summary": "A Fable review sweep of hpc-copilot\u2019s run queue turned four alleged Phase-1 blockers into a more discriminating repair plan: it confirmed placement-blind consent identity, duplicate refill enqueueing, and unsafe eager submission from a shared remote tree, but rejected the claim that dispatch needed a new minted run ID because the existing ID is deterministic. The Fable/Opus co-authored branch adds placement as a separate consent dimension, a shared \u201coccupies a slot\u201d predicate, and content-addressed snapshots; a four-filesystem `--link-dest` probe found correct behavior everywhere, with BeeGFS falling back to copying. The author reports 13,006 passing tests in an isolated full run, while several current hosted checks remain in progress."
     }
   ],
-  "last_run": "2026-07-29T19:40:13Z"
+  "last_run": "2026-07-29T20:46:01Z"
 }
