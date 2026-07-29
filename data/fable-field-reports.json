@@ -10459,7 +10459,22 @@
       "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/394",
       "seen_at": "2026-07-29T17:29:34Z",
       "summary": "Claude Fable 5’s NVFP4 attention-tail optimization was accepted and merged by the mlxfast challenge after the official 11-case runner verified 1,344 steps with max_abs_diff=0; its score rose from 1.7710 to 1.8059, with 1.95x decode and 1.44x prefill speedups against the benchmark baseline."
+    },
+    {
+      "url": "https://github.com/baochipham942-eng/code-agent/pull/824",
+      "seen_at": "2026-07-29T18:35:23Z",
+      "summary": "A merged Claude Fable 5 co-authored swarm-controller hardening makes first terminal state durable across runs, agents, DAG nodes, and deduplication records; the author reports 15 source files, 14 test files, and 205 targeted tests passing."
+    },
+    {
+      "url": "https://github.com/invoice-x/invoice2data/pull/723",
+      "seen_at": "2026-07-29T18:35:23Z",
+      "summary": "An outside Fable 5 review found invoice2data overwrote extracted currency with its fallback. The proposed setdefault repair has a minimal USD-versus-EUR reproduction and two new regression tests; the author reports the focused eight-test suite passing."
+    },
+    {
+      "url": "https://github.com/agentstation/starmap/pull/55",
+      "seen_at": "2026-07-29T18:35:23Z",
+      "summary": "Agentstation reports a maximum-effort Fable 5 final autoreview with no accepted findings on its 15k-line Starmap catalog-server rewrite, alongside race tests, four consumer builds, 88.5% adapter coverage, and a green security/reliability check while the main gate remains pending."
     }
   ],
-  "last_run": "2026-07-29T17:29:34Z"
+  "last_run": "2026-07-29T18:35:23Z"
 }
