@@ -10354,7 +10354,22 @@
       "url": "https://github.com/JIGGAI/JIGGA/pull/166",
       "seen_at": "2026-07-29T07:37:47Z",
       "summary": "A Claude Fable 5 co-authored JIGGA PR implements opt-in Bubblewrap agent sandboxing with filesystem/environment/process/network isolation, a real Bubblewrap integration run, and seven focused tests within a reported 990-test suite."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/2",
+      "seen_at": "2026-07-29T08:42:33Z",
+      "summary": "A Claude Fable 5 submission to the FLOCK proof benchmark moved the verified runner score from 589,454 to 870,516 and was merged after the challenge runner accepted it; the author also reports bit-equality oracles and 100 measured trials."
+    },
+    {
+      "url": "https://github.com/LearnPrompt/partner-skill/pull/4",
+      "seen_at": "2026-07-29T08:42:33Z",
+      "summary": "A Fable 5 planning runner records exact model/session identity and bounds process, output, event-log, and idle-time behavior; its author reports 102 tests, one $0.45282 successful live plan, and a timed-out run rejected before recovering in the same session."
+    },
+    {
+      "url": "https://github.com/mitwilli-create/voice-os/pull/34",
+      "seen_at": "2026-07-29T08:42:33Z",
+      "summary": "Voice OS merged a Fable 5-primary routing change after a four-case live calibration, reporting 0.9367 style fidelity and 97.1% length retention, with Opus 4.8 as the first fallback and 396 full-suite tests."
     }
   ],
-  "last_run": "2026-07-29T07:37:47Z"
+  "last_run": "2026-07-29T08:42:33Z"
 }
