@@ -10454,7 +10454,12 @@
       "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
       "seen_at": "2026-07-29T16:24:26Z",
       "summary": "Kilo AI's phase-separated feature-flag-service evaluation found Fable 5 wrote the higher-scoring plan (9.1 vs 8.3), but Fable and GPT-5.5 then passed all 15 independent acceptance checks when implementing that plan; GPT's $6.30 run versus Fable's $16.66 produced matching 35%-rollout behavior for 100 user IDs."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/394",
+      "seen_at": "2026-07-29T17:29:34Z",
+      "summary": "Claude Fable 5’s NVFP4 attention-tail optimization was accepted and merged by the mlxfast challenge after the official 11-case runner verified 1,344 steps with max_abs_diff=0; its score rose from 1.7710 to 1.8059, with 1.95x decode and 1.44x prefill speedups against the benchmark baseline."
     }
   ],
-  "last_run": "2026-07-29T16:24:26Z"
+  "last_run": "2026-07-29T17:29:34Z"
 }
