@@ -10474,7 +10474,12 @@
       "url": "https://github.com/agentstation/starmap/pull/55",
       "seen_at": "2026-07-29T18:35:23Z",
       "summary": "Agentstation reports a maximum-effort Fable 5 final autoreview with no accepted findings on its 15k-line Starmap catalog-server rewrite, alongside race tests, four consumer builds, 88.5% adapter coverage, and a green security/reliability check while the main gate remains pending."
+    },
+    {
+      "url": "https://github.com/apphane-dev/nehir/pull/193",
+      "seen_at": "2026-07-29T19:40:13Z",
+      "summary": "A Claude Code/Fable 5 pair-debugging session fixed macOS window-management regressions in Nehir: Finder inline rename no longer loses focus, Ghostty tab churn preserves window identity, and quick-terminal close no longer drags focus or viewport. The author reports real runtime reproductions; the open PR's CodeRabbit pre-merge report flags docstring coverage below its threshold."
     }
   ],
-  "last_run": "2026-07-29T18:35:23Z"
+  "last_run": "2026-07-29T19:40:13Z"
 }
