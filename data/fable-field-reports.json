@@ -10319,7 +10319,22 @@
     },
     {"url": "https://github.com/electron/electron/pull/52461", "seen_at": "2026-07-29T05:25:48Z", "summary": "Mitch Chen reports Fable 5 implementing Electron’s Linux Freedesktop symbolic titlebar-button provider for frameless Window Controls Overlay windows; the open PR was built/tested by the author and received design/API LGTM reviews."},
     {"url": "https://github.com/LAF-US/IDAHO-VAULT/pull/875", "seen_at": "2026-07-29T05:25:48Z", "summary": "A Claude Fable 5 vault-wide Markdown lint pass across 28,904 files initially corrupted footnotes, YAML, paths, and headings; review feedback led to restoration commits, 211 redaction-scar reconstructions, and an idempotence check, with the PR still open."},
-    {"url": "https://github.com/monstermango/hello-world-ruby-cb-gh-000/pull/1", "seen_at": "2026-07-29T05:25:48Z", "summary": "A 65-commit Claude Fable 5 session built and iterated a mobile Hugging Face speaker-diarization Space, including a CPU synthetic two-speaker test that detected all four turns and both speakers, ZeroGPU deployment support, result storage, and a multi-view UI."}
+    {"url": "https://github.com/monstermango/hello-world-ruby-cb-gh-000/pull/1", "seen_at": "2026-07-29T05:25:48Z", "summary": "A 65-commit Claude Fable 5 session built and iterated a mobile Hugging Face speaker-diarization Space, including a CPU synthetic two-speaker test that detected all four turns and both speakers, ZeroGPU deployment support, result storage, and a multi-view UI."},
+    {
+      "url": "https://github.com/NeuralTrust/TrustGate/pull/300",
+      "seen_at": "2026-07-29T06:30:04Z",
+      "summary": "Claude Fable 5 co-authored a merged TrustGate dispatcher fix that eliminates a default two-second readiness delay after an isolated control-plane write while retaining trailing debounce and version-deduplicated broadcasts for bursts."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13479",
+      "seen_at": "2026-07-29T06:30:04Z",
+      "summary": "A Claude Code/Fable 5 pnpm PR enables headless web login in both TypeScript and Rust without a pseudo-terminal, with 247 focused local tests reported; its visible Rust CI job is currently failing while TypeScript compile/lint passes."
+    },
+    {
+      "url": "https://github.com/macanderson/stella/pull/815",
+      "seen_at": "2026-07-29T06:30:04Z",
+      "summary": "Mac Anderson's cross-model Stella ultraaudit reports 346 findings, 15 confirmed severe findings, and a caveated 81.32 score; Fable 5 credits exhausted before the final three-model panel, so the final score is explicitly non-comparable two-model evidence."
+    }
   ],
-  "last_run": "2026-07-29T05:25:48Z"
+  "last_run": "2026-07-29T06:30:04Z"
 }
