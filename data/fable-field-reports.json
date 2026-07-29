@@ -10276,7 +10276,27 @@
       "url": "https://github.com/leanprover-community/mathlib4/pull/42211",
       "seen_at": "2026-07-29T02:07:36Z",
       "summary": "Claude Fable 5 co-authored Lean formalization work in mathlib's Ramanujan-formula PR, including boundedness-at-infinity proof simplifications and formal derivative identities for normalized Eisenstein series."
+    },
+    {
+      "url": "https://github.com/robocurve/inspect-robots-yam/pull/86",
+      "seen_at": "2026-07-29T03:14:29Z",
+      "summary": "A merged Claude Fable 5 co-authored MuJoCo collision guardrail for yam_arms reports roughly 16µs queries, holds at the last safe pose on collision, and includes scene, sweep, hold, and chain tests."
+    },
+    {
+      "url": "https://github.com/jasonpalmer1/wafergraph-mcp/commit/aab69dbded93a52a5c6d9d384d1ad23710eba181",
+      "seen_at": "2026-07-29T03:14:29Z",
+      "summary": "Claude Fable 5 expanded WaferGraph MCP from 9 to 30 tools across screening, geography, graph, and deal analysis, with a live JSON-RPC smoke harness covering every registered tool."
+    },
+    {
+      "url": "https://github.com/alexyudragonsword-collab/wifi_trx_cal/commit/60b08b0da5c24cbb49f44addb8331eac16adb7e7",
+      "seen_at": "2026-07-29T03:14:29Z",
+      "summary": "A Claude Fable 5 session added a PySide6 RF calibration workbench, Monte Carlo yield reporting that showed 100% default-corner yield at 80MHz, FFT convolution, and 120 passing tests."
+    },
+    {
+      "url": "https://github.com/CaulfieldEngineering/BilliardsTrainer/commit/1b9c1080d940648bdb14a0d590f7b9e693825ff8",
+      "seen_at": "2026-07-29T03:14:29Z",
+      "summary": "A Fable 5 co-authored bench investigation traced a camera's post-power-cut 480p fallback to a Magic Lantern loading lock and verified a crash-module setting restored 1633×928 boot after a battery pull."
     }
   ],
-  "last_run": "2026-07-29T02:07:36Z"
+  "last_run": "2026-07-29T03:14:29Z"
 }
