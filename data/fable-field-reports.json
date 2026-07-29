@@ -10389,7 +10389,12 @@
       "url": "https://github.com/alpenlabs/alpen/pull/2153",
       "seen_at": "2026-07-29T09:48:10Z",
       "summary": "Alpen Labs reports Claude Code/Fable 5 assistance on explicit proof-bound predicate-key rotation for its OL protocol, with 32 changed files, proof/DA reconstruction tests, and passing required lint, docs, and unit checks."
+    },
+    {
+      "url": "https://github.com/chiplay/plane/pull/1",
+      "seen_at": "2026-07-29T10:56:29Z",
+      "summary": "A Claude Fable 5 session evaluated Sightmap against a live Plane development stack, generated an annotated UI corpus and smoke suite, found translation-key accessibility bugs, and measured a directional navigation A/B improvement alongside observation-layer limitations."
     }
   ],
-  "last_run": "2026-07-29T09:48:10Z"
+  "last_run": "2026-07-29T10:56:29Z"
 }
