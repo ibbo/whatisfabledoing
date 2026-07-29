@@ -10419,7 +10419,12 @@
       "url": "https://github.com/rimio-ai/rimz/pull/154",
       "seen_at": "2026-07-29T12:00:13Z",
       "summary": "In RimZ’s four-agent follow-up to a terminal-sidebar run, Fable 5 served as planner at high effort, making two calls, 45 tool calls, and reading 8.4 million cached tokens; Codex implemented and Opus reviewed. The resulting branch replaces a brittle string wait with typed JSONL diagnostic polling, bounds a 0.51ms deadline-test flake, makes no-capture test output reach the terminal, and documents mux-specific event triggers. The team reports 5,575 tests passing and a live tmux 3.7b journey, while recording a newly discovered Zellij resize interaction for a separate fix."
+    },
+    {
+      "url": "https://github.com/BirdoVPN/Mobile-Client/pull/237",
+      "seen_at": "2026-07-29T13:06:00Z",
+      "summary": "Birdo’s Fable 5-assisted adversarial audit verified ten Android/iOS VPN client defects, then shipped merged fixes for client-side WireGuard key generation, IPv6 handling, post-quantum failure behavior, authentication race conditions, account deletion, cache invalidation, and widget state; required checks passed."
     }
   ],
-  "last_run": "2026-07-29T12:00:13Z"
+  "last_run": "2026-07-29T13:06:00Z"
 }
