@@ -10369,7 +10369,27 @@
       "url": "https://github.com/mitwilli-create/voice-os/pull/34",
       "seen_at": "2026-07-29T08:42:33Z",
       "summary": "Voice OS merged a Fable 5-primary routing change after a four-case live calibration, reporting 0.9367 style fidelity and 97.1% length retention, with Opus 4.8 as the first fallback and 396 full-suite tests."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/73364",
+      "seen_at": "2026-07-29T09:48:10Z",
+      "summary": "PostHog merged a 28-file Claude Code/Fable 5 implementation that gives MCP agents iterative SQL/Python notebook-cell execution, state/dependency inspection, and safe tool-surface gating; 161 backend and 2,473 MCP tests were reported passing."
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad/pull/6484",
+      "seen_at": "2026-07-29T09:48:10Z",
+      "summary": "A Fable 5 adversarial review of Gumroad's stale-FX checkout recovery exposed that the initial tests missed the call-site regression; the revised implementation was verified in a hosted preview from refusal through successful charge."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82226",
+      "seen_at": "2026-07-29T09:48:10Z",
+      "summary": "A Claude Code user's 2,013-log audit found 109 Fable 5 sessions above 200K context and a maximum successful Fable prompt of 856,901 tokens, while documenting a separate Opus 5 200K-window mismatch."
+    },
+    {
+      "url": "https://github.com/alpenlabs/alpen/pull/2153",
+      "seen_at": "2026-07-29T09:48:10Z",
+      "summary": "Alpen Labs reports Claude Code/Fable 5 assistance on explicit proof-bound predicate-key rotation for its OL protocol, with 32 changed files, proof/DA reconstruction tests, and passing required lint, docs, and unit checks."
     }
   ],
-  "last_run": "2026-07-29T08:42:33Z"
+  "last_run": "2026-07-29T09:48:10Z"
 }
