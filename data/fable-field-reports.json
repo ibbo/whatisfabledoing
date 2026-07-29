@@ -10494,7 +10494,22 @@
       "url": "https://github.com/jamesdchen/hpc-copilot/pull/29",
       "seen_at": "2026-07-29T20:46:01Z",
       "summary": "A Fable review sweep of hpc-copilot\u2019s run queue turned four alleged Phase-1 blockers into a more discriminating repair plan: it confirmed placement-blind consent identity, duplicate refill enqueueing, and unsafe eager submission from a shared remote tree, but rejected the claim that dispatch needed a new minted run ID because the existing ID is deterministic. The Fable/Opus co-authored branch adds placement as a separate consent dimension, a shared \u201coccupies a slot\u201d predicate, and content-addressed snapshots; a four-filesystem `--link-dest` probe found correct behavior everywhere, with BeeGFS falling back to copying. The author reports 13,006 passing tests in an isolated full run, while several current hosted checks remain in progress."
+    },
+    {
+      "url": "https://github.com/veerjd/en-semble/pull/2",
+      "seen_at": "2026-07-29T21:49:33Z",
+      "summary": "A Claude Fable 5 session rebuilt an invite-only Nuxt/Supabase matching app through a staged Nuxt 4 migration, validated Postgres schema reset, authorized API reduction, and fail-closed authentication/rate-limit hardening; the author reports 118 strict type errors reduced to zero and 30 unit tests passing."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82370",
+      "seen_at": "2026-07-29T21:49:33Z",
+      "summary": "A Claude Code user documented an agent-authored CI watcher that looped forever after strict branch protection rejected its merge; Fable subsequently diagnosed the empty-SHA polling path and repaired it with update-branch retry, bounded attempts, and an explicit error."
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-gl-js/pull/8049",
+      "seen_at": "2026-07-29T21:49:33Z",
+      "summary": "Claude Fable 5 assisted a MapLibre terrain tile-LOD fix that measures each tile's own elevation range beneath a pitched camera, with 57 added test lines; build, unit, and integration jobs pass, while code-hygiene and two render-test matrix jobs currently fail."
     }
   ],
-  "last_run": "2026-07-29T20:46:01Z"
+  "last_run": "2026-07-29T21:49:33Z"
 }
