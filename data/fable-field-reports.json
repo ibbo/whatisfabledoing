@@ -10296,7 +10296,27 @@
       "url": "https://github.com/CaulfieldEngineering/BilliardsTrainer/commit/1b9c1080d940648bdb14a0d590f7b9e693825ff8",
       "seen_at": "2026-07-29T03:14:29Z",
       "summary": "A Fable 5 co-authored bench investigation traced a camera's post-power-cut 480p fallback to a Magic Lantern loading lock and verified a crash-module setting restored 1633×928 boot after a battery pull."
+    },
+    {
+      "url": "https://github.com/experientiallabs/world-model-optimizer/pull/311",
+      "seen_at": "2026-07-29T04:19:34Z",
+      "summary": "World Model Optimizer's Fable 5 anchor study found model-world cost/quality wins for an Opus 5 router but a preregistered 40-episode real-task probe reversed the quality result: Fable scored 0.775 mean reward against 0.525 for the router, while cost savings narrowed to 25%."
+    },
+    {
+      "url": "https://github.com/wntrblm/nox/pull/1131",
+      "seen_at": "2026-07-29T04:19:34Z",
+      "summary": "Henry Schreiner reports using Claude Code/Fable 5 for a Nox parallel-session implementation with opt-in concurrency, dependency handling, exclusive sessions, buffered logs and a live terminal status board, plus a review-driven hardening sequence."
+    },
+    {
+      "url": "https://github.com/JabRef/jabref/pull/16386",
+      "seen_at": "2026-07-29T04:19:34Z",
+      "summary": "JabRef's Carl Christian Snethlage reports Claude Code use spanning Fable 5, Opus 4.8 and Opus 5 for a preferences-dialog refactor that removes 25 FXML files (~2,080 lines), replaces tabs with a typed fluent builder, and was manually tested in the desktop app."
+    },
+    {
+      "url": "https://github.com/JIGGAI/JIGGA/pull/164",
+      "seen_at": "2026-07-29T04:19:34Z",
+      "summary": "A Claude Fable 5 co-authored JIGGA secrets-broker PR funnels Telegram, email and Brave key reads through validated file/env backends, adds a secret-safe CLI, preserves legacy paths, and reports six new tests within a 983-test suite."
     }
   ],
-  "last_run": "2026-07-29T03:14:29Z"
+  "last_run": "2026-07-29T04:19:34Z"
 }
