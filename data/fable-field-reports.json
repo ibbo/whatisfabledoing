@@ -10316,7 +10316,10 @@
       "url": "https://github.com/JIGGAI/JIGGA/pull/164",
       "seen_at": "2026-07-29T04:19:34Z",
       "summary": "A Claude Fable 5 co-authored JIGGA secrets-broker PR funnels Telegram, email and Brave key reads through validated file/env backends, adds a secret-safe CLI, preserves legacy paths, and reports six new tests within a 983-test suite."
-    }
+    },
+    {"url": "https://github.com/electron/electron/pull/52461", "seen_at": "2026-07-29T05:25:48Z", "summary": "Mitch Chen reports Fable 5 implementing Electron’s Linux Freedesktop symbolic titlebar-button provider for frameless Window Controls Overlay windows; the open PR was built/tested by the author and received design/API LGTM reviews."},
+    {"url": "https://github.com/LAF-US/IDAHO-VAULT/pull/875", "seen_at": "2026-07-29T05:25:48Z", "summary": "A Claude Fable 5 vault-wide Markdown lint pass across 28,904 files initially corrupted footnotes, YAML, paths, and headings; review feedback led to restoration commits, 211 redaction-scar reconstructions, and an idempotence check, with the PR still open."},
+    {"url": "https://github.com/monstermango/hello-world-ruby-cb-gh-000/pull/1", "seen_at": "2026-07-29T05:25:48Z", "summary": "A 65-commit Claude Fable 5 session built and iterated a mobile Hugging Face speaker-diarization Space, including a CPU synthetic two-speaker test that detected all four turns and both speakers, ZeroGPU deployment support, result storage, and a multi-view UI."}
   ],
-  "last_run": "2026-07-29T04:19:34Z"
+  "last_run": "2026-07-29T05:25:48Z"
 }
