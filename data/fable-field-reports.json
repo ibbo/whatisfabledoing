@@ -10246,7 +10246,22 @@
       "url": "https://github.com/lammps/lammps/pull/5113",
       "seen_at": "2026-07-28T23:56:44Z",
       "summary": "Axel Kohlmeyer reports Fable 5 produced most of a LAMMPS granular-model test expansion that exposed and fixed an undamped-wall NaN path, with current Linux, macOS, Windows, build, and style checks green."
+    },
+    {
+      "url": "https://github.com/yfuka86/finance/pull/19",
+      "seen_at": "2026-07-29T01:01:00Z",
+      "summary": "A Fable 5 co-authored out-of-sample finance analysis rejected four candidate model changes: a demeaned-rank blend reversed from +0.28 in selection to -0.14 in the 2025+ confirmation window, and production-form Sharpe fell from 2.88 to 2.77."
+    },
+    {
+      "url": "https://github.com/Banon-Labs/er-effects-rs/pull/86",
+      "seen_at": "2026-07-29T01:01:00Z",
+      "summary": "A Fable 5-authored Elden Ring save-flow implementation confines live writing to an explicit confirmed action and builds telemetry oracles around it; its 14 Rust and 7 Wine-run model tests pass, but the author explicitly says game-runtime behavior remains unvalidated."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/869",
+      "seen_at": "2026-07-29T01:01:00Z",
+      "summary": "A Fable 5-authored Schemabot PR adds per-database, environment-scoped direct-write authorization with fail-closed lookup and metrics. Unit, integration, build, lint, and most end-to-end checks pass, while two Kubernetes jobs are failing on the open PR."
     }
   ],
-  "last_run": "2026-07-28T23:56:44Z"
+  "last_run": "2026-07-29T01:01:00Z"
 }

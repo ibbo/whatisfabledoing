@@ -6283,3 +6283,14 @@ Theo Browne used Claude Fable 5 to add an iOS-only Expo WebSocket implementation
 
 ### [Granular-model tests expose an undamped-wall NaN in LAMMPS](https://github.com/lammps/lammps/pull/5113) — Axel Kohlmeyer / LAMMPS
 Axel Kohlmeyer says Claude Code with Fable 5 produced most of a new test expansion for LAMMPS’s legacy granular models, drawing from publications, earlier drafts, and static-analysis and bug-fix sessions. The tests found a pre-existing `0/0` damping-ratio calculation that made an elastic classic wall model emit NaN forces on its first contact; the patch fixes that path and adds analytic checks for restitution, Hertz peaks, slip transients, rolling, freefall, region walls, and superellipsoid momentum. The branch’s Linux and macOS unit tests, Windows compilation test, GNU Make build, style check, and C++23 builds are currently green.
+
+## 2026-07-29
+
+### [Out-of-sample checks reject four finance-model changes](https://github.com/yfuka86/finance/pull/19) — yfuka86
+A Claude Fable 5 co-authored analysis recorded a useful negative result for a financial model: three candidate changes had already shown no benefit in the selection window, while a demeaned-times-rank blend reversed from +0.28 there to −0.14 in its one 2025-and-later confirmation window. In production-form testing, the same blend took Sharpe from 2.88 to 2.77. Rather than tuning again against the holdout, the author kept the current model and recorded the candidates as rejected.
+
+### [A save-disable mod makes one manual save path explicit](https://github.com/Banon-Labs/er-effects-rs/pull/86) — chozandrias76 / Banon Labs
+A 32-file Claude Fable 5-authored Elden Ring mod change moves save suppression into the product DLL and lets an explicit, confirmed “Save Game” action consume a one-shot bypass token. It adds a destination picker, prevents the loaded save from being written during redirected saves, and records roughly 40 telemetry-oracle fields covering the confirmation, bypass, and destination-commit path. The author reports 14 Rust tests and seven Wine-run picker tests passing, but is unusually clear that no live game run has yet validated the runtime behavior.
+
+### [Schemabot scopes direct writes to one database and environment](https://github.com/block/schemabot/pull/869) — aparajon / Block
+A Claude Fable 5-authored Schemabot PR adds per-database operator groups and environment limits to its forward-auth path, separating platform-wide administrators from teams allowed to plan, apply, and control only their own database. It resolves the target in the handler, denies on storage errors, refuses half-configured grants at startup, and emits an authorization metric and denial log for every decision. The 15-file, 920-line PR is still open: unit, integration, build, lint, and most end-to-end checks are green, while two Kubernetes test jobs are failing.
