@@ -10261,7 +10261,22 @@
       "url": "https://github.com/block/schemabot/pull/869",
       "seen_at": "2026-07-29T01:01:00Z",
       "summary": "A Fable 5-authored Schemabot PR adds per-database, environment-scoped direct-write authorization with fail-closed lookup and metrics. Unit, integration, build, lint, and most end-to-end checks pass, while two Kubernetes jobs are failing on the open PR."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70651",
+      "seen_at": "2026-07-29T02:07:36Z",
+      "summary": "Claude Code with Fable 5 implemented human approval for Airflow's LLMBranchOperator, including reviewer-edited branch validation, unit coverage, and a Breeze end-to-end check; most current checks pass but constraint generation is failing."
+    },
+    {
+      "url": "https://github.com/civiform/civiform/pull/13700",
+      "seen_at": "2026-07-29T02:07:36Z",
+      "summary": "Gwendolyn Goetz reports Claude Code with Fable 5 did most of CiviForm's legacy question-form Thymeleaf migration phase, adding thirteen question-type fragments and thtest coverage with all modified coverable lines covered."
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/pull/42211",
+      "seen_at": "2026-07-29T02:07:36Z",
+      "summary": "Claude Fable 5 co-authored Lean formalization work in mathlib's Ramanujan-formula PR, including boundedness-at-infinity proof simplifications and formal derivative identities for normalized Eisenstein series."
     }
   ],
-  "last_run": "2026-07-29T01:01:00Z"
+  "last_run": "2026-07-29T02:07:36Z"
 }
