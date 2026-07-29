@@ -10334,7 +10334,27 @@
       "url": "https://github.com/macanderson/stella/pull/815",
       "seen_at": "2026-07-29T06:30:04Z",
       "summary": "Mac Anderson's cross-model Stella ultraaudit reports 346 findings, 15 confirmed severe findings, and a caveated 81.32 score; Fable 5 credits exhausted before the final three-model panel, so the final score is explicitly non-comparable two-model evidence."
+    },
+    {
+      "url": "https://github.com/Jared-Godar/audio-lab/pull/89",
+      "seen_at": "2026-07-29T07:37:47Z",
+      "summary": "A fresh Claude Fable 5 session produced a merged transcript-based postmortem of an earlier agent failure, independently re-deriving 43 rule violations and eight assurance/reversal episodes while distinguishing working active guardrails from breached reminder rules."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/4807",
+      "seen_at": "2026-07-29T07:37:47Z",
+      "summary": "A Fable 5 multi-agent documentation audit for t3code found and repaired 109 stale, wrong or broken claims across 31 docs, reorganized the documentation tree, verified claims against source, and has passing PR checks."
+    },
+    {
+      "url": "https://github.com/manaflow-ai/subrouter/pull/102",
+      "seen_at": "2026-07-29T07:37:47Z",
+      "summary": "Manaflow's Claude Code compatibility work found that auto-mode classifier requests were sent to an unusable Opus Bedrock route and that Fable rejects thinking: disabled; the fix routes only the classifier to Fable and reports live reproduction plus green CI."
+    },
+    {
+      "url": "https://github.com/JIGGAI/JIGGA/pull/166",
+      "seen_at": "2026-07-29T07:37:47Z",
+      "summary": "A Claude Fable 5 co-authored JIGGA PR implements opt-in Bubblewrap agent sandboxing with filesystem/environment/process/network isolation, a real Bubblewrap integration run, and seven focused tests within a reported 990-test suite."
     }
   ],
-  "last_run": "2026-07-29T06:30:04Z"
+  "last_run": "2026-07-29T07:37:47Z"
 }
