@@ -10429,7 +10429,27 @@
       "url": "https://github.com/ddnet/ddnet/pull/12396",
       "seen_at": "2026-07-29T14:11:33Z",
       "summary": "DDNet contributor def- reports Fable 5 wrote a merged 36-line server-network batching patch that coalesces per-packet flushes into one outbound packet per recipient; the author tested it in-game, a maintainer approved it, and all 37 current checks passed."
+    },
+    {
+      "url": "https://github.com/YarinBeni/HUJI-THESIS--YARIN/pull/5",
+      "seen_at": "2026-07-29T15:15:57Z",
+      "summary": "Yarin Beni used Fable 5 to rebuild a data-driven 31-slide study of spatial and temporal representation in language models, surfacing an entity-name time signal but no reliable geographic signal and identifying translation supervision as the viable low-resource-Akkadian route."
+    },
+    {
+      "url": "https://github.com/compiler-research/CppInterOp/pull/1077",
+      "seen_at": "2026-07-29T15:15:57Z",
+      "summary": "Emery Conrad used Claude Code with Fable 5 to diagnose a glibc symbol-resolution hole in an in-process C++ JIT and add a Linux-specific generator plus an end-to-end regression test; Codecov reports all modified coverable lines tested."
+    },
+    {
+      "url": "https://github.com/mastra-ai/mastra/pull/20372",
+      "seen_at": "2026-07-29T15:15:57Z",
+      "summary": "Mastra used Fable 5 to harden its Factory PR-review agent after it had approved an install-breaking engines mismatch, adding evidence disposition, execution, adversarial-approval, and prompt-injection rules with contract tests and a manual A/B check."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13492",
+      "seen_at": "2026-07-29T15:15:57Z",
+      "summary": "Zoltan Kochan and Claude Fable 5 diagnosed pnpm's N-API lockfile churn as unordered Rust HashMap deserialization, replacing it with IndexMap and adding fallback diagnostics; the open PR's current TypeScript success check passes."
     }
   ],
-  "last_run": "2026-07-29T14:11:33Z"
+  "last_run": "2026-07-29T15:15:57Z"
 }
