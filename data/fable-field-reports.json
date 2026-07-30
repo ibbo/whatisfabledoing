@@ -10654,7 +10654,22 @@
       "url": "https://github.com/ray910408/taipei-station-3d/pull/9",
       "seen_at": "2026-07-30T10:45:15Z",
       "summary": "A merged Claude Fable 5 co-authored Taipei Station 3D repair replaces an invalid average-width rail-trench approximation with an inset-quadrilateral construction, resolving a real B4 platform geometry obstruction; the project reports 437 tests and successful model export."
+    },
+    {
+      "url": "https://github.com/PowerDNS/pdns/pull/17783",
+      "seen_at": "2026-07-30T11:49:56Z",
+      "summary": "A PowerDNS contributor used Fable 5 for final review of generic PostgreSQL split-horizon DNS support, applied the accepted findings, and reports production validation on a two-node multi-tenant rDNS deployment alongside regression coverage."
+    },
+    {
+      "url": "https://github.com/WordPress/gutenberg/pull/80832",
+      "seen_at": "2026-07-30T11:49:56Z",
+      "summary": "A WordPress contributor used Claude Code with Fable 5 to investigate, implement, and test view-configuration override fixes, with human review and the current public CI matrix passing."
+    },
+    {
+      "url": "https://github.com/zarr-developers/zarr-python/pull/4218",
+      "seen_at": "2026-07-30T11:49:56Z",
+      "summary": "A Fable-assisted Zarr change replaces per-chunk array materialization with fixed or varying chunk-grid dimensions, avoiding O(number of chunks) memory use for enormous regular arrays; the open PR's required lint, test, documentation, and pre-commit checks pass."
     }
   ],
-  "last_run": "2026-07-30T10:45:15Z"
+  "last_run": "2026-07-30T11:49:56Z"
 }
