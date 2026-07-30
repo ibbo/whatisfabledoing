@@ -10629,7 +10629,17 @@
       "url": "https://github.com/yfuka86/finance/pull/44",
       "seen_at": "2026-07-30T08:32:24Z",
       "summary": "Claude Fable 5 co-authored an investment-research postmortem correcting a supposedly 6.16bps/day flow alpha to 4.94bps/day, showing turnover and overnight seasonality make it unusable at retail trading costs, and rejecting an IV-regime overlay after out-of-sample tests."
+    },
+    {
+      "url": "https://github.com/yfuka86/finance/pull/45",
+      "seen_at": "2026-07-30T09:40:58Z",
+      "summary": "A Fable 5 co-authored production-constraint reappraisal of a Japanese-equities flow backtest finds gross Sharpe falling from 2.92–3.66 to 1.24–1.02 once borrowability and regulatory exclusions apply; the 6% of names that cannot be borrowed account for about 45% of the apparent alpha."
+    },
+    {
+      "url": "https://github.com/heyong4725/aisle/pull/70",
+      "seen_at": "2026-07-30T09:40:58Z",
+      "summary": "A Fable 5 co-authored Aisle ablation ran an expert workflow and agent-composed graphs on eight held-out mobile-task seeds: the expert scored 0.125 with five timeouts and two extra-item errors, while two agent systems scored 0.375 and 0.5 with no extra-item deliveries; the source reports matching frozen environments and explicit small-sample, revision-skew, and single-session caveats."
     }
   ],
-  "last_run": "2026-07-30T08:32:24Z"
+  "last_run": "2026-07-30T09:40:58Z"
 }
