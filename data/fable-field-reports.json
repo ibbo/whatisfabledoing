@@ -10809,7 +10809,17 @@
       "url": "https://github.com/VaDi-ai/bender_shop/pull/72",
       "seen_at": "2026-07-30T20:29:24Z",
       "summary": "A Claude Code/Fable 5 change brought bot-equivalent customer segments and targeted broadcast controls to Bender Shop's mini-app, including role gates, recipient recounting at send time, and 16 new tests; it was merged with its public test check passing."
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri/pull/681",
+      "seen_at": "2026-07-30T21:33:53Z",
+      "summary": "Fable 5 authored a merged Colibri HIP compatibility fix for MI50/Vega and RDNA1/RDNA2 cards; a follow-up hardware report found GPU enablement could collapse CPU-tier throughput without OpenMP affinity tuning, then restore and exceed CPU-only performance when tuned."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/665",
+      "seen_at": "2026-07-30T21:33:53Z",
+      "summary": "A Claude Fable 5 MLXFast submission promoted a staged expert-gather default from 128 to 256 threadgroups after source-derived exactness work and local Swift tests, but the official timed paired benchmark failed and the PR closed unpromoted."
     }
   ],
-  "last_run": "2026-07-30T20:29:24Z"
+  "last_run": "2026-07-30T21:33:53Z"
 }
