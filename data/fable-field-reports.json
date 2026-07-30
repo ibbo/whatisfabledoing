@@ -10564,7 +10564,12 @@
       "url": "https://github.com/pytorch/pytorch/pull/191563",
       "seen_at": "2026-07-30T03:07:29Z",
       "summary": "PyTorch maintainer Edward Z. Yang used Claude Code/Fable 5 for a CUDA-graph annotation change that attaches autograd node hooks so backward kernels receive the same marks as forward kernels, with tests for same/separate captures, nested scopes, and eager no-op behavior."
+    },
+    {
+      "url": "https://github.com/baochipham942-eng/code-agent/pull/830",
+      "seen_at": "2026-07-30T04:12:39Z",
+      "summary": "Claude Fable 5 traced a React #185 crash in a code-agent UI past the virtualizer stack frame to an upstream artifactIds identity loop measured at about 235 renders per second. The fix uses a content-derived key, stabilizes two additional props, confines message failures to a session boundary, and turns a prior 144-second CI timeout into a 1.3-second 200-render-budget regression failure; three renderer checks are green while the broad smoke suite runs."
     }
   ],
-  "last_run": "2026-07-30T03:07:29Z"
+  "last_run": "2026-07-30T04:12:39Z"
 }
