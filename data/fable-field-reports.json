@@ -10769,7 +10769,32 @@
       "url": "https://github.com/intendant-dev/Intendant/pull/679",
       "seen_at": "2026-07-30T18:18:19Z",
       "summary": "An Intendant user wire-captured Fable 5 under Claude Code 2.1.220 and found supervised print-mode streams provide empty, signature-only thinking shells; the resulting UI intentionally mirrors available transcript reasoning rather than fabricating hidden text."
+    },
+    {
+      "url": "https://github.com/JuliaCI/BenchmarkTools.jl/pull/430",
+      "seen_at": "2026-07-30T19:23:26Z",
+      "summary": "Kristoffer Carlsson's Fable 5 co-authored BenchmarkTools.jl change reduces post-benchmark GC scrubbing from three sweeps to two on Julia 1.10+, based on 1 GiB live-heap measurements across four Julia releases and a green cross-version CI matrix."
+    },
+    {
+      "url": "https://github.com/mixelpixx/Konnect/pull/106",
+      "seen_at": "2026-07-30T19:23:26Z",
+      "summary": "A Fable 5 co-authored Konnect MCP fix changes client-facing tool results from pretty to compact JSON, cutting a measured toolbox response from 4,684 to 3,632 bytes while preserving formatted files on disk."
+    },
+    {
+      "url": "https://github.com/mixelpixx/Konnect/pull/108",
+      "seen_at": "2026-07-30T19:23:26Z",
+      "summary": "A companion Fable 5 co-authored Konnect change reduces default KiCad board-render previews sent into agent context from 1600x900 or larger to 800x600, with explicit caller overrides and server-side bounds."
+    },
+    {
+      "url": "https://github.com/EveryInc/compound-engineering-plugin/pull/1283",
+      "seen_at": "2026-07-30T19:23:26Z",
+      "summary": "A Fable 5 maintenance pass for compound-engineering-plugin turns a real cross-model dispatch failure caused by an unlisted route-token vocabulary into explicit documentation and a reference-to-worker parity test; 2,842 tests pass."
+    },
+    {
+      "url": "https://github.com/Jacksnow14/paperclip/pull/191",
+      "seen_at": "2026-07-30T19:23:26Z",
+      "summary": "A Fable 5 agent built Paperclip's merge-debt detector after a four-day merge freeze left 20+ clean PRs stacked behind master, adding fail-loud GitHub API probes, replay tests, and a live-fire check."
     }
   ],
-  "last_run": "2026-07-30T18:18:19Z"
+  "last_run": "2026-07-30T19:23:26Z"
 }
