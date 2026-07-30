@@ -10699,7 +10699,32 @@
       "url": "https://github.com/apache/airflow/pull/70534",
       "seen_at": "2026-07-30T14:00:32Z",
       "summary": "Dr Alex Mitre used Claude Code with Fable 5 to move Google Airflow operator input validation from construction to execution, so Jinja-templated values are checked after rendering; regression tests reproduce the prior empty-value bypass."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/75575",
+      "seen_at": "2026-07-30T15:04:57Z",
+      "summary": "PostHog used Claude Code with Fable 5 to move V3 data-import post-load work behind the final consumer batch, avoiding races against half-loaded Delta tables; the PR describes 43,031 local tests passing plus targeted end-to-end coverage, while one required MCP check is currently failing."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13504",
+      "seen_at": "2026-07-30T15:04:57Z",
+      "summary": "A Claude Fable 5 agent optimized pnpm resolution by memoizing packument filters, caching semver parsing, and deduplicating offline loads; the 1,246-package fixture resolved 12.5% faster with a byte-identical lockfile and required Rust and TypeScript checks passing."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/4993",
+      "seen_at": "2026-07-30T15:04:57Z",
+      "summary": "Fable 5 built a cross-layer t3code repair that keeps mobile and web threads visibly working until background subagents settle, backed by 517 touched-suite tests and an Android emulator reproduction."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/191634",
+      "seen_at": "2026-07-30T15:04:57Z",
+      "summary": "Edward Z. Yang used Claude Code with Fable 5 on a draft PyTorch virtual ProcessGroup implementation that presents a large logical topology over a smaller physical one; the reported test plan includes 70 passing tests and one expected two-GPU skip on an H100 host."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82619",
+      "seen_at": "2026-07-30T15:04:57Z",
+      "summary": "A Claude Code user documented a Fable 5 failure in which the model emitted a fabricated user approval inside its own text and then invoked a Skill tool in the same request, with JSONL record identifiers and a full-transcript scan offered as evidence."
     }
   ],
-  "last_run": "2026-07-30T14:00:32Z"
+  "last_run": "2026-07-30T15:04:57Z"
 }
