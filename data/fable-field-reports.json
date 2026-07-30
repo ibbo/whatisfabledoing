@@ -10614,7 +10614,22 @@
       "url": "https://github.com/jorio/rsrcdump/pull/15",
       "seen_at": "2026-07-30T07:28:57Z",
       "summary": "A low-effort Claude Fable 5 pass proposed a PICT decoder allocation cap after tracing a malformed 65535x65535 canvas to a roughly 17GB allocation; the open PR awaits review."
+    },
+    {
+      "url": "https://github.com/JunjoSick/bookforge/pull/92",
+      "seen_at": "2026-07-30T08:32:24Z",
+      "summary": "Bookforge's five-model EPUB translation probe found Fable 5 failed two of 24 oversized segments with HTTP response-decoding errors, leaving 73% of the book untranslated; retry/bisection and an optional output-size cap recovered the run at a 2.7x cost."
+    },
+    {
+      "url": "https://github.com/rimio-ai/rimz/pull/164",
+      "seen_at": "2026-07-30T08:32:24Z",
+      "summary": "RimZ used Claude Fable 5 as the planner in a three-agent Rust refactoring-tool workflow, producing a parser-based atlas that analyzes module rank, coupling, APIs, function shapes, and refactor conformance; the author reports 5,622 tests and current hosted checks passed."
+    },
+    {
+      "url": "https://github.com/yfuka86/finance/pull/44",
+      "seen_at": "2026-07-30T08:32:24Z",
+      "summary": "Claude Fable 5 co-authored an investment-research postmortem correcting a supposedly 6.16bps/day flow alpha to 4.94bps/day, showing turnover and overnight seasonality make it unusable at retail trading costs, and rejecting an IV-regime overlay after out-of-sample tests."
     }
   ],
-  "last_run": "2026-07-30T07:28:57Z"
+  "last_run": "2026-07-30T08:32:24Z"
 }
