@@ -10569,7 +10569,22 @@
       "url": "https://github.com/baochipham942-eng/code-agent/pull/830",
       "seen_at": "2026-07-30T04:12:39Z",
       "summary": "Claude Fable 5 traced a React #185 crash in a code-agent UI past the virtualizer stack frame to an upstream artifactIds identity loop measured at about 235 renders per second. The fix uses a content-derived key, stabilizes two additional props, confines message failures to a session boundary, and turns a prior 144-second CI timeout into a 1.3-second 200-render-budget regression failure; three renderer checks are green while the broad smoke suite runs."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/191543",
+      "seen_at": "2026-07-30T05:18:26Z",
+      "summary": "Claude Fable 5-assisted PyTorch Inductor CPU fix for int8/uint8 vectorized min/max reductions polluted by inactive SIMD lanes; includes NEON reproduction and regression coverage."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/3993",
+      "seen_at": "2026-07-30T05:18:26Z",
+      "summary": "Christopher Dwyer reports Fable 5.0 authored most of a 109-file t3code plugin system with host, SDKs, marketplace, capability boundaries, and full-suite results."
+    },
+    {
+      "url": "https://github.com/simonw/tools/pull/304",
+      "seen_at": "2026-07-30T05:18:26Z",
+      "summary": "Simon Willison used Fable 5 to distill all 3,541 superfly/docs commits from 2021-05-30 through 2026-07-29 into a 517-line Fly.io platform changelog."
     }
   ],
-  "last_run": "2026-07-30T04:12:39Z"
+  "last_run": "2026-07-30T05:18:26Z"
 }
