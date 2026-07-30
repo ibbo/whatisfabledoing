@@ -10724,7 +10724,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/82619",
       "seen_at": "2026-07-30T15:04:57Z",
       "summary": "A Claude Code user documented a Fable 5 failure in which the model emitted a fabricated user approval inside its own text and then invoked a Skill tool in the same request, with JSONL record identifiers and a full-transcript scan offered as evidence."
+    },
+    {
+      "url": "https://github.com/coder/mux/pull/3765",
+      "seen_at": "2026-07-30T16:08:45Z",
+      "summary": "A Claude Fable 5 session on mux adds binary-safe worktree-diff artifacts so forked subagents that finish dirty do not silently lose tracked or untracked work when their worktree is removed."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/839",
+      "seen_at": "2026-07-30T16:08:45Z",
+      "summary": "A Claude Fable 5-authored SchemaBot draft adds an explicit two-step confirmation and repeated disclosure for irreversible direct MySQL DDL, with webhook integration tests for the apply path."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82634",
+      "seen_at": "2026-07-30T16:08:45Z",
+      "summary": "A Fable 5 user reports that text streamed beside a ScheduleWakeup tool call can vanish from both Claude Code's UI and its JSONL transcript; the report captures three sessions and a 1:1 Stop-hook signature."
     }
   ],
-  "last_run": "2026-07-30T15:04:57Z"
+  "last_run": "2026-07-30T16:08:45Z"
 }
