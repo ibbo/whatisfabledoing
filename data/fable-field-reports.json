@@ -10754,7 +10754,22 @@
       "url": "https://github.com/pnpm/pnpm/pull/13506",
       "seen_at": "2026-07-30T17:13:29Z",
       "summary": "A Claude Fable 5 performance pass reduces pnpm's Rust peer resolver on a 114-importer, 25k-node workspace from roughly 77s to 36s by avoiding redundant discovery/ownership work and using FxHash; the author reports 7,495 workspace tests and current Rust CI passing."
+    },
+    {
+      "url": "https://github.com/mastra-ai/mastra/pull/20474",
+      "seen_at": "2026-07-30T18:18:19Z",
+      "summary": "A Claude Fable 5 co-authored Mastra Factory recovery pass restores review-session tool and sandbox state after server crashes, prevents end-of-run rationale retry loops, and byte-checks deployed skill bundles against their canonical source."
+    },
+    {
+      "url": "https://github.com/PostHog/posthog/pull/75711",
+      "seen_at": "2026-07-30T18:18:19Z",
+      "summary": "PostHog used Claude Code/Fable 5 for a feature-gated reviewer-selection turn that lets a research agent choose from ranked candidates and human correction history while retaining validation and deterministic fallback; public review identified unresolved identity-boundary concerns."
+    },
+    {
+      "url": "https://github.com/intendant-dev/Intendant/pull/679",
+      "seen_at": "2026-07-30T18:18:19Z",
+      "summary": "An Intendant user wire-captured Fable 5 under Claude Code 2.1.220 and found supervised print-mode streams provide empty, signature-only thinking shells; the resulting UI intentionally mirrors available transcript reasoning rather than fabricating hidden text."
     }
   ],
-  "last_run": "2026-07-30T17:13:29Z"
+  "last_run": "2026-07-30T18:18:19Z"
 }
