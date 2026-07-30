@@ -10684,7 +10684,22 @@
       "url": "https://github.com/pingdotgg/t3code/pull/4975",
       "seen_at": "2026-07-30T12:55:00Z",
       "summary": "Claude Fable 5 co-authored a merged t3code repair for Vercel builds failing after cached node_modules accumulated more than 100 tsgo backups; the fix cleans stale backups before prepare and passed CI, release smoke, and hosted deployment checks."
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/pull/546687",
+      "seen_at": "2026-07-30T14:00:32Z",
+      "summary": "Oliver Kopp used Claude Code with Fable 5 to package the AuthPass Flutter password manager for NixOS, resolving obsolete release and structured-attribute build issues; the PR reports x86_64 builds, nixpkgs-review, binary smoke tests, and passing CI."
+    },
+    {
+      "url": "https://github.com/Project-Robius-China/robrix2/pull/277",
+      "seen_at": "2026-07-30T14:00:32Z",
+      "summary": "Robrix2 used a Claude Fable 5 performance review to harden and speed Matrix room switching: hidden timelines are gated, sync updates coalesced, and review findings resolved, with 575 passing Rust tests and maintainer approval subject to tracked follow-ups."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70534",
+      "seen_at": "2026-07-30T14:00:32Z",
+      "summary": "Dr Alex Mitre used Claude Code with Fable 5 to move Google Airflow operator input validation from construction to execution, so Jinja-templated values are checked after rendering; regression tests reproduce the prior empty-value bypass."
     }
   ],
-  "last_run": "2026-07-30T12:55:00Z"
+  "last_run": "2026-07-30T14:00:32Z"
 }
