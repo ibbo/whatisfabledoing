@@ -10599,7 +10599,22 @@
       "url": "https://github.com/paulhkang94/acuity/pull/4",
       "seen_at": "2026-07-30T06:23:54Z",
       "summary": "Claude Fable 5 co-authored a merged macOS display-controller repair in Acuity: it skips redundant WindowServer mode transactions on launch and refreshes display topology whenever the status menu opens. The author reports 75 Swift tests and a full Claude verification script passing."
+    },
+    {
+      "url": "https://github.com/KristofferC/Tachometer.jl/pull/11",
+      "seen_at": "2026-07-30T07:28:57Z",
+      "summary": "Claude Fable 5 co-authored a merged Tachometer.jl demo dashboard that generates a seeded, realistic benchmark history and deploys it to GitHub Pages."
+    },
+    {
+      "url": "https://github.com/Abrechen2/sublarr/pull/163",
+      "seen_at": "2026-07-30T07:28:57Z",
+      "summary": "Claude Fable 5 co-authored an open Sublarr login-loop fix triggered by stale API keys after authenticated UI sessions; it adds backend and frontend regression coverage."
+    },
+    {
+      "url": "https://github.com/jorio/rsrcdump/pull/15",
+      "seen_at": "2026-07-30T07:28:57Z",
+      "summary": "A low-effort Claude Fable 5 pass proposed a PICT decoder allocation cap after tracing a malformed 65535x65535 canvas to a roughly 17GB allocation; the open PR awaits review."
     }
   ],
-  "last_run": "2026-07-30T06:23:54Z"
+  "last_run": "2026-07-30T07:28:57Z"
 }
