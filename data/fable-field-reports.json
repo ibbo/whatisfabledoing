@@ -10819,7 +10819,22 @@
       "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/665",
       "seen_at": "2026-07-30T21:33:53Z",
       "summary": "A Claude Fable 5 MLXFast submission promoted a staged expert-gather default from 128 to 256 threadgroups after source-derived exactness work and local Swift tests, but the official timed paired benchmark failed and the PR closed unpromoted."
+    },
+    {
+      "url": "https://github.com/apache/datafusion/pull/24020",
+      "seen_at": "2026-07-30T22:38:50Z",
+      "summary": "Claude Fable 5 rewrote DataFusion's HashJoinStream state machine as an async generator; ordinary hosted tests passed but clippy and rustdoc rejected the open PR, and the author says the result still needs simplification."
+    },
+    {
+      "url": "https://github.com/zcash/ironwood/pull/139",
+      "seen_at": "2026-07-30T22:38:50Z",
+      "summary": "Claude Fable 5-assisted Zcash Ironwood formalization adds all-prefix Orchard balance and spend-authority probability bounds with machine-checked Lean proofs; the open PR's Lean, formalization, fixture, and book checks are currently green."
+    },
+    {
+      "url": "https://github.com/fulmenhq/pyfulmen/pull/5",
+      "seen_at": "2026-07-30T22:38:50Z",
+      "summary": "Dave Thompson used Claude Code with Fable 5 under supervision for a merged PyFulmen API and telemetry repair: explicit hash-verification/reader APIs, constant-time comparisons, global metrics registry routing, and 78 new tests; public build, security-audit, and cross-platform test checks passed."
     }
   ],
-  "last_run": "2026-07-30T21:33:53Z"
+  "last_run": "2026-07-30T22:38:50Z"
 }
