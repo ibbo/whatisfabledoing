@@ -10739,7 +10739,22 @@
       "url": "https://github.com/anthropics/claude-code/issues/82634",
       "seen_at": "2026-07-30T16:08:45Z",
       "summary": "A Fable 5 user reports that text streamed beside a ScheduleWakeup tool call can vanish from both Claude Code's UI and its JSONL transcript; the report captures three sessions and a 1:1 Stop-hook signature."
+    },
+    {
+      "url": "https://github.com/ProjectSidewalk/RampNet/pull/89",
+      "seen_at": "2026-07-30T17:13:29Z",
+      "summary": "Claude Fable 5 built RampNet's ninth city evaluation split from Gainesville GSV imagery; its 125-panorama ground-truth pass measured 0.943 precision / 0.647 recall, informed the seven-city operating-point analysis, and passed 241 tests."
+    },
+    {
+      "url": "https://github.com/makecindy/cindy/pull/1105",
+      "seen_at": "2026-07-30T17:13:29Z",
+      "summary": "A Fable 5-assisted Cindy desktop fix normalizes `claude-fable-5[1m]` discovery-cache identifiers that had made subscribed Fable sessions falsely look disconnected, with cache self-healing and two regressions; it was merged after focused, unit, typecheck, and public CI passes."
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/pull/13506",
+      "seen_at": "2026-07-30T17:13:29Z",
+      "summary": "A Claude Fable 5 performance pass reduces pnpm's Rust peer resolver on a 114-importer, 25k-node workspace from roughly 77s to 36s by avoiding redundant discovery/ownership work and using FxHash; the author reports 7,495 workspace tests and current Rust CI passing."
     }
   ],
-  "last_run": "2026-07-30T16:08:45Z"
+  "last_run": "2026-07-30T17:13:29Z"
 }
