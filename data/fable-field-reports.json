@@ -10509,7 +10509,22 @@
       "url": "https://github.com/maplibre/maplibre-gl-js/pull/8049",
       "seen_at": "2026-07-29T21:49:33Z",
       "summary": "Claude Fable 5 assisted a MapLibre terrain tile-LOD fix that measures each tile's own elevation range beneath a pitched camera, with 57 added test lines; build, unit, and integration jobs pass, while code-hygiene and two render-test matrix jobs currently fail."
+    },
+    {
+      "url": "https://github.com/ProfessionalWiki/NeoWiki/pull/1215",
+      "seen_at": "2026-07-30T00:57:45Z",
+      "summary": "Claude Fable 5 authored a NeoWiki frontend-store rewrite that gives schema, layout, and subject registries explicit fetch semantics, epoch-guards async write-backs against mutations, and removes reload-dependent deletes; the author reports 1,168 Vitest tests, build, lint, and manual browser checks."
+    },
+    {
+      "url": "https://github.com/filipkunc/wrap-esm-lambda/pull/21",
+      "seen_at": "2026-07-30T00:57:45Z",
+      "summary": "Claude Fable 5 co-authored a runnable Hono-on-AWS-Lambda example for wrap-esm-lambda, instrumenting handler timing/RSS, route templates, and AWS SDK calls, then verifying real Runtime Interface Emulator output and cgroup peak memory after proving the emulator REPORT memory field only echoes configuration."
+    },
+    {
+      "url": "https://github.com/baochipham942-eng/code-agent/pull/828",
+      "seen_at": "2026-07-30T00:57:45Z",
+      "summary": "Claude Fable 5 co-authored a Tauri 2 packaging fix after remote-renderer custom commands were silently denied for three months: it adds explicit ACL manifests for 36 commands, isolates the PiP permission, emits fallback-path diagnostics, and tests that registered commands and grants remain in sync."
     }
   ],
-  "last_run": "2026-07-29T21:49:33Z"
+  "last_run": "2026-07-30T00:57:45Z"
 }
