@@ -10584,7 +10584,22 @@
       "url": "https://github.com/simonw/tools/pull/304",
       "seen_at": "2026-07-30T05:18:26Z",
       "summary": "Simon Willison used Fable 5 to distill all 3,541 superfly/docs commits from 2021-05-30 through 2026-07-29 into a 517-line Fly.io platform changelog."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/6",
+      "seen_at": "2026-07-30T06:23:54Z",
+      "summary": "Claude Fable 5 submitted a targeted non-temporal-store and serialization optimization to Layr Labs' Flock challenge; the verified 100-trial result scored 515,710.53 compressions/s, below the 519,833.29 frontier, so it was not promoted."
+    },
+    {
+      "url": "https://github.com/husker/a2acast/pull/164",
+      "seen_at": "2026-07-30T06:23:54Z",
+      "summary": "Claude Fable 5 co-authored and merged an opt-in watchdog for a2acast receivers that restarts a process after a stale heartbeat, covering a real four-day wake-blocked failure mode. The project reports 1,162 tests and a passing macOS/Linux/Windows CI matrix."
+    },
+    {
+      "url": "https://github.com/paulhkang94/acuity/pull/4",
+      "seen_at": "2026-07-30T06:23:54Z",
+      "summary": "Claude Fable 5 co-authored a merged macOS display-controller repair in Acuity: it skips redundant WindowServer mode transactions on launch and refreshes display topology whenever the status menu opens. The author reports 75 Swift tests and a full Claude verification script passing."
     }
   ],
-  "last_run": "2026-07-30T05:18:26Z"
+  "last_run": "2026-07-30T06:23:54Z"
 }
