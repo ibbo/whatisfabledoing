@@ -10794,7 +10794,22 @@
       "url": "https://github.com/Jacksnow14/paperclip/pull/191",
       "seen_at": "2026-07-30T19:23:26Z",
       "summary": "A Fable 5 agent built Paperclip's merge-debt detector after a four-day merge freeze left 20+ clean PRs stacked behind master, adding fail-loud GitHub API probes, replay tests, and a live-fire check."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/658",
+      "seen_at": "2026-07-30T20:29:24Z",
+      "summary": "A Claude Fable 5 submission to Layr Labs' MLXFast benchmark used key-batched SDPA pipelining plus bit-exact fusion work; it passed local token-identity checks and measured 3% faster locally, but the official paired benchmark failed and the PR closed unpromoted."
+    },
+    {
+      "url": "https://github.com/kms254/Mustang-Dash-Test/pull/13",
+      "seen_at": "2026-07-30T20:29:24Z",
+      "summary": "A Fable 5-assisted KiCad repair eliminated five airwires from a Mustang dashboard board by adding verified power and ground vias and rerouting a congested IC ground exit; automated board checks reported zero unconnected items and no new DRC violations."
+    },
+    {
+      "url": "https://github.com/VaDi-ai/bender_shop/pull/72",
+      "seen_at": "2026-07-30T20:29:24Z",
+      "summary": "A Claude Code/Fable 5 change brought bot-equivalent customer segments and targeted broadcast controls to Bender Shop's mini-app, including role gates, recipient recounting at send time, and 16 new tests; it was merged with its public test check passing."
     }
   ],
-  "last_run": "2026-07-30T19:23:26Z"
+  "last_run": "2026-07-30T20:29:24Z"
 }
