@@ -10544,7 +10544,27 @@
       "url": "https://github.com/eggtartqaq-star/horse-monitor/pull/2",
       "seen_at": "2026-07-30T02:02:15Z",
       "summary": "A Claude Fable 5 session built a 33-role research-agent workflow for a personal investment project, including research, risk, audit, committee, and post-mortem commands plus persistent decision records. Its logged audit rounds found and corrected its own wrong FY2025 net-income claim, scorecard over-weighting, stale drawdown data, PDF-generator import failure, and missing decision records; the PR remains open and has no automated checks."
+    },
+    {
+      "url": "https://github.com/tursodatabase/turso/pull/8071",
+      "seen_at": "2026-07-30T03:07:29Z",
+      "summary": "Claude Fable 5 adversarially reviewed Turso's sync-server request reader, reproduced an 8 MiB unterminated-header path that consumed 55.74 seconds of CPU and a u64::MAX Content-Length crash, then authored bounded linear-scan and overflow fixes with reproduction-based tests."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70485",
+      "seen_at": "2026-07-30T03:07:29Z",
+      "summary": "Dr Alex Mitre used Claude Code with Fable 5 to fix two Apache Airflow SageMaker operators that applied validation or tag formatting before Jinja template fields had rendered, adding tests and removing the exemptions from Airflow's operator-init validator."
+    },
+    {
+      "url": "https://github.com/numpy/numpy/pull/32140",
+      "seen_at": "2026-07-30T03:07:29Z",
+      "summary": "NumPy maintainer Ralf Gommers says Claude Fable 5 implemented, and he manually reviewed and tweaked, a change making Hypothesis an optional test dependency after its Rust migration complicated niche and sanitizer builds; the PR adds guarded helpers, revised CI requirements, and documentation."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/191563",
+      "seen_at": "2026-07-30T03:07:29Z",
+      "summary": "PyTorch maintainer Edward Z. Yang used Claude Code/Fable 5 for a CUDA-graph annotation change that attaches autograd node hooks so backward kernels receive the same marks as forward kernels, with tests for same/separate captures, nested scopes, and eager no-op behavior."
     }
   ],
-  "last_run": "2026-07-30T02:02:15Z"
+  "last_run": "2026-07-30T03:07:29Z"
 }
