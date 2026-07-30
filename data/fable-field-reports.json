@@ -10669,7 +10669,22 @@
       "url": "https://github.com/zarr-developers/zarr-python/pull/4218",
       "seen_at": "2026-07-30T11:49:56Z",
       "summary": "A Fable-assisted Zarr change replaces per-chunk array materialization with fixed or varying chunk-grid dimensions, avoiding O(number of chunks) memory use for enormous regular arrays; the open PR's required lint, test, documentation, and pre-commit checks pass."
+    },
+    {
+      "url": "https://github.com/JunjoSick/bookforge/pull/98",
+      "seen_at": "2026-07-30T12:55:00Z",
+      "summary": "Bookforge's six-model translation comparison found Fable 5 default batching completed 75 of 165 blocks and cost $6.12 on the same text; the author declined to rank quality after the two judges disagreed and documented billing and judge-calibration limits."
+    },
+    {
+      "url": "https://github.com/kido-luci/open-pencil/pull/1",
+      "seen_at": "2026-07-30T12:55:00Z",
+      "summary": "Claude Fable 5 co-authored and merged three production-Figma rendering fixes in OpenPencil: detached fill-style restoration, component-master text sizing, and platform color-emoji fallback, with pixel comparisons and stable test counts."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/4975",
+      "seen_at": "2026-07-30T12:55:00Z",
+      "summary": "Claude Fable 5 co-authored a merged t3code repair for Vercel builds failing after cached node_modules accumulated more than 100 tsgo backups; the fix cleans stale backups before prepare and passed CI, release smoke, and hosted deployment checks."
     }
   ],
-  "last_run": "2026-07-30T11:49:56Z"
+  "last_run": "2026-07-30T12:55:00Z"
 }
