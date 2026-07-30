@@ -10524,7 +10524,27 @@
       "url": "https://github.com/baochipham942-eng/code-agent/pull/828",
       "seen_at": "2026-07-30T00:57:45Z",
       "summary": "Claude Fable 5 co-authored a Tauri 2 packaging fix after remote-renderer custom commands were silently denied for three months: it adds explicit ACL manifests for 36 commands, isolates the PiP permission, emits fallback-path diagnostics, and tests that registered commands and grants remain in sync."
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/pull/191538",
+      "seen_at": "2026-07-30T02:02:15Z",
+      "summary": "PyTorch maintainer Edward Z. Yang used Claude Code with Fable 5 to fix fake-process-group pipelining choosing an impossible dynamic metadata mode; a two-rank regression reproduces the old pickle failure and the patch switches complete metadata to static mode or emits a targeted error. The author reports 59 schedule tests / 146 subtests plus a stage-suite run, while the PR remains in the merge queue with seven CI jobs pending."
+    },
+    {
+      "url": "https://github.com/IcebergAI/IcebergSST/pull/87",
+      "seen_at": "2026-07-30T02:02:15Z",
+      "summary": "A Claude Fable 5 full-codebase review of IcebergSST turned up and fixed material defects across redaction, scan orchestration, reconciliation, OIDC, schema deletion semantics, and deployment. The now-merged 25-file PR includes transactional fan-out and result claiming, guards against leaked overlapping snippets and unverified bootstrap-admin emails, and adds regression coverage around the race paths."
+    },
+    {
+      "url": "https://github.com/hollisakins/campfire/pull/448",
+      "seen_at": "2026-07-30T02:02:15Z",
+      "summary": "Claude Fable 5 authored a Campfire NIRSpec-table feature that lets astronomers pin up to 12 parent objects from either table view and revisit their snapshot metadata in an accessible pinned-object panel. Pins sync through the existing profile-preferences merge path with no schema migration, and the PR has a live Vercel preview; it is still open with no required checks."
+    },
+    {
+      "url": "https://github.com/eggtartqaq-star/horse-monitor/pull/2",
+      "seen_at": "2026-07-30T02:02:15Z",
+      "summary": "A Claude Fable 5 session built a 33-role research-agent workflow for a personal investment project, including research, risk, audit, committee, and post-mortem commands plus persistent decision records. Its logged audit rounds found and corrected its own wrong FY2025 net-income claim, scorecard over-weighting, stale drawdown data, PDF-generator import failure, and missing decision records; the PR remains open and has no automated checks."
     }
   ],
-  "last_run": "2026-07-30T00:57:45Z"
+  "last_run": "2026-07-30T02:02:15Z"
 }
