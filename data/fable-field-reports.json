@@ -10639,7 +10639,22 @@
       "url": "https://github.com/heyong4725/aisle/pull/70",
       "seen_at": "2026-07-30T09:40:58Z",
       "summary": "A Fable 5 co-authored Aisle ablation ran an expert workflow and agent-composed graphs on eight held-out mobile-task seeds: the expert scored 0.125 with five timeouts and two extra-item errors, while two agent systems scored 0.375 and 0.5 with no extra-item deliveries; the source reports matching frozen environments and explicit small-sample, revision-skew, and single-session caveats."
+    },
+    {
+      "url": "https://github.com/apache/airflow/pull/70528",
+      "seen_at": "2026-07-30T10:45:15Z",
+      "summary": "Claude Code with Fable 5 fixed Apache Airflow BigQuery DTS sensor template handling by deferring expected-status normalization until after Jinja rendering; a red-before-green regression test and the full current CI matrix are green."
+    },
+    {
+      "url": "https://github.com/owid/etl/pull/6561",
+      "seen_at": "2026-07-30T10:45:15Z",
+      "summary": "Our World in Data used Claude Fable 5 on a World Bank Indicators migration across 16 consumers and 11 DAGs, independently correcting an initial false claim of bit-identical outputs: six consumers change, including three published charts with sub-1% revisions in seven economies and new 2024/25 data."
+    },
+    {
+      "url": "https://github.com/ray910408/taipei-station-3d/pull/9",
+      "seen_at": "2026-07-30T10:45:15Z",
+      "summary": "A merged Claude Fable 5 co-authored Taipei Station 3D repair replaces an invalid average-width rail-trench approximation with an inset-quadrilateral construction, resolving a real B4 platform geometry obstruction; the project reports 437 tests and successful model export."
     }
   ],
-  "last_run": "2026-07-30T09:40:58Z"
+  "last_run": "2026-07-30T10:45:15Z"
 }
