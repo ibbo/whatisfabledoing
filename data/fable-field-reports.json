@@ -10864,7 +10864,27 @@
       "url": "https://github.com/cradle/newtonia/pull/390",
       "seen_at": "2026-07-31T00:47:37Z",
       "summary": "A Fable 5 co-authored Newtonia repair addresses replay, netplay, audio, touch, and build defects confirmed during review, with local regression drivers and part of the hosted matrix passing while several jobs remain in progress."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10531",
+      "seen_at": "2026-07-31T01:52:17Z",
+      "summary": "Claude Fable 5 helped Paperclip root-cause and fix large company imports failing through Cloud proxies by switching from inflated JSON to multipart zip uploads and a query-string async signal; the 11-file PR merged with its hosted test, e2e, build, review, and security checks passing."
+    },
+    {
+      "url": "https://github.com/secdev/scapy/pull/5067",
+      "seen_at": "2026-07-31T01:52:17Z",
+      "summary": "A Claude Fable 5-assisted Scapy fix prevents Modbus variable arrays from consuming bytes from a following TCP ADU: a nine-case sweep fell from seven failures to zero, with 164-to-167 passing tests and a targeted negative control."
+    },
+    {
+      "url": "https://github.com/apache/beam/pull/39203",
+      "seen_at": "2026-07-31T01:52:17Z",
+      "summary": "Apache Beam contributor Shahar Epstein reports using Claude Fable 5 end-to-end under supervision to add BigQuery quota-project attribution across Python, Java, and Go, including live permission/API-disabled GCP tests and broadly green hosted checks."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/705",
+      "seen_at": "2026-07-31T01:52:17Z",
+      "summary": "A Claude Fable 5 MLXFast zero-copy prefill-kernel submission documented route-diverse byte-identical oracle results and 446 Swift tests, but its official timed paired benchmark failed and it closed unpromoted."
     }
   ],
-  "last_run": "2026-07-31T00:47:37Z"
+  "last_run": "2026-07-31T01:52:17Z"
 }
