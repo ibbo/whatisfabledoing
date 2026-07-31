@@ -10959,7 +10959,22 @@
       "url": "https://github.com/bagofwords1/bagofwords/pull/836",
       "seen_at": "2026-07-31T07:17:49Z",
       "summary": "A Fable 5 co-authored Bagofwords feature added organization-group sharing for report artifacts and conversations, with typed principals, ownership validation, notifications, and end-to-end coverage."
+    },
+    {
+      "url": "https://github.com/jayantdahiya/ATTREQ/pull/5",
+      "seen_at": "2026-07-31T08:23:23Z",
+      "summary": "Claude Fable 5 co-authored ATTREQ’s native iOS application and recommendation-intelligence line, including CIELAB palette extraction, an outfit-composition engine, adaptive preference fitting, and a real FashionCLIP smoke that caught a transformers 5 incompatibility."
+    },
+    {
+      "url": "https://github.com/mhorvvitz/shufersal-shop/pull/5",
+      "seen_at": "2026-07-31T08:23:23Z",
+      "summary": "Claude Fable 5 co-authored Shufersal Shop support for local Chrome, Browserless, Browserbase, and generic CDP browsers, plus a real-connection diagnostic; 55 tests and a live remote-Chromium cart/login smoke are reported, while hosted-provider accounts remain untested."
+    },
+    {
+      "url": "https://github.com/RostyslavDzhohola/andri-wall-print/pull/5",
+      "seen_at": "2026-07-31T08:23:23Z",
+      "summary": "Claude Fable 5 co-authored a 102-file Wall Print Pro hardening pass covering canonical-URL allowlisting, rate caps and recovery for its Convex image-generation funnel, Android AR, security headers, and 70 reported end-to-end tests."
     }
   ],
-  "last_run": "2026-07-31T07:17:49Z"
+  "last_run": "2026-07-31T08:23:23Z"
 }
