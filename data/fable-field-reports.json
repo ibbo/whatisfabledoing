@@ -10974,7 +10974,22 @@
       "url": "https://github.com/RostyslavDzhohola/andri-wall-print/pull/5",
       "seen_at": "2026-07-31T08:23:23Z",
       "summary": "Claude Fable 5 co-authored a 102-file Wall Print Pro hardening pass covering canonical-URL allowlisting, rate caps and recovery for its Convex image-generation funnel, Android AR, security headers, and 70 reported end-to-end tests."
+    },
+    {
+      "url": "https://github.com/owid/owid-grapher/pull/6875",
+      "seen_at": "2026-07-31T09:30:08Z",
+      "summary": "Our World in Data maintainer danyx23 reports using Claude Fable 5 to move all runtime search paths from Algolia to Typesense, with live-container checks of synonyms, autocomplete, hybrid search, topic validation, latest pages, and feeds."
+    },
+    {
+      "url": "https://github.com/bertpl/max-div/pull/108",
+      "seen_at": "2026-07-31T09:30:08Z",
+      "summary": "Claude Fable 5 co-authored max-div\u2019s lazy vector-distance backend, which avoids materializing O(n\u00b2) pairwise arrays while matching precomputed distances, solver selections, and scores exactly; the current CI matrix is green."
+    },
+    {
+      "url": "https://github.com/TimNuman/Arpegginator/pull/28",
+      "seen_at": "2026-07-31T09:30:08Z",
+      "summary": "Claude Fable 5 co-authored Arpegginator\u2019s no_std Rust synth and AudioWorklet path: an allocation-free eight-voice engine shared by browser WASM and Teensy targets, verified in headless Chromium and by current CI."
     }
   ],
-  "last_run": "2026-07-31T08:23:23Z"
+  "last_run": "2026-07-31T09:30:08Z"
 }
