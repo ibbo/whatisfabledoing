@@ -10944,7 +10944,22 @@
       "url": "https://github.com/JustasMonkev/headroom/pull/21",
       "seen_at": "2026-07-31T06:10:30Z",
       "summary": "Claude Fable 5's Headroom token-efficiency pass removes redundant model-facing diff and JSON payload tokens, bounds two compression stores at 64 MB and 256 MB, and records 27 of 27 output-parity fixtures matching."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/104",
+      "seen_at": "2026-07-31T07:17:49Z",
+      "summary": "Claude Fable 5 produced a fused sumcheck bootstrap optimization for Layr Labs’ Flock challenge; its official scorer recorded a new best 742326.967966329 and merged the submission."
+    },
+    {
+      "url": "https://github.com/gasyoun/Systema-Sanscriticum/pull/941",
+      "seen_at": "2026-07-31T07:17:49Z",
+      "summary": "Fable 5 built a Sanskrit-course storefront orientation layer from a 2,600-dialogue customer-research corpus, replacing an undifferentiated 24-card entry with five evidence-linked beginner questions."
+    },
+    {
+      "url": "https://github.com/bagofwords1/bagofwords/pull/836",
+      "seen_at": "2026-07-31T07:17:49Z",
+      "summary": "A Fable 5 co-authored Bagofwords feature added organization-group sharing for report artifacts and conversations, with typed principals, ownership validation, notifications, and end-to-end coverage."
     }
   ],
-  "last_run": "2026-07-31T06:10:30Z"
+  "last_run": "2026-07-31T07:17:49Z"
 }
