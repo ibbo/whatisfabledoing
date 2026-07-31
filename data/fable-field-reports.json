@@ -11184,7 +11184,22 @@
   "url": "https://github.com/p-wegner/agentic-kanban/commit/a11e9fff255fccb7a2e244393ef586e17caaa6e0",
   "seen_at": "2026-07-31T22:34:19Z",
   "summary": "Peter Wegner used Fable 5 to implement agentic-kanban remote-worker Git transport: isolated workers clone, work in per-session worktrees, push staging refs, and the board fast-forwards only verified results; a true remote E2E test kept the board checkout untouched."
+},
+{
+  "url": "https://github.com/shazow/virtle/pull/49",
+  "seen_at": "2026-07-31T23:39:19Z",
+  "summary": "Andrey Petrov used Fable 5 for a nine-commit virtle architecture review and cleanup, covering readiness-buffer limits, balloon-controller retries, manifest fidelity, SSH safety, and QEMU-device representation. The author said the first five or six commits were good but the final three were bad or dubious, leaving the 39-file PR open."
+},
+{
+  "url": "https://github.com/jmgirard/intraclass/pull/101",
+  "seen_at": "2026-07-31T23:39:19Z",
+  "summary": "Jeffrey Girard co-authored a merged Fable 5 intraclass PR that ties documented MPL interval-method claims to a committed simulation fixture, with a mutation-tested checker in CI. The PR reports 5,106 passing tests, clean package checks and formatting, and an explicit ledger for 30 documentation-claim candidates."
+},
+{
+  "url": "https://github.com/tiffany-mares/music-translator/pull/9",
+  "seen_at": "2026-07-31T23:39:19Z",
+  "summary": "Tiffany Mares co-authored a merged Fable 5 Java learning-service Lambda for music-translator, backed by a live DynamoDB, API Gateway, and Cognito verification. The run inserted past- and future-due items, proved the due query returned only the past-due record, exercised authenticated and unauthenticated routes, and cleaned up afterward."
 }
 ],
-"last_run": "2026-07-31T22:34:19Z"
+"last_run": "2026-07-31T23:39:19Z"
 }
