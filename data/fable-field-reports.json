@@ -11154,7 +11154,22 @@
   "url": "https://github.com/wado-lang/wado/pull/1723",
   "seen_at": "2026-07-31T20:23:30Z",
   "summary": "A Fable 5 co-authored Wado compiler patch added compile-time evaluation for builtin integer-to-char conversion and multi-statement expression blocks, allowing 783 formerly blocked constant calls in sqlite-parse to fold. A best-of-nine measurement dropped from 2.899 to 2.753 ms per iteration, about 5%."
+},
+{
+  "url": "https://github.com/Layr-Labs/flock-challenge/pull/309",
+  "seen_at": "2026-07-31T21:30:06Z",
+  "summary": "A Claude Fable 5 FLOCK submission parallelized three PCS opening gathers after an occupancy-timeline study, kept proofs byte-identical and all library tests green, but the official 100-run benchmark scored below the current best and closed it unpromoted."
+},
+{
+  "url": "https://github.com/rolker/ros2_agent_workspace/issues/598",
+  "seen_at": "2026-07-31T21:30:06Z",
+  "summary": "During a Fable 5-assisted sandboxed review run, a failed git-worktree setup silently fell back to symlinking the main checkout, allowing the agent container to switch the real clone's branch; the source proposes fail-closed worktree creation with captured stderr."
+},
+{
+  "url": "https://github.com/rolker/ros2_agent_workspace/pull/600",
+  "seen_at": "2026-07-31T21:30:06Z",
+  "summary": "A Fable 5 Claude Code cycle added a warn-only pre-tool hook after recurring operator-context failures, covering question headers and status reports while guaranteeing it cannot block tool calls; the PR reports 12 smoke cases and adversarial review passes."
 }
 ],
-"last_run": "2026-07-31T20:23:30Z"
+"last_run": "2026-07-31T21:30:06Z"
 }
