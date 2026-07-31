@@ -10899,7 +10899,22 @@
       "url": "https://github.com/lt-foods/new_erp/pull/557",
       "seen_at": "2026-07-31T02:56:49Z",
       "summary": "A merged Claude Fable 5 co-authored warehouse-receiving change adds batched customer notifications with deduplication, feature control, and ten passing Playwright fixture checks reported by the author."
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/pull/547607",
+      "seen_at": "2026-07-31T04:01:58Z",
+      "summary": "NixOS contributor DenzoNL reports using Claude Code with Fable 5 to package RomM 5.1.0 as a NixOS service, including its Python backend, Vue frontend, nginx download path, optional PostgreSQL/Redis, NixOS tests, and a real-deployment smoke pass; the current Nixpkgs evaluation, lint, and build checks are green."
+    },
+    {
+      "url": "https://github.com/tokuhirom/mutsu/pull/5592",
+      "seen_at": "2026-07-31T04:01:58Z",
+      "summary": "A Fable 5 co-authored Mutsu regex-engine refactor replaces five parallel positional-capture collections with one span-backed PosSlot vector, eliminates fabricated spans and allocation-heavy backreference comparisons, and reports 628 cargo tests, 24,923 t/ tests, a 93-file roast, Clippy, and formatting clean; the remaining hosted test jobs are in progress."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/727",
+      "seen_at": "2026-07-31T04:01:58Z",
+      "summary": "A Claude Fable 5 MLXFast submission combines a fused output projection, software-pipelined attention kernel, and NVFP4 scale-decode simplification, with exhaustive and byte-identical correctness checks, local timing evidence, and 446 Swift tests; its official Swift and single-machine ranked benchmark jobs are still in progress."
     }
   ],
-  "last_run": "2026-07-31T02:56:49Z"
+  "last_run": "2026-07-31T04:01:58Z"
 }
