@@ -10929,7 +10929,22 @@
       "url": "https://github.com/paperclipai/paperclip/pull/10538",
       "seen_at": "2026-07-31T05:06:42Z",
       "summary": "After a real 1,418-issue import, Claude Fable 5 helped Paperclip fix inbox flooding, a false post-expiry failure state, and stale company switching; the merged PR's build, test, typecheck, E2E, review, and security checks passed."
+    },
+    {
+      "url": "https://github.com/jeong-sik/masc/pull/26525",
+      "seen_at": "2026-07-31T06:10:30Z",
+      "summary": "Claude Fable 5 helped MASC unify drifting startup and periodic JSONL-retention lists, cover 434 MB of event data and 406 MB of logs that had no retention, and validate the new pruning geometry with ten focused tests plus green hosted CI."
+    },
+    {
+      "url": "https://github.com/block/schemabot/pull/886",
+      "seen_at": "2026-07-31T06:10:30Z",
+      "summary": "Claude Fable 5 helped SchemaBot add a fail-closed plan-time direct-execution verdict for eligible small MySQL schema changes, with current GitHub unit, integration, MySQL, Vitess, Kubernetes, gRPC, and LocalScale test jobs passing."
+    },
+    {
+      "url": "https://github.com/JustasMonkev/headroom/pull/21",
+      "seen_at": "2026-07-31T06:10:30Z",
+      "summary": "Claude Fable 5's Headroom token-efficiency pass removes redundant model-facing diff and JSON payload tokens, bounds two compression stores at 64 MB and 256 MB, and records 27 of 27 output-parity fixtures matching."
     }
   ],
-  "last_run": "2026-07-31T05:06:42Z"
+  "last_run": "2026-07-31T06:10:30Z"
 }
