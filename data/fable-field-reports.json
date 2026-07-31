@@ -11079,7 +11079,27 @@
   "url": "https://github.com/Streamlined-Analytics/crispy-hummingbird/pull/5",
   "seen_at": "2026-07-31T16:02:02Z",
   "summary": "Ben Atkinson reports using Claude Code with Fable 5 for a Django package CI and release-hardening pass: SHA-pinned workflows, least-privilege permissions, 97% coverage gate measured at 99%, CodeQL, zizmor, and provenance publishing."
+},
+{
+  "url": "https://github.com/Formentera-Operations/formentera-doc-layer/pull/69",
+  "seen_at": "2026-07-31T17:06:24Z",
+  "summary": "A Claude Fable 5 co-authored document-ingestion change preserves Reducto structural blocks and provider chunks; a review-found empty-chunk ordering fault was hardened in a follow-up commit, with 2,863 repository tests green."
+},
+{
+  "url": "https://github.com/apache/texera/pull/7172",
+  "seen_at": "2026-07-31T17:06:24Z",
+  "summary": "Apache Texera used Claude Code with Fable 5 to route merge-queue builds across four self-hosted runner tiers, with a heartbeat-driven hosted fallback validated on a live 25-runner fleet."
+},
+{
+  "url": "https://github.com/rolker/unh_marine_autonomy/pull/287",
+  "seen_at": "2026-07-31T17:06:24Z",
+  "summary": "A Claude Code Fable 5 implementation built an atomic overview-pyramid sidecar for a marine sidescan store, turning 1,012 fine tiles into 479 overview tiles in a 1.4 GB, 12-minute-41-second real-store run."
+},
+{
+  "url": "https://github.com/oxidecomputer/sprockets/pull/108",
+  "seen_at": "2026-07-31T17:06:24Z",
+  "summary": "A Claude Fable 5-generated Oxide Sprockets patch bounds peer-controlled protocol messages before allocation, blocking a 4 GiB memory-exhaustion request with a named 1 MiB cap and regression test."
 }
 ],
-"last_run": "2026-07-31T16:02:02Z"
+"last_run": "2026-07-31T17:06:24Z"
 }
