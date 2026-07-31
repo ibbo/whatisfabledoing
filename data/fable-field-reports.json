@@ -10989,7 +10989,22 @@
       "url": "https://github.com/TimNuman/Arpegginator/pull/28",
       "seen_at": "2026-07-31T09:30:08Z",
       "summary": "Claude Fable 5 co-authored Arpegginator\u2019s no_std Rust synth and AudioWorklet path: an allocation-free eight-voice engine shared by browser WASM and Teensy targets, verified in headless Chromium and by current CI."
+    },
+    {
+      "url": "https://github.com/pingdotgg/t3code/pull/5095",
+      "seen_at": "2026-07-31T10:33:43Z",
+      "summary": "Claude Fable 5 helped diagnose and fix a t3code boot-service update rollback caused by a blocking systemd restart killing its own child process; --no-block handoff and a retained update lock prevent rollback and concurrent unit rewrites."
+    },
+    {
+      "url": "https://github.com/bertpl/max-div/pull/111",
+      "seen_at": "2026-07-31T10:33:43Z",
+      "summary": "Claude Fable 5 co-authored max-div's public selectable distance-storage backends, with a physical-memory-aware auto policy, bit-exact golden-master evidence, explicit infeasibility errors, and a broad public test matrix."
+    },
+    {
+      "url": "https://github.com/comet-ml/opik/pull/7677",
+      "seen_at": "2026-07-31T10:33:43Z",
+      "summary": "Claude Fable 5 implemented Opik Studio stalled-run detection from trial/item progress, lowering ordinary reaping from eight hours to 30 minutes, and a live ClickHouse investigation that fixed NaN aggregate row loss for unfinished traces."
     }
   ],
-  "last_run": "2026-07-31T09:30:08Z"
+  "last_run": "2026-07-31T10:33:43Z"
 }
