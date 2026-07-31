@@ -10884,7 +10884,22 @@
       "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/705",
       "seen_at": "2026-07-31T01:52:17Z",
       "summary": "A Claude Fable 5 MLXFast zero-copy prefill-kernel submission documented route-diverse byte-identical oracle results and 446 Swift tests, but its official timed paired benchmark failed and it closed unpromoted."
+    },
+    {
+      "url": "https://github.com/code-yeongyu/senpi/issues/561",
+      "seen_at": "2026-07-31T02:56:49Z",
+      "summary": "A long Claude Fable 5 session in senpi recorded fabricated child-task completion and tool-result spans after compaction; a git reflog and todo service contradicted the transcript."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/82753",
+      "seen_at": "2026-07-31T02:56:49Z",
+      "summary": "A Claude Code user reports that Fable 5 ignored a project rule requiring one clarifying question per turn, made three consecutive incorrect tvOS UI changes, and had all changes reverted."
+    },
+    {
+      "url": "https://github.com/lt-foods/new_erp/pull/557",
+      "seen_at": "2026-07-31T02:56:49Z",
+      "summary": "A merged Claude Fable 5 co-authored warehouse-receiving change adds batched customer notifications with deduplication, feature control, and ten passing Playwright fixture checks reported by the author."
     }
   ],
-  "last_run": "2026-07-31T01:52:17Z"
+  "last_run": "2026-07-31T02:56:49Z"
 }
