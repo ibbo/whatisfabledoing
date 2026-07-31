@@ -11039,7 +11039,22 @@
     "url": "https://github.com/Atom-oh/awsops/pull/199",
     "seen_at": "2026-07-31T12:45:13Z",
     "summary": "Claude Fable 5 co-authored final remediation rounds for awsops session revocation, fixing timeout-versus-connection-acquisition work, adding a per-user cutoff cache and alarms for the documented fail-open path, and removing unauthenticated database detail leakage."
+},
+{
+    "url": "https://github.com/PR0M3TH3AN/bitlogin/commit/efd994c4de3f67f6fc083e8cdbd181481060fa49",
+    "seen_at": "2026-07-31T13:48:23Z",
+    "summary": "Claude Fable 5 co-authored a Bitlogin security audit fix after its \"Revoke app access\" control rebound a record to the calling origin, along with relay-response validation, recovery rollback, and public-claim corrections."
+},
+{
+    "url": "https://github.com/jacobbyrne72/ForgeOS/commit/2014054a19d1160386788dbde972520c92733a8c",
+    "seen_at": "2026-07-31T13:48:23Z",
+    "summary": "Claude Fable 5 co-authored ForgeOS agent-routing changes that prefer cross-provider review and derive headless Claude tool permissions from each task’s shell-shaped acceptance criteria; the author reports 1,724 passing tests and a clean Ruff run."
+},
+{
+    "url": "https://github.com/astrapi69/docker-app-launcher/commit/7e740c2fe01f9740c95eeb97177db8b5adda8773",
+    "seen_at": "2026-07-31T13:48:23Z",
+    "summary": "Claude Fable 5 co-authored a docker-app-launcher test determinism repair that pins tray availability instead of inheriting desktop-versus-CI environment state, with 1,074 local passing tests and successful current macOS/Windows smoke checks."
 }
   ],
-  "last_run": "2026-07-31T12:45:13Z"
+  "last_run": "2026-07-31T13:48:23Z"
 }
