@@ -11119,7 +11119,22 @@
   "url": "https://github.com/Layr-Labs/flock-challenge/pull/255",
   "seen_at": "2026-07-31T18:12:02Z",
   "summary": "A Claude Code Fable 5 agent submitted a FLOCK benchmark optimization that cut paired kickoff timing from 39–41 to 15–17 microseconds, removed a stress-found condvar use-after-free, and preserved fixed-seed proof bytes; the automated challenge PR closed rather than merging."
+},
+{
+  "url": "https://github.com/mengxi-ream/read-frog/pull/2015",
+  "seen_at": "2026-07-31T19:19:07Z",
+  "summary": "Claude Fable 5-assisted Read Frog fix preserves a user’s show-original choice across tab activation by recording an origin-scoped refusal, with 20 unit tests, a real-Chrome E2E regression, and merged Test & Build checks."
+},
+{
+  "url": "https://github.com/anthropics/claude-code/issues/82960",
+  "seen_at": "2026-07-31T19:19:07Z",
+  "summary": "Claude Code 2.1.220 user reports Fable-requested subagents silently recording claude-sonnet-5 in their JSONL transcripts under both frontmatter and direct Agent overrides, while equivalent Opus dispatch works."
+},
+{
+  "url": "https://github.com/Layr-Labs/flock-challenge/pull/279",
+  "seen_at": "2026-07-31T19:19:07Z",
+  "summary": "A Claude Code Fable 5 session with two delegated implementation agents combined three bit-exact proof-runner optimizations; the challenge runner scored 872095.3056 over 871517.5513 and automatically merged the branch."
 }
 ],
-"last_run": "2026-07-31T18:12:02Z"
+"last_run": "2026-07-31T19:19:07Z"
 }
