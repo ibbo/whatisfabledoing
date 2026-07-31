@@ -11134,7 +11134,27 @@
   "url": "https://github.com/Layr-Labs/flock-challenge/pull/279",
   "seen_at": "2026-07-31T19:19:07Z",
   "summary": "A Claude Code Fable 5 session with two delegated implementation agents combined three bit-exact proof-runner optimizations; the challenge runner scored 872095.3056 over 871517.5513 and automatically merged the branch."
+},
+{
+  "url": "https://github.com/ThesisInstitute/thesis/pull/61",
+  "seen_at": "2026-07-31T20:23:30Z",
+  "summary": "Thesis Institute ran about 7,400 pre-registered bill-conditioned forecasting trials across 36 historical policy units and found Fable 5 with bill text and maximum reasoning effort beat its matched naive elicitation and persistence baselines, while the default-effort configuration was among the worst."
+},
+{
+  "url": "https://github.com/Layr-Labs/flock-challenge/pull/297",
+  "seen_at": "2026-07-31T20:23:30Z",
+  "summary": "A Fable 5 FLOCK challenge submission parallelized a serial GF(2^128) enforced-sum loop in the NTT proof path; its local A/B showed a best 0.43ms component reduction, byte-identical 437,327-byte proofs, 347 flock-core and 61 flock-prover tests passing, and 11/11 locally verified proofs. The official benchmark result is still pending."
+},
+{
+  "url": "https://github.com/Banon-Labs/er-effects-rs/pull/123",
+  "seen_at": "2026-07-31T20:23:30Z",
+  "summary": "A Fable 5 Claude Code session diagnosed a game-loading cover that released on a teardown screen before character reload, then added a character-load gate and runtime validation. Three Proton profile-switch runs reached zero exposed frames across the measured windows, while the author documented one pre-existing intermittent portrait miss and untested load paths."
+},
+{
+  "url": "https://github.com/wado-lang/wado/pull/1723",
+  "seen_at": "2026-07-31T20:23:30Z",
+  "summary": "A Fable 5 co-authored Wado compiler patch added compile-time evaluation for builtin integer-to-char conversion and multi-statement expression blocks, allowing 783 formerly blocked constant calls in sqlite-parse to fold. A best-of-nine measurement dropped from 2.899 to 2.753 ms per iteration, about 5%."
 }
 ],
-"last_run": "2026-07-31T19:19:07Z"
+"last_run": "2026-07-31T20:23:30Z"
 }
