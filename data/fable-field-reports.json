@@ -11169,7 +11169,22 @@
   "url": "https://github.com/rolker/ros2_agent_workspace/pull/600",
   "seen_at": "2026-07-31T21:30:06Z",
   "summary": "A Fable 5 Claude Code cycle added a warn-only pre-tool hook after recurring operator-context failures, covering question headers and status reports while guaranteeing it cannot block tool calls; the PR reports 12 smoke cases and adversarial review passes."
+},
+{
+  "url": "https://github.com/BrodyVogel/ncaaf-2026/commit/48e0b276fca432901ca41a88e53d5d8fecda7448",
+  "seen_at": "2026-07-31T22:34:19Z",
+  "summary": "Brody Vogel used Fable 5 for a pre-registered college-football forecasting experiment whose four gates passed; alternate model arms lost on held-out data and the reserved 2025 run reported 12.10 MAE, about 0.25 points from closing lines."
+},
+{
+  "url": "https://github.com/ryanshatz/five9-mcp/commit/119c8d34300e9e815609f1e207d27746b14e51bd",
+  "seen_at": "2026-07-31T22:34:19Z",
+  "summary": "Ryan Shatz used Fable 5 to implement an IVR builder for a Five9 MCP server that turns constrained JSON flow specs into designer-shaped XML and G.711 prompt audio, validated by a live create/fetch/render/delete round trip."
+},
+{
+  "url": "https://github.com/p-wegner/agentic-kanban/commit/a11e9fff255fccb7a2e244393ef586e17caaa6e0",
+  "seen_at": "2026-07-31T22:34:19Z",
+  "summary": "Peter Wegner used Fable 5 to implement agentic-kanban remote-worker Git transport: isolated workers clone, work in per-session worktrees, push staging refs, and the board fast-forwards only verified results; a true remote E2E test kept the board checkout untouched."
 }
 ],
-"last_run": "2026-07-31T21:30:06Z"
+"last_run": "2026-07-31T22:34:19Z"
 }
