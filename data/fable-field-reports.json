@@ -11069,7 +11069,17 @@
   "url": "https://github.com/bronsongannon/broodfall/commit/a87611d82bfd953e5d58276b4105fd11b348d9af",
   "seen_at": "2026-07-31T14:55:12Z",
   "summary": "Bronson Gannon used Fable 5 to fix a WKWebView battery-throttling path that left Broodfall at 21fps, adding a native 60Hz fallback driver while preserving pause and double-draw guards."
+},
+{
+  "url": "https://github.com/kizuna-ai-lab/synthesize.cpp/pull/5",
+  "seen_at": "2026-07-31T16:02:02Z",
+  "summary": "Jiangzhuo used Claude Code with Fable 5 to port OmniVoice synthesis internals, documenting oracle parity, 17 exact greedy token grids, 20 end-to-end waveforms, sanitizer tests, and review-driven corrections."
+},
+{
+  "url": "https://github.com/Streamlined-Analytics/crispy-hummingbird/pull/5",
+  "seen_at": "2026-07-31T16:02:02Z",
+  "summary": "Ben Atkinson reports using Claude Code with Fable 5 for a Django package CI and release-hardening pass: SHA-pinned workflows, least-privilege permissions, 97% coverage gate measured at 99%, CodeQL, zizmor, and provenance publishing."
 }
 ],
-"last_run": "2026-07-31T14:55:12Z"
+"last_run": "2026-07-31T16:02:02Z"
 }
