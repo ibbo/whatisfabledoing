@@ -11019,7 +11019,27 @@
       "url": "https://github.com/mike007jd/Offisim/pull/258",
       "seen_at": "2026-07-31T11:38:54Z",
       "summary": "Claude Fable 5 co-authored Offisim's 101-file export-surface audit, reducing a 455-entry orphan-export baseline to 35 justified entries after repository-wide reference scans, including removal of 32 modules with no live exports."
-    }
+    },
+{
+    "url": "https://github.com/3lemenoP/kasTime/pull/1",
+    "seen_at": "2026-07-31T12:45:13Z",
+    "summary": "Claude Fable 5 turned a 94-file kasTime audit into repairs across its Kaspa proof core, CLI, calendar service, WASM, frontend, CI, and deployment configuration, with 154 workspace unit tests plus 46 CLI unit and 96 integration tests reported passing."
+},
+{
+    "url": "https://github.com/komleff/u2/pull/612",
+    "seen_at": "2026-07-31T12:45:13Z",
+    "summary": "Claude Fable 5 supervised a 49-task closed-playtest plan for the U2 game, incorporating four adversarial-review lenses and 31 fix rounds that made dependency, protocol-window, rollout, and rollback constraints explicit."
+},
+{
+    "url": "https://github.com/metal-stack/go-ipam/pull/199",
+    "seen_at": "2026-07-31T12:45:13Z",
+    "summary": "Geert-Johan Riemer reports using Claude Fable 5 to add optional network and broadcast allocation to go-ipam across its Go API, gRPC service, CLI, JSON storage, and gob persistence, preserving old-data defaults while documenting the mixed-version caveat."
+},
+{
+    "url": "https://github.com/Atom-oh/awsops/pull/199",
+    "seen_at": "2026-07-31T12:45:13Z",
+    "summary": "Claude Fable 5 co-authored final remediation rounds for awsops session revocation, fixing timeout-versus-connection-acquisition work, adding a per-user cutoff cache and alarms for the documented fail-open path, and removing unauthenticated database detail leakage."
+}
   ],
-  "last_run": "2026-07-31T11:38:54Z"
+  "last_run": "2026-07-31T12:45:13Z"
 }
