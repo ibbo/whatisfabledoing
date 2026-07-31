@@ -11099,7 +11099,27 @@
   "url": "https://github.com/oxidecomputer/sprockets/pull/108",
   "seen_at": "2026-07-31T17:06:24Z",
   "summary": "A Claude Fable 5-generated Oxide Sprockets patch bounds peer-controlled protocol messages before allocation, blocking a 4 GiB memory-exhaustion request with a named 1 MiB cap and regression test."
+},
+{
+  "url": "https://github.com/emdash-cms/emdash/pull/2306",
+  "seen_at": "2026-07-31T18:12:02Z",
+  "summary": "A measured production-database audit led Fable 5 to wire dormant media-usage garbage collection into emdash maintenance: 3,136 of 3,466 rows were stale, and new SQLite/Postgres parity coverage plus full CI passed."
+},
+{
+  "url": "https://github.com/JuliaLang/julia/pull/62469",
+  "seen_at": "2026-07-31T18:12:02Z",
+  "summary": "A merged Fable 5 co-authored Julia runtime guard rejects free TypeVars in opaque-closure signatures at construction time, preventing a non-concrete no-layout closure that could segfault on first use."
+},
+{
+  "url": "https://github.com/chriscase/ContextDesk/pull/835",
+  "seen_at": "2026-07-31T18:12:02Z",
+  "summary": "ContextDesk used Fable 5 with Codex manager promotion to build and merge 41 Chromium visual/accessibility scenarios, mutation-check their targets, and restore a narrow bottom-sheet regression; the reported gate includes 1,218 core and 1,159 desktop tests."
+},
+{
+  "url": "https://github.com/Layr-Labs/flock-challenge/pull/255",
+  "seen_at": "2026-07-31T18:12:02Z",
+  "summary": "A Claude Code Fable 5 agent submitted a FLOCK benchmark optimization that cut paired kickoff timing from 39–41 to 15–17 microseconds, removed a stress-found condvar use-after-free, and preserved fixed-seed proof bytes; the automated challenge PR closed rather than merging."
 }
 ],
-"last_run": "2026-07-31T17:06:24Z"
+"last_run": "2026-07-31T18:12:02Z"
 }
