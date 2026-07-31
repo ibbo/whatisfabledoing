@@ -10914,7 +10914,22 @@
       "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/727",
       "seen_at": "2026-07-31T04:01:58Z",
       "summary": "A Claude Fable 5 MLXFast submission combines a fused output projection, software-pipelined attention kernel, and NVFP4 scale-decode simplification, with exhaustive and byte-identical correctness checks, local timing evidence, and 446 Swift tests; its official Swift and single-machine ranked benchmark jobs are still in progress."
+    },
+    {
+      "url": "https://github.com/mspstack/mcp-connectwise-psa/pull/5",
+      "seen_at": "2026-07-31T05:06:42Z",
+      "summary": "Claude Fable 5 helped add an endpoint-specific query-parameter path to an MCP server for ConnectWise PSA, validated against a live v2025.1 training instance with 42 unit tests and green Node 20/22 CI; the PR merged."
+    },
+    {
+      "url": "https://github.com/devesh911/revenue-os/pull/87",
+      "seen_at": "2026-07-31T05:06:42Z",
+      "summary": "A Claude Fable 5 co-authored Revenue OS refactor converts a static marketing site into a React, Vite, and Tailwind application with explicit copy-parity and architecture tests; local tests, lint, and typechecking pass while the hosted CI gate remains in progress."
+    },
+    {
+      "url": "https://github.com/paperclipai/paperclip/pull/10538",
+      "seen_at": "2026-07-31T05:06:42Z",
+      "summary": "After a real 1,418-issue import, Claude Fable 5 helped Paperclip fix inbox flooding, a false post-expiry failure state, and stale company switching; the merged PR's build, test, typecheck, E2E, review, and security checks passed."
     }
   ],
-  "last_run": "2026-07-31T04:01:58Z"
+  "last_run": "2026-07-31T05:06:42Z"
 }
