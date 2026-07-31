@@ -11054,7 +11054,22 @@
     "url": "https://github.com/astrapi69/docker-app-launcher/commit/7e740c2fe01f9740c95eeb97177db8b5adda8773",
     "seen_at": "2026-07-31T13:48:23Z",
     "summary": "Claude Fable 5 co-authored a docker-app-launcher test determinism repair that pins tray availability instead of inheriting desktop-versus-CI environment state, with 1,074 local passing tests and successful current macOS/Windows smoke checks."
+},
+{
+  "url": "https://github.com/trmdy/foundation/commit/a10c37939ebe40fc13811e464cc19711890a7bfb",
+  "seen_at": "2026-07-31T14:55:12Z",
+  "summary": "Tormod Haugland’s Fable 5 co-authored first L1 implementation adds parsing, validation, a Loro-backed deterministic chain, and a bake engine, with 246 reported tests and byte-stable fixpoints across three boards."
+},
+{
+  "url": "https://github.com/kaiteddy/mot-reminder-quick/commit/8d41bc0733c0172f241bb8efa991889aa15044da",
+  "seen_at": "2026-07-31T14:55:12Z",
+  "summary": "Adam used Fable 5 to fix a bank-import deduplication bug that allowed 315 duplicate entries worth £349,000; re-importing three statements then added zero rows and blocked 696 duplicates."
+},
+{
+  "url": "https://github.com/bronsongannon/broodfall/commit/a87611d82bfd953e5d58276b4105fd11b348d9af",
+  "seen_at": "2026-07-31T14:55:12Z",
+  "summary": "Bronson Gannon used Fable 5 to fix a WKWebView battery-throttling path that left Broodfall at 21fps, adding a native 60Hz fallback driver while preserving pause and double-draw guards."
 }
-  ],
-  "last_run": "2026-07-31T13:48:23Z"
+],
+"last_run": "2026-07-31T14:55:12Z"
 }
