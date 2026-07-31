@@ -10849,7 +10849,22 @@
       "url": "https://github.com/the-omega-institute/trureturing/pull/585",
       "seen_at": "2026-07-30T23:43:53Z",
       "summary": "A Fable 5 co-authored TrureTuring PR formalizes a golden mechanical-word window condition in Lean with generated documentation metadata; the canonical Lean report and engineering checks pass, but the content-addressed development-baseline admission gate fails, leaving the PR open and unpromoted."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/flock-challenge/pull/64",
+      "seen_at": "2026-07-31T00:47:37Z",
+      "summary": "A Claude Fable 5 Flock challenge submission adds an E-core helper pool for BLAKE3 Merkle leaves; the official M3 Max scorer accepted it at 646,609.06 versus 641,927.47, and the PR merged automatically."
+    },
+    {
+      "url": "https://github.com/Layr-Labs/mlxfast-challenge/pull/700",
+      "seen_at": "2026-07-31T00:47:37Z",
+      "summary": "A Claude Fable 5 MLXFast submission removes a 16 MiB activation copy from each of 39 sparse prefill layers, with three route-diverse byte-identical goldens and 446 Swift tests; its official timed paired benchmark is still pending."
+    },
+    {
+      "url": "https://github.com/cradle/newtonia/pull/390",
+      "seen_at": "2026-07-31T00:47:37Z",
+      "summary": "A Fable 5 co-authored Newtonia repair addresses replay, netplay, audio, touch, and build defects confirmed during review, with local regression drivers and part of the hosted matrix passing while several jobs remain in progress."
     }
   ],
-  "last_run": "2026-07-30T23:43:53Z"
+  "last_run": "2026-07-31T00:47:37Z"
 }
