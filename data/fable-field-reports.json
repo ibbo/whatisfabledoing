@@ -11004,7 +11004,22 @@
       "url": "https://github.com/comet-ml/opik/pull/7677",
       "seen_at": "2026-07-31T10:33:43Z",
       "summary": "Claude Fable 5 implemented Opik Studio stalled-run detection from trial/item progress, lowering ordinary reaping from eight hours to 30 minutes, and a live ClickHouse investigation that fixed NaN aggregate row loss for unfinished traces."
+    },
+    {
+      "url": "https://github.com/manixaan/opal-therapy-portal/commit/70de019fcd29db3e8e3b217c402bfad08e5cb514",
+      "seen_at": "2026-07-31T11:38:54Z",
+      "summary": "Claude Fable 5 co-authored a 15-file launch-blocker pass for Opal Therapy Portal, hardening email/invite delivery, Splose RBAC and write gates, shared permission enforcement, and 25 XSS sinks, with 305 reported unit and integration tests passing."
+    },
+    {
+      "url": "https://github.com/martialcayre-sketch/Wellneuro-app/pull/491",
+      "seen_at": "2026-07-31T11:38:54Z",
+      "summary": "Claude Fable 5 co-authored an 18-file Wellneuro clinical-questionnaire certification pass that restored source items, suspended a mismatched instrument, and removed a proposed practitioner flow after adversarial review found it could reopen a safety hole."
+    },
+    {
+      "url": "https://github.com/mike007jd/Offisim/pull/258",
+      "seen_at": "2026-07-31T11:38:54Z",
+      "summary": "Claude Fable 5 co-authored Offisim's 101-file export-surface audit, reducing a 455-entry orphan-export baseline to 35 justified entries after repository-wide reference scans, including removal of 32 modules with no live exports."
     }
   ],
-  "last_run": "2026-07-31T10:33:43Z"
+  "last_run": "2026-07-31T11:38:54Z"
 }
