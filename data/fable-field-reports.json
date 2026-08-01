@@ -11214,7 +11214,22 @@
   "url": "https://github.com/Juan-CO-dev/co-ops/pull/235",
   "seen_at": "2026-08-01T00:42:58Z",
   "summary": "A Fable review seat in a seven-agent council identified an intraday Toast-sales accounting trap that could suppress every inventory advisory. The open PR adds a pure guard and 15 tests; its reported gate is 554 passing tests, TypeScript clean, a green build, and English/Spanish parity."
+},
+{
+  "url": "https://github.com/zfrcf/Xomail/commit/73807b3bac0dc9f8b7657463795fc068e8d6f128",
+  "seen_at": "2026-08-01T01:49:04Z",
+  "summary": "A Claude Fable 5 co-authored 3,110-line Xomail commit builds a desktop IMAP/SMTP client with multi-account support, Google OAuth, attachments, folders, search, drafts, and signatures, alongside a GitHub Pages download site. The Python/pywebview application is packaged as a Windows executable."
+},
+{
+  "url": "https://github.com/xiuxiii/vibecodedebugcoach/commit/0a2ed738105c5f566a58d260bce51ae5df6af545",
+  "seen_at": "2026-08-01T01:49:04Z",
+  "summary": "Claude Fable 5 co-authored a debugging-course exam overhaul that replaces self-assessment-only completion with a sandboxed code-repair stage. The browser runner shadows around twenty globals, supports top-level await, injects per-challenge fakes, and gives an explicit explanation for a Chrome error-event limitation."
+},
+{
+  "url": "https://github.com/kevinroyhobson/2000.news/pull/12",
+  "seen_at": "2026-08-01T01:49:04Z",
+  "summary": "Kevin Roy Hobson's Fable 5 co-authored 2000.news PR fixes direct links to headlines that sorted beyond DynamoDB's 1 MB query page. It pages through LastEvaluatedKey in both day-partition readers and adds 31 test lines for the previously silent random-paper fallback."
 }
 ],
-"last_run": "2026-08-01T00:42:58Z"
+"last_run": "2026-08-01T01:49:04Z"
 }
