@@ -11229,7 +11229,10 @@
   "url": "https://github.com/kevinroyhobson/2000.news/pull/12",
   "seen_at": "2026-08-01T01:49:04Z",
   "summary": "Kevin Roy Hobson's Fable 5 co-authored 2000.news PR fixes direct links to headlines that sorted beyond DynamoDB's 1 MB query page. It pages through LastEvaluatedKey in both day-partition readers and adds 31 test lines for the previously silent random-paper fallback."
-}
+},
+{"url": "https://github.com/barbs2989/Climbing-App/pull/526","seen_at": "2026-08-01T02:54:02Z","summary": "A Claude Fable 5 co-authored Climbing-App audit/fix PR removed invented availability and experience values derived from profile hashes, repaired compatibility grade scoring and aspect parsing, and added targeted verification. The PR closed without merging; its source reports build and UI checks passing, plus 19 direct helper assertions."},
+{"url": "https://github.com/garrytan/gbrain/pull/3710","seen_at": "2026-08-01T02:54:02Z","summary": "A merged gbrain community-fix wave used a max-effort Claude Fable 5 composite review alongside Codex. The review found two cross-PR defects, including spurious wikilink graph edges and a same-day re-extraction stale-data bug, each fixed with a discriminating test or reproducer; CI was green."},
+{"url": "https://github.com/Lucent-Financial-Group/Zeta/pull/9817","seen_at": "2026-08-01T02:54:02Z","summary": "A supervised Fable 5 agent built an open Zeta hygiene harness that tests idempotence, closure, and convergence of file-tree healers. Golden vectors reproduce an MD032 re-splitter minting code-span drift, a stale generated index, and order-sensitive healer composition; the PR reports strict TypeScript checking and 13 assertions, with remaining adapter and write-gate scope explicitly open."}
 ],
-"last_run": "2026-08-01T01:49:04Z"
+"last_run": "2026-08-01T02:54:02Z"
 }
