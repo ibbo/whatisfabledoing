@@ -11199,7 +11199,22 @@
   "url": "https://github.com/tiffany-mares/music-translator/pull/9",
   "seen_at": "2026-07-31T23:39:19Z",
   "summary": "Tiffany Mares co-authored a merged Fable 5 Java learning-service Lambda for music-translator, backed by a live DynamoDB, API Gateway, and Cognito verification. The run inserted past- and future-due items, proved the due query returned only the past-due record, exercised authenticated and unauthenticated routes, and cleaned up afterward."
+},
+{
+  "url": "https://github.com/b-erdem/belay/pull/5",
+  "seen_at": "2026-08-01T00:42:58Z",
+  "summary": "A Fable 5 co-authored Belay 1.0.0 hardening PR turns 25 adversarial-review findings into regression tests, covering stuck signals, shutdown behavior, PostgreSQL ordering, dashboard boundaries, queues, crons, and executor races. The source reports model checks, 400 schedules explored, and green CI."
+},
+{
+  "url": "https://github.com/norrisaftcc/the-algorithm/pull/27",
+  "seen_at": "2026-08-01T00:42:58Z",
+  "summary": "The Algorithm's 110-run frozen qualification battery records Fable 5's Auditor seat passing all assigned cells at 5/5, while its Labor control failed to preserve frozen instructions in four of five repetitions. The source retains transcripts and documents injected repository context as a measurement limit."
+},
+{
+  "url": "https://github.com/Juan-CO-dev/co-ops/pull/235",
+  "seen_at": "2026-08-01T00:42:58Z",
+  "summary": "A Fable review seat in a seven-agent council identified an intraday Toast-sales accounting trap that could suppress every inventory advisory. The open PR adds a pure guard and 15 tests; its reported gate is 554 passing tests, TypeScript clean, a green build, and English/Spanish parity."
 }
 ],
-"last_run": "2026-07-31T23:39:19Z"
+"last_run": "2026-08-01T00:42:58Z"
 }
