@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coding-agent evidence briefs · What is Fable doing?</title>
+<meta name="description" content="A fixed-scope, source-linked brief for teams evaluating coding agents. Read the demonstration and enquire about a £149 pilot.">
+<style>
+:root { color-scheme: dark; --bg:#0e0f13; --surface:#16181f; --border:#343847; --text:#e8eaf0; --muted:#a6adbe; --accent:#e99a7e; --mono:ui-monospace,"SF Mono",Menlo,monospace; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+a { color:var(--accent); text-underline-offset:.2em; }
+a:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+.wrap { max-width:920px; margin:auto; padding:24px 24px 64px; }
+nav { display:flex; flex-wrap:wrap; gap:12px 28px; align-items:center; font-size:.9rem; }
+nav a { display:inline-flex; align-items:center; min-height:44px; }
+header { padding:64px 0 42px; border-bottom:1px solid var(--border); }
+.kicker { color:var(--accent); font:.78rem/1.5 var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+h1 { max-width:15ch; font-size:clamp(2.35rem,7vw,4rem); letter-spacing:-.045em; line-height:1.08; margin:20px 0; }
+.lead { max-width:60ch; font-size:1.16rem; color:var(--muted); }
+h2 { font-size:1.55rem; letter-spacing:-.02em; line-height:1.25; margin:0 0 18px; }
+h3 { font-size:1rem; margin:0; }
+p { margin:12px 0; }
+section { padding:36px 0; border-bottom:1px solid var(--border); }
+.split { display:grid; grid-template-columns:1fr 1.4fr; gap:40px; }
+.terms { margin:0; padding-left:1.2em; }
+.terms li { padding:5px 0; }
+.button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; border:1px solid var(--accent); padding:10px 18px; margin:12px 12px 8px 0; font-weight:650; text-decoration:none; border-radius:6px; }
+.button.primary { color:var(--bg); background:var(--accent); }
+.button:hover { opacity:.85; }
+.muted { color:var(--muted); }
+.note { color:var(--muted); font-size:.9rem; max-width:75ch; }
+.price { font-size:1.8rem; letter-spacing:-.03em; font-weight:750; }
+dl { margin:0; }
+dt { margin-top:18px; font-weight:650; }
+dd { margin:4px 0 0; color:var(--muted); }
+footer { padding-top:26px; color:var(--muted); font-size:.83rem; }
+@media(max-width:650px) { .wrap { padding:18px 20px 48px; } header { padding-top:38px; } .split { grid-template-columns:1fr; gap:18px; } }
+@media print { :root { color-scheme:light; --bg:white; --text:#111; --muted:#444; --accent:#753522; --border:#aaa; } body { font-size:12pt; } nav,.button { display:none; } header { padding-top:10px; } section { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main"><a href="/">What is Fable doing?</a><a href="#scope">Pilot scope</a><a href="#enquire">Enquire</a></nav>
+<main>
+<header>
+<p class="kicker">Coding-agent evidence briefs</p>
+<h1>Before you trust the green tick.</h1>
+<p class="lead">For small software teams deciding how much autonomy to give a coding agent. A short brief turns public failure reports and engineering evidence into checks you can use in your own evaluation.</p>
+<a class="button primary" href="sample.html">Read the demonstration brief</a>
+<p class="note">Not a model leaderboard, a security certification, or another stream of release announcements.</p>
+</header>
+<section class="split" aria-labelledby="decision-heading">
+<div><p class="kicker">One decision, not all the news</p><h2 id="decision-heading">What does the evidence change?</h2></div>
+<div><p>Each case separates what is visible in the source, what its author reports, and what remains untested. The final page gives a bounded action list—not a claim that one model is universally better.</p><p class="muted">The demonstration asks which verification controls are worth evaluating before agents work unattended. A pilot would start from your team's own decision, using public information only.</p></div>
+</section>
+<section id="scope" class="split" aria-labelledby="scope-heading">
+<div><p class="kicker">Fixed-scope pilot proposal</p><h2 id="scope-heading">One brief. One question.</h2><p><span class="price">£149</span> <span class="muted">one-off</span></p></div>
+<div><ul class="terms"><li>One agreed decision about coding-agent adoption or verification.</li><li>Up to five relevant cases, drawn from at most 15 public sources.</li><li>A concise written brief, linked evidence and an evaluation checklist.</li><li>One written clarification round. No meeting required.</li></ul><p class="note">No private-code access, implementation, penetration testing, hosted service, ongoing support or promise of exhaustive coverage. Delivery date and final scope are agreed before payment.</p><p class="note">If the pilot proves useful, a single monthly brief could be discussed at £225/month. This is a separate proposal, not an automatic renewal.</p></div>
+</section>
+<section aria-labelledby="method-heading">
+<h2 id="method-heading">A traceable starting point, not outsourced judgement.</h2>
+<dl><dt>Read the original evidence.</dt><dd>Sources are linked and dated. Author-reported results are labelled; inspecting a claim is not the same as reproducing it.</dd><dt>Keep the archive in its place.</dt><dd>The public field-report archive is background material. A pilot needs fresh checks against its agreed question; old reports are not presented as new discoveries.</dd><dt>Know how the demonstration was made.</dt><dd>This demonstration is agent-prepared and not personally reviewed by Thomas. It illustrates the format and evidence trail, not a completed client engagement. Thomas must confirm any paid engagement before it starts.</dd></dl>
+</section>
+<section id="enquire" aria-labelledby="enquire-heading">
+<p class="kicker">Test the fit first</p><h2 id="enquire-heading">Which decision are you trying to make?</h2>
+<p>Enquiries are open through this site's GitHub issue tracker. Describe your public product and the decision you need to make; a private hand-off can be agreed before sharing any sensitive detail.</p>
+<p class="note"><strong>This opens a public GitHub issue form and requires a GitHub account.</strong> Do not include private code, customer data, an email address or payment information. Opening the form sends nothing; you choose whether to submit it on GitHub.</p>
+<a class="button primary" href="https://github.com/ibbo/whatisfabledoing/issues/new?title=Evidence%20brief%20pilot%20enquiry&amp;body=Public%20product%20URL%3A%0A%0AThe%20coding-agent%20decision%20we%20are%20considering%3A%0A%0AThe%20evidence%20that%20would%20help%3A%0A%0APlease%20keep%20this%20public%20enquiry%20free%20of%20personal%20contact%20details%2C%20private%20code%20and%20payment%20information.%20This%20is%20an%20enquiry%2C%20not%20an%20order.">Open a public pilot enquiry</a>
+<p class="note">No payment is taken on this website. An enquiry is not an order or a contract. Availability, scope, terms and payment route require separate confirmation by Thomas Ibbotson.</p>
+</section>
+</main>
+<footer>Independent project by Thomas Ibbotson (<a href="https://github.com/ibbo">ibbo</a>). Not affiliated with or endorsed by Anthropic, OpenAI, or the projects discussed. This page adds no analytics, cookies or enquiry backend; following GitHub links uses GitHub's service. <a href="/">Back to the field-report archive</a>.</footer>
+</div>
+</body>
+</html>

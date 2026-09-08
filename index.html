@@ -48,6 +48,10 @@
     font-family: var(--mono);
   }
 
+  .brief-link { margin-top: 20px; font-size: 0.95rem; }
+  .brief-link a { color: #e99a7e; display: inline-block; min-height: 44px; padding: 10px 0; text-underline-offset: 0.2em; }
+  .brief-link a:focus-visible { outline: 3px solid #e99a7e; outline-offset: 4px; }
+
   .sort-toggle {
     display: none;
     gap: 6px;
@@ -180,6 +184,7 @@
     <h1>What is Fable doing<span class="q">?</span></h1>
     <p class="tagline">Notable things people are doing with Claude Fable&nbsp;5 — the bugs it's finding, the code it's shipping, and where it falls short — collected from public posts, issues, and pull requests.</p>
     <div class="meta-bar" id="meta-bar"></div>
+    <p class="brief-link"><a href="evidence-briefs/">Evaluating coding agents? Read a source-linked evidence brief.</a></p>
     <div class="sort-toggle" id="sort-toggle">
       <button data-sort="newest" class="active">Latest</button>
       <button data-sort="top">Most upvoted</button>
@@ -190,7 +195,7 @@
   <div id="status">Loading…</div>
 
   <footer>
-    Every report links to its original public source. New reports are added a few times a day.
+    Every report links to its original public source. This is an archive; the last collection date is shown above.
   </footer>
 </div>
 
